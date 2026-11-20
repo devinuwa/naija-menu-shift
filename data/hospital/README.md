@@ -1,1 +1,132 @@
-IyBIb3NwaXRhbCBmb29kLXNlcnZpY2UgZGF0YSDigJQgcHJvdmVuYW5jZSBhbmQgbGltaXRzCgpUaGlzIGZvbGRlciBzdXBwb3J0cyBgc3JjL21lbnVzaGlmdC9ob3NwaXRhbC5weWAgYW5kIGBwYWdlcy8zX0hvc3BpdGFsX01lbnUucHlgOgpkZWNpc2lvbiBzdXBwb3J0IGZvciBkaXZlcnNpZnlpbmcgYSBob3NwaXRhbCBtZW51IHdpdGggYWRkaXRpb25hbCBwbGFudC1wcm90ZWluCm9wdGlvbnMuIE5vdGhpbmcgaGVyZSBpcyBhIHNlcnZlZCBtZW51LCBhIGNsaW5pY2FsIGd1aWRlbGluZSwgb3IgYSBmb29kLXNhZmV0eQpjZXJ0aWZpY2F0aW9uLiBFdmVyeSB0cmFuc2Zvcm1hdGlvbiBvdXRwdXQgcmVxdWlyZXMgZGlldGl0aWFuIHNpZ24tb2ZmIGJlZm9yZQpzZXJ2aWNlLgoKIyMgdW50aF9tZW51LmNzdiDigJQgdGhlIG1lbnUKClRoZSAxNCBpdGVtcyBhcmUgdGhlIG1vc3QgZnJlcXVlbnRseSBjb25zdW1lZCBmb29kcyBzYW1wbGVkIGZyb20gdGhlIG1lbnUgb2YKdGhlICoqdGhlcmFwZXV0aWMgZGlldCBraXRjaGVuIGF0IHRoZSBVbml2ZXJzaXR5IG9mIE5pZ2VyaWEgVGVhY2hpbmcgSG9zcGl0YWwKKFVOVEgpLCBJdHVrdS9PemFsbGEsIEVudWd1KiosIGFzIHB1Ymxpc2hlZCBpbjoKCj4gTWFkdWZvcm8gZXQgYWwuLCAiRXZhbHVhdGlvbiBvZiBEaWV0cyBTZXJ2ZWQgdG8gQ2FuY2VyIFBhdGllbnRzIGluIE9uY29sb2d5Cj4gV2FyZCBvZiBVbml2ZXJzaXR5IG9mIE5pZ2VyaWEgVGVhY2hpbmcgSG9zcGl0YWwsIEl0dWt1L096YWxsYSwgRW51Z3UgU3RhdGUsIgo+ICpQYWtpc3RhbiBKb3VybmFsIG9mIE51dHJpdGlvbiogMTUoMik6MTA04oCTMTExLCAyMDE2LgoKTGltaXRzIHRoYXQgbXVzdCB0cmF2ZWwgd2l0aCB0aGlzIGRhdGE6CgotIEl0IGlzIGEgKipoaWdoLWNhbG9yaWUsIGhpZ2gtcHJvdGVpbiB0aGVyYXBldXRpYyAob25jb2xvZ3kpIGRpZXQga2l0Y2hlbgogIG1lbnUqKiwgbm90IFVOVEgncyBnZW5lcmFsIHdhcmQgbWVudS4KLSBUaGUgc3R1ZHkgZG9lcyAqKm5vdCoqIHNwbGl0IGl0ZW1zIGludG8gYnJlYWtmYXN0L2x1bmNoL2Rpbm5lciwgYW5kIG5vIG1lbnUKICBjeWNsZSBsZW5ndGggaXMgcHVibGlzaGVkLiBOZWl0aGVyIGlzIHJlY29yZGVkIGhlcmUuCi0gVGhlIG1lbnUgaXMgZnJvbSAqKjIwMTYqKjsgd2hldGhlciBpdCBpcyBzdGlsbCBpbiB1c2UgaXMgKip1bnZlcmlmaWVkKiouCi0gT25seSB0d28gaXRlbXMgY2FycnkgYSBkb2N1bWVudGVkIGFuaW1hbCBwcm90ZWluOiAqKmZpc2gqKiBhbmQgKiptZWF0KioKICAodHlwZSB1bnNwZWNpZmllZCkuICoqU3RldyoqIGFuZCB0aGUgdGhyZWUgc291cHMgYXJlIGxpc3RlZCB3aXRob3V0IHN0YXRlZAogIGNvbnRlbnRzIOKAlCB0aGlzIGRhdGFzZXQgbmV2ZXIgYXNzaWducyB0aGVtIGEgcHJvdGVpbi4KLSBNb2ktbW9pLCBva3BhLCBiZWFucy1hbmQteWFtIHBvdHRhZ2UgYW5kIHBhcCBhcmUgYWxyZWFkeSBwbGFudC1iYXNlZCBhcwogIGRvY3VtZW50ZWQ7IHRoZXkgYXJlIGV2aWRlbmNlIHRoZSBraXRjaGVuIGFscmVhZHkgc2VydmVzIHBsYW50IHByb3RlaW5zLAogIG5vdCB0cmFuc2Zvcm1hdGlvbiB0YXJnZXRzLgotIE5vIHB1Ymxpc2hlZCBuYXRpb25hbCBwYXRpZW50IG1lbnUgZXhpc3RzIGZvciBOaWdlcmlhbiBnb3Zlcm5tZW50IGhvc3BpdGFscywKICBhbmQgbm8gb3RoZXIgZmVkZXJhbCB0ZWFjaGluZyBob3NwaXRhbCBpbiB0aGUgdGVhbSdzIHJlc2VhcmNoIHB1Ymxpc2hlZCBhCiAgZnVsbCBtZW51IGNoYXJ0LiBUaGlzIGlzIHRoZSBiZXN0IGF2YWlsYWJsZSBldmlkZW5jZSwgYW5kIGl0IGlzIHBhcnRpYWwuCgojIyBwcm90ZWluX3ByaWNlcy5jc3Yg4oCUIHByaWNlcywgcHJlcCB0aW1lcywgcm9sZXMKCi0gUHJpY2VzIHJldXNlIHRoZSBwcm9qZWN0J3MgdmVyaWZpZWQgc3dhcC1kYXRhYmFzZSByZWNvcmRzIChXRlAgTmlnZXJpYSAyMDI2CiAgcmV0YWlsIG1lZGlhbnMsIE5CUywgYW5kIHRlYW0gbWFya2V0IHJlY29yZHMpLiBSb3dzIHdob3NlIHByaWNlIGlzIG1vZGVsbGVkCiAgb3IgcHJveGllZCBjYXJyeSBgcHJpY2VfZGVyaXZlZD10cnVlYCBhbmQgdGhlIGRlcml2YXRpb24gaW4gYHByaWNlX2Jhc2lzYC4KICBQcmljZXMgYXJlIHBsYW5uaW5nIGVzdGltYXRlcyBmb3IgY29tcGFyaXNvbiwgKipub3Qgc3VwcGxpZXIgcXVvdGVzKiosIGFuZAogIG1vc3QgYXJlIHVuZGF0ZWQgbGlzdGluZ3MgKGBwcmljZV9kYXRlPXVua25vd25gKSDigJQgdGhlIGVuZ2luZSBzdXJmYWNlcyB0aGF0CiAgYXMgYW4gZXhwbGljaXQgd2FybmluZyByYXRoZXIgdGhhbiBsZXR0aW5nIGl0IHBhc3Mgc2lsZW50bHkuCi0gYHByZXBfbWludXRlc2AgYXJlICoqcGxhbm5pbmcgZXN0aW1hdGVzLCBub3QgbWVhc3VyZWQga2l0Y2hlbiB0aW1lcyoqOyB0aGUKICBiYXNpcyBjb2x1bW4gc2F5cyB3aGF0IGVhY2ggZXN0aW1hdGUgYXNzdW1lcy4KLSBgcm9sZWA6IGBjYW5kaWRhdGVgIHByb3RlaW5zIGFyZSByYW5rZWQgYXMgYWx0ZXJuYXRpdmVzOyBgZGF3YWRhd2FgIGlzIGFuCiAgYGFkanVuY3RgIChhIHNlYXNvbmluZyB1c2VkIGF0IDXigJMxMCBnIHBlciBzZXJ2aW5nIOKAlCBuZXZlciBwb3J0aW9uZWQgYXMgYQogIG1haW4gcHJvdGVpbik7IGBiZWVmYCBpcyBhIGByZWZlcmVuY2VgIHVzZWQgb25seSB0byBjb3N0IHRoZSBVTlRIICJtZWF0IgogIGl0ZW0gZm9yIGNvbXBhcmlzb24uIFRoZXJlIGlzICoqbm8gZmlzaCBwcmljZSBvciBwcm90ZWluLWRlbnNpdHkgcm93KiogaW4KICB0aGUgcHJvamVjdCBkYXRhICh0aGUgVU5USCBzdHVkeSByZXBvcnRzIGZpc2ggb25seSBhcyBhIHJlbGF0aXZlIHByb3RlaW4KICBkZW5zaXR5IGluZGV4LCA4NTEuMjglKSwgc28gdGhlIGZpc2ggZGlzaCBoYXMgbm8gY29zdGVkIG9yaWdpbmFsIOKAlCB0aGUKICBtb2R1bGUgc2F5cyBzbyBpbnN0ZWFkIG9mIGVzdGltYXRpbmcgb25lLgotIEFsbGVyZ2VuIGxhYmVscyB1c2UgdGhlIGVuZ2luZSdzIGNvbnRyb2xsZWQgdm9jYWJ1bGFyeSAoYHNveWAsIGB3aGVhdGAgZm9yCiAgZ2x1dGVuIOKAlCBzZWl0YW4gSVMgd2hlYXQgZ2x1dGVuKS4gYG5vbmVgIG1lYW5zICJubyBkZWNsYXJlZCBhbGxlcmdlbiBvbiB0aGUKICByZXZpZXdlZCBsYWJlbCI7IGl0IGlzIG5vdCBhIGNyb3NzLWNvbnRhY3QgY2VydGlmaWNhdGlvbi4KLSBBbGwgY2FuZGlkYXRlIHJvd3MgYXJlIHNpbmdsZS1pbmdyZWRpZW50IHBsYW50IGZvb2RzIHdob3NlIGlkZW50aXR5IGlzIHRoZQogIGNpdGVkIGRhdGFzZXQgcm93OyB0aGF0IGlzIHRoZSBiYXNpcyBmb3IgYGFuaW1hbF9vcmlnaW5fcmV2aWV3ZWQ9dHJ1ZWAgd2hlbgogIHRoZSBlbmdpbmUgZGF0YXNldCBpcyBidWlsdC4KLSBQb3J0aW9uIG1vZGVsOiBwdXJjaGFzZWQgZ3JhbXMgPSBzZXJ2ZWQgZ3JhbXMgYW5kIG51dHJpZW50IHJldGVudGlvbiA9IDEuMC4KICBObyB5aWVsZCwgY29va2luZy1sb3NzIG9yIHJldGVudGlvbiBtZWFzdXJlbWVudHMgZXhpc3QgZm9yIHRoZXNlIGhvc3BpdGFsCiAgcG9ydGlvbnM7IGJvdGggYXJlIG9wdGltaXN0aWMgcGxhbm5pbmcgc2ltcGxpZmljYXRpb25zLCBzdGF0ZWQgaGVyZSBzbyB0aGV5CiAgYXJlIG5ldmVyIG1pc3Rha2VuIGZvciBtZWFzdXJlbWVudHMuCi0gSXJvbiBhbmQgemluYyBhcmUgKipub3QgcmVjb3JkZWQqKiBmb3IgdGhlc2UgcHJvdGVpbnMgaW4gdGhpcyBtb2R1bGUuIFRoZQogIGVuZ2luZSBkYXRhc2V0IGNhcnJpZXMgZXhwbGljaXQgIm5vIG51dHJpZW50IHJvdyIgbWFya2VycyBzbyB0b3RhbHMgcmVwb3J0CiAgdGhlbSBhcyBtaXNzaW5nIGRhdGEsIG5ldmVyIGFzIG1lYXN1cmVkIHplcm9zIHByZXNlbnRlZCBhcyBmYWN0LgoKIyMgVGhlcmFwZXV0aWMgcHJlc2V0cyAoaW4gaG9zcGl0YWwucHkpCgpQcmVzZXQgZGVmaW5pdGlvbnMgY29tZSBmcm9tIGEgVW5pdmVyc2l0eSBvZiBQb3J0IEhhcmNvdXJ0IFRlYWNoaW5nIEhvc3BpdGFsCihVUFRIKSBkaWV0ZXRpY3MgcGxhY2VtZW50IHJlcG9ydCAoU0lXRVMsIE9jdCAyMDI0KSBkZXNjcmliaW5nIG1vZGlmaWVkIGRpZXRzOgoKLSBIaWdoIHByb3RlaW46IDEuNeKAkzIuMCBnL2tnIGJvZHkgd2VpZ2h0L2RheSAoYWNjaWRlbnQsIG1hbG5vdXJpc2hlZCwKICBwb3N0LXN1cmdpY2FsLCBidXJucyBwYXRpZW50cykuCi0gTG93IHByb3RlaW46IDIw4oCTNjAgZy9kYXkgKGtpZG5leSBkaXNlYXNlLCBsaXZlciBkaXNlYXNlLCBwaGVueWxrZXRvbnVyaWEpLgotIExvdyBzb2RpdW06IGxpdHRsZSBhZGRlZCBzYWx0LCBoaWdoLXNvZGl1bSBmb29kcyBtaW5pbWlzZWQgKGhlYXJ0IGRpc2Vhc2UsCiAgaHlwZXJ0ZW5zaW9uLCBvZWRlbWEsIGtpZG5leSBmYWlsdXJlKS4KClRoZSBtb2R1bGUgY29udmVydHMgZGFpbHkgcmFuZ2VzIHRvIHBlci1tZWFsIGZpZ3VyZXMgYnkgZGl2aWRpbmcgYnkgdGhyZWUKbWVhbHMgKHRoZSBkb2N1bWVudGVkIE5pZ2VyaWFuIGhvc3BpdGFsIHBhdHRlcm4pIGFuZCwgZm9yIHRoZSBoaWdoLXByb3RlaW4KcHJlc2V0LCBhc3N1bWVzIGEgNzAga2cgcmVmZXJlbmNlIGFkdWx0LiBCb3RoIGNvbnZlcnNpb25zIGFyZSBhcml0aG1ldGljIG9uCnRoZSBjaXRlZCByYW5nZXMsIGxhYmVsbGVkIGFzIGFzc3VtcHRpb25zIHdoZXJldmVyIHRoZXkgYXJlIHNob3duIOKAlCB0aGV5IGFyZQpub3QgY2xpbmljYWwgZ3VpZGFuY2UuIFRoZSBsb3ctc29kaXVtIHByZXNldCBhcHBsaWVzICoqbm8gbnVtZXJpYyBmaWx0ZXIqKjoKdGhlIGVuZ2luZSdzIGRhdGFzZXRzIGNvbnRhaW4gbm8gc29kaXVtIHZhbHVlcywgc28gdGhlIG1vZHVsZSBzdGF0ZXMgdGhhdApsaW1pdGF0aW9uIGluc3RlYWQgb2YgaW52ZW50aW5nIG9uZS4K
+# Hospital food-service data — provenance and limits
+
+This folder supports `src/menushift/hospital.py` and `pages/3_Hospital_Menu.py`:
+decision support for diversifying a hospital menu with additional plant-protein
+options. Nothing here is a served menu, a clinical guideline, or a food-safety
+certification. Every transformation output requires dietitian sign-off before
+service.
+
+## unth_menu.csv — the menu
+
+The 14 items are the most frequently consumed foods sampled from the menu of
+the **therapeutic diet kitchen at the University of Nigeria Teaching Hospital
+(UNTH), Ituku/Ozalla, Enugu**, as published in:
+
+> Maduforo et al., "Evaluation of Diets Served to Cancer Patients in Oncology
+> Ward of University of Nigeria Teaching Hospital, Ituku/Ozalla, Enugu State,"
+> *Pakistan Journal of Nutrition* 15(2):104–111, 2016.
+
+Limits that must travel with this data:
+
+- It is a **high-calorie, high-protein therapeutic (oncology) diet kitchen
+  menu**, not UNTH's general ward menu.
+- The study does **not** split items into breakfast/lunch/dinner, and no menu
+  cycle length is published. Neither is recorded here.
+- The menu is from **2016**; whether it is still in use is **unverified**.
+- Only two items carry a documented animal protein: **fish** and **meat**
+  (type unspecified). **Stew** and the three soups are listed without stated
+  contents — this dataset never assigns them a protein.
+- Moi-moi, okpa, beans-and-yam pottage and pap are already plant-based as
+  documented; they are evidence the kitchen already serves plant proteins,
+  not transformation targets.
+- No published national patient menu exists for Nigerian government hospitals,
+  and no other federal teaching hospital in the team's research published a
+  full menu chart. This is the best available evidence, and it is partial.
+
+## protein_prices.csv — prices, prep times, roles
+
+- Prices reuse the project's verified swap-database records (WFP Nigeria 2026
+  retail medians, NBS, and team market records). Rows whose price is modelled
+  or proxied carry `price_derived=true` and the derivation in `price_basis`.
+  Prices are planning estimates for comparison, **not supplier quotes**, and
+  most are undated listings (`price_date=unknown`) — the engine surfaces that
+  as an explicit warning rather than letting it pass silently.
+- `prep_minutes` are **planning estimates, not measured kitchen times**; the
+  basis column says what each estimate assumes.
+- `role`: `candidate` proteins are ranked as alternatives; `dawadawa` is an
+  `adjunct` (a seasoning used at 5–10 g per serving — never portioned as a
+  main protein); `beef` is a `reference` used only to cost the UNTH "meat"
+  item for comparison. There is **no fish price or protein-density row** in
+  the project data (the UNTH study reports fish only as a relative protein
+  density index, 851.28%), so the fish dish has no costed original — the
+  module says so instead of estimating one.
+- Allergen labels use the engine's controlled vocabulary (`soy`, `wheat` for
+  gluten — seitan IS wheat gluten). `none` means "no declared allergen on the
+  reviewed label"; it is not a cross-contact certification.
+- All candidate rows are single-ingredient plant foods whose identity is the
+  cited dataset row; that is the basis for `animal_origin_reviewed=true` when
+  the engine dataset is built.
+- Portion model: purchased grams = served grams and nutrient retention = 1.0.
+  No yield, cooking-loss or retention measurements exist for these hospital
+  portions; both are optimistic planning simplifications, stated here so they
+  are never mistaken for measurements.
+- Iron and zinc are **not recorded** for these proteins in this module. The
+  engine dataset carries explicit "no nutrient row" markers so totals report
+  them as missing data, never as measured zeros presented as fact.
+
+## Therapeutic presets (in hospital.py)
+
+Preset definitions come from a University of Port Harcourt Teaching Hospital
+(UPTH) dietetics placement report (SIWES, Oct 2024) describing modified diets:
+
+- High protein: 1.5–2.0 g/kg body weight/day (accident, malnourished,
+  post-surgical, burns patients).
+- Low protein: 20–60 g/day (kidney disease, liver disease, phenylketonuria).
+- Low sodium: little added salt, high-sodium foods minimised (heart disease,
+  hypertension, oedema, kidney failure).
+
+The module converts daily ranges to per-meal figures by dividing by three
+meals (the documented Nigerian hospital pattern) and, for the high-protein
+preset, assumes a 70 kg reference adult. Both conversions are arithmetic on
+the cited ranges, labelled as assumptions wherever they are shown — they are
+not clinical guidance. The low-sodium preset applies **no numeric filter**:
+the engine's datasets contain no sodium values, so the module states that
+limitation instead of inventing one.
+
+## Patient conditions (in hospital.py)
+
+On top of the presets, the module carries a CONDITIONS registry: each
+condition maps to one of the documented presets above and attaches the
+team's cited evidence together with the limits of that evidence.
+Conditions change constraints and attach evidence — they are not clinical
+rules and never turn an output into a prescription.
+
+- **Cardiovascular disease** → the low-sodium preset's posture (UPTH
+  places heart-related diseases under the low-sodium diet) plus the
+  standard protein floor; allergen gates unchanged. Evidence notes quote
+  a West African meta-analysis of dietary factors and hypertension
+  (Batubo et al., *Journal of Hypertension*: red meat OR 1.51, 95% CI
+  1.04–2.18; dietary fat OR 1.76; salt OR 1.25; fruit and vegetables
+  protective), a Lagos survey (n=2,244), and a supervised plant-based
+  lifestyle-medicine programme evaluation (NYC Bellevue, *Frontiers in
+  Nutrition* 2023). The project data has **no sodium, saturated-fat or
+  cholesterol values**, so no numeric filter on those nutrients is
+  applied or claimed; UPTH's low-calorie element for cardiovascular
+  patients is likewise not applied, because no per-serving calorie
+  values exist here. Both limits travel with every output.
+- **Hypertension** → the low-sodium preset, per the UPTH definitions,
+  with the same meta-analysis evidence and Nigeria's 2023 national
+  survey (hypertension in 22.9% of adults, 6.4% controlled) as context.
+- **Kidney disease** → the low-protein preset, per the UPTH definitions.
+  The mapping applies the protein-quantity element only; the data holds
+  no other nutrient values for these proteins, so nothing else is
+  filtered or claimed.
+- **Diabetes** → the standard gates, with evidence notes from the team's
+  patient-menu research: UNTH diabetic test meals (meat, beans and corn
+  pottage with spinach lowest at GI 33.00 / GL 4.76; meat and okro soup
+  with fermented cassava dough highest at GI 74.50 / GL 21.59; pap with
+  okpa plant-based), the IMSUTH inpatient diabetic diet (85% of protein
+  from legumes), and a Jos beans-and-acha regimen with poor glycaemic
+  control as a caution. The data has **no glycaemic, carbohydrate or
+  calorie values per candidate**, so no GI filter is applied or claimed.
+
+`build_condition_menu()` composes a draft menu for a condition from the
+14 documented items: already-plant items kept as documented (4), the two
+documented-animal items diversified under the condition's bundle (2),
+and the remaining items classified "confirm recipe with the kitchen" (8)
+— never silently transformed. Totals are summed over the diversified
+dishes' chosen alternatives only, because those are the only items with
+cited per-serving values; no whole-menu total is shown. Every draft
+carries the framing "draft menu to support dietary management of
+[condition] — decision support for the dietitian, not a prescription and
+not a served menu" and requires dietitian sign-off.
