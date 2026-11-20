@@ -1,1 +1,479 @@
-IiIiSG9zcGl0YWwgbW9kZTogZG9jdW1lbnRlZCBVTlRIIG1lbnUsIGZhaWwtY2xvc2VkIHRyYW5zZm9ybXMsIGhvbmVzdCBnYXBzLgoKVGhlIG1lbnUgaXMgcHVibGlzaGVkIHJlc2VhcmNoIGRhdGEgKE1hZHVmb3JvIGV0IGFsLiwgMjAxNiksIG5vdCBkZW1vIGRhdGEuClRoZXNlIHRlc3RzIHBpbiB0aGUgaG9uZXN0eSBjb250cmFjdDogZXhhY3RseSAxNCBpdGVtcywgc3RldyBuZXZlciBhc3NpZ25lZCBhCnByb3RlaW4sIGFscmVhZHktcGxhbnQgaXRlbXMgbmV2ZXIgdHJhbnNmb3JtZWQsIGFsbGVyZ2VuIGV4Y2x1c2lvbnMgZmFpbApjbG9zZWQsIGFuZCB0aGUgY29tcGFyaXNvbiBuZXZlciByZWNvbXB1dGVzIG51bWJlcnMuCiIiIgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgY3N2CmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAoKaW1wb3J0IHB5dGVzdAoKZnJvbSBtZW51c2hpZnQuZW5naW5lIGltcG9ydCB2YWxpZGF0ZV9kYXRhc2V0CmZyb20gbWVudXNoaWZ0LmZ1bmN0aW9uYWwgaW1wb3J0IHBsYW50X3Byb3RlaW5zCmZyb20gbWVudXNoaWZ0Lmhvc3BpdGFsIGltcG9ydCAoCiAgICBGRUVEQkFDS19GSUVMRFMsCiAgICBhcHBlbmRfaG9zcGl0YWxfZmVlZGJhY2ssCiAgICBidWlsZF9hbnlfZGlzaF9jb21wYXJpc29uLAogICAgYnVpbGRfY29tcGFyaXNvbiwKICAgIGJ1aWxkX2hvc3BpdGFsX2RhdGFzZXQsCiAgICBnZXRfZGlzaCwKICAgIGxvYWRfdW50aF9tZW51LAogICAgcGxhbnRfcHJvdGVpbl9kYXRhc2V0LAogICAgcmVjb21tZW5kX2Zvcl9kaXNoLAogICAgc3VnZ2VzdF9mb3JfYW55X2Rpc2gsCikKClJPT1QgPSBQYXRoKF9fZmlsZV9fKS5yZXNvbHZlKCkucGFyZW50c1sxXQpQQUdFID0gUk9PVCAvICJwYWdlcyIgLyAiM19Ib3NwaXRhbF9NZW51LnB5IgoKCkBweXRlc3QuZml4dHVyZShzY29wZT0ibW9kdWxlIikKZGVmIG1lbnUoKToKICAgIHJldHVybiBsb2FkX3VudGhfbWVudSgpCgoKZGVmIHRlc3RfbWVudV9sb2Fkc19leGFjdGx5XzE0X2l0ZW1zKG1lbnUpOgogICAgYXNzZXJ0IGxlbihtZW51KSA9PSAxNAogICAgYXNzZXJ0IGxlbih7ZC5pdGVtX2lkIGZvciBkIGluIG1lbnV9KSA9PSAxNAoKCmRlZiB0ZXN0X29ubHlfZmlzaF9hbmRfbWVhdF9jYXJyeV9kb2N1bWVudGVkX2FuaW1hbF9wcm90ZWluKG1lbnUpOgogICAgZG9jdW1lbnRlZCA9IHtkLml0ZW1faWQ6IGQuZG9jdW1lbnRlZF9hbmltYWxfcHJvdGVpbgogICAgICAgICAgICAgICAgICBmb3IgZCBpbiBtZW51IGlmIGQucHJvdGVpbl9zdGF0dXMgPT0gImRvY3VtZW50ZWRfYW5pbWFsIn0KICAgIGFzc2VydCBkb2N1bWVudGVkID09IHsiZmlzaCI6ICJmaXNoIiwgIm1lYXQiOiAibWVhdCJ9CgoKZGVmIHRlc3Rfc3Rld19hbmRfc291cHNfc3RheV91bnNwZWNpZmllZChtZW51KToKICAgIGZvciBpdGVtX2lkIGluICgic3RldyIsICJiaXR0ZXJsZWFmX3NvdXAiLCAib2tyb19zb3VwIiwgImVndXNpX3NvdXAiKToKICAgICAgICBkaXNoID0gZ2V0X2Rpc2gobWVudSwgaXRlbV9pZCkKICAgICAgICBhc3NlcnQgZGlzaC5wcm90ZWluX3N0YXR1cyA9PSAidW5zcGVjaWZpZWQiCiAgICAgICAgYXNzZXJ0IGRpc2guZG9jdW1lbnRlZF9hbmltYWxfcHJvdGVpbiA9PSAiIgoKCmRlZiB0ZXN0X2FscmVhZHlfcGxhbnRfYmFzZWRfZmxhZ3MobWVudSk6CiAgICBmbGFnZ2VkID0ge2QuaXRlbV9pZCBmb3IgZCBpbiBtZW51IGlmIGQuYWxyZWFkeV9wbGFudF9iYXNlZH0KICAgIGFzc2VydCBmbGFnZ2VkID09IHsiYmVhbnNfYW5kX3lhbV9wb3R0YWdlIiwgIm9rcGEiLCAibW9pbW9pIiwgInBhcCJ9CgoKZGVmIHRlc3RfYWxyZWFkeV9wbGFudF9pdGVtc19hcmVfbmV2ZXJfdHJhbnNmb3JtZWQobWVudSk6CiAgICBmb3IgaXRlbV9pZCBpbiAoIm1vaW1vaSIsICJva3BhIiwgImJlYW5zX2FuZF95YW1fcG90dGFnZSIsICJwYXAiKToKICAgICAgICByZXN1bHQgPSByZWNvbW1lbmRfZm9yX2Rpc2goaXRlbV9pZCwgbWVudT1tZW51KQogICAgICAgIGFzc2VydCByZXN1bHQuc3RhdHVzID09ICJhbHJlYWR5X3BsYW50X2Jhc2VkIgogICAgICAgIGFzc2VydCByZXN1bHQuYWx0ZXJuYXRpdmVzID09ICgpCiAgICAgICAgYXNzZXJ0IHJlc3VsdC5yZXF1aXJlc19kaWV0aXRpYW5fc2lnbm9mZiBpcyBUcnVlCgoKZGVmIHRlc3RfdW5zcGVjaWZpZWRfZGlzaF9pc19uZXZlcl90cmFuc2Zvcm1lZChtZW51KToKICAgIHJlc3VsdCA9IHJlY29tbWVuZF9mb3JfZGlzaCgic3RldyIsIG1lbnU9bWVudSkKICAgIGFzc2VydCByZXN1bHQuc3RhdHVzID09ICJwcm90ZWluX3Vuc3BlY2lmaWVkIgogICAgYXNzZXJ0IHJlc3VsdC5hbHRlcm5hdGl2ZXMgPT0gKCkKCgpkZWYgdGVzdF9kYXRhc2V0X2J1aWxkc19hbmRfdmFsaWRhdGVzKCk6CiAgICBkYXRhID0gYnVpbGRfaG9zcGl0YWxfZGF0YXNldCgpCiAgICB2YWxpZGF0ZV9kYXRhc2V0KGRhdGEpICAjIG11c3Qgbm90IHJhaXNlCiAgICBhc3NlcnQge2RbImRpc2hfaWQiXSBmb3IgZCBpbiBkYXRhLmRpc2hlc30gPT0geyJ1bnRoX2Zpc2giLCAidW50aF9tZWF0In0KCgpkZWYgdGVzdF9maXNoX3RyYW5zZm9ybWF0aW9uX3JldHVybnNfcmFua2VkX3BsYW50X2FsdGVybmF0aXZlcyhtZW51KToKICAgIHJlc3VsdCA9IHJlY29tbWVuZF9mb3JfZGlzaCgiZmlzaCIsIG1lbnU9bWVudSkKICAgIGFzc2VydCByZXN1bHQuc3RhdHVzID09ICJvayIKICAgIGFzc2VydCByZXN1bHQuYWx0ZXJuYXRpdmVzLCAiZXhwZWN0ZWQgYXQgbGVhc3Qgb25lIGVsaWdpYmxlIGFsdGVybmF0aXZlIgogICAgZm9yIGFsdCBpbiByZXN1bHQuYWx0ZXJuYXRpdmVzOgogICAgICAgIGFzc2VydCBhbHQucHJvdGVpbl9pZCBub3QgaW4gKCJiZWVmIiwgImZpc2giLCAibWVhdCIsICJkYXdhZGF3YSIpCiAgICAgICAgYXNzZXJ0IGFsdC5wcm90ZWluX2cgPiAwCiAgICAgICAgYXNzZXJ0IGFsdC5jb3N0X25nbiA+IDAKICAgIGFzc2VydCByZXN1bHQucmVmZXJlbmNlIGlzIE5vbmUgICMgbm8gY2l0ZWQgZmlzaCBiYXNlbGluZSBleGlzdHMKICAgIGFzc2VydCBhbnkoIkRhd2FkYXdhIiBpbiBub3RlIGZvciBub3RlIGluIHJlc3VsdC5ub3RlcykKCgpkZWYgdGVzdF9tZWF0X3RyYW5zZm9ybWF0aW9uX2hhc19iZWVmX3JlZmVyZW5jZV9jb21wYXJpc29uX29ubHkobWVudSk6CiAgICByZXN1bHQgPSByZWNvbW1lbmRfZm9yX2Rpc2goIm1lYXQiLCBtZW51PW1lbnUpCiAgICBhc3NlcnQgcmVzdWx0LnN0YXR1cyA9PSAib2siCiAgICBhc3NlcnQgcmVzdWx0LnJlZmVyZW5jZSBpcyBub3QgTm9uZQogICAgYXNzZXJ0IGFsbChhLnByb3RlaW5faWQgIT0gImJlZWYiIGZvciBhIGluIHJlc3VsdC5hbHRlcm5hdGl2ZXMpCgoKZGVmIHRlc3RfZ2x1dGVuX2V4Y2x1c2lvbl9yZW1vdmVzX3NlaXRhbl9mYWlsX2Nsb3NlZChtZW51KToKICAgIGZvciBsYWJlbCBpbiAoImdsdXRlbiIsICJ3aGVhdCIpOgogICAgICAgIHJlc3VsdCA9IHJlY29tbWVuZF9mb3JfZGlzaCgibWVhdCIsIGF2b2lkX2FsbGVyZ2Vucz0obGFiZWwsKSwgbWVudT1tZW51KQogICAgICAgIGFzc2VydCBhbGwoYS5wcm90ZWluX2lkICE9ICJzZWl0YW4iIGZvciBhIGluIHJlc3VsdC5hbHRlcm5hdGl2ZXMpCiAgICAgICAgc2VpdGFuX3JlamVjdGlvbnMgPSBbciBmb3IgciBpbiByZXN1bHQucmVqZWN0ZWQgaWYgci5wcm90ZWluX2lkID09ICJzZWl0YW4iXQogICAgICAgIGFzc2VydCBzZWl0YW5fcmVqZWN0aW9ucywgInNlaXRhbiBtdXN0IGJlIHJlamVjdGVkLCBub3Qgc2lsZW50bHkgZHJvcHBlZCIKICAgICAgICBhc3NlcnQgYW55KCJhbGxlcmdlbiIgaW4gcmVhc29uLmxvd2VyKCkKICAgICAgICAgICAgICAgICAgIGZvciByZWFzb24gaW4gc2VpdGFuX3JlamVjdGlvbnNbMF0ucmVhc29ucykKCgpkZWYgdGVzdF9zb3lfZXhjbHVzaW9uX3JlbW92ZXNfYWxsX3NveV9wcm90ZWlucyhtZW51KToKICAgIHJlc3VsdCA9IHJlY29tbWVuZF9mb3JfZGlzaCgiZmlzaCIsIGF2b2lkX2FsbGVyZ2Vucz0oInNveSIsKSwgbWVudT1tZW51KQogICAgYXNzZXJ0IGFsbChhLnByb3RlaW5faWQgbm90IGluICgic295X2NodW5rcyIsICJhd2FyYSIsICJzb3lfbWlsayIpCiAgICAgICAgICAgICAgIGZvciBhIGluIHJlc3VsdC5hbHRlcm5hdGl2ZXMpCgoKZGVmIHRlc3RfaGlnaF9wcm90ZWluX3ByZXNldF9mbG9vcl9pc19lbmZvcmNlZChtZW51KToKICAgIHJlc3VsdCA9IHJlY29tbWVuZF9mb3JfZGlzaCgiZmlzaCIsIHByZXNldF9pZD0iaGlnaF9wcm90ZWluIiwgbWVudT1tZW51KQogICAgYXNzZXJ0IHJlc3VsdC5wcmVzZXQucHJvdGVpbl9mbG9vcl9nID09IDM1LjAKICAgIGFzc2VydCByZXN1bHQuYWx0ZXJuYXRpdmVzCiAgICBhc3NlcnQgYWxsKGEucHJvdGVpbl9nID49IDM1LjAgZm9yIGEgaW4gcmVzdWx0LmFsdGVybmF0aXZlcykKCgpkZWYgdGVzdF9sb3dfcHJvdGVpbl9wcmVzZXRfY2FwX2lzX2VuZm9yY2VkKG1lbnUpOgogICAgcmVzdWx0ID0gcmVjb21tZW5kX2Zvcl9kaXNoKCJmaXNoIiwgcHJlc2V0X2lkPSJsb3dfcHJvdGVpbiIsIG1lbnU9bWVudSkKICAgIGFzc2VydCByZXN1bHQucHJlc2V0LnByb3RlaW5fY2FwX2dfcGVyX21lYWwgPT0gMjAuMAogICAgYXNzZXJ0IHJlc3VsdC5hbHRlcm5hdGl2ZXMKICAgIGFzc2VydCBhbGwoYS5wcm90ZWluX2cgPD0gMjAuMCBmb3IgYSBpbiByZXN1bHQuYWx0ZXJuYXRpdmVzKQoKCmRlZiB0ZXN0X2xvd19zb2RpdW1fcHJlc2V0X3N0YXRlc19pdHNfbGltaXRhdGlvbihtZW51KToKICAgIHJlc3VsdCA9IHJlY29tbWVuZF9mb3JfZGlzaCgiZmlzaCIsIHByZXNldF9pZD0ibG93X3NvZGl1bSIsIG1lbnU9bWVudSkKICAgIGFzc2VydCBhbnkoIm5vIHNvZGl1bSB2YWx1ZXMiIGluIG5vdGUgZm9yIG5vdGUgaW4gcmVzdWx0Lm5vdGVzKQoKCmRlZiB0ZXN0X2ltcG9zc2libGVfY29uc3RyYWludHNfZ2l2ZV9ob25lc3RfZW1wdHlfcmVzdWx0KG1lbnUpOgogICAgcmVzdWx0ID0gcmVjb21tZW5kX2Zvcl9kaXNoKCJmaXNoIiwgYnVkZ2V0X25nbj0xMC4wLCBtZW51PW1lbnUpCiAgICBhc3NlcnQgcmVzdWx0LnN0YXR1cyA9PSAib2siCiAgICBhc3NlcnQgcmVzdWx0LmFsdGVybmF0aXZlcyA9PSAoKQogICAgYXNzZXJ0IHJlc3VsdC5yZWplY3RlZCAgIyByZWFzb25zIGFyZSBzaG93biwgbm90IGhpZGRlbgogICAgYXNzZXJ0IGFueSgiTm8gcGxhbnQgYWx0ZXJuYXRpdmUgcGFzc2VzIiBpbiBub3RlIGZvciBub3RlIGluIHJlc3VsdC5ub3RlcykKCgpkZWYgdGVzdF9jb21wYXJpc29uX3VzZXNfcmVjb21tZW5kYXRpb25fbnVtYmVyc193aXRob3V0X2RyaWZ0KG1lbnUpOgogICAgcmVzdWx0ID0gcmVjb21tZW5kX2Zvcl9kaXNoKCJtZWF0IiwgbWVudT1tZW51KQogICAgY29tcGFyaXNvbiA9IGJ1aWxkX2NvbXBhcmlzb24ocmVzdWx0KQogICAgYXNzZXJ0IGNvbXBhcmlzb24gaXMgbm90IE5vbmUKICAgIHRvcCA9IHJlc3VsdC5hbHRlcm5hdGl2ZXNbMF0KICAgIGFzc2VydCBjb21wYXJpc29uLmFsdGVybmF0aXZlX3Byb3RlaW5fZyA9PSB0b3AucHJvdGVpbl9nCiAgICBhc3NlcnQgY29tcGFyaXNvbi5hbHRlcm5hdGl2ZV9jb3N0X25nbiA9PSB0b3AuY29zdF9uZ24KICAgIGFzc2VydCBjb21wYXJpc29uLmFsdGVybmF0aXZlX3ByZXBfbWludXRlcyA9PSB0b3AucHJlcF9taW51dGVzCiAgICBhc3NlcnQgY29tcGFyaXNvbi5hbHRlcm5hdGl2ZV9mdW5jdGlvbmFsID09IHRvcC5mdW5jdGlvbmFsCiAgICBhc3NlcnQgY29tcGFyaXNvbi5hbHRlcm5hdGl2ZV9hbGxlcmdlbnMgPT0gdG9wLmFsbGVyZ2VucwogICAgYXNzZXJ0IGNvbXBhcmlzb24ucG9ydGlvbl9nID09IHRvcC5wb3J0aW9uX2cKICAgIGFzc2VydCBjb21wYXJpc29uLm9yaWdpbmFsX3Byb3RlaW5fZyA9PSByZXN1bHQucmVmZXJlbmNlLnByb3RlaW5fZwogICAgYXNzZXJ0IGNvbXBhcmlzb24ub3JpZ2luYWxfY29zdF9uZ24gPT0gcmVzdWx0LnJlZmVyZW5jZS5jb3N0X25nbgoKCmRlZiB0ZXN0X2NvbXBhcmlzb25fb21pdHNfY2Fsb3JpZXNfd2l0aG91dF9jaXRlZF92YWx1ZXMobWVudSk6CiAgICByZXN1bHQgPSByZWNvbW1lbmRfZm9yX2Rpc2goImZpc2giLCBtZW51PW1lbnUpCiAgICBjb21wYXJpc29uID0gYnVpbGRfY29tcGFyaXNvbihyZXN1bHQpCiAgICBhc3NlcnQgY29tcGFyaXNvbiBpcyBub3QgTm9uZQogICAgYXNzZXJ0IGNvbXBhcmlzb24ub3JpZ2luYWxfY2Fsb3JpZXNfa2NhbCBpcyBOb25lCiAgICBhc3NlcnQgY29tcGFyaXNvbi5hbHRlcm5hdGl2ZV9jYWxvcmllc19rY2FsIGlzIE5vbmUKICAgICMgRmlzaCBoYXMgbm8gY2l0ZWQgb3JpZ2luYWwgdmFsdWVzOyB0aGV5IHN0YXkgdW5rbm93biwgbmV2ZXIgZXN0aW1hdGVkLgogICAgYXNzZXJ0IGNvbXBhcmlzb24ub3JpZ2luYWxfcHJvdGVpbl9nIGlzIE5vbmUKICAgIGFzc2VydCBjb21wYXJpc29uLm9yaWdpbmFsX2Nvc3RfbmduIGlzIE5vbmUKCgpkZWYgdGVzdF9jb21wYXJpc29uX25vbmVfd2hlbl9ub3RoaW5nX3RvX2NvbXBhcmUobWVudSk6CiAgICByZXN1bHQgPSByZWNvbW1lbmRfZm9yX2Rpc2goIm1vaW1vaSIsIG1lbnU9bWVudSkKICAgIGFzc2VydCBidWlsZF9jb21wYXJpc29uKHJlc3VsdCkgaXMgTm9uZQoKCmRlZiB0ZXN0X2ZlZWRiYWNrX2FwcGVuZHNfcm93c193aXRoX2V4cGVjdGVkX2NvbHVtbnModG1wX3BhdGgpOgogICAgdGFyZ2V0ID0gdG1wX3BhdGggLyAiaG9zcGl0YWxfZmVlZGJhY2suY3N2IgogICAgYXBwZW5kX2hvc3BpdGFsX2ZlZWRiYWNrKAogICAgICAgIHRhcmdldCwgZGlzaD0iRmlzaCIsIGFsdGVybmF0aXZlPSJTb3kgY2h1bmtzIChUVlApIiwgcHJlc2V0PSJzdGFuZGFyZCIsCiAgICAgICAgYXZhaWxhYmlsaXR5PSJhdmFpbGFibGUiLCBwcmFjdGljYWxpdHk9InByYWN0aWNhbCIsCiAgICAgICAgY29zdF9yZWFsaXN0aWM9InBhcnRseSIsIGFjY2VwdGFiaWxpdHk9ImFjY2VwdGVkIiwKICAgICAgICBjb21tZW50PSJLaXRjaGVuIGZvdW5kIGNodW5rcyBhdCB0aGUgbWFya2V0LiIsCiAgICApCiAgICBhcHBlbmRfaG9zcGl0YWxfZmVlZGJhY2soCiAgICAgICAgdGFyZ2V0LCBkaXNoPSJNZWF0IiwgYWx0ZXJuYXRpdmU9IlNlaXRhbiAod2hlYXQgZ2x1dGVuKSIsCiAgICAgICAgcHJlc2V0PSJoaWdoX3Byb3RlaW4iLCBhdmFpbGFiaWxpdHk9ImhhcmQgdG8gZmluZCIsCiAgICAgICAgcHJhY3RpY2FsaXR5PSJzb21lIGRpZmZpY3VsdHkiLCBjb3N0X3JlYWxpc3RpYz0ibm8iLAogICAgICAgIGFjY2VwdGFiaWxpdHk9Im1peGVkIiwgY29tbWVudD0iIiwKICAgICkKICAgIHdpdGggdGFyZ2V0Lm9wZW4oZW5jb2Rpbmc9InV0Zi04IiwgbmV3bGluZT0iIikgYXMgaGFuZGxlOgogICAgICAgIHJvd3MgPSBsaXN0KGNzdi5EaWN0UmVhZGVyKGhhbmRsZSkpCiAgICBhc3NlcnQgdHVwbGUocm93c1swXS5rZXlzKCkpID09IEZFRURCQUNLX0ZJRUxEUwogICAgYXNzZXJ0IGxlbihyb3dzKSA9PSAyCiAgICBhc3NlcnQgcm93c1swXVsiZGlzaCJdID09ICJGaXNoIgogICAgYXNzZXJ0IHJvd3NbMF1bImF2YWlsYWJpbGl0eSJdID09ICJhdmFpbGFibGUiCiAgICBhc3NlcnQgcm93c1swXVsicmV2aWV3X3N0YXR1cyJdID09ICJwZW5kaW5nIgogICAgYXNzZXJ0IHJvd3NbMV1bImFsdGVybmF0aXZlIl0gPT0gIlNlaXRhbiAod2hlYXQgZ2x1dGVuKSIKCgpkZWYgdGVzdF9mZWVkYmFja19yZWplY3RzX3VuY29udHJvbGxlZF92YWx1ZXModG1wX3BhdGgpOgogICAgd2l0aCBweXRlc3QucmFpc2VzKFZhbHVlRXJyb3IpOgogICAgICAgIGFwcGVuZF9ob3NwaXRhbF9mZWVkYmFjaygKICAgICAgICAgICAgdG1wX3BhdGggLyAieC5jc3YiLCBkaXNoPSJGaXNoIiwgYWx0ZXJuYXRpdmU9IkF3YXJhIiwKICAgICAgICAgICAgcHJlc2V0PSJzdGFuZGFyZCIsIGF2YWlsYWJpbGl0eT0ic29tZXRpbWVzIiwKICAgICAgICAgICAgcHJhY3RpY2FsaXR5PSJwcmFjdGljYWwiLCBjb3N0X3JlYWxpc3RpYz0ieWVzIiwKICAgICAgICAgICAgYWNjZXB0YWJpbGl0eT0iYWNjZXB0ZWQiLAogICAgICAgICkKCgpkZWYgdGVzdF9ob3NwaXRhbF9wYWdlX3JlbmRlcnNfd2l0aG91dF9leGNlcHRpb24oKToKICAgIGZyb20gc3RyZWFtbGl0LnRlc3RpbmcudjEgaW1wb3J0IEFwcFRlc3QKCiAgICBhdCA9IEFwcFRlc3QuZnJvbV9maWxlKHN0cihQQUdFKSwgZGVmYXVsdF90aW1lb3V0PTYwKS5ydW4oKQogICAgYXNzZXJ0IG5vdCBhdC5leGNlcHRpb24KICAgIGFzc2VydCBhbnkoIkhvc3BpdGFsIGZvb2Qgc2VydmljZSIgaW4gdC52YWx1ZSBmb3IgdCBpbiBhdC50aXRsZSkKCgojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KIyBBbnktZGlzaCBtb2RlOiBzdGFmZiB0eXBlIGFueSBkaXNoLCB0aGUgc2FtZSBnYXRlcyByYW5rIGFsdGVybmF0aXZlcwojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KCmRlZiB0ZXN0X2FueV9kaXNoX2JlZWZfcmV0dXJuc19yYW5rZWRfYWx0ZXJuYXRpdmVzX3dpdGhfcmVhc29uaW5nKCk6CiAgICByZXN1bHQgPSBzdWdnZXN0X2Zvcl9hbnlfZGlzaCgKICAgICAgICAiR3JpbGxlZCBiZWVmIHNrZXdlcnMiLCBjdXJyZW50X3Byb3RlaW49ImJlZWYiLAogICAgICAgIHBvcnRpb25fZz0xMDAsIG1ldGhvZD0iZ3JpbGwiLAogICAgKQogICAgYXNzZXJ0IHJlc3VsdC5zdGF0dXMgPT0gIm9rIgogICAgYXNzZXJ0IHJlc3VsdC5hbHRlcm5hdGl2ZXMsICJleHBlY3RlZCBhdCBsZWFzdCBvbmUgZWxpZ2libGUgYWx0ZXJuYXRpdmUiCiAgICBmb3IgYWx0IGluIHJlc3VsdC5hbHRlcm5hdGl2ZXM6CiAgICAgICAgYXNzZXJ0IGFsdC5wcm90ZWluX2lkIG5vdCBpbiAoImJlZWYiLCAiZGF3YWRhd2EiKQogICAgICAgIGFzc2VydCBhbHQucmVhc29ucywgImV2ZXJ5IHJhbmtlZCBhbHRlcm5hdGl2ZSBjYXJyaWVzIGl0cyByZWFzb25pbmciCiAgICBhc3NlcnQgcmVzdWx0LnJlcXVpcmVzX2RpZXRpdGlhbl9zaWdub2ZmIGlzIFRydWUKICAgICMgQ2l0ZWQgYmVlZiBiYXNlbGluZTogMjAuMyBnLzEwMCBnIChXQUZDVCAwN18wMjMpIGFuZCB0aGUgV0ZQIHByaWNlIHJvdy4KICAgIGFzc2VydCByZXN1bHQuYmFzZWxpbmUucHJvdGVpbl9nID09IHB5dGVzdC5hcHByb3goMjAuMykKICAgIGFzc2VydCByZXN1bHQuYmFzZWxpbmUuY29zdF9uZ24gPT0gcHl0ZXN0LmFwcHJveCg2MzcuNTApCgoKZGVmIHRlc3RfYW55X2Rpc2hfZ2x1dGVuX2V4Y2x1c2lvbl9yZW1vdmVzX3NlaXRhbl9mYWlsX2Nsb3NlZCgpOgogICAgcmVzdWx0ID0gc3VnZ2VzdF9mb3JfYW55X2Rpc2goCiAgICAgICAgIkJlZWYgcGVwcGVyIHNvdXAiLCBjdXJyZW50X3Byb3RlaW49ImJlZWYiLCBwb3J0aW9uX2c9MTAwLAogICAgICAgIG1ldGhvZD0ic291cCIsIGF2b2lkX2FsbGVyZ2Vucz0oImdsdXRlbiIsKSwKICAgICkKICAgIGFzc2VydCBhbGwoYS5wcm90ZWluX2lkICE9ICJzZWl0YW4iIGZvciBhIGluIHJlc3VsdC5hbHRlcm5hdGl2ZXMpCiAgICBzZWl0YW5fcmVqZWN0aW9ucyA9IFtyIGZvciByIGluIHJlc3VsdC5yZWplY3RlZAogICAgICAgICAgICAgICAgICAgICAgICAgaWYgci5wcm90ZWluX2lkID09ICJzZWl0YW4iXQogICAgYXNzZXJ0IHNlaXRhbl9yZWplY3Rpb25zLCAic2VpdGFuIG11c3QgYmUgcmVqZWN0ZWQsIG5vdCBzaWxlbnRseSBkcm9wcGVkIgogICAgYXNzZXJ0IGFueSgiYWxsZXJnZW4iIGluIHJlYXNvbi5sb3dlcigpCiAgICAgICAgICAgICAgIGZvciByZWFzb24gaW4gc2VpdGFuX3JlamVjdGlvbnNbMF0ucmVhc29ucykKCgpkZWYgdGVzdF9hbnlfZGlzaF9lbXB0eV9uYW1lX2lzX2FfY2xlYXJfZXJyb3IoKToKICAgIGZvciBiYWQgaW4gKCIiLCAiICAgIik6CiAgICAgICAgd2l0aCBweXRlc3QucmFpc2VzKFZhbHVlRXJyb3IsIG1hdGNoPSJEaXNoIG5hbWUgaXMgcmVxdWlyZWQiKToKICAgICAgICAgICAgc3VnZ2VzdF9mb3JfYW55X2Rpc2goYmFkLCBjdXJyZW50X3Byb3RlaW49ImJlZWYiLCBtZXRob2Q9ImdyaWxsIikKCgpkZWYgdGVzdF9hbnlfZGlzaF9tZXRob2Rfc2NyZWVuX3JlamVjdHNfd2l0aF9yZWFzb25zKCk6CiAgICAjIFNveSBtaWxrIGlzIHRoZSBzYXVjZSBiYXNlOiBhdCB0aGUgbG93LXByb3RlaW4gcHJlc2V0J3MgZmxvb3IgaXQgcGFzc2VzCiAgICAjIHRoZSBlbmdpbmUgZ2F0ZXMgYXQgMjAwIGcsIGJ1dCBpdHMgZ2VsYXRpb24vd2F0ZXItaG9sZGluZyBwcm9maWxlCiAgICAjIGNhbm5vdCBzdXJ2aXZlIGdyaWxsaW5nIC0gdGhlIG1ldGhvZCBzY3JlZW4gbXVzdCBiZSB3aGF0IHJlamVjdHMgaXQuCiAgICByZXN1bHQgPSBzdWdnZXN0X2Zvcl9hbnlfZGlzaCgKICAgICAgICAiR3JpbGxlZCBmaXNoIiwgY3VycmVudF9wcm90ZWluPSJmaXNoIiwgcG9ydGlvbl9nPTEwMCwKICAgICAgICBtZXRob2Q9ImdyaWxsIiwgcHJlc2V0X2lkPSJsb3dfcHJvdGVpbiIsCiAgICApCiAgICBzb3lfbWlsayA9IFtyIGZvciByIGluIHJlc3VsdC5yZWplY3RlZCBpZiByLnByb3RlaW5faWQgPT0gInNveV9taWxrIl0KICAgIGFzc2VydCBzb3lfbWlsaywgInNveSBtaWxrIG11c3QgYXBwZWFyIGluIHJlamVjdGVkLCB3aXRoIHJlYXNvbnMiCiAgICBhc3NlcnQgYW55KCJGQUlMRUQiIGluIHJlYXNvbiBmb3IgcmVhc29uIGluIHNveV9taWxrWzBdLnJlYXNvbnMpCiAgICBhc3NlcnQgYWxsKGEucHJvdGVpbl9pZCAhPSAic295X21pbGsiIGZvciBhIGluIHJlc3VsdC5hbHRlcm5hdGl2ZXMpCgoKZGVmIHRlc3RfYW55X2Rpc2hfZmlzaF9hbHRlcm5hdGl2ZXNfd2l0aG91dF9jaXRlZF9iYXNlbGluZSgpOgogICAgcmVzdWx0ID0gc3VnZ2VzdF9mb3JfYW55X2Rpc2goCiAgICAgICAgIkZpc2ggcGVwcGVyIHNvdXAiLCBjdXJyZW50X3Byb3RlaW49ImZpc2giLAogICAgICAgIHBvcnRpb25fZz0xNTAsIG1ldGhvZD0ic291cCIsCiAgICApCiAgICBhc3NlcnQgcmVzdWx0LmFsdGVybmF0aXZlcywgImFsdGVybmF0aXZlcyBhcmUgcmFua2VkIGV2ZW4gd2l0aCBubyBiYXNlbGluZSIKICAgIGFzc2VydCByZXN1bHQuYmFzZWxpbmUucHJvdGVpbl9nIGlzIE5vbmUKICAgIGFzc2VydCByZXN1bHQuYmFzZWxpbmUuY29zdF9uZ24gaXMgTm9uZQogICAgYXNzZXJ0IGFueSgiTm8gY2l0ZWQgYmFzZWxpbmUiIGluIG5vdGUgZm9yIG5vdGUgaW4gcmVzdWx0Lm5vdGVzKQogICAgY29tcGFyaXNvbiA9IGJ1aWxkX2FueV9kaXNoX2NvbXBhcmlzb24ocmVzdWx0KQogICAgYXNzZXJ0IGNvbXBhcmlzb24gaXMgbm90IE5vbmUKICAgIGFzc2VydCBjb21wYXJpc29uLm9yaWdpbmFsX3Byb3RlaW5fZyBpcyBOb25lCiAgICBhc3NlcnQgY29tcGFyaXNvbi5vcmlnaW5hbF9jb3N0X25nbiBpcyBOb25lCiAgICB0b3AgPSByZXN1bHQuYWx0ZXJuYXRpdmVzWzBdCiAgICBhc3NlcnQgY29tcGFyaXNvbi5hbHRlcm5hdGl2ZV9wcm90ZWluX2cgPT0gdG9wLnByb3RlaW5fZwogICAgYXNzZXJ0IGNvbXBhcmlzb24uYWx0ZXJuYXRpdmVfY29zdF9uZ24gPT0gdG9wLmNvc3RfbmduCiAgICBhc3NlcnQgY29tcGFyaXNvbi5vcmlnaW5hbF9jYWxvcmllc19rY2FsIGlzIE5vbmUKICAgIGFzc2VydCBjb21wYXJpc29uLmFsdGVybmF0aXZlX2NhbG9yaWVzX2tjYWwgaXMgTm9uZQoKCmRlZiB0ZXN0X2FueV9kaXNoX2NoaWNrZW5fcHJvdGVpbl9iYXNlbGluZV93aXRob3V0X2NpdGVkX2Nvc3QoKToKICAgIHJlc3VsdCA9IHN1Z2dlc3RfZm9yX2FueV9kaXNoKAogICAgICAgICJDaGlja2VuIHN0ZXciLCBjdXJyZW50X3Byb3RlaW49ImNoaWNrZW4iLAogICAgICAgIHBvcnRpb25fZz0xMDAsIG1ldGhvZD0ic291cCIsCiAgICApCiAgICBhc3NlcnQgcmVzdWx0LmFsdGVybmF0aXZlcwogICAgIyAyMy4wIGcvMTAwIGcgaXMgY2l0ZWQgKFdBRkNUIDA3XzAzMyk7IG5vIGNpdGVkIGNoaWNrZW4gcHJpY2UgZXhpc3RzLgogICAgYXNzZXJ0IHJlc3VsdC5iYXNlbGluZS5wcm90ZWluX2cgPT0gcHl0ZXN0LmFwcHJveCgyMy4wKQogICAgYXNzZXJ0IHJlc3VsdC5iYXNlbGluZS5jb3N0X25nbiBpcyBOb25lCiAgICBjb21wYXJpc29uID0gYnVpbGRfYW55X2Rpc2hfY29tcGFyaXNvbihyZXN1bHQpCiAgICBhc3NlcnQgY29tcGFyaXNvbiBpcyBub3QgTm9uZQogICAgYXNzZXJ0IGNvbXBhcmlzb24ub3JpZ2luYWxfcHJvdGVpbl9nIGlzIG5vdCBOb25lCiAgICBhc3NlcnQgY29tcGFyaXNvbi5vcmlnaW5hbF9jb3N0X25nbiBpcyBOb25lCgoKZGVmIHRlc3RfcGxhbnRfcHJvdGVpbl9kYXRhc2V0X21hdGNoZXNfZnVuY3Rpb25hbF9jYXRhbG9ndWUoKToKICAgIHJvd3MgPSBwbGFudF9wcm90ZWluX2RhdGFzZXQoKQogICAgYXNzZXJ0IFtyLnByb3RlaW5faWQgZm9yIHIgaW4gcm93c10gPT0gW3AuaWQgZm9yIHAgaW4gcGxhbnRfcHJvdGVpbnMoKV0KICAgIGFzc2VydCBsZW4ocm93cykgPT0gOAogICAgYnlfaWQgPSB7ci5wcm90ZWluX2lkOiByIGZvciByIGluIHJvd3N9CiAgICBhc3NlcnQgYnlfaWRbImRhd2FkYXdhIl0ucm9sZSA9PSAiYWRqdW5jdCIgICMgbGlzdGVkLCBuZXZlciByYW5rZWQKICAgIGFzc2VydCBieV9pZFsic2VpdGFuIl0uYWxsZXJnZW5zID09ICgid2hlYXQiLCkKICAgIGFzc2VydCBieV9pZFsiYXdhcmEiXS5wcmljZV9kZXJpdmVkIGlzIFRydWUKICAgIGFzc2VydCBieV9pZFsic295X2NodW5rcyJdLnByaWNlX2Rlcml2ZWQgaXMgRmFsc2UKCgpkZWYgdGVzdF9ob3NwaXRhbF9wYWdlX29mZmVyc19hbnlfZGlzaF9tb2RlX2FuZF9kYXRhc2V0KCk6CiAgICBzb3VyY2UgPSBQQUdFLnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiKQogICAgYXNzZXJ0ICJBbnkgZGlzaCIgaW4gc291cmNlCiAgICBhc3NlcnQgInN1Z2dlc3RfZm9yX2FueV9kaXNoIiBpbiBzb3VyY2UKICAgIGFzc2VydCAiUGxhbnQgcHJvdGVpbiBkYXRhc2V0IiBpbiBzb3VyY2UKICAgIGFzc2VydCAicGxhbnRfcHJvdGVpbl9kYXRhc2V0IiBpbiBzb3VyY2UK
+"""Hospital mode: documented UNTH menu, fail-closed transforms, honest gaps.
+
+The menu is published research data (Maduforo et al., 2016), not demo data.
+These tests pin the honesty contract: exactly 14 items, stew never assigned a
+protein, already-plant items never transformed, allergen exclusions fail
+closed, and the comparison never recomputes numbers.
+"""
+from __future__ import annotations
+
+import csv
+from pathlib import Path
+
+import pytest
+
+from menushift.engine import validate_dataset
+from menushift.functional import plant_proteins
+from menushift.hospital import (
+    CONDITIONS,
+    FEEDBACK_FIELDS,
+    append_hospital_feedback,
+    build_any_dish_comparison,
+    build_comparison,
+    build_condition_menu,
+    build_hospital_dataset,
+    get_condition,
+    get_dish,
+    load_unth_menu,
+    plant_protein_dataset,
+    recommend_for_dish,
+    suggest_for_any_dish,
+)
+
+ROOT = Path(__file__).resolve().parents[1]
+PAGE = ROOT / "pages" / "3_Hospital_Menu.py"
+
+
+@pytest.fixture(scope="module")
+def menu():
+    return load_unth_menu()
+
+
+def test_menu_loads_exactly_14_items(menu):
+    assert len(menu) == 14
+    assert len({d.item_id for d in menu}) == 14
+
+
+def test_only_fish_and_meat_carry_documented_animal_protein(menu):
+    documented = {d.item_id: d.documented_animal_protein
+                  for d in menu if d.protein_status == "documented_animal"}
+    assert documented == {"fish": "fish", "meat": "meat"}
+
+
+def test_stew_and_soups_stay_unspecified(menu):
+    for item_id in ("stew", "bitterleaf_soup", "okro_soup", "egusi_soup"):
+        dish = get_dish(menu, item_id)
+        assert dish.protein_status == "unspecified"
+        assert dish.documented_animal_protein == ""
+
+
+def test_already_plant_based_flags(menu):
+    flagged = {d.item_id for d in menu if d.already_plant_based}
+    assert flagged == {"beans_and_yam_pottage", "okpa", "moimoi", "pap"}
+
+
+def test_already_plant_items_are_never_transformed(menu):
+    for item_id in ("moimoi", "okpa", "beans_and_yam_pottage", "pap"):
+        result = recommend_for_dish(item_id, menu=menu)
+        assert result.status == "already_plant_based"
+        assert result.alternatives == ()
+        assert result.requires_dietitian_signoff is True
+
+
+def test_unspecified_dish_is_never_transformed(menu):
+    result = recommend_for_dish("stew", menu=menu)
+    assert result.status == "protein_unspecified"
+    assert result.alternatives == ()
+
+
+def test_dataset_builds_and_validates():
+    data = build_hospital_dataset()
+    validate_dataset(data)  # must not raise
+    assert {d["dish_id"] for d in data.dishes} == {"unth_fish", "unth_meat"}
+
+
+def test_fish_transformation_returns_ranked_plant_alternatives(menu):
+    result = recommend_for_dish("fish", menu=menu)
+    assert result.status == "ok"
+    assert result.alternatives, "expected at least one eligible alternative"
+    for alt in result.alternatives:
+        assert alt.protein_id not in ("beef", "fish", "meat", "dawadawa")
+        assert alt.protein_g > 0
+        assert alt.cost_ngn > 0
+    assert result.reference is None  # no cited fish baseline exists
+    assert any("Dawadawa" in note for note in result.notes)
+
+
+def test_meat_transformation_has_beef_reference_comparison_only(menu):
+    result = recommend_for_dish("meat", menu=menu)
+    assert result.status == "ok"
+    assert result.reference is not None
+    assert all(a.protein_id != "beef" for a in result.alternatives)
+
+
+def test_gluten_exclusion_removes_seitan_fail_closed(menu):
+    for label in ("gluten", "wheat"):
+        result = recommend_for_dish("meat", avoid_allergens=(label,), menu=menu)
+        assert all(a.protein_id != "seitan" for a in result.alternatives)
+        seitan_rejections = [r for r in result.rejected if r.protein_id == "seitan"]
+        assert seitan_rejections, "seitan must be rejected, not silently dropped"
+        assert any("allergen" in reason.lower()
+                   for reason in seitan_rejections[0].reasons)
+
+
+def test_soy_exclusion_removes_all_soy_proteins(menu):
+    result = recommend_for_dish("fish", avoid_allergens=("soy",), menu=menu)
+    assert all(a.protein_id not in ("soy_chunks", "awara", "soy_milk")
+               for a in result.alternatives)
+
+
+def test_high_protein_preset_floor_is_enforced(menu):
+    result = recommend_for_dish("fish", preset_id="high_protein", menu=menu)
+    assert result.preset.protein_floor_g == 35.0
+    assert result.alternatives
+    assert all(a.protein_g >= 35.0 for a in result.alternatives)
+
+
+def test_low_protein_preset_cap_is_enforced(menu):
+    result = recommend_for_dish("fish", preset_id="low_protein", menu=menu)
+    assert result.preset.protein_cap_g_per_meal == 20.0
+    assert result.alternatives
+    assert all(a.protein_g <= 20.0 for a in result.alternatives)
+
+
+def test_low_sodium_preset_states_its_limitation(menu):
+    result = recommend_for_dish("fish", preset_id="low_sodium", menu=menu)
+    assert any("no sodium values" in note for note in result.notes)
+
+
+def test_impossible_constraints_give_honest_empty_result(menu):
+    result = recommend_for_dish("fish", budget_ngn=10.0, menu=menu)
+    assert result.status == "ok"
+    assert result.alternatives == ()
+    assert result.rejected  # reasons are shown, not hidden
+    assert any("No plant alternative passes" in note for note in result.notes)
+
+
+def test_comparison_uses_recommendation_numbers_without_drift(menu):
+    result = recommend_for_dish("meat", menu=menu)
+    comparison = build_comparison(result)
+    assert comparison is not None
+    top = result.alternatives[0]
+    assert comparison.alternative_protein_g == top.protein_g
+    assert comparison.alternative_cost_ngn == top.cost_ngn
+    assert comparison.alternative_prep_minutes == top.prep_minutes
+    assert comparison.alternative_functional == top.functional
+    assert comparison.alternative_allergens == top.allergens
+    assert comparison.portion_g == top.portion_g
+    assert comparison.original_protein_g == result.reference.protein_g
+    assert comparison.original_cost_ngn == result.reference.cost_ngn
+
+
+def test_comparison_omits_calories_without_cited_values(menu):
+    result = recommend_for_dish("fish", menu=menu)
+    comparison = build_comparison(result)
+    assert comparison is not None
+    assert comparison.original_calories_kcal is None
+    assert comparison.alternative_calories_kcal is None
+    # Fish has no cited original values; they stay unknown, never estimated.
+    assert comparison.original_protein_g is None
+    assert comparison.original_cost_ngn is None
+
+
+def test_comparison_none_when_nothing_to_compare(menu):
+    result = recommend_for_dish("moimoi", menu=menu)
+    assert build_comparison(result) is None
+
+
+def test_feedback_appends_rows_with_expected_columns(tmp_path):
+    target = tmp_path / "hospital_feedback.csv"
+    append_hospital_feedback(
+        target, dish="Fish", alternative="Soy chunks (TVP)", preset="standard",
+        availability="available", practicality="practical",
+        cost_realistic="partly", acceptability="accepted",
+        comment="Kitchen found chunks at the market.",
+    )
+    append_hospital_feedback(
+        target, dish="Meat", alternative="Seitan (wheat gluten)",
+        preset="high_protein", availability="hard to find",
+        practicality="some difficulty", cost_realistic="no",
+        acceptability="mixed", comment="",
+    )
+    with target.open(encoding="utf-8", newline="") as handle:
+        rows = list(csv.DictReader(handle))
+    assert tuple(rows[0].keys()) == FEEDBACK_FIELDS
+    assert len(rows) == 2
+    assert rows[0]["dish"] == "Fish"
+    assert rows[0]["availability"] == "available"
+    assert rows[0]["review_status"] == "pending"
+    assert rows[1]["alternative"] == "Seitan (wheat gluten)"
+
+
+def test_feedback_rejects_uncontrolled_values(tmp_path):
+    with pytest.raises(ValueError):
+        append_hospital_feedback(
+            tmp_path / "x.csv", dish="Fish", alternative="Awara",
+            preset="standard", availability="sometimes",
+            practicality="practical", cost_realistic="yes",
+            acceptability="accepted",
+        )
+
+
+def test_hospital_page_renders_without_exception():
+    from streamlit.testing.v1 import AppTest
+
+    at = AppTest.from_file(str(PAGE), default_timeout=60).run()
+    assert not at.exception
+    assert any("Hospital food service" in t.value for t in at.title)
+
+
+# ----------------------------------------------------------------------
+# Any-dish mode: staff type any dish, the same gates rank alternatives
+# ----------------------------------------------------------------------
+
+def test_any_dish_beef_returns_ranked_alternatives_with_reasoning():
+    result = suggest_for_any_dish(
+        "Grilled beef skewers", current_protein="beef",
+        portion_g=100, method="grill",
+    )
+    assert result.status == "ok"
+    assert result.alternatives, "expected at least one eligible alternative"
+    for alt in result.alternatives:
+        assert alt.protein_id not in ("beef", "dawadawa")
+        assert alt.reasons, "every ranked alternative carries its reasoning"
+    assert result.requires_dietitian_signoff is True
+    # Cited beef baseline: 20.3 g/100 g (WAFCT 07_023) and the WFP price row.
+    assert result.baseline.protein_g == pytest.approx(20.3)
+    assert result.baseline.cost_ngn == pytest.approx(637.50)
+
+
+def test_any_dish_gluten_exclusion_removes_seitan_fail_closed():
+    result = suggest_for_any_dish(
+        "Beef pepper soup", current_protein="beef", portion_g=100,
+        method="soup", avoid_allergens=("gluten",),
+    )
+    assert all(a.protein_id != "seitan" for a in result.alternatives)
+    seitan_rejections = [r for r in result.rejected
+                         if r.protein_id == "seitan"]
+    assert seitan_rejections, "seitan must be rejected, not silently dropped"
+    assert any("allergen" in reason.lower()
+               for reason in seitan_rejections[0].reasons)
+
+
+def test_any_dish_empty_name_is_a_clear_error():
+    for bad in ("", "   "):
+        with pytest.raises(ValueError, match="Dish name is required"):
+            suggest_for_any_dish(bad, current_protein="beef", method="grill")
+
+
+def test_any_dish_method_screen_rejects_with_reasons():
+    # Soy milk is the sauce base: at the low-protein preset's floor it passes
+    # the engine gates at 200 g, but its gelation/water-holding profile
+    # cannot survive grilling - the method screen must be what rejects it.
+    result = suggest_for_any_dish(
+        "Grilled fish", current_protein="fish", portion_g=100,
+        method="grill", preset_id="low_protein",
+    )
+    soy_milk = [r for r in result.rejected if r.protein_id == "soy_milk"]
+    assert soy_milk, "soy milk must appear in rejected, with reasons"
+    assert any("FAILED" in reason for reason in soy_milk[0].reasons)
+    assert all(a.protein_id != "soy_milk" for a in result.alternatives)
+
+
+def test_any_dish_fish_alternatives_without_cited_baseline():
+    result = suggest_for_any_dish(
+        "Fish pepper soup", current_protein="fish",
+        portion_g=150, method="soup",
+    )
+    assert result.alternatives, "alternatives are ranked even with no baseline"
+    assert result.baseline.protein_g is None
+    assert result.baseline.cost_ngn is None
+    assert any("No cited baseline" in note for note in result.notes)
+    comparison = build_any_dish_comparison(result)
+    assert comparison is not None
+    assert comparison.original_protein_g is None
+    assert comparison.original_cost_ngn is None
+    top = result.alternatives[0]
+    assert comparison.alternative_protein_g == top.protein_g
+    assert comparison.alternative_cost_ngn == top.cost_ngn
+    assert comparison.original_calories_kcal is None
+    assert comparison.alternative_calories_kcal is None
+
+
+def test_any_dish_chicken_protein_baseline_without_cited_cost():
+    result = suggest_for_any_dish(
+        "Chicken stew", current_protein="chicken",
+        portion_g=100, method="soup",
+    )
+    assert result.alternatives
+    # 23.0 g/100 g is cited (WAFCT 07_033); no cited chicken price exists.
+    assert result.baseline.protein_g == pytest.approx(23.0)
+    assert result.baseline.cost_ngn is None
+    comparison = build_any_dish_comparison(result)
+    assert comparison is not None
+    assert comparison.original_protein_g is not None
+    assert comparison.original_cost_ngn is None
+
+
+def test_plant_protein_dataset_matches_functional_catalogue():
+    rows = plant_protein_dataset()
+    assert [r.protein_id for r in rows] == [p.id for p in plant_proteins()]
+    assert len(rows) == 8
+    by_id = {r.protein_id: r for r in rows}
+    assert by_id["dawadawa"].role == "adjunct"  # listed, never ranked
+    assert by_id["seitan"].allergens == ("wheat",)
+    assert by_id["awara"].price_derived is True
+    assert by_id["soy_chunks"].price_derived is False
+
+
+def test_hospital_page_offers_any_dish_mode_and_dataset():
+    source = PAGE.read_text(encoding="utf-8")
+    assert "Any dish" in source
+    assert "suggest_for_any_dish" in source
+    assert "Plant protein dataset" in source
+    assert "plant_protein_dataset" in source
+
+
+# ----------------------------------------------------------------------
+# Patient conditions: a condition maps to a documented preset bundle and
+# carries cited evidence plus the limits of that evidence. No condition
+# may claim a numeric filter the project data cannot support.
+# ----------------------------------------------------------------------
+
+def test_cardiovascular_condition_carries_evidence_and_limitation():
+    condition = get_condition("cardiovascular")
+    assert condition.preset_id == "low_sodium"
+    evidence = " ".join(condition.evidence_notes)
+    # The meta-analysis figures, as reported: red meat, fat, salt.
+    assert "OR 1.51" in evidence
+    assert "OR 1.76" in evidence
+    assert "OR 1.25" in evidence
+    limitations = " ".join(condition.limitations)
+    assert "no sodium, saturated-fat or cholesterol values" in limitations
+    assert "no numeric filter on those nutrients is applied or claimed" in (
+        limitations)
+    assert "not a treatment claim" in limitations
+    assert any("UPTH" in source for source in condition.sources)
+
+
+def test_kidney_and_hypertension_map_to_documented_presets():
+    kidney = get_condition("kidney")
+    assert kidney.preset_id == "low_protein"
+    assert "low-protein" in kidney.preset_mapping_note
+    assert "UPTH" in kidney.preset_mapping_note
+    hypertension = get_condition("hypertension")
+    assert hypertension.preset_id == "low_sodium"
+    assert "UPTH" in hypertension.preset_mapping_note
+    assert any("no numeric sodium filter is applied" in limitation
+               for limitation in hypertension.limitations)
+
+
+def test_diabetes_condition_states_no_gi_filter():
+    condition = get_condition("diabetes")
+    assert condition.preset_id == "standard"
+    evidence = " ".join(condition.evidence_notes)
+    assert "33.00" in evidence  # lowest measured GI, UNTH test meals
+    assert "85%" in evidence  # IMSUTH legume share of protein
+    limitations = " ".join(condition.limitations)
+    assert "no GI, carbohydrate or calorie filter is applied or claimed" in (
+        limitations)
+
+
+def test_every_condition_has_limitations_and_sources():
+    for condition in CONDITIONS.values():
+        assert condition.limitations, condition.id
+        assert condition.sources, condition.id
+        assert condition.evidence_notes, condition.id
+
+
+def test_unknown_condition_is_a_clear_error():
+    with pytest.raises(ValueError, match="Unknown patient condition"):
+        get_condition("gout")
+    with pytest.raises(ValueError, match="Unknown patient condition"):
+        build_condition_menu("gout")
+
+
+def test_condition_menu_classifies_all_14_items_and_sums(menu):
+    result = build_condition_menu("cardiovascular", menu=menu)
+    assert len(result.items) == 14
+    by_status = {}
+    for item in result.items:
+        by_status.setdefault(item.status, []).append(item)
+    assert {i.dish.item_id for i in by_status["kept_as_is"]} == {
+        "beans_and_yam_pottage", "okpa", "moimoi", "pap"}
+    assert {i.dish.item_id for i in by_status["transformed"]} == {
+        "fish", "meat"}
+    assert len(by_status["confirm_with_kitchen"]) == 8
+    for item in by_status["confirm_with_kitchen"]:
+        assert item.recommendation is None
+        assert item.alternative is None
+        assert "Confirm recipe with the kitchen" in item.note
+    # Totals are exactly the chosen alternatives' values, nothing else.
+    chosen = [i.alternative for i in by_status["transformed"]]
+    assert result.transformed_protein_g == pytest.approx(
+        sum(a.protein_g for a in chosen))
+    assert result.transformed_cost_ngn == pytest.approx(
+        sum(a.cost_ngn for a in chosen))
+    assert result.requires_dietitian_signoff is True
+    assert "support dietary management of cardiovascular disease" in (
+        result.framing)
+    assert "not a prescription and not a served menu" in result.framing
+    assert result.evidence_notes == result.condition.evidence_notes
+    assert result.limitations == result.condition.limitations
+
+
+def test_condition_menu_gluten_exclusion_removes_seitan(menu):
+    result = build_condition_menu(
+        "cardiovascular", avoid_allergens=("gluten",), menu=menu)
+    for item in result.items:
+        if item.alternative is not None:
+            assert item.alternative.protein_id != "seitan"
+        if item.recommendation is not None:
+            assert all(a.protein_id != "seitan"
+                       for a in item.recommendation.alternatives)
+            seitan_rejections = [
+                r for r in item.recommendation.rejected
+                if r.protein_id == "seitan"]
+            assert seitan_rejections, (
+                "seitan must be rejected with reasons, not silently dropped")
+
+
+def test_condition_menu_kidney_respects_the_protein_cap(menu):
+    result = build_condition_menu("kidney", menu=menu)
+    assert result.preset.protein_cap_g_per_meal == 20.0
+    transformed = [i for i in result.items if i.status == "transformed"]
+    assert transformed, "kidney bundle should still diversify fish and meat"
+    for item in transformed:
+        assert item.alternative is not None
+        assert item.alternative.protein_g <= 20.0
+
+
+def test_no_condition_claims_a_numeric_nutrient_filter_it_cannot_support():
+    # The honesty contract, pinned: no condition text may claim a sodium,
+    # fat, cholesterol or glycaemic filter/threshold (the project data
+    # holds no such values), and every condition must state a limitation
+    # in negative terms - what it does NOT do.
+    forbidden_claims = (
+        "filters candidates by", "ranked by sodium", "ranked by glycaemic",
+        "sodium threshold", "fat threshold", "cholesterol threshold",
+        "gi threshold", "maximum sodium of", "sodium limit of",
+    )
+    for condition in CONDITIONS.values():
+        text = " ".join(
+            condition.evidence_notes + condition.limitations
+            + (condition.preset_mapping_note,)).lower()
+        for claim in forbidden_claims:
+            assert claim not in text, (condition.id, claim)
+        limitations = " ".join(condition.limitations).lower()
+        assert "no " in limitations or "not " in limitations, condition.id
+
+
+def test_hospital_page_condition_view_renders():
+    from streamlit.testing.v1 import AppTest
+
+    at = AppTest.from_file(str(PAGE), default_timeout=60).run()
+    assert not at.exception
+    at.selectbox(key="patient_condition").set_value("cardiovascular").run()
+    assert not at.exception
+    texts = (
+        [t.value for t in at.title]
+        + [t.value for t in at.subheader]
+        + [t.value for t in at.markdown]
+        + [t.value for t in at.info]
+        + [t.value for t in at.caption]
+        + [t.value.to_string() for t in at.dataframe]
+    )
+    joined = "\n".join(texts)
+    assert "support dietary management of cardiovascular disease" in joined
+    assert "Confirm recipe with the kitchen" in joined
+    assert "no sodium, saturated-fat or cholesterol values" in joined
