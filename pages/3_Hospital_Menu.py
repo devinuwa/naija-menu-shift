@@ -1,1 +1,474 @@
-IiIiSG9zcGl0YWwgZm9vZC1zZXJ2aWNlIG1vZGU6IGRpdmVyc2lmeSBhIGRvY3VtZW50ZWQgaG9zcGl0YWwgbWVudS4KClRoZSBtZW51IHNob3duIGlzIHRoZSB0aGVyYXBldXRpYyBkaWV0IGtpdGNoZW4gbWVudSBhdCBVTlRIIEVudWd1LCBwdWJsaXNoZWQKaW4gTWFkdWZvcm8gZXQgYWwuLCBQYWtpc3RhbiBKb3VybmFsIG9mIE51dHJpdGlvbiAxNSgyKSwgMjAxNiAtIHRoZSBvbmx5CnBlZXItcmV2aWV3ZWQgZXh0cmFjdGlvbiBvZiBhIHJlYWwgTmlnZXJpYW4gaG9zcGl0YWwga2l0Y2hlbiBtZW51IHRoZSB0ZWFtCmNvdWxkIGZpbmQuIFRoaXMgcGFnZSBpcyBkZWNpc2lvbiBzdXBwb3J0IGZvciBkaWV0ZXRpY3MgYW5kIGNhdGVyaW5nIHRlYW1zOgppdCBwcm9wb3NlcyBhZGRpdGlvbmFsIHBsYW50LXByb3RlaW4gb3B0aW9ucyBmb3IgdGhlIHR3byBkaXNoZXMgd2hvc2UgYW5pbWFsCnByb3RlaW4gdGhlIHNvdXJjZSBkb2N1bWVudHMgKGZpc2ggYW5kIG1lYXQpLiBOb3RoaW5nIGhlcmUgaXMgYSBzZXJ2ZWQgbWVudSwKYW5kIGEgZGlldGl0aWFuIG11c3QgYXBwcm92ZSBhbnkgY2hhbmdlIGJlZm9yZSBzZXJ2aWNlLgoKQW4gIkFueSBkaXNoIiBtb2RlIHNpdHMgYmVzaWRlIHRoZSBkb2N1bWVudGVkIG1lbnU6IHN0YWZmIHR5cGUgYW55IGRpc2gKdGhleSBzZXJ2ZSwgbmFtZSB0aGUgYW5pbWFsIHByb3RlaW4gYW5kIHBvcnRpb24gaW4gaXQgdG9kYXkgYW5kIHRoZSBjb29raW5nCm1ldGhvZCwgYW5kIHRoZSBzYW1lIGdhdGVzIHJhbmsgcGxhbnQgYWx0ZXJuYXRpdmVzIGZvciBpdC4gT3JpZ2luYWwtc2lkZQpiYXNlbGluZXMgYXJlIHNob3duIG9ubHkgd2hlcmUgdGhlIHByb2plY3QgZGF0YSBjYXJyaWVzIGEgY2l0ZWQgdmFsdWUuCiIiIgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgcGFuZGFzIGFzIHBkCmltcG9ydCBzdHJlYW1saXQgYXMgc3QKCmZyb20gbWVudXNoaWZ0Lmhvc3BpdGFsIGltcG9ydCAoCiAgICBBQ0NFUFRBQklMSVRZX1ZBTFVFUywKICAgIEFWQUlMQUJJTElUWV9WQUxVRVMsCiAgICBDT1NUX1JFQUxJU1RJQ19WQUxVRVMsCiAgICBDVVJSRU5UX1BST1RFSU5fTEFCRUxTLAogICAgREVGQVVMVF9GRUVEQkFDS19QQVRILAogICAgTUVOVV9TT1VSQ0UsCiAgICBNRVRIT0RfTEFCRUxTLAogICAgTUVUSE9EX1JFUVVJUkVNRU5UUywKICAgIFBSQUNUSUNBTElUWV9WQUxVRVMsCiAgICBUSEVSQVBFVVRJQ19QUkVTRVRTLAogICAgYXBwZW5kX2hvc3BpdGFsX2ZlZWRiYWNrLAogICAgYnVpbGRfYW55X2Rpc2hfY29tcGFyaXNvbiwKICAgIGJ1aWxkX2NvbXBhcmlzb24sCiAgICBsb2FkX3VudGhfbWVudSwKICAgIHBsYW50X3Byb3RlaW5fZGF0YXNldCwKICAgIHJlY29tbWVuZF9mb3JfZGlzaCwKICAgIHN1Z2dlc3RfZm9yX2FueV9kaXNoLAopCmZyb20gbWVudXNoaWZ0LnNhZmV0eSBpbXBvcnQgS05PV05fQUxMRVJHRU5TCgpzdC5zZXRfcGFnZV9jb25maWcoCiAgICBwYWdlX3RpdGxlPSJIb3NwaXRhbCBNZW51IHwgTmFpamEgTWVudVNoaWZ0IiwKICAgIHBhZ2VfaWNvbj0i8J+PpSIsCiAgICBsYXlvdXQ9IndpZGUiLAogICAgaW5pdGlhbF9zaWRlYmFyX3N0YXRlPSJjb2xsYXBzZWQiLAopCnN0LnRpdGxlKCJIb3NwaXRhbCBmb29kIHNlcnZpY2Ug4oCUIGRpdmVyc2lmeSB0aGUgZG9jdW1lbnRlZCBtZW51IikKc3QuY2FwdGlvbigiVGVhbSBTcHJvdXQgwrcgaG9zcGl0YWwgbW9kZSDCtyBkZWNpc2lvbiBzdXBwb3J0IGZvciBkaWV0ZXRpY3MgYW5kIGNhdGVyaW5nIHRlYW1zIikKc3Qud2FybmluZygKICAgICJEZWNpc2lvbiBzdXBwb3J0IG9ubHkuIFRoaXMgaXMgbm90IGEgc2VydmVkIG1lbnUgYW5kIG5vdCBjbGluaWNhbCAiCiAgICAiZ3VpZGFuY2U6IGEgZGlldGl0aWFuIG11c3QgYXBwcm92ZSBhbnkgY2hhbmdlIGJlZm9yZSBpdCByZWFjaGVzIGEgIgogICAgInBhdGllbnQuIE1lbnUgc291cmNlOiAiICsgTUVOVV9TT1VSQ0UgKyAiLiIKKQoKbWVudSA9IGxvYWRfdW50aF9tZW51KCkKCnN0LnN1YmhlYWRlcigiVGhlIGRvY3VtZW50ZWQgbWVudSDigJQgVU5USCBFbnVndSB0aGVyYXBldXRpYyBkaWV0IGtpdGNoZW4iKQpzdC53cml0ZSgKICAgICJGb3VydGVlbiBpdGVtcywgZXhhY3RseSBhcyBwdWJsaXNoZWQuIFRoZSBzdHVkeSBkb2VzIG5vdCBzcGxpdCB0aGVtICIKICAgICJpbnRvIGJyZWFrZmFzdCwgbHVuY2ggb3IgZGlubmVyIGFuZCBwdWJsaXNoZXMgbm8gbWVudSBjeWNsZSwgc28gdGhpcyAiCiAgICAicGFnZSBkb2Vzbid0IGludmVudCBvbmUuIE9ubHkgZmlzaCBhbmQgbWVhdCBjYXJyeSBhIGRvY3VtZW50ZWQgYW5pbWFsICIKICAgICJwcm90ZWluOyBzdGV3IGFuZCB0aGUgc291cHMgYXJlIGxpc3RlZCB3aXRob3V0IHN0YXRlZCBjb250ZW50cyBhbmQgYXJlICIKICAgICJuZXZlciBhc3NpZ25lZCBvbmUgaGVyZS4iCikKbWVudV9mcmFtZSA9IHBkLkRhdGFGcmFtZSgKICAgIFsKICAgICAgICB7CiAgICAgICAgICAgICJJdGVtIjogZGlzaC5uYW1lLAogICAgICAgICAgICAiRG9jdW1lbnRlZCBhbmltYWwgcHJvdGVpbiI6IGRpc2guZG9jdW1lbnRlZF9hbmltYWxfcHJvdGVpbiBvciAi4oCUIiwKICAgICAgICAgICAgIlN0YXR1cyI6IHsKICAgICAgICAgICAgICAgICJkb2N1bWVudGVkX2FuaW1hbCI6ICJBbmltYWwgcHJvdGVpbiBkb2N1bWVudGVkIiwKICAgICAgICAgICAgICAgICJhbHJlYWR5X3BsYW50X2Jhc2VkIjogIkFscmVhZHkgcGxhbnQtYmFzZWQiLAogICAgICAgICAgICAgICAgInVuc3BlY2lmaWVkIjogIkNvbnRlbnRzIG5vdCBzcGVjaWZpZWQgaW4gc291cmNlIiwKICAgICAgICAgICAgICAgICJub25lX2RvY3VtZW50ZWQiOiAiTm8gYW5pbWFsIHByb3RlaW4gZG9jdW1lbnRlZCIsCiAgICAgICAgICAgIH1bZGlzaC5wcm90ZWluX3N0YXR1c10sCiAgICAgICAgICAgICJOb3RlIjogZGlzaC5ub3RlcywKICAgICAgICB9CiAgICAgICAgZm9yIGRpc2ggaW4gbWVudQogICAgXQopCnN0LmRhdGFmcmFtZShtZW51X2ZyYW1lLCBoaWRlX2luZGV4PVRydWUsIHdpZHRoPSJzdHJldGNoIikKCndpdGggc3QuZXhwYW5kZXIoIlBsYW50IHByb3RlaW4gZGF0YXNldCDigJQgdGhlIGNhdGFsb2d1ZSB0aGUgc3VnZ2VzdGlvbnMgY29tZSBmcm9tIik6CiAgICBzdC53cml0ZSgKICAgICAgICAiRXZlcnkgcGxhbnQgcHJvdGVpbiB0aGUgZW5naW5lIGNhbiBzdWdnZXN0LCB3aXRoIHRoZSB2YWx1ZXMgaXQgIgogICAgICAgICJyYW5rcyBvbi4gUmVuZGVyZWQgZGlyZWN0bHkgZnJvbSB0aGUgZnVuY3Rpb25hbCBjYXRhbG9ndWUgYW5kIHRoZSAiCiAgICAgICAgImhvc3BpdGFsIHByaWNlIHRhYmxlIOKAlCB0aGUgc2FtZSByb3dzIHRoZSBlbmdpbmUgdXNlcywgbm90IGEgIgogICAgICAgICJoYW5kLXR5cGVkIGNvcHkuIFByaWNlcyBmbGFnZ2VkIGRlcml2ZWQgYXJlIG1vZGVsbGVkIGVzdGltYXRlcyAiCiAgICAgICAgIihzZWUgdGhlIGJhc2lzKTsgdmVyaWZ5IGF0IG1hcmtldCBiZWZvcmUgcXVvdGluZy4gRnVuY3Rpb25hbCAiCiAgICAgICAgImxldmVscyBhcmUgcXVhbGl0YXRpdmUsIGxpdGVyYXR1cmUtYmFzZWQgZGVzY3JpcHRvcnMsIG5vdCBsYWIgIgogICAgICAgICJtZWFzdXJlbWVudHMuIERhd2FkYXdhIGlzIGxpc3RlZCBhcyBhbiBhZGp1bmN0OiBpdCBpcyBhIHNlYXNvbmluZyAiCiAgICAgICAgInVzZWQgYXQgNeKAkzEwIGcgcGVyIHNlcnZpbmcgYW5kIGlzIG5ldmVyIHJhbmtlZCBhcyBhIG1haW4gcHJvdGVpbi4iCiAgICApCiAgICBkYXRhc2V0X2ZyYW1lID0gcGQuRGF0YUZyYW1lKAogICAgICAgIFsKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgIlByb3RlaW4iOiByb3cubmFtZSwKICAgICAgICAgICAgICAgICJSb2xlIjogKAogICAgICAgICAgICAgICAgICAgICJSYW5rZWQgY2FuZGlkYXRlIiBpZiByb3cucm9sZSA9PSAiY2FuZGlkYXRlIgogICAgICAgICAgICAgICAgICAgIGVsc2UgIkFkanVuY3QgKHNlYXNvbmluZyDigJQgbm90IHJhbmtlZCkiCiAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgIlByb3RlaW4gKGcvMTAwIGcpIjogcm93LnByb3RlaW5fZ19wZXJfMTAwZywKICAgICAgICAgICAgICAgICJQcmljZSAoTkdOL2tnKSI6IHJvdy5wcmljZV9uZ25fcGVyX2tnLAogICAgICAgICAgICAgICAgIlByaWNlIGRlcml2ZWQ/IjogIlllcyDigJQgbW9kZWxsZWQiIGlmIHJvdy5wcmljZV9kZXJpdmVkIGVsc2UgIk5vIiwKICAgICAgICAgICAgICAgICJQcmljZSBiYXNpcyI6IHJvdy5wcmljZV9iYXNpcywKICAgICAgICAgICAgICAgICJGdW5jdGlvbmFsIHByb2ZpbGUiOiAoCiAgICAgICAgICAgICAgICAgICAgZiJTb2x1YmlsaXR5IHtyb3cuZnVuY3Rpb25hbC5zb2x1YmlsaXR5fSDCtyAiCiAgICAgICAgICAgICAgICAgICAgZiJXYXRlci1ob2xkaW5nIHtyb3cuZnVuY3Rpb25hbC53YXRlcl9ob2xkaW5nfSDCtyAiCiAgICAgICAgICAgICAgICAgICAgZiJFbXVsc2lmaWNhdGlvbiB7cm93LmZ1bmN0aW9uYWwuZW11bHNpZmljYXRpb259IMK3ICIKICAgICAgICAgICAgICAgICAgICBmIkdlbGF0aW9uIHtyb3cuZnVuY3Rpb25hbC5nZWxhdGlvbn0iCiAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgIkFsbGVyZ2VucyI6ICgKICAgICAgICAgICAgICAgICAgICAiLCAiLmpvaW4ocm93LmFsbGVyZ2VucykgaWYgcm93LmFsbGVyZ2VucwogICAgICAgICAgICAgICAgICAgIGVsc2UgIk5vbmUgZGVjbGFyZWQgKG5vdCBhIGNyb3NzLWNvbnRhY3QgY2VydGlmaWNhdGlvbikiCiAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgIk51dHJpdGlvbiBzb3VyY2UiOiByb3cubnV0cml0aW9uX3NvdXJjZSwKICAgICAgICAgICAgfQogICAgICAgICAgICBmb3Igcm93IGluIHBsYW50X3Byb3RlaW5fZGF0YXNldCgpCiAgICAgICAgXQogICAgKQogICAgc3QuZGF0YWZyYW1lKGRhdGFzZXRfZnJhbWUsIGhpZGVfaW5kZXg9VHJ1ZSwgd2lkdGg9InN0cmV0Y2giKQoKc3Quc3ViaGVhZGVyKCJEaXZlcnNpZnkgYSBkaXNoIikKbW9kZSA9IHN0LnJhZGlvKAogICAgIldoaWNoIGRpc2g/IiwKICAgIFsiRG9jdW1lbnRlZCBVTlRIIG1lbnUiLCAiQW55IGRpc2ggKHR5cGUgeW91ciBvd24pIl0sCiAgICBob3Jpem9udGFsPVRydWUsCikKCnJlc3VsdCA9IE5vbmUKY29tcGFyaXNvbiA9IE5vbmUKZmVlZGJhY2tfZGlzaCA9ICIiCnByZXNldF9pZCA9ICJzdGFuZGFyZCIKCmlmIG1vZGUgPT0gIkRvY3VtZW50ZWQgVU5USCBtZW51IjoKICAgIHRyYW5zZm9ybWFibGUgPSBbZCBmb3IgZCBpbiBtZW51IGlmIGQucHJvdGVpbl9zdGF0dXMgPT0gImRvY3VtZW50ZWRfYW5pbWFsIl0KICAgIGRpc2hfbmFtZSA9IHN0LnNlbGVjdGJveCgKICAgICAgICAiTWVudSBpdGVtIHdpdGggYSBkb2N1bWVudGVkIGFuaW1hbCBwcm90ZWluIiwKICAgICAgICBbZC5uYW1lIGZvciBkIGluIHRyYW5zZm9ybWFibGVdLAogICAgKQogICAgcHJlc2V0X2lkID0gc3Quc2VsZWN0Ym94KAogICAgICAgICJUaGVyYXBldXRpYyBwcmVzZXQgKGNvbnN0cmFpbnQgYnVuZGxlLCBzb3VyY2VzIHNob3duIHdpdGggdGhlIHJlc3VsdCkiLAogICAgICAgIGxpc3QoVEhFUkFQRVVUSUNfUFJFU0VUUyksCiAgICAgICAgZm9ybWF0X2Z1bmM9bGFtYmRhIGtleTogVEhFUkFQRVVUSUNfUFJFU0VUU1trZXldLmxhYmVsLAogICAgKQogICAgYXZvaWQgPSBzdC5tdWx0aXNlbGVjdCgKICAgICAgICAiQWxsZXJnZW4gZXhjbHVzaW9ucyAoZmFpbCBjbG9zZWQg4oCUIGFuIGV4Y2x1ZGVkIGFsbGVyZ2VuIHJlbW92ZXMgdGhlIG9wdGlvbikiLAogICAgICAgIHNvcnRlZChLTk9XTl9BTExFUkdFTlMpLAogICAgKQogICAgYnVkZ2V0ID0gc3QubnVtYmVyX2lucHV0KAogICAgICAgICJCdWRnZXQgY2FwIHBlciBwb3J0aW9uIChOR04sIHBsYW5uaW5nIHBhcmFtZXRlcikiLAogICAgICAgIG1pbl92YWx1ZT0xMDAuMCwgbWF4X3ZhbHVlPTIwMDAwLjAsIHZhbHVlPTE1MDAuMCwgc3RlcD01MC4wLAogICAgKQogICAgZmxvb3IgPSBzdC5udW1iZXJfaW5wdXQoCiAgICAgICAgIk1pbmltdW0gcHJvdGVpbiBwZXIgcG9ydGlvbiAoZykg4oCUIGxlYXZlIHRoZSBwcmVzZXQncyBmbG9vciBpbiBwbGFjZSBieSBrZWVwaW5nIHRoaXMgYXQgMCIsCiAgICAgICAgbWluX3ZhbHVlPTAuMCwgbWF4X3ZhbHVlPTEwMC4wLCB2YWx1ZT0wLjAsIHN0ZXA9MS4wLAogICAgKQogICAgcmVzdWx0ID0gcmVjb21tZW5kX2Zvcl9kaXNoKAogICAgICAgIGRpc2hfbmFtZSwKICAgICAgICBwcmVzZXRfaWQ9cHJlc2V0X2lkLAogICAgICAgIGF2b2lkX2FsbGVyZ2Vucz10dXBsZShhdm9pZCksCiAgICAgICAgYnVkZ2V0X25nbj1mbG9hdChidWRnZXQpLAogICAgICAgIHByb3RlaW5fZmxvb3JfZz1mbG9hdChmbG9vcikgaWYgZmxvb3IgPiAwIGVsc2UgTm9uZSwKICAgICkKICAgIGNvbXBhcmlzb24gPSBidWlsZF9jb21wYXJpc29uKHJlc3VsdCkKICAgIGZlZWRiYWNrX2Rpc2ggPSBkaXNoX25hbWUKZWxzZToKICAgIHN0LndyaXRlKAogICAgICAgICJUeXBlIGFueSBkaXNoIHlvdXIga2l0Y2hlbiBzZXJ2ZXMuIFRoZSBzYW1lIGhhcmQgZ2F0ZXMgcmFuayB0aGUgIgogICAgICAgICJwbGFudCBhbHRlcm5hdGl2ZXM6IGFsbGVyZ2VuIGV4Y2x1c2lvbnMgZmFpbCBjbG9zZWQsIHRoZSBwcm90ZWluICIKICAgICAgICAibXVzdCBzdXJ2aXZlIHRoZSBjb29raW5nIG1ldGhvZCwgYW5kIHRoZSBwcmVzZXQncyBmbG9vciBvciBjYXAgIgogICAgICAgICJhcHBsaWVzLiBXaGVyZSB0aGUgcHJvamVjdCBkYXRhIGhhcyBubyBjaXRlZCB2YWx1ZSBmb3IgdGhlICIKICAgICAgICAib3JpZ2luYWwgcHJvdGVpbiAoZmlzaCwgZ29hdCwgZWdnKSwgdGhlIG9yaWdpbmFsIHNpZGUgb2YgdGhlICIKICAgICAgICAiY29tcGFyaXNvbiBpcyBzaG93biBhcyBubyBjaXRlZCB2YWx1ZSDigJQgbmV2ZXIgZXN0aW1hdGVkLiIKICAgICkKICAgIGN1c3RvbV9uYW1lID0gc3QudGV4dF9pbnB1dCgKICAgICAgICAiRGlzaCBuYW1lIChhcyB5b3VyIGtpdGNoZW4gY2FsbHMgaXQpIiwKICAgICAgICBwbGFjZWhvbGRlcj0iZS5nLiBHcmlsbGVkIGJlZWYgc2tld2VycyIsCiAgICApCiAgICBjdXJyZW50X3Byb3RlaW4gPSBzdC5zZWxlY3Rib3goCiAgICAgICAgIkFuaW1hbCBwcm90ZWluIGluIHRoZSBkaXNoIHRvZGF5IiwKICAgICAgICBsaXN0KENVUlJFTlRfUFJPVEVJTl9MQUJFTFMpLAogICAgICAgIGZvcm1hdF9mdW5jPWxhbWJkYSBrZXk6IENVUlJFTlRfUFJPVEVJTl9MQUJFTFNba2V5XSwKICAgICkKICAgIHBvcnRpb25fZyA9IHN0Lm51bWJlcl9pbnB1dCgKICAgICAgICAiUG9ydGlvbiBvZiB0aGF0IHByb3RlaW4gcGVyIHNlcnZpbmcgKGcpIiwKICAgICAgICBtaW5fdmFsdWU9MTAuMCwgbWF4X3ZhbHVlPTUwMC4wLCB2YWx1ZT0xMDAuMCwgc3RlcD0xMC4wLAogICAgKQogICAgbWV0aG9kID0gc3Quc2VsZWN0Ym94KAogICAgICAgICJDb29raW5nIG1ldGhvZCIsCiAgICAgICAgbGlzdChNRVRIT0RfUkVRVUlSRU1FTlRTKSwKICAgICAgICBmb3JtYXRfZnVuYz1sYW1iZGEga2V5OiBNRVRIT0RfTEFCRUxTW2tleV0sCiAgICApCiAgICBwcmVzZXRfaWQgPSBzdC5zZWxlY3Rib3goCiAgICAgICAgIlRoZXJhcGV1dGljIHByZXNldCAoY29uc3RyYWludCBidW5kbGUsIHNvdXJjZXMgc2hvd24gd2l0aCB0aGUgcmVzdWx0KSIsCiAgICAgICAgbGlzdChUSEVSQVBFVVRJQ19QUkVTRVRTKSwKICAgICAgICBmb3JtYXRfZnVuYz1sYW1iZGEga2V5OiBUSEVSQVBFVVRJQ19QUkVTRVRTW2tleV0ubGFiZWwsCiAgICApCiAgICBhdm9pZCA9IHN0Lm11bHRpc2VsZWN0KAogICAgICAgICJBbGxlcmdlbiBleGNsdXNpb25zIChmYWlsIGNsb3NlZCDigJQgYW4gZXhjbHVkZWQgYWxsZXJnZW4gcmVtb3ZlcyB0aGUgb3B0aW9uKSIsCiAgICAgICAgc29ydGVkKEtOT1dOX0FMTEVSR0VOUyksCiAgICApCiAgICBidWRnZXQgPSBzdC5udW1iZXJfaW5wdXQoCiAgICAgICAgIkJ1ZGdldCBjYXAgcGVyIHBvcnRpb24gKE5HTiwgcGxhbm5pbmcgcGFyYW1ldGVyKSIsCiAgICAgICAgbWluX3ZhbHVlPTEwMC4wLCBtYXhfdmFsdWU9MjAwMDAuMCwgdmFsdWU9MTUwMC4wLCBzdGVwPTUwLjAsCiAgICApCiAgICBmbG9vciA9IHN0Lm51bWJlcl9pbnB1dCgKICAgICAgICAiTWluaW11bSBwcm90ZWluIHBlciBwb3J0aW9uIChnKSDigJQgbGVhdmUgdGhlIHByZXNldCdzIGZsb29yIGluIHBsYWNlIGJ5IGtlZXBpbmcgdGhpcyBhdCAwIiwKICAgICAgICBtaW5fdmFsdWU9MC4wLCBtYXhfdmFsdWU9MTAwLjAsIHZhbHVlPTAuMCwgc3RlcD0xLjAsCiAgICApCiAgICBmZWVkYmFja19kaXNoID0gY3VzdG9tX25hbWUuc3RyaXAoKSBvciAiQW55IGRpc2ggKHVubmFtZWQpIgogICAgaWYgbm90IGN1c3RvbV9uYW1lLnN0cmlwKCk6CiAgICAgICAgc3QuaW5mbygiVHlwZSB0aGUgZGlzaCBuYW1lIGFib3ZlIHRvIGdldCBpdHMgcmFua2VkIGFsdGVybmF0aXZlcy4iKQogICAgZWxzZToKICAgICAgICB0cnk6CiAgICAgICAgICAgIHJlc3VsdCA9IHN1Z2dlc3RfZm9yX2FueV9kaXNoKAogICAgICAgICAgICAgICAgY3VzdG9tX25hbWUsCiAgICAgICAgICAgICAgICBjdXJyZW50X3Byb3RlaW49Y3VycmVudF9wcm90ZWluLAogICAgICAgICAgICAgICAgcG9ydGlvbl9nPWZsb2F0KHBvcnRpb25fZyksCiAgICAgICAgICAgICAgICBtZXRob2Q9bWV0aG9kLAogICAgICAgICAgICAgICAgcHJlc2V0X2lkPXByZXNldF9pZCwKICAgICAgICAgICAgICAgIGF2b2lkX2FsbGVyZ2Vucz10dXBsZShhdm9pZCksCiAgICAgICAgICAgICAgICBidWRnZXRfbmduPWZsb2F0KGJ1ZGdldCksCiAgICAgICAgICAgICAgICBwcm90ZWluX2Zsb29yX2c9ZmxvYXQoZmxvb3IpIGlmIGZsb29yID4gMCBlbHNlIE5vbmUsCiAgICAgICAgICAgICkKICAgICAgICAgICAgY29tcGFyaXNvbiA9IGJ1aWxkX2FueV9kaXNoX2NvbXBhcmlzb24ocmVzdWx0KQogICAgICAgIGV4Y2VwdCBWYWx1ZUVycm9yIGFzIGV4YzoKICAgICAgICAgICAgc3QuZXJyb3Ioc3RyKGV4YykpCiAgICAgICAgICAgIHJlc3VsdCA9IE5vbmUKICAgICAgICAgICAgY29tcGFyaXNvbiA9IE5vbmUKCmlmIHJlc3VsdCBpcyBub3QgTm9uZToKICAgIHN0LmluZm8ocmVzdWx0LnNpZ25vZmZfbm90ZSkKICAgIGZvciBub3RlIGluIHJlc3VsdC5ub3RlczoKICAgICAgICBzdC53cml0ZSgi4oCiICIgKyBub3RlKQoKaWYgY29tcGFyaXNvbiBpcyBub3QgTm9uZToKICAgIHN0LnN1YmhlYWRlcigiT3JpZ2luYWwgdnMgbW9kaWZpZWQg4oCUIHNpZGUgYnkgc2lkZSIpCiAgICBzdC53cml0ZSgKICAgICAgICBmIlBvcnRpb24gYmFzaXM6IHtjb21wYXJpc29uLnBvcnRpb25fZzpnfSBnIGZvciBib3RoIHNpZGVzLiAiCiAgICAgICAgIkNhbG9yaWVzIGFyZSBvbWl0dGVkOiBubyBjaXRlZCBjYWxvcmllIHZhbHVlIGV4aXN0cyBpbiB0aGUgcHJvamVjdCAiCiAgICAgICAgImRhdGEgZm9yIGJvdGggc2lkZXMsIGFuZCB0aGlzIHRvb2wgZG9lcyBub3QgZXN0aW1hdGUgdGhlbS4iCiAgICApCgogICAgZGVmIF9mbXQodmFsdWU6IGZsb2F0IHwgTm9uZSwgdW5pdDogc3RyKSAtPiBzdHI6CiAgICAgICAgcmV0dXJuICJObyBjaXRlZCB2YWx1ZSBpbiBwcm9qZWN0IGRhdGEiIGlmIHZhbHVlIGlzIE5vbmUgZWxzZSBmInt2YWx1ZTpnfSB7dW5pdH0iCgogICAgZGVmIF9mdW5jdGlvbmFsKHByb2ZpbGUpIC0+IHN0cjoKICAgICAgICBpZiBwcm9maWxlIGlzIE5vbmU6CiAgICAgICAgICAgIHJldHVybiAiTm90IHJlY29yZGVkIGluIHByb2plY3QgZGF0YSIKICAgICAgICByZXR1cm4gKAogICAgICAgICAgICBmIlNvbHViaWxpdHkge3Byb2ZpbGUuc29sdWJpbGl0eX0gwrcgV2F0ZXItaG9sZGluZyB7cHJvZmlsZS53YXRlcl9ob2xkaW5nfSDCtyAiCiAgICAgICAgICAgIGYiRW11bHNpZmljYXRpb24ge3Byb2ZpbGUuZW11bHNpZmljYXRpb259IMK3IEdlbGF0aW9uIHtwcm9maWxlLmdlbGF0aW9ufSIKICAgICAgICApCgogICAgZGVmIF9hbGxlcmdlbnMobGFiZWxzKSAtPiBzdHI6CiAgICAgICAgaWYgbGFiZWxzIGlzIE5vbmU6CiAgICAgICAgICAgIHJldHVybiAiTm90IHJlY29yZGVkIGluIHByb2plY3QgZGF0YSIKICAgICAgICByZXR1cm4gIiwgIi5qb2luKGxhYmVscykgaWYgbGFiZWxzIGVsc2UgIk5vbmUgZGVjbGFyZWQgKG5vdCBhIGNyb3NzLWNvbnRhY3QgY2VydGlmaWNhdGlvbikiCgogICAgY29tcGFyZV9mcmFtZSA9IHBkLkRhdGFGcmFtZSgKICAgICAgICBbCiAgICAgICAgICAgIHsiTWVhc3VyZSI6ICJQcm90ZWluIiwgIk9yaWdpbmFsIjogX2ZtdChjb21wYXJpc29uLm9yaWdpbmFsX3Byb3RlaW5fZywgImciKSwKICAgICAgICAgICAgICJNb2RpZmllZCI6IF9mbXQoY29tcGFyaXNvbi5hbHRlcm5hdGl2ZV9wcm90ZWluX2csICJnIil9LAogICAgICAgICAgICB7Ik1lYXN1cmUiOiAiQ29zdCBwZXIgc2VydmluZyIsICJPcmlnaW5hbCI6IF9mbXQoY29tcGFyaXNvbi5vcmlnaW5hbF9jb3N0X25nbiwgIk5HTiIpLAogICAgICAgICAgICAgIk1vZGlmaWVkIjogX2ZtdChjb21wYXJpc29uLmFsdGVybmF0aXZlX2Nvc3RfbmduLCAiTkdOIil9LAogICAgICAgICAgICB7Ik1lYXN1cmUiOiAiUHJlcCB0aW1lIiwgIk9yaWdpbmFsIjogX2ZtdChjb21wYXJpc29uLm9yaWdpbmFsX3ByZXBfbWludXRlcywgIm1pbiIpLAogICAgICAgICAgICAgIk1vZGlmaWVkIjogX2ZtdChjb21wYXJpc29uLmFsdGVybmF0aXZlX3ByZXBfbWludXRlcywgIm1pbiIpfSwKICAgICAgICAgICAgeyJNZWFzdXJlIjogIkZ1bmN0aW9uYWwgZml0IChxdWFsaXRhdGl2ZSwgbm90IGxhYi1tZWFzdXJlZCkiLAogICAgICAgICAgICAgIk9yaWdpbmFsIjogX2Z1bmN0aW9uYWwoY29tcGFyaXNvbi5vcmlnaW5hbF9mdW5jdGlvbmFsKSwKICAgICAgICAgICAgICJNb2RpZmllZCI6IF9mdW5jdGlvbmFsKGNvbXBhcmlzb24uYWx0ZXJuYXRpdmVfZnVuY3Rpb25hbCl9LAogICAgICAgICAgICB7Ik1lYXN1cmUiOiAiQWxsZXJnZW5zIiwgIk9yaWdpbmFsIjogX2FsbGVyZ2Vucyhjb21wYXJpc29uLm9yaWdpbmFsX2FsbGVyZ2VucyksCiAgICAgICAgICAgICAiTW9kaWZpZWQiOiBfYWxsZXJnZW5zKGNvbXBhcmlzb24uYWx0ZXJuYXRpdmVfYWxsZXJnZW5zKX0sCiAgICAgICAgXQogICAgKQogICAgc3QuZGF0YWZyYW1lKGNvbXBhcmVfZnJhbWUsIGhpZGVfaW5kZXg9VHJ1ZSwgd2lkdGg9InN0cmV0Y2giKQogICAgZm9yIG5vdGUgaW4gY29tcGFyaXNvbi5ub3RlczoKICAgICAgICBzdC5jYXB0aW9uKG5vdGUpCgppZiByZXN1bHQgaXMgbm90IE5vbmUgYW5kIHJlc3VsdC5hbHRlcm5hdGl2ZXM6CiAgICBzdC5zdWJoZWFkZXIoIlJlY29tbWVuZGVkIGFkZGl0aW9uYWwgb3B0aW9ucyAocmFua2VkKSIpCiAgICBmb3IgYWx0IGluIHJlc3VsdC5hbHRlcm5hdGl2ZXM6CiAgICAgICAgZGVyaXZlZCA9ICIgwrcgcHJpY2UgZGVyaXZlZC9tb2RlbGxlZCDigJQgc2VlIGJhc2lzIiBpZiBhbHQucHJpY2VfZGVyaXZlZCBlbHNlICIiCiAgICAgICAgc3QubWFya2Rvd24oZiIqKnthbHQubmFtZX0g4oCUIHthbHQucG9ydGlvbl9nOmd9IGcgcG9ydGlvbioqIikKICAgICAgICBjb2xzID0gc3QuY29sdW1ucyg0KQogICAgICAgIGNvbHNbMF0ubWV0cmljKCJQcm90ZWluIiwgZiJ7YWx0LnByb3RlaW5fZzpnfSBnIikKICAgICAgICBjb2xzWzFdLm1ldHJpYygiRXN0aW1hdGVkIGNvc3QiLCBmIk5HTiB7YWx0LmNvc3RfbmduOiwuMmZ9IikKICAgICAgICBjb2xzWzJdLm1ldHJpYygiUHJlcCAocGxhbm5pbmcgZXN0aW1hdGUpIiwgZiJ7YWx0LnByZXBfbWludXRlczpnfSBtaW4iKQogICAgICAgIGNvbHNbM10ubWV0cmljKCJBbGxlcmdlbnMiLCAiLCAiLmpvaW4oYWx0LmFsbGVyZ2VucykgaWYgYWx0LmFsbGVyZ2VucyBlbHNlICJOb25lIGRlY2xhcmVkIikKICAgICAgICBzdC53cml0ZSgKICAgICAgICAgICAgIkZ1bmN0aW9uYWwgcHJvcGVydGllcyAocXVhbGl0YXRpdmUsIGxpdGVyYXR1cmUtYmFzZWQg4oCUIG5vdCBsYWIgIgogICAgICAgICAgICBmIm1lYXN1cmVtZW50cyk6IHNvbHViaWxpdHkge2FsdC5mdW5jdGlvbmFsLnNvbHViaWxpdHl9LCAiCiAgICAgICAgICAgIGYid2F0ZXItaG9sZGluZyB7YWx0LmZ1bmN0aW9uYWwud2F0ZXJfaG9sZGluZ30sIGVtdWxzaWZpY2F0aW9uICIKICAgICAgICAgICAgZiJ7YWx0LmZ1bmN0aW9uYWwuZW11bHNpZmljYXRpb259LCBnZWxhdGlvbiB7YWx0LmZ1bmN0aW9uYWwuZ2VsYXRpb259LiIKICAgICAgICApCiAgICAgICAgc3Qud3JpdGUoYWx0LmtpdGNoZW5fbWVhbmluZykKICAgICAgICBmb3IgcmVhc29uIGluIGFsdC5yZWFzb25zOgogICAgICAgICAgICBzdC53cml0ZSgi4oCiICIgKyByZWFzb24pCiAgICAgICAgc3QuY2FwdGlvbihmIlByaWNlIGJhc2lzOiB7YWx0LnByaWNlX2Jhc2lzfXtkZXJpdmVkfSIpCiAgICAgICAgc3QuY2FwdGlvbihmIk51dHJpdGlvbiBzb3VyY2U6IHthbHQubnV0cml0aW9uX3NvdXJjZX0iKQplbGlmIHJlc3VsdCBpcyBub3QgTm9uZSBhbmQgcmVzdWx0LnN0YXR1cyA9PSAib2siOgogICAgc3QuZXJyb3IoCiAgICAgICAgIk5vIHBsYW50IGFsdGVybmF0aXZlIHBhc3NlcyBldmVyeSBoYXJkIGNvbnN0cmFpbnQgdW5kZXIgdGhpcyBwcmVzZXQuICIKICAgICAgICAiVGhhdCBpcyBhIHZhbGlkIHJlc3VsdCDigJQgdGhlIHJlamVjdGVkIG9wdGlvbnMgYmVsb3cgc2hvdyBleGFjdGx5IHdoeS4iCiAgICApCgppZiByZXN1bHQgaXMgbm90IE5vbmUgYW5kIHJlc3VsdC5yZWplY3RlZDoKICAgIHN0LnN1YmhlYWRlcigiUmVqZWN0ZWQsIHdpdGggcmVhc29ucyAobGFyZ2VzdCBwb3J0aW9uIHRyaWVkIHBlciBwcm90ZWluKSIpCiAgICBmb3IgcmVqIGluIHJlc3VsdC5yZWplY3RlZDoKICAgICAgICBzdC53cml0ZShmIioqe3Jlai5uYW1lfSDigJQge3Jlai5wb3J0aW9uX2c6Z30gZyoqOiAiICsgIjsgIi5qb2luKHJlai5yZWFzb25zKSkKCmlmIHJlc3VsdCBpcyBub3QgTm9uZSBhbmQgcmVzdWx0LmV2aWRlbmNlX3dhcm5pbmdzOgogICAgc3Quc3ViaGVhZGVyKCJFdmlkZW5jZSB3YXJuaW5ncyIpCiAgICBmb3Igd2FybmluZyBpbiByZXN1bHQuZXZpZGVuY2Vfd2FybmluZ3M6CiAgICAgICAgc3Qud3JpdGUoIuKAoiAiICsgd2FybmluZykKCnN0LnN1YmhlYWRlcigiS2l0Y2hlbiBmZWVkYmFjayIpCnN0LndyaXRlKAogICAgIlVzZWQgdGhpcyB0cmFuc2Zvcm1hdGlvbiBpbiBhIHJlYWwga2l0Y2hlbj8gUmVjb3JkIHdoYXQgeW91IGZvdW5kLiAiCiAgICAiRmVlZGJhY2sgaXMgc3RvcmVkIGZvciB0ZWFtIHJldmlldyBhbmQgdXNlZCB0byBpbXByb3ZlIHRoZSBkYXRhIGFuZCAiCiAgICAicmVjb21tZW5kYXRpb25zIOKAlCB0aGUgYXBwIGRvZXMgbm90IGxlYXJuIGF1dG9tYXRpY2FsbHksIGFuZCBub3RoaW5nICIKICAgICJjaGFuZ2VzIHVudGlsIGEgcGVyc29uIHJldmlld3MgaXQuIgopCmlmIHJlc3VsdCBpcyBub3QgTm9uZSBhbmQgcmVzdWx0LmFsdGVybmF0aXZlczoKICAgIGZlZWRiYWNrX2FsdGVybmF0aXZlID0gcmVzdWx0LmFsdGVybmF0aXZlc1swXS5uYW1lCmVsc2U6CiAgICBmZWVkYmFja19hbHRlcm5hdGl2ZSA9ICJub25lIHJlY29tbWVuZGVkIgp3aXRoIHN0LmZvcm0oImhvc3BpdGFsX2ZlZWRiYWNrX2Zvcm0iKToKICAgIGZiX2F2YWlsYWJpbGl0eSA9IHN0LnNlbGVjdGJveCgiSW5ncmVkaWVudCBhdmFpbGFiaWxpdHkiLCBsaXN0KEFWQUlMQUJJTElUWV9WQUxVRVMpKQogICAgZmJfcHJhY3RpY2FsaXR5ID0gc3Quc2VsZWN0Ym94KCJQcmFjdGljYWxpdHkgb2YgcHJlcGFyYXRpb24iLCBsaXN0KFBSQUNUSUNBTElUWV9WQUxVRVMpKQogICAgZmJfY29zdCA9IHN0LnNlbGVjdGJveCgiV2FzIHRoZSBjb3N0IGVzdGltYXRlIHJlYWxpc3RpYz8iLCBsaXN0KENPU1RfUkVBTElTVElDX1ZBTFVFUykpCiAgICBmYl9hY2NlcHRhYmlsaXR5ID0gc3Quc2VsZWN0Ym94KCJBY2NlcHRhYmlsaXR5IiwgbGlzdChBQ0NFUFRBQklMSVRZX1ZBTFVFUykpCiAgICBmYl9jb21tZW50ID0gc3QudGV4dF9hcmVhKCJBbnl0aGluZyBlbHNlIChvcHRpb25hbCkiLCBtYXhfY2hhcnM9MjAwMCkKICAgIHN1Ym1pdHRlZCA9IHN0LmZvcm1fc3VibWl0X2J1dHRvbigiU2F2ZSBmZWVkYmFjayIsIHdpZHRoPSJzdHJldGNoIikKaWYgc3VibWl0dGVkOgogICAgYXBwZW5kX2hvc3BpdGFsX2ZlZWRiYWNrKAogICAgICAgIERFRkFVTFRfRkVFREJBQ0tfUEFUSCwKICAgICAgICBkaXNoPWZlZWRiYWNrX2Rpc2gsCiAgICAgICAgYWx0ZXJuYXRpdmU9ZmVlZGJhY2tfYWx0ZXJuYXRpdmUsCiAgICAgICAgcHJlc2V0PXByZXNldF9pZCwKICAgICAgICBhdmFpbGFiaWxpdHk9ZmJfYXZhaWxhYmlsaXR5LAogICAgICAgIHByYWN0aWNhbGl0eT1mYl9wcmFjdGljYWxpdHksCiAgICAgICAgY29zdF9yZWFsaXN0aWM9ZmJfY29zdCwKICAgICAgICBhY2NlcHRhYmlsaXR5PWZiX2FjY2VwdGFiaWxpdHksCiAgICAgICAgY29tbWVudD1mYl9jb21tZW50LAogICAgKQogICAgc3Quc3VjY2VzcygiRmVlZGJhY2sgc2F2ZWQgZm9yIHRlYW0gcmV2aWV3LiBUaGFuayB5b3UuIikK
+"""Hospital food-service mode: diversify a documented hospital menu.
+
+The menu shown is the therapeutic diet kitchen menu at UNTH Enugu, published
+in Maduforo et al., Pakistan Journal of Nutrition 15(2), 2016 - the only
+peer-reviewed extraction of a real Nigerian hospital kitchen menu the team
+could find. This page is decision support for dietetics and catering teams:
+it proposes additional plant-protein options for the two dishes whose animal
+protein the source documents (fish and meat). Nothing here is a served menu,
+and a dietitian must approve any change before service.
+
+An "Any dish" mode sits beside the documented menu: staff type any dish
+they serve, name the animal protein and portion in it today and the cooking
+method, and the same gates rank plant alternatives for it. Original-side
+baselines are shown only where the project data carries a cited value.
+
+A patient-condition selector sits above the dish flows: choosing a
+condition (cardiovascular, hypertension, kidney, diabetes) applies that
+condition's documented preset bundle to both flows and composes a draft
+condition menu from the whole documented menu, with the cited evidence
+and its limitations shown. Conditions change constraints and attach
+evidence - they never turn this page into a prescription.
+"""
+from __future__ import annotations
+
+import pandas as pd
+import streamlit as st
+
+from menushift.hospital import (
+    ACCEPTABILITY_VALUES,
+    AVAILABILITY_VALUES,
+    CONDITIONS,
+    COST_REALISTIC_VALUES,
+    CURRENT_PROTEIN_LABELS,
+    DEFAULT_FEEDBACK_PATH,
+    MENU_SOURCE,
+    METHOD_LABELS,
+    METHOD_REQUIREMENTS,
+    PRACTICALITY_VALUES,
+    THERAPEUTIC_PRESETS,
+    append_hospital_feedback,
+    build_any_dish_comparison,
+    build_comparison,
+    build_condition_menu,
+    get_condition,
+    load_unth_menu,
+    plant_protein_dataset,
+    recommend_for_dish,
+    suggest_for_any_dish,
+)
+from menushift.safety import KNOWN_ALLERGENS
+
+st.set_page_config(
+    page_title="Hospital Menu | Naija MenuShift",
+    page_icon="🏥",
+    layout="wide",
+    initial_sidebar_state="collapsed",
+)
+st.title("Hospital food service — diversify the documented menu")
+st.caption("Team Sprout · hospital mode · decision support for dietetics and catering teams")
+st.warning(
+    "Decision support only. This is not a served menu and not clinical "
+    "guidance: a dietitian must approve any change before it reaches a "
+    "patient. Menu source: " + MENU_SOURCE + "."
+)
+
+menu = load_unth_menu()
+
+st.subheader("The documented menu — UNTH Enugu therapeutic diet kitchen")
+st.write(
+    "Fourteen items, exactly as published. The study does not split them "
+    "into breakfast, lunch or dinner and publishes no menu cycle, so this "
+    "page doesn't invent one. Only fish and meat carry a documented animal "
+    "protein; stew and the soups are listed without stated contents and are "
+    "never assigned one here."
+)
+menu_frame = pd.DataFrame(
+    [
+        {
+            "Item": dish.name,
+            "Documented animal protein": dish.documented_animal_protein or "—",
+            "Status": {
+                "documented_animal": "Animal protein documented",
+                "already_plant_based": "Already plant-based",
+                "unspecified": "Contents not specified in source",
+                "none_documented": "No animal protein documented",
+            }[dish.protein_status],
+            "Note": dish.notes,
+        }
+        for dish in menu
+    ]
+)
+st.dataframe(menu_frame, hide_index=True, width="stretch")
+
+with st.expander("Plant protein dataset — the catalogue the suggestions come from"):
+    st.write(
+        "Every plant protein the engine can suggest, with the values it "
+        "ranks on. Rendered directly from the functional catalogue and the "
+        "hospital price table — the same rows the engine uses, not a "
+        "hand-typed copy. Prices flagged derived are modelled estimates "
+        "(see the basis); verify at market before quoting. Functional "
+        "levels are qualitative, literature-based descriptors, not lab "
+        "measurements. Dawadawa is listed as an adjunct: it is a seasoning "
+        "used at 5–10 g per serving and is never ranked as a main protein."
+    )
+    dataset_frame = pd.DataFrame(
+        [
+            {
+                "Protein": row.name,
+                "Role": (
+                    "Ranked candidate" if row.role == "candidate"
+                    else "Adjunct (seasoning — not ranked)"
+                ),
+                "Protein (g/100 g)": row.protein_g_per_100g,
+                "Price (NGN/kg)": row.price_ngn_per_kg,
+                "Price derived?": "Yes — modelled" if row.price_derived else "No",
+                "Price basis": row.price_basis,
+                "Functional profile": (
+                    f"Solubility {row.functional.solubility} · "
+                    f"Water-holding {row.functional.water_holding} · "
+                    f"Emulsification {row.functional.emulsification} · "
+                    f"Gelation {row.functional.gelation}"
+                ),
+                "Allergens": (
+                    ", ".join(row.allergens) if row.allergens
+                    else "None declared (not a cross-contact certification)"
+                ),
+                "Nutrition source": row.nutrition_source,
+            }
+            for row in plant_protein_dataset()
+        ]
+    )
+    st.dataframe(dataset_frame, hide_index=True, width="stretch")
+
+st.subheader("Patient condition — menus that support dietary management")
+st.write(
+    "Choose a condition and both dish flows below apply that condition's "
+    "constraint bundle — a documented therapeutic preset, mapped in the "
+    "caption — instead of a free preset choice. The condition menu "
+    "further down composes the whole documented menu under the same "
+    "bundle. Where the project data holds no values for the nutrients a "
+    "condition's diet usually manages (sodium, fat, glycaemic measures), "
+    "the limitation is stated with the result — no filter is applied or "
+    "claimed. A condition is decision support for the dietitian, never "
+    "a prescription."
+)
+condition_id = st.selectbox(
+    "Patient condition (optional)",
+    ["none", *CONDITIONS],
+    format_func=lambda key: (
+        "None — choose a therapeutic preset directly"
+        if key == "none" else CONDITIONS[key].label
+    ),
+    key="patient_condition",
+)
+condition = None if condition_id == "none" else get_condition(condition_id)
+if condition is not None:
+    st.caption(
+        f"Bundle applied: {condition.label} → "
+        f"{THERAPEUTIC_PRESETS[condition.preset_id].label}. "
+        + condition.preset_mapping_note
+    )
+    with st.expander(f"Evidence and limitations — {condition.label}"):
+        st.write("Evidence, as reported by the cited sources:")
+        for note in condition.evidence_notes:
+            st.write("• " + note)
+        st.write("Limitations:")
+        for limitation in condition.limitations:
+            st.write("• " + limitation)
+        st.caption("Sources: " + "; ".join(condition.sources))
+
+st.subheader("Diversify a dish")
+mode = st.radio(
+    "Which dish?",
+    ["Documented UNTH menu", "Any dish (type your own)"],
+    horizontal=True,
+)
+
+result = None
+comparison = None
+feedback_dish = ""
+preset_id = "standard"
+
+if mode == "Documented UNTH menu":
+    transformable = [d for d in menu if d.protein_status == "documented_animal"]
+    dish_name = st.selectbox(
+        "Menu item with a documented animal protein",
+        [d.name for d in transformable],
+    )
+    if condition is not None:
+        preset_id = condition.preset_id
+    else:
+        preset_id = st.selectbox(
+            "Therapeutic preset (constraint bundle, sources shown with the result)",
+            list(THERAPEUTIC_PRESETS),
+            format_func=lambda key: THERAPEUTIC_PRESETS[key].label,
+        )
+    avoid = st.multiselect(
+        "Allergen exclusions (fail closed — an excluded allergen removes the option)",
+        sorted(KNOWN_ALLERGENS),
+    )
+    budget = st.number_input(
+        "Budget cap per portion (NGN, planning parameter)",
+        min_value=100.0, max_value=20000.0, value=1500.0, step=50.0,
+    )
+    floor = st.number_input(
+        "Minimum protein per portion (g) — leave the preset's floor in place by keeping this at 0",
+        min_value=0.0, max_value=100.0, value=0.0, step=1.0,
+    )
+    result = recommend_for_dish(
+        dish_name,
+        preset_id=preset_id,
+        avoid_allergens=tuple(avoid),
+        budget_ngn=float(budget),
+        protein_floor_g=float(floor) if floor > 0 else None,
+    )
+    comparison = build_comparison(result)
+    feedback_dish = dish_name
+else:
+    st.write(
+        "Type any dish your kitchen serves. The same hard gates rank the "
+        "plant alternatives: allergen exclusions fail closed, the protein "
+        "must survive the cooking method, and the preset's floor or cap "
+        "applies. Where the project data has no cited value for the "
+        "original protein (fish, goat, egg), the original side of the "
+        "comparison is shown as no cited value — never estimated."
+    )
+    custom_name = st.text_input(
+        "Dish name (as your kitchen calls it)",
+        placeholder="e.g. Grilled beef skewers",
+    )
+    current_protein = st.selectbox(
+        "Animal protein in the dish today",
+        list(CURRENT_PROTEIN_LABELS),
+        format_func=lambda key: CURRENT_PROTEIN_LABELS[key],
+    )
+    portion_g = st.number_input(
+        "Portion of that protein per serving (g)",
+        min_value=10.0, max_value=500.0, value=100.0, step=10.0,
+    )
+    method = st.selectbox(
+        "Cooking method",
+        list(METHOD_REQUIREMENTS),
+        format_func=lambda key: METHOD_LABELS[key],
+    )
+    if condition is not None:
+        preset_id = condition.preset_id
+    else:
+        preset_id = st.selectbox(
+            "Therapeutic preset (constraint bundle, sources shown with the result)",
+            list(THERAPEUTIC_PRESETS),
+            format_func=lambda key: THERAPEUTIC_PRESETS[key].label,
+        )
+    avoid = st.multiselect(
+        "Allergen exclusions (fail closed — an excluded allergen removes the option)",
+        sorted(KNOWN_ALLERGENS),
+    )
+    budget = st.number_input(
+        "Budget cap per portion (NGN, planning parameter)",
+        min_value=100.0, max_value=20000.0, value=1500.0, step=50.0,
+    )
+    floor = st.number_input(
+        "Minimum protein per portion (g) — leave the preset's floor in place by keeping this at 0",
+        min_value=0.0, max_value=100.0, value=0.0, step=1.0,
+    )
+    feedback_dish = custom_name.strip() or "Any dish (unnamed)"
+    if not custom_name.strip():
+        st.info("Type the dish name above to get its ranked alternatives.")
+    else:
+        try:
+            result = suggest_for_any_dish(
+                custom_name,
+                current_protein=current_protein,
+                portion_g=float(portion_g),
+                method=method,
+                preset_id=preset_id,
+                avoid_allergens=tuple(avoid),
+                budget_ngn=float(budget),
+                protein_floor_g=float(floor) if floor > 0 else None,
+            )
+            comparison = build_any_dish_comparison(result)
+        except ValueError as exc:
+            st.error(str(exc))
+            result = None
+            comparison = None
+
+if result is not None:
+    st.info(result.signoff_note)
+    for note in result.notes:
+        st.write("• " + note)
+
+if comparison is not None:
+    st.subheader("Original vs modified — side by side")
+    st.write(
+        f"Portion basis: {comparison.portion_g:g} g for both sides. "
+        "Calories are omitted: no cited calorie value exists in the project "
+        "data for both sides, and this tool does not estimate them."
+    )
+
+    def _fmt(value: float | None, unit: str) -> str:
+        return "No cited value in project data" if value is None else f"{value:g} {unit}"
+
+    def _functional(profile) -> str:
+        if profile is None:
+            return "Not recorded in project data"
+        return (
+            f"Solubility {profile.solubility} · Water-holding {profile.water_holding} · "
+            f"Emulsification {profile.emulsification} · Gelation {profile.gelation}"
+        )
+
+    def _allergens(labels) -> str:
+        if labels is None:
+            return "Not recorded in project data"
+        return ", ".join(labels) if labels else "None declared (not a cross-contact certification)"
+
+    compare_frame = pd.DataFrame(
+        [
+            {"Measure": "Protein", "Original": _fmt(comparison.original_protein_g, "g"),
+             "Modified": _fmt(comparison.alternative_protein_g, "g")},
+            {"Measure": "Cost per serving", "Original": _fmt(comparison.original_cost_ngn, "NGN"),
+             "Modified": _fmt(comparison.alternative_cost_ngn, "NGN")},
+            {"Measure": "Prep time", "Original": _fmt(comparison.original_prep_minutes, "min"),
+             "Modified": _fmt(comparison.alternative_prep_minutes, "min")},
+            {"Measure": "Functional fit (qualitative, not lab-measured)",
+             "Original": _functional(comparison.original_functional),
+             "Modified": _functional(comparison.alternative_functional)},
+            {"Measure": "Allergens", "Original": _allergens(comparison.original_allergens),
+             "Modified": _allergens(comparison.alternative_allergens)},
+        ]
+    )
+    st.dataframe(compare_frame, hide_index=True, width="stretch")
+    for note in comparison.notes:
+        st.caption(note)
+
+if result is not None and result.alternatives:
+    st.subheader("Recommended additional options (ranked)")
+    for alt in result.alternatives:
+        derived = " · price derived/modelled — see basis" if alt.price_derived else ""
+        st.markdown(f"**{alt.name} — {alt.portion_g:g} g portion**")
+        cols = st.columns(4)
+        cols[0].metric("Protein", f"{alt.protein_g:g} g")
+        cols[1].metric("Estimated cost", f"NGN {alt.cost_ngn:,.2f}")
+        cols[2].metric("Prep (planning estimate)", f"{alt.prep_minutes:g} min")
+        cols[3].metric("Allergens", ", ".join(alt.allergens) if alt.allergens else "None declared")
+        st.write(
+            "Functional properties (qualitative, literature-based — not lab "
+            f"measurements): solubility {alt.functional.solubility}, "
+            f"water-holding {alt.functional.water_holding}, emulsification "
+            f"{alt.functional.emulsification}, gelation {alt.functional.gelation}."
+        )
+        st.write(alt.kitchen_meaning)
+        for reason in alt.reasons:
+            st.write("• " + reason)
+        st.caption(f"Price basis: {alt.price_basis}{derived}")
+        st.caption(f"Nutrition source: {alt.nutrition_source}")
+elif result is not None and result.status == "ok":
+    st.error(
+        "No plant alternative passes every hard constraint under this preset. "
+        "That is a valid result — the rejected options below show exactly why."
+    )
+
+if result is not None and result.rejected:
+    st.subheader("Rejected, with reasons (largest portion tried per protein)")
+    for rej in result.rejected:
+        st.write(f"**{rej.name} — {rej.portion_g:g} g**: " + "; ".join(rej.reasons))
+
+if result is not None and result.evidence_warnings:
+    st.subheader("Evidence warnings")
+    for warning in result.evidence_warnings:
+        st.write("• " + warning)
+
+st.subheader("Condition menu — the whole documented menu, composed")
+if condition is None:
+    st.info(
+        "Choose a patient condition above to compose its draft menu from "
+        "the documented UNTH items."
+    )
+else:
+    cm_avoid = st.multiselect(
+        "Condition menu — allergen exclusions (fail closed — an excluded allergen removes the option)",
+        sorted(KNOWN_ALLERGENS),
+        key="condition_menu_avoid",
+    )
+    cm_budget = st.number_input(
+        "Condition menu — budget cap per portion (NGN, planning parameter)",
+        min_value=100.0, max_value=20000.0, value=1500.0, step=50.0,
+        key="condition_menu_budget",
+    )
+    condition_menu = build_condition_menu(
+        condition.id,
+        avoid_allergens=tuple(cm_avoid),
+        budget_ngn=float(cm_budget),
+        menu=menu,
+    )
+    st.info(condition_menu.signoff_note)
+    st.write(condition_menu.framing)
+    cm_status_labels = {
+        "kept_as_is": "Kept as documented — already plant-based",
+        "transformed": "Diversified — additional plant option ranked",
+        "no_eligible_alternative": (
+            "Stays as documented — no option passed every gate"
+        ),
+        "confirm_with_kitchen": "Confirm recipe with the kitchen first",
+    }
+    cm_frame = pd.DataFrame(
+        [
+            {
+                "Item": item.dish.name,
+                "Status": cm_status_labels[item.status],
+                "Additional option (top-ranked)": (
+                    f"{item.alternative.name} — {item.alternative.portion_g:g} g"
+                    if item.alternative is not None else "—"
+                ),
+                "Protein (g)": (
+                    f"{item.alternative.protein_g:g}"
+                    if item.alternative is not None else "—"
+                ),
+                "Estimated cost (NGN)": (
+                    f"{item.alternative.cost_ngn:,.2f}"
+                    if item.alternative is not None else "—"
+                ),
+                "Note": item.note,
+            }
+            for item in condition_menu.items
+        ]
+    )
+    st.dataframe(cm_frame, hide_index=True, width="stretch")
+    if condition_menu.transformed_protein_g is not None:
+        st.write(
+            "Chosen additional options across the diversified dishes: "
+            f"{condition_menu.transformed_protein_g:g} g protein, "
+            f"estimated NGN {condition_menu.transformed_cost_ngn:,.2f}."
+        )
+    st.caption(condition_menu.totals_note)
+    for note in condition_menu.notes:
+        st.write("• " + note)
+    st.write("Evidence, as reported by the cited sources:")
+    for note in condition_menu.evidence_notes:
+        st.write("• " + note)
+    st.write("Limitations:")
+    for limitation in condition_menu.limitations:
+        st.write("• " + limitation)
+    st.caption("Sources: " + "; ".join(condition_menu.sources))
+
+st.subheader("Kitchen feedback")
+st.write(
+    "Used this transformation in a real kitchen? Record what you found. "
+    "Feedback is stored for team review and used to improve the data and "
+    "recommendations — the app does not learn automatically, and nothing "
+    "changes until a person reviews it."
+)
+if result is not None and result.alternatives:
+    feedback_alternative = result.alternatives[0].name
+else:
+    feedback_alternative = "none recommended"
+with st.form("hospital_feedback_form"):
+    fb_availability = st.selectbox("Ingredient availability", list(AVAILABILITY_VALUES))
+    fb_practicality = st.selectbox("Practicality of preparation", list(PRACTICALITY_VALUES))
+    fb_cost = st.selectbox("Was the cost estimate realistic?", list(COST_REALISTIC_VALUES))
+    fb_acceptability = st.selectbox("Acceptability", list(ACCEPTABILITY_VALUES))
+    fb_comment = st.text_area("Anything else (optional)", max_chars=2000)
+    submitted = st.form_submit_button("Save feedback", width="stretch")
+if submitted:
+    append_hospital_feedback(
+        DEFAULT_FEEDBACK_PATH,
+        dish=feedback_dish,
+        alternative=feedback_alternative,
+        preset=preset_id,
+        availability=fb_availability,
+        practicality=fb_practicality,
+        cost_realistic=fb_cost,
+        acceptability=fb_acceptability,
+        comment=fb_comment,
+    )
+    st.success("Feedback saved for team review. Thank you.")
