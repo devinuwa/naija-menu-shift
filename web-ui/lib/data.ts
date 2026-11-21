@@ -1,1 +1,342 @@
-LyoqCiAqIERlbW8gZGF0YXNldCBmb3IgdGhlIE5haWphIE1lbnVTaGlmdCB3ZWIgVUkuCiAqCiAqIFNZTlRIRVRJQyBERU1PIERBVEE6IHRoZSBmaWd1cmVzIGJlbG93IG1pcnJvciB0aGUgdGVhbSdzIHJlc2VhcmNoIHdvcmtib29rCiAqIHZhbHVlcyAoTkJTIFNlbGVjdGVkIEZvb2QgUHJpY2UgV2F0Y2ggdHJhbnNjcmlwdGlvbnMgYW5kIFVTREEgRm9vZERhdGEKICogQ2VudHJhbCByZWZlcmVuY2VzLCByZXRyaWV2ZWQgMTQgTm92IDIwMjYpIHNvIHRoZSBpbnRlcmZhY2UgYmVoYXZlcyBsaWtlIHRoZQogKiBQeXRob24gcHJvdG90eXBlLiBUaGV5IGFyZSBOT1QgdmVyaWZpZWQgbWFya2V0IG1lYXN1cmVtZW50cyBhbmQgbXVzdCBub3QgYmUKICogcHJlc2VudGVkIGFzIHN1Y2guIFNlZSB0aGUgUHl0aG9uIHNvdXJjZXMgaW4gc3JjL21lbnVzaGlmdC9zb3VyY2VkX21lbnUucHkKICogYW5kIGRhdGEvc291cmNlcy8qLmNzdiBvZiB0aGUgbWFpbiByZXBvc2l0b3J5LgogKi8KCmV4cG9ydCBjb25zdCBEQVRBU0VUX05PVEUgPQogICJTeW50aGV0aWMgZGVtbyBkYXRhc2V0IOKAlCB2YWx1ZXMgbWlycm9yIHRoZSB0ZWFtJ3MgcmVzZWFyY2ggd29ya2Jvb2sgZm9yIGludGVyZmFjZSBkZW1vbnN0cmF0aW9uOyBub3QgdmVyaWZpZWQgbWFya2V0IG1lYXN1cmVtZW50cy4iOwoKZXhwb3J0IGludGVyZmFjZSBJbmdyZWRpZW50RGVmIHsKICBpbmdyZWRpZW50SWQ6IHN0cmluZzsKICBuYW1lOiBzdHJpbmc7CiAgLyoqIE5HTiBwZXIga2cuIEZvciB3ZXQvZnJpZWQgYXdhcmEgdGhpcyBpcyBkZXJpdmVkIGZyb20gc295ICsgbWlsbGluZyBvdmVyIHRoZSB5aWVsZCBhc3N1bXB0aW9uLiAqLwogIHByaWNlTmduUGVyS2c6IG51bWJlciB8ICJkZXJpdmVkX3dldF9jdXJkIjsKICBwcm90ZWluR1BlcjEwMGc6IG51bWJlcjsKICBpcm9uTWdQZXIxMDBnOiBudW1iZXI7CiAgemluY01nUGVyMTAwZzogbnVtYmVyOwogIHByaWNlU291cmNlOiBzdHJpbmc7CiAgbnV0cml0aW9uU291cmNlOiBzdHJpbmc7CiAgbnV0cml0aW9uU3RhdGU6IHN0cmluZzsKICBhbGxlcmdlbnM6IHN0cmluZzsKICBpc0FuaW1hbDogYm9vbGVhbjsKfQoKLyoqIFdvcmtib29rIHF1b3RlcyAoTkdOKSB1c2VkIHRvIGRlcml2ZSB0aGUgd2V0LWN1cmQgcHJpY2UsIGFzIGluIHNvdXJjZWRfbWVudS5weS4gKi8KZXhwb3J0IGNvbnN0IFNPWUJFQU5fUFJJQ0VfTkdOX1BFUl9LRyA9IDY0NDsgLy8gTWFuc2EgTWFya2V0cyBiZW5jaG1hcmssIHdvcmtib29rCmV4cG9ydCBjb25zdCBNSUxMSU5HX1BSSUNFX05HTl9QRVJfS0cgPSAxNTA7IC8vIGluZm9ybWFsIHZlbmRvciBub3RlLCB3b3JrYm9vawpleHBvcnQgY29uc3QgT0lMX1BSSUNFX05HTl9QRVJfNzVDTCA9IDMyNjMuNTsgLy8gTkJTIFNlbGVjdGVkIEZvb2QgUHJpY2UgV2F0Y2gsIE1heSAyMDI2CgpleHBvcnQgY29uc3QgSU5HUkVESUVOVFM6IFJlY29yZDxzdHJpbmcsIEluZ3JlZGllbnREZWY+ID0gewogIHdldF9hd2FyYTogewogICAgaW5ncmVkaWVudElkOiAid2V0X2F3YXJhIiwKICAgIG5hbWU6ICJXZXQgYXdhcmEgY3VyZCIsCiAgICBwcmljZU5nblBlcktnOiAiZGVyaXZlZF93ZXRfY3VyZCIsCiAgICBwcm90ZWluR1BlcjEwMGc6IDE3LjMsCiAgICBpcm9uTWdQZXIxMDBnOiAyLjY2LAogICAgemluY01nUGVyMTAwZzogMS41NywKICAgIHByaWNlU291cmNlOgogICAgICAiTWFuc2EgTWFya2V0cyBzb3liZWFuIGJlbmNobWFyayBwbHVzIGxvY2FsIG1pbGxpbmcgbm90ZTsgd29ya2Jvb2sgeWllbGQgYXNzdW1wdGlvbiAoa2cgd2V0IGN1cmQgcGVyIGtnIGRyeSBzb3kpIiwKICAgIG51dHJpdGlvblNvdXJjZTogIlVTREEgRm9vZERhdGEgQ2VudHJhbCAxNzI0NzUgKGZpcm0gdG9mdSByZWZlcmVuY2UpLCB2aWEgcHJvamVjdCB3b3JrYm9vayIsCiAgICBudXRyaXRpb25TdGF0ZTogImZpcm0gcmF3IHRvZnUgcmVmZXJlbmNlIGFwcGxpZWQgdG8gcHVyY2hhc2VkIHdldCBjdXJkIiwKICAgIGFsbGVyZ2VuczogInNveSIsCiAgICBpc0FuaW1hbDogZmFsc2UsCiAgfSwKICBmcmllZF9hd2FyYTogewogICAgaW5ncmVkaWVudElkOiAiZnJpZWRfYXdhcmEiLAogICAgbmFtZTogIkZyaWVkIGF3YXJhIiwKICAgIHByaWNlTmduUGVyS2c6ICJkZXJpdmVkX3dldF9jdXJkIiwKICAgIHByb3RlaW5HUGVyMTAwZzogMTguOCwKICAgIGlyb25NZ1BlcjEwMGc6IDQuODcsCiAgICB6aW5jTWdQZXIxMDBnOiAxLjk5LAogICAgcHJpY2VTb3VyY2U6CiAgICAgICJXZXQtY3VyZCByYXRlIChzb3liZWFuIGJlbmNobWFyayBwbHVzIG1pbGxpbmcsIG92ZXIgdGhlIHlpZWxkIGFzc3VtcHRpb24pOyBmcmllZCBwaWVjZSBwcmljZWQgYXQgdGhlIHdldC1jdXJkIHJhdGUgYmVjYXVzZSBzdGFydGluZyB3ZWlnaHQgaXMgdW5tZWFzdXJlZCIsCiAgICBudXRyaXRpb25Tb3VyY2U6ICJQdWJsaXNoZWQgZnJpZWQtdG9mdSByZWZlcmVuY2UgKE15Rm9vZERhdGEgMTcyNDUxKSwgdmlhIHByb2plY3Qgd29ya2Jvb2siLAogICAgbnV0cml0aW9uU3RhdGU6ICJwdWJsaXNoZWQgZnJpZWQtdG9mdSByZWZlcmVuY2UgcGVyIDEwMCBnIGZpbmlzaGVkIHBpZWNlIiwKICAgIGFsbGVyZ2VuczogInNveSIsCiAgICBpc0FuaW1hbDogZmFsc2UsCiAgfSwKICBvbmlvbjogewogICAgaW5ncmVkaWVudElkOiAib25pb24iLAogICAgbmFtZTogIk9uaW9ucyBmcmVzaCIsCiAgICBwcmljZU5nblBlcktnOiAxMTgwLjAxLAogICAgcHJvdGVpbkdQZXIxMDBnOiAwLAogICAgaXJvbk1nUGVyMTAwZzogMCwKICAgIHppbmNNZ1BlcjEwMGc6IDAsCiAgICBwcmljZVNvdXJjZTogIk5CUyBTZWxlY3RlZCBGb29kIFByaWNlIFdhdGNoLCBNYXkgMjAyNiBuYXRpb25hbCBhdmVyYWdlIChzZWNvbmRhcnkgdHJhbnNjcmlwdGlvbikiLAogICAgbnV0cml0aW9uU291cmNlOiAibm8gbnV0cmllbnQgcm93IGluIHRoZSB3b3JrYm9vayIsCiAgICBudXRyaXRpb25TdGF0ZTogInByaWNlIG9ubHkiLAogICAgYWxsZXJnZW5zOiAidW5yZXZpZXdlZCIsCiAgICBpc0FuaW1hbDogZmFsc2UsCiAgfSwKICBwZXBwZXI6IHsKICAgIGluZ3JlZGllbnRJZDogInBlcHBlciIsCiAgICBuYW1lOiAiUGVwcGVyIChGcmVzaCAvIENoaWxpKSIsCiAgICBwcmljZU5nblBlcktnOiAxMTc4LAogICAgcHJvdGVpbkdQZXIxMDBnOiAwLAogICAgaXJvbk1nUGVyMTAwZzogMCwKICAgIHppbmNNZ1BlcjEwMGc6IDAsCiAgICBwcmljZVNvdXJjZTogIldvcmtib29rIHF1b3RlIChOQlMgU2VsZWN0ZWQgRm9vZCBQcmljZSBXYXRjaCBhdmVyYWdlKSIsCiAgICBudXRyaXRpb25Tb3VyY2U6ICJubyBudXRyaWVudCByb3cgaW4gdGhlIHdvcmtib29rIiwKICAgIG51dHJpdGlvblN0YXRlOiAicHJpY2Ugb25seSIsCiAgICBhbGxlcmdlbnM6ICJ1bnJldmlld2VkIiwKICAgIGlzQW5pbWFsOiBmYWxzZSwKICB9LAogIHNhbHQ6IHsKICAgIGluZ3JlZGllbnRJZDogInNhbHQiLAogICAgbmFtZTogIklvZGl6ZWQgVGFibGUgU2FsdCIsCiAgICBwcmljZU5nblBlcktnOiAzNTAsCiAgICBwcm90ZWluR1BlcjEwMGc6IDAsCiAgICBpcm9uTWdQZXIxMDBnOiAwLAogICAgemluY01nUGVyMTAwZzogMCwKICAgIHByaWNlU291cmNlOiAiUmV0YWlsIHBhY2sgcHJpY2UgZnJvbSB0aGUgd29ya2Jvb2sgKOKCpjE3NSBwZXIgNTAwIGcgcGFjaykiLAogICAgbnV0cml0aW9uU291cmNlOiAibm8gbnV0cmllbnQgcm93IGluIHRoZSB3b3JrYm9vayIsCiAgICBudXRyaXRpb25TdGF0ZTogInByaWNlIG9ubHkiLAogICAgYWxsZXJnZW5zOiAidW5yZXZpZXdlZCIsCiAgICBpc0FuaW1hbDogZmFsc2UsCiAgfSwKICBzZWFzb25pbmc6IHsKICAgIGluZ3JlZGllbnRJZDogInNlYXNvbmluZyIsCiAgICBuYW1lOiAiU2Vhc29uaW5nIEN1YmVzIiwKICAgIHByaWNlTmduUGVyS2c6IDQ3NTAsCiAgICBwcm90ZWluR1BlcjEwMGc6IDAsCiAgICBpcm9uTWdQZXIxMDBnOiAwLAogICAgemluY01nUGVyMTAwZzogMCwKICAgIHByaWNlU291cmNlOiAiUmV0YWlsIHBhY2sgcHJpY2UgZnJvbSB0aGUgd29ya2Jvb2sgKOKCpjEsOTAwIHBlciAxMDAgw5cgNCBnIHBhY2spOyBwYWNrYWdlIGxhYmVsIG5vdCByZXZpZXdlZCIsCiAgICBudXRyaXRpb25Tb3VyY2U6ICJubyBudXRyaWVudCByb3cgaW4gdGhlIHdvcmtib29rIiwKICAgIG51dHJpdGlvblN0YXRlOiAicHJpY2Ugb25seSIsCiAgICBhbGxlcmdlbnM6ICJ1bmtub3duO3ZlcmlmeSBsYWJlbCIsCiAgICBpc0FuaW1hbDogZmFsc2UsCiAgfSwKICBiZWVmOiB7CiAgICBpbmdyZWRpZW50SWQ6ICJiZWVmIiwKICAgIG5hbWU6ICJCZWVmIGJvbmVsZXNzIHJhdyIsCiAgICBwcmljZU5nblBlcktnOiA3MTcxLjQxLAogICAgcHJvdGVpbkdQZXIxMDBnOiAyOS41LAogICAgaXJvbk1nUGVyMTAwZzogMi44OCwKICAgIHppbmNNZ1BlcjEwMGc6IDYuOCwKICAgIHByaWNlU291cmNlOiAiTkJTIFNlbGVjdGVkIEZvb2QgUHJpY2UgV2F0Y2gsIE1heSAyMDI2IG5hdGlvbmFsIGF2ZXJhZ2UgKHNlY29uZGFyeSB0cmFuc2NyaXB0aW9uKSIsCiAgICBudXRyaXRpb25Tb3VyY2U6ICJVU0RBIEZvb2REYXRhIENlbnRyYWwgMTcwMjA5IChjb29rZWQgbGVhbiBiZWVmKTsgbm90IHRoZSBudXRyaWVudCBjb250ZW50IG9mIHRoZSByYXcgcHJpY2VkIGtpbG9ncmFtIiwKICAgIG51dHJpdGlvblN0YXRlOiAiY29va2VkIGxlYW4gcGVyIDEwMCBnLCBzaG93biBiZXNpZGUgYSByYXcgcHJpY2UiLAogICAgYWxsZXJnZW5zOiAidW5yZXZpZXdlZCIsCiAgICBpc0FuaW1hbDogdHJ1ZSwKICB9LAp9OwoKLyoqIFdhdGVyLWxvc3MgZnJhY3Rpb25zIGZyb20gdGhlIHdvcmtib29rLCBhcyBpbiBzb3VyY2VkX21lbnUuUFJFU1NfTE9TUy4gKi8KZXhwb3J0IGNvbnN0IFBSRVNTX0xPU1M6IFJlY29yZDxzdHJpbmcsIG51bWJlcj4gPSB7CiAgYXdhcmFfZmlybTogMC4wLAogIGF3YXJhX3ByZXNzZWQ6IDAuMiwKICBhd2FyYV9mcm96ZW46IDAuMjUsCiAgYXdhcmFfZnJpZWQ6IDAuMCwKfTsKCmV4cG9ydCBpbnRlcmZhY2UgTWV0aG9kRGVmIHsKICBvcHRpb25JZDogc3RyaW5nOwogIC8qKiBEaXNwbGF5IGxhYmVsIGZyb20ga2l0Y2hlbl9vcHRpbWl6ZXIuTUVUSE9EX0xBQkVMUy4gKi8KICBsYWJlbDogc3RyaW5nOwogIC8qKiBPcHRpb24gbmFtZSBhcyBpbiBzb3VyY2VkX21lbnUgZGVmaW5pdGlvbnMuICovCiAgbmFtZTogc3RyaW5nOwogIHRleHR1cmVUYWdzOiBzdHJpbmc7CiAgbWV0aG9kTm90ZXM6IHN0cmluZzsKICAvKiogQXNzdW1lZCBwcmVwYXJhdGlvbiBtaW51dGVzIGZvciB0aGlzIGRlbW8gKG1vZGVsbGVkLCBub3QgbWVhc3VyZWQpLiAqLwogIHByZXBNaW51dGVzOiBudW1iZXI7CiAgbWFpbkluZ3JlZGllbnRJZDogc3RyaW5nOwogIC8qKiBUcnVlIHdoZW4gdGhlIG51dHJpZW50IGRlbnNpdHkgaXMgYSBtb2lzdHVyZSByZWNhbGN1bGF0aW9uIHJhdGhlciB0aGFuIGEgcHVibGlzaGVkIHJvdy4gKi8KICBtb2RlbGxlZDogYm9vbGVhbjsKfQoKZXhwb3J0IGNvbnN0IE1FVEhPRFM6IE1ldGhvZERlZltdID0gWwogIHsKICAgIG9wdGlvbklkOiAiYXdhcmFfZmlybSIsCiAgICBsYWJlbDogIkZpcm0gYXdhcmEiLAogICAgbmFtZTogIkZpcm0gYXdhcmEgKHVucHJlc3NlZCkiLAogICAgdGV4dHVyZVRhZ3M6ICJmaXJtIHJhdyB1bnByZXNzZWQgYXdhcmEiLAogICAgbWV0aG9kTm90ZXM6ICJXZXQgY3VyZCBhdCB0aGUgZmluaXNoZWQgd2VpZ2h0LiBObyBwcmVzcyBsb3NzLiIsCiAgICBwcmVwTWludXRlczogMzUsCiAgICBtYWluSW5ncmVkaWVudElkOiAid2V0X2F3YXJhIiwKICAgIG1vZGVsbGVkOiBmYWxzZSwKICB9LAogIHsKICAgIG9wdGlvbklkOiAiYXdhcmFfcHJlc3NlZCIsCiAgICBsYWJlbDogIlByZXNzZWQgYXdhcmEiLAogICAgbmFtZTogIlByZXNzZWQgYXdhcmEgKDIwJSB3YXRlciBsb3NzKSIsCiAgICB0ZXh0dXJlVGFnczogInByZXNzZWQgZmlybSBjaGV3eSBhd2FyYSIsCiAgICBtZXRob2ROb3RlczogIjIwJSB3YXRlciBsb3NzIGZyb20gdGhlIHdvcmtib29rLiBFeHRyYSBjdXJkIGlzIHB1cmNoYXNlZDsgcHJvdGVpbiBpcyBub3QgY3JlYXRlZC4iLAogICAgcHJlcE1pbnV0ZXM6IDQ4LAogICAgbWFpbkluZ3JlZGllbnRJZDogIndldF9hd2FyYSIsCiAgICBtb2RlbGxlZDogdHJ1ZSwKICB9LAogIHsKICAgIG9wdGlvbklkOiAiYXdhcmFfZnJvemVuIiwKICAgIGxhYmVsOiAiRnJvemVu4oCTdGhhd2VkIGF3YXJhIiwKICAgIG5hbWU6ICJGcm96ZW4sIHRoYXdlZCwgcHJlc3NlZCBhd2FyYSAoMjUlIHdhdGVyIGxvc3MpIiwKICAgIHRleHR1cmVUYWdzOiAiZnJvemVuIHRoYXdlZCBwcmVzc2VkIGNoZXd5IGF3YXJhIiwKICAgIG1ldGhvZE5vdGVzOiAiMjUlIHdhdGVyIGxvc3MgZnJvbSB0aGUgd29ya2Jvb2suIEV4dHJhIGN1cmQgaXMgcHVyY2hhc2VkOyBwcm90ZWluIGlzIG5vdCBjcmVhdGVkLiIsCiAgICBwcmVwTWludXRlczogMTEwLAogICAgbWFpbkluZ3JlZGllbnRJZDogIndldF9hd2FyYSIsCiAgICBtb2RlbGxlZDogdHJ1ZSwKICB9LAogIHsKICAgIG9wdGlvbklkOiAiYXdhcmFfZnJpZWQiLAogICAgbGFiZWw6ICJGcmllZCBhd2FyYSIsCiAgICBuYW1lOiAiRnJpZWQgYXdhcmEiLAogICAgdGV4dHVyZVRhZ3M6ICJmcmllZCBkZWVwLWZyaWVkIGF3YXJhIiwKICAgIG1ldGhvZE5vdGVzOiAiRnJpZWQgbnV0cmllbnQgcm93IG9uIHRoZSBmaW5pc2hlZCB3ZWlnaHQsIHBsdXMgdGhlIG9pbCB2b2x1bWUgeW91IGVudGVyLiIsCiAgICBwcmVwTWludXRlczogNjUsCiAgICBtYWluSW5ncmVkaWVudElkOiAiZnJpZWRfYXdhcmEiLAogICAgbW9kZWxsZWQ6IGZhbHNlLAogIH0sCl07CgovKiogRXF1aXBtZW50IGVhY2ggbWV0aG9kIHJlcXVpcmVzLCBmcm9tIGtpdGNoZW5fb3B0aW1pemVyLkVRVUlQTUVOVF9SRVFVSVJFTUVOVFMuICovCmV4cG9ydCBjb25zdCBFUVVJUE1FTlRfUkVRVUlSRU1FTlRTOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmdbXT4gPSB7CiAgYXdhcmFfZmlybTogWyJncmlsbCJdLAogIGF3YXJhX3ByZXNzZWQ6IFsiZ3JpbGwiLCAicHJlc3MiXSwKICBhd2FyYV9mcm96ZW46IFsiZ3JpbGwiLCAicHJlc3MiLCAiZnJlZXplciJdLAogIGF3YXJhX2ZyaWVkOiBbImdyaWxsIiwgImZyeWluZ19wYW4iXSwKfTsKCmV4cG9ydCBjb25zdCBFUVVJUE1FTlRfTEFCRUxTOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+ID0gewogIGdyaWxsOiAiR3JpbGwiLAogIHByZXNzOiAiUHJlc3MiLAogIGZyZWV6ZXI6ICJGcmVlemVyIiwKICBmcnlpbmdfcGFuOiAiRnJ5aW5nIHBhbiIsCn07CgpleHBvcnQgY29uc3QgQUxMX0VRVUlQTUVOVCA9IE9iamVjdC5rZXlzKEVRVUlQTUVOVF9MQUJFTFMpOwoKLyoqIEludmVudG9yeSBjaGVja2xpc3QsIGZyb20ga2l0Y2hlbl9vcHRpbWl6ZXIuSU5WRU5UT1JZX0lURU1TLiAqLwpleHBvcnQgY29uc3QgSU5WRU5UT1JZX0lURU1TOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+ID0gewogIGF3YXJhOiAiRnJlc2ggYXdhcmEgLyB0b2Z1IiwKICBvbmlvbjogIk9uaW9ucyIsCiAgcGVwcGVyOiAiRnJlc2ggcGVwcGVyIiwKICBzYWx0OiAiU2FsdCIsCiAgc2Vhc29uaW5nOiAiU2Vhc29uaW5nIChsYWJlbCByZXZpZXcgb3V0c3RhbmRpbmcpIiwKICBvaWw6ICJWZWdldGFibGUgb2lsIiwKfTsKCmV4cG9ydCBjb25zdCBBTExfSU5WRU5UT1JZID0gT2JqZWN0LmtleXMoSU5WRU5UT1JZX0lURU1TKTsKCi8qKiBNYXBzIHNvdXJjZWQgaW5ncmVkaWVudCBpZHMgdG8gaW52ZW50b3J5IGlkcywgZnJvbSBraXRjaGVuX29wdGltaXplci5TT1VSQ0VfVE9fSU5WRU5UT1JZLiAqLwpleHBvcnQgY29uc3QgU09VUkNFX1RPX0lOVkVOVE9SWTogUmVjb3JkPHN0cmluZywgc3RyaW5nPiA9IHsKICB3ZXRfYXdhcmE6ICJhd2FyYSIsCiAgZnJpZWRfYXdhcmE6ICJhd2FyYSIsCiAgb25pb246ICJvbmlvbiIsCiAgcGVwcGVyOiAicGVwcGVyIiwKICBzYWx0OiAic2FsdCIsCiAgc2Vhc29uaW5nOiAic2Vhc29uaW5nIiwKfTsKCmV4cG9ydCBjb25zdCBBTExFUkdFTl9PUFRJT05TOiB7IGlkOiBzdHJpbmc7IGxhYmVsOiBzdHJpbmc7IGhpbnQ6IHN0cmluZyB9W10gPSBbCiAgeyBpZDogInNveSIsIGxhYmVsOiAiU295IiwgaGludDogIkF3YXJhIGlzIGEgc295IGN1cmQ7IGV4Y2x1ZGluZyBzb3kgcmVtb3ZlcyBldmVyeSBjdXJyZW50IGZvcm11bGF0aW9uLiIgfSwKICB7CiAgICBpZDogInBlYW51dCIsCiAgICBsYWJlbDogIlBlYW51dCAvIGdyb3VuZG51dCIsCiAgICBoaW50OiAiU3RhbmRhcmQgc3V5YSB5YWppIG9mdGVuIGNvbnRhaW5zIGdyb3VuZG51dCBhbmQgbm8gdmVyaWZpZWQgcGVhbnV0LWZyZWUgeWFqaSBpcyBpbiB0aGUgZGF0YXNldCwgc28gdGhlIHN0dWRpbyBhYnN0YWlucy4iLAogIH0sCl07CgovKiogVHJpYWwtd29ya3NoZWV0IHN0ZXBzIHBlciBtZXRob2Q6IHJlc2VhcmNoIHRyaWFsIG9ic2VydmF0aW9ucywgbm90IGZvb2Qtc2VydmljZSBpbnN0cnVjdGlvbnMuICovCmV4cG9ydCBjb25zdCBUUklBTF9TVEVQUzogUmVjb3JkPHN0cmluZywgc3RyaW5nW10+ID0gewogIGF3YXJhX2Zpcm06IFsKICAgICJXZWlnaCB0aGUgZHJ5IHNveWJlYW5zIGFuZCByZWNvcmQgdGhlIGJhdGNoOyBub3RlIHRoZSB5aWVsZCBhc3N1bXB0aW9uIHVzZWQgaW4gdGhpcyBmb3JtdWxhdGlvbi4iLAogICAgIlJlY29yZCB0aGUgYWN0dWFsIHdldC1jdXJkIHdlaWdodCBhZnRlciBzZXR0aW5nLCBhbmQgdGhlIGZpbmlzaGVkIHdlaWdodCBvZiBlYWNoIHRyaWFsIHBpZWNlLiIsCiAgICAiQXBwbHkgdGhlIGVudGVyZWQgb25pb24sIHBlcHBlciwgc2FsdCBhbmQgc2Vhc29uaW5nIGFtb3VudHM7IHJlY29yZCBhbnkgZGV2aWF0aW9uLiIsCiAgICAiR3JpbGwgb25lIHRyaWFsIHBpZWNlOyByZWNvcmQgZ3JpbGwgdGltZSBhbmQgdGhlIGZpbmlzaGVkIHdlaWdodCBhZnRlciBncmlsbGluZy4iLAogICAgIlJlY29yZCB0YXN0ZXIgbm90ZXMgYXMgcmVzZWFyY2ggb2JzZXJ2YXRpb25zIG9ubHk7IGRvIG5vdCB0cmVhdCB0aGVtIGFzIGFjY2VwdGFuY2UgZXZpZGVuY2UuIiwKICBdLAogIGF3YXJhX3ByZXNzZWQ6IFsKICAgICJXZWlnaCB0aGUgZHJ5IHNveWJlYW5zIGFuZCByZWNvcmQgdGhlIGJhdGNoOyBub3RlIHRoZSB5aWVsZCBhc3N1bXB0aW9uIHVzZWQgaW4gdGhpcyBmb3JtdWxhdGlvbi4iLAogICAgIlByZXNzIHRoZSBjdXJkIGFuZCByZWNvcmQgdGhlIGFjdHVhbCB3YXRlciBsb3NzOyBjb21wYXJlIGl0IHdpdGggdGhlIG1vZGVsbGVkIDIwJS4iLAogICAgIlJlY29yZCB0aGUgZmluaXNoZWQgd2VpZ2h0IG9mIGVhY2ggcHJlc3NlZCB0cmlhbCBwaWVjZSBiZWZvcmUgZ3JpbGxpbmcuIiwKICAgICJBcHBseSB0aGUgZW50ZXJlZCBzcGljZSBhbW91bnRzOyByZWNvcmQgYW55IGRldmlhdGlvbi4iLAogICAgIkdyaWxsIG9uZSB0cmlhbCBwaWVjZTsgcmVjb3JkIGdyaWxsIHRpbWUgYW5kIGZpbmlzaGVkIHdlaWdodCBhZnRlciBncmlsbGluZy4iLAogIF0sCiAgYXdhcmFfZnJvemVuOiBbCiAgICAiV2VpZ2ggdGhlIGRyeSBzb3liZWFucyBhbmQgcmVjb3JkIHRoZSBiYXRjaDsgbm90ZSB0aGUgeWllbGQgYXNzdW1wdGlvbiB1c2VkIGluIHRoaXMgZm9ybXVsYXRpb24uIiwKICAgICJSZWNvcmQgZnJlZXplIGR1cmF0aW9uIGFuZCB0aGF3IG1ldGhvZCB1c2VkIGZvciB0aGUgdHJpYWwgYmF0Y2guIiwKICAgICJQcmVzcyBhZnRlciB0aGF3aW5nIGFuZCByZWNvcmQgdGhlIGFjdHVhbCB3YXRlciBsb3NzOyBjb21wYXJlIGl0IHdpdGggdGhlIG1vZGVsbGVkIDI1JS4iLAogICAgIkFwcGx5IHRoZSBlbnRlcmVkIHNwaWNlIGFtb3VudHM7IHJlY29yZCBhbnkgZGV2aWF0aW9uLiIsCiAgICAiR3JpbGwgb25lIHRyaWFsIHBpZWNlOyByZWNvcmQgZ3JpbGwgdGltZSBhbmQgZmluaXNoZWQgd2VpZ2h0IGFmdGVyIGdyaWxsaW5nLiIsCiAgXSwKICBhd2FyYV9mcmllZDogWwogICAgIldlaWdoIHRoZSBkcnkgc295YmVhbnMgYW5kIHJlY29yZCB0aGUgYmF0Y2g7IG5vdGUgdGhlIHlpZWxkIGFzc3VtcHRpb24gdXNlZCBpbiB0aGlzIGZvcm11bGF0aW9uLiIsCiAgICAiUmVjb3JkIHRoZSBvaWwgdm9sdW1lIGJlZm9yZSBhbmQgYWZ0ZXIgZnJ5aW5nIHRvIGVzdGltYXRlIGFjdHVhbCBhYnNvcnB0aW9uOyBjb21wYXJlIHdpdGggdGhlIGVudGVyZWQgdm9sdW1lLiIsCiAgICAiUmVjb3JkIHRoZSBmaW5pc2hlZCB3ZWlnaHQgb2YgZWFjaCBmcmllZCB0cmlhbCBwaWVjZS4iLAogICAgIkFwcGx5IHRoZSBlbnRlcmVkIHNwaWNlIGFtb3VudHM7IHJlY29yZCBhbnkgZGV2aWF0aW9uLiIsCiAgICAiUmVjb3JkIGZyeWluZyB0aW1lIGFuZCBmaW5pc2hlZCB3ZWlnaHQ7IG5vdGUgb2lsIGNvc3Qgc2VwYXJhdGVseSBmcm9tIGluZ3JlZGllbnQgY29zdC4iLAogIF0sCn07CgpleHBvcnQgY29uc3QgTUVBU1VSRU1FTlRTX05FRURFRDogc3RyaW5nW10gPSBbCiAgIkFjdHVhbCB3ZXQtY3VyZCB5aWVsZCBmcm9tIDEga2cgZHJ5IHNveWJlYW5zIGluIHlvdXIga2l0Y2hlbiAodGhlIG1vZGVsIGFzc3VtZXMgYSB5aWVsZCB5b3UgY2FuIGNoYW5nZSkuIiwKICAiQWN0dWFsIHdhdGVyIGxvc3Mgd2hlbiBwcmVzc2luZyBhbmQgYWZ0ZXIgZnJlZXpl4oCTdGhhdywgcGVyIGJhdGNoLiIsCiAgIkFjdHVhbCBwcmVwYXJhdGlvbiBtaW51dGVzIHBlciBtZXRob2QsIHRpbWVkIGluIHlvdXIga2l0Y2hlbi4iLAogICJBY3R1YWwgb2lsIGFic29ycHRpb24gZm9yIHRoZSBmcmllZCBtZXRob2QgKHZvbHVtZSBiZWZvcmUgdnMuIGFmdGVyKS4iLAogICJBIHJldmlld2VkIGluZ3JlZGllbnQgbGFiZWwgZm9yIHRoZSBzZWFzb25pbmcgY3ViZXMgKGFuaW1hbCBpbmdyZWRpZW50cyBhbmQgYWxsZXJnZW5zKS4iLAogICJBIHZlcmlmaWVkIHBlYW51dC1mcmVlIHlhamkgZm9ybXVsYXRpb24gYmVmb3JlIGFueSBwZWFudXQtZXhjbHVzaW9uIGNsYWltIGNhbiBiZSBtYWRlLiIsCl07CgovKioKICogSWxsdXN0cmF0aXZlIG1lbnUgZXhwbG9yZXIgaXRlbXMsIGluc3BpcmVkIGJ5IHRoZSByZWFsIG1lbnUgb2YgVmVnZ2llCiAqIFZpY3RvcnkgKExhZ29zIOKAlCBOaWdlcmlhJ3MgZmlyc3QgdmVnYW4gcmVzdGF1cmFudCwgZXN0LiAyMDEzKS4gVGhlc2UgYXJlCiAqIHByb2R1Y3QtdmlzaW9uIGV4YW1wbGVzIG9ubHk6IHRoZXkgYXJlIE5PVCBlbmdpbmUgb3V0cHV0cywgY2Fycnkgbm8gY29zdGVkCiAqIGZvcm11bGF0aW9uLCBhbmQgYXJlIHNob3duIHRvIGNvbW11bmljYXRlIHRoZSBicm9hZGVyIG1lbnUtc2hpZnQgaWRlYS4KICovCmV4cG9ydCBpbnRlcmZhY2UgTWVudUV4cGxvcmVySXRlbSB7CiAgbmFtZTogc3RyaW5nOwogIHN0eWxlOiBzdHJpbmc7CiAgZGVzY3JpcHRpb246IHN0cmluZzsKICBwcm90ZWluQmFzZTogc3RyaW5nOwp9CgpleHBvcnQgY29uc3QgTUVOVV9FWFBMT1JFUl9JVEVNUzogTWVudUV4cGxvcmVySXRlbVtdID0gWwogIHsKICAgIG5hbWU6ICJWZWdhbiBKb2xsb2YgUmljZSIsCiAgICBzdHlsZTogIlBhcnR5LXN0eWxlIHJpY2UsIHBsYW50LWJhc2VkIiwKICAgIGRlc2NyaXB0aW9uOgogICAgICAiU21va3kgdG9tYXRvLXBlcHBlciBqb2xsb2Ygc2VydmVkIHdpdGggcGxhbnQgcHJvdGVpbiBjaHVua3Mg4oCUIHRoZSBjZWxlYnJhdGlvbiBzdGFwbGUsIHJlLWJhc2VkIG9uIHNveS4iLAogICAgcHJvdGVpbkJhc2U6ICJTb3kgY2h1bmtzIiwKICB9LAogIHsKICAgIG5hbWU6ICJFZ3VzaSBTb3VwIiwKICAgIHN0eWxlOiAiTWVsb24tc2VlZCBzb3VwIiwKICAgIGRlc2NyaXB0aW9uOgogICAgICAiR3JvdW5kIGVndXNpIHNlZWRzIHRoaWNrZW4gdGhlIHNvdXAgaXRzZWxmLCBzbyB0aGUgcHJvdGVpbiBpcyBpbiB0aGUgYmFzZTsgc2VydmVkIHdpdGggYSBzd2FsbG93IG9mIGNob2ljZS4iLAogICAgcHJvdGVpbkJhc2U6ICJFZ3VzaSBzZWVkICsgc295IGNodW5rcyIsCiAgfSwKICB7CiAgICBuYW1lOiAiRWZvIFJpcm8iLAogICAgc3R5bGU6ICJMZWFmeSB2ZWdldGFibGUgc291cCIsCiAgICBkZXNjcmlwdGlvbjoKICAgICAgIlJpY2ggc3BpbmFjaC1zdHlsZSBncmVlbnMgc3Rld2VkIHdpdGggcGVwcGVycywgZmluaXNoZWQgd2l0aCBjdXJkIHBpZWNlcyBpbnN0ZWFkIG9mIGFzc29ydGVkIG1lYXQuIiwKICAgIHByb3RlaW5CYXNlOiAiQXdhcmEgY3VyZCIsCiAgfSwKICB7CiAgICBuYW1lOiAiVmVnYW4gU3V5YSIsCiAgICBzdHlsZTogIllhamktc3BpY2VkIGdyaWxsIiwKICAgIGRlc2NyaXB0aW9uOgogICAgICAiVGhlIHN0dWRpbydzIHJlc2VhcmNoIGRpc2g6IGF3YXJhIG1ldGhvZHMgZ3JpbGxlZCBhbmQgZHVzdGVkIHdpdGggeWFqaS1zdHlsZSBzcGljZSwgYmVzaWRlIHRoZSBiZWVmIHJlZmVyZW5jZS4iLAogICAgcHJvdGVpbkJhc2U6ICJBd2FyYSAoc295IGN1cmQpIiwKICB9LAogIHsKICAgIG5hbWU6ICJWZWdhbiBTaGF3YXJtYSIsCiAgICBzdHlsZTogIldyYXAsIExhZ29zIHN0eWxlIiwKICAgIGRlc2NyaXB0aW9uOgogICAgICAiTWFyaW5hdGVkIHNveSBzdHJpcHMgd2l0aCBjYWJiYWdlLCBjYXJyb3QgYW5kIHNhdWNlIGluIGEgd2FybSB3cmFwIOKAlCBhIGZhbWlsaWFyIGZvcm1hdCB3aXRoIGEgcGxhbnQgcHJvdGVpbiBjb3JlLiIsCiAgICBwcm90ZWluQmFzZTogIlNveSBzdHJpcHMiLAogIH0sCiAgewogICAgbmFtZTogIlNveSBDaHVua3MgKOKAnFZjaHVua3PigJ0tc3R5bGUpIiwKICAgIHN0eWxlOiAiUmV0YWlsIHByb3RlaW4gYmFzZSIsCiAgICBkZXNjcmlwdGlvbjoKICAgICAgIlNoZWxmLXN0YWJsZSB0ZXh0dXJlZCBzb3kgY2h1bmtzIG9mIHRoZSBraW5kIE5pZ2VyaWFuIHZlZ2FuIGtpdGNoZW5zIGFscmVhZHkgYnV5LCByZWFkeSBmb3Igc3Rld3MgYW5kIGdyaWxscy4iLAogICAgcHJvdGVpbkJhc2U6ICJUZXh0dXJlZCBzb3kgcHJvdGVpbiIsCiAgfSwKXTsK
+/**
+ * Demo dataset for the Naija MenuShift web UI.
+ *
+ * SYNTHETIC DEMO DATA: the figures below mirror the team's research workbook
+ * values (NBS Selected Food Price Watch transcriptions and USDA FoodData
+ * Central references, retrieved 14 Nov 2026) so the interface behaves like the
+ * Python prototype. They are NOT verified market measurements and must not be
+ * presented as such. See the Python sources in src/menushift/sourced_menu.py
+ * and data/sources/*.csv of the main repository.
+ */
+
+export const DATASET_NOTE =
+  "Synthetic demo dataset — values mirror the team's research workbook for interface demonstration; not verified market measurements.";
+
+export interface IngredientDef {
+  ingredientId: string;
+  name: string;
+  /** NGN per kg. For wet/fried awara this is derived from soy + milling over the yield assumption. */
+  priceNgnPerKg: number | "derived_wet_curd";
+  proteinGPer100g: number;
+  ironMgPer100g: number;
+  zincMgPer100g: number;
+  priceSource: string;
+  nutritionSource: string;
+  nutritionState: string;
+  allergens: string;
+  isAnimal: boolean;
+}
+
+/** Workbook quotes (NGN) used to derive the wet-curd price, as in sourced_menu.py. */
+export const SOYBEAN_PRICE_NGN_PER_KG = 644; // Mansa Markets benchmark, workbook
+export const MILLING_PRICE_NGN_PER_KG = 150; // informal vendor note, workbook
+export const OIL_PRICE_NGN_PER_75CL = 3263.5; // NBS Selected Food Price Watch, May 2026
+
+export const INGREDIENTS: Record<string, IngredientDef> = {
+  wet_awara: {
+    ingredientId: "wet_awara",
+    name: "Wet awara curd",
+    priceNgnPerKg: "derived_wet_curd",
+    proteinGPer100g: 17.3,
+    ironMgPer100g: 2.66,
+    zincMgPer100g: 1.57,
+    priceSource:
+      "Mansa Markets soybean benchmark plus local milling note; workbook yield assumption (kg wet curd per kg dry soy)",
+    nutritionSource: "USDA FoodData Central 172475 (firm tofu reference), via project workbook",
+    nutritionState: "firm raw tofu reference applied to purchased wet curd",
+    allergens: "soy",
+    isAnimal: false,
+  },
+  fried_awara: {
+    ingredientId: "fried_awara",
+    name: "Fried awara",
+    priceNgnPerKg: "derived_wet_curd",
+    proteinGPer100g: 18.8,
+    ironMgPer100g: 4.87,
+    zincMgPer100g: 1.99,
+    priceSource:
+      "Wet-curd rate (soybean benchmark plus milling, over the yield assumption); fried piece priced at the wet-curd rate because starting weight is unmeasured",
+    nutritionSource: "Published fried-tofu reference (MyFoodData 172451), via project workbook",
+    nutritionState: "published fried-tofu reference per 100 g finished piece",
+    allergens: "soy",
+    isAnimal: false,
+  },
+  onion: {
+    ingredientId: "onion",
+    name: "Onions fresh",
+    priceNgnPerKg: 1180.01,
+    proteinGPer100g: 0,
+    ironMgPer100g: 0,
+    zincMgPer100g: 0,
+    priceSource: "NBS Selected Food Price Watch, May 2026 national average (secondary transcription)",
+    nutritionSource: "no nutrient row in the workbook",
+    nutritionState: "price only",
+    allergens: "unreviewed",
+    isAnimal: false,
+  },
+  pepper: {
+    ingredientId: "pepper",
+    name: "Pepper (Fresh / Chili)",
+    priceNgnPerKg: 1178,
+    proteinGPer100g: 0,
+    ironMgPer100g: 0,
+    zincMgPer100g: 0,
+    priceSource: "Workbook quote (NBS Selected Food Price Watch average)",
+    nutritionSource: "no nutrient row in the workbook",
+    nutritionState: "price only",
+    allergens: "unreviewed",
+    isAnimal: false,
+  },
+  salt: {
+    ingredientId: "salt",
+    name: "Iodized Table Salt",
+    priceNgnPerKg: 350,
+    proteinGPer100g: 0,
+    ironMgPer100g: 0,
+    zincMgPer100g: 0,
+    priceSource: "Retail pack price from the workbook (₦175 per 500 g pack)",
+    nutritionSource: "no nutrient row in the workbook",
+    nutritionState: "price only",
+    allergens: "unreviewed",
+    isAnimal: false,
+  },
+  seasoning: {
+    ingredientId: "seasoning",
+    name: "Seasoning Cubes",
+    priceNgnPerKg: 4750,
+    proteinGPer100g: 0,
+    ironMgPer100g: 0,
+    zincMgPer100g: 0,
+    priceSource: "Retail pack price from the workbook (₦1,900 per 100 × 4 g pack); package label not reviewed",
+    nutritionSource: "no nutrient row in the workbook",
+    nutritionState: "price only",
+    allergens: "unknown;verify label",
+    isAnimal: false,
+  },
+  beef: {
+    ingredientId: "beef",
+    name: "Beef boneless raw",
+    priceNgnPerKg: 7171.41,
+    proteinGPer100g: 29.5,
+    ironMgPer100g: 2.88,
+    zincMgPer100g: 6.8,
+    priceSource: "NBS Selected Food Price Watch, May 2026 national average (secondary transcription)",
+    nutritionSource: "USDA FoodData Central 170209 (cooked lean beef); not the nutrient content of the raw priced kilogram",
+    nutritionState: "cooked lean per 100 g, shown beside a raw price",
+    allergens: "unreviewed",
+    isAnimal: true,
+  },
+};
+
+/** Water-loss fractions from the workbook, as in sourced_menu.PRESS_LOSS. */
+export const PRESS_LOSS: Record<string, number> = {
+  awara_firm: 0.0,
+  awara_pressed: 0.2,
+  awara_frozen: 0.25,
+  awara_fried: 0.0,
+};
+
+export interface MethodDef {
+  optionId: string;
+  /** Display label from kitchen_optimizer.METHOD_LABELS. */
+  label: string;
+  /** Option name as in sourced_menu definitions. */
+  name: string;
+  textureTags: string;
+  methodNotes: string;
+  /** Assumed preparation minutes for this demo (modelled, not measured). */
+  prepMinutes: number;
+  mainIngredientId: string;
+  /** True when the nutrient density is a moisture recalculation rather than a published row. */
+  modelled: boolean;
+}
+
+export const METHODS: MethodDef[] = [
+  {
+    optionId: "awara_firm",
+    label: "Firm awara",
+    name: "Firm awara (unpressed)",
+    textureTags: "firm raw unpressed awara",
+    methodNotes: "Wet curd at the finished weight. No press loss.",
+    prepMinutes: 35,
+    mainIngredientId: "wet_awara",
+    modelled: false,
+  },
+  {
+    optionId: "awara_pressed",
+    label: "Pressed awara",
+    name: "Pressed awara (20% water loss)",
+    textureTags: "pressed firm chewy awara",
+    methodNotes: "20% water loss from the workbook. Extra curd is purchased; protein is not created.",
+    prepMinutes: 48,
+    mainIngredientId: "wet_awara",
+    modelled: true,
+  },
+  {
+    optionId: "awara_frozen",
+    label: "Frozen–thawed awara",
+    name: "Frozen, thawed, pressed awara (25% water loss)",
+    textureTags: "frozen thawed pressed chewy awara",
+    methodNotes: "25% water loss from the workbook. Extra curd is purchased; protein is not created.",
+    prepMinutes: 110,
+    mainIngredientId: "wet_awara",
+    modelled: true,
+  },
+  {
+    optionId: "awara_fried",
+    label: "Fried awara",
+    name: "Fried awara",
+    textureTags: "fried deep-fried awara",
+    methodNotes: "Fried nutrient row on the finished weight, plus the oil volume you enter.",
+    prepMinutes: 65,
+    mainIngredientId: "fried_awara",
+    modelled: false,
+  },
+];
+
+/** Equipment each method requires, from kitchen_optimizer.EQUIPMENT_REQUIREMENTS. */
+export const EQUIPMENT_REQUIREMENTS: Record<string, string[]> = {
+  awara_firm: ["grill"],
+  awara_pressed: ["grill", "press"],
+  awara_frozen: ["grill", "press", "freezer"],
+  awara_fried: ["grill", "frying_pan"],
+};
+
+export const EQUIPMENT_LABELS: Record<string, string> = {
+  grill: "Grill",
+  press: "Press",
+  freezer: "Freezer",
+  frying_pan: "Frying pan",
+};
+
+export const ALL_EQUIPMENT = Object.keys(EQUIPMENT_LABELS);
+
+/** Inventory checklist, from kitchen_optimizer.INVENTORY_ITEMS. */
+export const INVENTORY_ITEMS: Record<string, string> = {
+  awara: "Fresh awara / tofu",
+  onion: "Onions",
+  pepper: "Fresh pepper",
+  salt: "Salt",
+  seasoning: "Seasoning (label review outstanding)",
+  oil: "Vegetable oil",
+};
+
+export const ALL_INVENTORY = Object.keys(INVENTORY_ITEMS);
+
+/** Maps sourced ingredient ids to inventory ids, from kitchen_optimizer.SOURCE_TO_INVENTORY. */
+export const SOURCE_TO_INVENTORY: Record<string, string> = {
+  wet_awara: "awara",
+  fried_awara: "awara",
+  onion: "onion",
+  pepper: "pepper",
+  salt: "salt",
+  seasoning: "seasoning",
+};
+
+export const ALLERGEN_OPTIONS: { id: string; label: string; hint: string }[] = [
+  { id: "soy", label: "Soy", hint: "Awara is a soy curd; excluding soy removes every current formulation." },
+  {
+    id: "peanut",
+    label: "Peanut / groundnut",
+    hint: "Standard suya yaji often contains groundnut and no verified peanut-free yaji is in the dataset, so the studio abstains.",
+  },
+];
+
+/** Trial-worksheet steps per method: research trial observations, not food-service instructions. */
+export const TRIAL_STEPS: Record<string, string[]> = {
+  awara_firm: [
+    "Weigh the dry soybeans and record the batch; note the yield assumption used in this formulation.",
+    "Record the actual wet-curd weight after setting, and the finished weight of each trial piece.",
+    "Apply the entered onion, pepper, salt and seasoning amounts; record any deviation.",
+    "Grill one trial piece; record grill time and the finished weight after grilling.",
+    "Record taster notes as research observations only; do not treat them as acceptance evidence.",
+  ],
+  awara_pressed: [
+    "Weigh the dry soybeans and record the batch; note the yield assumption used in this formulation.",
+    "Press the curd and record the actual water loss; compare it with the modelled 20%.",
+    "Record the finished weight of each pressed trial piece before grilling.",
+    "Apply the entered spice amounts; record any deviation.",
+    "Grill one trial piece; record grill time and finished weight after grilling.",
+  ],
+  awara_frozen: [
+    "Weigh the dry soybeans and record the batch; note the yield assumption used in this formulation.",
+    "Record freeze duration and thaw method used for the trial batch.",
+    "Press after thawing and record the actual water loss; compare it with the modelled 25%.",
+    "Apply the entered spice amounts; record any deviation.",
+    "Grill one trial piece; record grill time and finished weight after grilling.",
+  ],
+  awara_fried: [
+    "Weigh the dry soybeans and record the batch; note the yield assumption used in this formulation.",
+    "Record the oil volume before and after frying to estimate actual absorption; compare with the entered volume.",
+    "Record the finished weight of each fried trial piece.",
+    "Apply the entered spice amounts; record any deviation.",
+    "Record frying time and finished weight; note oil cost separately from ingredient cost.",
+  ],
+};
+
+export const MEASUREMENTS_NEEDED: string[] = [
+  "Actual wet-curd yield from 1 kg dry soybeans in your kitchen (the model assumes a yield you can change).",
+  "Actual water loss when pressing and after freeze–thaw, per batch.",
+  "Actual preparation minutes per method, timed in your kitchen.",
+  "Actual oil absorption for the fried method (volume before vs. after).",
+  "A reviewed ingredient label for the seasoning cubes (animal ingredients and allergens).",
+  "A verified peanut-free yaji formulation before any peanut-exclusion claim can be made.",
+];
+
+/**
+ * Illustrative menu explorer items, inspired by the real menu of Veggie
+ * Victory (Lagos — Nigeria's first vegan restaurant, est. 2013). These are
+ * product-vision examples only: they are NOT engine outputs, carry no costed
+ * formulation, and are shown to communicate the broader menu-shift idea.
+ */
+export interface MenuExplorerItem {
+  name: string;
+  style: string;
+  description: string;
+  proteinBase: string;
+}
+
+export const MENU_EXPLORER_ITEMS: MenuExplorerItem[] = [
+  {
+    name: "Vegan Jollof Rice",
+    style: "Party-style rice, plant-based",
+    description:
+      "Smoky tomato-pepper jollof served with plant protein chunks — the celebration staple, re-based on soy.",
+    proteinBase: "Soy chunks",
+  },
+  {
+    name: "Egusi Soup",
+    style: "Melon-seed soup",
+    description:
+      "Ground egusi seeds thicken the soup itself, so the protein is in the base; served with a swallow of choice.",
+    proteinBase: "Egusi seed + soy chunks",
+  },
+  {
+    name: "Efo Riro",
+    style: "Leafy vegetable soup",
+    description:
+      "Rich spinach-style greens stewed with peppers, finished with curd pieces instead of assorted meat.",
+    proteinBase: "Awara curd",
+  },
+  {
+    name: "Vegan Suya",
+    style: "Yaji-spiced grill",
+    description:
+      "The studio's research dish: awara methods grilled and dusted with yaji-style spice, beside the beef reference.",
+    proteinBase: "Awara (soy curd)",
+  },
+  {
+    name: "Vegan Shawarma",
+    style: "Wrap, Lagos style",
+    description:
+      "Marinated soy strips with cabbage, carrot and sauce in a warm wrap — a familiar format with a plant protein core.",
+    proteinBase: "Soy strips",
+  },
+  {
+    name: "Soy Chunks (“Vchunks”-style)",
+    style: "Retail protein base",
+    description:
+      "Shelf-stable textured soy chunks of the kind Nigerian vegan kitchens already buy, ready for stews and grills.",
+    proteinBase: "Textured soy protein",
+  },
+];
