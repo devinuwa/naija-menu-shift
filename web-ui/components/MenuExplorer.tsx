@@ -1,1 +1,34 @@
-aW1wb3J0IHsgTUVOVV9FWFBMT1JFUl9JVEVNUyB9IGZyb20gIkAvbGliL2RhdGEiOwoKLyoqCiAqIFBsYW50LWJhc2VkIG1lbnUgZXhwbG9yZXIg4oCUIGlsbHVzdHJhdGl2ZSBwcm9kdWN0LXZpc2lvbiBzZWN0aW9uIGluc3BpcmVkIGJ5CiAqIHRoZSByZWFsIG1lbnUgb2YgVmVnZ2llIFZpY3RvcnksIExhZ29zIChOaWdlcmlhJ3MgZmlyc3QgdmVnYW4gcmVzdGF1cmFudCkuCiAqIFRoZXNlIGl0ZW1zIGFyZSBOT1QgZW5naW5lIG91dHB1dHMgYW5kIGNhcnJ5IG5vIGNvc3RlZCBmb3JtdWxhdGlvbi4KICovCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIE1lbnVFeHBsb3JlcigpIHsKICByZXR1cm4gKAogICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJucy1leHBsb3JlciIgYXJpYS1sYWJlbGxlZGJ5PSJleHBsb3Jlci1oZWFkaW5nIj4KICAgICAgPGgyIGlkPSJleHBsb3Jlci1oZWFkaW5nIiBjbGFzc05hbWU9Im5zLXBhbmVsLXRpdGxlIj4KICAgICAgICBQbGFudC1iYXNlZCBtZW51IGV4cGxvcmVyIOKAlCB0aGUgd2lkZXIgdmlzaW9uCiAgICAgIDwvaDI+CiAgICAgIDxwIGNsYXNzTmFtZT0ibnMtbm90ZSBucy1leHBsb3Jlci1ub3RlIj4KICAgICAgICBJbGx1c3RyYXRpdmUgbWVudSBpdGVtcyBvbmx5IOKAlCBub3QgZW5naW5lIG91dHB1dHMgYW5kIG5vdCBjb3N0ZWQgZm9ybXVsYXRpb25zLgogICAgICAgIEluc3BpcmVkIGJ5IHRoZSByZWFsIHBsYW50LWJhc2VkIE5pZ2VyaWFuIG1lbnUgYXQgVmVnZ2llIFZpY3RvcnksIExhZ29zCiAgICAgICAgKE5pZ2VyaWHigJlzIGZpcnN0IHZlZ2FuIHJlc3RhdXJhbnQsIGVzdC4gMjAxMyk6IHByb29mIHRoYXQgZmFtaWxpYXIgZGlzaGVzCiAgICAgICAgYWxyZWFkeSBoYXZlIHBsYW50LWJhc2VkIHZlcnNpb25zIGluIHRoZSBtYXJrZXQuIE1lbnVTaGlmdOKAmXMgam9iIGlzIHRvIGhlbHAKICAgICAgICBhbnkga2l0Y2hlbiBldmFsdWF0ZSBzdWNoIHNoaWZ0cyBhZ2FpbnN0IGl0cyBvd24gYnVkZ2V0LCBzdG9jayBhbmQgZXF1aXBtZW50IOKAlAogICAgICAgIHN0YXJ0aW5nIHdpdGggdGhlIHNvdXJjZWQgc3V5YSBzdHVkaW8gYWJvdmUuCiAgICAgIDwvcD4KICAgICAgPGRpdiBjbGFzc05hbWU9Im5zLW1lbnUtZ3JpZCI+CiAgICAgICAge01FTlVfRVhQTE9SRVJfSVRFTVMubWFwKChpdGVtKSA9PiAoCiAgICAgICAgICA8YXJ0aWNsZSBrZXk9e2l0ZW0ubmFtZX0gY2xhc3NOYW1lPSJucy1tZW51LWNhcmQiPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9Im5zLWNhcmQta2lja2VyIj57aXRlbS5zdHlsZX08L3A+CiAgICAgICAgICAgIDxoMyBjbGFzc05hbWU9Im5zLW1lbnUtbmFtZSI+e2l0ZW0ubmFtZX08L2gzPgogICAgICAgICAgICA8cD57aXRlbS5kZXNjcmlwdGlvbn08L3A+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibnMtY2hpcCI+UHJvdGVpbiBiYXNlOiB7aXRlbS5wcm90ZWluQmFzZX08L3A+CiAgICAgICAgICA8L2FydGljbGU+CiAgICAgICAgKSl9CiAgICAgIDwvZGl2PgogICAgPC9zZWN0aW9uPgogICk7Cn0K
+import { MENU_EXPLORER_ITEMS } from "@/lib/data";
+
+/**
+ * Plant-based menu explorer — illustrative product-vision section inspired by
+ * the real menu of Veggie Victory, Lagos (Nigeria's first vegan restaurant).
+ * These items are NOT engine outputs and carry no costed formulation.
+ */
+export default function MenuExplorer() {
+  return (
+    <section className="ns-explorer" aria-labelledby="explorer-heading">
+      <h2 id="explorer-heading" className="ns-panel-title">
+        Plant-based menu explorer — the wider vision
+      </h2>
+      <p className="ns-note ns-explorer-note">
+        Illustrative menu items only — not engine outputs and not costed formulations.
+        Inspired by the real plant-based Nigerian menu at Veggie Victory, Lagos
+        (Nigeria’s first vegan restaurant, est. 2013): proof that familiar dishes
+        already have plant-based versions in the market. MenuShift’s job is to help
+        any kitchen evaluate such shifts against its own budget, stock and equipment —
+        starting with the sourced suya studio above.
+      </p>
+      <div className="ns-menu-grid">
+        {MENU_EXPLORER_ITEMS.map((item) => (
+          <article key={item.name} className="ns-menu-card">
+            <p className="ns-card-kicker">{item.style}</p>
+            <h3 className="ns-menu-name">{item.name}</h3>
+            <p>{item.description}</p>
+            <p className="ns-chip">Protein base: {item.proteinBase}</p>
+          </article>
+        ))}
+      </div>
+    </section>
+  );
+}
