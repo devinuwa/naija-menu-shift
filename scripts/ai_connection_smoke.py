@@ -1,1 +1,102 @@
-IiIiTWFudWFsIHNtb2tlIHRlc3QgZm9yIHRoZSBBSSBwbGFubmVyIGludGVncmF0aW9uIGxheWVyIChuZXZlciBydW5zIGluIENJKS4KCiAgcHl0aG9uIHNjcmlwdHMvYWlfY29ubmVjdGlvbl9zbW9rZS5weQogICAgICBMb2NhbCBtb2RlIChkZWZhdWx0KTogcnVucyB0aGUgZnVsbCBhZ2VudCBsb29wIG9mZmxpbmUgYW5kIHByaW50cyB0aGUKICAgICAgZ2F0ZSdzIGFjY2VwdC9yZWplY3QgZGVjaXNpb25zIGZvciBhIHNhbXBsZSBicmllZi4KCiAgTUVOVVNISUZUX0FJX01PREU9YmVkcm9jayBCRURST0NLX01PREVMX0lEPTxlbmFibGVkLW1vZGVsLWlkPiBcCiAgICAgIHB5dGhvbiBzY3JpcHRzL2FpX2Nvbm5lY3Rpb25fc21va2UucHkKICAgICAgQmVkcm9jayBtb2RlOiBtYWtlcyBPTkUgQ29udmVyc2UgY2FsbCB0aHJvdWdoIHRoZSBhZGFwdGVyIGFuZCByZXBvcnRzCiAgICAgIGxhdGVuY3kgcGx1cyB3aGV0aGVyIHRoZSBzdHJpY3QgcHJvcG9zYWwgcGFyc2VyIGFjY2VwdGVkIHRoZSBvdXRwdXQuCgpQcmludHMgdGhlIHJlc29sdmVkIGNvbmZpZ3VyYXRpb24gb25seS4gQ3JlZGVudGlhbHMgYXJlIG5ldmVyIHJlYWQgb3IgcHJpbnRlZApoZXJlOyBib3RvMyByZXNvbHZlcyB0aGVtIGZyb20gdGhlIG5vcm1hbCBBV1MgU0RLIGNoYWluIGluIHRoZSB3b3Jrc2hvcC4KIiIiCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmltcG9ydCBzeXMKaW1wb3J0IHRpbWUKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCgpmcm9tIG1lbnVzaGlmdC5hZ2VudF9jb250cmFjdCBpbXBvcnQgS2l0Y2hlbkJyaWVmLCBwYXJzZV9wcm9wb3NhbHMsIHJ1bl9hZ2VudApmcm9tIG1lbnVzaGlmdC5haV9jb25maWcgaW1wb3J0IGdldF9haV9jb25maWcKZnJvbSBtZW51c2hpZnQua2l0Y2hlbl9vcHRpbWl6ZXIgaW1wb3J0IElOVkVOVE9SWV9JVEVNUwpmcm9tIG1lbnVzaGlmdC5wcm9wb3Nlcl9mYWN0b3J5IGltcG9ydCBidWlsZF9wcm9wb3NlcgoKUk9PVCA9IFBhdGgoX19maWxlX18pLnJlc29sdmUoKS5wYXJlbnRzWzFdClNPVVJDRVMgPSBST09UIC8gImRhdGEiIC8gInNvdXJjZXMiCgp0cnk6ICAjIGJvdG9jb3JlIHNoaXBzIHdpdGggdGhlIG9wdGlvbmFsIGF3cyBleHRyYTsgYmVkcm9jayBtb2RlIGltcGxpZXMgaXQKICAgIGZyb20gYm90b2NvcmUuZXhjZXB0aW9ucyBpbXBvcnQgQm90b0NvcmVFcnJvcgoKICAgIElOVk9LRV9FUlJPUlM6IHR1cGxlW3R5cGVbRXhjZXB0aW9uXSwgLi4uXSA9IChCb3RvQ29yZUVycm9yLCBWYWx1ZUVycm9yLCBSdW50aW1lRXJyb3IsIE9TRXJyb3IpCmV4Y2VwdCBJbXBvcnRFcnJvcjogICMgcHJhZ21hOiBubyBjb3ZlciAtIGxvY2FsIG1vZGUgd2l0aG91dCB0aGUgYXdzIGV4dHJhCiAgICBJTlZPS0VfRVJST1JTID0gKFZhbHVlRXJyb3IsIFJ1bnRpbWVFcnJvciwgT1NFcnJvcikKClNBTVBMRV9CUklFRiA9IEtpdGNoZW5CcmllZigKICAgIGJ1ZGdldF9uZ249MjAwMCwgbWluX3Byb3RlaW5fZz0xMCwgbWF4X3ByZXBfbWludXRlcz0yMDAsCiAgICBlcXVpcG1lbnQ9ZnJvemVuc2V0KHsiZ3JpbGwiLCAicHJlc3MiLCAiZnJlZXplciIsICJmcnlpbmdfcGFuIn0pLAogICAgYXZhaWxhYmxlX2luZ3JlZGllbnRzPWZyb3plbnNldChJTlZFTlRPUllfSVRFTVMpLAogICAgcHJlZmVyZW5jZT0iY2hld3kgc21va3kiLAopCgoKZGVmIG1haW4oKSAtPiBpbnQ6CiAgICB0cnk6CiAgICAgICAgY29uZmlnID0gZ2V0X2FpX2NvbmZpZygpCiAgICBleGNlcHQgVmFsdWVFcnJvciBhcyBleGM6CiAgICAgICAgcHJpbnQoZiJDT05GSUcgRVJST1I6IHtleGN9IikKICAgICAgICByZXR1cm4gMgogICAgcHJpbnQoIk1lbnVTaGlmdCBBSSBpbnRlZ3JhdGlvbiBzbW9rZSB0ZXN0IikKICAgIHByaW50KGYiICBtb2RlOiAgICAgICAge2NvbmZpZy5tb2RlfSIpCiAgICBwcmludChmIiAgYXdzX3JlZ2lvbjogIHtjb25maWcuYXdzX3JlZ2lvbn0iKQogICAgcHJpbnQoZiIgIG1vZGVsX2lkOiAgICB7Y29uZmlnLmJlZHJvY2tfbW9kZWxfaWQgb3IgJyh1bnNldCknfSIpCiAgICBwcmludChmIiAgbWF4X3JvdW5kczogIHtjb25maWcubWF4X3JvdW5kc30iKQogICAgcHJpbnQoIiAgY3JlZGVudGlhbHM6IHJlc29sdmVkIGJ5IGJvdG8zIGZyb20gdGhlIHNlc3Npb24gb25seTsgbmV2ZXIgcHJpbnRlZCIpCgogICAgdHJ5OgogICAgICAgIHByb3Bvc2VyID0gYnVpbGRfcHJvcG9zZXIoY29uZmlnLCBzb3VyY2VzPVNPVVJDRVMpCiAgICBleGNlcHQgKFJ1bnRpbWVFcnJvciwgRmlsZU5vdEZvdW5kRXJyb3IpIGFzIGV4YzoKICAgICAgICBwcmludChmIlNFVFVQIEVSUk9SOiB7ZXhjfSIpCiAgICAgICAgcHJpbnQoIkZhbGxiYWNrOiBzZXQgTUVOVVNISUZUX0FJX01PREU9bG9jYWwgYW5kIHJlLXJ1biBmb3IgdGhlIG9mZmxpbmUgZGVtby4iKQogICAgICAgIHJldHVybiAyCgogICAgaWYgY29uZmlnLm1vZGUgPT0gImxvY2FsIjoKICAgICAgICBydW4gPSBydW5fYWdlbnQocHJvcG9zZXIsIFNBTVBMRV9CUklFRiwgU09VUkNFUywgbWF4X3JvdW5kcz1jb25maWcubWF4X3JvdW5kcykKICAgICAgICBwcmludChmIkFnZW50IGxvb3AgZmluaXNoZWQgaW4ge3J1bi5yb3VuZHN9IHJvdW5kKHMpOyAiCiAgICAgICAgICAgICAgZiJ7bGVuKHJ1bi5kZWNpc2lvbnMpfSBwcm9wb3NhbChzKSBldmFsdWF0ZWQ6IikKICAgICAgICBmb3IgZGVjaXNpb24gaW4gcnVuLmRlY2lzaW9uczoKICAgICAgICAgICAgdmVyZGljdCA9ICJBQ0NFUFQiIGlmIGRlY2lzaW9uLmFjY2VwdGVkIGVsc2UgIlJFSkVDVCIKICAgICAgICAgICAgcHJpbnQoZiIgIFt7dmVyZGljdH1dIHtkZWNpc2lvbi5wcm9wb3NhbF9pZH0gLSB7ZGVjaXNpb24ucmVhc29ufSIpCiAgICAgICAgcHJpbnQoZiJBY2NlcHRlZCBjYW5kaWRhdGVzOiB7W2MuaWRlbnRpZmllciBmb3IgYyBpbiBydW4uYWNjZXB0ZWRdIG9yICdub25lJ30iKQogICAgICAgIHByaW50KCJMb2NhbCBtb2RlIE9LOiB0aGUgZnVsbCBwcm9wb3NlIC0+IHBhcnNlIC0+IGdhdGUgbG9vcCB3b3JrcyBvZmZsaW5lLiIpCiAgICAgICAgcmV0dXJuIDAKCiAgICBwcmludCgiQmVkcm9jayBtb2RlOiBtYWtpbmcgT05FIENvbnZlcnNlIGNhbGwgdGhyb3VnaCB0aGUgYWRhcHRlci4uLiIpCiAgICBzdGFydGVkID0gdGltZS5wZXJmX2NvdW50ZXIoKQogICAgdHJ5OgogICAgICAgIHBheWxvYWQgPSBwcm9wb3Nlci5wcm9wb3NlKGJyaWVmPVNBTVBMRV9CUklFRiwgZmVlZGJhY2s9KCksIHJvdW5kX251bWJlcj0xKQogICAgZXhjZXB0IElOVk9LRV9FUlJPUlMgYXMgZXhjOiAgIyBjb25uZWN0aW9uL21vZGVsIGVycm9ycyBtdXN0IGJlIHJlcG9ydGVkLCBub3QgaGlkZGVuCiAgICAgICAgcHJpbnQoZiJJTlZPS0UgRVJST1IgKHt0eXBlKGV4YykuX19uYW1lX199KToge2V4Y30iKQogICAgICAgIHByaW50KCJDaGVjazogbW9kZWwgYWNjZXNzIGVuYWJsZWQgaW4gdXMtZWFzdC0xLCBCRURST0NLX01PREVMX0lEIG1hdGNoZXMgYW4gIgogICAgICAgICAgICAgICJvcmdhbmlzZXItZW5hYmxlZCBtb2RlbCwgYW5kIHRoZSB3b3Jrc2hvcCBzZXNzaW9uIGNyZWRlbnRpYWxzIGFyZSBhY3RpdmUuICIKICAgICAgICAgICAgICAiRmFsbGJhY2s6IE1FTlVTSElGVF9BSV9NT0RFPWxvY2FsLiIpCiAgICAgICAgcmV0dXJuIDEKICAgIGxhdGVuY3kgPSB0aW1lLnBlcmZfY291bnRlcigpIC0gc3RhcnRlZAogICAgcHJpbnQoZiIgIGxhdGVuY3k6IHtsYXRlbmN5Oi4yZn1zOyByZXNwb25zZSB7bGVuKHBheWxvYWQpfSBjaGFycyIpCiAgICB0cnk6CiAgICAgICAgcHJvcG9zYWxzID0gcGFyc2VfcHJvcG9zYWxzKHBheWxvYWQpCiAgICBleGNlcHQgVmFsdWVFcnJvciBhcyBleGM6CiAgICAgICAgcHJpbnQoZiIgIHBhcnNlcjogUkVKRUNURUQgbW9kZWwgb3V0cHV0IC0ge2V4Y30iKQogICAgICAgIHByaW50KCJUaGUgc3RyaWN0IGdhdGUgd29ya2VkIGFzIGRlc2lnbmVkOiB1bnVzYWJsZSBtb2RlbCBvdXRwdXQgaXMgcmVmdXNlZCwgIgogICAgICAgICAgICAgICJub3QgcmVwYWlyZWQuIFJlY29yZCB0aGlzIGFzIHRoZSByZWplY3QgZXhhbXBsZSBmb3IgdGhlIGRlbW8gbG9nLiIpCiAgICAgICAgcmV0dXJuIDAKICAgIHByaW50KGYiICBwYXJzZXI6IEFDQ0VQVEVEIHtsZW4ocHJvcG9zYWxzKX0gcHJvcG9zYWwocyk6ICIKICAgICAgICAgIGYie1twWydtZXRob2RfaWQnXSArICdAJyArIHN0cihwWydwb3J0aW9uX2cnXSkgKyAnZycgZm9yIHAgaW4gcHJvcG9zYWxzXX0iKQogICAgcHJpbnQoIkJlZHJvY2sgbW9kZSBPSzogbW9kZWwgcmVhY2hhYmxlIGFuZCBpdHMgb3V0cHV0IHBhc3NlZCB0aGUgc3RyaWN0IHNjaGVtYS4gIgogICAgICAgICAgIlJ1biBzY3JpcHRzL2JlZHJvY2tfYWdlbnRfc21va2UucHkgZm9yIHRoZSBmdWxsIGdhdGVkIGFnZW50IGxvb3AuIikKICAgIHJldHVybiAwCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIHN5cy5leGl0KG1haW4oKSkK
+"""Manual smoke test for the AI planner integration layer (never runs in CI).
+
+  python scripts/ai_connection_smoke.py
+      Local mode (default): runs the full agent loop offline and prints the
+      gate's accept/reject decisions for a sample brief.
+
+  MENUSHIFT_AI_MODE=bedrock BEDROCK_MODEL_ID=<enabled-model-id> \
+      python scripts/ai_connection_smoke.py
+      Bedrock mode: makes ONE Converse call through the adapter and reports
+      latency plus whether the strict proposal parser accepted the output.
+
+Prints the resolved configuration only. Credentials are never read or printed
+here; boto3 resolves them from the normal AWS SDK chain in the workshop.
+"""
+from __future__ import annotations
+
+import sys
+import time
+from pathlib import Path
+
+from menushift.agent_contract import KitchenBrief, parse_proposals, run_agent
+from menushift.ai_config import get_ai_config
+from menushift.kitchen_optimizer import INVENTORY_ITEMS
+from menushift.proposer_factory import build_proposer
+
+ROOT = Path(__file__).resolve().parents[1]
+SOURCES = ROOT / "data" / "sources"
+
+try:  # botocore ships with the optional aws extra; bedrock mode implies it
+    from botocore.exceptions import BotoCoreError
+
+    INVOKE_ERRORS: tuple[type[Exception], ...] = (BotoCoreError, ValueError, RuntimeError, OSError)
+except ImportError:  # pragma: no cover - local mode without the aws extra
+    INVOKE_ERRORS = (ValueError, RuntimeError, OSError)
+
+SAMPLE_BRIEF = KitchenBrief(
+    budget_ngn=2000, min_protein_g=10, max_prep_minutes=200,
+    equipment=frozenset({"grill", "press", "freezer", "frying_pan"}),
+    available_ingredients=frozenset(INVENTORY_ITEMS),
+    preference="chewy smoky",
+)
+
+
+def main() -> int:
+    try:
+        config = get_ai_config()
+    except ValueError as exc:
+        print(f"CONFIG ERROR: {exc}")
+        return 2
+    print("MenuShift AI integration smoke test")
+    print(f"  mode:        {config.mode}")
+    print(f"  aws_region:  {config.aws_region}")
+    print(f"  model_id:    {config.bedrock_model_id or '(unset)'}")
+    print(f"  max_rounds:  {config.max_rounds}")
+    print("  credentials: resolved by boto3 from the session only; never printed")
+
+    try:
+        proposer = build_proposer(config, sources=SOURCES)
+    except (RuntimeError, FileNotFoundError) as exc:
+        print(f"SETUP ERROR: {exc}")
+        print("Fallback: set MENUSHIFT_AI_MODE=local and re-run for the offline demo.")
+        return 2
+
+    if config.mode == "local":
+        run = run_agent(proposer, SAMPLE_BRIEF, SOURCES, max_rounds=config.max_rounds)
+        print(f"Agent loop finished in {run.rounds} round(s); "
+              f"{len(run.decisions)} proposal(s) evaluated:")
+        for decision in run.decisions:
+            verdict = "ACCEPT" if decision.accepted else "REJECT"
+            print(f"  [{verdict}] {decision.proposal_id} - {decision.reason}")
+        print(f"Accepted candidates: {[c.identifier for c in run.accepted] or 'none'}")
+        print("Local mode OK: the full propose -> parse -> gate loop works offline.")
+        return 0
+
+    print("Bedrock mode: making ONE Converse call through the adapter...")
+    started = time.perf_counter()
+    try:
+        payload = proposer.propose(brief=SAMPLE_BRIEF, feedback=(), round_number=1)
+    except INVOKE_ERRORS as exc:  # connection/model errors must be reported, not hidden
+        print(f"INVOKE ERROR ({type(exc).__name__}): {exc}")
+        print("Check: model access enabled in us-east-1, BEDROCK_MODEL_ID matches an "
+              "organiser-enabled model, and the workshop session credentials are active. "
+              "Fallback: MENUSHIFT_AI_MODE=local.")
+        return 1
+    latency = time.perf_counter() - started
+    print(f"  latency: {latency:.2f}s; response {len(payload)} chars")
+    try:
+        proposals = parse_proposals(payload)
+    except ValueError as exc:
+        print(f"  parser: REJECTED model output - {exc}")
+        print("The strict gate worked as designed: unusable model output is refused, "
+              "not repaired. Record this as the reject example for the demo log.")
+        return 0
+    print(f"  parser: ACCEPTED {len(proposals)} proposal(s): "
+          f"{[p['method_id'] + '@' + str(p['portion_g']) + 'g' for p in proposals]}")
+    print("Bedrock mode OK: model reachable and its output passed the strict schema. "
+          "Run scripts/bedrock_agent_smoke.py for the full gated agent loop.")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
