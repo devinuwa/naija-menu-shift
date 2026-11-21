@@ -25,6 +25,7 @@ from __future__ import annotations
 import pandas as pd
 import streamlit as st
 
+from menushift import hospital_image
 from menushift.hospital import (
     ACCEPTABILITY_VALUES,
     AVAILABILITY_VALUES,
@@ -37,14 +38,15 @@ from menushift.hospital import (
     METHOD_REQUIREMENTS,
     PRACTICALITY_VALUES,
     THERAPEUTIC_PRESETS,
-    append_hospital_feedback,
     build_any_dish_comparison,
     build_comparison,
     build_condition_menu,
+    display_text,
     get_condition,
     load_unth_menu,
     plant_protein_dataset,
     recommend_for_dish,
+    submit_hospital_feedback,
     suggest_for_any_dish,
 )
 from menushift.safety import KNOWN_ALLERGENS
@@ -55,12 +57,33 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="collapsed",
 )
+
+
+def _show_alternative_image(
+    dish_name: str, protein_name: str, method: str | None,
+) -> None:
+    """Show the AI illustration for a recommendation's top alternative.
+
+    Bedrock mode only: local mode shows nothing, and a failed generation
+    shows a short note - never a stock or substitute image.
+    """
+    outcome = hospital_image.generate_alternative_image(
+        dish_name, protein_name, method)
+    if outcome.status == "shown" and outcome.preview is not None:
+        st.image(outcome.preview.content, use_container_width=True)
+        st.caption(hospital_image.IMAGE_CAPTION)
+    elif outcome.status == "unavailable":
+        st.caption(
+            "An AI illustration of this alternative could not be generated."
+        )
+
+
 st.title("Hospital food service — diversify the documented menu")
 st.caption("Team Sprout · hospital mode · decision support for dietetics and catering teams")
 st.warning(
     "Decision support only. This is not a served menu and not clinical "
     "guidance: a dietitian must approve any change before it reaches a "
-    "patient. Menu source: " + MENU_SOURCE + "."
+    "patient. Menu source: " + display_text(MENU_SOURCE) + "."
 )
 
 menu = load_unth_menu()
@@ -84,7 +107,7 @@ menu_frame = pd.DataFrame(
                 "unspecified": "Contents not specified in source",
                 "none_documented": "No animal protein documented",
             }[dish.protein_status],
-            "Note": dish.notes,
+            "Note": display_text(dish.notes),
         }
         for dish in menu
     ]
@@ -113,7 +136,7 @@ with st.expander("Plant protein dataset — the catalogue the suggestions come f
                 "Protein (g/100 g)": row.protein_g_per_100g,
                 "Price (NGN/kg)": row.price_ngn_per_kg,
                 "Price derived?": "Yes — modelled" if row.price_derived else "No",
-                "Price basis": row.price_basis,
+                "Price basis": display_text(row.price_basis),
                 "Functional profile": (
                     f"Solubility {row.functional.solubility} · "
                     f"Water-holding {row.functional.water_holding} · "
@@ -124,7 +147,6 @@ with st.expander("Plant protein dataset — the catalogue the suggestions come f
                     ", ".join(row.allergens) if row.allergens
                     else "None declared (not a cross-contact certification)"
                 ),
-                "Nutrition source": row.nutrition_source,
             }
             for row in plant_protein_dataset()
         ]
@@ -154,19 +176,18 @@ condition_id = st.selectbox(
 )
 condition = None if condition_id == "none" else get_condition(condition_id)
 if condition is not None:
-    st.caption(
+    st.caption(display_text(
         f"Bundle applied: {condition.label} → "
         f"{THERAPEUTIC_PRESETS[condition.preset_id].label}. "
         + condition.preset_mapping_note
-    )
+    ))
     with st.expander(f"Evidence and limitations — {condition.label}"):
-        st.write("Evidence, as reported by the cited sources:")
+        st.write("Evidence from the research:")
         for note in condition.evidence_notes:
-            st.write("• " + note)
+            st.write("• " + display_text(note))
         st.write("Limitations:")
         for limitation in condition.limitations:
-            st.write("• " + limitation)
-        st.caption("Sources: " + "; ".join(condition.sources))
+            st.write("• " + display_text(limitation))
 
 st.subheader("Diversify a dish")
 mode = st.radio(
@@ -190,9 +211,9 @@ if mode == "Documented UNTH menu":
         preset_id = condition.preset_id
     else:
         preset_id = st.selectbox(
-            "Therapeutic preset (constraint bundle, sources shown with the result)",
+            "Therapeutic preset (constraint bundle)",
             list(THERAPEUTIC_PRESETS),
-            format_func=lambda key: THERAPEUTIC_PRESETS[key].label,
+            format_func=lambda key: display_text(THERAPEUTIC_PRESETS[key].label),
         )
     avoid = st.multiselect(
         "Allergen exclusions (fail closed — an excluded allergen removes the option)",
@@ -220,9 +241,9 @@ else:
         "Type any dish your kitchen serves. The same hard gates rank the "
         "plant alternatives: allergen exclusions fail closed, the protein "
         "must survive the cooking method, and the preset's floor or cap "
-        "applies. Where the project data has no cited value for the "
+        "applies. Where no verified value is available for the "
         "original protein (fish, goat, egg), the original side of the "
-        "comparison is shown as no cited value — never estimated."
+        "comparison is shown as no verified value available — never estimated."
     )
     custom_name = st.text_input(
         "Dish name (as your kitchen calls it)",
@@ -246,9 +267,9 @@ else:
         preset_id = condition.preset_id
     else:
         preset_id = st.selectbox(
-            "Therapeutic preset (constraint bundle, sources shown with the result)",
+            "Therapeutic preset (constraint bundle)",
             list(THERAPEUTIC_PRESETS),
-            format_func=lambda key: THERAPEUTIC_PRESETS[key].label,
+            format_func=lambda key: display_text(THERAPEUTIC_PRESETS[key].label),
         )
     avoid = st.multiselect(
         "Allergen exclusions (fail closed — an excluded allergen removes the option)",
@@ -286,22 +307,22 @@ else:
 if result is not None:
     st.info(result.signoff_note)
     for note in result.notes:
-        st.write("• " + note)
+        st.write("• " + display_text(note))
 
 if comparison is not None:
     st.subheader("Original vs modified — side by side")
     st.write(
         f"Portion basis: {comparison.portion_g:g} g for both sides. "
-        "Calories are omitted: no cited calorie value exists in the project "
-        "data for both sides, and this tool does not estimate them."
+        "Calories are omitted: no verified calorie value is available "
+        "for both sides, and this tool does not estimate them."
     )
 
     def _fmt(value: float | None, unit: str) -> str:
-        return "No cited value in project data" if value is None else f"{value:g} {unit}"
+        return "No verified value available" if value is None else f"{value:g} {unit}"
 
     def _functional(profile) -> str:
         if profile is None:
-            return "Not recorded in project data"
+            return "No verified value available"
         return (
             f"Solubility {profile.solubility} · Water-holding {profile.water_holding} · "
             f"Emulsification {profile.emulsification} · Gelation {profile.gelation}"
@@ -309,7 +330,7 @@ if comparison is not None:
 
     def _allergens(labels) -> str:
         if labels is None:
-            return "Not recorded in project data"
+            return "No verified value available"
         return ", ".join(labels) if labels else "None declared (not a cross-contact certification)"
 
     compare_frame = pd.DataFrame(
@@ -329,7 +350,7 @@ if comparison is not None:
     )
     st.dataframe(compare_frame, hide_index=True, width="stretch")
     for note in comparison.notes:
-        st.caption(note)
+        st.caption(display_text(note))
 
 if result is not None and result.alternatives:
     st.subheader("Recommended additional options (ranked)")
@@ -347,26 +368,31 @@ if result is not None and result.alternatives:
             f"water-holding {alt.functional.water_holding}, emulsification "
             f"{alt.functional.emulsification}, gelation {alt.functional.gelation}."
         )
-        st.write(alt.kitchen_meaning)
+        st.write(display_text(alt.kitchen_meaning))
         for reason in alt.reasons:
-            st.write("• " + reason)
-        st.caption(f"Price basis: {alt.price_basis}{derived}")
-        st.caption(f"Nutrition source: {alt.nutrition_source}")
+            st.write("• " + display_text(reason))
+        st.caption(f"Price basis: {display_text(alt.price_basis)}{derived}")
 elif result is not None and result.status == "ok":
     st.error(
         "No plant alternative passes every hard constraint under this preset. "
         "That is a valid result — the rejected options below show exactly why."
     )
 
+if result is not None and result.alternatives:
+    _top = result.alternatives[0]
+    _dish_name = getattr(result, "dish_name", None) or result.dish.name
+    _show_alternative_image(_dish_name, _top.name, getattr(result, "method", None))
+
 if result is not None and result.rejected:
     st.subheader("Rejected, with reasons (largest portion tried per protein)")
     for rej in result.rejected:
-        st.write(f"**{rej.name} — {rej.portion_g:g} g**: " + "; ".join(rej.reasons))
+        st.write(f"**{rej.name} — {rej.portion_g:g} g**: "
+                 + display_text("; ".join(rej.reasons)))
 
 if result is not None and result.evidence_warnings:
     st.subheader("Evidence warnings")
     for warning in result.evidence_warnings:
-        st.write("• " + warning)
+        st.write("• " + display_text(warning))
 
 st.subheader("Condition menu — the whole documented menu, composed")
 if condition is None:
@@ -392,7 +418,7 @@ else:
         menu=menu,
     )
     st.info(condition_menu.signoff_note)
-    st.write(condition_menu.framing)
+    st.write(display_text(condition_menu.framing))
     cm_status_labels = {
         "kept_as_is": "Kept as documented — already plant-based",
         "transformed": "Diversified — additional plant option ranked",
@@ -418,7 +444,7 @@ else:
                     f"{item.alternative.cost_ngn:,.2f}"
                     if item.alternative is not None else "—"
                 ),
-                "Note": item.note,
+                "Note": display_text(item.note),
             }
             for item in condition_menu.items
         ]
@@ -430,23 +456,38 @@ else:
             f"{condition_menu.transformed_protein_g:g} g protein, "
             f"estimated NGN {condition_menu.transformed_cost_ngn:,.2f}."
         )
-    st.caption(condition_menu.totals_note)
+    st.caption(display_text(condition_menu.totals_note))
     for note in condition_menu.notes:
-        st.write("• " + note)
-    st.write("Evidence, as reported by the cited sources:")
+        st.write("• " + display_text(note))
+    st.write("Evidence from the research:")
     for note in condition_menu.evidence_notes:
-        st.write("• " + note)
+        st.write("• " + display_text(note))
     st.write("Limitations:")
     for limitation in condition_menu.limitations:
-        st.write("• " + limitation)
-    st.caption("Sources: " + "; ".join(condition_menu.sources))
+        st.write("• " + display_text(limitation))
+    _first_transformed = next(
+        (item for item in condition_menu.items
+         if item.status == "transformed" and item.alternative is not None),
+        None,
+    )
+    if _first_transformed is not None:
+        st.write(
+            "First diversified dish in this draft: "
+            f"{_first_transformed.dish.name} with "
+            f"{_first_transformed.alternative.name}."
+        )
+        _show_alternative_image(
+            _first_transformed.dish.name,
+            _first_transformed.alternative.name,
+            None,
+        )
 
 st.subheader("Kitchen feedback")
 st.write(
     "Used this transformation in a real kitchen? Record what you found. "
-    "Feedback is stored for team review and used to improve the data and "
-    "recommendations — the app does not learn automatically, and nothing "
-    "changes until a person reviews it."
+    "Feedback is recorded for team review, emailed to the team and used "
+    "to improve the data and recommendations — the app does not learn "
+    "automatically, and nothing changes until a person reviews it."
 )
 if result is not None and result.alternatives:
     feedback_alternative = result.alternatives[0].name
@@ -460,7 +501,7 @@ with st.form("hospital_feedback_form"):
     fb_comment = st.text_area("Anything else (optional)", max_chars=2000)
     submitted = st.form_submit_button("Save feedback", width="stretch")
 if submitted:
-    append_hospital_feedback(
+    _row, _emailed = submit_hospital_feedback(
         DEFAULT_FEEDBACK_PATH,
         dish=feedback_dish,
         alternative=feedback_alternative,
@@ -471,4 +512,10 @@ if submitted:
         acceptability=fb_acceptability,
         comment=fb_comment,
     )
-    st.success("Feedback saved for team review. Thank you.")
+    if _emailed:
+        st.success(
+            "Feedback recorded for team review and emailed to the team. "
+            "Thank you."
+        )
+    else:
+        st.success("Feedback recorded for team review. Thank you.")
