@@ -67,8 +67,10 @@ def test_jollof_context_reuses_constraints_and_discloses_partial_scope():
     assert not any("chicken" in h.value.lower() for h in at.subheader)
 
 
-def test_source_issues_visible_before_restaurant_use():
+def test_no_source_or_limitation_notices_on_the_main_page():
+    # Product rule (user): the app UI shows no data-source names and no
+    # limitation notices; provenance lives in the evidence pages and docs.
     at = _run()
     assert not at.exception
-    assert any("Evidence & safety limitations" in e.label for e in at.expander)
-    assert any("Research estimate only" in warning.value for warning in at.warning)
+    assert not any("limitations" in e.label.lower() for e in at.expander)
+    assert not any("Research estimate only" in warning.value for warning in at.warning)
