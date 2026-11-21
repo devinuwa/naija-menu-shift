@@ -18,7 +18,8 @@ def test_kitchen_studio_renders_clear_restaurant_fields():
     assert any("Maximum estimated cost" in x.label for x in app.number_input)
     assert any("Minimum estimated protein" in x.label for x in app.number_input)
     assert any("What equipment is available?" == x.label for x in app.multiselect)
-    assert any("Research prototype" in x.value for x in app.warning)
+    # Product rule (user): no limitation banners on the studio page.
+    assert not any("Research prototype" in x.value for x in app.warning)
 
 
 def test_budget_too_low_abstains_in_ui():
