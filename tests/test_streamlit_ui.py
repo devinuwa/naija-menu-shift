@@ -1,1 +1,74 @@
-IiIiU3RyZWFtbGl0IEFwcFRlc3Qgc21va2UgY2hlY2tzOiBubyBicm93c2VyIGlzIG5lZWRlZCBmb3IgdGhlc2UgaW50ZXJhY3Rpb25zLgoKQXBwVGVzdCBkb2VzIG5vdCB2ZXJpZnkgcGl4ZWwgbGF5b3V0LCBzY3JlZW4gcmVhZGVycywgem9vbSBvciB0b3VjaCBoaXQgdGFyZ2V0cy4KIiIiCgpmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKCmZyb20gc3RyZWFtbGl0LnRlc3RpbmcudjEgaW1wb3J0IEFwcFRlc3QKCkFQUCA9IFBhdGgoX19maWxlX18pLnJlc29sdmUoKS5wYXJlbnRzWzFdIC8gImFwcC5weSIKCgpkZWYgX3J1bigpOgogICAgYXQgPSBBcHBUZXN0LmZyb21fZmlsZShzdHIoQVBQKSwgZGVmYXVsdF90aW1lb3V0PTMwKS5ydW4oKQogICAgYXNzZXJ0IG5vdCBhdC5leGNlcHRpb24KICAgIHJldHVybiBhdAoKCmRlZiB0ZXN0X3B1YmxpY19maXJzdF91c2VfY29tcGFyZXNfYXdhcmFfdW5kZXJfYV9idWRnZXQoKToKICAgIGF0ID0gX3J1bigpCiAgICBhc3NlcnQgYW55KCJOYWlqYSBNZW51U2hpZnQiIGluIHRpdGxlLnZhbHVlIGZvciB0aXRsZSBpbiBhdC50aXRsZSkKICAgIGFzc2VydCBhbnkoIk1heGltdW0gY29zdCBwZXIgc2VydmluZyIgaW4gYm94LmxhYmVsIGZvciBib3ggaW4gYXQubnVtYmVyX2lucHV0KQogICAgYXNzZXJ0IGFueSgiUHJvdmlzaW9uYWwgY2FsY3VsYXRpb24iIGluIGluZm8udmFsdWUgZm9yIGluZm8gaW4gYXQuaW5mbykKICAgIHRpdGxlcyA9IFtoZWFkZXIudmFsdWUgZm9yIGhlYWRlciBpbiBhdC5zdWJoZWFkZXJdCiAgICBhc3NlcnQgYW55KHRpdGxlLnN0YXJ0c3dpdGgoKCJGaXJtIiwgIlByZXNzZWQiLCAiRnJvemVuIikpIGZvciB0aXRsZSBpbiB0aXRsZXMpCiAgICBhc3NlcnQgbm90IGFueSh0aXRsZS5zdGFydHN3aXRoKCJCZWVmIikgZm9yIHRpdGxlIGluIHRpdGxlcykKICAgIHByaWNlcyA9ICIgIi5qb2luKGZyYW1lLnZhbHVlLnRvX2NzdigpIGZvciBmcmFtZSBpbiBhdC5kYXRhZnJhbWUpCiAgICBhc3NlcnQgIjcxNzEuNDEiIGluIHByaWNlcwogICAgYXNzZXJ0ICIyNDAwIiBub3QgaW4gcHJpY2VzCgoKZGVmIHRlc3RfbG93X2J1ZGdldF9hYnN0YWluc193aXRob3V0X3JlY29tbWVuZGluZ19iZWVmKCk6CiAgICBhdCA9IF9ydW4oKQogICAgYXQubnVtYmVyX2lucHV0KGtleT0iYnVkZ2V0Iikuc2V0X3ZhbHVlKDIwLjApLnJ1bigpCiAgICBhc3NlcnQgbm90IGF0LmV4Y2VwdGlvbgogICAgYXNzZXJ0IGFueSgiTm8gcGxhbnQtcHJvdGVpbiBvcHRpb24iIGluIGVyci52YWx1ZSBmb3IgZXJyIGluIGF0LmVycm9yKQogICAgYXNzZXJ0IG5vdCBhbnkoIlByb3Zpc2lvbmFsIGNhbGN1bGF0aW9uIiBpbiBpbmZvLnZhbHVlIGZvciBpbmZvIGluIGF0LmluZm8pCgoKZGVmIHRlc3Rfc295X2V4Y2x1c2lvbl9yZW1vdmVzX2V2ZXJ5X2F3YXJhX29wdGlvbigpOgogICAgYXQgPSBfcnVuKCkKICAgIGF0Lm11bHRpc2VsZWN0KGtleT0iYXZvaWQiKS5zZXRfdmFsdWUoWyJzb3kiXSkucnVuKCkKICAgIGFzc2VydCBub3QgYXQuZXhjZXB0aW9uCiAgICBhc3NlcnQgYW55KCJObyBwbGFudC1wcm90ZWluIG9wdGlvbiIgaW4gZXJyLnZhbHVlIGZvciBlcnIgaW4gYXQuZXJyb3IpCgoKZGVmIHRlc3RfaGlnaF9wcm90ZWluX3RhcmdldF9kcm9wc190aGVfZmlybV9vcHRpb24oKToKICAgIGF0ID0gX3J1bigpCiAgICBhdC5udW1iZXJfaW5wdXQoa2V5PSJwcm90ZWluIikuc2V0X3ZhbHVlKDIwLjApLnJ1bigpCiAgICBhc3NlcnQgbm90IGF0LmV4Y2VwdGlvbgogICAgc3RhdHVzID0gYXQuZGF0YWZyYW1lWzBdLnZhbHVlCiAgICBmaXJtID0gc3RhdHVzW3N0YXR1c1siQWx0ZXJuYXRpdmUiXS5hc3R5cGUoc3RyKS5zdHIuc3RhcnRzd2l0aCgiRmlybSIpXS5pbG9jWzBdCiAgICBwcmVzc2VkID0gc3RhdHVzW3N0YXR1c1siQWx0ZXJuYXRpdmUiXS5hc3R5cGUoc3RyKS5zdHIuc3RhcnRzd2l0aCgiUHJlc3NlZCIpXS5pbG9jWzBdCiAgICBhc3NlcnQgZmlybVsiU3RhdHVzIl0gPT0gIkV4Y2x1ZGVkIgogICAgYXNzZXJ0IHByZXNzZWRbIlN0YXR1cyJdID09ICJQcm92aXNpb25hbCIKCgpkZWYgdGVzdF9qb2xsb2ZfY29udGV4dF9yZXVzZXNfY29uc3RyYWludHNfYW5kX2Rpc2Nsb3Nlc19wYXJ0aWFsX3Njb3BlKCk6CiAgICBhdCA9IF9ydW4oKQogICAgbWVudSA9IG5leHQoYm94IGZvciBib3ggaW4gYXQuc2VsZWN0Ym94IGlmIGJveC5sYWJlbCA9PSAiQ3VycmVudCByZXN0YXVyYW50IG1lbnUgaXRlbSIpCiAgICBtZW51LnNldF92YWx1ZSgiam9sbG9mX3NpZGUiKS5ydW4oKQogICAgYXNzZXJ0IG5vdCBhdC5leGNlcHRpb24KICAgIGFzc2VydCBhbnkoIlBBUlRJQUwgdHJhbnNmb3JtYXRpb24iIGluIHcudmFsdWUgZm9yIHcgaW4gYXQud2FybmluZykKICAgIGFzc2VydCBhbnkoIlByb3Zpc2lvbmFsIGNhbGN1bGF0aW9uIiBpbiBpbmZvLnZhbHVlIGZvciBpbmZvIGluIGF0LmluZm8pCiAgICBhbGxfcHJpY2VzID0gIiAiLmpvaW4oZnJhbWUudmFsdWUudG9fY3N2KCkgZm9yIGZyYW1lIGluIGF0LmRhdGFmcmFtZSkKICAgIGFzc2VydCAiYXdhcmEiIGluIGFsbF9wcmljZXMubG93ZXIoKQogICAgYXNzZXJ0IG5vdCBhbnkoImNoaWNrZW4iIGluIGgudmFsdWUubG93ZXIoKSBmb3IgaCBpbiBhdC5zdWJoZWFkZXIpCgoKZGVmIHRlc3Rfc291cmNlX2lzc3Vlc192aXNpYmxlX2JlZm9yZV9yZXN0YXVyYW50X3VzZSgpOgogICAgYXQgPSBfcnVuKCkKICAgIGFzc2VydCBub3QgYXQuZXhjZXB0aW9uCiAgICBhc3NlcnQgYW55KCJFdmlkZW5jZSAmIHNhZmV0eSBsaW1pdGF0aW9ucyIgaW4gZS5sYWJlbCBmb3IgZSBpbiBhdC5leHBhbmRlcikKICAgIGFzc2VydCBhbnkoIlJlc2VhcmNoIGVzdGltYXRlIG9ubHkiIGluIHdhcm5pbmcudmFsdWUgZm9yIHdhcm5pbmcgaW4gYXQud2FybmluZykK
+"""Streamlit AppTest smoke checks: no browser is needed for these interactions.
+
+AppTest does not verify pixel layout, screen readers, zoom or touch hit targets.
+"""
+
+from pathlib import Path
+
+from streamlit.testing.v1 import AppTest
+
+APP = Path(__file__).resolve().parents[1] / "app.py"
+
+
+def _run():
+    at = AppTest.from_file(str(APP), default_timeout=30).run()
+    assert not at.exception
+    return at
+
+
+def test_public_first_use_compares_awara_under_a_budget():
+    at = _run()
+    assert any("Naija MenuShift" in title.value for title in at.title)
+    assert any("Maximum cost per serving" in box.label for box in at.number_input)
+    assert any("Provisional calculation" in info.value for info in at.info)
+    titles = [header.value for header in at.subheader]
+    assert any(title.startswith(("Firm", "Pressed", "Frozen")) for title in titles)
+    assert not any(title.startswith("Beef") for title in titles)
+    prices = " ".join(frame.value.to_csv() for frame in at.dataframe)
+    assert "7171.41" in prices
+    assert "2400" not in prices
+
+
+def test_low_budget_abstains_without_recommending_beef():
+    at = _run()
+    at.number_input(key="budget").set_value(20.0).run()
+    assert not at.exception
+    assert any("No plant-protein option" in err.value for err in at.error)
+    assert not any("Provisional calculation" in info.value for info in at.info)
+
+
+def test_soy_exclusion_removes_every_awara_option():
+    at = _run()
+    at.multiselect(key="avoid").set_value(["soy"]).run()
+    assert not at.exception
+    assert any("No plant-protein option" in err.value for err in at.error)
+
+
+def test_high_protein_target_drops_the_firm_option():
+    at = _run()
+    at.number_input(key="protein").set_value(20.0).run()
+    assert not at.exception
+    status = at.dataframe[0].value
+    firm = status[status["Alternative"].astype(str).str.startswith("Firm")].iloc[0]
+    pressed = status[status["Alternative"].astype(str).str.startswith("Pressed")].iloc[0]
+    assert firm["Status"] == "Excluded"
+    assert pressed["Status"] == "Provisional"
+
+
+def test_jollof_context_reuses_constraints_and_discloses_partial_scope():
+    at = _run()
+    menu = next(box for box in at.selectbox if box.label == "Current restaurant menu item")
+    menu.set_value("jollof_side").run()
+    assert not at.exception
+    assert any("PARTIAL transformation" in w.value for w in at.warning)
+    assert any("Provisional calculation" in info.value for info in at.info)
+    all_prices = " ".join(frame.value.to_csv() for frame in at.dataframe)
+    assert "awara" in all_prices.lower()
+    assert not any("chicken" in h.value.lower() for h in at.subheader)
+
+
+def test_source_issues_visible_before_restaurant_use():
+    at = _run()
+    assert not at.exception
+    assert any("Evidence & safety limitations" in e.label for e in at.expander)
+    assert any("Research estimate only" in warning.value for warning in at.warning)
