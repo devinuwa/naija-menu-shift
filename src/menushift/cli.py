@@ -1,1 +1,41 @@
-IiIiQ0xJIGZvciB0ZXN0aW5nIGNhbGN1bGF0aW9ucyB3aXRob3V0IHN0YXJ0aW5nIFN0cmVhbWxpdC4iIiIKaW1wb3J0IGFyZ3BhcnNlCmltcG9ydCBqc29uCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAoKZnJvbSAuZW5naW5lIGltcG9ydCBiYXNlbGluZXMsIGNvbXBhcmVfcmFua2VycywgZXZhbHVhdGUsIGxvYWRfZGF0YXNldCwgc2Vuc2l0aXZpdHkKClJPT1QgPSBQYXRoKF9fZmlsZV9fKS5yZXNvbHZlKCkucGFyZW50c1syXQoKCmRlZiBtYWluKCk6CiAgICBwYXJzZXIgPSBhcmdwYXJzZS5Bcmd1bWVudFBhcnNlcihkZXNjcmlwdGlvbj0iTmFpamEgTWVudVNoaWZ0IChkZW1vIGRhdGEgYXJlIGZpY3Rpb25hbCkiKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgiLS1kYXRhLWRpciIsIGRlZmF1bHQ9c3RyKFJPT1QgLyAiZGF0YSIgLyAiZGVtbyIpKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgiLS12ZXJpZmllZCIsIGFjdGlvbj0ic3RvcmVfdHJ1ZSIsIGhlbHA9IkRpc2FibGUgc3ludGhldGljLWRlbW8gbW9kZSIpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCItLWRpc2giLCBkZWZhdWx0PSJzdXlhIikKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoIi0tYnVkZ2V0IiwgdHlwZT1mbG9hdCwgZGVmYXVsdD0xNTAwKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgiLS1wcm90ZWluIiwgdHlwZT1mbG9hdCwgZGVmYXVsdD0xMCkKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoIi0tbWF4LXByZXAiLCB0eXBlPWZsb2F0LCBkZWZhdWx0PTE4MCkKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoIi0tcHJlZmVyZW5jZSIsIGRlZmF1bHQ9ImNoZXd5IGdyaWxsZWQiKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgiLS1zZW5zaXRpdml0eSIsIGFjdGlvbj0ic3RvcmVfdHJ1ZSIpCiAgICBhcmdzID0gcGFyc2VyLnBhcnNlX2FyZ3MoKQogICAgZGF0YSA9IGxvYWRfZGF0YXNldChhcmdzLmRhdGFfZGlyLCBkZW1vPW5vdCBhcmdzLnZlcmlmaWVkKQogICAga3dhcmdzID0gewogICAgICAgICJidWRnZXRfbmduIjogYXJncy5idWRnZXQsCiAgICAgICAgInByb3RlaW5fdGFyZ2V0X2ciOiBhcmdzLnByb3RlaW4sCiAgICAgICAgIm1heF9wcmVwX21pbnV0ZXMiOiBhcmdzLm1heF9wcmVwLAogICAgICAgICJwcmVmZXJlbmNlIjogYXJncy5wcmVmZXJlbmNlLAogICAgfQogICAgcmVzdWx0ID0gZXZhbHVhdGUoZGF0YSwgYXJncy5kaXNoLCAqKmt3YXJncykKICAgIG91dCA9IHsibW9kZSI6ICJERU1PLVNZTlRIRVRJQyIgaWYgZGF0YS5kZW1vIGVsc2UgIlZFUklGSUVELVNPVVJDRUQiLAogICAgICAgICAgICJkaXNoIjogYXJncy5kaXNoLCAicmFua2VkX29wdGlvbnMiOiBbci50b19kaWN0KCkgZm9yIHIgaW4gcmVzdWx0XSwKICAgICAgICAgICAiYmFzZWxpbmUiOiBiYXNlbGluZXMocmVzdWx0KSwKICAgICAgICAgICAicmFua2VyX2NvbXBhcmlzb24iOiBjb21wYXJlX3JhbmtlcnMoZGF0YSwgYXJncy5kaXNoLCAqKmt3YXJncyl9CiAgICBpZiBhcmdzLnNlbnNpdGl2aXR5OgogICAgICAgIG91dFsicHJpY2Vfc2Vuc2l0aXZpdHkiXSA9IHtrOiBbci50b19kaWN0KCkgZm9yIHIgaW4gdl0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvciBrLCB2IGluIHNlbnNpdGl2aXR5KGRhdGEsIGFyZ3MuZGlzaCwgKiprd2FyZ3MpLml0ZW1zKCl9CiAgICBwcmludChqc29uLmR1bXBzKG91dCwgaW5kZW50PTIsIGVuc3VyZV9hc2NpaT1GYWxzZSkpCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIG1haW4oKQo=
+"""CLI for testing calculations without starting Streamlit."""
+import argparse
+import json
+from pathlib import Path
+
+from .engine import baselines, compare_rankers, evaluate, load_dataset, sensitivity
+
+ROOT = Path(__file__).resolve().parents[2]
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Naija MenuShift (demo data are fictional)")
+    parser.add_argument("--data-dir", default=str(ROOT / "data" / "demo"))
+    parser.add_argument("--verified", action="store_true", help="Disable synthetic-demo mode")
+    parser.add_argument("--dish", default="suya")
+    parser.add_argument("--budget", type=float, default=1500)
+    parser.add_argument("--protein", type=float, default=10)
+    parser.add_argument("--max-prep", type=float, default=180)
+    parser.add_argument("--preference", default="chewy grilled")
+    parser.add_argument("--sensitivity", action="store_true")
+    args = parser.parse_args()
+    data = load_dataset(args.data_dir, demo=not args.verified)
+    kwargs = {
+        "budget_ngn": args.budget,
+        "protein_target_g": args.protein,
+        "max_prep_minutes": args.max_prep,
+        "preference": args.preference,
+    }
+    result = evaluate(data, args.dish, **kwargs)
+    out = {"mode": "DEMO-SYNTHETIC" if data.demo else "VERIFIED-SOURCED",
+           "dish": args.dish, "ranked_options": [r.to_dict() for r in result],
+           "baseline": baselines(result),
+           "ranker_comparison": compare_rankers(data, args.dish, **kwargs)}
+    if args.sensitivity:
+        out["price_sensitivity"] = {k: [r.to_dict() for r in v]
+                                     for k, v in sensitivity(data, args.dish, **kwargs).items()}
+    print(json.dumps(out, indent=2, ensure_ascii=False))
+
+
+if __name__ == "__main__":
+    main()
