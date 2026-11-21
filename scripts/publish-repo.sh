@@ -1,1 +1,14 @@
-IyEvdXNyL2Jpbi9lbnYgYmFzaApzZXQgLWV1byBwaXBlZmFpbAojIFJ1biBhZnRlciBtYW51YWxseSBjcmVhdGluZyB0aGUgRU1QVFkgUFJJVkFURSBHaXRIdWIgcmVwb3NpdG9yeSBpbiB5b3VyIGFjY291bnQuCmlmIFtbICEgLWQgLmdpdCBdXTsgdGhlbgogIGdpdCBpbml0IC1iIG1haW4KICBnaXQgYWRkIC4KICBnaXQgY29tbWl0IC1tICJCb290c3RyYXAgTmFpamEgTWVudVNoaWZ0IHByb3RvdHlwZSIKZmkKaWYgZ2l0IHJlbW90ZSBnZXQtdXJsIG9yaWdpbiA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICBlY2hvICdSZW1vdGUgb3JpZ2luIGFscmVhZHkgZXhpc3RzOyBpbnNwZWN0IGl0IGFuZCBwdXNoIG1hbnVhbGx5LicgPiYyCiAgZXhpdCAxCmZpCmdpdCByZW1vdGUgYWRkIG9yaWdpbiAnaHR0cHM6Ly9naXRodWIuY29tL0licmFoaW0tS0lBL25haWphLW1lbnVzaGlmdC5naXQnCmdpdCBwdXNoIC11IG9yaWdpbiBtYWluCg==
+#!/usr/bin/env bash
+set -euo pipefail
+# Run after manually creating the EMPTY PRIVATE GitHub repository in your account.
+if [[ ! -d .git ]]; then
+  git init -b main
+  git add .
+  git commit -m "Bootstrap Naija MenuShift prototype"
+fi
+if git remote get-url origin >/dev/null 2>&1; then
+  echo 'Remote origin already exists; inspect it and push manually.' >&2
+  exit 1
+fi
+git remote add origin 'https://github.com/Ibrahim-KIA/naija-menushift.git'
+git push -u origin main
