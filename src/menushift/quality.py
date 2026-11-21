@@ -1,1 +1,74 @@
-IiIiRGF0YXNldCBhdWRpdCByZXBvcnRzIHVzZWQgYmVmb3JlIGFueW9uZSBjYWxscyBhIGRlbW9uc3RyYXRpb24gJ3ZlcmlmaWVkJy4KClRoZXNlIGNoZWNrcyBhcmUgc3RydWN0dXJhbDsgZm9vZCBzY2llbmNlLCBzb3VyY2luZyBhbmQgYWxsZXJnZW4gc2FmZXR5IGFsd2F5cwpyZXF1aXJlIGEgcXVhbGlmaWVkIGh1bWFuIHJldmlldy4gTm8gbmV0d29yayBjYWxscywgbm8gaGlkZGVuIGZhbGxiYWNrIGRhdGEuCiIiIgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgpmcm9tIGRhdGFjbGFzc2VzIGltcG9ydCBhc2RpY3QsIGRhdGFjbGFzcwpmcm9tIGRhdGV0aW1lIGltcG9ydCBVVEMsIGRhdGUsIGRhdGV0aW1lCmZyb20gbWF0aCBpbXBvcnQgaXNmaW5pdGUKZnJvbSB0eXBpbmcgaW1wb3J0IFRZUEVfQ0hFQ0tJTkcKCmlmIFRZUEVfQ0hFQ0tJTkc6CiAgICBmcm9tIC5lbmdpbmUgaW1wb3J0IERhdGFzZXQKCgpAZGF0YWNsYXNzKGZyb3plbj1UcnVlKQpjbGFzcyBGaW5kaW5nOgogICAgc2V2ZXJpdHk6IHN0cgogICAgY29kZTogc3RyCiAgICByZWNvcmQ6IHN0cgogICAgbWVzc2FnZTogc3RyCgogICAgZGVmIHRvX2RpY3Qoc2VsZikgLT4gZGljdFtzdHIsIHN0cl06CiAgICAgICAgcmV0dXJuIGFzZGljdChzZWxmKQoKCmRlZiBhdWRpdF9kYXRhc2V0KGRhdGE6IERhdGFzZXQsICosIGFzX29mOiBkYXRlIHwgTm9uZSA9IE5vbmUpIC0+IGxpc3RbRmluZGluZ106CiAgICAiIiJXYXJuaW5ncyBhYm91dCBldmlkZW5jZSBtYXR1cml0eTsgbmV2ZXIgaW1wbGllcyBjbGluaWNhbCBvciBmb29kIHNhZmV0eSBjZXJ0aWZpY2F0aW9uLiIiIgogICAgdG9kYXkgPSBhc19vZiBvciBkYXRldGltZS5ub3coVVRDKS5kYXRlKCkKICAgIGZpbmRpbmdzOiBsaXN0W0ZpbmRpbmddID0gW10KICAgIGZvciBpbmcgaW4gZGF0YS5pbmdyZWRpZW50czoKICAgICAgICBpZGVudCA9IGluZy5nZXQoImluZ3JlZGllbnRfaWQiLCAiPHVua25vd24+IikKICAgICAgICBwcmljZV9kYXRlID0gaW5nLmdldCgicHJpY2VfZGF0ZSIsICIiKQogICAgICAgIGlmIHByaWNlX2RhdGUgPT0gInVua25vd24iOgogICAgICAgICAgICBmaW5kaW5ncy5hcHBlbmQoRmluZGluZygid2FybmluZyIsICJNSVNTSU5HX1BSSUNFX0RBVEUiLCBpZGVudCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIldvcmtib29rIHF1b3RlIGhhcyBubyBkb2N1bWVudGVkIGRhdGU7IG5vdCBhIGN1cnJlbnQgcXVvdGF0aW9uIikpCiAgICAgICAgZWxzZToKICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgZGF5cyA9ICh0b2RheSAtIGRhdGUuZnJvbWlzb2Zvcm1hdChwcmljZV9kYXRlKSkuZGF5cwogICAgICAgICAgICAgICAgaWYgZGF5cyA+IDMwOgogICAgICAgICAgICAgICAgICAgIGZpbmRpbmdzLmFwcGVuZChGaW5kaW5nKCJ3YXJuaW5nIiwgIlNUQUxFX1BSSUNFIiwgaWRlbnQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZiJQcmljZSBxdW90ZSBpcyB7ZGF5c30gZGF5cyBvbGQ7IHJlY29uZmlybSBsb2NhbGx5IikpCiAgICAgICAgICAgICAgICBpZiBkYXlzIDwgMDoKICAgICAgICAgICAgICAgICAgICBmaW5kaW5ncy5hcHBlbmQoRmluZGluZygid2FybmluZyIsICJGVVRVUkVfREFURSIsIGlkZW50LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJQcmljZSBxdW90ZSBpcyBkYXRlZCBpbiB0aGUgZnV0dXJlIikpCiAgICAgICAgICAgIGV4Y2VwdCBWYWx1ZUVycm9yOgogICAgICAgICAgICAgICAgZmluZGluZ3MuYXBwZW5kKEZpbmRpbmcoImVycm9yIiwgIklOVkFMSURfREFURSIsIGlkZW50LCAiUHJpY2UgZGF0ZSBpcyBpbnZhbGlkIikpCiAgICAgICAgaWYgaW5nLmdldCgiaXNfYW5pbWFsIikgPT0gImZhbHNlIiBhbmQgaW5nLmdldCgiYW5pbWFsX29yaWdpbl9yZXZpZXdlZCIpICE9ICJ0cnVlIiBhbmQgbm90IGRhdGEuZGVtbzoKICAgICAgICAgICAgZmluZGluZ3MuYXBwZW5kKEZpbmRpbmcoIndhcm5pbmciLCAiT1JJR0lOX1VOUkVWSUVXRUQiLCBpZGVudCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIlBsYW50LW9ubHkgb3JpZ2luIG5lZWRzIGEgcmV2aWV3ZWQgZGVjbGFyYXRpb24iKSkKICAgICAgICBpZiAibm8gbnV0cmllbnQgcm93IiBpbiBpbmcuZ2V0KCJudXRyaXRpb25fc291cmNlIiwgIiIpLmxvd2VyKCk6CiAgICAgICAgICAgIGZpbmRpbmdzLmFwcGVuZChGaW5kaW5nKCJ3YXJuaW5nIiwgIk5VVFJJRU5UX1VOQVZBSUxBQkxFIiwgaWRlbnQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJBIHplcm8gcGxhY2Vob2xkZXIgaXMgbm90IG1lYXN1cmVkIHplcm8gbnV0cmllbnQgY29udGVudCIpKQogICAgICAgIGlmIG5vdCBpbmcuZ2V0KCJhbGxlcmdlbnMiLCAiIikuc3RyaXAoKToKICAgICAgICAgICAgZmluZGluZ3MuYXBwZW5kKEZpbmRpbmcoIndhcm5pbmciLCAiVU5SRVZJRVdFRF9BTExFUkdFTlMiLCBpZGVudCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIkFsbGVyZ2VuIGZpZWxkIGlzIGJsYW5rOyBhYnNlbmNlIGlzIG5vdCBldmlkZW5jZSBvZiBhbGxlcmdlbiBzYWZldHkiKSkKICAgICAgICBmb3IgZmllbGQgaW4gKCJwcmljZV9zb3VyY2UiLCAibnV0cml0aW9uX3NvdXJjZSIpOgogICAgICAgICAgICBpZiBpbmcuZ2V0KGZpZWxkLCAiIikudXBwZXIoKS5zdGFydHN3aXRoKCJTWU5USEVUSUMiKToKICAgICAgICAgICAgICAgIGZpbmRpbmdzLmFwcGVuZChGaW5kaW5nKCJpbmZvIiwgIlNZTlRIRVRJQ19JTlBVVCIsIGlkZW50LCBmIntmaWVsZH0gaXMgc3ludGhldGljIikpCiAgICBmb3Igb3AgaW4gZGF0YS5vcHRpb25zOgogICAgICAgIGlmIG9wLmdldCgiZ3JvdXAiKSA9PSAicGxhbnQiOgogICAgICAgICAgICBmaW5kaW5ncy5hcHBlbmQoRmluZGluZygiaW5mbyIsICJTRU5TT1JZX1VOVEVTVEVEIiwgb3AuZ2V0KCJvcHRpb25faWQiLCAiIiksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJObyBzZW5zb3J5L3RleHR1cmUgdmFsaWRhdGlvbiBpcyBlbmNvZGVkOyBkbyBub3QgY2xhaW0gYWNjZXB0YW5jZSIpKQogICAgaWYgZGF0YS5kZW1vOgogICAgICAgIGZpbmRpbmdzLmFwcGVuZChGaW5kaW5nKCJ3YXJuaW5nIiwgIkRFTU9fT05MWSIsICJkYXRhc2V0IiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiQWxsIGNvbXB1dGVkIG91dHB1dHMgYXJlIGRlbW9uc3RyYXRpb24gdmFsdWVzLCBub3QgcmVzZWFyY2ggZXZpZGVuY2UiKSkKICAgIHJldHVybiBmaW5kaW5ncwoKCmRlZiBudW1lcmljX2hlYWx0aCh2YWx1ZXM6IGRpY3Rbc3RyLCBmbG9hdF0pIC0+IE5vbmU6CiAgICAiIiJTaW1wbGUgZGVmZW5zZS1pbi1kZXB0aCBjaGVjayBmb3IgaW50ZXJtZWRpYXRlIGNhbGN1bGF0aW9ucy4iIiIKICAgIGlmIGFueShub3QgaXNmaW5pdGUoeCkgZm9yIHggaW4gdmFsdWVzLnZhbHVlcygpKToKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJOb24tZmluaXRlIGludGVybWVkaWF0ZSB2YWx1ZTsgY2Fubm90IGNvbXB1dGUgYSB0cnVzdHdvcnRoeSByZWNvbW1lbmRhdGlvbiIpCg==
+"""Dataset audit reports used before anyone calls a demonstration 'verified'.
+
+These checks are structural; food science, sourcing and allergen safety always
+require a qualified human review. No network calls, no hidden fallback data.
+"""
+from __future__ import annotations
+
+from dataclasses import asdict, dataclass
+from datetime import UTC, date, datetime
+from math import isfinite
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING:
+    from .engine import Dataset
+
+
+@dataclass(frozen=True)
+class Finding:
+    severity: str
+    code: str
+    record: str
+    message: str
+
+    def to_dict(self) -> dict[str, str]:
+        return asdict(self)
+
+
+def audit_dataset(data: Dataset, *, as_of: date | None = None) -> list[Finding]:
+    """Warnings about evidence maturity; never implies clinical or food safety certification."""
+    today = as_of or datetime.now(UTC).date()
+    findings: list[Finding] = []
+    for ing in data.ingredients:
+        ident = ing.get("ingredient_id", "<unknown>")
+        price_date = ing.get("price_date", "")
+        if price_date == "unknown":
+            findings.append(Finding("warning", "MISSING_PRICE_DATE", ident,
+                                    "Workbook quote has no documented date; not a current quotation"))
+        else:
+            try:
+                days = (today - date.fromisoformat(price_date)).days
+                if days > 30:
+                    findings.append(Finding("warning", "STALE_PRICE", ident,
+                                            f"Price quote is {days} days old; reconfirm locally"))
+                if days < 0:
+                    findings.append(Finding("warning", "FUTURE_DATE", ident,
+                                            "Price quote is dated in the future"))
+            except ValueError:
+                findings.append(Finding("error", "INVALID_DATE", ident, "Price date is invalid"))
+        if ing.get("is_animal") == "false" and ing.get("animal_origin_reviewed") != "true" and not data.demo:
+            findings.append(Finding("warning", "ORIGIN_UNREVIEWED", ident,
+                                    "Plant-only origin needs a reviewed declaration"))
+        if "no nutrient row" in ing.get("nutrition_source", "").lower():
+            findings.append(Finding("warning", "NUTRIENT_UNAVAILABLE", ident,
+                                    "A zero placeholder is not measured zero nutrient content"))
+        if not ing.get("allergens", "").strip():
+            findings.append(Finding("warning", "UNREVIEWED_ALLERGENS", ident,
+                                    "Allergen field is blank; absence is not evidence of allergen safety"))
+        for field in ("price_source", "nutrition_source"):
+            if ing.get(field, "").upper().startswith("SYNTHETIC"):
+                findings.append(Finding("info", "SYNTHETIC_INPUT", ident, f"{field} is synthetic"))
+    for op in data.options:
+        if op.get("group") == "plant":
+            findings.append(Finding("info", "SENSORY_UNTESTED", op.get("option_id", ""),
+                                    "No sensory/texture validation is encoded; do not claim acceptance"))
+    if data.demo:
+        findings.append(Finding("warning", "DEMO_ONLY", "dataset",
+                                "All computed outputs are demonstration values, not research evidence"))
+    return findings
+
+
+def numeric_health(values: dict[str, float]) -> None:
+    """Simple defense-in-depth check for intermediate calculations."""
+    if any(not isfinite(x) for x in values.values()):
+        raise ValueError("Non-finite intermediate value; cannot compute a trustworthy recommendation")
