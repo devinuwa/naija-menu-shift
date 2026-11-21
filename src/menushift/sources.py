@@ -1,1 +1,50 @@
-IiIiQ29sbGVjdGVkIG1hcmtldCBhbmQgbnV0cml0aW9uIHF1b3RlcyB0aGF0IGFyZSBub3QgeWV0IGEgdmVyaWZpZWQgcmVjaXBlIGRhdGFzZXQuCgpUaGUgQ1NWcyBhcmUgYSBsb2NhbCBjb3B5IG9mIEFtaW5hJ3Mgd29ya2Jvb2sgc2hlZXRzLiBMYXRlciBOQlMgYXZlcmFnZXMgbGl2ZSBpbgpgbmJzXzIwMjYuY3N2YCBhbmQgYXJlIGFwcGxpZWQgYnkgYG9mZmljaWFsX3ByaWNlcy53b3JraW5nX21hcmtldF90YWJsZWAuIE5laXRoZXIgZmlsZQpmaWxscyBgZGF0YS92ZXJpZmllZGA6IHRoZXJlIGlzIHN0aWxsIG5vIHBlci1zZXJ2aW5nIHJlY2lwZSwgYW5kIG1vaXN0dXJlLWFkanVzdGVkCm51dHJpZW50IHJvd3MgYXJlIG5vdGVzIHJhdGhlciB0aGFuIHNjb3JlZCBwcm90ZWluLgoiIiIKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKaW1wb3J0IGNzdgpmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKClNPVVJDRV9HQVBTOiB0dXBsZVtzdHIsIC4uLl0gPSAoCiAgICAiTm8gSVNPIHByaWNlIGRhdGUgaXMgcmVjb3JkZWQuIEEgZmV3IG5vdGVzIG1lbnRpb24gQXByaWwvTWF5IDIwMjYsIHdoaWNoIGlzIG5vdCBhIHF1b3RlIGRhdGUgZm9yIGV2ZXJ5IHJvdy4iLAogICAgIk5vIGNpdHkgb3IgbWFya2V0IHJlZ2lvbiBpcyByZWNvcmRlZC4gRmlndXJlcyBtaXggbmF0aW9uYWwgYXZlcmFnZXMsIHJldGFpbCBwYWdlcywgYW5kIG9uZSBpbmZvcm1hbCBtaWxsaW5nIG5vdGUuIiwKICAgICJObyBwdXJjaGFzZSBncmFtcywgZmluaXNoZWQgc2VydmluZyB3ZWlnaHQsIHByZXBhcmF0aW9uIG1pbnV0ZXMsIG9yIGVuZXJneS9sYWJvdXIgc3BsaXQgcGVyIHNlcnZpbmcuIiwKICAgICJBbGxlcmdlbiBsYWJlbHMgYW5kIGFuaW1hbC1pbmdyZWRpZW50IHJldmlldyBhcmUgbWlzc2luZy4gQSBibGFuayBpcyBub3QgYSBzYWZldHkgY2xlYXJhbmNlLiBTZWFzb25pbmcgY3ViZXMgYXJlIHVudmVyaWZpZWQuIiwKICAgICJQcmVzc2VkIGFuZCBmcm96ZW4gcHJvdGVpbiwgaXJvbiwgYW5kIHppbmMgZmlndXJlcyBhcmUgbW9pc3R1cmUtZGVuc2l0eSByZWNhbGN1bGF0aW9ucy4gU2NvcmluZyBkb2VzIG5vdCB1c2UgdGhlbSwgYW5kIHByZXNzaW5nIGRvZXMgbm90IGNyZWF0ZSBwcm90ZWluLiIsCiAgICAiT2lsLCBvbmlvbiwgcGVwcGVyLCBzYWx0LCBzZWFzb25pbmcgY3ViZXMsIGFuZCBmdWVsIGhhdmUgcHJpY2VzIGJ1dCBubyBwcm90ZWluLCBpcm9uLCBvciB6aW5jIHJvd3MuIiwKICAgICJUaGVzZSBxdW90ZXMgZG8gbm90IGZpbGwgZGF0YS92ZXJpZmllZCBhbmQgY2Fubm90IHJ1biByZXNlYXJjaCBtb2RlLiIsCikKCgpkZWYgc291cmNlc19kaXIocm9vdDogc3RyIHwgUGF0aCB8IE5vbmUgPSBOb25lKSAtPiBQYXRoOgogICAgaWYgcm9vdCBpcyBOb25lOgogICAgICAgIHJldHVybiBQYXRoKF9fZmlsZV9fKS5yZXNvbHZlKCkucGFyZW50c1syXSAvICJkYXRhIiAvICJzb3VyY2VzIgogICAgcmV0dXJuIFBhdGgocm9vdCkKCgpkZWYgX3JlYWQocGF0aDogUGF0aCkgLT4gbGlzdFtkaWN0W3N0ciwgc3RyXV06CiAgICBpZiBub3QgcGF0aC5leGlzdHMoKToKICAgICAgICByYWlzZSBGaWxlTm90Rm91bmRFcnJvcihmIkNvbGxlY3RlZCBxdW90ZSBmaWxlIGlzIG1pc3Npbmc6IHtwYXRoLm5hbWV9IikKICAgIHdpdGggcGF0aC5vcGVuKGVuY29kaW5nPSJ1dGYtOC1zaWciLCBuZXdsaW5lPSIiKSBhcyBoYW5kbGU6CiAgICAgICAgcm93cyA9IGxpc3QoY3N2LkRpY3RSZWFkZXIoaGFuZGxlKSkKICAgIGlmIG5vdCByb3dzOgogICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoZiJ7cGF0aC5uYW1lfSBoYXMgaGVhZGVycyBidXQgbm8gcXVvdGUgcm93cyIpCiAgICByZXR1cm4gcm93cwoKCmRlZiBsb2FkX21hcmtldF9wcmljZXMoZm9sZGVyOiBzdHIgfCBQYXRoIHwgTm9uZSA9IE5vbmUpIC0+IGxpc3RbZGljdFtzdHIsIHN0cl1dOgogICAgcmV0dXJuIF9yZWFkKHNvdXJjZXNfZGlyKGZvbGRlcikgLyAibWFya2V0X3ByaWNlcy5jc3YiKQoKCmRlZiBsb2FkX251dHJpdGlvbl9xdW90ZXMoZm9sZGVyOiBzdHIgfCBQYXRoIHwgTm9uZSA9IE5vbmUpIC0+IGxpc3RbZGljdFtzdHIsIHN0cl1dOgogICAgcmV0dXJuIF9yZWFkKHNvdXJjZXNfZGlyKGZvbGRlcikgLyAibnV0cml0aW9uX3Blcl8xMDBnLmNzdiIpCgoKZGVmIGNvbGxlY3RlZF9xdW90ZV9nYXBzKCkgLT4gdHVwbGVbc3RyLCAuLi5dOgogICAgIiIiRml4ZWQgbGltaXRhdGlvbnMuIFByZXNlbmNlIG9mIGEgc3ByZWFkc2hlZXQgbnVtYmVyIGRvZXMgbm90IGNsb3NlIGFueSBnYXAuIiIiCiAgICByZXR1cm4gU09VUkNFX0dBUFMK
+"""Collected market and nutrition quotes that are not yet a verified recipe dataset.
+
+The CSVs are a local copy of Amina's workbook sheets. Later NBS averages live in
+`nbs_2026.csv` and are applied by `official_prices.working_market_table`. Neither file
+fills `data/verified`: there is still no per-serving recipe, and moisture-adjusted
+nutrient rows are notes rather than scored protein.
+"""
+from __future__ import annotations
+
+import csv
+from pathlib import Path
+
+SOURCE_GAPS: tuple[str, ...] = (
+    "No ISO price date is recorded. A few notes mention April/May 2026, which is not a quote date for every row.",
+    "No city or market region is recorded. Figures mix national averages, retail pages, and one informal milling note.",
+    "No purchase grams, finished serving weight, preparation minutes, or energy/labour split per serving.",
+    "Allergen labels and animal-ingredient review are missing. A blank is not a safety clearance. Seasoning cubes are unverified.",
+    "Pressed and frozen protein, iron, and zinc figures are moisture-density recalculations. Scoring does not use them, and pressing does not create protein.",
+    "Oil, onion, pepper, salt, seasoning cubes, and fuel have prices but no protein, iron, or zinc rows.",
+    "These quotes do not fill data/verified and cannot run research mode.",
+)
+
+
+def sources_dir(root: str | Path | None = None) -> Path:
+    if root is None:
+        return Path(__file__).resolve().parents[2] / "data" / "sources"
+    return Path(root)
+
+
+def _read(path: Path) -> list[dict[str, str]]:
+    if not path.exists():
+        raise FileNotFoundError(f"Collected quote file is missing: {path.name}")
+    with path.open(encoding="utf-8-sig", newline="") as handle:
+        rows = list(csv.DictReader(handle))
+    if not rows:
+        raise ValueError(f"{path.name} has headers but no quote rows")
+    return rows
+
+
+def load_market_prices(folder: str | Path | None = None) -> list[dict[str, str]]:
+    return _read(sources_dir(folder) / "market_prices.csv")
+
+
+def load_nutrition_quotes(folder: str | Path | None = None) -> list[dict[str, str]]:
+    return _read(sources_dir(folder) / "nutrition_per_100g.csv")
+
+
+def collected_quote_gaps() -> tuple[str, ...]:
+    """Fixed limitations. Presence of a spreadsheet number does not close any gap."""
+    return SOURCE_GAPS
