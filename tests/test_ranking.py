@@ -1,1 +1,125 @@
-IiIiRnJvemVuIHN5bnRoZXRpYyBiZW5jaG1hcmsgZm9yIGtleXdvcmQgdnMgVEYtSURGIHZzIGNoZWFwZXN0IGJhc2VsaW5lcy4iIiIKaW1wb3J0IGpzb24KCmltcG9ydCBweXRlc3QKCmZyb20gbWVudXNoaWZ0LmNsaSBpbXBvcnQgbWFpbgpmcm9tIG1lbnVzaGlmdC5lbmdpbmUgaW1wb3J0IGNvbXBhcmVfcmFua2VycywgZXZhbHVhdGUKZnJvbSBtZW51c2hpZnQuc2NlbmFyaW9zIGltcG9ydCBTWU5USEVUSUNfU0NFTkFSSU9TLCBzY2VuYXJpb19ieV9pZAoKCmRlZiBfdGV4dChyb3cpOgogICAgcmV0dXJuIGRpY3Qocm93LnNjb3JlX2JyZWFrZG93bilbInRleHRfbWF0Y2giXQoKCmRlZiB0ZXN0X2Zyb3plbl9zZXRfaGFzX2FfY2hhbmdlX2FuZF9hX25vX2NoYW5nZShkZW1vKToKICAgIGNoYW5nZWQgPSAwCiAgICB1bmNoYW5nZWQgPSAwCiAgICBmb3Igc2NlbmFyaW8gaW4gU1lOVEhFVElDX1NDRU5BUklPUzoKICAgICAgICByZXBvcnQgPSBjb21wYXJlX3JhbmtlcnMoZGVtbywgInN1eWEiLCAqKnNjZW5hcmlvLmFzX2NvbnN0cmFpbnRzKCkpCiAgICAgICAgcm93cyA9IGV2YWx1YXRlKGRlbW8sICJzdXlhIiwgKipzY2VuYXJpby5hc19jb25zdHJhaW50cygpKQogICAgICAgIGFzc2VydCBhbGwobm90IHJvdy5mZWFzaWJsZSBmb3Igcm93IGluIHJvd3MgaWYgbm90IHJvdy5wbGFudF9vbmx5KQogICAgICAgIGFzc2VydCByZXBvcnRbImtleXdvcmRfaHlicmlkIl0gIT0gImJlZWZfc3V5YSIKICAgICAgICBhc3NlcnQgcmVwb3J0WyJ0ZmlkZl9oeWJyaWQiXSAhPSAiYmVlZl9zdXlhIgogICAgICAgIGlmIHNjZW5hcmlvLmV4cGVjdHNfZmVhc2libGU6CiAgICAgICAgICAgIGFzc2VydCBub3QgcmVwb3J0WyJhYnN0YWluZWQiXQogICAgICAgICAgICBhc3NlcnQgcmVwb3J0WyJjaGVhcGVzdF9mZWFzaWJsZV9wbGFudCJdCiAgICAgICAgZWxzZToKICAgICAgICAgICAgYXNzZXJ0IHJlcG9ydFsiYWJzdGFpbmVkIl0KICAgICAgICAgICAgYXNzZXJ0IHJlcG9ydFsia2V5d29yZF9oeWJyaWQiXSBpcyBOb25lCiAgICAgICAgICAgIGFzc2VydCByZXBvcnRbInRmaWRmX2h5YnJpZCJdIGlzIE5vbmUKICAgICAgICAgICAgYXNzZXJ0IHJlcG9ydFsidGV4dF9jaGFuZ2VzX3dpbm5lciJdIGlzIEZhbHNlCiAgICAgICAgaWYgcmVwb3J0WyJ0ZXh0X2NoYW5nZXNfd2lubmVyIl06CiAgICAgICAgICAgIGNoYW5nZWQgKz0gMQogICAgICAgIGVsaWYgbm90IHJlcG9ydFsiYWJzdGFpbmVkIl06CiAgICAgICAgICAgIHVuY2hhbmdlZCArPSAxCiAgICBhc3NlcnQgY2hhbmdlZCA+PSAxCiAgICBhc3NlcnQgdW5jaGFuZ2VkID49IDEKCgpkZWYgdGVzdF9ub3JtYWxfc2VydmluZ190ZXh0X3ByZWZlcnNfcHJlc3NlZF9vdmVyX2NoZWFwZXN0KGRlbW8pOgogICAgc2NlbmFyaW8gPSBzY2VuYXJpb19ieV9pZCgibm9ybWFsX3NlcnZpbmciKQogICAgcmVwb3J0ID0gY29tcGFyZV9yYW5rZXJzKGRlbW8sICJzdXlhIiwgKipzY2VuYXJpby5hc19jb25zdHJhaW50cygpKQogICAgYXNzZXJ0IHJlcG9ydFsiYWJzdGFpbmVkIl0gaXMgRmFsc2UKICAgIGFzc2VydCByZXBvcnRbImNoZWFwZXN0X2ZlYXNpYmxlX3BsYW50Il0gPT0gInRvZnVfcGxhaW4iCiAgICBhc3NlcnQgcmVwb3J0WyJrZXl3b3JkX2h5YnJpZCJdID09ICJ0b2Z1X3ByZXNzZWQiCiAgICBhc3NlcnQgcmVwb3J0WyJ0ZmlkZl9oeWJyaWQiXSA9PSAidG9mdV9wcmVzc2VkIgogICAgYXNzZXJ0IHJlcG9ydFsidGV4dF9jaGFuZ2VzX3dpbm5lciJdIGlzIFRydWUKICAgIGFzc2VydCByZXBvcnRbIm1ldGhvZHNfZGlzYWdyZWUiXSBpcyBGYWxzZQoKCmRlZiB0ZXN0X2NyaXNweV9wcmVmZXJlbmNlX21vdmVzX2tleXdvcmRfaHlicmlkX29mZl9jaGVhcGVzdChkZW1vKToKICAgIHNjZW5hcmlvID0gc2NlbmFyaW9fYnlfaWQoInByZWZlcmVuY2Vfc2hpZnQiKQogICAgcmVwb3J0ID0gY29tcGFyZV9yYW5rZXJzKGRlbW8sICJzdXlhIiwgKipzY2VuYXJpby5hc19jb25zdHJhaW50cygpKQogICAgYXNzZXJ0IHJlcG9ydFsiY2hlYXBlc3RfcGxhbnRfdW5jb25zdHJhaW5lZCJdID09ICJ0b2Z1X3BsYWluIgogICAgYXNzZXJ0IHJlcG9ydFsiY2hlYXBlc3RfZmVhc2libGVfcGxhbnQiXSA9PSAidG9mdV9wbGFpbiIKICAgIGFzc2VydCByZXBvcnRbImtleXdvcmRfaHlicmlkIl0gPT0gInRvZnVfZnJpZWQiCiAgICBhc3NlcnQgcmVwb3J0WyJ0ZmlkZl9oeWJyaWQiXSA9PSAidG9mdV9wbGFpbiIKICAgIGFzc2VydCByZXBvcnRbIm1ldGhvZHNfZGlzYWdyZWUiXSBpcyBUcnVlCiAgICBhc3NlcnQgcmVwb3J0WyJ0ZXh0X2NoYW5nZXNfd2lubmVyIl0gaXMgVHJ1ZQoKCmRlZiB0ZXN0X3Nob3J0X3ByZXBfbGVhdmVzX29ubHlfcGxhaW5fdG9mdShkZW1vKToKICAgIHNjZW5hcmlvID0gc2NlbmFyaW9fYnlfaWQoInNob3J0X3ByZXAiKQogICAgcm93cyA9IGV2YWx1YXRlKGRlbW8sICJzdXlhIiwgKipzY2VuYXJpby5hc19jb25zdHJhaW50cygpKQogICAgYXNzZXJ0IFtyb3cub3B0aW9uX2lkIGZvciByb3cgaW4gcm93cyBpZiByb3cuZmVhc2libGVdID09IFsidG9mdV9wbGFpbiJdCiAgICByZXBvcnQgPSBjb21wYXJlX3JhbmtlcnMoZGVtbywgInN1eWEiLCAqKnNjZW5hcmlvLmFzX2NvbnN0cmFpbnRzKCkpCiAgICBhc3NlcnQgcmVwb3J0WyJrZXl3b3JkX2h5YnJpZCJdID09IHJlcG9ydFsidGZpZGZfaHlicmlkIl0gPT0gInRvZnVfcGxhaW4iCiAgICBhc3NlcnQgcmVwb3J0WyJtZXRob2RzX2Rpc2FncmVlIl0gaXMgRmFsc2UKCgpkZWYgdGVzdF9pbXBvc3NpYmxlX2J1ZGdldF9hYnN0YWlucyhkZW1vKToKICAgIHNjZW5hcmlvID0gc2NlbmFyaW9fYnlfaWQoIm5vX2ZlYXNpYmxlIikKICAgIHJlcG9ydCA9IGNvbXBhcmVfcmFua2VycyhkZW1vLCAic3V5YSIsICoqc2NlbmFyaW8uYXNfY29uc3RyYWludHMoKSkKICAgIGFzc2VydCByZXBvcnRbImFic3RhaW5lZCJdIGlzIFRydWUKICAgIGFzc2VydCByZXBvcnRbImNoZWFwZXN0X3BsYW50X3VuY29uc3RyYWluZWQiXSA9PSAidG9mdV9wbGFpbiIKICAgIGFzc2VydCByZXBvcnRbImNoZWFwZXN0X2ZlYXNpYmxlX3BsYW50Il0gaXMgTm9uZQoKCmRlZiB0ZXN0X3NveV9leGNsdXNpb25fYWJzdGFpbnNfZm9yX2V2ZXJ5X3JhbmtlcihkZW1vKToKICAgIHJlcG9ydCA9IGNvbXBhcmVfcmFua2VycyhkZW1vLCAic3V5YSIsIGJ1ZGdldF9uZ249MTAwMDAwLCBwcm90ZWluX3RhcmdldF9nPTAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXZvaWRfYWxsZXJnZW5zPVsic295Il0pCiAgICBhc3NlcnQgcmVwb3J0WyJhYnN0YWluZWQiXSBpcyBUcnVlCiAgICBhc3NlcnQgcmVwb3J0WyJrZXl3b3JkX2h5YnJpZCJdIGlzIE5vbmUKICAgIGFzc2VydCByZXBvcnRbInRmaWRmX2h5YnJpZCJdIGlzIE5vbmUKCgpkZWYgdGVzdF9sZXhpY2FsX3RleHRfdGVybV9kaWZmZXJzX2Zyb21fdGZpZGZfb25fZnJpZWRfb3B0aW9uKGRlbW8pOgogICAgc2NlbmFyaW8gPSBzY2VuYXJpb19ieV9pZCgicHJlZmVyZW5jZV9zaGlmdCIpCiAgICBsZXhpY2FsID0gZXZhbHVhdGUoZGVtbywgInN1eWEiLCB0ZXh0X21ldGhvZD0ibGV4aWNhbCIsICoqc2NlbmFyaW8uYXNfY29uc3RyYWludHMoKSkKICAgIHRmaWRmID0gZXZhbHVhdGUoZGVtbywgInN1eWEiLCB0ZXh0X21ldGhvZD0idGZpZGYiLCAqKnNjZW5hcmlvLmFzX2NvbnN0cmFpbnRzKCkpCiAgICBmcmllZF9sZXhpY2FsID0gbmV4dChyb3cgZm9yIHJvdyBpbiBsZXhpY2FsIGlmIHJvdy5vcHRpb25faWQgPT0gInRvZnVfZnJpZWQiKQogICAgZnJpZWRfdGZpZGYgPSBuZXh0KHJvdyBmb3Igcm93IGluIHRmaWRmIGlmIHJvdy5vcHRpb25faWQgPT0gInRvZnVfZnJpZWQiKQogICAgYXNzZXJ0IF90ZXh0KGZyaWVkX2xleGljYWwpICE9IF90ZXh0KGZyaWVkX3RmaWRmKQogICAgYXNzZXJ0IGFueSgibGV4aWNhbCIgaW4gcmVhc29uIGZvciByZWFzb24gaW4gZnJpZWRfbGV4aWNhbC5yZWFzb25zKQogICAgYXNzZXJ0IGFueSgidGZpZGYiIGluIHJlYXNvbiBmb3IgcmVhc29uIGluIGZyaWVkX3RmaWRmLnJlYXNvbnMpCgoKZGVmIHRlc3RfcmFua2luZ19pc19zdGFibGUoZGVtbyk6CiAgICBrd2FyZ3MgPSBzY2VuYXJpb19ieV9pZCgicHJlZmVyZW5jZV9zaGlmdCIpLmFzX2NvbnN0cmFpbnRzKCkKICAgIGZpcnN0ID0gZXZhbHVhdGUoZGVtbywgInN1eWEiLCAqKmt3YXJncykKICAgIHNlY29uZCA9IGV2YWx1YXRlKGRlbW8sICJzdXlhIiwgKiprd2FyZ3MpCiAgICBhc3NlcnQgWyhyb3cub3B0aW9uX2lkLCByb3cuc2NvcmUsIHJvdy5mZWFzaWJsZSkgZm9yIHJvdyBpbiBmaXJzdF0gPT0gWwogICAgICAgIChyb3cub3B0aW9uX2lkLCByb3cuc2NvcmUsIHJvdy5mZWFzaWJsZSkgZm9yIHJvdyBpbiBzZWNvbmQKICAgIF0KCgpkZWYgdGVzdF91bmtub3duX3RleHRfbWV0aG9kX3JlamVjdGVkKGRlbW8pOgogICAgd2l0aCBweXRlc3QucmFpc2VzKFZhbHVlRXJyb3IsIG1hdGNoPSJ0ZXh0X21ldGhvZCIpOgogICAgICAgIGV2YWx1YXRlKGRlbW8sICJzdXlhIiwgYnVkZ2V0X25nbj0xNTAwLCBwcm90ZWluX3RhcmdldF9nPTEwLCB0ZXh0X21ldGhvZD0idGFzdGUiKQoKCmRlZiB0ZXN0X2NsaV9pbmNsdWRlc19yYW5rZXJfY29tcGFyaXNvbihjYXBzeXMsIG1vbmtleXBhdGNoKToKICAgIG1vbmtleXBhdGNoLnNldGF0dHIoInN5cy5hcmd2IiwgWyJtZW51c2hpZnQiLCAiLS1kaXNoIiwgInN1eWEiLCAiLS1idWRnZXQiLCAiMTUwMCIsICItLXByb3RlaW4iLCAiMTAiXSkKICAgIG1haW4oKQogICAgcGF5bG9hZCA9IGpzb24ubG9hZHMoY2Fwc3lzLnJlYWRvdXRlcnIoKS5vdXQpCiAgICBjb21wYXJpc29uID0gcGF5bG9hZFsicmFua2VyX2NvbXBhcmlzb24iXQogICAgYXNzZXJ0IHNldChjb21wYXJpc29uKSA+PSB7CiAgICAgICAgImNoZWFwZXN0X3BsYW50X3VuY29uc3RyYWluZWQiLAogICAgICAgICJjaGVhcGVzdF9mZWFzaWJsZV9wbGFudCIsCiAgICAgICAgImtleXdvcmRfaHlicmlkIiwKICAgICAgICAidGZpZGZfaHlicmlkIiwKICAgICAgICAidGV4dF9jaGFuZ2VzX3dpbm5lciIsCiAgICAgICAgImFic3RhaW5lZCIsCiAgICB9CiAgICBhc3NlcnQgY29tcGFyaXNvblsidGZpZGZfaHlicmlkIl0gIT0gImJlZWZfc3V5YSIK
+"""Frozen synthetic benchmark for keyword vs TF-IDF vs cheapest baselines."""
+import json
+
+import pytest
+
+from menushift.cli import main
+from menushift.engine import compare_rankers, evaluate
+from menushift.scenarios import SYNTHETIC_SCENARIOS, scenario_by_id
+
+
+def _text(row):
+    return dict(row.score_breakdown)["text_match"]
+
+
+def test_frozen_set_has_a_change_and_a_no_change(demo):
+    changed = 0
+    unchanged = 0
+    for scenario in SYNTHETIC_SCENARIOS:
+        report = compare_rankers(demo, "suya", **scenario.as_constraints())
+        rows = evaluate(demo, "suya", **scenario.as_constraints())
+        assert all(not row.feasible for row in rows if not row.plant_only)
+        assert report["keyword_hybrid"] != "beef_suya"
+        assert report["tfidf_hybrid"] != "beef_suya"
+        if scenario.expects_feasible:
+            assert not report["abstained"]
+            assert report["cheapest_feasible_plant"]
+        else:
+            assert report["abstained"]
+            assert report["keyword_hybrid"] is None
+            assert report["tfidf_hybrid"] is None
+            assert report["text_changes_winner"] is False
+        if report["text_changes_winner"]:
+            changed += 1
+        elif not report["abstained"]:
+            unchanged += 1
+    assert changed >= 1
+    assert unchanged >= 1
+
+
+def test_normal_serving_text_prefers_pressed_over_cheapest(demo):
+    scenario = scenario_by_id("normal_serving")
+    report = compare_rankers(demo, "suya", **scenario.as_constraints())
+    assert report["abstained"] is False
+    assert report["cheapest_feasible_plant"] == "tofu_plain"
+    assert report["keyword_hybrid"] == "tofu_pressed"
+    assert report["tfidf_hybrid"] == "tofu_pressed"
+    assert report["text_changes_winner"] is True
+    assert report["methods_disagree"] is False
+
+
+def test_crispy_preference_moves_keyword_hybrid_off_cheapest(demo):
+    scenario = scenario_by_id("preference_shift")
+    report = compare_rankers(demo, "suya", **scenario.as_constraints())
+    assert report["cheapest_plant_unconstrained"] == "tofu_plain"
+    assert report["cheapest_feasible_plant"] == "tofu_plain"
+    assert report["keyword_hybrid"] == "tofu_fried"
+    assert report["tfidf_hybrid"] == "tofu_plain"
+    assert report["methods_disagree"] is True
+    assert report["text_changes_winner"] is True
+
+
+def test_short_prep_leaves_only_plain_tofu(demo):
+    scenario = scenario_by_id("short_prep")
+    rows = evaluate(demo, "suya", **scenario.as_constraints())
+    assert [row.option_id for row in rows if row.feasible] == ["tofu_plain"]
+    report = compare_rankers(demo, "suya", **scenario.as_constraints())
+    assert report["keyword_hybrid"] == report["tfidf_hybrid"] == "tofu_plain"
+    assert report["methods_disagree"] is False
+
+
+def test_impossible_budget_abstains(demo):
+    scenario = scenario_by_id("no_feasible")
+    report = compare_rankers(demo, "suya", **scenario.as_constraints())
+    assert report["abstained"] is True
+    assert report["cheapest_plant_unconstrained"] == "tofu_plain"
+    assert report["cheapest_feasible_plant"] is None
+
+
+def test_soy_exclusion_abstains_for_every_ranker(demo):
+    report = compare_rankers(demo, "suya", budget_ngn=100000, protein_target_g=0,
+                             avoid_allergens=["soy"])
+    assert report["abstained"] is True
+    assert report["keyword_hybrid"] is None
+    assert report["tfidf_hybrid"] is None
+
+
+def test_lexical_text_term_differs_from_tfidf_on_fried_option(demo):
+    scenario = scenario_by_id("preference_shift")
+    lexical = evaluate(demo, "suya", text_method="lexical", **scenario.as_constraints())
+    tfidf = evaluate(demo, "suya", text_method="tfidf", **scenario.as_constraints())
+    fried_lexical = next(row for row in lexical if row.option_id == "tofu_fried")
+    fried_tfidf = next(row for row in tfidf if row.option_id == "tofu_fried")
+    assert _text(fried_lexical) != _text(fried_tfidf)
+    assert any("lexical" in reason for reason in fried_lexical.reasons)
+    assert any("tfidf" in reason for reason in fried_tfidf.reasons)
+
+
+def test_ranking_is_stable(demo):
+    kwargs = scenario_by_id("preference_shift").as_constraints()
+    first = evaluate(demo, "suya", **kwargs)
+    second = evaluate(demo, "suya", **kwargs)
+    assert [(row.option_id, row.score, row.feasible) for row in first] == [
+        (row.option_id, row.score, row.feasible) for row in second
+    ]
+
+
+def test_unknown_text_method_rejected(demo):
+    with pytest.raises(ValueError, match="text_method"):
+        evaluate(demo, "suya", budget_ngn=1500, protein_target_g=10, text_method="taste")
+
+
+def test_cli_includes_ranker_comparison(capsys, monkeypatch):
+    monkeypatch.setattr("sys.argv", ["menushift", "--dish", "suya", "--budget", "1500", "--protein", "10"])
+    main()
+    payload = json.loads(capsys.readouterr().out)
+    comparison = payload["ranker_comparison"]
+    assert set(comparison) >= {
+        "cheapest_plant_unconstrained",
+        "cheapest_feasible_plant",
+        "keyword_hybrid",
+        "tfidf_hybrid",
+        "text_changes_winner",
+        "abstained",
+    }
+    assert comparison["tfidf_hybrid"] != "beef_suya"
