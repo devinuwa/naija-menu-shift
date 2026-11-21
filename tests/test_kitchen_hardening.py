@@ -1,1 +1,182 @@
-IiIiSW5ncmVkaWVudCBhdmFpbGFiaWxpdHksIGNvc3QgdHJhY2VzLCB0cmlhbC1jYXJkIGFuZCBhZ2VudCB2YWxpZGF0aW9uIHJlZ3Jlc3Npb25zLiIiIgppbXBvcnQganNvbgpmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKCmltcG9ydCBweXRlc3QKCmZyb20gbWVudXNoaWZ0LmFnZW50X2NvbnRyYWN0IGltcG9ydCAoCiAgICBLaXRjaGVuQnJpZWYsCiAgICBldmFsdWF0ZV9jYW5kaWRhdGUsCiAgICBwYXJzZV9wcm9wb3NhbHMsCiAgICBydW5fYWdlbnQsCikKZnJvbSBtZW51c2hpZnQuYmVkcm9ja19hZGFwdGVyIGltcG9ydCBCZWRyb2NrUGxhbm5lcgpmcm9tIG1lbnVzaGlmdC5raXRjaGVuX29wdGltaXplciBpbXBvcnQgSU5WRU5UT1JZX0lURU1TLCBleHBsb3JlCmZyb20gbWVudXNoaWZ0LnJlY2lwZV90cmlhbCBpbXBvcnQgYnVpbGRfdHJpYWwKClNPVVJDRVMgPSBQYXRoKF9fZmlsZV9fKS5yZXNvbHZlKCkucGFyZW50c1sxXSAvICJkYXRhIiAvICJzb3VyY2VzIgpFUVVJUE1FTlQgPSBmcm96ZW5zZXQoeyJncmlsbCIsICJwcmVzcyIsICJmcmVlemVyIiwgImZyeWluZ19wYW4ifSkKCgpkZWYgX3BsYW4oKiprd2FyZ3MpOgogICAgcGFyYW1zID0gewogICAgICAgICJidWRnZXRfbmduIjogMzAwMC4wLCAicHJvdGVpbl90YXJnZXRfZyI6IDEwLjAsCiAgICAgICAgIm1heF9wcmVwX21pbnV0ZXMiOiAyNDAuMCwgImVxdWlwbWVudCI6IEVRVUlQTUVOVCwKICAgICAgICAiYXZhaWxhYmxlX2luZ3JlZGllbnRzIjogZnJvemVuc2V0KElOVkVOVE9SWV9JVEVNUyksCiAgICAgICAgInBvcnRpb25zX2ciOiAoMTAwLCAxNDApLCAib2lsX2NsIjogMS4wLAogICAgfQogICAgcGFyYW1zLnVwZGF0ZShrd2FyZ3MpCiAgICByZXR1cm4gZXhwbG9yZShTT1VSQ0VTLCAqKnBhcmFtcykKCgpkZWYgX3Byb3Bvc2FsKG1ldGhvZD0iYXdhcmFfZmlybSIsIHBvcnRpb249MTQwLCAqKmt3YXJncyk6CiAgICB2YWx1ZSA9IHsKICAgICAgICAibWV0aG9kX2lkIjogbWV0aG9kLCAicG9ydGlvbl9nIjogcG9ydGlvbiwKICAgICAgICAib25pb25fZyI6IDAsICJwZXBwZXJfZyI6IDAsICJzYWx0X2ciOiAwLCAic2Vhc29uaW5nX2ciOiAwLAogICAgICAgICJyZWFzb24iOiAiVGVzdCBzb3VyY2UtcmVmZXJlbmNlZCBwb3J0aW9ucyB3aXRob3V0IHVuc3VwcG9ydGVkIG51dHJpdGlvbiBjbGFpbXMiLAogICAgfQogICAgdmFsdWUudXBkYXRlKGt3YXJncykKICAgIHJldHVybiB2YWx1ZQoKCmRlZiBfYnJpZWYoKiprd2FyZ3MpOgogICAgcGFyYW1zID0gewogICAgICAgICJidWRnZXRfbmduIjogMzAwMC4wLCAibWluX3Byb3RlaW5fZyI6IDEwLjAsICJtYXhfcHJlcF9taW51dGVzIjogMjQwLjAsCiAgICAgICAgImVxdWlwbWVudCI6IEVRVUlQTUVOVCwgImF2YWlsYWJsZV9pbmdyZWRpZW50cyI6IGZyb3plbnNldChJTlZFTlRPUllfSVRFTVMpLAogICAgfQogICAgcGFyYW1zLnVwZGF0ZShrd2FyZ3MpCiAgICByZXR1cm4gS2l0Y2hlbkJyaWVmKCoqcGFyYW1zKQoKCmRlZiB0ZXN0X3N0b2NrX2Fic2VuY2VfZXhjbHVkZXNfb25seV9yZWxldmFudF9tZXRob2RzKCk6CiAgICBub19vaWwgPSBfcGxhbihhdmFpbGFibGVfaW5ncmVkaWVudHM9ZnJvemVuc2V0KElOVkVOVE9SWV9JVEVNUykgLSB7Im9pbCJ9KQogICAgYXNzZXJ0IG5vX29pbC5za2lwcGVkX2luZ3JlZGllbnRzID09IDIKICAgIGFzc2VydCBhbGwoYy5ldmFsdWF0aW9uLm9wdGlvbl9pZCAhPSAiYXdhcmFfZnJpZWQiIGZvciBjIGluIG5vX29pbC5jYW5kaWRhdGVzKQogICAgd2l0aG91dF9hd2FyYSA9IF9wbGFuKGF2YWlsYWJsZV9pbmdyZWRpZW50cz1mcm96ZW5zZXQoSU5WRU5UT1JZX0lURU1TKSAtIHsiYXdhcmEifSkKICAgIGFzc2VydCB3aXRob3V0X2F3YXJhLnNraXBwZWRfaW5ncmVkaWVudHMgPT0gOAogICAgYXNzZXJ0IG5vdCB3aXRob3V0X2F3YXJhLmVsaWdpYmxlCgoKZGVmIHRlc3Rfb3B0aW9uYWxfc3BpY2Vfc3RvY2tfZmlsdGVyc19vbmx5X3NlbGVjdGVkX3JlY2lwZV9saW5lcygpOgogICAgIyBQZXBwZXIgaXMgbm90IHJlcXVpcmVkIGlmIGl0cyBxdWFudGl0eSBpcyB6ZXJvLgogICAgc3RvY2sgPSBmcm96ZW5zZXQoSU5WRU5UT1JZX0lURU1TKSAtIHsicGVwcGVyIn0KICAgIGFzc2VydCBfcGxhbihhdmFpbGFibGVfaW5ncmVkaWVudHM9c3RvY2ssIHBlcHBlcl9nPTApLnNraXBwZWRfaW5ncmVkaWVudHMgPT0gMAogICAgcmVzdWx0ID0gX3BsYW4oYXZhaWxhYmxlX2luZ3JlZGllbnRzPXN0b2NrLCBwZXBwZXJfZz01KQogICAgYXNzZXJ0IHJlc3VsdC5za2lwcGVkX2luZ3JlZGllbnRzID09IDgKICAgIGFzc2VydCBub3QgcmVzdWx0LmVsaWdpYmxlCgoKZGVmIHRlc3RfcGVhbnV0X2V4Y2x1c2lvbl9hYnN0YWluc19ldmVuX2lmX3lhamlfbm90X21vZGVsbGVkKCk6CiAgICByZXN1bHQgPSBfcGxhbihhdm9pZF9hbGxlcmdlbnM9KCJwZWFudXQiLCkpCiAgICBhc3NlcnQgbm90IHJlc3VsdC5lbGlnaWJsZQogICAgYXNzZXJ0IHJlc3VsdC5za2lwcGVkX3VudmVyaWZpZWRfeWFqaSA+IDAKCgpkZWYgdGVzdF91bmtub3duX2ludmVudG9yeV9yZWplY3RlZF93aXRob3V0X3NpbGVudF9kZWZhdWx0KCk6CiAgICB3aXRoIHB5dGVzdC5yYWlzZXMoVmFsdWVFcnJvciwgbWF0Y2g9IlVua25vd24gaW52ZW50b3J5Iik6CiAgICAgICAgX3BsYW4oYXZhaWxhYmxlX2luZ3JlZGllbnRzPWZyb3plbnNldCh7InJhbmRvbS1mb29kIn0pKQoKCmRlZiB0ZXN0X2Nvc3RfYW5kX251dHJpZW50X3RyYWNlX3JlY29uY2lsZXNfd2l0aF91bmRlcmx5aW5nX2VuZ2luZSgpOgogICAgcmVzdWx0ID0gX3BsYW4ocHJpY2Vfc2hvY2s9MC4yLCBvbmlvbl9nPTEwLCBwZXBwZXJfZz0zKQogICAgYXNzZXJ0IHJlc3VsdC5lbGlnaWJsZQogICAgZm9yIGMgaW4gcmVzdWx0LmNhbmRpZGF0ZXM6CiAgICAgICAgYXNzZXJ0IGFicyhzdW0oaS5lc3RpbWF0ZWRfY29zdF9uZ24gZm9yIGkgaW4gYy5pbmdyZWRpZW50X2xpbmVzKSAtCiAgICAgICAgICAgICAgICAgICBjLmV2YWx1YXRpb24uaW5ncmVkaWVudF9jb3N0X25nbikgPCAwLjA2CiAgICAgICAgYXNzZXJ0IGFicyhzdW0oaS5lc3RpbWF0ZWRfcHJvdGVpbl9nIGZvciBpIGluIGMuaW5ncmVkaWVudF9saW5lcykgLQogICAgICAgICAgICAgICAgICAgYy5ldmFsdWF0aW9uLnByb3RlaW5fZykgPCAwLjA2CiAgICAgICAgYXNzZXJ0IGMuZXZhbHVhdGlvbi5jb3N0X25nbiA+PSBjLmV2YWx1YXRpb24uaW5ncmVkaWVudF9jb3N0X25nbgoKCmRlZiB0ZXN0X3RyaWFsX2NhcmRfaGFzX2V4cGxpY2l0X2xpbWl0c19hbmRfc291cmNlX3JlZmVyZW5jZXMoKToKICAgIGNhbmRpZGF0ZSA9IF9wbGFuKCkuYmVzdCgiYnVkZ2V0IikKICAgIGFzc2VydCBjYW5kaWRhdGUgaXMgbm90IE5vbmUKICAgIHRyaWFsID0gYnVpbGRfdHJpYWwoY2FuZGlkYXRlKQogICAgcmVwb3J0ID0gdHJpYWwudG9fbWFya2Rvd24oY2FuZGlkYXRlKQogICAgYXNzZXJ0ICJOb3QgYXBwcm92ZWQgZm9yIGZvb2Qgc2VydmljZSIgaW4gcmVwb3J0CiAgICBhc3NlcnQgIiMjIEluZ3JlZGllbnRzIiBpbiByZXBvcnQKICAgIGFzc2VydCAiIyMgQXQgYSBnbGFuY2UiIGluIHJlcG9ydAogICAgYXNzZXJ0ICIgIC0gUHJpY2U6IiBpbiByZXBvcnQKICAgIGFzc2VydCAiIyMgTWV0aG9kIOKAlCBudW1iZXJlZCBraXRjaGVuIHRyaWFsIiBpbiByZXBvcnQKICAgIGFzc2VydCAiIyMgTWVhc3VyZW1lbnRzIG5lZWRlZCBmb3IgYSByZWFsIHJlY2lwZSIgaW4gcmVwb3J0CgoKZGVmIHRlc3Rfbm9fdHJpYWxfY2FyZF9mb3JfaW5lbGlnaWJsZV9mb3JtdWxhdGlvbigpOgogICAgY2FuZGlkYXRlID0gX3BsYW4oYnVkZ2V0X25nbj0xKS5jYW5kaWRhdGVzWzBdCiAgICB3aXRoIHB5dGVzdC5yYWlzZXMoVmFsdWVFcnJvciwgbWF0Y2g9ImluZWxpZ2libGUiKToKICAgICAgICBidWlsZF90cmlhbChjYW5kaWRhdGUpCgoKZGVmIHRlc3RfcGFyc2VyX3JlcXVpcmVzX2V4YWN0X2pzb25fY29udHJhY3QoKToKICAgIHJhdyA9IGpzb24uZHVtcHMoeyJwcm9wb3NhbHMiOiBbX3Byb3Bvc2FsKCldfSkKICAgIGFzc2VydCBwYXJzZV9wcm9wb3NhbHMocmF3KVswXVsibWV0aG9kX2lkIl0gPT0gImF3YXJhX2Zpcm0iCiAgICBmb3IgcGF5bG9hZCBpbiAoCiAgICAgICAgImBgYGpzb25cbiIgKyByYXcgKyAiXG5gYGAiLAogICAgICAgIGpzb24uZHVtcHMoeyJwcm9wb3NhbHMiOiBbX3Byb3Bvc2FsKHVua25vd25fa2V5PTEpXX0pLAogICAgICAgIGpzb24uZHVtcHMoeyJwcm9wb3NhbHMiOiBbX3Byb3Bvc2FsKHBvcnRpb249VHJ1ZSldfSksCiAgICAgICAganNvbi5kdW1wcyh7InByb3Bvc2FscyI6IFtfcHJvcG9zYWwoc2FsdF9nPTk5KV19KSwKICAgICAgICBqc29uLmR1bXBzKHsicHJvcG9zYWxzIjogW19wcm9wb3NhbChtZXRob2Q9Im15c3RlcnkiKV19KSwKICAgICAgICBqc29uLmR1bXBzKHsicHJvcG9zYWxzIjogW19wcm9wb3NhbCgpXSAqIDd9KSwKICAgICk6CiAgICAgICAgd2l0aCBweXRlc3QucmFpc2VzKFZhbHVlRXJyb3IpOgogICAgICAgICAgICBwYXJzZV9wcm9wb3NhbHMocGF5bG9hZCkKCgpjbGFzcyBGYWtlUGxhbm5lcjoKICAgIGNhbGxzID0gMAoKICAgIGRlZiBwcm9wb3NlKHNlbGYsICosIGJyaWVmLCBmZWVkYmFjaywgcm91bmRfbnVtYmVyKToKICAgICAgICBzZWxmLmNhbGxzICs9IDEKICAgICAgICBpZiByb3VuZF9udW1iZXIgPT0gMToKICAgICAgICAgICAgcmV0dXJuIGpzb24uZHVtcHMoeyJwcm9wb3NhbHMiOiBbCiAgICAgICAgICAgICAgICBfcHJvcG9zYWwobWV0aG9kPSJhd2FyYV9mcmllZCIpLAogICAgICAgICAgICAgICAgX3Byb3Bvc2FsKG1ldGhvZD0iYXdhcmFfZmlybSIpLAogICAgICAgICAgICBdfSkKICAgICAgICBhc3NlcnQgZmVlZGJhY2sgICMgTmVlZHMgZXhwbGljaXQgbG9jYWwgY3JpdGlxdWUgYmVmb3JlIHJldHJ5aW5nLgogICAgICAgIHJldHVybiBqc29uLmR1bXBzKHsicHJvcG9zYWxzIjogW19wcm9wb3NhbChtZXRob2Q9ImF3YXJhX3ByZXNzZWQiLCBwb3J0aW9uPTE4MCldfSkKCgpkZWYgdGVzdF9ib3VuZGVkX2FnZW50X3JlamVjdHNfbWlzc2luZ19zdG9ja19hbmRfa2VlcHNfdmFsaWRfY2FuZGlkYXRlcygpOgogICAgZmFrZSA9IEZha2VQbGFubmVyKCkKICAgIGJyaWVmID0gX2JyaWVmKGF2YWlsYWJsZV9pbmdyZWRpZW50cz1mcm96ZW5zZXQoSU5WRU5UT1JZX0lURU1TKSAtIHsib2lsIn0pCiAgICByZXN1bHQgPSBydW5fYWdlbnQoZmFrZSwgYnJpZWYsIFNPVVJDRVMpCiAgICBhc3NlcnQgZmFrZS5jYWxscyA8PSAyCiAgICBhc3NlcnQgcmVzdWx0LnJvdW5kcyA8PSAyCiAgICBhc3NlcnQgYW55KG5vdCBkLmFjY2VwdGVkIGZvciBkIGluIHJlc3VsdC5kZWNpc2lvbnMpCiAgICBhc3NlcnQgYWxsKGMuZWxpZ2libGUgZm9yIGMgaW4gcmVzdWx0LmFjY2VwdGVkKQogICAgYXNzZXJ0IGFsbCgiYXdhcmFfZnJpZWQiIG5vdCBpbiBjLmlkZW50aWZpZXIgZm9yIGMgaW4gcmVzdWx0LmFjY2VwdGVkKQoKCmRlZiB0ZXN0X2FnZW50X2FsbGVyZ3lfZXhjbHVzaW9uX2Nhbm5vdF9iZV9vdmVycmlkZGVuX2J5X21vZGVsKCk6CiAgICBkZWNpc2lvbiA9IGV2YWx1YXRlX2NhbmRpZGF0ZSgKICAgICAgICBfcHJvcG9zYWwobWV0aG9kPSJhd2FyYV9maXJtIiksIF9icmllZihhdm9pZF9hbGxlcmdlbnM9KCJzb3kiLCkpLCBTT1VSQ0VTCiAgICApCiAgICBhc3NlcnQgbm90IGRlY2lzaW9uLmFjY2VwdGVkCgoKY2xhc3MgRmFrZUNvbnZlcnNlQ2xpZW50OgogICAgZGVmIF9faW5pdF9fKHNlbGYpOgogICAgICAgIHNlbGYua3dhcmdzID0gTm9uZQoKICAgIGRlZiBjb252ZXJzZShzZWxmLCAqKmt3YXJncyk6CiAgICAgICAgc2VsZi5rd2FyZ3MgPSBrd2FyZ3MKICAgICAgICByZXR1cm4geyJvdXRwdXQiOiB7Im1lc3NhZ2UiOiB7ImNvbnRlbnQiOiBbCiAgICAgICAgICAgIHsidGV4dCI6IGpzb24uZHVtcHMoeyJwcm9wb3NhbHMiOiBbX3Byb3Bvc2FsKCldfSl9CiAgICAgICAgXX19fQoKCmRlZiB0ZXN0X2JlZHJvY2tfYWRhcHRlcl9wYXNzZXNfb25seV9ib3VuZGVkX29wYXF1ZV9icmllZigpOgogICAgZmFrZSA9IEZha2VDb252ZXJzZUNsaWVudCgpCiAgICBwbGFubmVyID0gQmVkcm9ja1BsYW5uZXIoImFtYXpvbi5ub3ZhLWxpdGUtdjE6MCIsIGNsaWVudD1mYWtlKQogICAgcmVzcG9uc2UgPSBwbGFubmVyLnByb3Bvc2UoYnJpZWY9X2JyaWVmKCksIGZlZWRiYWNrPSgpLCByb3VuZF9udW1iZXI9MSkKICAgIGFzc2VydCBwYXJzZV9wcm9wb3NhbHMocmVzcG9uc2UpCiAgICBhc3NlcnQgZmFrZS5rd2FyZ3NbIm1vZGVsSWQiXSA9PSAiYW1hem9uLm5vdmEtbGl0ZS12MTowIgogICAgYXNzZXJ0IGZha2Uua3dhcmdzWyJpbmZlcmVuY2VDb25maWciXVsibWF4VG9rZW5zIl0gPD0gOTAwCiAgICBhc3NlcnQgImF3c19zZWNyZXRfYWNjZXNzX2tleSIgbm90IGluIGpzb24uZHVtcHMoZmFrZS5rd2FyZ3MpLmxvd2VyKCkKCgpkZWYgdGVzdF9zYW5kYm94X3JlZ2lvbl9hbmRfbW9kZWxfaWRfYXJlX3ZhbGlkYXRlZCgpOgogICAgd2l0aCBweXRlc3QucmFpc2VzKFZhbHVlRXJyb3IpOgogICAgICAgIEJlZHJvY2tQbGFubmVyKCJmb28iLCByZWdpb249ImV1LXdlc3QtMSIsIGNsaWVudD1GYWtlQ29udmVyc2VDbGllbnQoKSkKICAgIHdpdGggcHl0ZXN0LnJhaXNlcyhWYWx1ZUVycm9yKToKICAgICAgICBCZWRyb2NrUGxhbm5lcigibW9kZWwgd2l0aCBzcGFjZXMiLCBjbGllbnQ9RmFrZUNvbnZlcnNlQ2xpZW50KCkpCg==
+"""Ingredient availability, cost traces, trial-card and agent validation regressions."""
+import json
+from pathlib import Path
+
+import pytest
+
+from menushift.agent_contract import (
+    KitchenBrief,
+    evaluate_candidate,
+    parse_proposals,
+    run_agent,
+)
+from menushift.bedrock_adapter import BedrockPlanner
+from menushift.kitchen_optimizer import INVENTORY_ITEMS, explore
+from menushift.recipe_trial import build_trial
+
+SOURCES = Path(__file__).resolve().parents[1] / "data" / "sources"
+EQUIPMENT = frozenset({"grill", "press", "freezer", "frying_pan"})
+
+
+def _plan(**kwargs):
+    params = {
+        "budget_ngn": 3000.0, "protein_target_g": 10.0,
+        "max_prep_minutes": 240.0, "equipment": EQUIPMENT,
+        "available_ingredients": frozenset(INVENTORY_ITEMS),
+        "portions_g": (100, 140), "oil_cl": 1.0,
+    }
+    params.update(kwargs)
+    return explore(SOURCES, **params)
+
+
+def _proposal(method="awara_firm", portion=140, **kwargs):
+    value = {
+        "method_id": method, "portion_g": portion,
+        "onion_g": 0, "pepper_g": 0, "salt_g": 0, "seasoning_g": 0,
+        "reason": "Test source-referenced portions without unsupported nutrition claims",
+    }
+    value.update(kwargs)
+    return value
+
+
+def _brief(**kwargs):
+    params = {
+        "budget_ngn": 3000.0, "min_protein_g": 10.0, "max_prep_minutes": 240.0,
+        "equipment": EQUIPMENT, "available_ingredients": frozenset(INVENTORY_ITEMS),
+    }
+    params.update(kwargs)
+    return KitchenBrief(**params)
+
+
+def test_stock_absence_excludes_only_relevant_methods():
+    no_oil = _plan(available_ingredients=frozenset(INVENTORY_ITEMS) - {"oil"})
+    assert no_oil.skipped_ingredients == 2
+    assert all(c.evaluation.option_id != "awara_fried" for c in no_oil.candidates)
+    without_awara = _plan(available_ingredients=frozenset(INVENTORY_ITEMS) - {"awara"})
+    assert without_awara.skipped_ingredients == 8
+    assert not without_awara.eligible
+
+
+def test_optional_spice_stock_filters_only_selected_recipe_lines():
+    # Pepper is not required if its quantity is zero.
+    stock = frozenset(INVENTORY_ITEMS) - {"pepper"}
+    assert _plan(available_ingredients=stock, pepper_g=0).skipped_ingredients == 0
+    result = _plan(available_ingredients=stock, pepper_g=5)
+    assert result.skipped_ingredients == 8
+    assert not result.eligible
+
+
+def test_peanut_exclusion_abstains_even_if_yaji_not_modelled():
+    result = _plan(avoid_allergens=("peanut",))
+    assert not result.eligible
+    assert result.skipped_unverified_yaji > 0
+
+
+def test_unknown_inventory_rejected_without_silent_default():
+    with pytest.raises(ValueError, match="Unknown inventory"):
+        _plan(available_ingredients=frozenset({"random-food"}))
+
+
+def test_cost_and_nutrient_trace_reconciles_with_underlying_engine():
+    result = _plan(price_shock=0.2, onion_g=10, pepper_g=3)
+    assert result.eligible
+    for c in result.candidates:
+        assert abs(sum(i.estimated_cost_ngn for i in c.ingredient_lines) -
+                   c.evaluation.ingredient_cost_ngn) < 0.06
+        assert abs(sum(i.estimated_protein_g for i in c.ingredient_lines) -
+                   c.evaluation.protein_g) < 0.06
+        assert c.evaluation.cost_ngn >= c.evaluation.ingredient_cost_ngn
+
+
+def test_trial_card_has_explicit_limits_and_source_references():
+    candidate = _plan().best("budget")
+    assert candidate is not None
+    trial = build_trial(candidate)
+    report = trial.to_markdown(candidate)
+    assert "Not approved for food service" in report
+    assert "## Ingredients" in report
+    assert "## At a glance" in report
+    assert "  - Price:" in report
+    assert "## Method — numbered kitchen trial" in report
+    assert "## Measurements needed for a real recipe" in report
+
+
+def test_no_trial_card_for_ineligible_formulation():
+    candidate = _plan(budget_ngn=1).candidates[0]
+    with pytest.raises(ValueError, match="ineligible"):
+        build_trial(candidate)
+
+
+def test_parser_requires_exact_json_contract():
+    raw = json.dumps({"proposals": [_proposal()]})
+    assert parse_proposals(raw)[0]["method_id"] == "awara_firm"
+    for payload in (
+        "```json\n" + raw + "\n```",
+        json.dumps({"proposals": [_proposal(unknown_key=1)]}),
+        json.dumps({"proposals": [_proposal(portion=True)]}),
+        json.dumps({"proposals": [_proposal(salt_g=99)]}),
+        json.dumps({"proposals": [_proposal(method="mystery")]}),
+        json.dumps({"proposals": [_proposal()] * 7}),
+    ):
+        with pytest.raises(ValueError):
+            parse_proposals(payload)
+
+
+class FakePlanner:
+    calls = 0
+
+    def propose(self, *, brief, feedback, round_number):
+        self.calls += 1
+        if round_number == 1:
+            return json.dumps({"proposals": [
+                _proposal(method="awara_fried"),
+                _proposal(method="awara_firm"),
+            ]})
+        assert feedback  # Needs explicit local critique before retrying.
+        return json.dumps({"proposals": [_proposal(method="awara_pressed", portion=180)]})
+
+
+def test_bounded_agent_rejects_missing_stock_and_keeps_valid_candidates():
+    fake = FakePlanner()
+    brief = _brief(available_ingredients=frozenset(INVENTORY_ITEMS) - {"oil"})
+    result = run_agent(fake, brief, SOURCES)
+    assert fake.calls <= 2
+    assert result.rounds <= 2
+    assert any(not d.accepted for d in result.decisions)
+    assert all(c.eligible for c in result.accepted)
+    assert all("awara_fried" not in c.identifier for c in result.accepted)
+
+
+def test_agent_allergy_exclusion_cannot_be_overridden_by_model():
+    decision = evaluate_candidate(
+        _proposal(method="awara_firm"), _brief(avoid_allergens=("soy",)), SOURCES
+    )
+    assert not decision.accepted
+
+
+class FakeConverseClient:
+    def __init__(self):
+        self.kwargs = None
+
+    def converse(self, **kwargs):
+        self.kwargs = kwargs
+        return {"output": {"message": {"content": [
+            {"text": json.dumps({"proposals": [_proposal()]})}
+        ]}}}
+
+
+def test_bedrock_adapter_passes_only_bounded_opaque_brief():
+    fake = FakeConverseClient()
+    planner = BedrockPlanner("amazon.nova-lite-v1:0", client=fake)
+    response = planner.propose(brief=_brief(), feedback=(), round_number=1)
+    assert parse_proposals(response)
+    assert fake.kwargs["modelId"] == "amazon.nova-lite-v1:0"
+    assert fake.kwargs["inferenceConfig"]["maxTokens"] <= 900
+    assert "aws_secret_access_key" not in json.dumps(fake.kwargs).lower()
+
+
+def test_sandbox_region_and_model_id_are_validated():
+    with pytest.raises(ValueError):
+        BedrockPlanner("foo", region="eu-west-1", client=FakeConverseClient())
+    with pytest.raises(ValueError):
+        BedrockPlanner("model with spaces", client=FakeConverseClient())
