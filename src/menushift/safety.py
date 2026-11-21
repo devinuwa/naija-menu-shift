@@ -1,1 +1,82 @@
-IiIiQ29uc2VydmF0aXZlIGRpZXRhcnkgbGFiZWwgcGFyc2luZyBmb3IgdGhlIE5haWphIE1lbnVTaGlmdCByZXNlYXJjaCBwcm90b3R5cGUuCgpUaGlzIGlzIGEgZGVjbGFyYXRpb24gZmlsdGVyLCBORVZFUiBhIHN1YnN0aXR1dGUgZm9yIHZlcmlmaWVkIGluZ3JlZGllbnQgbGFiZWxzLApjcm9zcy1jb250YWN0IGNvbnRyb2xzLCBmb29kIHRlc3Rpbmcgb3IgY2xpbmljYWwvYWxsZXJneSBhZHZpY2UuIE5vIExMTSBydW5zIGhlcmUuCiIiIgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgcmUKZnJvbSBjb2xsZWN0aW9ucy5hYmMgaW1wb3J0IFNlcXVlbmNlCgpLTk9XTl9BTExFUkdFTlMgPSBmcm96ZW5zZXQoewogICAgInNveSIsICJwZWFudXQiLCAid2hlYXQiLCAibWlsayIsICJlZ2ciLCAic2VzYW1lIiwgInRyZWUgbnV0IiwKICAgICJmaXNoIiwgInNoZWxsZmlzaCIsCn0pCkFMSUFTRVMgPSB7CiAgICAic295YSI6ICJzb3kiLCAic295YmVhbiI6ICJzb3kiLCAic295YmVhbnMiOiAic295IiwgInNveWEgYmVhbiI6ICJzb3kiLAogICAgInNveWEgYmVhbnMiOiAic295IiwgInNveSBwcm90ZWluIjogInNveSIsCiAgICAiZ3JvdW5kbnV0IjogInBlYW51dCIsICJncm91bmRudXRzIjogInBlYW51dCIsICJwZWFudXRzIjogInBlYW51dCIsCiAgICAiZ3JvdW5kbnV0IG9pbCI6ICJwZWFudXQiLCAicGVhbnV0IG9pbCI6ICJwZWFudXQiLAogICAgImdsdXRlbiI6ICJ3aGVhdCIsICJ3aGVhdCBnbHV0ZW4iOiAid2hlYXQiLCAic2VpdGFuIjogIndoZWF0IiwKICAgICJkYWlyeSI6ICJtaWxrIiwgImNhc2VpbiI6ICJtaWxrIiwgImxhY3Rvc2UiOiAibWlsayIsCiAgICAiZWdncyI6ICJlZ2ciLCAiZWdnIHdoaXRlIjogImVnZyIsCiAgICAic2VzYW1lIHNlZWQiOiAic2VzYW1lIiwgInNlc2FtZSBzZWVkcyI6ICJzZXNhbWUiLAogICAgInRyZWUgbnV0cyI6ICJ0cmVlIG51dCIsICJhbG1vbmQiOiAidHJlZSBudXQiLCAiY2FzaGV3IjogInRyZWUgbnV0IiwKICAgICJ3YWxudXQiOiAidHJlZSBudXQiLAogICAgInNlYWZvb2QiOiAic2hlbGxmaXNoIiwgImNydXN0YWNlYW4iOiAic2hlbGxmaXNoIiwKfQpVTlJFVklFV0VEID0gZnJvemVuc2V0KHsKICAgICJ1bmtub3duIiwgInZlcmlmeSBsYWJlbCIsICJ1bnJldmlld2VkIiwgIm5vdCBjaGVja2VkIiwgInBlbmRpbmciLAogICAgIj8iLCAidGJkIiwgIm5vdCBwcm92aWRlZCIsICJ1bnNwZWNpZmllZCIsCn0pCgoKZGVmIF9ub3JtYWxpc2UocmF3OiBzdHIpIC0+IHN0cjoKICAgICIiIlJlc3RyaWN0IGxhYmVscyB0byBhIHNpbXBsZSBjb250cm9sbGVkIHZvY2FidWxhcnk7IHVuZXhwZWN0ZWQgbGFiZWxzIGFyZSB1bmtub3duLiIiIgogICAgcmV0dXJuIHJlLnN1YihyIlxzKyIsICIgIiwgcmF3LnN0cmlwKCkubG93ZXIoKS5yZXBsYWNlKCJfIiwgIiAiKS5yZXBsYWNlKCItIiwgIiAiKSkKCgpkZWYgY2Fub25pY2FsX2FsbGVyZ2VuKHJhdzogc3RyKSAtPiBzdHI6CiAgICBrZXkgPSBfbm9ybWFsaXNlKHJhdykKICAgIGlmIGtleSBpbiBLTk9XTl9BTExFUkdFTlMgb3Iga2V5ID09ICJub25lIjoKICAgICAgICByZXR1cm4ga2V5CiAgICBpZiBrZXkgaW4gVU5SRVZJRVdFRCBvciBub3Qga2V5OgogICAgICAgIHJldHVybiAidW5rbm93biIKICAgIHJldHVybiBBTElBU0VTLmdldChrZXksICJ1bmtub3duIikKCgpkZWYgcmVhZF9hbGxlcmdlbl9sYWJlbHMocmF3OiBzdHIpIC0+IHR1cGxlW2Zyb3plbnNldFtzdHJdLCBib29sXToKICAgICIiIlJldHVybiAoY2Fub25pY2FsIGxhYmVscywgaW5jb21wbGV0ZSByZXZpZXcpLiAnbm9uZScgaXMgbm90IGEgc2FmZXR5IGNlcnRpZmljYXRpb24uIiIiCiAgICBwYXJ0cyA9IFtwIGZvciBwIGluIHJhdy5zcGxpdCgiOyIpIGlmIHAuc3RyaXAoKV0KICAgIGlmIG5vdCBwYXJ0czoKICAgICAgICByZXR1cm4gZnJvemVuc2V0KCksIFRydWUKICAgIG5hbWVzID0ge2Nhbm9uaWNhbF9hbGxlcmdlbihwKSBmb3IgcCBpbiBwYXJ0c30KICAgIGluY29tcGxldGUgPSAidW5rbm93biIgaW4gbmFtZXMgb3IgKCJub25lIiBpbiBuYW1lcyBhbmQgbGVuKG5hbWVzKSA+IDEpCiAgICByZXR1cm4gZnJvemVuc2V0KG5hbWVzIC0geyJ1bmtub3duIiwgIm5vbmUifSksIGluY29tcGxldGUKCgpkZWYgdmFsaWRhdGVfZXhjbHVzaW9ucyhzZWxlY3RlZDogU2VxdWVuY2Vbc3RyXSkgLT4gZnJvemVuc2V0W3N0cl06CiAgICAiIiJSZWplY3QgdW5zdXBwb3J0ZWQgZXhjbHVzaW9ucyBpbnN0ZWFkIG9mIHNpbGVudGx5IGlnbm9yaW5nIGEgc2FmZXR5IHJlcXVpcmVtZW50LiIiIgogICAgaWYgaXNpbnN0YW5jZShzZWxlY3RlZCwgc3RyKSBvciBsZW4oc2VsZWN0ZWQpID4gbGVuKEtOT1dOX0FMTEVSR0VOUyk6CiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigiQWxsZXJnZW4gZXhjbHVzaW9ucyBtdXN0IGJlIGEgc2hvcnQgbGlzdCBvZiBrbm93biBhbGxlcmdlbnMiKQogICAgcmVzdWx0OiBzZXRbc3RyXSA9IHNldCgpCiAgICBmb3IgbGFiZWwgaW4gc2VsZWN0ZWQ6CiAgICAgICAgaWYgbm90IGlzaW5zdGFuY2UobGFiZWwsIHN0cikgb3IgbGVuKGxhYmVsKSA+IDYwOgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJJbnZhbGlkIGFsbGVyZ2VuIGV4Y2x1c2lvbiIpCiAgICAgICAgY2Fub25pY2FsID0gY2Fub25pY2FsX2FsbGVyZ2VuKGxhYmVsKQogICAgICAgIGlmIGNhbm9uaWNhbCBub3QgaW4gS05PV05fQUxMRVJHRU5TOgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJVbnN1cHBvcnRlZCBhbGxlcmdlbiBleGNsdXNpb247IHJlcXVlc3QgbGFiZWwgcmV2aWV3IikKICAgICAgICByZXN1bHQuYWRkKGNhbm9uaWNhbCkKICAgIHJldHVybiBmcm96ZW5zZXQocmVzdWx0KQoKCmRlZiBvcmlnaW5fcmV2aWV3ZWQocm93OiBkaWN0W3N0ciwgc3RyXSwgKiwgZGVtbzogYm9vbCkgLT4gYm9vbDoKICAgICIiIk1pc3Npbmcgb3JpZ2luIGV2aWRlbmNlIGlzIE5PVCBhZmZpcm1hdGl2ZSBwcm9vZiBvZiBhIHBsYW50LW9ubHkgY29tcG91bmQgcHJvZHVjdC4iIiIKICAgIGlmIHJvdy5nZXQoImlzX2FuaW1hbCIpID09ICJ0cnVlIjoKICAgICAgICByZXR1cm4gVHJ1ZQogICAgZGVjbGFyYXRpb24gPSByb3cuZ2V0KCJhbmltYWxfb3JpZ2luX3Jldmlld2VkIiwgIiIpCiAgICBpZiBkZWNsYXJhdGlvbiA9PSAidHJ1ZSI6CiAgICAgICAgcmV0dXJuIFRydWUKICAgIGlmIGRlY2xhcmF0aW9uID09ICJmYWxzZSI6CiAgICAgICAgcmV0dXJuIEZhbHNlCiAgICByZXR1cm4gZGVtbyAgIyBsZWdhY3kgc3ludGhldGljIHRlc3QgZml4dHVyZXMgYXJlIG5ldmVyIGFwcHJvdmVkIGZvciBmb29kIHNlcnZpY2UK
+"""Conservative dietary label parsing for the Naija MenuShift research prototype.
+
+This is a declaration filter, NEVER a substitute for verified ingredient labels,
+cross-contact controls, food testing or clinical/allergy advice. No LLM runs here.
+"""
+from __future__ import annotations
+
+import re
+from collections.abc import Sequence
+
+KNOWN_ALLERGENS = frozenset({
+    "soy", "peanut", "wheat", "milk", "egg", "sesame", "tree nut",
+    "fish", "shellfish",
+})
+ALIASES = {
+    "soya": "soy", "soybean": "soy", "soybeans": "soy", "soya bean": "soy",
+    "soya beans": "soy", "soy protein": "soy",
+    "groundnut": "peanut", "groundnuts": "peanut", "peanuts": "peanut",
+    "groundnut oil": "peanut", "peanut oil": "peanut",
+    "gluten": "wheat", "wheat gluten": "wheat", "seitan": "wheat",
+    "dairy": "milk", "casein": "milk", "lactose": "milk",
+    "eggs": "egg", "egg white": "egg",
+    "sesame seed": "sesame", "sesame seeds": "sesame",
+    "tree nuts": "tree nut", "almond": "tree nut", "cashew": "tree nut",
+    "walnut": "tree nut",
+    "seafood": "shellfish", "crustacean": "shellfish",
+}
+UNREVIEWED = frozenset({
+    "unknown", "verify label", "unreviewed", "not checked", "pending",
+    "?", "tbd", "not provided", "unspecified",
+})
+
+
+def _normalise(raw: str) -> str:
+    """Restrict labels to a simple controlled vocabulary; unexpected labels are unknown."""
+    return re.sub(r"\s+", " ", raw.strip().lower().replace("_", " ").replace("-", " "))
+
+
+def canonical_allergen(raw: str) -> str:
+    key = _normalise(raw)
+    if key in KNOWN_ALLERGENS or key == "none":
+        return key
+    if key in UNREVIEWED or not key:
+        return "unknown"
+    return ALIASES.get(key, "unknown")
+
+
+def read_allergen_labels(raw: str) -> tuple[frozenset[str], bool]:
+    """Return (canonical labels, incomplete review). 'none' is not a safety certification."""
+    parts = [p for p in raw.split(";") if p.strip()]
+    if not parts:
+        return frozenset(), True
+    names = {canonical_allergen(p) for p in parts}
+    incomplete = "unknown" in names or ("none" in names and len(names) > 1)
+    return frozenset(names - {"unknown", "none"}), incomplete
+
+
+def validate_exclusions(selected: Sequence[str]) -> frozenset[str]:
+    """Reject unsupported exclusions instead of silently ignoring a safety requirement."""
+    if isinstance(selected, str) or len(selected) > len(KNOWN_ALLERGENS):
+        raise ValueError("Allergen exclusions must be a short list of known allergens")
+    result: set[str] = set()
+    for label in selected:
+        if not isinstance(label, str) or len(label) > 60:
+            raise ValueError("Invalid allergen exclusion")
+        canonical = canonical_allergen(label)
+        if canonical not in KNOWN_ALLERGENS:
+            raise ValueError("Unsupported allergen exclusion; request label review")
+        result.add(canonical)
+    return frozenset(result)
+
+
+def origin_reviewed(row: dict[str, str], *, demo: bool) -> bool:
+    """Missing origin evidence is NOT affirmative proof of a plant-only compound product."""
+    if row.get("is_animal") == "true":
+        return True
+    declaration = row.get("animal_origin_reviewed", "")
+    if declaration == "true":
+        return True
+    if declaration == "false":
+        return False
+    return demo  # legacy synthetic test fixtures are never approved for food service
