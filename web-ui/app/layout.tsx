@@ -1,1 +1,16 @@
-aW1wb3J0IHR5cGUgeyBNZXRhZGF0YSB9IGZyb20gIm5leHQiOwppbXBvcnQgIi4vZ2xvYmFscy5jc3MiOwoKZXhwb3J0IGNvbnN0IG1ldGFkYXRhOiBNZXRhZGF0YSA9IHsKICB0aXRsZTogIk5haWphIE1lbnVTaGlmdCDCtyBLaXRjaGVuIEludGVsbGlnZW5jZSBTdHVkaW8iLAogIGRlc2NyaXB0aW9uOgogICAgIlJlc2VhcmNoIHByb3RvdHlwZTogZmluZCBhIHBsYW50LWJhc2VkIHJlc2VhcmNoIGZvcm11bGF0aW9uIGZvciBhIGZhbWlsaWFyIE5pZ2VyaWFuIGRpc2ggd2l0aGluIHlvdXIgYnVkZ2V0LCBwcm90ZWluIHRhcmdldCwgdGltZSwgZXF1aXBtZW50IGFuZCBzdG9jay4gRGVtbyBkYXRhIGlzIHN5bnRoZXRpYy4iLAp9OwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gUm9vdExheW91dCh7IGNoaWxkcmVuIH06IHsgY2hpbGRyZW46IFJlYWN0LlJlYWN0Tm9kZSB9KSB7CiAgcmV0dXJuICgKICAgIDxodG1sIGxhbmc9ImVuIj4KICAgICAgPGJvZHk+e2NoaWxkcmVufTwvYm9keT4KICAgIDwvaHRtbD4KICApOwp9Cg==
+import type { Metadata } from "next";
+import "./globals.css";
+
+export const metadata: Metadata = {
+  title: "Naija MenuShift · Kitchen Intelligence Studio",
+  description:
+    "Research prototype: find a plant-based research formulation for a familiar Nigerian dish within your budget, protein target, time, equipment and stock. Demo data is synthetic.",
+};
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="en">
+      <body>{children}</body>
+    </html>
+  );
+}
