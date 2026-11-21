@@ -1,1 +1,14 @@
-W3RoZW1lXQpiYXNlID0gImxpZ2h0IgpwcmltYXJ5Q29sb3IgPSAiIzE4NjY0QSIKYmFja2dyb3VuZENvbG9yID0gIiNGNkY4RjYiCnNlY29uZGFyeUJhY2tncm91bmRDb2xvciA9ICIjRUFGMkVEIgp0ZXh0Q29sb3IgPSAiIzE1MzQyOCIKZm9udCA9ICJzYW5zIHNlcmlmIgoKW3NlcnZlcl0KaGVhZGxlc3MgPSB0cnVlCm1heFVwbG9hZFNpemUgPSA1CgpbYnJvd3Nlcl0KZ2F0aGVyVXNhZ2VTdGF0cyA9IGZhbHNlCg==
+[theme]
+base = "light"
+primaryColor = "#18664A"
+backgroundColor = "#F6F8F6"
+secondaryBackgroundColor = "#EAF2ED"
+textColor = "#153428"
+font = "sans serif"
+
+[server]
+headless = true
+maxUploadSize = 5
+
+[browser]
+gatherUsageStats = false
