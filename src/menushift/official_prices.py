@@ -1,1 +1,137 @@
-IiIiV29ya2Jvb2sgcXVvdGVzIHdpdGggbGF0ZXIgMjAyNiBOQlMgYXZlcmFnZXMgYXBwbGllZCB3aGVyZSBhIHJlbGVhc2UgbWF0Y2hlcy4KClRoZSBzdHVkaW8gdXNlcyB0aGlzIHRhYmxlLiBJdCBkb2VzIG5vdCBmaWxsIGRhdGEvdmVyaWZpZWQgYW5kIGl0IGRvZXMgbm90IHByaWNlIGEKc2VydmluZzogcHVyY2hhc2UgZ3JhbXMsIGZpbmlzaGVkIHdlaWdodCwgYW5kIHByZXBhcmF0aW9uIHRpbWUgYXJlIHN0aWxsIHVubWVhc3VyZWQuCiIiIgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgY3N2CmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAoKZnJvbSAucHJpY2luZyBpbXBvcnQgcXVvdGVfbmduX3Blcl9rZwpmcm9tIC5zb3VyY2VzIGltcG9ydCBsb2FkX21hcmtldF9wcmljZXMsIGxvYWRfbnV0cml0aW9uX3F1b3Rlcywgc291cmNlc19kaXIKCldPUktCT09LX0xJTUlUUzogZGljdFtzdHIsIHN0cl0gPSB7CiAgICAiU295YmVhbnMgKFJhdykiOiAoCiAgICAgICAgIk1hbnNhIE1hcmtldHMgZXhjaGFuZ2UgYmVuY2htYXJrIGZvciByYXcgc295YmVhbnMuIE5vdCBhbiBOQlMgZm9vZC13YXRjaCByb3cgIgogICAgICAgICJhbmQgbm90IGEgcHJpY2UgZm9yIHB1cmNoYXNlZCBhd2FyYS4iCiAgICApLAogICAgIlBlcHBlciAoRnJlc2ggLyBDaGlsaSkiOiAoCiAgICAgICAgIk5vdCBsaXN0ZWQgaW4gdGhlIE1heSAyMDI2IFNlbGVjdGVkIEZvb2QgUHJpY2UgV2F0Y2ggdGFibGUgcmV0cmlldmVkIG9uIDE0IE5vdmVtYmVyIDIwMjYuICIKICAgICAgICAiVGhlIHdvcmtib29rIGZpZ3VyZSBpcyBrZXB0LiIKICAgICksCiAgICAiU2Vhc29uaW5nIEN1YmVzIjogKAogICAgICAgICJSZXRhaWwgcGFjayBwcmljZSBmcm9tIHRoZSB3b3JrYm9vay4gVGhlIHBhY2thZ2UgbGFiZWwgd2FzIG5vdCByZXZpZXdlZCBmb3IgYW5pbWFsIGluZ3JlZGllbnRzICIKICAgICAgICAib3IgYWxsZXJnZW5zLiBBIGJsYW5rIGlzIG5vdCBhIGNsZWFyYW5jZS4iCiAgICApLAogICAgIklvZGl6ZWQgVGFibGUgU2FsdCI6ICJSZXRhaWwgcGFjayBwcmljZSBmcm9tIHRoZSB3b3JrYm9vay4gTm8gTkJTIHJvdyB3YXMgbWF0Y2hlZCBmb3IgdGhpcyBwYWNrLiIsCiAgICAiTG9jYWwgR3JpbmRpbmcgLyBNaWxsaW5nIjogKAogICAgICAgICJJbmZvcm1hbCB2ZW5kb3Igbm90ZSBwZXIgMSBrZyBiYXRjaC4gTm90IGFuIE5CUyBwcmljZSBhbmQgbm90IGEgbWVhc3VyZWQgYmF0Y2ggZW5lcmd5IGNvc3QuIgogICAgKSwKfQoKU0VSVklOR19HQVBTOiB0dXBsZVtzdHIsIC4uLl0gPSAoCiAgICAiTm8gcHVyY2hhc2VkIGdyYW1zLCBmaW5pc2hlZCBzZXJ2aW5nIHdlaWdodCwgb3IgcHJlcGFyYXRpb24gbWludXRlcyBhcmUgaW4gdGhlIHdvcmtib29rLiIsCiAgICAiUmF3IHNveWJlYW4gbmFpcmEgcGVyIGtpbG9ncmFtIGlzIG5vdCBhIGZpbmlzaGVkLWF3YXJhIHByaWNlLiBBIHlpZWxkIHJhbmdlIGluIGEgbm90ZSBpcyBub3QgYSBtZWFzdXJlZCBiYXRjaC4iLAogICAgIlByZXNzZWQgYW5kIGZyb3plbiBwcm90ZWluLCBpcm9uLCBhbmQgemluYyBmaWd1cmVzIGFyZSBtb2lzdHVyZSByZWNhbGN1bGF0aW9ucy4gUHJlc3NpbmcgZG9lcyBub3QgY3JlYXRlIHByb3RlaW4uIiwKICAgICJSYXcgYm9uZWxlc3MtYmVlZiBwcmljZSBhbmQgY29va2VkLWJlZWYgbnV0cmllbnRzIGFyZSBkaWZmZXJlbnQgZm9vZCBzdGF0ZXMgYW5kIGFyZSBub3QgY29tYmluZWQgaW50byBvbmUgc2VydmluZy4iLAogICAgIlZlZ2V0YWJsZSBvaWwgc3RheXMgcHJpY2VkIHBlciA3NSBjbC4gTm8gc291cmNlZCBkZW5zaXR5IGlzIHVzZWQgdG8gdHVybiB0aGF0IGJvdHRsZSBpbnRvIG5haXJhIHBlciBraWxvZ3JhbS4iLAogICAgIkFsbGVyZ2VuIGFuZCBhbmltYWwtaW5ncmVkaWVudCByZXZpZXcgaXMgaW5jb21wbGV0ZS4gU2Vhc29uaW5nIGN1YmVzIHN0YXkgdW52ZXJpZmllZC4iLAogICAgIlRoZXNlIHJvd3MgZG8gbm90IGZpbGwgZGF0YS92ZXJpZmllZC4gVGhlIHN5bnRoZXRpYyBkZW1vbnN0cmF0aW9uIHByaWNlcyBhcmUgbm90IHVzZWQuIiwKKQoKCmRlZiBfcmVhZChwYXRoOiBQYXRoKSAtPiBsaXN0W2RpY3Rbc3RyLCBzdHJdXToKICAgIGlmIG5vdCBwYXRoLmV4aXN0cygpOgogICAgICAgIHJhaXNlIEZpbGVOb3RGb3VuZEVycm9yKGYiT2ZmaWNpYWwgcHJpY2UgZmlsZSBpcyBtaXNzaW5nOiB7cGF0aC5uYW1lfSIpCiAgICB3aXRoIHBhdGgub3BlbihlbmNvZGluZz0idXRmLTgtc2lnIiwgbmV3bGluZT0iIikgYXMgaGFuZGxlOgogICAgICAgIHJvd3MgPSBsaXN0KGNzdi5EaWN0UmVhZGVyKGhhbmRsZSkpCiAgICBpZiBub3Qgcm93czoKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKGYie3BhdGgubmFtZX0gaGFzIGhlYWRlcnMgYnV0IG5vIE5CUyByb3dzIikKICAgIHJldHVybiByb3dzCgoKZGVmIGxvYWRfbmJzX3ByaWNlcyhmb2xkZXI6IHN0ciB8IFBhdGggfCBOb25lID0gTm9uZSkgLT4gbGlzdFtkaWN0W3N0ciwgc3RyXV06CiAgICByZXR1cm4gX3JlYWQoc291cmNlc19kaXIoZm9sZGVyKSAvICJuYnNfMjAyNi5jc3YiKQoKCmRlZiBfY29tcGFyYWJsZV9wZXJfa2cocHJpY2VfbmduOiBzdHIsIHVuaXQ6IHN0cikgLT4gc3RyOgogICAgIiIiUGFja2FnZSBhcml0aG1ldGljIGZvciBtYXNzIHNhbGVzIG9ubHkuIExpcXVpZHMgYW5kIGZ1ZWwgc3RheSBibGFuay4iIiIKICAgIHVuaXRfa2V5ID0gdW5pdC5zdHJpcCgpLmxvd2VyKCkKICAgIHByaWNlID0gZmxvYXQocHJpY2VfbmduKQogICAgaWYgdW5pdF9rZXkgPT0gIjEga2ciOgogICAgICAgIHJldHVybiBmIntwcmljZTouMmZ9IgogICAgaWYgdW5pdF9rZXkgPT0gIjUwMCBnIjoKICAgICAgICByZXR1cm4gZiJ7cXVvdGVfbmduX3Blcl9rZyhwcmljZSwgNTAwLCAnZycpOi4yZn0iCiAgICBpZiB1bml0X2tleSA9PSAiMSBwYWNrICgxMDAgeCA0ZykiOgogICAgICAgIHJldHVybiBmIntxdW90ZV9uZ25fcGVyX2tnKHByaWNlLCA0MDAsICdnJyk6LjJmfSIKICAgIHJldHVybiAiIgoKCmRlZiB3b3JraW5nX21hcmtldF90YWJsZShmb2xkZXI6IHN0ciB8IFBhdGggfCBOb25lID0gTm9uZSkgLT4gbGlzdFtkaWN0W3N0ciwgc3RyXV06CiAgICAiIiJTaGVldCBvcmRlciwgd2l0aCBhIGxhdGVyIE5CUyByZWxlYXNlIHN0YW5kaW5nIGluIGZvciB0aGUgbWF0Y2hpbmcgd29ya2Jvb2sgcm93LiIiIgogICAgc2hlZXQgPSBsb2FkX21hcmtldF9wcmljZXMoZm9sZGVyKQogICAgb2ZmaWNpYWwgPSBsb2FkX25ic19wcmljZXMoZm9sZGVyKQogICAgYnlfaXRlbTogZGljdFtzdHIsIGxpc3RbZGljdFtzdHIsIHN0cl1dXSA9IHt9CiAgICBmb3Igcm93IGluIG9mZmljaWFsOgogICAgICAgIGJ5X2l0ZW0uc2V0ZGVmYXVsdChyb3dbIndvcmtib29rX2l0ZW0iXSwgW10pLmFwcGVuZChyb3cpCiAgICB3b3JraW5nOiBsaXN0W2RpY3Rbc3RyLCBzdHJdXSA9IFtdCiAgICBmb3Igcm93IGluIHNoZWV0OgogICAgICAgIHJlcGxhY2VtZW50cyA9IGJ5X2l0ZW0uZ2V0KHJvd1siaXRlbSJdLCBbXSkKICAgICAgICBpZiByZXBsYWNlbWVudHM6CiAgICAgICAgICAgIGZvciBpdGVtIGluIHJlcGxhY2VtZW50czoKICAgICAgICAgICAgICAgIHdvcmtpbmcuYXBwZW5kKAogICAgICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAgICAgIml0ZW0iOiBpdGVtWyJkaXNwbGF5X2l0ZW0iXSwKICAgICAgICAgICAgICAgICAgICAgICAgImNhdGVnb3J5Ijogcm93WyJjYXRlZ29yeSJdLAogICAgICAgICAgICAgICAgICAgICAgICAidW5pdCI6IGl0ZW1bInVuaXQiXSwKICAgICAgICAgICAgICAgICAgICAgICAgInByaWNlX25nbiI6IGl0ZW1bInByaWNlX25nbiJdLAogICAgICAgICAgICAgICAgICAgICAgICAicGVyaW9kIjogaXRlbVsicGVyaW9kIl0sCiAgICAgICAgICAgICAgICAgICAgICAgICJiYXNpcyI6IGl0ZW1bInJlbGVhc2UiXSwKICAgICAgICAgICAgICAgICAgICAgICAgImNvbXBhcmFibGVfbmduX3Blcl9rZyI6IF9jb21wYXJhYmxlX3Blcl9rZyhpdGVtWyJwcmljZV9uZ24iXSwgaXRlbVsidW5pdCJdKSwKICAgICAgICAgICAgICAgICAgICAgICAgIndvcmtib29rX3ByaWNlX25nbiI6IGl0ZW1bIndvcmtib29rX3ByaWNlX25nbiJdLAogICAgICAgICAgICAgICAgICAgICAgICAic291cmNlIjogaXRlbVsic291cmNlX3VybCJdLAogICAgICAgICAgICAgICAgICAgICAgICAibGltaXRhdGlvbiI6IGl0ZW1bImxpbWl0YXRpb24iXSwKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgd29ya2luZy5hcHBlbmQoCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICJpdGVtIjogcm93WyJpdGVtIl0sCiAgICAgICAgICAgICAgICAiY2F0ZWdvcnkiOiByb3dbImNhdGVnb3J5Il0sCiAgICAgICAgICAgICAgICAidW5pdCI6IHJvd1sic3RhbmRhcmRfdW5pdCJdLAogICAgICAgICAgICAgICAgInByaWNlX25nbiI6IHJvd1siZXN0aW1hdGVkX3ByaWNlX25nbiJdLAogICAgICAgICAgICAgICAgInBlcmlvZCI6ICIiLAogICAgICAgICAgICAgICAgImJhc2lzIjogIldvcmtib29rIHF1b3RlIiwKICAgICAgICAgICAgICAgICJjb21wYXJhYmxlX25nbl9wZXJfa2ciOiBfY29tcGFyYWJsZV9wZXJfa2coCiAgICAgICAgICAgICAgICAgICAgcm93WyJlc3RpbWF0ZWRfcHJpY2VfbmduIl0sIHJvd1sic3RhbmRhcmRfdW5pdCJdCiAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgIndvcmtib29rX3ByaWNlX25nbiI6IHJvd1siZXN0aW1hdGVkX3ByaWNlX25nbiJdLAogICAgICAgICAgICAgICAgInNvdXJjZSI6IHJvd1sic291cmNlIl0sCiAgICAgICAgICAgICAgICAibGltaXRhdGlvbiI6IFdPUktCT09LX0xJTUlUUy5nZXQoCiAgICAgICAgICAgICAgICAgICAgcm93WyJpdGVtIl0sICJObyBsYXRlciBOQlMgcm93IHdhcyBtYXRjaGVkLiBUaGUgd29ya2Jvb2sgZmlndXJlIGlzIGtlcHQuIgogICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgfQogICAgICAgICkKICAgIHJldHVybiB3b3JraW5nCgoKZGVmIHByZXBhcmF0aW9uX21ldGhvZHMoZm9sZGVyOiBzdHIgfCBQYXRoIHwgTm9uZSA9IE5vbmUpIC0+IGxpc3RbZGljdFtzdHIsIHN0cl1dOgogICAgIiIiRm91ciBhd2FyYSBzdGF0ZXMgcGx1cyB0aGUgY29va2VkLWJlZWYgcmVmZXJlbmNlLCBwZXIgMTAwIGcsIGZyb20gdGhlIHdvcmtib29rLiIiIgogICAgbWV0aG9kczogbGlzdFtkaWN0W3N0ciwgc3RyXV0gPSBbXQogICAgZm9yIHJvdyBpbiBsb2FkX251dHJpdGlvbl9xdW90ZXMoZm9sZGVyKToKICAgICAgICBzb3VyY2UgPSByb3dbInNvdXJjZSJdCiAgICAgICAgbW9kZWxsZWQgPSAiY2FsY3VsYXRlZCIgaW4gc291cmNlLmxvd2VyKCkgb3IgIm1vaXN0dXJlIiBpbiBzb3VyY2UubG93ZXIoKQogICAgICAgIG1ldGhvZHMuYXBwZW5kKAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAiZm9vZF9pdGVtIjogcm93WyJmb29kX2l0ZW0iXSwKICAgICAgICAgICAgICAgICJzZXJ2aW5nX2Jhc2lzIjogcm93WyJzZXJ2aW5nX2Jhc2lzIl0sCiAgICAgICAgICAgICAgICAicHJvdGVpbl9nIjogcm93WyJwcm90ZWluX2ciXSwKICAgICAgICAgICAgICAgICJpcm9uX21nIjogcm93WyJpcm9uX21nIl0sCiAgICAgICAgICAgICAgICAiemluY19tZyI6IHJvd1siemluY19tZyJdLAogICAgICAgICAgICAgICAgIm1lYXN1cmVtZW50IjogIk1vaXN0dXJlIHJlY2FsY3VsYXRpb24iIGlmIG1vZGVsbGVkIGVsc2UgIlB1Ymxpc2hlZCByZWZlcmVuY2UiLAogICAgICAgICAgICAgICAgInNvdXJjZSI6IHNvdXJjZSwKICAgICAgICAgICAgICAgICJub3RlcyI6IHJvd1sibW9pc3R1cmVfbm90ZXMiXSwKICAgICAgICAgICAgfQogICAgICAgICkKICAgIHJldHVybiBtZXRob2RzCg==
+"""Workbook quotes with later 2026 NBS averages applied where a release matches.
+
+The studio uses this table. It does not fill data/verified and it does not price a
+serving: purchase grams, finished weight, and preparation time are still unmeasured.
+"""
+from __future__ import annotations
+
+import csv
+from pathlib import Path
+
+from .pricing import quote_ngn_per_kg
+from .sources import load_market_prices, load_nutrition_quotes, sources_dir
+
+WORKBOOK_LIMITS: dict[str, str] = {
+    "Soybeans (Raw)": (
+        "Mansa Markets exchange benchmark for raw soybeans. Not an NBS food-watch row "
+        "and not a price for purchased awara."
+    ),
+    "Pepper (Fresh / Chili)": (
+        "Not listed in the May 2026 Selected Food Price Watch table retrieved on 14 November 2026. "
+        "The workbook figure is kept."
+    ),
+    "Seasoning Cubes": (
+        "Retail pack price from the workbook. The package label was not reviewed for animal ingredients "
+        "or allergens. A blank is not a clearance."
+    ),
+    "Iodized Table Salt": "Retail pack price from the workbook. No NBS row was matched for this pack.",
+    "Local Grinding / Milling": (
+        "Informal vendor note per 1 kg batch. Not an NBS price and not a measured batch energy cost."
+    ),
+}
+
+SERVING_GAPS: tuple[str, ...] = (
+    "No purchased grams, finished serving weight, or preparation minutes are in the workbook.",
+    "Raw soybean naira per kilogram is not a finished-awara price. A yield range in a note is not a measured batch.",
+    "Pressed and frozen protein, iron, and zinc figures are moisture recalculations. Pressing does not create protein.",
+    "Raw boneless-beef price and cooked-beef nutrients are different food states and are not combined into one serving.",
+    "Vegetable oil stays priced per 75 cl. No sourced density is used to turn that bottle into naira per kilogram.",
+    "Allergen and animal-ingredient review is incomplete. Seasoning cubes stay unverified.",
+    "These rows do not fill data/verified. The synthetic demonstration prices are not used.",
+)
+
+
+def _read(path: Path) -> list[dict[str, str]]:
+    if not path.exists():
+        raise FileNotFoundError(f"Official price file is missing: {path.name}")
+    with path.open(encoding="utf-8-sig", newline="") as handle:
+        rows = list(csv.DictReader(handle))
+    if not rows:
+        raise ValueError(f"{path.name} has headers but no NBS rows")
+    return rows
+
+
+def load_nbs_prices(folder: str | Path | None = None) -> list[dict[str, str]]:
+    return _read(sources_dir(folder) / "nbs_2026.csv")
+
+
+def _comparable_per_kg(price_ngn: str, unit: str) -> str:
+    """Package arithmetic for mass sales only. Liquids and fuel stay blank."""
+    unit_key = unit.strip().lower()
+    price = float(price_ngn)
+    if unit_key == "1 kg":
+        return f"{price:.2f}"
+    if unit_key == "500 g":
+        return f"{quote_ngn_per_kg(price, 500, 'g'):.2f}"
+    if unit_key == "1 pack (100 x 4g)":
+        return f"{quote_ngn_per_kg(price, 400, 'g'):.2f}"
+    return ""
+
+
+def working_market_table(folder: str | Path | None = None) -> list[dict[str, str]]:
+    """Sheet order, with a later NBS release standing in for the matching workbook row."""
+    sheet = load_market_prices(folder)
+    official = load_nbs_prices(folder)
+    by_item: dict[str, list[dict[str, str]]] = {}
+    for row in official:
+        by_item.setdefault(row["workbook_item"], []).append(row)
+    working: list[dict[str, str]] = []
+    for row in sheet:
+        replacements = by_item.get(row["item"], [])
+        if replacements:
+            for item in replacements:
+                working.append(
+                    {
+                        "item": item["display_item"],
+                        "category": row["category"],
+                        "unit": item["unit"],
+                        "price_ngn": item["price_ngn"],
+                        "period": item["period"],
+                        "basis": item["release"],
+                        "comparable_ngn_per_kg": _comparable_per_kg(item["price_ngn"], item["unit"]),
+                        "workbook_price_ngn": item["workbook_price_ngn"],
+                        "source": item["source_url"],
+                        "limitation": item["limitation"],
+                    }
+                )
+            continue
+        working.append(
+            {
+                "item": row["item"],
+                "category": row["category"],
+                "unit": row["standard_unit"],
+                "price_ngn": row["estimated_price_ngn"],
+                "period": "",
+                "basis": "Workbook quote",
+                "comparable_ngn_per_kg": _comparable_per_kg(
+                    row["estimated_price_ngn"], row["standard_unit"]
+                ),
+                "workbook_price_ngn": row["estimated_price_ngn"],
+                "source": row["source"],
+                "limitation": WORKBOOK_LIMITS.get(
+                    row["item"], "No later NBS row was matched. The workbook figure is kept."
+                ),
+            }
+        )
+    return working
+
+
+def preparation_methods(folder: str | Path | None = None) -> list[dict[str, str]]:
+    """Four awara states plus the cooked-beef reference, per 100 g, from the workbook."""
+    methods: list[dict[str, str]] = []
+    for row in load_nutrition_quotes(folder):
+        source = row["source"]
+        modelled = "calculated" in source.lower() or "moisture" in source.lower()
+        methods.append(
+            {
+                "food_item": row["food_item"],
+                "serving_basis": row["serving_basis"],
+                "protein_g": row["protein_g"],
+                "iron_mg": row["iron_mg"],
+                "zinc_mg": row["zinc_mg"],
+                "measurement": "Moisture recalculation" if modelled else "Published reference",
+                "source": source,
+                "notes": row["moisture_notes"],
+            }
+        )
+    return methods
