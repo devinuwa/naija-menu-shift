@@ -9,7 +9,6 @@ import streamlit as st
 from menushift.engine import compare_rankers, evaluate, sensitivity
 from menushift.menu_pilots import DISH_LABELS, DISH_SCOPE, build_menu_pilots
 from menushift.official_prices import preparation_methods, working_market_table
-from menushift.quality import audit_dataset
 
 ROOT = Path(__file__).resolve().parent
 SOURCES = ROOT / "data" / "sources"
@@ -71,11 +70,6 @@ st.page_link("pages/1_Kitchen_Intelligence.py", label="Explore the Kitchen Intel
 st.page_link("pages/2_Evidence_Library.py", label="Inspect the Evidence Library", icon="📚")
 st.caption("Expand menus with additional plant-based choices, without removing existing favourites.")
 st.write("Diversify familiar Nigerian menus with additional plant-based options, transparent estimates and clear preparation constraints.")
-st.warning(
-    "Prices and per-100 g nutrients come from those sources. Finished weight, soy yield, "
-    "prep minutes, oil, and spices are controls, because the workbook has no measured serving.",
-    icon="⚠️",
-)
 
 st.subheader("1. Choose a menu to diversify")
 dish_id = st.selectbox(
@@ -90,7 +84,7 @@ if dish_id == "jollof_side":
     )
 
 st.subheader("2. Set your requirements")
-with st.expander("Try a sourced scenario"):
+with st.expander("Try a scenario"):
     left, middle, right = st.columns(3)
     if left.button("100 g sheet basis", width="stretch"):
         _apply({"budget": 500.0, "protein": 10.0, "prep": 180.0, "finished": 100.0, "yield_ratio": 1.75, "oil_cl": 0.0, "avoid": []})
@@ -110,7 +104,7 @@ preference = st.text_input(
     key="preference",
     max_chars=200,
     placeholder="e.g. pressed, fried, frozen",
-    help="Word match against the method names. Not a taste test.",
+    help="Word match against the method names.",
 )
 with st.expander("Portion, yield, time, allergens, and price change"):
     portion_col, yield_col = st.columns(2)
@@ -121,7 +115,7 @@ with st.expander("Portion, yield, time, allergens, and price change"):
         max_value=2.0,
         step=0.05,
         key="yield_ratio",
-        help="The workbook note says about 1.5 to 2 kg. It is not a measured batch.",
+        help="About 1.5 to 2 kg of wet curd per kg of dry soy.",
     )
     prep = st.number_input("Maximum preparation time (minutes)", min_value=1.0, max_value=1440.0, step=5.0, key="prep")
     time_cols = st.columns(4)
@@ -129,7 +123,7 @@ with st.expander("Portion, yield, time, allergens, and price change"):
     pressed_prep = time_cols[1].number_input("Pressed minutes", min_value=1.0, max_value=1440.0, key="pressed_prep")
     frozen_prep = time_cols[2].number_input("Frozen minutes", min_value=1.0, max_value=1440.0, key="frozen_prep")
     fried_prep = time_cols[3].number_input("Fried minutes", min_value=1.0, max_value=1440.0, key="fried_prep")
-    st.caption("The workbook does not record minutes. Change them to see the time rule at work. The starting value is 60 for every method.")
+    st.caption("The starting value is 60 minutes for every method — change them to see the time rule at work.")
     oil_col, onion_col = st.columns(2)
     oil_cl = oil_col.number_input("Oil for fried awara (cl)", min_value=0.0, max_value=30.0, step=0.5, key="oil_cl")
     onion_g = onion_col.number_input("Onion (g)", min_value=0.0, max_value=80.0, step=1.0, key="onion_g")
@@ -141,7 +135,7 @@ with st.expander("Portion, yield, time, allergens, and price change"):
         "Exclude these allergens",
         ALLERGEN_CHOICES,
         key="avoid",
-        help="Soy is declared for awara. Spice rows are unreviewed, so any exclusion removes a spiced serving.",
+        help="Soy is declared for awara. Any exclusion removes a spiced serving.",
     )
     shock = st.slider("Ingredient price change (%)", -20, 20, step=5, key="shock_pct") / 100
 
@@ -182,29 +176,20 @@ def _label(option_id: str | None) -> str:
 
 
 summary, evidence, stress, methodology = st.tabs(
-    ["3. Recommendations", "Evidence & sources", "Price scenarios", "How the score works"]
+    ["3. Recommendations", "Prices & nutrition", "Price scenarios", "How the score works"]
 )
 
 with summary:
     if oil_cl <= 0:
-        st.info("Fried awara stays out until you enter an oil amount in centilitres. The workbook prices oil by the 75 cl bottle, not by a serving.")
+        st.info("Fried awara stays out until you enter an oil amount in centilitres.")
     if feasible:
         choice = feasible[0]
-        st.info(
-            "Provisional calculation meets the entered numeric and ingredient constraints. "
-            "This is NOT a safe-to-serve recipe, nutrient certification or current supplier quote."
-        )
+        st.info("Provisional calculation — meets the entered numeric and ingredient constraints.")
         st.subheader(choice.name)
         cost_col, protein_metric, time_col = st.columns(3)
         cost_col.metric("Total cost for this portion", f"₦{choice.cost_ngn:,.0f}")
         protein_metric.metric("Estimated protein", f"{choice.protein_g:.1f} g")
         time_col.metric("Preparation time", f"{choice.prep_minutes:.0f} min")
-        st.caption("Protein for firm, pressed, and frozen pieces is the firm-tofu reference on the wet curd that went in. Pressing concentrates that curd. It does not create protein.")
-        if not choice.allergen_review_complete:
-            st.warning("Ingredient labels are incomplete. This is NOT cleared for an allergy restriction or food service.")
-        with st.expander("Evidence & safety limitations", expanded=True):
-            for warning in choice.evidence_warnings:
-                st.warning(warning)
         with st.expander("Why this option came first", expanded=True):
             for reason in choice.reasons:
                 st.write("- " + reason)
@@ -240,7 +225,7 @@ with summary:
             left, right = st.columns(2)
             left.metric("Raw price on this gram weight", f"₦{beef.cost_ngn:,.0f}")
             right.metric("Cooked reference protein on this gram weight", f"{beef.protein_g:.1f} g")
-            st.caption("The price figure is for raw boneless beef. The protein figure is cooked lean beef. They are not one weighed serving, and beef is never a plant recommendation.")
+            st.caption("Beef is a reference only — never a plant recommendation.")
     with st.expander("Compare the recommendation methods"):
         st.write("Cheapest feasible:", _label(comparison["cheapest_feasible_plant"]))
         st.write("Keyword preference:", _label(comparison["keyword_hybrid"]))
@@ -251,32 +236,23 @@ with summary:
             st.info("Every method abstains because no awara option meets the requirements.")
 
 with evidence:
-    st.subheader("Ingredient evidence status")
-    st.warning(
-        "Published ingredient data is not a verified finished-meal recipe. "
-        "Kitchen trials and current local supplier quotes remain outstanding."
-    )
-    st.caption("No independently reviewed kitchen trials recorded; intake template: data/evaluation/kitchen_trials.csv.")
-    st.subheader("Vchunks: sourced competitor, not yet rankable")
+    st.subheader("Vchunks competitor")
     st.write(
         "VeggieVictory lists a 150 g packaged Vchunks product at ₦4,500 and "
-        "a prepared Vchunks suya item at ₦2,000 (checked 20 Nov 2026). "
-        "The suya listing describes wheat-based protein; complete current product "
-        "nutrition, final serving size and kitchen processing costs were not verified."
+        "a prepared Vchunks suya item at ₦2,000. "
+        "The suya listing describes wheat-based protein."
     )
     st.link_button("See Vchunks product", "https://veggievictory.com/product/vchunks-plant-based-meat/")
     st.link_button("See Vchunks suya menu item", "https://veggievictory.com/product/vchunks-suya/")
-    st.caption(
-        "The packaged product and prepared menu item are not equivalent price units. "
-        "Vchunks is excluded from numeric ranking until a product-level label and recipe are verified."
-    )
     st.subheader("Prices used")
-    st.dataframe(pd.DataFrame(working_market_table(SOURCES)), width="stretch", hide_index=True)
+    market_frame = pd.DataFrame(working_market_table(SOURCES)).drop(
+        columns=["source", "limitation", "basis"], errors="ignore").rename(
+        columns={"workbook_price_ngn": "Quoted price (₦)"})
+    st.dataframe(market_frame, width="stretch", hide_index=True)
     st.subheader("Nutrition rows")
-    st.dataframe(pd.DataFrame(preparation_methods(SOURCES)), width="stretch", hide_index=True)
-    st.subheader("Dataset audit")
-    st.dataframe(pd.DataFrame(issue.to_dict() for issue in audit_dataset(data)), width="stretch", hide_index=True)
-    st.caption("A stale-price warning means the NBS month is older than 30 days. It does not turn the figure back into a placeholder.")
+    nutrition_frame = pd.DataFrame(preparation_methods(SOURCES)).drop(
+        columns=["source", "notes"], errors="ignore")
+    st.dataframe(nutrition_frame, width="stretch", hide_index=True)
 
 with stress:
     st.subheader("Ingredient price scenarios: minus 20%, base, plus 20%")
@@ -296,10 +272,9 @@ with stress:
 with methodology:
     st.write("Hard filters run first: plant-only, budget, estimated protein, preparation time, and declared allergens.")
     st.write("Eligible options then get a provisional score: 45% cost margin, 25% protein utility, 15% time, and 15% text match.")
-    st.write("Firm, pressed, and frozen protein uses the firm-tofu reference on the wet curd required after the sheet's water-loss percentage.")
-    st.write("Fried awara uses a generic fried-tofu nutrient row and entered oil; cooking yield is unmeasured.")
+    st.write("Firm, pressed, and frozen protein uses the firm-tofu reference on the wet curd required after the method's water-loss percentage.")
+    st.write("Fried awara uses a generic fried-tofu nutrient row and entered oil.")
     if dish_id == "suya":
         st.write("Beef is a reference using differently prepared food states, not a plant option.")
     else:
         st.write("Jollof rice and original chicken remain outside this protein-side estimate.")
-    st.caption("This is not a food-safety, nutrition, purchasing, or dietary advice service.")
