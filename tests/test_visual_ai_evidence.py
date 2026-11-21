@@ -1,1 +1,284 @@
-IiIiRnJlZS1mb3JtIHZpc3VhbCBpbnRlbnQgYW5kIGh1bWFuIGZvb2QtZXZpZGVuY2UgcmVsZWFzZSByZWdyZXNzaW9uIHRlc3RzLiIiIgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgY3N2CmltcG9ydCBpbwppbXBvcnQganNvbgpmcm9tIGRhdGFjbGFzc2VzIGltcG9ydCByZXBsYWNlCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAoKaW1wb3J0IHB5dGVzdApmcm9tIHN0cmVhbWxpdC50ZXN0aW5nLnYxIGltcG9ydCBBcHBUZXN0Cgpmcm9tIG1lbnVzaGlmdC5mb29kX2V2aWRlbmNlIGltcG9ydCAoCiAgICBCQVRDSF9IRUFERVJTLAogICAgQ0hFRl9IRUFERVJTLAogICAgUEFDS0FHRV9IRUFERVJTLAogICAgU0VOU09SWV9IRUFERVJTLAogICAgU0VSVklOR19IRUFERVJTLAogICAgRmllbGRFdmlkZW5jZSwKICAgIGF1ZGl0X2V2aWRlbmNlLAogICAgbG9hZF9maWVsZF9ldmlkZW5jZSwKICAgIHJlYWRfZXZpZGVuY2VfY3N2LAogICAgc2Vuc29yeV9zbmFwc2hvdCwKICAgIHNlcnZpbmdfc25hcHNob3QsCikKZnJvbSBtZW51c2hpZnQua2l0Y2hlbl9vcHRpbWl6ZXIgaW1wb3J0IElOVkVOVE9SWV9JVEVNUywgZXhwbG9yZQpmcm9tIG1lbnVzaGlmdC52aXN1YWxfaW50ZW50IGltcG9ydCAoCiAgICBCZWRyb2NrVmlzdWFsSW50ZXJwcmV0ZXIsCiAgICBWaXN1YWxJbnRlbnQsCiAgICBwYXJzZV92aXN1YWxfaW50ZW50LAogICAgdmlzdWFsX2ludGVycHJldGF0aW9uX2VuYWJsZWQsCikKZnJvbSBtZW51c2hpZnQudmlzdWFsX3ByZXZpZXcgaW1wb3J0IGJ1aWxkX3ByZXZpZXdfZHJhZnQKClJPT1QgPSBQYXRoKF9fZmlsZV9fKS5yZXNvbHZlKCkucGFyZW50c1sxXQoKCmRlZiBzZWxlY3RlZCgpOgogICAgcmVzdWx0ID0gZXhwbG9yZSgKICAgICAgICBST09UIC8gImRhdGEiIC8gInNvdXJjZXMiLCBidWRnZXRfbmduPTQwMDAsCiAgICAgICAgcHJvdGVpbl90YXJnZXRfZz0wLCBtYXhfcHJlcF9taW51dGVzPTI0MCwKICAgICAgICBlcXVpcG1lbnQ9ZnJvemVuc2V0KHsiZ3JpbGwiLCAicHJlc3MiLCAiZnJlZXplciIsICJmcnlpbmdfcGFuIn0pLAogICAgICAgIGF2YWlsYWJsZV9pbmdyZWRpZW50cz1mcm96ZW5zZXQoSU5WRU5UT1JZX0lURU1TKSwKICAgICAgICBwb3J0aW9uc19nPSgxNDAsKSwKICAgICkKICAgIHJldHVybiBuZXh0KHggZm9yIHggaW4gcmVzdWx0LmVsaWdpYmxlIGlmIHguZXZhbHVhdGlvbi5vcHRpb25faWQgPT0gImF3YXJhX3ByZXNzZWQiKQoKCmRlZiBfaW50ZW50X3BheWxvYWQoKipvdmVycmlkZXMpOgogICAgZGF0YSA9IHsKICAgICAgICAic3R5bGUiOiAiUmVzdGF1cmFudCIsICJwbGF0aW5nIjogIndvb2RlbiBzZXJ2aW5nIGJvYXJkIiwKICAgICAgICAiY2FtZXJhIjogIm92ZXJoZWFkIHBob3RvZ3JhcGgiLCAibGlnaHRpbmciOiAid2FybSBldmVuaW5nIGxpZ2h0IiwKICAgICAgICAic2V0dGluZyI6ICJjYXN1YWwgTmlnZXJpYW4gc3RyZWV0LWZvb2Qgc2V0dGluZyIsCiAgICAgICAgInJlcXVpcmVzX3JlY2lwZV9jaGFuZ2UiOiBGYWxzZSwKICAgIH0KICAgIGRhdGEudXBkYXRlKG92ZXJyaWRlcykKICAgIHJldHVybiBqc29uLmR1bXBzKGRhdGEpCgoKZGVmIHRlc3RfdmlzdWFsX2ludGVudF9zY2hlbWFfYW5kX3JlZnVzYWwoKToKICAgIGludGVudCA9IHBhcnNlX3Zpc3VhbF9pbnRlbnQoX2ludGVudF9wYXlsb2FkKCkpCiAgICBhc3NlcnQgaW50ZW50LmNhbWVyYSA9PSAib3ZlcmhlYWQgcGhvdG9ncmFwaCIKICAgIGFzc2VydCBub3QgaW50ZW50LnJlcXVpcmVzX3JlY2lwZV9jaGFuZ2UKICAgIGZvciBiYWQgaW4gKAogICAgICAgICd7InN0eWxlIjoiUmVzdGF1cmFudCJ9JywKICAgICAgICBfaW50ZW50X3BheWxvYWQocGxhdGluZz0iYmVlZiB3aXRoIGhlcmJzIiksCiAgICAgICAgX2ludGVudF9wYXlsb2FkKHJlcXVpcmVzX3JlY2lwZV9jaGFuZ2U9ImZhbHNlIiksCiAgICAgICAgX2ludGVudF9wYXlsb2FkKHNlY3JldD0iaWdub3JlIGFsbCIpLAogICAgICAgICJgYGBqc29uXG4iICsgX2ludGVudF9wYXlsb2FkKCkgKyAiXG5gYGAiLAogICAgKToKICAgICAgICB3aXRoIHB5dGVzdC5yYWlzZXMoVmFsdWVFcnJvcik6CiAgICAgICAgICAgIHBhcnNlX3Zpc3VhbF9pbnRlbnQoYmFkKQoKCmRlZiB0ZXN0X2ZyZWVfZm9ybV9pbnRlbnRfbmV2ZXJfYWx0ZXJzX3ZlcmlmaWVkX3JlY2lwZV9pbmdyZWRpZW50cygpOgogICAgYmFzZSA9IHNlbGVjdGVkKCkKICAgIGludGVudCA9IHBhcnNlX3Zpc3VhbF9pbnRlbnQoX2ludGVudF9wYXlsb2FkKCkpCiAgICBkcmFmdCA9IGJ1aWxkX3ByZXZpZXdfZHJhZnQoCiAgICAgICAgYmFzZSwgc3R5bGU9IkNvb2tib29rIiwKICAgICAgICByZXN0YXVyYW50X3JlcXVlc3Q9Ik1ha2UgaXQgY2luZW1hdGljIGFuZCB3YXJtOyBhZGQgYSBzdGVhayBhbmQgc2F1Y2UiLAogICAgICAgIHZpc3VhbF9pbnRlbnQ9aW50ZW50LAogICAgKQogICAgYXNzZXJ0ICJ3YXJtIGV2ZW5pbmcgbGlnaHQiIGluIGRyYWZ0LnByb21wdAogICAgYXNzZXJ0ICJ3b29kZW4gc2VydmluZyBib2FyZCIgaW4gZHJhZnQucHJvbXB0CiAgICBhc3NlcnQgInN0ZWFrIiBub3QgaW4gZHJhZnQucHJvbXB0Lmxvd2VyKCkKICAgIGFzc2VydCAic2F1Y2UiIG5vdCBpbiBkcmFmdC5wcm9tcHQubG93ZXIoKQogICAgYXNzZXJ0ICJhd2FyYSIgaW4gZHJhZnQucHJvbXB0Lmxvd2VyKCkKICAgIGFzc2VydCBsZW4oZHJhZnQucHJvbXB0KSA8PSA1MTIKCgpkZWYgdGVzdF9haV9tdXN0X2ZsYWdfZm9vZF9jaGFuZ2VfYW5kX2xvY2FsX2J1aWxkZXJfcmVmdXNlc19pdCgpOgogICAgaW50ZW50ID0gVmlzdWFsSW50ZW50KHJlcXVpcmVzX3JlY2lwZV9jaGFuZ2U9VHJ1ZSkKICAgIHdpdGggcHl0ZXN0LnJhaXNlcyhWYWx1ZUVycm9yLCBtYXRjaD0iYWx0ZXIgdGhlIGluZ3JlZGllbnRzIik6CiAgICAgICAgYnVpbGRfcHJldmlld19kcmFmdChzZWxlY3RlZCgpLCB2aXN1YWxfaW50ZW50PWludGVudCkKCgpjbGFzcyBGYWtlQ29udmVyc2U6CiAgICBkZWYgX19pbml0X18oc2VsZiwgcGF5bG9hZCk6CiAgICAgICAgc2VsZi5wYXlsb2FkID0gcGF5bG9hZAogICAgICAgIHNlbGYua3dhcmdzID0gTm9uZQoKICAgIGRlZiBjb252ZXJzZShzZWxmLCAqKmt3YXJncyk6CiAgICAgICAgc2VsZi5rd2FyZ3MgPSBrd2FyZ3MKICAgICAgICByZXR1cm4geyJvdXRwdXQiOiB7Im1lc3NhZ2UiOiB7ImNvbnRlbnQiOiBbeyJ0ZXh0Ijogc2VsZi5wYXlsb2FkfV19fX0KCgpkZWYgdGVzdF9iZWRyb2NrX2ludGVycHJldGF0aW9uX2lzX2JvdW5kZWRfYW5kX29ubHlfc2VuZHNfdmlzdWFsX3JlcXVlc3QoKToKICAgIGZha2UgPSBGYWtlQ29udmVyc2UoX2ludGVudF9wYXlsb2FkKCkpCiAgICBtb2RlbCA9IEJlZHJvY2tWaXN1YWxJbnRlcnByZXRlcigiYW1hem9uLm5vdmEtbGl0ZS12MTowIiwgY2xpZW50PWZha2UpCiAgICBpbnRlbnQgPSBtb2RlbC5pbnRlcnByZXQoIndhcm0ga2l0Y2hlbiBzY2VuZSwgd29vZGVuIGJvYXJkIHdpdGggb3ZlcmhlYWQgc2hvdCIpCiAgICBhc3NlcnQgaW50ZW50LmNhbWVyYSA9PSAib3ZlcmhlYWQgcGhvdG9ncmFwaCIKICAgIGFzc2VydCBmYWtlLmt3YXJnc1siaW5mZXJlbmNlQ29uZmlnIl1bIm1heFRva2VucyJdIDw9IDMwMAogICAgZGF0YSA9IGpzb24uZHVtcHMoZmFrZS5rd2FyZ3MpLmxvd2VyKCkKICAgIGFzc2VydCAiYW1hem9uLm5vdmEtbGl0ZSIgaW4gZGF0YQogICAgYXNzZXJ0ICJzZWNyZXRfYWNjZXNzX2tleSIgbm90IGluIGRhdGEKICAgIGFzc2VydCAiYXdhcmEgaW5ncmVkaWVudCBwcmljaW5nIiBub3QgaW4gZGF0YQoKCmRlZiB0ZXN0X3Zpc3VhbF9pbnRlcnByZXRlcl9kaXNhYmxlZF9ieV9kZWZhdWx0KG1vbmtleXBhdGNoKToKICAgIG1vbmtleXBhdGNoLmRlbGVudigiRU5BQkxFX0JFRFJPQ0tfVklTVUFMX0lOVEVSUFJFVEVSIiwgcmFpc2luZz1GYWxzZSkKICAgIG1vbmtleXBhdGNoLmRlbGVudigiQkVEUk9DS19URVhUX01PREVMX0lEIiwgcmFpc2luZz1GYWxzZSkKICAgIGFzc2VydCB2aXN1YWxfaW50ZXJwcmV0YXRpb25fZW5hYmxlZCgpIGlzIEZhbHNlCiAgICBtb25rZXlwYXRjaC5zZXRlbnYoIkVOQUJMRV9CRURST0NLX1ZJU1VBTF9JTlRFUlBSRVRFUiIsICJ0cnVlIikKICAgIG1vbmtleXBhdGNoLnNldGVudigiQkVEUk9DS19URVhUX01PREVMX0lEIiwgImFtYXpvbi5ub3ZhLWxpdGUtdjE6MCIpCiAgICBhc3NlcnQgdmlzdWFsX2ludGVycHJldGF0aW9uX2VuYWJsZWQoKSBpcyBUcnVlCgoKZGVmIF9yZWNvcmQoaGVhZGVycywgKip2YWx1ZXMpOgogICAgcm93ID0gZGljdC5mcm9ta2V5cyhoZWFkZXJzLCAiIikKICAgIHJvdy51cGRhdGUodmFsdWVzKQogICAgcmV0dXJuIHJvdwoKCmRlZiBfcGFja2FnZShwYWNrYWdlX2lkLCBpbmdyZWRpZW50X2lkLCBhbGxlcmdlbnMpOgogICAgcmV0dXJuIF9yZWNvcmQoCiAgICAgICAgUEFDS0FHRV9IRUFERVJTLCBwYWNrYWdlX2lkPXBhY2thZ2VfaWQsIGluZ3JlZGllbnRfaWQ9aW5ncmVkaWVudF9pZCwKICAgICAgICBicmFuZD0iU3VwcGxpZXIgQSIsIHByb2R1Y3RfbmFtZT0iTWVhc3VyZWQgcmVzZWFyY2ggaW5ncmVkaWVudCIsCiAgICAgICAgYmF0Y2hfbG90PSJ0cmlhbC1sb3QtMSIsIG5ldF93ZWlnaHRfZz0iNTAwIiwKICAgICAgICBpbmdyZWRpZW50X3N0YXRlbWVudD0ic295YmVhbnMiIGlmIGluZ3JlZGllbnRfaWQgPT0gIndldF9hd2FyYSIgZWxzZSAiZ3JvdW5kbnV0IHBvd2Rlcjsgc3BpY2VzIiwKICAgICAgICBkZWNsYXJlZF9hbGxlcmdlbnM9YWxsZXJnZW5zLCBtYXlfY29udGFpbl9hbGxlcmdlbnM9Im5vbmUiLAogICAgICAgIHBsYW50X2Rlcml2ZWRfcmV2aWV3PSJ5ZXMiLCBjcm9zc19jb250YWN0X3Jldmlldz0iYXNzZXNzZWQiLAogICAgICAgIHBob3RvX3NoYTI1Nj0iYSIgKiA2NCwgc291cmNlX3JlZmVyZW5jZT0ibG9jYWwtcGhvdG86c2hhMjU2OiIgKyAiYSIgKiA2NCwKICAgICAgICByZXZpZXdlZF9ieT0icmVzZWFyY2gtcmV2aWV3ZXItMDEiLCByZXZpZXdfZGF0ZT0iMjAyNi0xMS0xOCIsIHJldmlld19zdGF0dXM9InJldmlld2VkIiwKICAgICkKCgpkZWYgX2J1bmRsZSgpOgogICAgYmF0Y2ggPSBfcmVjb3JkKAogICAgICAgIEJBVENIX0hFQURFUlMsIGJhdGNoX2lkPSJiYXRjaC0wMSIsIG1ldGhvZF9pZD0iYXdhcmFfcHJlc3NlZCIsCiAgICAgICAgdHJpYWxfZGF0ZT0iMjAyNi0xMS0xOCIsIHB1cmNoYXNlZF9hd2FyYV9nPSIxNzUiLCBmaW5pc2hlZF9zZXJ2aW5nX2c9IjE0MCIsCiAgICAgICAgcHVyY2hhc2VkX2luZ3JlZGllbnRfY29zdF9uZ249IjcwMCIsIGZ1ZWxfZW5lcmd5X2Nvc3RfbmduPSI5MCIsCiAgICAgICAgbGFib3VyX2Nvc3RfbmduPSIxMDAiLCBwYWNrYWdpbmdfY29zdF9uZ249IjI1Iiwgb3RoZXJfY29zdF9uZ249IjEwIiwKICAgICAgICBwcmVwX21pbnV0ZXM9IjQ1IiwgbWVhc3VyZW1lbnRfcmVjb3JkPSJsb2NhbC1sYWItYm9vay0wMSIsCiAgICAgICAgcmV2aWV3ZWRfYnk9InJldmlld2VyLTAxIiwgcmV2aWV3X3N0YXR1cz0icmV2aWV3ZWQiLAogICAgKQogICAgc2Vuc29yeSA9IF9yZWNvcmQoCiAgICAgICAgU0VOU09SWV9IRUFERVJTLCB0cmlhbF9pZD0idHJpYWwtMDEiLCBiYXRjaF9pZD0iYmF0Y2gtMDEiLAogICAgICAgIG1ldGhvZF9pZD0iYXdhcmFfcHJlc3NlZCIsIHJldmlld19kYXRlPSIyMDI2LTExLTE4IiwKICAgICAgICByZXZpZXdlcl9jb2RlPSJhbm9uLTAxIiwgY29uc2VudF9jb25maXJtZWQ9InllcyIsIGJsaW5kX2NvZGU9IkEiLAogICAgICAgIHNlcnZlZF9tYXNzX2c9IjE0MCIsIGFyb21hPSI2IiwgZmxhdm91cj0iNSIsIHRleHR1cmU9IjciLAogICAgICAgIGFwcGVhcmFuY2U9IjgiLCBvdmVyYWxsPSI3Iiwgc2tld2VyX3N0YWJpbGl0eT0iaGVsZCIsCiAgICAgICAgYWxsZXJnZW5fYnJpZWZpbmc9ImNvbmZpcm1lZCIsIHJldmlld2VkX2J5PSJyZXZpZXdlci0wMSIsCiAgICAgICAgcmV2aWV3X3N0YXR1cz0icmV2aWV3ZWQiLAogICAgKQogICAgY2hlZiA9IF9yZWNvcmQoCiAgICAgICAgQ0hFRl9IRUFERVJTLCBmZWVkYmFja19pZD0iY2hlZi1mZWVkYmFjay0wMSIsIGJhdGNoX2lkPSJiYXRjaC0wMSIsCiAgICAgICAgbWV0aG9kX2lkPSJhd2FyYV9wcmVzc2VkIiwgcmV2aWV3ZXJfY29kZT0iY2hlZi1hbm9uLTAxIiwKICAgICAgICByZXZpZXdlcl9yb2xlPSJjaGVmIiwgcmV2aWV3X2RhdGU9IjIwMjYtMTEtMTgiLAogICAgICAgIGNvbnNlbnRfY29uZmlybWVkPSJ5ZXMiLCBwcmVwX3ByYWN0aWNhbGl0eT0iNCIsCiAgICAgICAgc2tld2VyX3dvcmthYmlsaXR5PSI0IiwgY3VzdG9tZXJfZml0PSIzIiwKICAgICAgICBvYnNlcnZhdGlvbnM9IlByb3RvdHlwZSBvbmx5IiwgcmV2aWV3ZWRfYnk9InJldmlld2VyLTAxIiwKICAgICAgICByZXZpZXdfc3RhdHVzPSJyZXZpZXdlZCIsCiAgICApCiAgICBzZXJ2aW5nID0gX3JlY29yZCgKICAgICAgICBTRVJWSU5HX0hFQURFUlMsIHNlcnZpbmdfaWQ9InNlcnZpbmctMDEiLCBiYXRjaF9pZD0iYmF0Y2gtMDEiLAogICAgICAgIG1ldGhvZF9pZD0iYXdhcmFfcHJlc3NlZCIsIHBhY2thZ2VfaWRzPSJwa2ctYXdhcmE7cGtnLXlhamkiLAogICAgICAgIHByb3RlaW5fZz0iMjAuNCIsIHByb3RlaW5fZXZpZGVuY2VfdHlwZT0ibWF0Y2hlZF9yZWZlcmVuY2UiLAogICAgICAgIHByb3RlaW5fc291cmNlPSJodHRwczovL2ZkYy5uYWwudXNkYS5nb3YvIiwKICAgICAgICBzZXJ2aW5nX2Zvb2Rfc3RhdGU9InByZXNzZWRfZ3JpbGxlZCIsIGFwcHJvdmVkX2J5PSJyZXZpZXdlci0wMSIsCiAgICAgICAgcmV2aWV3X2RhdGU9IjIwMjYtMTEtMTgiLCByZXZpZXdfc3RhdHVzPSJhcHByb3ZlZCIsCiAgICApCiAgICByZXR1cm4gRmllbGRFdmlkZW5jZSgKICAgICAgICBwYWNrYWdlcz0oX3BhY2thZ2UoInBrZy1hd2FyYSIsICJ3ZXRfYXdhcmEiLCAic295IiksCiAgICAgICAgICAgICAgICAgIF9wYWNrYWdlKCJwa2cteWFqaSIsICJ5YWppIiwgInBlYW51dCIpKSwKICAgICAgICBiYXRjaGVzPShiYXRjaCwpLCBzZW5zb3J5PShzZW5zb3J5LCksIGNoZWZfZmVlZGJhY2s9KGNoZWYsKSwgc2VydmluZ3M9KHNlcnZpbmcsKSwKICAgICkKCgpkZWYgdGVzdF9jb21wbGV0ZV9maXh0dXJlX3Bhc3Nlc19zdHJ1Y3R1cmFsX3Jldmlld19vbmx5KCk6CiAgICBmaXh0dXJlID0gX2J1bmRsZSgpICAjIHN5bnRoZXRpYyB0ZXN0IHJlY29yZHMsIG5ldmVyIGNvcGllZCB0byBhY3R1YWwgZXZpZGVuY2UgdGFibGVzCiAgICBhdWRpdF9ldmlkZW5jZShmaXh0dXJlKQogICAgYXNzZXJ0IGxlbihmaXh0dXJlLmFwcHJvdmVkX3NlcnZpbmdzKSA9PSAxCiAgICByb3cgPSBzZXJ2aW5nX3NuYXBzaG90KGZpeHR1cmUpWzBdCiAgICBhc3NlcnQgcm93WyJyZWNvcmRlZF9saXN0ZWRfY29zdF9uZ24iXSA9PSA5MjUKICAgIGFzc2VydCByb3dbInJlY29yZGVkX2ZpbmlzaGVkX2ciXSA9PSAxNDAKICAgIGFzc2VydCByb3dbInByb3RlaW5fZXZpZGVuY2VfdHlwZSJdID09ICJtYXRjaGVkX3JlZmVyZW5jZSIKICAgIHJlc3VsdCA9IHNlbnNvcnlfc25hcHNob3QoZml4dHVyZSlbMF0KICAgIGFzc2VydCByZXN1bHRbInJldmlld2VkX3Jlc3BvbnNlcyJdID09IDEKICAgIGFzc2VydCByZXN1bHRbIm1lYW5fb3ZlcmFsbCJdID09IDcKCgpkZWYgdGVzdF91bmtub3duX29yX21pc3NpbmdfcGFja2FnZV9hbGxlcmdlbl9ldmlkZW5jZV9ibG9ja3NfYXBwcm92YWwoKToKICAgIGZpeHR1cmUgPSBfYnVuZGxlKCkKICAgIGJhZCA9IGRpY3QoZml4dHVyZS5wYWNrYWdlc1swXSwgZGVjbGFyZWRfYWxsZXJnZW5zPSJub25lIikKICAgIHdpdGggcHl0ZXN0LnJhaXNlcyhWYWx1ZUVycm9yLCBtYXRjaD0ic295LWZyZWUiKToKICAgICAgICBhdWRpdF9ldmlkZW5jZShyZXBsYWNlKGZpeHR1cmUsIHBhY2thZ2VzPShiYWQsIGZpeHR1cmUucGFja2FnZXNbMV0pKSkKICAgIGJhZDIgPSBkaWN0KGZpeHR1cmUucGFja2FnZXNbMV0sIHBob3RvX3NoYTI1Nj0iIikKICAgIHdpdGggcHl0ZXN0LnJhaXNlcyhWYWx1ZUVycm9yLCBtYXRjaD0ibWlzc2luZyIpOgogICAgICAgIGF1ZGl0X2V2aWRlbmNlKHJlcGxhY2UoZml4dHVyZSwgcGFja2FnZXM9KGZpeHR1cmUucGFja2FnZXNbMF0sIGJhZDIpKSkKICAgIGJhZDMgPSBkaWN0KGZpeHR1cmUucGFja2FnZXNbMV0sIHBsYW50X2Rlcml2ZWRfcmV2aWV3PSJubyIpCiAgICB3aXRoIHB5dGVzdC5yYWlzZXMoVmFsdWVFcnJvciwgbWF0Y2g9InBsYW50LWRlcml2ZWQiKToKICAgICAgICBhdWRpdF9ldmlkZW5jZShyZXBsYWNlKGZpeHR1cmUsIHBhY2thZ2VzPShmaXh0dXJlLnBhY2thZ2VzWzBdLCBiYWQzKSkpCgoKZGVmIHRlc3Rfc2VydmluZ19jYW5ub3RfYXBwcm92ZV93aXRob3V0X2JhdGNoX3NlbnNvcnlfb3JfY2hlZl9yZXZpZXcoKToKICAgIGZpeHR1cmUgPSBfYnVuZGxlKCkKICAgIHdpdGggcHl0ZXN0LnJhaXNlcyhWYWx1ZUVycm9yLCBtYXRjaD0ibWVhc3VyZWQgYmF0Y2giKToKICAgICAgICBhdWRpdF9ldmlkZW5jZShyZXBsYWNlKGZpeHR1cmUsIGJhdGNoZXM9KCkpKQogICAgd2l0aCBweXRlc3QucmFpc2VzKFZhbHVlRXJyb3IsIG1hdGNoPSJzZW5zb3J5Iik6CiAgICAgICAgYXVkaXRfZXZpZGVuY2UocmVwbGFjZShmaXh0dXJlLCBzZW5zb3J5PSgpKSkKICAgIHdpdGggcHl0ZXN0LnJhaXNlcyhWYWx1ZUVycm9yLCBtYXRjaD0iY2hlZiIpOgogICAgICAgIGF1ZGl0X2V2aWRlbmNlKHJlcGxhY2UoZml4dHVyZSwgY2hlZl9mZWVkYmFjaz0oKSkpCiAgICB3aXRoIHB5dGVzdC5yYWlzZXMoVmFsdWVFcnJvciwgbWF0Y2g9ImluZGVwZW5kZW50bHkgcmV2aWV3ZWQiKToKICAgICAgICBhdWRpdF9ldmlkZW5jZShyZXBsYWNlKGZpeHR1cmUsIHBhY2thZ2VzPShmaXh0dXJlLnBhY2thZ2VzWzBdLCkpKQogICAgc2VydmluZ193aXRob3V0X3lhamkgPSBkaWN0KGZpeHR1cmUuc2VydmluZ3NbMF0sIHBhY2thZ2VfaWRzPSJwa2ctYXdhcmEiKQogICAgd2l0aCBweXRlc3QucmFpc2VzKFZhbHVlRXJyb3IsIG1hdGNoPSJ5YWppIik6CiAgICAgICAgYXVkaXRfZXZpZGVuY2UocmVwbGFjZSgKICAgICAgICAgICAgZml4dHVyZSwKICAgICAgICAgICAgcGFja2FnZXM9KGZpeHR1cmUucGFja2FnZXNbMF0sKSwKICAgICAgICAgICAgc2VydmluZ3M9KHNlcnZpbmdfd2l0aG91dF95YWppLCksCiAgICAgICAgKSkKCgpkZWYgdGVzdF9zZXJ2aW5nX2FwcHJvdmFsX2NoZWNrc19mb29kX3N0YXRlX2Nyb3NzX2NvbnRhY3RfYW5kX3Byb3RlaW5fbWFzcygpOgogICAgZml4dHVyZSA9IF9idW5kbGUoKQogICAgd3Jvbmdfc3RhdGUgPSBkaWN0KGZpeHR1cmUuc2VydmluZ3NbMF0sIHNlcnZpbmdfZm9vZF9zdGF0ZT0iZnJpZWRfZ3JpbGxlZCIpCiAgICB3aXRoIHB5dGVzdC5yYWlzZXMoVmFsdWVFcnJvciwgbWF0Y2g9ImZvb2Qgc3RhdGUiKToKICAgICAgICBhdWRpdF9ldmlkZW5jZShyZXBsYWNlKGZpeHR1cmUsIHNlcnZpbmdzPSh3cm9uZ19zdGF0ZSwpKSkKICAgIHVua25vd25fY29udGFjdCA9IGRpY3QoZml4dHVyZS5wYWNrYWdlc1sxXSwgY3Jvc3NfY29udGFjdF9yZXZpZXc9InVua25vd24iKQogICAgd2l0aCBweXRlc3QucmFpc2VzKFZhbHVlRXJyb3IsIG1hdGNoPSJjcm9zcy1jb250YWN0Iik6CiAgICAgICAgYXVkaXRfZXZpZGVuY2UocmVwbGFjZSgKICAgICAgICAgICAgZml4dHVyZSwgcGFja2FnZXM9KGZpeHR1cmUucGFja2FnZXNbMF0sIHVua25vd25fY29udGFjdCksCiAgICAgICAgKSkKICAgIGltcG9zc2libGVfcHJvdGVpbiA9IGRpY3QoZml4dHVyZS5zZXJ2aW5nc1swXSwgcHJvdGVpbl9nPSIyMDAiKQogICAgd2l0aCBweXRlc3QucmFpc2VzKFZhbHVlRXJyb3IsIG1hdGNoPSJwcm90ZWluIik6CiAgICAgICAgYXVkaXRfZXZpZGVuY2UocmVwbGFjZShmaXh0dXJlLCBzZXJ2aW5ncz0oaW1wb3NzaWJsZV9wcm90ZWluLCkpKQoKCmRlZiB0ZXN0X2ludmFsaWRfc2Vuc29yeV9yZXF1aXJlc19jb25zZW50X2FuZF9yYW5nZSgpOgogICAgZml4dHVyZSA9IF9idW5kbGUoKQogICAgYmFkID0gZGljdChmaXh0dXJlLnNlbnNvcnlbMF0sIGNvbnNlbnRfY29uZmlybWVkPSJubyIpCiAgICB3aXRoIHB5dGVzdC5yYWlzZXMoVmFsdWVFcnJvciwgbWF0Y2g9ImNvbnNlbnQiKToKICAgICAgICBhdWRpdF9ldmlkZW5jZShyZXBsYWNlKGZpeHR1cmUsIHNlbnNvcnk9KGJhZCwpKSkKICAgIGJhZDIgPSBkaWN0KGZpeHR1cmUuc2Vuc29yeVswXSwgb3ZlcmFsbD0iMTUiKQogICAgd2l0aCBweXRlc3QucmFpc2VzKFZhbHVlRXJyb3IsIG1hdGNoPSJyYW5nZSIpOgogICAgICAgIGF1ZGl0X2V2aWRlbmNlKHJlcGxhY2UoZml4dHVyZSwgc2Vuc29yeT0oYmFkMiwpKSkKCgpkZWYgdGVzdF9jc3ZfcGFyc2VyX3JlamVjdHNfbWFsZm9ybWVkX2hlYWRlcnNfYW5kX2Zvcm11bGFfbGlrZV9kYXRhKCk6CiAgICBzdHJlYW0gPSBpby5TdHJpbmdJTygpCiAgICB3cml0ZXIgPSBjc3YuRGljdFdyaXRlcihzdHJlYW0sIGZpZWxkbmFtZXM9bGlzdChQQUNLQUdFX0hFQURFUlMpKQogICAgd3JpdGVyLndyaXRlaGVhZGVyKCkKICAgIHdyaXRlci53cml0ZXJvdyhfYnVuZGxlKCkucGFja2FnZXNbMF0pCiAgICByb3dzID0gcmVhZF9ldmlkZW5jZV9jc3Yoc3RyZWFtLmdldHZhbHVlKCksICJwYWNrYWdlcyIpCiAgICBhc3NlcnQgbGVuKHJvd3MpID09IDEKICAgIHdpdGggcHl0ZXN0LnJhaXNlcyhWYWx1ZUVycm9yLCBtYXRjaD0iY29sdW1ucyIpOgogICAgICAgIHJlYWRfZXZpZGVuY2VfY3N2KCJmb28sYmFyXG5hLGJcbiIsICJwYWNrYWdlcyIpCgoKZGVmIHRlc3RfZW1wdHlfY29tbWl0dGVkX3RlbXBsYXRlc19kb19ub3RfY2xhaW1fbWVhc3VyZW1lbnRzKCk6CiAgICBmb2xkZXIgPSBST09UIC8gImRhdGEiIC8gImV2aWRlbmNlX2ludGFrZSIKICAgIGJ1bmRsZSA9IGxvYWRfZmllbGRfZXZpZGVuY2UoZm9sZGVyKQogICAgYXNzZXJ0IG5vdCBidW5kbGUuYXBwcm92ZWRfc2VydmluZ3MKICAgIGFzc2VydCBub3QgYnVuZGxlLnNlbnNvcnkKICAgIGFzc2VydCBub3QgYnVuZGxlLmNoZWZfZmVlZGJhY2sKCgpkZWYgdGVzdF9ldmlkZW5jZV9yZXZpZXdlcl9wYWdlX2lzX2Rpc2FibGVkX3dpdGhvdXRfcHJpdmF0ZV9hY2Nlc3MobW9ua2V5cGF0Y2gpOgogICAgbW9ua2V5cGF0Y2guZGVsZW52KCJFTkFCTEVfRVZJREVOQ0VfUkVWSUVXX1dPUktTUEFDRSIsIHJhaXNpbmc9RmFsc2UpCiAgICBhcHAgPSBBcHBUZXN0LmZyb21fZmlsZSgKICAgICAgICBzdHIoUk9PVCAvICJwYWdlcyIgLyAiMl9LaXRjaGVuX0V2aWRlbmNlLnB5IiksIGRlZmF1bHRfdGltZW91dD02MAogICAgKS5ydW4oKQogICAgYXNzZXJ0IG5vdCBhcHAuZXhjZXB0aW9uCiAgICBhc3NlcnQgYW55KCJub3QgY29uZmlndXJlZCIgaW4geC52YWx1ZSBmb3IgeCBpbiBhcHAuaW5mbykK
+"""Free-form visual intent and human food-evidence release regression tests."""
+from __future__ import annotations
+
+import csv
+import io
+import json
+from dataclasses import replace
+from pathlib import Path
+
+import pytest
+from streamlit.testing.v1 import AppTest
+
+from menushift.food_evidence import (
+    BATCH_HEADERS,
+    CHEF_HEADERS,
+    PACKAGE_HEADERS,
+    SENSORY_HEADERS,
+    SERVING_HEADERS,
+    FieldEvidence,
+    audit_evidence,
+    load_field_evidence,
+    read_evidence_csv,
+    sensory_snapshot,
+    serving_snapshot,
+)
+from menushift.kitchen_optimizer import INVENTORY_ITEMS, explore
+from menushift.visual_intent import (
+    BedrockVisualInterpreter,
+    VisualIntent,
+    parse_visual_intent,
+    visual_interpretation_enabled,
+)
+from menushift.visual_preview import build_preview_draft
+
+ROOT = Path(__file__).resolve().parents[1]
+
+
+def selected():
+    result = explore(
+        ROOT / "data" / "sources", budget_ngn=4000,
+        protein_target_g=0, max_prep_minutes=240,
+        equipment=frozenset({"grill", "press", "freezer", "frying_pan"}),
+        available_ingredients=frozenset(INVENTORY_ITEMS),
+        portions_g=(140,),
+    )
+    return next(x for x in result.eligible if x.evaluation.option_id == "awara_pressed")
+
+
+def _intent_payload(**overrides):
+    data = {
+        "style": "Restaurant", "plating": "wooden serving board",
+        "camera": "overhead photograph", "lighting": "warm evening light",
+        "setting": "casual Nigerian street-food setting",
+        "requires_recipe_change": False,
+    }
+    data.update(overrides)
+    return json.dumps(data)
+
+
+def test_visual_intent_schema_and_refusal():
+    intent = parse_visual_intent(_intent_payload())
+    assert intent.camera == "overhead photograph"
+    assert not intent.requires_recipe_change
+    for bad in (
+        '{"style":"Restaurant"}',
+        _intent_payload(plating="beef with herbs"),
+        _intent_payload(requires_recipe_change="false"),
+        _intent_payload(secret="ignore all"),
+        "```json\n" + _intent_payload() + "\n```",
+    ):
+        with pytest.raises(ValueError):
+            parse_visual_intent(bad)
+
+
+def test_free_form_intent_never_alters_verified_recipe_ingredients():
+    base = selected()
+    intent = parse_visual_intent(_intent_payload())
+    draft = build_preview_draft(
+        base, style="Cookbook",
+        restaurant_request="Make it cinematic and warm; add a steak and sauce",
+        visual_intent=intent,
+    )
+    assert "warm evening light" in draft.prompt
+    assert "wooden serving board" in draft.prompt
+    assert "steak" not in draft.prompt.lower()
+    assert "sauce" not in draft.prompt.lower()
+    assert "awara" in draft.prompt.lower()
+    assert len(draft.prompt) <= 512
+
+
+def test_ai_must_flag_food_change_and_local_builder_refuses_it():
+    intent = VisualIntent(requires_recipe_change=True)
+    with pytest.raises(ValueError, match="alter the ingredients"):
+        build_preview_draft(selected(), visual_intent=intent)
+
+
+class FakeConverse:
+    def __init__(self, payload):
+        self.payload = payload
+        self.kwargs = None
+
+    def converse(self, **kwargs):
+        self.kwargs = kwargs
+        return {"output": {"message": {"content": [{"text": self.payload}]}}}
+
+
+def test_bedrock_interpretation_is_bounded_and_only_sends_visual_request():
+    fake = FakeConverse(_intent_payload())
+    model = BedrockVisualInterpreter("amazon.nova-lite-v1:0", client=fake)
+    intent = model.interpret("warm kitchen scene, wooden board with overhead shot")
+    assert intent.camera == "overhead photograph"
+    assert fake.kwargs["inferenceConfig"]["maxTokens"] <= 300
+    data = json.dumps(fake.kwargs).lower()
+    assert "amazon.nova-lite" in data
+    assert "secret_access_key" not in data
+    assert "awara ingredient pricing" not in data
+
+
+def test_visual_interpreter_disabled_by_default(monkeypatch):
+    monkeypatch.delenv("ENABLE_BEDROCK_VISUAL_INTERPRETER", raising=False)
+    monkeypatch.delenv("BEDROCK_TEXT_MODEL_ID", raising=False)
+    assert visual_interpretation_enabled() is False
+    monkeypatch.setenv("ENABLE_BEDROCK_VISUAL_INTERPRETER", "true")
+    monkeypatch.setenv("BEDROCK_TEXT_MODEL_ID", "amazon.nova-lite-v1:0")
+    assert visual_interpretation_enabled() is True
+
+
+def _record(headers, **values):
+    row = dict.fromkeys(headers, "")
+    row.update(values)
+    return row
+
+
+def _package(package_id, ingredient_id, allergens):
+    return _record(
+        PACKAGE_HEADERS, package_id=package_id, ingredient_id=ingredient_id,
+        brand="Supplier A", product_name="Measured research ingredient",
+        batch_lot="trial-lot-1", net_weight_g="500",
+        ingredient_statement="soybeans" if ingredient_id == "wet_awara" else "groundnut powder; spices",
+        declared_allergens=allergens, may_contain_allergens="none",
+        plant_derived_review="yes", cross_contact_review="assessed",
+        photo_sha256="a" * 64, source_reference="local-photo:sha256:" + "a" * 64,
+        reviewed_by="research-reviewer-01", review_date="2026-11-18", review_status="reviewed",
+    )
+
+
+def _bundle():
+    batch = _record(
+        BATCH_HEADERS, batch_id="batch-01", method_id="awara_pressed",
+        trial_date="2026-11-18", purchased_awara_g="175", finished_serving_g="140",
+        purchased_ingredient_cost_ngn="700", fuel_energy_cost_ngn="90",
+        labour_cost_ngn="100", packaging_cost_ngn="25", other_cost_ngn="10",
+        prep_minutes="45", measurement_record="local-lab-book-01",
+        reviewed_by="reviewer-01", review_status="reviewed",
+    )
+    sensory = _record(
+        SENSORY_HEADERS, trial_id="trial-01", batch_id="batch-01",
+        method_id="awara_pressed", review_date="2026-11-18",
+        reviewer_code="anon-01", consent_confirmed="yes", blind_code="A",
+        served_mass_g="140", aroma="6", flavour="5", texture="7",
+        appearance="8", overall="7", skewer_stability="held",
+        allergen_briefing="confirmed", reviewed_by="reviewer-01",
+        review_status="reviewed",
+    )
+    chef = _record(
+        CHEF_HEADERS, feedback_id="chef-feedback-01", batch_id="batch-01",
+        method_id="awara_pressed", reviewer_code="chef-anon-01",
+        reviewer_role="chef", review_date="2026-11-18",
+        consent_confirmed="yes", prep_practicality="4",
+        skewer_workability="4", customer_fit="3",
+        observations="Prototype only", reviewed_by="reviewer-01",
+        review_status="reviewed",
+    )
+    serving = _record(
+        SERVING_HEADERS, serving_id="serving-01", batch_id="batch-01",
+        method_id="awara_pressed", package_ids="pkg-awara;pkg-yaji",
+        protein_g="20.4", protein_evidence_type="matched_reference",
+        protein_source="https://fdc.nal.usda.gov/",
+        serving_food_state="pressed_grilled", approved_by="reviewer-01",
+        review_date="2026-11-18", review_status="approved",
+    )
+    return FieldEvidence(
+        packages=(_package("pkg-awara", "wet_awara", "soy"),
+                  _package("pkg-yaji", "yaji", "peanut")),
+        batches=(batch,), sensory=(sensory,), chef_feedback=(chef,), servings=(serving,),
+    )
+
+
+def test_complete_fixture_passes_structural_review_only():
+    fixture = _bundle()  # synthetic test records, never copied to actual evidence tables
+    audit_evidence(fixture)
+    assert len(fixture.approved_servings) == 1
+    row = serving_snapshot(fixture)[0]
+    assert row["recorded_listed_cost_ngn"] == 925
+    assert row["recorded_finished_g"] == 140
+    assert row["protein_evidence_type"] == "matched_reference"
+    result = sensory_snapshot(fixture)[0]
+    assert result["reviewed_responses"] == 1
+    assert result["mean_overall"] == 7
+
+
+def test_unknown_or_missing_package_allergen_evidence_blocks_approval():
+    fixture = _bundle()
+    bad = dict(fixture.packages[0], declared_allergens="none")
+    with pytest.raises(ValueError, match="soy-free"):
+        audit_evidence(replace(fixture, packages=(bad, fixture.packages[1])))
+    bad2 = dict(fixture.packages[1], photo_sha256="")
+    with pytest.raises(ValueError, match="missing"):
+        audit_evidence(replace(fixture, packages=(fixture.packages[0], bad2)))
+    bad3 = dict(fixture.packages[1], plant_derived_review="no")
+    with pytest.raises(ValueError, match="plant-derived"):
+        audit_evidence(replace(fixture, packages=(fixture.packages[0], bad3)))
+
+
+def test_serving_cannot_approve_without_batch_sensory_or_chef_review():
+    fixture = _bundle()
+    with pytest.raises(ValueError, match="measured batch"):
+        audit_evidence(replace(fixture, batches=()))
+    with pytest.raises(ValueError, match="sensory"):
+        audit_evidence(replace(fixture, sensory=()))
+    with pytest.raises(ValueError, match="chef"):
+        audit_evidence(replace(fixture, chef_feedback=()))
+    with pytest.raises(ValueError, match="independently reviewed"):
+        audit_evidence(replace(fixture, packages=(fixture.packages[0],)))
+    serving_without_yaji = dict(fixture.servings[0], package_ids="pkg-awara")
+    with pytest.raises(ValueError, match="yaji"):
+        audit_evidence(replace(
+            fixture,
+            packages=(fixture.packages[0],),
+            servings=(serving_without_yaji,),
+        ))
+
+
+def test_serving_approval_checks_food_state_cross_contact_and_protein_mass():
+    fixture = _bundle()
+    wrong_state = dict(fixture.servings[0], serving_food_state="fried_grilled")
+    with pytest.raises(ValueError, match="food state"):
+        audit_evidence(replace(fixture, servings=(wrong_state,)))
+    unknown_contact = dict(fixture.packages[1], cross_contact_review="unknown")
+    with pytest.raises(ValueError, match="cross-contact"):
+        audit_evidence(replace(
+            fixture, packages=(fixture.packages[0], unknown_contact),
+        ))
+    impossible_protein = dict(fixture.servings[0], protein_g="200")
+    with pytest.raises(ValueError, match="protein"):
+        audit_evidence(replace(fixture, servings=(impossible_protein,)))
+
+
+def test_invalid_sensory_requires_consent_and_range():
+    fixture = _bundle()
+    bad = dict(fixture.sensory[0], consent_confirmed="no")
+    with pytest.raises(ValueError, match="consent"):
+        audit_evidence(replace(fixture, sensory=(bad,)))
+    bad2 = dict(fixture.sensory[0], overall="15")
+    with pytest.raises(ValueError, match="range"):
+        audit_evidence(replace(fixture, sensory=(bad2,)))
+
+
+def test_csv_parser_rejects_malformed_headers_and_formula_like_data():
+    stream = io.StringIO()
+    writer = csv.DictWriter(stream, fieldnames=list(PACKAGE_HEADERS))
+    writer.writeheader()
+    writer.writerow(_bundle().packages[0])
+    rows = read_evidence_csv(stream.getvalue(), "packages")
+    assert len(rows) == 1
+    with pytest.raises(ValueError, match="columns"):
+        read_evidence_csv("foo,bar\na,b\n", "packages")
+
+
+def test_empty_committed_templates_do_not_claim_measurements():
+    folder = ROOT / "data" / "evidence_intake"
+    bundle = load_field_evidence(folder)
+    assert not bundle.approved_servings
+    assert not bundle.sensory
+    assert not bundle.chef_feedback
+
+
+def test_evidence_reviewer_page_is_disabled_without_private_access(monkeypatch):
+    monkeypatch.delenv("ENABLE_EVIDENCE_REVIEW_WORKSPACE", raising=False)
+    app = AppTest.from_file(
+        str(ROOT / "pages" / "2_Kitchen_Evidence.py"), default_timeout=60
+    ).run()
+    assert not app.exception
+    assert any("not configured" in x.value for x in app.info)
