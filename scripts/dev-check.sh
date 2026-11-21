@@ -1,1 +1,10 @@
-IyEvdXNyL2Jpbi9lbnYgYmFzaApzZXQgLWV1byBwaXBlZmFpbApweXRob24gLW0gY29tcGlsZWFsbCAtcSBhcHAucHkgc3JjCnB5dGhvbiAtbSBweXRlc3QgLXEKaWYgY29tbWFuZCAtdiBydWZmID4vZGV2L251bGwgMj4mMTsgdGhlbgogIHJ1ZmYgY2hlY2sgc3JjIHRlc3RzIGFwcC5weQplbHNlCiAgZWNobyAncnVmZiBub3QgaW5zdGFsbGVkIGluIHRoaXMgZW52aXJvbm1lbnQ7IENJIHdpbGwgcnVuIHRoZSBsaW50IGdhdGUuJwpmaQpweXRob24gLW0gbWVudXNoaWZ0LmNsaSAtLWRpc2ggc3V5YSAtLWJ1ZGdldCAxNTAwIC0tcHJvdGVpbiAxMCAtLXNlbnNpdGl2aXR5ID4vZGV2L251bGwK
+#!/usr/bin/env bash
+set -euo pipefail
+python -m compileall -q app.py src
+python -m pytest -q
+if command -v ruff >/dev/null 2>&1; then
+  ruff check src tests app.py
+else
+  echo 'ruff not installed in this environment; CI will run the lint gate.'
+fi
+python -m menushift.cli --dish suya --budget 1500 --protein 10 --sensitivity >/dev/null
