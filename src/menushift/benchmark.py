@@ -1,1 +1,124 @@
-IiIiUmVwcm9kdWNpYmxlIGNvbXBhcmlzb24gYWdhaW5zdCBpbmRlcGVuZGVudGx5IHJldmlld2VkIHJlc3RhdXJhbnQgc2NlbmFyaW9zLgoKQSBzb3VyY2Ugc3ByZWFkc2hlZXQgb3IgYSBzeW50aGV0aWMgc2NlbmFyaW8gZG9lcyBub3QgY291bnQgYXMgcmVzdGF1cmFudCB2YWxpZGF0aW9uLgpUaGlzIG1vZHVsZSByZWZ1c2VzIHRvIHJlcG9ydCByZXZpZXdlciBhZ3JlZW1lbnQgdW5sZXNzIGV4cGxpY2l0bHkgYXBwcm92ZWQgbGFiZWxzIGV4aXN0LgoiIiIKCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmltcG9ydCBjc3YKaW1wb3J0IG1hdGgKZnJvbSBkYXRhY2xhc3NlcyBpbXBvcnQgYXNkaWN0LCBkYXRhY2xhc3MKZnJvbSBkYXRldGltZSBpbXBvcnQgZGF0ZQpmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKCmZyb20gLmVuZ2luZSBpbXBvcnQgRGF0YXNldCwgY29tcGFyZV9yYW5rZXJzLCBkaXNoX29wdGlvbnMKClJFVklFV19DT0xVTU5TID0gKAogICAgImNhc2VfaWQiLCAicmV2aWV3ZXJfaWQiLCAicmV2aWV3ZXJfcm9sZSIsICJyZXZpZXdlZF9vbiIsICJldmlkZW5jZV9yZWZlcmVuY2UiLAogICAgImFwcHJvdmFsX3N0YXR1cyIsICJkaXNoX2lkIiwgImJ1ZGdldF9uZ24iLCAicHJvdGVpbl90YXJnZXRfZyIsCiAgICAibWF4X3ByZXBfbWludXRlcyIsICJwcmVmZXJlbmNlIiwgImF2b2lkX2FsbGVyZ2VucyIsICJyZXZpZXdlcl9wcmVmZXJyZWRfb3B0aW9uX2lkIiwKKQoKCkBkYXRhY2xhc3MoZnJvemVuPVRydWUpCmNsYXNzIEJlbmNobWFya1N1bW1hcnk6CiAgICByZXZpZXdlZF9jYXNlczogaW50CiAgICBjaGVhcGVzdF9mZWFzaWJsZV9hZ3JlZW1lbnRzOiBpbnQKICAgIGtleXdvcmRfYWdyZWVtZW50czogaW50CiAgICB0ZmlkZl9hZ3JlZW1lbnRzOiBpbnQKICAgIGFic3RlbnRpb25fY2FzZXM6IGludAogICAgZGF0YXNldF9raW5kOiBzdHIKCiAgICBkZWYgdG9fZGljdChzZWxmKSAtPiBkaWN0OgogICAgICAgIHJldHVybiBhc2RpY3Qoc2VsZikKCgpkZWYgcmVhZF9yZXZpZXdfY2FzZXMocGF0aDogc3RyIHwgUGF0aCkgLT4gbGlzdFtkaWN0W3N0ciwgc3RyXV06CiAgICAiIiJSZWFkIG9ubHkgYXBwcm92ZWQsIGF0dHJpYnV0YWJsZSBhc3Nlc3NtZW50cyB3aXRoIGV4cGxpY2l0IHNjZW5hcmlvIGxhYmVscy4iIiIKICAgIHdpdGggUGF0aChwYXRoKS5vcGVuKGVuY29kaW5nPSJ1dGYtOC1zaWciLCBuZXdsaW5lPSIiKSBhcyBoYW5kbGU6CiAgICAgICAgcmVhZGVyID0gY3N2LkRpY3RSZWFkZXIoaGFuZGxlKQogICAgICAgIGlmIHJlYWRlci5maWVsZG5hbWVzIGlzIE5vbmUgb3IgbGVuKHNldChyZWFkZXIuZmllbGRuYW1lcykpICE9IGxlbihyZWFkZXIuZmllbGRuYW1lcyk6CiAgICAgICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoIkludmFsaWQgcmV2aWV3ZXIgQ1NWIGhlYWRlcnMiKQogICAgICAgIGlmIG5vdCBzZXQoUkVWSUVXX0NPTFVNTlMpLmlzc3Vic2V0KHJlYWRlci5maWVsZG5hbWVzKToKICAgICAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigiTWlzc2luZyByZXZpZXdlciBDU1YgY29sdW1uczogIiArICIsICIuam9pbihzb3J0ZWQoc2V0KFJFVklFV19DT0xVTU5TKSAtIHNldChyZWFkZXIuZmllbGRuYW1lcykpKSkKICAgICAgICByb3dzID0gbGlzdChyZWFkZXIpCiAgICBpZiBub3Qgcm93czoKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJObyBpbmRlcGVuZGVudGx5IHJldmlld2VkIGNhc2VzIHJlY29yZGVkOyBiZW5jaG1hcmsgY2Fubm90IGJlIGNsYWltZWQiKQogICAgc2Vlbjogc2V0W3N0cl0gPSBzZXQoKQogICAgZm9yIHJvdyBpbiByb3dzOgogICAgICAgIGNhc2UgPSByb3cuZ2V0KCJjYXNlX2lkIiwgIiIpLnN0cmlwKCkKICAgICAgICBpZiBub3QgY2FzZSBvciBjYXNlIGluIHNlZW4gb3IgTm9uZSBpbiByb3cgb3IgYW55KHZhbHVlIGlzIE5vbmUgZm9yIHZhbHVlIGluIHJvdy52YWx1ZXMoKSk6CiAgICAgICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoIk1pc3NpbmcsIGR1cGxpY2F0ZSBvciBtYWxmb3JtZWQgcmV2aWV3ZXIgY2FzZSIpCiAgICAgICAgc2Vlbi5hZGQoY2FzZSkKICAgICAgICBpZiByb3dbImFwcHJvdmFsX3N0YXR1cyJdLnN0cmlwKCkubG93ZXIoKSAhPSAiYXBwcm92ZWQiOgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKGYie2Nhc2V9OiBhIHJldmlld2VyIG11c3QgYXBwcm92ZSB0aGUgY2FzZSBiZWZvcmUgYmVuY2htYXJraW5nIikKICAgICAgICBpZiBhbnkobm90IHJvd1tmaWVsZF0uc3RyaXAoKSBmb3IgZmllbGQgaW4gKAogICAgICAgICAgICAicmV2aWV3ZXJfaWQiLCAicmV2aWV3ZXJfcm9sZSIsICJyZXZpZXdlZF9vbiIsICJldmlkZW5jZV9yZWZlcmVuY2UiLAogICAgICAgICAgICAiZGlzaF9pZCIsICJyZXZpZXdlcl9wcmVmZXJyZWRfb3B0aW9uX2lkIiwKICAgICAgICApKToKICAgICAgICAgICAgcmFpc2UgVmFsdWVFcnJvcihmIntjYXNlfTogcmV2aWV3ZXIgaWRlbnRpdHksIGNvbnRleHQsIGV2aWRlbmNlIGFuZCBjaG9pY2UgYXJlIHJlcXVpcmVkIikKICAgICAgICB0cnk6CiAgICAgICAgICAgIGRhdGUuZnJvbWlzb2Zvcm1hdChyb3dbInJldmlld2VkX29uIl0uc3RyaXAoKSkKICAgICAgICBleGNlcHQgVmFsdWVFcnJvciBhcyBleGM6CiAgICAgICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoZiJ7Y2FzZX06IHJldmlld2VkX29uIG11c3QgYmUgWVlZWS1NTS1ERCIpIGZyb20gZXhjCiAgICByZXR1cm4gcm93cwoKCmRlZiBfbnVtYmVyKHJvdzogZGljdFtzdHIsIHN0cl0sIGZpZWxkOiBzdHIsIGNhc2U6IHN0ciwgKiwgcG9zaXRpdmU6IGJvb2wgPSBGYWxzZSkgLT4gZmxvYXQ6CiAgICB0cnk6CiAgICAgICAgbnVtYmVyID0gZmxvYXQocm93W2ZpZWxkXSkKICAgIGV4Y2VwdCAoS2V5RXJyb3IsIFZhbHVlRXJyb3IsIFR5cGVFcnJvcikgYXMgZXhjOgogICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoZiJ7Y2FzZX06IHtmaWVsZH0gbXVzdCBiZSBudW1lcmljIikgZnJvbSBleGMKICAgIGlmIG5vdCBtYXRoLmlzZmluaXRlKG51bWJlcikgb3IgKG51bWJlciA8PSAwIGlmIHBvc2l0aXZlIGVsc2UgbnVtYmVyIDwgMCk6CiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcihmIntjYXNlfToge2ZpZWxkfSBpcyBpbnZhbGlkIikKICAgIHJldHVybiBudW1iZXIKCgpkZWYgYmVuY2htYXJrX3Jldmlld3MoCiAgICBkYXRhOiBEYXRhc2V0LCBjYXNlczogbGlzdFtkaWN0W3N0ciwgc3RyXV0sICosIGFsbG93X3N5bnRoZXRpY19maXh0dXJlOiBib29sID0gRmFsc2UsCikgLT4gQmVuY2htYXJrU3VtbWFyeToKICAgICIiIkNvbXBhcmUgbWV0aG9kcyBhZ2FpbnN0IGh1bWFuIGxhYmVsczsgbmV2ZXIgdHVuZSBvciBjbGFpbSB1cGxpZnQgZnJvbSB1bnJldmlld2VkIHJvd3MuIiIiCiAgICBpZiBkYXRhLmRlbW8gYW5kIG5vdCBhbGxvd19zeW50aGV0aWNfZml4dHVyZToKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJJbmRlcGVuZGVudCByZXN0YXVyYW50IGJlbmNobWFyayByZXF1aXJlcyBhIHZlcmlmaWVkLCBub24tc3ludGhldGljIGRhdGFzZXQiKQogICAgaWYgbm90IGNhc2VzOgogICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoIk5vIGluZGVwZW5kZW50bHkgcmV2aWV3ZWQgY2FzZXMgcmVjb3JkZWQ7IGJlbmNobWFyayBjYW5ub3QgYmUgY2xhaW1lZCIpCiAgICBtYXRjaGVzID0geyJjaGVhcGVzdF9mZWFzaWJsZV9wbGFudCI6IDAsICJrZXl3b3JkX2h5YnJpZCI6IDAsICJ0ZmlkZl9oeWJyaWQiOiAwfQogICAgYWJzdGVudGlvbnMgPSAwCiAgICBmb3Igcm93IGluIGNhc2VzOgogICAgICAgIGNhc2UgPSByb3dbImNhc2VfaWQiXS5zdHJpcCgpCiAgICAgICAgaWYgcm93WyJhcHByb3ZhbF9zdGF0dXMiXS5zdHJpcCgpLmxvd2VyKCkgIT0gImFwcHJvdmVkIjoKICAgICAgICAgICAgcmFpc2UgVmFsdWVFcnJvcihmIntjYXNlfTogdW5hcHByb3ZlZCByZXZpZXdlciBsYWJlbCIpCiAgICAgICAga25vd24gPSB7b3B0aW9uWyJvcHRpb25faWQiXTogb3B0aW9uIGZvciBvcHRpb24gaW4gZGlzaF9vcHRpb25zKGRhdGEsIHJvd1siZGlzaF9pZCJdKX0KICAgICAgICBzZWxlY3RlZCA9IHJvd1sicmV2aWV3ZXJfcHJlZmVycmVkX29wdGlvbl9pZCJdLnN0cmlwKCkKICAgICAgICBpZiBzZWxlY3RlZCAhPSAiTk9ORSIgYW5kIChzZWxlY3RlZCBub3QgaW4ga25vd24gb3Iga25vd25bc2VsZWN0ZWRdWyJncm91cCJdICE9ICJwbGFudCIpOgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKGYie2Nhc2V9OiByZXZpZXdlciBjaG9pY2UgbXVzdCBiZSBhIHBsYW50IG9wdGlvbiBpbiB0aGUgc2VsZWN0ZWQgZGlzaCBvciBOT05FIikKICAgICAgICByZXBvcnQgPSBjb21wYXJlX3JhbmtlcnMoCiAgICAgICAgICAgIGRhdGEsIHJvd1siZGlzaF9pZCJdLAogICAgICAgICAgICBidWRnZXRfbmduPV9udW1iZXIocm93LCAiYnVkZ2V0X25nbiIsIGNhc2UsIHBvc2l0aXZlPVRydWUpLAogICAgICAgICAgICBwcm90ZWluX3RhcmdldF9nPV9udW1iZXIocm93LCAicHJvdGVpbl90YXJnZXRfZyIsIGNhc2UpLAogICAgICAgICAgICBtYXhfcHJlcF9taW51dGVzPV9udW1iZXIocm93LCAibWF4X3ByZXBfbWludXRlcyIsIGNhc2UsIHBvc2l0aXZlPVRydWUpLAogICAgICAgICAgICBwcmVmZXJlbmNlPXJvd1sicHJlZmVyZW5jZSJdLnN0cmlwKCksCiAgICAgICAgICAgIGF2b2lkX2FsbGVyZ2Vucz1bCiAgICAgICAgICAgICAgICBpdGVtLnN0cmlwKCkubG93ZXIoKSBmb3IgaXRlbSBpbiByb3dbImF2b2lkX2FsbGVyZ2VucyJdLnNwbGl0KCI7IikgaWYgaXRlbS5zdHJpcCgpCiAgICAgICAgICAgIF0sCiAgICAgICAgKQogICAgICAgIGlmIHNlbGVjdGVkID09ICJOT05FIjoKICAgICAgICAgICAgaWYgbm90IHJlcG9ydFsiYWJzdGFpbmVkIl06CiAgICAgICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKGYie2Nhc2V9OiByZXZpZXdlciBtYXJrZWQgTk9ORSBidXQgdGhlIG1vZGVsIGhhcyBlbGlnaWJsZSBvcHRpb25zOyByZWNvbmNpbGUgY29uc3RyYWludHMiKQogICAgICAgICAgICBhYnN0ZW50aW9ucyArPSAxCiAgICAgICAgICAgIGV4cGVjdGVkID0gTm9uZQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIGlmIHJlcG9ydFsiYWJzdGFpbmVkIl06CiAgICAgICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKGYie2Nhc2V9OiByZXZpZXdlciBzZWxlY3RlZCBhbiBvcHRpb24gZGVzcGl0ZSBubyBmZWFzaWJsZSBjYW5kaWRhdGUiKQogICAgICAgICAgICBleHBlY3RlZCA9IHNlbGVjdGVkCiAgICAgICAgZm9yIGZpZWxkIGluIG1hdGNoZXM6CiAgICAgICAgICAgIG1hdGNoZXNbZmllbGRdICs9IGludChyZXBvcnRbZmllbGRdID09IGV4cGVjdGVkKQogICAgcmV0dXJuIEJlbmNobWFya1N1bW1hcnkoCiAgICAgICAgcmV2aWV3ZWRfY2FzZXM9bGVuKGNhc2VzKSwKICAgICAgICBjaGVhcGVzdF9mZWFzaWJsZV9hZ3JlZW1lbnRzPW1hdGNoZXNbImNoZWFwZXN0X2ZlYXNpYmxlX3BsYW50Il0sCiAgICAgICAga2V5d29yZF9hZ3JlZW1lbnRzPW1hdGNoZXNbImtleXdvcmRfaHlicmlkIl0sCiAgICAgICAgdGZpZGZfYWdyZWVtZW50cz1tYXRjaGVzWyJ0ZmlkZl9oeWJyaWQiXSwKICAgICAgICBhYnN0ZW50aW9uX2Nhc2VzPWFic3RlbnRpb25zLAogICAgICAgIGRhdGFzZXRfa2luZD0iU1lOVEhFVElDIFRFU1QgRklYVFVSRSIgaWYgZGF0YS5kZW1vIGVsc2UgIkhVTUFOIFJFVklFV0VEIChOT1QgU0NJRU5USUZJQyBWQUxJREFUSU9OKSIsCiAgICApCg==
+"""Reproducible comparison against independently reviewed restaurant scenarios.
+
+A source spreadsheet or a synthetic scenario does not count as restaurant validation.
+This module refuses to report reviewer agreement unless explicitly approved labels exist.
+"""
+
+from __future__ import annotations
+
+import csv
+import math
+from dataclasses import asdict, dataclass
+from datetime import date
+from pathlib import Path
+
+from .engine import Dataset, compare_rankers, dish_options
+
+REVIEW_COLUMNS = (
+    "case_id", "reviewer_id", "reviewer_role", "reviewed_on", "evidence_reference",
+    "approval_status", "dish_id", "budget_ngn", "protein_target_g",
+    "max_prep_minutes", "preference", "avoid_allergens", "reviewer_preferred_option_id",
+)
+
+
+@dataclass(frozen=True)
+class BenchmarkSummary:
+    reviewed_cases: int
+    cheapest_feasible_agreements: int
+    keyword_agreements: int
+    tfidf_agreements: int
+    abstention_cases: int
+    dataset_kind: str
+
+    def to_dict(self) -> dict:
+        return asdict(self)
+
+
+def read_review_cases(path: str | Path) -> list[dict[str, str]]:
+    """Read only approved, attributable assessments with explicit scenario labels."""
+    with Path(path).open(encoding="utf-8-sig", newline="") as handle:
+        reader = csv.DictReader(handle)
+        if reader.fieldnames is None or len(set(reader.fieldnames)) != len(reader.fieldnames):
+            raise ValueError("Invalid reviewer CSV headers")
+        if not set(REVIEW_COLUMNS).issubset(reader.fieldnames):
+            raise ValueError("Missing reviewer CSV columns: " + ", ".join(sorted(set(REVIEW_COLUMNS) - set(reader.fieldnames))))
+        rows = list(reader)
+    if not rows:
+        raise ValueError("No independently reviewed cases recorded; benchmark cannot be claimed")
+    seen: set[str] = set()
+    for row in rows:
+        case = row.get("case_id", "").strip()
+        if not case or case in seen or None in row or any(value is None for value in row.values()):
+            raise ValueError("Missing, duplicate or malformed reviewer case")
+        seen.add(case)
+        if row["approval_status"].strip().lower() != "approved":
+            raise ValueError(f"{case}: a reviewer must approve the case before benchmarking")
+        if any(not row[field].strip() for field in (
+            "reviewer_id", "reviewer_role", "reviewed_on", "evidence_reference",
+            "dish_id", "reviewer_preferred_option_id",
+        )):
+            raise ValueError(f"{case}: reviewer identity, context, evidence and choice are required")
+        try:
+            date.fromisoformat(row["reviewed_on"].strip())
+        except ValueError as exc:
+            raise ValueError(f"{case}: reviewed_on must be YYYY-MM-DD") from exc
+    return rows
+
+
+def _number(row: dict[str, str], field: str, case: str, *, positive: bool = False) -> float:
+    try:
+        number = float(row[field])
+    except (KeyError, ValueError, TypeError) as exc:
+        raise ValueError(f"{case}: {field} must be numeric") from exc
+    if not math.isfinite(number) or (number <= 0 if positive else number < 0):
+        raise ValueError(f"{case}: {field} is invalid")
+    return number
+
+
+def benchmark_reviews(
+    data: Dataset, cases: list[dict[str, str]], *, allow_synthetic_fixture: bool = False,
+) -> BenchmarkSummary:
+    """Compare methods against human labels; never tune or claim uplift from unreviewed rows."""
+    if data.demo and not allow_synthetic_fixture:
+        raise ValueError("Independent restaurant benchmark requires a verified, non-synthetic dataset")
+    if not cases:
+        raise ValueError("No independently reviewed cases recorded; benchmark cannot be claimed")
+    matches = {"cheapest_feasible_plant": 0, "keyword_hybrid": 0, "tfidf_hybrid": 0}
+    abstentions = 0
+    for row in cases:
+        case = row["case_id"].strip()
+        if row["approval_status"].strip().lower() != "approved":
+            raise ValueError(f"{case}: unapproved reviewer label")
+        known = {option["option_id"]: option for option in dish_options(data, row["dish_id"])}
+        selected = row["reviewer_preferred_option_id"].strip()
+        if selected != "NONE" and (selected not in known or known[selected]["group"] != "plant"):
+            raise ValueError(f"{case}: reviewer choice must be a plant option in the selected dish or NONE")
+        report = compare_rankers(
+            data, row["dish_id"],
+            budget_ngn=_number(row, "budget_ngn", case, positive=True),
+            protein_target_g=_number(row, "protein_target_g", case),
+            max_prep_minutes=_number(row, "max_prep_minutes", case, positive=True),
+            preference=row["preference"].strip(),
+            avoid_allergens=[
+                item.strip().lower() for item in row["avoid_allergens"].split(";") if item.strip()
+            ],
+        )
+        if selected == "NONE":
+            if not report["abstained"]:
+                raise ValueError(f"{case}: reviewer marked NONE but the model has eligible options; reconcile constraints")
+            abstentions += 1
+            expected = None
+        else:
+            if report["abstained"]:
+                raise ValueError(f"{case}: reviewer selected an option despite no feasible candidate")
+            expected = selected
+        for field in matches:
+            matches[field] += int(report[field] == expected)
+    return BenchmarkSummary(
+        reviewed_cases=len(cases),
+        cheapest_feasible_agreements=matches["cheapest_feasible_plant"],
+        keyword_agreements=matches["keyword_hybrid"],
+        tfidf_agreements=matches["tfidf_hybrid"],
+        abstention_cases=abstentions,
+        dataset_kind="SYNTHETIC TEST FIXTURE" if data.demo else "HUMAN REVIEWED (NOT SCIENTIFIC VALIDATION)",
+    )
