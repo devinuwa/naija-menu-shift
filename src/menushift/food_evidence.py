@@ -1,1 +1,412 @@
-IiIiSHVtYW4tcmV2aWV3IGdhdGVzIGZvciBwYWNrYWdlZCBpbmdyZWRpZW50IGxhYmVscywgZmllbGQgYmF0Y2hlcyBhbmQgdGFzdGluZyBwYW5lbHMuCgpObyBPQ1IsIGltYWdlIG1vZGVsIG9yIExMTSBtYXkgYXBwcm92ZSBmb29kIGFsbGVyZ2VuIHNhZmV0eSwgbnV0cml0aW9uIG9yIHRhc3RlLgpUaGUgZnVuY3Rpb25zIHZhbGlkYXRlIGV2aWRlbmNlIGNvbXBsZXRlbmVzcywgbm90IGEgbGVnYWwgb3IgY2xpbmljYWwgY2VydGlmaWNhdGlvbi4KQWxsIGlucHV0IHJlY29yZHMgYXJlIHByb3ZpZGVkIGV4cGxpY2l0bHk7IHRoaXMgbW9kdWxlIGRvZXMgbm90IGNvbGxlY3QgUElJLApjYWxsIG5ldHdvcmtzLCBtdXRhdGUgR2l0SHViIG9yIHNpbGVudGx5IHByb21vdGUgdW5yZXZpZXdlZCBkYXRhLgoiIiIKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKaW1wb3J0IGNzdgppbXBvcnQgaW8KaW1wb3J0IG1hdGgKZnJvbSBkYXRhY2xhc3NlcyBpbXBvcnQgZGF0YWNsYXNzCmZyb20gZGF0ZXRpbWUgaW1wb3J0IGRhdGUKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCmZyb20gdHlwaW5nIGltcG9ydCBBbnkKCmZyb20gLmtpdGNoZW5fb3B0aW1pemVyIGltcG9ydCBFUVVJUE1FTlRfUkVRVUlSRU1FTlRTCgpJTkdSRURJRU5UUyA9IHsKICAgICJ3ZXRfYXdhcmEiLCAiZnJpZWRfYXdhcmEiLCAib25pb24iLCAicGVwcGVyIiwgInNhbHQiLCAic2Vhc29uaW5nIiwgInlhamkiLAp9CkFMTEVSR0VOUyA9IHsKICAgICJzb3kiLCAicGVhbnV0IiwgIndoZWF0IiwgInNlc2FtZSIsICJtaWxrIiwgImVnZyIsCiAgICAidHJlZSBudXQiLCAiZmlzaCIsICJzaGVsbGZpc2giLCAibXVzdGFyZCIsICJjZWxlcnkiLCAibHVwaW4iLAp9ClJBVElOR1MgPSAoImFyb21hIiwgImZsYXZvdXIiLCAidGV4dHVyZSIsICJhcHBlYXJhbmNlIiwgIm92ZXJhbGwiKQpGT09EX1NUQVRFX0ZPUl9NRVRIT0QgPSB7CiAgICAiYXdhcmFfZmlybSI6ICJ1bnByZXNzZWRfZ3JpbGxlZCIsCiAgICAiYXdhcmFfcHJlc3NlZCI6ICJwcmVzc2VkX2dyaWxsZWQiLAogICAgImF3YXJhX2Zyb3plbiI6ICJmcm96ZW5fdGhhd2VkX2dyaWxsZWQiLAogICAgImF3YXJhX2ZyaWVkIjogImZyaWVkX2dyaWxsZWQiLAp9CgoKUEFDS0FHRV9IRUFERVJTID0gKAogICAgInBhY2thZ2VfaWQiLCAiaW5ncmVkaWVudF9pZCIsICJicmFuZCIsICJwcm9kdWN0X25hbWUiLCAiYmF0Y2hfbG90IiwKICAgICJuZXRfd2VpZ2h0X2ciLCAiaW5ncmVkaWVudF9zdGF0ZW1lbnQiLCAiZGVjbGFyZWRfYWxsZXJnZW5zIiwKICAgICJtYXlfY29udGFpbl9hbGxlcmdlbnMiLCAicGxhbnRfZGVyaXZlZF9yZXZpZXciLCAiY3Jvc3NfY29udGFjdF9yZXZpZXciLAogICAgInBob3RvX3NoYTI1NiIsICJzb3VyY2VfcmVmZXJlbmNlIiwgInJldmlld2VkX2J5IiwgInJldmlld19kYXRlIiwgInJldmlld19zdGF0dXMiLAopCkJBVENIX0hFQURFUlMgPSAoCiAgICAiYmF0Y2hfaWQiLCAibWV0aG9kX2lkIiwgInRyaWFsX2RhdGUiLCAicHVyY2hhc2VkX2F3YXJhX2ciLAogICAgImZpbmlzaGVkX3NlcnZpbmdfZyIsICJwdXJjaGFzZWRfaW5ncmVkaWVudF9jb3N0X25nbiIsICJmdWVsX2VuZXJneV9jb3N0X25nbiIsCiAgICAibGFib3VyX2Nvc3RfbmduIiwgInBhY2thZ2luZ19jb3N0X25nbiIsICJvdGhlcl9jb3N0X25nbiIsICJwcmVwX21pbnV0ZXMiLAogICAgIm1lYXN1cmVtZW50X3JlY29yZCIsICJyZXZpZXdlZF9ieSIsICJyZXZpZXdfc3RhdHVzIiwKKQpTRU5TT1JZX0hFQURFUlMgPSAoCiAgICAidHJpYWxfaWQiLCAiYmF0Y2hfaWQiLCAibWV0aG9kX2lkIiwgInJldmlld19kYXRlIiwgInJldmlld2VyX2NvZGUiLAogICAgImNvbnNlbnRfY29uZmlybWVkIiwgImJsaW5kX2NvZGUiLCAic2VydmVkX21hc3NfZyIsCiAgICAiYXJvbWEiLCAiZmxhdm91ciIsICJ0ZXh0dXJlIiwgImFwcGVhcmFuY2UiLCAib3ZlcmFsbCIsCiAgICAic2tld2VyX3N0YWJpbGl0eSIsICJhbGxlcmdlbl9icmllZmluZyIsICJyZXZpZXdlZF9ieSIsICJyZXZpZXdfc3RhdHVzIiwKKQpDSEVGX0hFQURFUlMgPSAoCiAgICAiZmVlZGJhY2tfaWQiLCAiYmF0Y2hfaWQiLCAibWV0aG9kX2lkIiwgInJldmlld2VyX2NvZGUiLAogICAgInJldmlld2VyX3JvbGUiLCAicmV2aWV3X2RhdGUiLCAiY29uc2VudF9jb25maXJtZWQiLAogICAgInByZXBfcHJhY3RpY2FsaXR5IiwgInNrZXdlcl93b3JrYWJpbGl0eSIsICJjdXN0b21lcl9maXQiLAogICAgIm9ic2VydmF0aW9ucyIsICJyZXZpZXdlZF9ieSIsICJyZXZpZXdfc3RhdHVzIiwKKQpTRVJWSU5HX0hFQURFUlMgPSAoCiAgICAic2VydmluZ19pZCIsICJiYXRjaF9pZCIsICJtZXRob2RfaWQiLCAicGFja2FnZV9pZHMiLAogICAgInByb3RlaW5fZyIsICJwcm90ZWluX2V2aWRlbmNlX3R5cGUiLCAicHJvdGVpbl9zb3VyY2UiLAogICAgInNlcnZpbmdfZm9vZF9zdGF0ZSIsICJhcHByb3ZlZF9ieSIsICJyZXZpZXdfZGF0ZSIsICJyZXZpZXdfc3RhdHVzIiwKKQpIRUFERVJfR1JPVVBTID0gewogICAgInBhY2thZ2VzIjogUEFDS0FHRV9IRUFERVJTLCAiYmF0Y2hlcyI6IEJBVENIX0hFQURFUlMsCiAgICAic2Vuc29yeSI6IFNFTlNPUllfSEVBREVSUywgImNoZWZfZmVlZGJhY2siOiBDSEVGX0hFQURFUlMsCiAgICAic2VydmluZ3MiOiBTRVJWSU5HX0hFQURFUlMsCn0KCgpAZGF0YWNsYXNzKGZyb3plbj1UcnVlKQpjbGFzcyBGaWVsZEV2aWRlbmNlOgogICAgcGFja2FnZXM6IHR1cGxlW2RpY3Rbc3RyLCBzdHJdLCAuLi5dCiAgICBiYXRjaGVzOiB0dXBsZVtkaWN0W3N0ciwgc3RyXSwgLi4uXQogICAgc2Vuc29yeTogdHVwbGVbZGljdFtzdHIsIHN0cl0sIC4uLl0KICAgIGNoZWZfZmVlZGJhY2s6IHR1cGxlW2RpY3Rbc3RyLCBzdHJdLCAuLi5dCiAgICBzZXJ2aW5nczogdHVwbGVbZGljdFtzdHIsIHN0cl0sIC4uLl0KCiAgICBAcHJvcGVydHkKICAgIGRlZiBhcHByb3ZlZF9zZXJ2aW5ncyhzZWxmKSAtPiB0dXBsZVtkaWN0W3N0ciwgc3RyXSwgLi4uXToKICAgICAgICAiIiJPbmx5IGluZGVwZW5kZW50bHkgcmV2aWV3ZWQgYW5kIGNyb3NzLWxpbmtlZCBzZXJ2aW5nczsgbm90IGZvb2Qtc2FmZSBhcHByb3ZhbC4iIiIKICAgICAgICBhdWRpdF9ldmlkZW5jZShzZWxmKQogICAgICAgIHJldHVybiB0dXBsZShyb3cgZm9yIHJvdyBpbiBzZWxmLnNlcnZpbmdzIGlmIHJvd1sicmV2aWV3X3N0YXR1cyJdID09ICJhcHByb3ZlZCIpCgoKZGVmIHJlYWRfZXZpZGVuY2VfY3N2KAogICAgY29udGVudDogYnl0ZXMgfCBzdHIsIGtpbmQ6IHN0ciwgKiwgbWF4X3Jvd3M6IGludCA9IDUwMCwKKSAtPiBsaXN0W2RpY3Rbc3RyLCBzdHJdXToKICAgICIiIlJlYWQgYSBib3VuZGVkIENTViBwcmVzZXJ2aW5nIGV4YWN0IGhlYWRlcnMgYW5kIG1hbGZvcm1lZC1yb3cgZXJyb3JzLiIiIgogICAgaWYga2luZCBub3QgaW4gSEVBREVSX0dST1VQUzoKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJVbmtub3duIGV2aWRlbmNlIHJlY29yZCBraW5kIikKICAgIGlmIGlzaW5zdGFuY2UoY29udGVudCwgYnl0ZXMpOgogICAgICAgIGlmIGxlbihjb250ZW50KSA+IDEwMjQgKiAxMDI0OgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJFdmlkZW5jZSBDU1YgZXhjZWVkcyAxIE1CIikKICAgICAgICBkZWNvZGVkID0gY29udGVudC5kZWNvZGUoInV0Zi04LXNpZyIpCiAgICBlbGlmIGlzaW5zdGFuY2UoY29udGVudCwgc3RyKToKICAgICAgICBpZiBsZW4oY29udGVudCkgPiAxMDI0ICogMTAyNDoKICAgICAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigiRXZpZGVuY2UgQ1NWIGV4Y2VlZHMgMSBNQiIpCiAgICAgICAgZGVjb2RlZCA9IGNvbnRlbnQubHN0cmlwKCJcdWZlZmYiKQogICAgZWxzZToKICAgICAgICByYWlzZSBUeXBlRXJyb3IoIkV2aWRlbmNlIGRhdGEgbXVzdCBiZSBVVEYtOCBieXRlcyBvciB0ZXh0IikKICAgIHJlYWRlciA9IGNzdi5EaWN0UmVhZGVyKGlvLlN0cmluZ0lPKGRlY29kZWQsIG5ld2xpbmU9IiIpKQogICAgaWYgdHVwbGUocmVhZGVyLmZpZWxkbmFtZXMgb3IgKCkpICE9IEhFQURFUl9HUk9VUFNba2luZF06CiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcihmIntraW5kfTogdW5leHBlY3RlZCBvciBtaXNzaW5nIENTViBjb2x1bW5zIikKICAgIHJvd3MgPSBbXQogICAgZm9yIG4sIHJvdyBpbiBlbnVtZXJhdGUocmVhZGVyLCBzdGFydD0yKToKICAgICAgICBpZiBOb25lIGluIHJvdyBvciBhbnkodmFsdWUgaXMgTm9uZSBmb3IgdmFsdWUgaW4gcm93LnZhbHVlcygpKToKICAgICAgICAgICAgcmFpc2UgVmFsdWVFcnJvcihmIntraW5kfTogbWFsZm9ybWVkIENTViBhdCBsaW5lIHtufSIpCiAgICAgICAgcm93cy5hcHBlbmQocm93KQogICAgICAgIGlmIGxlbihyb3dzKSA+IG1heF9yb3dzOgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJUb28gbWFueSBldmlkZW5jZSByZWNvcmRzIikKICAgIHJldHVybiByb3dzCgoKZGVmIF9yZXF1aXJlZChyb3c6IGRpY3Rbc3RyLCBzdHJdLCAqZmllbGRzOiBzdHIpIC0+IE5vbmU6CiAgICBmb3IgZmllbGQgaW4gZmllbGRzOgogICAgICAgIGlmIG5vdCByb3cuZ2V0KGZpZWxkLCAiIikuc3RyaXAoKToKICAgICAgICAgICAgcmFpc2UgVmFsdWVFcnJvcihmIntyb3cuZ2V0KCdwYWNrYWdlX2lkJykgb3Igcm93LmdldCgnYmF0Y2hfaWQnKSBvciByb3cuZ2V0KCdzZXJ2aW5nX2lkJykgb3IgJ3JlY29yZCd9OiB7ZmllbGR9IG1pc3NpbmciKQoKCmRlZiBfZGF0ZShyYXc6IHN0ciwgZmllbGQ6IHN0cikgLT4gTm9uZToKICAgIHRyeToKICAgICAgICB2YWx1ZSA9IGRhdGUuZnJvbWlzb2Zvcm1hdChyYXcpCiAgICBleGNlcHQgVmFsdWVFcnJvciBhcyBleGM6CiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcihmIntmaWVsZH06IGludmFsaWQgSVNPIGRhdGUiKSBmcm9tIGV4YwogICAgaWYgdmFsdWUgPiBkYXRlLnRvZGF5KCk6CiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcihmIntmaWVsZH06IGZ1dHVyZSBkYXRlIikKCgpkZWYgX251bWJlcihyYXc6IHN0ciwgZmllbGQ6IHN0ciwgKiwgemVybzogYm9vbCA9IFRydWUsIG1heGltdW06IGZsb2F0ID0gMWU4KSAtPiBmbG9hdDoKICAgIHRyeToKICAgICAgICBudW1iZXIgPSBmbG9hdChyYXcpCiAgICBleGNlcHQgKFZhbHVlRXJyb3IsIFR5cGVFcnJvcikgYXMgZXhjOgogICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoZiJ7ZmllbGR9IG11c3QgYmUgbnVtZXJpYyIpIGZyb20gZXhjCiAgICBpZiBub3QgbWF0aC5pc2Zpbml0ZShudW1iZXIpIG9yIG51bWJlciA8IDAgb3IgKG5vdCB6ZXJvIGFuZCBudW1iZXIgPT0gMCkgb3IgbnVtYmVyID4gbWF4aW11bToKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKGYie2ZpZWxkfSBvdXRzaWRlIHZhbGlkIHJhbmdlIikKICAgIHJldHVybiBudW1iZXIKCgpkZWYgX2FsbGVyZ2VuX2ZpZWxkKHZhbHVlOiBzdHIsICosIGFsbG93X25vbmU6IGJvb2wpIC0+IHNldFtzdHJdOgogICAgbGFiZWxzID0ge3BhcnQuc3RyaXAoKS5sb3dlcigpIGZvciBwYXJ0IGluIHZhbHVlLnNwbGl0KCI7IikgaWYgcGFydC5zdHJpcCgpfQogICAgaWYgbm90IGxhYmVsczoKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJBbGxlcmdlbiBkZWNsYXJhdGlvbiBjYW5ub3QgYmUgYmxhbmsiKQogICAgaWYgbGFiZWxzID09IHsibm9uZSJ9IGFuZCBhbGxvd19ub25lOgogICAgICAgIHJldHVybiBzZXQoKQogICAgaWYgIm5vbmUiIGluIGxhYmVscyBvciAidW5rbm93biIgaW4gbGFiZWxzIG9yIG5vdCBsYWJlbHMgPD0gQUxMRVJHRU5TOgogICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoIkFsbGVyZ2VuIGxhYmVscyBtdXN0IHVzZSBrbm93biBuYW1lcyBvciBleHBsaWNpdCBub25lIHdoZXJlIGFsbG93ZWQiKQogICAgcmV0dXJuIGxhYmVscwoKCmRlZiB2YWxpZGF0ZV9wYWNrYWdlKHJvdzogZGljdFtzdHIsIHN0cl0pIC0+IE5vbmU6CiAgICBpZiBzZXQocm93KSAhPSBzZXQoUEFDS0FHRV9IRUFERVJTKToKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJQYWNrYWdlIHJlY29yZCBzY2hlbWEgbWlzbWF0Y2giKQogICAgX3JlcXVpcmVkKHJvdywgInBhY2thZ2VfaWQiLCAiaW5ncmVkaWVudF9pZCIsICJyZXZpZXdfc3RhdHVzIikKICAgIGlmIHJvd1siaW5ncmVkaWVudF9pZCJdIG5vdCBpbiBJTkdSRURJRU5UUzoKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJVbmtub3duIGluZ3JlZGllbnQgSUQiKQogICAgc3RhdHVzID0gcm93WyJyZXZpZXdfc3RhdHVzIl0KICAgIGlmIHN0YXR1cyBub3QgaW4geyJwZW5kaW5nIiwgInJldmlld2VkIiwgInJlamVjdGVkIn06CiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigiSW52YWxpZCBwYWNrYWdlIHJldmlldyBzdGF0dXMiKQogICAgaWYgc3RhdHVzICE9ICJyZXZpZXdlZCI6CiAgICAgICAgcmV0dXJuCiAgICBfcmVxdWlyZWQoCiAgICAgICAgcm93LCAiYnJhbmQiLCAicHJvZHVjdF9uYW1lIiwgIm5ldF93ZWlnaHRfZyIsICJpbmdyZWRpZW50X3N0YXRlbWVudCIsCiAgICAgICAgImRlY2xhcmVkX2FsbGVyZ2VucyIsICJtYXlfY29udGFpbl9hbGxlcmdlbnMiLCAicGhvdG9fc2hhMjU2IiwKICAgICAgICAic291cmNlX3JlZmVyZW5jZSIsICJyZXZpZXdlZF9ieSIsICJyZXZpZXdfZGF0ZSIsICJwbGFudF9kZXJpdmVkX3JldmlldyIsCiAgICAgICAgImNyb3NzX2NvbnRhY3RfcmV2aWV3IiwKICAgICkKICAgIF9kYXRlKHJvd1sicmV2aWV3X2RhdGUiXSwgInBhY2thZ2UgcmV2aWV3IGRhdGUiKQogICAgX251bWJlcihyb3dbIm5ldF93ZWlnaHRfZyJdLCAibmV0X3dlaWdodF9nIiwgemVybz1GYWxzZSkKICAgIHBob3RvID0gcm93WyJwaG90b19zaGEyNTYiXS5zdHJpcCgpLmxvd2VyKCkKICAgIGlmIGxlbihwaG90bykgIT0gNjQgb3IgYW55KGMgbm90IGluICIwMTIzNDU2Nzg5YWJjZGVmIiBmb3IgYyBpbiBwaG90byk6CiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigiUmV2aWV3ZWQgcGFja2FnaW5nIG5lZWRzIGEgcmVhbCBTSEEtMjU2IGltYWdlIGV2aWRlbmNlIHJlZmVyZW5jZSIpCiAgICBkZWNsYXJlZCA9IF9hbGxlcmdlbl9maWVsZChyb3dbImRlY2xhcmVkX2FsbGVyZ2VucyJdLCBhbGxvd19ub25lPVRydWUpCiAgICBfYWxsZXJnZW5fZmllbGQocm93WyJtYXlfY29udGFpbl9hbGxlcmdlbnMiXSwgYWxsb3dfbm9uZT1UcnVlKQogICAgaWYgcm93WyJwbGFudF9kZXJpdmVkX3JldmlldyJdIG5vdCBpbiB7InllcyIsICJubyIsICJ1bmtub3duIn06CiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigicGxhbnRfZGVyaXZlZF9yZXZpZXcgbXVzdCBiZSB5ZXMsIG5vIG9yIHVua25vd24iKQogICAgaWYgcm93WyJjcm9zc19jb250YWN0X3JldmlldyJdIG5vdCBpbiB7ImFzc2Vzc2VkIiwgInVua25vd24ifToKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJDcm9zcy1jb250YWN0IGFzc2Vzc21lbnQgbXVzdCBiZSBleHBsaWNpdGx5IHJlY29yZGVkIikKICAgIGlmIHJvd1siaW5ncmVkaWVudF9pZCJdIGluIHsid2V0X2F3YXJhIiwgImZyaWVkX2F3YXJhIn0gYW5kICJzb3kiIG5vdCBpbiBkZWNsYXJlZDoKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJBd2FyYS90b2Z1IG11c3Qgbm90IGJlIHJlcHJlc2VudGVkIGFzIHNveS1mcmVlIikKICAgIGlmIHJvd1siaW5ncmVkaWVudF9pZCJdID09ICJ5YWppIiBhbmQgcm93WyJwbGFudF9kZXJpdmVkX3JldmlldyJdID09ICJ1bmtub3duIjoKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJZYWppIGFuaW1hbC1kZXJpdmVkIGluZ3JlZGllbnRzIHJlbWFpbiB1bnJldmlld2VkIikKICAgICMgQ3Jvc3MtY29udGFjdCBzdGF0dXMgJ2Fzc2Vzc2VkJyBuZXZlciBtZWFucyBhbGxlcmd5LXNhZmUgb3Igbm8gY3Jvc3MtY29udGFjdC4KCgpkZWYgdmFsaWRhdGVfYmF0Y2gocm93OiBkaWN0W3N0ciwgc3RyXSkgLT4gTm9uZToKICAgIGlmIHNldChyb3cpICE9IHNldChCQVRDSF9IRUFERVJTKToKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJCYXRjaCBzY2hlbWEgbWlzbWF0Y2giKQogICAgX3JlcXVpcmVkKHJvdywgImJhdGNoX2lkIiwgIm1ldGhvZF9pZCIsICJ0cmlhbF9kYXRlIiwgInJldmlld19zdGF0dXMiKQogICAgaWYgcm93WyJtZXRob2RfaWQiXSBub3QgaW4gRVFVSVBNRU5UX1JFUVVJUkVNRU5UUzoKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJVbmtub3duIGJhdGNoIG1ldGhvZCIpCiAgICBfZGF0ZShyb3dbInRyaWFsX2RhdGUiXSwgImJhdGNoIGRhdGUiKQogICAgaWYgcm93WyJyZXZpZXdfc3RhdHVzIl0gbm90IGluIHsicGVuZGluZyIsICJyZXZpZXdlZCIsICJyZWplY3RlZCJ9OgogICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoIlVua25vd24gYmF0Y2ggcmV2aWV3IHN0YXR1cyIpCiAgICBpZiByb3dbInJldmlld19zdGF0dXMiXSAhPSAicmV2aWV3ZWQiOgogICAgICAgIHJldHVybgogICAgX3JlcXVpcmVkKHJvdywgKkJBVENIX0hFQURFUlNbMzotMV0pCiAgICBmb3IgZmllbGQgaW4gKAogICAgICAgICJwdXJjaGFzZWRfYXdhcmFfZyIsICJmaW5pc2hlZF9zZXJ2aW5nX2ciLCAicHVyY2hhc2VkX2luZ3JlZGllbnRfY29zdF9uZ24iLAogICAgICAgICJmdWVsX2VuZXJneV9jb3N0X25nbiIsICJsYWJvdXJfY29zdF9uZ24iLCAicGFja2FnaW5nX2Nvc3RfbmduIiwKICAgICAgICAib3RoZXJfY29zdF9uZ24iLCAicHJlcF9taW51dGVzIiwKICAgICk6CiAgICAgICAgX251bWJlcihyb3dbZmllbGRdLCBmaWVsZCwgemVybz1maWVsZCBub3QgaW4gewogICAgICAgICAgICAicHVyY2hhc2VkX2F3YXJhX2ciLCAiZmluaXNoZWRfc2VydmluZ19nIiwgInByZXBfbWludXRlcyIsCiAgICAgICAgfSkKICAgIF9yZXF1aXJlZChyb3csICJtZWFzdXJlbWVudF9yZWNvcmQiLCAicmV2aWV3ZWRfYnkiKQogICAgaWYgX251bWJlcihyb3dbImZpbmlzaGVkX3NlcnZpbmdfZyJdLCAiZmluaXNoZWRfc2VydmluZ19nIikgPiAoCiAgICAgICAgX251bWJlcihyb3dbInB1cmNoYXNlZF9hd2FyYV9nIl0sICJwdXJjaGFzZWRfYXdhcmFfZyIpICsgMTAwMAogICAgKToKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJJbXBsYXVzaWJsZSBzZXJ2aW5nIHlpZWxkOyBjaGVjayBwdXJjaGFzZWQgYW5kIGZpbmlzaGVkIGZvb2Qgc3RhdGVzIikKCgpkZWYgdmFsaWRhdGVfc2Vuc29yeShyb3c6IGRpY3Rbc3RyLCBzdHJdKSAtPiBOb25lOgogICAgaWYgc2V0KHJvdykgIT0gc2V0KFNFTlNPUllfSEVBREVSUyk6CiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigiU2Vuc29yeSByZWNvcmQgc2NoZW1hIG1pc21hdGNoIikKICAgIF9yZXF1aXJlZChyb3csICJ0cmlhbF9pZCIsICJiYXRjaF9pZCIsICJtZXRob2RfaWQiLCAicmV2aWV3X3N0YXR1cyIpCiAgICBpZiByb3dbIm1ldGhvZF9pZCJdIG5vdCBpbiBFUVVJUE1FTlRfUkVRVUlSRU1FTlRTOgogICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoIlVua25vd24gc2Vuc29yeSBtZXRob2QiKQogICAgaWYgcm93WyJyZXZpZXdfc3RhdHVzIl0gbm90IGluIHsicGVuZGluZyIsICJyZXZpZXdlZCIsICJyZWplY3RlZCJ9OgogICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoIlVua25vd24gc2Vuc29yeSByZXZpZXcgc3RhdHVzIikKICAgIGlmIHJvd1sicmV2aWV3X3N0YXR1cyJdICE9ICJyZXZpZXdlZCI6CiAgICAgICAgcmV0dXJuCiAgICBfcmVxdWlyZWQocm93LCAqU0VOU09SWV9IRUFERVJTWzM6LTFdKQogICAgX2RhdGUocm93WyJyZXZpZXdfZGF0ZSJdLCAic2Vuc29yeSByZXZpZXcgZGF0ZSIpCiAgICBpZiByb3dbImNvbnNlbnRfY29uZmlybWVkIl0gIT0gInllcyI6CiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigiQ2Fubm90IHJldmlldyBub24tY29uc2VudGVkIHNlbnNvcnkgZmVlZGJhY2siKQogICAgaWYgcm93WyJhbGxlcmdlbl9icmllZmluZyJdICE9ICJjb25maXJtZWQiOgogICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoIlNlbnNvcnkgcGFuZWwgYWxsZXJnZW4gYnJpZWZpbmcgbm90IGNvbmZpcm1lZCIpCiAgICBpZiBub3QgMSA8IGxlbihyb3dbInJldmlld2VyX2NvZGUiXSkgPD0gNDA6CiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigiVXNlIGEgcHNldWRvbnltb3VzIHJldmlld2VyIGNvZGUiKQogICAgX251bWJlcihyb3dbInNlcnZlZF9tYXNzX2ciXSwgInNlcnZlZF9tYXNzX2ciLCB6ZXJvPUZhbHNlKQogICAgZm9yIGZpZWxkIGluIFJBVElOR1M6CiAgICAgICAgdmFsID0gX251bWJlcihyb3dbZmllbGRdLCBmaWVsZCwgemVybz1GYWxzZSwgbWF4aW11bT05KQogICAgICAgIGlmIHZhbCAhPSBpbnQodmFsKToKICAgICAgICAgICAgcmFpc2UgVmFsdWVFcnJvcihmIntmaWVsZH0gbXVzdCBiZSBhbiBpbnRlZ2VyIGZyb20gMSB0byA5IikKICAgIGlmIHJvd1sic2tld2VyX3N0YWJpbGl0eSJdIG5vdCBpbiB7ImhlbGQiLCAicGFydGlhbCIsICJjcnVtYmxlZCIsICJub3RfdGVzdGVkIn06CiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigiVW5yZWNvZ25pc2VkIHNrZXdlciBzdGFiaWxpdHkgb2JzZXJ2YXRpb24iKQoKCmRlZiB2YWxpZGF0ZV9jaGVmX2ZlZWRiYWNrKHJvdzogZGljdFtzdHIsIHN0cl0pIC0+IE5vbmU6CiAgICBpZiBzZXQocm93KSAhPSBzZXQoQ0hFRl9IRUFERVJTKToKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJDaGVmIGZlZWRiYWNrIHNjaGVtYSBtaXNtYXRjaCIpCiAgICBfcmVxdWlyZWQocm93LCAiZmVlZGJhY2tfaWQiLCAiYmF0Y2hfaWQiLCAibWV0aG9kX2lkIiwgInJldmlld19zdGF0dXMiKQogICAgaWYgcm93WyJtZXRob2RfaWQiXSBub3QgaW4gRVFVSVBNRU5UX1JFUVVJUkVNRU5UUzoKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJVbmtub3duIGNoZWYgZXZhbHVhdGlvbiBtZXRob2QiKQogICAgaWYgcm93WyJyZXZpZXdfc3RhdHVzIl0gbm90IGluIHsicGVuZGluZyIsICJyZXZpZXdlZCIsICJyZWplY3RlZCJ9OgogICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoIlVua25vd24gY2hlZiBmZWVkYmFjayByZXZpZXcgc3RhdHVzIikKICAgIGlmIHJvd1sicmV2aWV3X3N0YXR1cyJdICE9ICJyZXZpZXdlZCI6CiAgICAgICAgcmV0dXJuCiAgICBfcmVxdWlyZWQocm93LCAqQ0hFRl9IRUFERVJTWzM6LTFdKQogICAgX2RhdGUocm93WyJyZXZpZXdfZGF0ZSJdLCAiY2hlZiBmZWVkYmFjayBkYXRlIikKICAgIGlmIHJvd1siY29uc2VudF9jb25maXJtZWQiXSAhPSAieWVzIjoKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJDaGVmIGZlZWRiYWNrIGNvbnNlbnQgaXMgcmVxdWlyZWQiKQogICAgaWYgcm93WyJyZXZpZXdlcl9yb2xlIl0gbm90IGluIHsiY2hlZiIsICJyZXN0YXVyYW50X293bmVyIiwgImZvb2RfdGVjaG5vbG9naXN0In06CiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigiQ2hlZiByZXZpZXdlciByb2xlIG5vdCByZWNvZ25pc2VkIikKICAgIGZvciBmaWVsZCBpbiAoInByZXBfcHJhY3RpY2FsaXR5IiwgInNrZXdlcl93b3JrYWJpbGl0eSIsICJjdXN0b21lcl9maXQiKToKICAgICAgICB2YWwgPSBfbnVtYmVyKHJvd1tmaWVsZF0sIGZpZWxkLCB6ZXJvPUZhbHNlLCBtYXhpbXVtPTUpCiAgICAgICAgaWYgdmFsICE9IGludCh2YWwpOgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKGYie2ZpZWxkfSBtdXN0IGJlIGFuIGludGVnZXIgZnJvbSAxIHRvIDUiKQoKCmRlZiB2YWxpZGF0ZV9zZXJ2aW5nKHJvdzogZGljdFtzdHIsIHN0cl0pIC0+IE5vbmU6CiAgICBpZiBzZXQocm93KSAhPSBzZXQoU0VSVklOR19IRUFERVJTKToKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJTZXJ2aW5nIHNjaGVtYSBtaXNtYXRjaCIpCiAgICBfcmVxdWlyZWQocm93LCAic2VydmluZ19pZCIsICJiYXRjaF9pZCIsICJtZXRob2RfaWQiLCAicmV2aWV3X3N0YXR1cyIpCiAgICBpZiByb3dbIm1ldGhvZF9pZCJdIG5vdCBpbiBFUVVJUE1FTlRfUkVRVUlSRU1FTlRTOgogICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoIlVua25vd24gc2VydmluZyBtZXRob2QiKQogICAgaWYgcm93WyJyZXZpZXdfc3RhdHVzIl0gbm90IGluIHsicGVuZGluZyIsICJhcHByb3ZlZCIsICJyZWplY3RlZCJ9OgogICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoIkludmFsaWQgc2VydmluZyBhcHByb3ZhbCBzdGF0dXMiKQogICAgaWYgcm93WyJyZXZpZXdfc3RhdHVzIl0gIT0gImFwcHJvdmVkIjoKICAgICAgICByZXR1cm4KICAgIF9yZXF1aXJlZChyb3csICpTRVJWSU5HX0hFQURFUlNbMzotMV0pCiAgICBfZGF0ZShyb3dbInJldmlld19kYXRlIl0sICJzZXJ2aW5nIHJldmlldyBkYXRlIikKICAgIF9udW1iZXIocm93WyJwcm90ZWluX2ciXSwgInByb3RlaW5fZyIsIHplcm89RmFsc2UsIG1heGltdW09MTAwMCkKICAgIGlmIHJvd1sicHJvdGVpbl9ldmlkZW5jZV90eXBlIl0gbm90IGluIHsibGFiX21lYXN1cmVkIiwgIm1hdGNoZWRfcmVmZXJlbmNlIn06CiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigiUHJvdGVpbiBldmlkZW5jZSBtdXN0IHN0YXRlIGxhYm9yYXRvcnkgYXNzYXkgb3IgbWF0Y2hlZCByZWZlcmVuY2UiKQogICAgaWYgbm90IHJvd1sicHJvdGVpbl9zb3VyY2UiXS5zdGFydHN3aXRoKCgiaHR0cHM6Ly8iLCAiaHR0cDovLyIsICJsYWItcmVwb3J0OiIpKToKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJQcm90ZWluIHNvdXJjZSByZXF1aXJlcyBhIHJldHJpZXZhYmxlIHJlZmVyZW5jZSBvciBsYWIgcmVjb3JkIElEIikKICAgIGlmIHJvd1sic2VydmluZ19mb29kX3N0YXRlIl0gIT0gRk9PRF9TVEFURV9GT1JfTUVUSE9EW3Jvd1sibWV0aG9kX2lkIl1dOgogICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoIlNlcnZpbmcgZm9vZCBzdGF0ZSBtdXN0IG1hdGNoIGl0cyB0ZXN0ZWQgcHJlcGFyYXRpb24gbWV0aG9kIikKCgpkZWYgYXVkaXRfZXZpZGVuY2UoYnVuZGxlOiBGaWVsZEV2aWRlbmNlKSAtPiBOb25lOgogICAgIiIiRmFpbCBjbG9zZWQ6IG5vIHNlcnZpbmcgYXBwcm92ZWQgd2l0aG91dCBsaW5rZWQgcmV2aWV3ZWQgcmVjb3JkcyBhbmQgZmVlZGJhY2suIiIiCiAgICBncm91cHM6IHR1cGxlW3R1cGxlW3N0ciwgdHVwbGVbZGljdFtzdHIsIHN0cl0sIC4uLl0sIEFueSwgc3RyXSwgLi4uXSA9ICgKICAgICAgICAoInBhY2thZ2VzIiwgYnVuZGxlLnBhY2thZ2VzLCB2YWxpZGF0ZV9wYWNrYWdlLCAicGFja2FnZV9pZCIpLAogICAgICAgICgiYmF0Y2hlcyIsIGJ1bmRsZS5iYXRjaGVzLCB2YWxpZGF0ZV9iYXRjaCwgImJhdGNoX2lkIiksCiAgICAgICAgKCJzZW5zb3J5IiwgYnVuZGxlLnNlbnNvcnksIHZhbGlkYXRlX3NlbnNvcnksICJ0cmlhbF9pZCIpLAogICAgICAgICgiY2hlZl9mZWVkYmFjayIsIGJ1bmRsZS5jaGVmX2ZlZWRiYWNrLCB2YWxpZGF0ZV9jaGVmX2ZlZWRiYWNrLCAiZmVlZGJhY2tfaWQiKSwKICAgICAgICAoInNlcnZpbmdzIiwgYnVuZGxlLnNlcnZpbmdzLCB2YWxpZGF0ZV9zZXJ2aW5nLCAic2VydmluZ19pZCIpLAogICAgKQogICAgZm9yIG5hbWUsIHJlY29yZHMsIHZhbGlkYXRvciwgaWRlbnRpZmllciBpbiBncm91cHM6CiAgICAgICAgc2Vlbjogc2V0W3N0cl0gPSBzZXQoKQogICAgICAgIGZvciByb3cgaW4gcmVjb3JkczoKICAgICAgICAgICAgdmFsaWRhdG9yKHJvdykKICAgICAgICAgICAga2V5ID0gcm93W2lkZW50aWZpZXJdCiAgICAgICAgICAgICMgTXVsdGlwbGUgcGFuZWwgc2NvcmVzIGhhdmUgZGlmZmVyZW50IHRyaWFsIElEcywgYnV0IG1heSBzaGFyZSBiYXRjaCBJRC4KICAgICAgICAgICAgaWYgbm90IGtleSBvciBrZXkgaW4gc2VlbjoKICAgICAgICAgICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoZiJ7bmFtZX06IGR1cGxpY2F0ZSBvciBlbXB0eSB7aWRlbnRpZmllcn0iKQogICAgICAgICAgICBzZWVuLmFkZChrZXkpCiAgICBwYWNrYWdlcyA9IHtyWyJwYWNrYWdlX2lkIl06IHIgZm9yIHIgaW4gYnVuZGxlLnBhY2thZ2VzfQogICAgYmF0Y2hlcyA9IHtyWyJiYXRjaF9pZCJdOiByIGZvciByIGluIGJ1bmRsZS5iYXRjaGVzfQogICAgZm9yIHJvdyBpbiBidW5kbGUuc2Vuc29yeToKICAgICAgICBpZiByb3dbInJldmlld19zdGF0dXMiXSAhPSAicmV2aWV3ZWQiOgogICAgICAgICAgICBjb250aW51ZQogICAgICAgIHBhcmVudCA9IGJhdGNoZXMuZ2V0KHJvd1siYmF0Y2hfaWQiXSkKICAgICAgICBpZiBwYXJlbnQgaXMgTm9uZSBvciBwYXJlbnRbIm1ldGhvZF9pZCJdICE9IHJvd1sibWV0aG9kX2lkIl06CiAgICAgICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoIlNlbnNvcnkgdHJpYWwgbXVzdCBsaW5rIHRvIG1hdGNoaW5nIG1lYXN1cmVkIGJhdGNoIikKICAgIGZvciByb3cgaW4gYnVuZGxlLmNoZWZfZmVlZGJhY2s6CiAgICAgICAgaWYgcm93WyJyZXZpZXdfc3RhdHVzIl0gIT0gInJldmlld2VkIjoKICAgICAgICAgICAgY29udGludWUKICAgICAgICBwYXJlbnQgPSBiYXRjaGVzLmdldChyb3dbImJhdGNoX2lkIl0pCiAgICAgICAgaWYgcGFyZW50IGlzIE5vbmUgb3IgcGFyZW50WyJtZXRob2RfaWQiXSAhPSByb3dbIm1ldGhvZF9pZCJdOgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJDaGVmIGZlZWRiYWNrIG11c3QgbGluayB0byBtYXRjaGluZyBtZWFzdXJlZCBiYXRjaCIpCiAgICBmb3Igcm93IGluIGJ1bmRsZS5zZXJ2aW5nczoKICAgICAgICBpZiByb3dbInJldmlld19zdGF0dXMiXSAhPSAiYXBwcm92ZWQiOgogICAgICAgICAgICBjb250aW51ZQogICAgICAgIGJhdGNoID0gYmF0Y2hlcy5nZXQocm93WyJiYXRjaF9pZCJdKQogICAgICAgIGlmIGJhdGNoIGlzIE5vbmUgb3IgYmF0Y2hbInJldmlld19zdGF0dXMiXSAhPSAicmV2aWV3ZWQiOgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJBcHByb3ZlZCBzZXJ2aW5nIHJlcXVpcmVzIGEgcmV2aWV3ZWQgbWVhc3VyZWQgYmF0Y2giKQogICAgICAgIGlmIGJhdGNoWyJtZXRob2RfaWQiXSAhPSByb3dbIm1ldGhvZF9pZCJdOgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJTZXJ2aW5nIGZvb2QgbWV0aG9kIGRpc2FncmVlcyB3aXRoIGJhdGNoIikKICAgICAgICByZWZlcmVuY2VkID0gW3guc3RyaXAoKSBmb3IgeCBpbiByb3dbInBhY2thZ2VfaWRzIl0uc3BsaXQoIjsiKSBpZiB4LnN0cmlwKCldCiAgICAgICAgaWYgbm90IHJlZmVyZW5jZWQ6CiAgICAgICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoIlNlcnZpbmcgcGFja2FnZSBldmlkZW5jZSByZWZlcmVuY2VzIGFyZSByZXF1aXJlZCIpCiAgICAgICAgaWYgYW55KHBpZCBub3QgaW4gcGFja2FnZXMgb3IgcGFja2FnZXNbcGlkXVsicmV2aWV3X3N0YXR1cyJdICE9ICJyZXZpZXdlZCIgZm9yIHBpZCBpbiByZWZlcmVuY2VkKToKICAgICAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigiU2VydmluZyBwYWNrYWdlIGxhYmVscyBtdXN0IGJlIGluZGVwZW5kZW50bHkgcmV2aWV3ZWQiKQogICAgICAgIGlmIGFueShwYWNrYWdlc1twaWRdWyJjcm9zc19jb250YWN0X3JldmlldyJdICE9ICJhc3Nlc3NlZCIgZm9yIHBpZCBpbiByZWZlcmVuY2VkKToKICAgICAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigiU2VydmluZyBjYW5ub3QgYmUgYXBwcm92ZWQgd2l0aCB1bnJldmlld2VkIGNyb3NzLWNvbnRhY3Qgc3RhdHVzIikKICAgICAgICBpZiBmbG9hdChyb3dbInByb3RlaW5fZyJdKSA+IGZsb2F0KGJhdGNoWyJmaW5pc2hlZF9zZXJ2aW5nX2ciXSk6CiAgICAgICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoIlNlcnZpbmcgcHJvdGVpbiBjYW5ub3QgZXhjZWVkIG1lYXN1cmVkIGZpbmlzaGVkIHNlcnZpbmcgbWFzcyIpCiAgICAgICAga2luZHMgPSB7cGFja2FnZXNbcGlkXVsiaW5ncmVkaWVudF9pZCJdIGZvciBwaWQgaW4gcmVmZXJlbmNlZH0KICAgICAgICBpZiBub3Qga2luZHMgJiB7IndldF9hd2FyYSIsICJmcmllZF9hd2FyYSJ9IG9yICJ5YWppIiBub3QgaW4ga2luZHM6CiAgICAgICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoIlN1eWEgc2VydmluZyByZXF1aXJlcyByZXZpZXdlZCBhd2FyYSBhbmQgeWFqaSBwYWNrYWdlL3JlY2lwZSByZWNvcmRzIikKICAgICAgICB5YWppX3JlY29yZHMgPSBbcGFja2FnZXNbcGlkXSBmb3IgcGlkIGluIHJlZmVyZW5jZWQgaWYgcGFja2FnZXNbcGlkXVsiaW5ncmVkaWVudF9pZCJdID09ICJ5YWppIl0KICAgICAgICBpZiBhbnkocFsicGxhbnRfZGVyaXZlZF9yZXZpZXciXSAhPSAieWVzIiBmb3IgcCBpbiB5YWppX3JlY29yZHMpOgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJQbGFudC1iYXNlZCBzdXlhIHJlcXVpcmVzIGEgdmVyaWZpZWQgcGxhbnQtZGVyaXZlZCB5YWppIGZvcm11bGF0aW9uIikKICAgICAgICBpZiBub3QgYW55KAogICAgICAgICAgICBmWyJiYXRjaF9pZCJdID09IGJhdGNoWyJiYXRjaF9pZCJdIGFuZCBmWyJyZXZpZXdfc3RhdHVzIl0gPT0gInJldmlld2VkIgogICAgICAgICAgICBhbmQgZlsibWV0aG9kX2lkIl0gPT0gYmF0Y2hbIm1ldGhvZF9pZCJdCiAgICAgICAgICAgIGZvciBmIGluIGJ1bmRsZS5jaGVmX2ZlZWRiYWNrCiAgICAgICAgKToKICAgICAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigiQXBwcm92ZWQgc2VydmluZyByZXF1aXJlcyByZXZpZXdlZCBjaGVmIG9yIHJlc3RhdXJhbnQtb3duZXIgZmVlZGJhY2siKQogICAgICAgIGlmIG5vdCBhbnkoCiAgICAgICAgICAgIHNbImJhdGNoX2lkIl0gPT0gYmF0Y2hbImJhdGNoX2lkIl0gYW5kIHNbInJldmlld19zdGF0dXMiXSA9PSAicmV2aWV3ZWQiCiAgICAgICAgICAgIGFuZCBzWyJtZXRob2RfaWQiXSA9PSBiYXRjaFsibWV0aG9kX2lkIl0KICAgICAgICAgICAgZm9yIHMgaW4gYnVuZGxlLnNlbnNvcnkKICAgICAgICApOgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJBcHByb3ZlZCBzZXJ2aW5nIHJlcXVpcmVzIGF0IGxlYXN0IG9uZSByZXZpZXdlZCBzZW5zb3J5IHJlY29yZCIpCiAgICAgICAgIyBPbmUgcmV2aWV3IGlzIGVub3VnaCBmb3IgbGlua2FnZSwgbm90IGVub3VnaCB0byBjbGFpbSByZXByZXNlbnRhdGl2ZSB0YXN0ZS4KCgpkZWYgbG9hZF9maWVsZF9ldmlkZW5jZShmb2xkZXI6IHN0ciB8IFBhdGgpIC0+IEZpZWxkRXZpZGVuY2U6CiAgICAiIiJBIG1pc3Npbmcgb3IgZW1wdHkgdGFibGUgc3RheXMgZW1wdHk7IGl0IG5ldmVyIGJlY29tZXMgZmFicmljYXRlZCBhcHByb3ZlZCBkYXRhLiIiIgogICAgcGF0aCA9IFBhdGgoZm9sZGVyKQogICAgZ3JvdXBzID0ge30KICAgIGZvciBuYW1lIGluIEhFQURFUl9HUk9VUFM6CiAgICAgICAgY2FuZGlkYXRlID0gcGF0aCAvIGYie25hbWV9LmNzdiIKICAgICAgICBpZiBub3QgY2FuZGlkYXRlLmV4aXN0cygpOgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKGYiTWlzc2luZyBldmlkZW5jZSBpbnRha2UgdGFibGUge2NhbmRpZGF0ZS5uYW1lfSIpCiAgICAgICAgZGF0YSA9IHJlYWRfZXZpZGVuY2VfY3N2KGNhbmRpZGF0ZS5yZWFkX2J5dGVzKCksIG5hbWUpCiAgICAgICAgZ3JvdXBzW25hbWVdID0gdHVwbGUoZGF0YSkKICAgIGJ1bmRsZSA9IEZpZWxkRXZpZGVuY2UoKipncm91cHMpCiAgICBhdWRpdF9ldmlkZW5jZShidW5kbGUpCiAgICByZXR1cm4gYnVuZGxlCgoKZGVmIHNlbnNvcnlfc25hcHNob3QoYnVuZGxlOiBGaWVsZEV2aWRlbmNlKSAtPiBsaXN0W2RpY3Rbc3RyLCBzdHIgfCBmbG9hdCB8IGludF1dOgogICAgIiIiRGVzY3JpcHRpdmUgcGFuZWwgYWdncmVnYXRpb24gb25seTsgbm8gdGFzdGUgcHJlZGljdGlvbiBvciBwb3B1bGF0aW9uIGluZmVyZW5jZS4iIiIKICAgIGF1ZGl0X2V2aWRlbmNlKGJ1bmRsZSkKICAgIHJvd3MgPSBbciBmb3IgciBpbiBidW5kbGUuc2Vuc29yeSBpZiByWyJyZXZpZXdfc3RhdHVzIl0gPT0gInJldmlld2VkIl0KICAgIGtleXMgPSBzb3J0ZWQoeyhyWyJiYXRjaF9pZCJdLCByWyJtZXRob2RfaWQiXSkgZm9yIHIgaW4gcm93c30pCiAgICByZXN1bHQgPSBbXQogICAgZm9yIGJhdGNoX2lkLCBtZXRob2QgaW4ga2V5czoKICAgICAgICBncm91cCA9IFtyIGZvciByIGluIHJvd3MgaWYgclsiYmF0Y2hfaWQiXSA9PSBiYXRjaF9pZCBhbmQgclsibWV0aG9kX2lkIl0gPT0gbWV0aG9kXQogICAgICAgIHJlc3VsdC5hcHBlbmQoewogICAgICAgICAgICAiYmF0Y2hfaWQiOiBiYXRjaF9pZCwgIm1ldGhvZF9pZCI6IG1ldGhvZCwKICAgICAgICAgICAgInJldmlld2VkX3Jlc3BvbnNlcyI6IGxlbihncm91cCksCiAgICAgICAgICAgICoqewogICAgICAgICAgICAgICAgZiJtZWFuX3tmaWVsZH0iOiByb3VuZChzdW0oaW50KHJbZmllbGRdKSBmb3IgciBpbiBncm91cCkgLyBsZW4oZ3JvdXApLCAyKQogICAgICAgICAgICAgICAgZm9yIGZpZWxkIGluIFJBVElOR1MKICAgICAgICAgICAgfSwKICAgICAgICB9KQogICAgcmV0dXJuIHJlc3VsdAoKZGVmIHNlcnZpbmdfc25hcHNob3QoYnVuZGxlOiBGaWVsZEV2aWRlbmNlKSAtPiBsaXN0W2RpY3Rbc3RyLCBzdHIgfCBmbG9hdF1dOgogICAgIiIiUmV2aWV3ZWQgbWVhc3VyZWQgY29zdC9wb3J0aW9uIGV2aWRlbmNlLCBuZXZlciBhIGNlcnRpZmllZCBzZXJ2aW5nIHJlY29tbWVuZGF0aW9uLiIiIgogICAgYXVkaXRfZXZpZGVuY2UoYnVuZGxlKQogICAgYmF0Y2hlcyA9IHtyb3dbImJhdGNoX2lkIl06IHJvdyBmb3Igcm93IGluIGJ1bmRsZS5iYXRjaGVzfQogICAgc3VtbWFyeSA9IFtdCiAgICBmb3Igcm93IGluIGJ1bmRsZS5hcHByb3ZlZF9zZXJ2aW5nczoKICAgICAgICBiYXRjaCA9IGJhdGNoZXNbcm93WyJiYXRjaF9pZCJdXQogICAgICAgIGZ1bGxfY29zdCA9IHN1bSgKICAgICAgICAgICAgZmxvYXQoYmF0Y2hbZmllbGRdKSBmb3IgZmllbGQgaW4gKAogICAgICAgICAgICAgICAgInB1cmNoYXNlZF9pbmdyZWRpZW50X2Nvc3RfbmduIiwgImZ1ZWxfZW5lcmd5X2Nvc3RfbmduIiwKICAgICAgICAgICAgICAgICJsYWJvdXJfY29zdF9uZ24iLCAicGFja2FnaW5nX2Nvc3RfbmduIiwgIm90aGVyX2Nvc3RfbmduIiwKICAgICAgICAgICAgKQogICAgICAgICkKICAgICAgICBzdW1tYXJ5LmFwcGVuZCh7CiAgICAgICAgICAgICJzZXJ2aW5nX2lkIjogcm93WyJzZXJ2aW5nX2lkIl0sCiAgICAgICAgICAgICJtZXRob2RfaWQiOiByb3dbIm1ldGhvZF9pZCJdLAogICAgICAgICAgICAicmVjb3JkZWRfZmluaXNoZWRfZyI6IGZsb2F0KGJhdGNoWyJmaW5pc2hlZF9zZXJ2aW5nX2ciXSksCiAgICAgICAgICAgICJyZWNvcmRlZF9saXN0ZWRfY29zdF9uZ24iOiByb3VuZChmdWxsX2Nvc3QsIDIpLAogICAgICAgICAgICAicmVjb3JkZWRfcHJlcF9taW51dGVzIjogZmxvYXQoYmF0Y2hbInByZXBfbWludXRlcyJdKSwKICAgICAgICAgICAgInByb3RlaW5fZyI6IGZsb2F0KHJvd1sicHJvdGVpbl9nIl0pLAogICAgICAgICAgICAicHJvdGVpbl9ldmlkZW5jZV90eXBlIjogcm93WyJwcm90ZWluX2V2aWRlbmNlX3R5cGUiXSwKICAgICAgICAgICAgInByb3RlaW5fc291cmNlIjogcm93WyJwcm90ZWluX3NvdXJjZSJdLAogICAgICAgICAgICAicmV2aWV3X2RhdGUiOiByb3dbInJldmlld19kYXRlIl0sCiAgICAgICAgICAgICJldmlkZW5jZV9sZXZlbCI6ICJ0ZWFtLXJldmlld2VkIGZpZWxkIHJlY29yZCwgbm90IGFsbGVyZ2VuIG9yIGZvb2Qtc2FmZXR5IGNlcnRpZmljYXRpb24iLAogICAgICAgIH0pCiAgICByZXR1cm4gc3VtbWFyeQo=
+"""Human-review gates for packaged ingredient labels, field batches and tasting panels.
+
+No OCR, image model or LLM may approve food allergen safety, nutrition or taste.
+The functions validate evidence completeness, not a legal or clinical certification.
+All input records are provided explicitly; this module does not collect PII,
+call networks, mutate GitHub or silently promote unreviewed data.
+"""
+from __future__ import annotations
+
+import csv
+import io
+import math
+from dataclasses import dataclass
+from datetime import date
+from pathlib import Path
+from typing import Any
+
+from .kitchen_optimizer import EQUIPMENT_REQUIREMENTS
+
+INGREDIENTS = {
+    "wet_awara", "fried_awara", "onion", "pepper", "salt", "seasoning", "yaji",
+}
+ALLERGENS = {
+    "soy", "peanut", "wheat", "sesame", "milk", "egg",
+    "tree nut", "fish", "shellfish", "mustard", "celery", "lupin",
+}
+RATINGS = ("aroma", "flavour", "texture", "appearance", "overall")
+FOOD_STATE_FOR_METHOD = {
+    "awara_firm": "unpressed_grilled",
+    "awara_pressed": "pressed_grilled",
+    "awara_frozen": "frozen_thawed_grilled",
+    "awara_fried": "fried_grilled",
+}
+
+
+PACKAGE_HEADERS = (
+    "package_id", "ingredient_id", "brand", "product_name", "batch_lot",
+    "net_weight_g", "ingredient_statement", "declared_allergens",
+    "may_contain_allergens", "plant_derived_review", "cross_contact_review",
+    "photo_sha256", "source_reference", "reviewed_by", "review_date", "review_status",
+)
+BATCH_HEADERS = (
+    "batch_id", "method_id", "trial_date", "purchased_awara_g",
+    "finished_serving_g", "purchased_ingredient_cost_ngn", "fuel_energy_cost_ngn",
+    "labour_cost_ngn", "packaging_cost_ngn", "other_cost_ngn", "prep_minutes",
+    "measurement_record", "reviewed_by", "review_status",
+)
+SENSORY_HEADERS = (
+    "trial_id", "batch_id", "method_id", "review_date", "reviewer_code",
+    "consent_confirmed", "blind_code", "served_mass_g",
+    "aroma", "flavour", "texture", "appearance", "overall",
+    "skewer_stability", "allergen_briefing", "reviewed_by", "review_status",
+)
+CHEF_HEADERS = (
+    "feedback_id", "batch_id", "method_id", "reviewer_code",
+    "reviewer_role", "review_date", "consent_confirmed",
+    "prep_practicality", "skewer_workability", "customer_fit",
+    "observations", "reviewed_by", "review_status",
+)
+SERVING_HEADERS = (
+    "serving_id", "batch_id", "method_id", "package_ids",
+    "protein_g", "protein_evidence_type", "protein_source",
+    "serving_food_state", "approved_by", "review_date", "review_status",
+)
+HEADER_GROUPS = {
+    "packages": PACKAGE_HEADERS, "batches": BATCH_HEADERS,
+    "sensory": SENSORY_HEADERS, "chef_feedback": CHEF_HEADERS,
+    "servings": SERVING_HEADERS,
+}
+
+
+@dataclass(frozen=True)
+class FieldEvidence:
+    packages: tuple[dict[str, str], ...]
+    batches: tuple[dict[str, str], ...]
+    sensory: tuple[dict[str, str], ...]
+    chef_feedback: tuple[dict[str, str], ...]
+    servings: tuple[dict[str, str], ...]
+
+    @property
+    def approved_servings(self) -> tuple[dict[str, str], ...]:
+        """Only independently reviewed and cross-linked servings; not food-safe approval."""
+        audit_evidence(self)
+        return tuple(row for row in self.servings if row["review_status"] == "approved")
+
+
+def read_evidence_csv(
+    content: bytes | str, kind: str, *, max_rows: int = 500,
+) -> list[dict[str, str]]:
+    """Read a bounded CSV preserving exact headers and malformed-row errors."""
+    if kind not in HEADER_GROUPS:
+        raise ValueError("Unknown evidence record kind")
+    if isinstance(content, bytes):
+        if len(content) > 1024 * 1024:
+            raise ValueError("Evidence CSV exceeds 1 MB")
+        decoded = content.decode("utf-8-sig")
+    elif isinstance(content, str):
+        if len(content) > 1024 * 1024:
+            raise ValueError("Evidence CSV exceeds 1 MB")
+        decoded = content.lstrip("\ufeff")
+    else:
+        raise TypeError("Evidence data must be UTF-8 bytes or text")
+    reader = csv.DictReader(io.StringIO(decoded, newline=""))
+    if tuple(reader.fieldnames or ()) != HEADER_GROUPS[kind]:
+        raise ValueError(f"{kind}: unexpected or missing CSV columns")
+    rows = []
+    for n, row in enumerate(reader, start=2):
+        if None in row or any(value is None for value in row.values()):
+            raise ValueError(f"{kind}: malformed CSV at line {n}")
+        rows.append(row)
+        if len(rows) > max_rows:
+            raise ValueError("Too many evidence records")
+    return rows
+
+
+def _required(row: dict[str, str], *fields: str) -> None:
+    for field in fields:
+        if not row.get(field, "").strip():
+            raise ValueError(f"{row.get('package_id') or row.get('batch_id') or row.get('serving_id') or 'record'}: {field} missing")
+
+
+def _date(raw: str, field: str) -> None:
+    try:
+        value = date.fromisoformat(raw)
+    except ValueError as exc:
+        raise ValueError(f"{field}: invalid ISO date") from exc
+    if value > date.today():
+        raise ValueError(f"{field}: future date")
+
+
+def _number(raw: str, field: str, *, zero: bool = True, maximum: float = 1e8) -> float:
+    try:
+        number = float(raw)
+    except (ValueError, TypeError) as exc:
+        raise ValueError(f"{field} must be numeric") from exc
+    if not math.isfinite(number) or number < 0 or (not zero and number == 0) or number > maximum:
+        raise ValueError(f"{field} outside valid range")
+    return number
+
+
+def _allergen_field(value: str, *, allow_none: bool) -> set[str]:
+    labels = {part.strip().lower() for part in value.split(";") if part.strip()}
+    if not labels:
+        raise ValueError("Allergen declaration cannot be blank")
+    if labels == {"none"} and allow_none:
+        return set()
+    if "none" in labels or "unknown" in labels or not labels <= ALLERGENS:
+        raise ValueError("Allergen labels must use known names or explicit none where allowed")
+    return labels
+
+
+def validate_package(row: dict[str, str]) -> None:
+    if set(row) != set(PACKAGE_HEADERS):
+        raise ValueError("Package record schema mismatch")
+    _required(row, "package_id", "ingredient_id", "review_status")
+    if row["ingredient_id"] not in INGREDIENTS:
+        raise ValueError("Unknown ingredient ID")
+    status = row["review_status"]
+    if status not in {"pending", "reviewed", "rejected"}:
+        raise ValueError("Invalid package review status")
+    if status != "reviewed":
+        return
+    _required(
+        row, "brand", "product_name", "net_weight_g", "ingredient_statement",
+        "declared_allergens", "may_contain_allergens", "photo_sha256",
+        "source_reference", "reviewed_by", "review_date", "plant_derived_review",
+        "cross_contact_review",
+    )
+    _date(row["review_date"], "package review date")
+    _number(row["net_weight_g"], "net_weight_g", zero=False)
+    photo = row["photo_sha256"].strip().lower()
+    if len(photo) != 64 or any(c not in "0123456789abcdef" for c in photo):
+        raise ValueError("Reviewed packaging needs a real SHA-256 image evidence reference")
+    declared = _allergen_field(row["declared_allergens"], allow_none=True)
+    _allergen_field(row["may_contain_allergens"], allow_none=True)
+    if row["plant_derived_review"] not in {"yes", "no", "unknown"}:
+        raise ValueError("plant_derived_review must be yes, no or unknown")
+    if row["cross_contact_review"] not in {"assessed", "unknown"}:
+        raise ValueError("Cross-contact assessment must be explicitly recorded")
+    if row["ingredient_id"] in {"wet_awara", "fried_awara"} and "soy" not in declared:
+        raise ValueError("Awara/tofu must not be represented as soy-free")
+    if row["ingredient_id"] == "yaji" and row["plant_derived_review"] == "unknown":
+        raise ValueError("Yaji animal-derived ingredients remain unreviewed")
+    # Cross-contact status 'assessed' never means allergy-safe or no cross-contact.
+
+
+def validate_batch(row: dict[str, str]) -> None:
+    if set(row) != set(BATCH_HEADERS):
+        raise ValueError("Batch schema mismatch")
+    _required(row, "batch_id", "method_id", "trial_date", "review_status")
+    if row["method_id"] not in EQUIPMENT_REQUIREMENTS:
+        raise ValueError("Unknown batch method")
+    _date(row["trial_date"], "batch date")
+    if row["review_status"] not in {"pending", "reviewed", "rejected"}:
+        raise ValueError("Unknown batch review status")
+    if row["review_status"] != "reviewed":
+        return
+    _required(row, *BATCH_HEADERS[3:-1])
+    for field in (
+        "purchased_awara_g", "finished_serving_g", "purchased_ingredient_cost_ngn",
+        "fuel_energy_cost_ngn", "labour_cost_ngn", "packaging_cost_ngn",
+        "other_cost_ngn", "prep_minutes",
+    ):
+        _number(row[field], field, zero=field not in {
+            "purchased_awara_g", "finished_serving_g", "prep_minutes",
+        })
+    _required(row, "measurement_record", "reviewed_by")
+    if _number(row["finished_serving_g"], "finished_serving_g") > (
+        _number(row["purchased_awara_g"], "purchased_awara_g") + 1000
+    ):
+        raise ValueError("Implausible serving yield; check purchased and finished food states")
+
+
+def validate_sensory(row: dict[str, str]) -> None:
+    if set(row) != set(SENSORY_HEADERS):
+        raise ValueError("Sensory record schema mismatch")
+    _required(row, "trial_id", "batch_id", "method_id", "review_status")
+    if row["method_id"] not in EQUIPMENT_REQUIREMENTS:
+        raise ValueError("Unknown sensory method")
+    if row["review_status"] not in {"pending", "reviewed", "rejected"}:
+        raise ValueError("Unknown sensory review status")
+    if row["review_status"] != "reviewed":
+        return
+    _required(row, *SENSORY_HEADERS[3:-1])
+    _date(row["review_date"], "sensory review date")
+    if row["consent_confirmed"] != "yes":
+        raise ValueError("Cannot review non-consented sensory feedback")
+    if row["allergen_briefing"] != "confirmed":
+        raise ValueError("Sensory panel allergen briefing not confirmed")
+    if not 1 < len(row["reviewer_code"]) <= 40:
+        raise ValueError("Use a pseudonymous reviewer code")
+    _number(row["served_mass_g"], "served_mass_g", zero=False)
+    for field in RATINGS:
+        val = _number(row[field], field, zero=False, maximum=9)
+        if val != int(val):
+            raise ValueError(f"{field} must be an integer from 1 to 9")
+    if row["skewer_stability"] not in {"held", "partial", "crumbled", "not_tested"}:
+        raise ValueError("Unrecognised skewer stability observation")
+
+
+def validate_chef_feedback(row: dict[str, str]) -> None:
+    if set(row) != set(CHEF_HEADERS):
+        raise ValueError("Chef feedback schema mismatch")
+    _required(row, "feedback_id", "batch_id", "method_id", "review_status")
+    if row["method_id"] not in EQUIPMENT_REQUIREMENTS:
+        raise ValueError("Unknown chef evaluation method")
+    if row["review_status"] not in {"pending", "reviewed", "rejected"}:
+        raise ValueError("Unknown chef feedback review status")
+    if row["review_status"] != "reviewed":
+        return
+    _required(row, *CHEF_HEADERS[3:-1])
+    _date(row["review_date"], "chef feedback date")
+    if row["consent_confirmed"] != "yes":
+        raise ValueError("Chef feedback consent is required")
+    if row["reviewer_role"] not in {"chef", "restaurant_owner", "food_technologist"}:
+        raise ValueError("Chef reviewer role not recognised")
+    for field in ("prep_practicality", "skewer_workability", "customer_fit"):
+        val = _number(row[field], field, zero=False, maximum=5)
+        if val != int(val):
+            raise ValueError(f"{field} must be an integer from 1 to 5")
+
+
+def validate_serving(row: dict[str, str]) -> None:
+    if set(row) != set(SERVING_HEADERS):
+        raise ValueError("Serving schema mismatch")
+    _required(row, "serving_id", "batch_id", "method_id", "review_status")
+    if row["method_id"] not in EQUIPMENT_REQUIREMENTS:
+        raise ValueError("Unknown serving method")
+    if row["review_status"] not in {"pending", "approved", "rejected"}:
+        raise ValueError("Invalid serving approval status")
+    if row["review_status"] != "approved":
+        return
+    _required(row, *SERVING_HEADERS[3:-1])
+    _date(row["review_date"], "serving review date")
+    _number(row["protein_g"], "protein_g", zero=False, maximum=1000)
+    if row["protein_evidence_type"] not in {"lab_measured", "matched_reference"}:
+        raise ValueError("Protein evidence must state laboratory assay or matched reference")
+    if not row["protein_source"].startswith(("https://", "http://", "lab-report:")):
+        raise ValueError("Protein source requires a retrievable reference or lab record ID")
+    if row["serving_food_state"] != FOOD_STATE_FOR_METHOD[row["method_id"]]:
+        raise ValueError("Serving food state must match its tested preparation method")
+
+
+def audit_evidence(bundle: FieldEvidence) -> None:
+    """Fail closed: no serving approved without linked reviewed records and feedback."""
+    groups: tuple[tuple[str, tuple[dict[str, str], ...], Any, str], ...] = (
+        ("packages", bundle.packages, validate_package, "package_id"),
+        ("batches", bundle.batches, validate_batch, "batch_id"),
+        ("sensory", bundle.sensory, validate_sensory, "trial_id"),
+        ("chef_feedback", bundle.chef_feedback, validate_chef_feedback, "feedback_id"),
+        ("servings", bundle.servings, validate_serving, "serving_id"),
+    )
+    for name, records, validator, identifier in groups:
+        seen: set[str] = set()
+        for row in records:
+            validator(row)
+            key = row[identifier]
+            # Multiple panel scores have different trial IDs, but may share batch ID.
+            if not key or key in seen:
+                raise ValueError(f"{name}: duplicate or empty {identifier}")
+            seen.add(key)
+    packages = {r["package_id"]: r for r in bundle.packages}
+    batches = {r["batch_id"]: r for r in bundle.batches}
+    for row in bundle.sensory:
+        if row["review_status"] != "reviewed":
+            continue
+        parent = batches.get(row["batch_id"])
+        if parent is None or parent["method_id"] != row["method_id"]:
+            raise ValueError("Sensory trial must link to matching measured batch")
+    for row in bundle.chef_feedback:
+        if row["review_status"] != "reviewed":
+            continue
+        parent = batches.get(row["batch_id"])
+        if parent is None or parent["method_id"] != row["method_id"]:
+            raise ValueError("Chef feedback must link to matching measured batch")
+    for row in bundle.servings:
+        if row["review_status"] != "approved":
+            continue
+        batch = batches.get(row["batch_id"])
+        if batch is None or batch["review_status"] != "reviewed":
+            raise ValueError("Approved serving requires a reviewed measured batch")
+        if batch["method_id"] != row["method_id"]:
+            raise ValueError("Serving food method disagrees with batch")
+        referenced = [x.strip() for x in row["package_ids"].split(";") if x.strip()]
+        if not referenced:
+            raise ValueError("Serving package evidence references are required")
+        if any(pid not in packages or packages[pid]["review_status"] != "reviewed" for pid in referenced):
+            raise ValueError("Serving package labels must be independently reviewed")
+        if any(packages[pid]["cross_contact_review"] != "assessed" for pid in referenced):
+            raise ValueError("Serving cannot be approved with unreviewed cross-contact status")
+        if float(row["protein_g"]) > float(batch["finished_serving_g"]):
+            raise ValueError("Serving protein cannot exceed measured finished serving mass")
+        kinds = {packages[pid]["ingredient_id"] for pid in referenced}
+        if not kinds & {"wet_awara", "fried_awara"} or "yaji" not in kinds:
+            raise ValueError("Suya serving requires reviewed awara and yaji package/recipe records")
+        yaji_records = [packages[pid] for pid in referenced if packages[pid]["ingredient_id"] == "yaji"]
+        if any(p["plant_derived_review"] != "yes" for p in yaji_records):
+            raise ValueError("Plant-based suya requires a verified plant-derived yaji formulation")
+        if not any(
+            f["batch_id"] == batch["batch_id"] and f["review_status"] == "reviewed"
+            and f["method_id"] == batch["method_id"]
+            for f in bundle.chef_feedback
+        ):
+            raise ValueError("Approved serving requires reviewed chef or restaurant-owner feedback")
+        if not any(
+            s["batch_id"] == batch["batch_id"] and s["review_status"] == "reviewed"
+            and s["method_id"] == batch["method_id"]
+            for s in bundle.sensory
+        ):
+            raise ValueError("Approved serving requires at least one reviewed sensory record")
+        # One review is enough for linkage, not enough to claim representative taste.
+
+
+def load_field_evidence(folder: str | Path) -> FieldEvidence:
+    """A missing or empty table stays empty; it never becomes fabricated approved data."""
+    path = Path(folder)
+    groups = {}
+    for name in HEADER_GROUPS:
+        candidate = path / f"{name}.csv"
+        if not candidate.exists():
+            raise ValueError(f"Missing evidence intake table {candidate.name}")
+        data = read_evidence_csv(candidate.read_bytes(), name)
+        groups[name] = tuple(data)
+    bundle = FieldEvidence(**groups)
+    audit_evidence(bundle)
+    return bundle
+
+
+def sensory_snapshot(bundle: FieldEvidence) -> list[dict[str, str | float | int]]:
+    """Descriptive panel aggregation only; no taste prediction or population inference."""
+    audit_evidence(bundle)
+    rows = [r for r in bundle.sensory if r["review_status"] == "reviewed"]
+    keys = sorted({(r["batch_id"], r["method_id"]) for r in rows})
+    result = []
+    for batch_id, method in keys:
+        group = [r for r in rows if r["batch_id"] == batch_id and r["method_id"] == method]
+        result.append({
+            "batch_id": batch_id, "method_id": method,
+            "reviewed_responses": len(group),
+            **{
+                f"mean_{field}": round(sum(int(r[field]) for r in group) / len(group), 2)
+                for field in RATINGS
+            },
+        })
+    return result
+
+def serving_snapshot(bundle: FieldEvidence) -> list[dict[str, str | float]]:
+    """Reviewed measured cost/portion evidence, never a certified serving recommendation."""
+    audit_evidence(bundle)
+    batches = {row["batch_id"]: row for row in bundle.batches}
+    summary = []
+    for row in bundle.approved_servings:
+        batch = batches[row["batch_id"]]
+        full_cost = sum(
+            float(batch[field]) for field in (
+                "purchased_ingredient_cost_ngn", "fuel_energy_cost_ngn",
+                "labour_cost_ngn", "packaging_cost_ngn", "other_cost_ngn",
+            )
+        )
+        summary.append({
+            "serving_id": row["serving_id"],
+            "method_id": row["method_id"],
+            "recorded_finished_g": float(batch["finished_serving_g"]),
+            "recorded_listed_cost_ngn": round(full_cost, 2),
+            "recorded_prep_minutes": float(batch["prep_minutes"]),
+            "protein_g": float(row["protein_g"]),
+            "protein_evidence_type": row["protein_evidence_type"],
+            "protein_source": row["protein_source"],
+            "review_date": row["review_date"],
+            "evidence_level": "team-reviewed field record, not allergen or food-safety certification",
+        })
+    return summary
