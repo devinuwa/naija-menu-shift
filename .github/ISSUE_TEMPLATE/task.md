@@ -1,1 +1,19 @@
-LS0tCm5hbWU6IFRhc2sKYWJvdXQ6IEFkZCBhIHNjb3BlZCBIYWNrIHRoZSBGb3JrIGRldmVsb3BtZW50IHRhc2sKdGl0bGU6ICJbVEFTS10gIgpsYWJlbHM6IFtdCmFzc2lnbmVlczogW10KLS0tCgoqKkdvYWwqKgoKKipPd25lciAoY29uZmlybSBHaXRIdWIgYWNjb3VudCkqKgoKKipBY2NlcHRhbmNlIGNyaXRlcmlhKioKCioqRGF0YSBvciBldmlkZW5jZSByZXF1aXJlZCoqCgoqKkRlcGVuZGVuY2llcyoqCgoqKkV4cGVjdGVkIHByb29mICh0ZXN0L3NjcmVlbnNob3QvbG9nKSoqCg==
+---
+name: Task
+about: Add a scoped Hack the Fork development task
+title: "[TASK] "
+labels: []
+assignees: []
+---
+
+**Goal**
+
+**Owner (confirm GitHub account)**
+
+**Acceptance criteria**
+
+**Data or evidence required**
+
+**Dependencies**
+
+**Expected proof (test/screenshot/log)**
