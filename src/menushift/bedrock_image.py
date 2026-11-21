@@ -1,1 +1,100 @@
-IiIiT3B0aW9uYWwgaW1hZ2UgZ2VuZXJhdGlvbiBhZGFwdGVyOyBkaXNhYmxlZCB1bmxlc3Mgb3JnYW5pc2VycyBleHBsaWNpdGx5IGFwcHJvdmUgaXQuCgpUaGUgb2ZmaWNpYWwgSGFjayB0aGUgRm9yayBBV1MgcGFydGljaXBhbnQgZ3VpZGUgbGlzdHMgVGl0YW4gKmVtYmVkZGluZ3MqCmJ1dCBOT1QgVGl0YW4gSW1hZ2UgR2VuZXJhdG9yIGFzIGFuIGVuYWJsZWQgd29ya3Nob3AgbW9kZWwuIERvIG5vdCBpbnZva2UKaW1hZ2UgZ2VuZXJhdGlvbiBpbiB0aGUgd29ya3Nob3Agd2l0aG91dCB3cml0dGVuIGFwcHJvdmFsIGFuZCB0ZXN0ZWQgYWNjZXNzLgoKQW1hem9uIE5vdmEgQ2FudmFzIHJlYWNoZWQgZW5kIG9mIGxpZmUgaW4gU2VwdGVtYmVyIDIwMjYgYW5kIGlzIG5vdCBzdXBwb3J0ZWQuCiIiIgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgYmFzZTY0CmltcG9ydCBiaW5hc2NpaQppbXBvcnQganNvbgppbXBvcnQgb3MKZnJvbSBkYXRhY2xhc3NlcyBpbXBvcnQgZGF0YWNsYXNzCmZyb20gdHlwaW5nIGltcG9ydCBBbnkKCmZyb20gLnZpc3VhbF9wcmV2aWV3IGltcG9ydCBQcmV2aWV3RHJhZnQKClRJVEFOX0lNQUdFX01PREVMX0lEID0gImFtYXpvbi50aXRhbi1pbWFnZS1nZW5lcmF0b3ItdjI6MCIKTUFYX0lNQUdFX0JZVEVTID0gOCAqIDEwMjQgKiAxMDI0CgoKZGVmIHdvcmtzaG9wX2dlbmVyYXRpb25fZW5hYmxlZCgpIC0+IGJvb2w6CiAgICAiIiJUd28gZXhwbGljaXQgb3B0LWluczogZmVhdHVyZSBnYXRlIGFuZCBldmVudC1sZXZlbCBtb2RlbCBhdXRob3Jpc2F0aW9uLiIiIgogICAgcmV0dXJuICgKICAgICAgICBvcy5nZXRlbnYoIkVOQUJMRV9CRURST0NLX0lNQUdFX1BSRVZJRVciKSA9PSAidHJ1ZSIKICAgICAgICBhbmQgb3MuZ2V0ZW52KCJJTUFHRV9NT0RFTF9PUkdBTklaRVJfQVBQUk9WRUQiKSA9PSAidHJ1ZSIKICAgICAgICBhbmQgb3MuZ2V0ZW52KCJCRURST0NLX0lNQUdFX01PREVMX0lEIikgPT0gVElUQU5fSU1BR0VfTU9ERUxfSUQKICAgICkKCgpAZGF0YWNsYXNzKGZyb3plbj1UcnVlKQpjbGFzcyBHZW5lcmF0ZWRQcmV2aWV3OgogICAgY29udGVudDogYnl0ZXMKICAgIG1pbWVfdHlwZTogc3RyCiAgICBtb2RlbF9pZDogc3RyCiAgICBkcmFmdDogUHJldmlld0RyYWZ0CgoKY2xhc3MgVGl0YW5JbWFnZUdlbmVyYXRvcjoKICAgICIiIkJlZHJvY2sgSW52b2tlTW9kZWwgaW1wbGVtZW50YXRpb24gZm9yICphcHByb3ZlZCogVGl0YW4gVjIgYWNjZXNzIG9ubHkuIiIiCgogICAgZGVmIF9faW5pdF9fKAogICAgICAgIHNlbGYsICosIG1vZGVsX2lkOiBzdHIsIHJlZ2lvbjogc3RyID0gInVzLWVhc3QtMSIsCiAgICAgICAgY2xpZW50OiBBbnkgfCBOb25lID0gTm9uZSwgYXBwcm92ZWQ6IGJvb2wgPSBGYWxzZSwKICAgICk6CiAgICAgICAgaWYgbm90IGFwcHJvdmVkOgogICAgICAgICAgICByYWlzZSBQZXJtaXNzaW9uRXJyb3IoIkltYWdlIG1vZGVsIGFjY2VzcyByZXF1aXJlcyBvcmdhbmlzZXIgYXBwcm92YWwiKQogICAgICAgIGlmIHJlZ2lvbiAhPSAidXMtZWFzdC0xIjoKICAgICAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigiV29ya3Nob3AgQVdTIHJlZ2lvbiBtdXN0IGJlIHVzLWVhc3QtMSIpCiAgICAgICAgaWYgbW9kZWxfaWQgIT0gVElUQU5fSU1BR0VfTU9ERUxfSUQ6CiAgICAgICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoIlVuc3VwcG9ydGVkIGltYWdlIG1vZGVsOyBjaGVjayB0aGUgYWN0dWFsIGV2ZW50IGFsbG93bGlzdCIpCiAgICAgICAgaWYgY2xpZW50IGlzIE5vbmU6CiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIGltcG9ydCBib3RvMyAgIyB0eXBlOiBpZ25vcmVbaW1wb3J0LW5vdC1mb3VuZF0KICAgICAgICAgICAgZXhjZXB0IEltcG9ydEVycm9yIGFzIGV4YzoKICAgICAgICAgICAgICAgIHJhaXNlIFJ1bnRpbWVFcnJvcigiSW5zdGFsbCBvcHRpb25hbCBkZXBlbmRlbmN5OiBwaXAgaW5zdGFsbCAtZSAnLlthd3NdJyIpIGZyb20gZXhjCiAgICAgICAgICAgIGNsaWVudCA9IGJvdG8zLmNsaWVudCgiYmVkcm9jay1ydW50aW1lIiwgcmVnaW9uX25hbWU9cmVnaW9uKQogICAgICAgIHNlbGYuY2xpZW50ID0gY2xpZW50CiAgICAgICAgc2VsZi5tb2RlbF9pZCA9IG1vZGVsX2lkCgogICAgZGVmIGdlbmVyYXRlKHNlbGYsIGRyYWZ0OiBQcmV2aWV3RHJhZnQsICosIHNlZWQ6IGludCA9IDQyKSAtPiBHZW5lcmF0ZWRQcmV2aWV3OgogICAgICAgIGlmIG5vdCAwIDw9IHNlZWQgPD0gMjE0NzQ4MzY0NzoKICAgICAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigiU2VlZCBvdXQgb2YgcmFuZ2UiKQogICAgICAgIGlmIGxlbihkcmFmdC5wcm9tcHQpID4gNTEyIG9yIGxlbihkcmFmdC5uZWdhdGl2ZV9wcm9tcHQpID4gNTEyOgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJJbWFnZSBwcm9tcHQgdG9vIGxhcmdlIikKICAgICAgICBwYXlsb2FkID0gewogICAgICAgICAgICAidGFza1R5cGUiOiAiVEVYVF9JTUFHRSIsCiAgICAgICAgICAgICJ0ZXh0VG9JbWFnZVBhcmFtcyI6IHsKICAgICAgICAgICAgICAgICJ0ZXh0IjogZHJhZnQucHJvbXB0LAogICAgICAgICAgICAgICAgIm5lZ2F0aXZlVGV4dCI6IGRyYWZ0Lm5lZ2F0aXZlX3Byb21wdCwKICAgICAgICAgICAgfSwKICAgICAgICAgICAgImltYWdlR2VuZXJhdGlvbkNvbmZpZyI6IHsKICAgICAgICAgICAgICAgICJxdWFsaXR5IjogInN0YW5kYXJkIiwKICAgICAgICAgICAgICAgICJudW1iZXJPZkltYWdlcyI6IDEsCiAgICAgICAgICAgICAgICAiaGVpZ2h0IjogNTEyLAogICAgICAgICAgICAgICAgIndpZHRoIjogNTEyLAogICAgICAgICAgICAgICAgInNlZWQiOiBzZWVkLAogICAgICAgICAgICB9LAogICAgICAgIH0KICAgICAgICByZXNwb25zZSA9IHNlbGYuY2xpZW50Lmludm9rZV9tb2RlbCgKICAgICAgICAgICAgbW9kZWxJZD1zZWxmLm1vZGVsX2lkLCBjb250ZW50VHlwZT0iYXBwbGljYXRpb24vanNvbiIsCiAgICAgICAgICAgIGFjY2VwdD0iYXBwbGljYXRpb24vanNvbiIsIGJvZHk9anNvbi5kdW1wcyhwYXlsb2FkKSwKICAgICAgICApCiAgICAgICAgdHJ5OgogICAgICAgICAgICBkYXRhID0ganNvbi5sb2FkcyhyZXNwb25zZVsiYm9keSJdLnJlYWQoKSkKICAgICAgICAgICAgZW5jb2RlZCA9IGRhdGFbImltYWdlcyJdWzBdCiAgICAgICAgICAgIGRlY29kZWQgPSBiYXNlNjQuYjY0ZGVjb2RlKGVuY29kZWQsIHZhbGlkYXRlPVRydWUpCiAgICAgICAgZXhjZXB0IChLZXlFcnJvciwgSW5kZXhFcnJvciwgVHlwZUVycm9yLCBWYWx1ZUVycm9yLCBiaW5hc2NpaS5FcnJvcikgYXMgZXhjOgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJJbWFnZSBtb2RlbCByZXR1cm5lZCBhbiBpbnZhbGlkIHJlc3BvbnNlIikgZnJvbSBleGMKICAgICAgICBpZiBub3QgZGVjb2RlZCBvciBsZW4oZGVjb2RlZCkgPiBNQVhfSU1BR0VfQllURVM6CiAgICAgICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoIkltYWdlIG1vZGVsIHJldHVybmVkIGFuIGVtcHR5IG9yIG92ZXJzaXplZCBpbWFnZSIpCiAgICAgICAgaWYgZGVjb2RlZC5zdGFydHN3aXRoKGIiXHg4OVBOR1xyXG5ceDFhXG4iKToKICAgICAgICAgICAgbWltZXR5cGUgPSAiaW1hZ2UvcG5nIgogICAgICAgIGVsaWYgZGVjb2RlZC5zdGFydHN3aXRoKGIiXHhmZlx4ZDhceGZmIik6CiAgICAgICAgICAgIG1pbWV0eXBlID0gImltYWdlL2pwZWciCiAgICAgICAgZWxzZToKICAgICAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigiTW9kZWwgcmV0dXJuZWQgdW5zdXBwb3J0ZWQgaW1hZ2UgYnl0ZXMiKQogICAgICAgIHJldHVybiBHZW5lcmF0ZWRQcmV2aWV3KGRlY29kZWQsIG1pbWV0eXBlLCBzZWxmLm1vZGVsX2lkLCBkcmFmdCkK
+"""Optional image generation adapter; disabled unless organisers explicitly approve it.
+
+The official Hack the Fork AWS participant guide lists Titan *embeddings*
+but NOT Titan Image Generator as an enabled workshop model. Do not invoke
+image generation in the workshop without written approval and tested access.
+
+Amazon Nova Canvas reached end of life in September 2026 and is not supported.
+"""
+from __future__ import annotations
+
+import base64
+import binascii
+import json
+import os
+from dataclasses import dataclass
+from typing import Any
+
+from .visual_preview import PreviewDraft
+
+TITAN_IMAGE_MODEL_ID = "amazon.titan-image-generator-v2:0"
+MAX_IMAGE_BYTES = 8 * 1024 * 1024
+
+
+def workshop_generation_enabled() -> bool:
+    """Two explicit opt-ins: feature gate and event-level model authorisation."""
+    return (
+        os.getenv("ENABLE_BEDROCK_IMAGE_PREVIEW") == "true"
+        and os.getenv("IMAGE_MODEL_ORGANIZER_APPROVED") == "true"
+        and os.getenv("BEDROCK_IMAGE_MODEL_ID") == TITAN_IMAGE_MODEL_ID
+    )
+
+
+@dataclass(frozen=True)
+class GeneratedPreview:
+    content: bytes
+    mime_type: str
+    model_id: str
+    draft: PreviewDraft
+
+
+class TitanImageGenerator:
+    """Bedrock InvokeModel implementation for *approved* Titan V2 access only."""
+
+    def __init__(
+        self, *, model_id: str, region: str = "us-east-1",
+        client: Any | None = None, approved: bool = False,
+    ):
+        if not approved:
+            raise PermissionError("Image model access requires organiser approval")
+        if region != "us-east-1":
+            raise ValueError("Workshop AWS region must be us-east-1")
+        if model_id != TITAN_IMAGE_MODEL_ID:
+            raise ValueError("Unsupported image model; check the actual event allowlist")
+        if client is None:
+            try:
+                import boto3  # type: ignore[import-not-found]
+            except ImportError as exc:
+                raise RuntimeError("Install optional dependency: pip install -e '.[aws]'") from exc
+            client = boto3.client("bedrock-runtime", region_name=region)
+        self.client = client
+        self.model_id = model_id
+
+    def generate(self, draft: PreviewDraft, *, seed: int = 42) -> GeneratedPreview:
+        if not 0 <= seed <= 2147483647:
+            raise ValueError("Seed out of range")
+        if len(draft.prompt) > 512 or len(draft.negative_prompt) > 512:
+            raise ValueError("Image prompt too large")
+        payload = {
+            "taskType": "TEXT_IMAGE",
+            "textToImageParams": {
+                "text": draft.prompt,
+                "negativeText": draft.negative_prompt,
+            },
+            "imageGenerationConfig": {
+                "quality": "standard",
+                "numberOfImages": 1,
+                "height": 512,
+                "width": 512,
+                "seed": seed,
+            },
+        }
+        response = self.client.invoke_model(
+            modelId=self.model_id, contentType="application/json",
+            accept="application/json", body=json.dumps(payload),
+        )
+        try:
+            data = json.loads(response["body"].read())
+            encoded = data["images"][0]
+            decoded = base64.b64decode(encoded, validate=True)
+        except (KeyError, IndexError, TypeError, ValueError, binascii.Error) as exc:
+            raise ValueError("Image model returned an invalid response") from exc
+        if not decoded or len(decoded) > MAX_IMAGE_BYTES:
+            raise ValueError("Image model returned an empty or oversized image")
+        if decoded.startswith(b"\x89PNG\r\n\x1a\n"):
+            mimetype = "image/png"
+        elif decoded.startswith(b"\xff\xd8\xff"):
+            mimetype = "image/jpeg"
+        else:
+            raise ValueError("Model returned unsupported image bytes")
+        return GeneratedPreview(decoded, mimetype, self.model_id, draft)
