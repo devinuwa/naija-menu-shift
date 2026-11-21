@@ -1,1 +1,46 @@
-IiIiU3RyZWFtbGl0IEFwcFRlc3QgY292ZXJzIGZ1bmN0aW9uYWwgVVggYnV0IG5vdCBhY3R1YWwgbW9iaWxlIHJlbmRlcmluZy4iIiIKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCgpmcm9tIHN0cmVhbWxpdC50ZXN0aW5nLnYxIGltcG9ydCBBcHBUZXN0CgpQQUdFID0gUGF0aChfX2ZpbGVfXykucmVzb2x2ZSgpLnBhcmVudHNbMV0gLyAicGFnZXMiIC8gIjFfS2l0Y2hlbl9JbnRlbGxpZ2VuY2UucHkiCgoKZGVmIGxhdW5jaCgpOgogICAgYXBwID0gQXBwVGVzdC5mcm9tX2ZpbGUoc3RyKFBBR0UpLCBkZWZhdWx0X3RpbWVvdXQ9NjApLnJ1bigpCiAgICBhc3NlcnQgbm90IGFwcC5leGNlcHRpb24KICAgIHJldHVybiBhcHAKCgpkZWYgdGVzdF9raXRjaGVuX3N0dWRpb19yZW5kZXJzX2NsZWFyX3Jlc3RhdXJhbnRfZmllbGRzKCk6CiAgICBhcHAgPSBsYXVuY2goKQogICAgYXNzZXJ0IGFueSgiV2hpY2ggbWVudSB3b3VsZCB5b3UgbGlrZSB0byBkaXZlcnNpZnk/IiBpbiBoLnZhbHVlIGZvciBoIGluIGFwcC5zdWJoZWFkZXIpCiAgICBhc3NlcnQgYW55KCJNYXhpbXVtIGVzdGltYXRlZCBjb3N0IiBpbiB4LmxhYmVsIGZvciB4IGluIGFwcC5udW1iZXJfaW5wdXQpCiAgICBhc3NlcnQgYW55KCJNaW5pbXVtIGVzdGltYXRlZCBwcm90ZWluIiBpbiB4LmxhYmVsIGZvciB4IGluIGFwcC5udW1iZXJfaW5wdXQpCiAgICBhc3NlcnQgYW55KCJXaGF0IGVxdWlwbWVudCBpcyBhdmFpbGFibGU/IiA9PSB4LmxhYmVsIGZvciB4IGluIGFwcC5tdWx0aXNlbGVjdCkKICAgIGFzc2VydCBhbnkoIlJlc2VhcmNoIHByb3RvdHlwZSIgaW4geC52YWx1ZSBmb3IgeCBpbiBhcHAud2FybmluZykKCgpkZWYgdGVzdF9idWRnZXRfdG9vX2xvd19hYnN0YWluc19pbl91aSgpOgogICAgYXBwID0gbGF1bmNoKCkKICAgIGl0ZW0gPSBuZXh0KHggZm9yIHggaW4gYXBwLm51bWJlcl9pbnB1dCBpZiAiTWF4aW11bSBlc3RpbWF0ZWQgY29zdCIgaW4geC5sYWJlbCkKICAgIGl0ZW0uc2V0X3ZhbHVlKDEuMCkucnVuKCkKICAgIGFzc2VydCBub3QgYXBwLmV4Y2VwdGlvbgogICAgYXNzZXJ0IGFueSgiTm8gcGxhbnQtYmFzZWQgZm9ybXVsYXRpb24iIGluIHgudmFsdWUgZm9yIHggaW4gYXBwLmVycm9yKQoKCmRlZiB0ZXN0X25vX2dyaWxsX2Jsb2Nrc19hbGxfY2FuZGlkYXRlc19pbl91aSgpOgogICAgYXBwID0gbGF1bmNoKCkKICAgIGl0ZW0gPSBuZXh0KHggZm9yIHggaW4gYXBwLm11bHRpc2VsZWN0IGlmIHgubGFiZWwgPT0gIldoYXQgZXF1aXBtZW50IGlzIGF2YWlsYWJsZT8iKQogICAgaXRlbS5zZXRfdmFsdWUoW10pLnJ1bigpCiAgICBhc3NlcnQgbm90IGFwcC5leGNlcHRpb24KICAgIGFzc2VydCBhbnkoIk5vIHBsYW50LWJhc2VkIGZvcm11bGF0aW9uIiBpbiB4LnZhbHVlIGZvciB4IGluIGFwcC5lcnJvcikKCgpkZWYgdGVzdF9zZWNvbmRfZGlzaF9zdHVkaW9fbGFiZWxzX3VucHJpY2VkX21lYWxfcGFydHMoKToKICAgIGFwcCA9IGxhdW5jaCgpCiAgICBzZWxlY3QgPSBuZXh0KGJveCBmb3IgYm94IGluIGFwcC5zZWxlY3Rib3ggaWYgYm94LmxhYmVsID09ICJFeGlzdGluZyBtZW51IGRpc2giKQogICAgc2VsZWN0LnNldF92YWx1ZSgiam9sbG9mX3NpZGUiKS5ydW4oKQogICAgYXNzZXJ0IG5vdCBhcHAuZXhjZXB0aW9uCiAgICBhc3NlcnQgYW55KCJQQVJUSUFMIG1lbnUgYWRhcHRhdGlvbiIgaW4gdy52YWx1ZSBmb3IgdyBpbiBhcHAud2FybmluZykKICAgIGFzc2VydCBhbnkoIkZvcm11bGF0aW9uIiBpbiB4LnZhbHVlIG9yICJGaW5kIGEgZm9ybXVsYXRpb24iIGluIHgudmFsdWUgZm9yIHggaW4gYXBwLnN1YmhlYWRlcikK
+"""Streamlit AppTest covers functional UX but not actual mobile rendering."""
+from pathlib import Path
+
+from streamlit.testing.v1 import AppTest
+
+PAGE = Path(__file__).resolve().parents[1] / "pages" / "1_Kitchen_Intelligence.py"
+
+
+def launch():
+    app = AppTest.from_file(str(PAGE), default_timeout=60).run()
+    assert not app.exception
+    return app
+
+
+def test_kitchen_studio_renders_clear_restaurant_fields():
+    app = launch()
+    assert any("Which menu would you like to diversify?" in h.value for h in app.subheader)
+    assert any("Maximum estimated cost" in x.label for x in app.number_input)
+    assert any("Minimum estimated protein" in x.label for x in app.number_input)
+    assert any("What equipment is available?" == x.label for x in app.multiselect)
+    assert any("Research prototype" in x.value for x in app.warning)
+
+
+def test_budget_too_low_abstains_in_ui():
+    app = launch()
+    item = next(x for x in app.number_input if "Maximum estimated cost" in x.label)
+    item.set_value(1.0).run()
+    assert not app.exception
+    assert any("No plant-based formulation" in x.value for x in app.error)
+
+
+def test_no_grill_blocks_all_candidates_in_ui():
+    app = launch()
+    item = next(x for x in app.multiselect if x.label == "What equipment is available?")
+    item.set_value([]).run()
+    assert not app.exception
+    assert any("No plant-based formulation" in x.value for x in app.error)
+
+
+def test_second_dish_studio_labels_unpriced_meal_parts():
+    app = launch()
+    select = next(box for box in app.selectbox if box.label == "Existing menu dish")
+    select.set_value("jollof_side").run()
+    assert not app.exception
+    assert any("PARTIAL menu adaptation" in w.value for w in app.warning)
+    assert any("Formulation" in x.value or "Find a formulation" in x.value for x in app.subheader)
