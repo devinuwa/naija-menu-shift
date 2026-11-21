@@ -17,16 +17,23 @@ from menushift.functional import plant_proteins
 from menushift.hospital import (
     CONDITIONS,
     FEEDBACK_FIELDS,
+    MENU_SOURCE,
+    THERAPEUTIC_PRESETS,
     append_hospital_feedback,
     build_any_dish_comparison,
+    build_baseline,
     build_comparison,
     build_condition_menu,
     build_hospital_dataset,
+    display_text,
+    email_hospital_feedback,
     get_condition,
     get_dish,
+    load_protein_prices,
     load_unth_menu,
     plant_protein_dataset,
     recommend_for_dish,
+    submit_hospital_feedback,
     suggest_for_any_dish,
 )
 
@@ -477,3 +484,186 @@ def test_hospital_page_condition_view_renders():
     assert "support dietary management of cardiovascular disease" in joined
     assert "Confirm recipe with the kitchen" in joined
     assert "no sodium, saturated-fat or cholesterol values" in joined
+
+
+# ----------------------------------------------------------------------
+# Display rule: the product UI never names its data sources. Provenance
+# stays in the module's source fields and the evidence pages; everything
+# the Hospital page renders passes through display_text() first.
+# ----------------------------------------------------------------------
+
+BANNED_DISPLAY_TOKENS = (
+    "WAFCT", "USDA", "WFP", "NBS", "Maduforo", "Pakistan Journal of Nutrition",
+    "Batubo", "Keshinro", "Journal of", "UPTH", "Daily Trust",
+    "Frontiers in Nutrition", "SIWES", "FoodData Central",
+)
+
+
+def _assert_display_clean(text: str) -> None:
+    shown = display_text(text)
+    for token in BANNED_DISPLAY_TOKENS:
+        assert token not in shown, (token, shown)
+
+
+def test_display_text_strips_sources_but_keeps_evidence():
+    _assert_display_clean(MENU_SOURCE)
+    assert "2016" in display_text(MENU_SOURCE)
+    for preset in THERAPEUTIC_PRESETS.values():
+        _assert_display_clean(preset.label)
+        _assert_display_clean(preset.source)
+        for note in preset.notes:
+            _assert_display_clean(note)
+    # The preset labels keep their clinical content, minus the citation.
+    assert display_text(THERAPEUTIC_PRESETS["high_protein"].label) == (
+        "High protein (1.5-2.0 g/kg/day)")
+    for condition in CONDITIONS.values():
+        _assert_display_clean(condition.preset_mapping_note)
+        for note in condition.evidence_notes:
+            _assert_display_clean(note)
+        for limitation in condition.limitations:
+            _assert_display_clean(limitation)
+    # The meta-analysis figures survive; only the citation is removed.
+    cardio = get_condition("cardiovascular")
+    shown_evidence = display_text(" ".join(cardio.evidence_notes))
+    assert "OR 1.51" in shown_evidence
+    assert "OR 1.76" in shown_evidence
+    assert "OR 1.25" in shown_evidence
+    # Price bases keep their honesty content (derived, floor, verify).
+    for price in load_protein_prices().values():
+        _assert_display_clean(price.price_basis)
+    egusi_basis = display_text(load_protein_prices()["egusi"].price_basis)
+    assert "modelled" in egusi_basis and "floor value" in egusi_basis
+    # Baselines: "no cited value" becomes "no verified value available".
+    fish = build_baseline("fish", 100.0)
+    _assert_display_clean(fish.note)
+    assert "No verified baseline available" in display_text(fish.note)
+    chicken = build_baseline("chicken", 100.0)
+    _assert_display_clean(chicken.note)
+
+
+def test_display_text_keeps_recommendation_notes_clean(menu):
+    for dish_id in ("fish", "meat"):
+        result = recommend_for_dish(dish_id, menu=menu)
+        for note in result.notes:
+            _assert_display_clean(note)
+        for alt in result.alternatives:
+            _assert_display_clean(alt.price_basis)
+            for reason in alt.reasons:
+                _assert_display_clean(reason)
+        comparison = build_comparison(result)
+        assert comparison is not None
+        for note in comparison.notes:
+            _assert_display_clean(note)
+    fish_comparison = build_comparison(recommend_for_dish("fish", menu=menu))
+    assert fish_comparison is not None
+    assert "no verified values are available" in display_text(
+        " ".join(fish_comparison.notes))
+    condition_menu = build_condition_menu("cardiovascular", menu=menu)
+    for note in condition_menu.notes:
+        _assert_display_clean(note)
+    for item in condition_menu.items:
+        _assert_display_clean(item.note)
+
+
+def _rendered_text(at) -> str:
+    parts: list[str] = []
+    for name in ("title", "header", "subheader", "markdown", "text",
+                 "caption", "warning", "info", "error", "success"):
+        for element in getattr(at, name, []):
+            parts.append(str(element.value))
+    for element in getattr(at, "dataframe", []):
+        parts.append(element.value.to_string())
+    for element in getattr(at, "metric", []):
+        parts.append(f"{element.label} {element.value}")
+    return "\n".join(parts)
+
+
+def test_hospital_page_never_renders_source_names():
+    from streamlit.testing.v1 import AppTest
+
+    # Documented-menu mode (default landing state).
+    at = AppTest.from_file(str(PAGE), default_timeout=60).run()
+    assert not at.exception
+    shown = _rendered_text(at)
+    assert "Hospital food service" in shown  # the page actually rendered
+    for token in BANNED_DISPLAY_TOKENS:
+        assert token not in shown, token
+    # Condition view.
+    at.selectbox(key="patient_condition").set_value("cardiovascular").run()
+    assert not at.exception
+    shown = _rendered_text(at)
+    assert "support dietary management of cardiovascular disease" in shown
+    for token in BANNED_DISPLAY_TOKENS:
+        assert token not in shown, token
+    # Any-dish mode with a typed dish and ranked alternatives.
+    at_any = AppTest.from_file(str(PAGE), default_timeout=60).run()
+    assert not at_any.exception
+    at_any.radio[0].set_value("Any dish (type your own)").run()
+    assert not at_any.exception
+    at_any.text_input[0].set_value("Grilled beef skewers").run()
+    assert not at_any.exception
+    shown = _rendered_text(at_any)
+    assert "Recommended additional options" in shown
+    for token in BANNED_DISPLAY_TOKENS:
+        assert token not in shown, token
+
+
+# ----------------------------------------------------------------------
+# Feedback email: the CSV row is the record; email delivery is a
+# best-effort copy to the team inbox and is reported honestly.
+# ----------------------------------------------------------------------
+
+def _feedback_fields(**overrides):
+    fields = {
+        "dish": "Fish",
+        "alternative": "Awara (soy curd / tofu)",
+        "preset": "standard",
+        "availability": "available",
+        "practicality": "practical",
+        "cost_realistic": "partly",
+        "acceptability": "accepted",
+        "comment": "",
+    }
+    fields.update(overrides)
+    return fields
+
+
+def test_feedback_email_success_and_failure_paths():
+    row = {field: "" for field in FEEDBACK_FIELDS}
+    row.update(_feedback_fields())
+    seen = {}
+
+    def ok_post(url, payload):
+        seen["url"] = url
+        seen["payload"] = payload
+        return 200
+
+    assert email_hospital_feedback(row, http_post=ok_post) is True
+    assert seen["url"] == (
+        "https://formsubmit.co/ajax/inuwamuhammad930@gmail.com")
+    assert "Fish" in seen["payload"]["message"]
+    assert email_hospital_feedback(row, http_post=lambda url, payload: 500) is False
+
+    def dead_network(url, payload):
+        raise ConnectionError("offline")
+
+    assert email_hospital_feedback(row, http_post=dead_network) is False
+
+
+def test_submit_hospital_feedback_saves_row_regardless_of_email(tmp_path):
+    target = tmp_path / "hospital_feedback.csv"
+    row, emailed = submit_hospital_feedback(
+        target, http_post=lambda url, payload: 200, **_feedback_fields())
+    assert emailed is True
+    assert row["dish"] == "Fish"
+
+    def dead_network(url, payload):
+        raise ConnectionError("offline")
+
+    _row2, emailed2 = submit_hospital_feedback(
+        target, http_post=dead_network,
+        **_feedback_fields(dish="Meat"))
+    assert emailed2 is False  # reported honestly, row still saved
+    with target.open(encoding="utf-8", newline="") as handle:
+        rows = list(csv.DictReader(handle))
+    assert [r["dish"] for r in rows] == ["Fish", "Meat"]
