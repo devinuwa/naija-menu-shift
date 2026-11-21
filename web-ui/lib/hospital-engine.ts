@@ -7,7 +7,33 @@
 // protein delivered, then cost.
 
 import { HOSPITAL_DATA } from "./hospital-data";
-import type { Alternative } from "./hospital-types";
+import type { Alternative, FunctionalProfile } from "./hospital-types";
+
+const METHOD_VERB: Record<string, string> = {
+  grill: "grilling",
+  fry: "frying",
+  boil: "boiling",
+  soup: "soups and stews",
+  steam: "steaming",
+};
+
+// Plain-word descriptions of what each cooking behaviour means, used only
+// for behaviours the protein is genuinely strong or fair at (baked levels).
+const TRAIT_PHRASE: { key: keyof FunctionalProfile; phrase: string }[] = [
+  { key: "gelation", phrase: "it sets and holds together when cooked" },
+  { key: "waterHolding", phrase: "it soaks up water, so it stays juicy" },
+  { key: "emulsification", phrase: "it mixes smoothly into sauces" },
+  { key: "solubility", phrase: "it dissolves into the cooking liquid" },
+];
+
+function traitPhrases(functional: FunctionalProfile): string[] {
+  const scored = TRAIT_PHRASE.map((t) => ({
+    phrase: t.phrase,
+    strength: functional[t.key] === "High" ? 2 : functional[t.key] === "Moderate" ? 1 : 0,
+  })).filter((t) => t.strength > 0);
+  scored.sort((a, b) => b.strength - a.strength);
+  return scored.slice(0, 2).map((t) => t.phrase);
+}
 
 export interface AnyDishResult {
   alternative: Alternative;
@@ -57,14 +83,19 @@ export function suggestAnyDish(input: {
       reason: "",
     };
 
-    const methodReason = surv.reasons[0] ?? "";
+    const traits = traitPhrases(p.functional);
+    const verb = METHOD_VERB[input.method] ?? "this cooking style";
+    const methodLine =
+      traits.length > 0
+        ? `Good for ${verb}: ${traits.join(", and ")}.`
+        : `It holds up well in ${verb}.`;
     const proteinLine =
       baseline && baseline.proteinPer100g != null
-        ? ` It carries ${fmt1(p.proteinPer100g)} g protein per 100 g against ` +
-          `${baseline.label.toLowerCase()}'s ${fmt1(baseline.proteinPer100g)} g.`
-        : ` At a ${chosen.portion} g portion it clears the ${proteinFloorG} g ` +
-          `protein floor for the dish.`;
-    results.push({ alternative, reasoning: methodReason + proteinLine });
+        ? ` It gives ${fmt1(p.proteinPer100g)} g of protein in every 100 g — ` +
+          `the ${baseline.label.toLowerCase()} it stands in for gives ` +
+          `${fmt1(baseline.proteinPer100g)} g.`
+        : ` A ${chosen.portion} g portion gives ${fmt1(chosen.protein)} g of protein.`;
+    results.push({ alternative, reasoning: methodLine + proteinLine });
   }
 
   results.sort(
