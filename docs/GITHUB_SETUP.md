@@ -1,1 +1,47 @@
-IyBDcmVhdGUgdGhlIHByaXZhdGUgR2l0SHViIHJlcG9zaXRvcnkgYW5kIGludml0ZSBjb250cmlidXRvcnMKCioqUHJlcGFyZWQgdGFyZ2V0OioqIGBodHRwczovL2dpdGh1Yi5jb20vSWJyYWhpbS1LSUEvbmFpamEtbWVudXNoaWZ0YCAodGhpcyBsaW5rIHdpbGwgd29yayAqKm9ubHkgYWZ0ZXIqKiBjcmVhdGlvbiBhbmQgYW4gaW5pdGlhbCBwdXNoKS4KCiMjIDEuIENyZWF0ZSByZXBvc2l0b3J5CgoxLiBXaGlsZSBzaWduZWQgaW50byBgSWJyYWhpbS1LSUFgLCBvcGVuIDxodHRwczovL2dpdGh1Yi5jb20vbmV3Pi4KMi4gT3duZXI6IGBJYnJhaGltLUtJQWAuIE5hbWU6IGBuYWlqYS1tZW51c2hpZnRgLgozLiBDaG9vc2UgKipQcml2YXRlKiouIERvICoqbm90KiogYXV0by1nZW5lcmF0ZSBhIFJFQURNRSwgbGljZW5zZSBvciBgLmdpdGlnbm9yZWAgKGFsbCBzb3VyY2UgZmlsZXMgYXJlIGluIHRoaXMgYnVuZGxlKS4KNC4gQ3JlYXRlIHJlcG9zaXRvcnkuCgojIyAyLiBQdWJsaXNoIGZyb20gbG9jYWwgd29ya2luZyBmb2xkZXIKCkV4dHJhY3QgdGhlIHByb2plY3QgWklQIGFuZCBvcGVuIFBvd2VyU2hlbGwgaW4gdGhlIGBuYWlqYS1tZW51c2hpZnRgIGZvbGRlcjoKCmBgYHBvd2Vyc2hlbGwKZ2l0IGluaXQgLWIgbWFpbgpnaXQgYWRkIC4KZ2l0IGNvbW1pdCAtbSAiQm9vdHN0cmFwIG11bHRpLWRpc2ggbWVudSBpbm5vdmF0aW9uIHByb3RvdHlwZSIKZ2l0IHJlbW90ZSBhZGQgb3JpZ2luIGh0dHBzOi8vZ2l0aHViLmNvbS9JYnJhaGltLUtJQS9uYWlqYS1tZW51c2hpZnQuZ2l0CmdpdCBwdXNoIC11IG9yaWdpbiBtYWluCmBgYAoKSWYgdGhlIGV4dHJhY3RlZCBidW5kbGUgY29udGFpbnMgYC5naXRgLCBza2lwIGBnaXQgaW5pdGAsIGBnaXQgYWRkYCwgYW5kIGBnaXQgY29tbWl0YCBhbmQgcHVzaCBkaXJlY3RseS4gSWYgdGhlIGJyYW5jaCBpcyBub3QgYG1haW5gLCBydW4gYGdpdCBicmFuY2ggLU0gbWFpbmAuIFVzZSB5b3VyIG5vcm1hbCBHaXRIdWIgYXV0aGVudGljYXRpb247IGRvbid0IHBhc3RlIHRva2VucyBpbnRvIGZpbGVzIG9yIHRoZSBjaGF0LgoKQWx0ZXJuYXRpdmU6IEdpdEh1YidzIHdlYiAqKkFkZCBmaWxlIOKGkiBVcGxvYWQgZmlsZXMqKiBjYW4gdXBsb2FkIHRleHQgZmlsZXMgaW50byBhIGJsYW5rIHJlcG9zaXRvcnksIGJ1dCBwcmVzZXJ2aW5nIG5lc3RlZCBkaXJlY3RvcmllcyBpcyBlYXNpZXN0IHdpdGggR2l0LgoKIyMgMy4gSW52aXRlIGNvbGxhYm9yYXRvcnMKClJlcG8g4oaSICoqU2V0dGluZ3Mg4oaSIENvbGxhYm9yYXRvcnMgYW5kIHRlYW1zIOKGkiBBZGQgcGVvcGxlKio6CgotIFNlYXJjaCB1c2VybmFtZSAqKmBkZXZpbnV3YWAqKiBhbmQgaW52aXRlIE11aGFtbWFkIEludXdhOyB3YWl0IGZvciBhY2NlcHRhbmNlLgotIEludml0ZSBBbWluYSB1c2luZyBoZXIgR2l0SHViIGFjY291bnQgKHVzZSB0aGUgZW1haWwgaW4gdGhlICpzZXBhcmF0ZSBwcml2YXRlIGludml0YXRpb24gY2hlY2tsaXN0KiBvciBvYnRhaW4gaGVyIHVzZXJuYW1lOyBlbWFpbCBtYXkgbmVlZCB0byBiZSBhc3NvY2lhdGVkIHdpdGggaGVyIEdpdEh1YiBhY2NvdW50KS4gV2FpdCBmb3IgYWNjZXB0YW5jZS4KCkJvdGggbmVlZCBhdCBsZWFzdCAqKldyaXRlKiogYWNjZXNzIGZvciBjb2RlIGNvbnRyaWJ1dGlvbnM7IGF2b2lkIGdyYW50aW5nIEFkbWluIHVubGVzcyBuZWNlc3NhcnkuIENPREVPV05FUlMgbWVudGlvbnMgTXVoYW1tYWQgYnV0IGRvZXMgbm90IGNyZWF0ZSBwZXJtaXNzaW9ucy4gRG8gbm90IG1ha2UgdGhlIHJlcG8gcHVibGljIGJlZm9yZSByZXZpZXdpbmcgc291cmNlIGFuZCBwZXJzb25hbC1kYXRhIHBvbGljeS4KCiMjIDQuIENvbXBsZXRlIHByb2plY3QgaHlnaWVuZQoKLSBTZXR0aW5ncyDihpIgR2VuZXJhbDoga2VlcCBpc3N1ZXMgZW5hYmxlZC4KLSBTZXR0aW5ncyDihpIgQnJhbmNoZXMgLyBSdWxlczogcHJvdGVjdCBgbWFpbmAsIHJlcXVpcmUgUFJzIGFuZCBwYXNzaW5nIHRlc3RzIGlmIHN1cHBvcnRlZCBmb3IgeW91ciBwbGFuLgotIEFjdGlvbnM6IHZlcmlmeSBgVGVzdHMgYW5kIHN0YXRpYyBjaGVja3NgIHdvcmtmbG93LgotIENyZWF0ZSB0aGUgdGFza3MgZnJvbSBgZG9jcy9UQVNLUy5tZGAgYXMgc2VwYXJhdGUgaXNzdWVzIGFuZCBhc3NpZ24gdGhlbSAqKmFmdGVyIGludml0YXRpb24gYWNjZXB0YW5jZSoqLgotIFVwZGF0ZSBgLmdpdGh1Yi9DT0RFT1dORVJTYCB0byBhZGQgQW1pbmEncyBjb25maXJtZWQgR2l0SHViIHVzZXJuYW1lIGFmdGVyIHNoZSBhY2NlcHRzLgoKIyMgNS4gVmVyaWZ5CgpDaGVjayB0aGF0IGBSRUFETUUubWRgLCBgYXBwLnB5YCwgYGRhdGEvYCwgYHNyYy9gLCBgLmdpdGh1Yi93b3JrZmxvd3MvY2kueW1sYCBhbmQgdGVzdHMgYXBwZWFyIGluIEdpdEh1Yi4gQ2hlY2sgdGhhdCBpbnZpdGF0aW9ucyBzaG93IGFzIHBlbmRpbmcvYWNjZXB0ZWQsIGFuZCB0aGF0IHRoZSBncmVlbiBjaGVja3MgcmVmbGVjdCAqKmFjdHVhbCBDSSoqIHJhdGhlciB0aGFuIGxvY2FsIHRlc3RzLiBObyBjb2xsYWJvcmF0b3IgaGFzIGFjY2VzcyB1bnRpbCB0aGUgcmVwb3NpdG9yeSBleGlzdHMgYW5kIHRoZWlyIGludml0YXRpb24gaGFzIGJlZW4gc2VudCBhbmQgYWNjZXB0ZWQuCg==
+# Create the private GitHub repository and invite contributors
+
+**Prepared target:** `https://github.com/Ibrahim-KIA/naija-menushift` (this link will work **only after** creation and an initial push).
+
+## 1. Create repository
+
+1. While signed into `Ibrahim-KIA`, open <https://github.com/new>.
+2. Owner: `Ibrahim-KIA`. Name: `naija-menushift`.
+3. Choose **Private**. Do **not** auto-generate a README, license or `.gitignore` (all source files are in this bundle).
+4. Create repository.
+
+## 2. Publish from local working folder
+
+Extract the project ZIP and open PowerShell in the `naija-menushift` folder:
+
+```powershell
+git init -b main
+git add .
+git commit -m "Bootstrap multi-dish menu innovation prototype"
+git remote add origin https://github.com/Ibrahim-KIA/naija-menushift.git
+git push -u origin main
+```
+
+If the extracted bundle contains `.git`, skip `git init`, `git add`, and `git commit` and push directly. If the branch is not `main`, run `git branch -M main`. Use your normal GitHub authentication; don't paste tokens into files or the chat.
+
+Alternative: GitHub's web **Add file → Upload files** can upload text files into a blank repository, but preserving nested directories is easiest with Git.
+
+## 3. Invite collaborators
+
+Repo → **Settings → Collaborators and teams → Add people**:
+
+- Search username **`devinuwa`** and invite Muhammad Inuwa; wait for acceptance.
+- Invite Amina using her GitHub account (use the email in the *separate private invitation checklist* or obtain her username; email may need to be associated with her GitHub account). Wait for acceptance.
+
+Both need at least **Write** access for code contributions; avoid granting Admin unless necessary. CODEOWNERS mentions Muhammad but does not create permissions. Do not make the repo public before reviewing source and personal-data policy.
+
+## 4. Complete project hygiene
+
+- Settings → General: keep issues enabled.
+- Settings → Branches / Rules: protect `main`, require PRs and passing tests if supported for your plan.
+- Actions: verify `Tests and static checks` workflow.
+- Create the tasks from `docs/TASKS.md` as separate issues and assign them **after invitation acceptance**.
+- Update `.github/CODEOWNERS` to add Amina's confirmed GitHub username after she accepts.
+
+## 5. Verify
+
+Check that `README.md`, `app.py`, `data/`, `src/`, `.github/workflows/ci.yml` and tests appear in GitHub. Check that invitations show as pending/accepted, and that the green checks reflect **actual CI** rather than local tests. No collaborator has access until the repository exists and their invitation has been sent and accepted.
