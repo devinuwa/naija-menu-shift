@@ -1,1 +1,38 @@
-IiIiUHJpY2luZyB1bml0IGhhbmRsaW5nLiBWYWx1ZXMgYXJlIGFyaXRobWV0aWMgZml4dHVyZXMsIE5PVCBjdXJyZW50IE5pZ2VyaWFuIHF1b3Rlcy4iIiIKaW1wb3J0IHB5dGVzdAoKZnJvbSBtZW51c2hpZnQucHJpY2luZyBpbXBvcnQgcXVvdGVfbmduX3Blcl9rZywgdG9mdV9tYW51ZmFjdHVyaW5nX2Nvc3RfbmduX3Blcl9rZwoKCmRlZiB0ZXN0XzUwMGdfcGFja2FnZV9hbmRfNDAwZ19wYWNrYWdlKCk6CiAgICBhc3NlcnQgcXVvdGVfbmduX3Blcl9rZygxNzUsIDUwMCwgImciKSA9PSAzNTAKICAgIGFzc2VydCBxdW90ZV9uZ25fcGVyX2tnKDE5MDAsIDQwMCwgImciKSA9PSA0NzUwCgoKZGVmIHRlc3RfbGlxdWlkX3JlcXVpcmVzX3NvdXJjZWRfZGVuc2l0eSgpOgogICAgd2l0aCBweXRlc3QucmFpc2VzKFZhbHVlRXJyb3IsIG1hdGNoPSJkZW5zaXR5Iik6CiAgICAgICAgcXVvdGVfbmduX3Blcl9rZygzMjY0LCAwLjc1LCAiTCIpCiAgICBhc3NlcnQgcXVvdGVfbmduX3Blcl9rZyg5MDAsIDEsICJMIiwgZGVuc2l0eV9rZ19wZXJfbGl0cmU9MC45KSA9PSAxMDAwCgoKZGVmIHRlc3RfdW5zdXBwb3J0ZWRfcGFja19hbmRfaW52YWxpZF9udW1lcmljX3JlamVjdGVkKCk6CiAgICB3aXRoIHB5dGVzdC5yYWlzZXMoVmFsdWVFcnJvciwgbWF0Y2g9IlVuc3VwcG9ydGVkIik6CiAgICAgICAgcXVvdGVfbmduX3Blcl9rZygxOTAwLCAxLCAicGFjayIpCiAgICB3aXRoIHB5dGVzdC5yYWlzZXMoVmFsdWVFcnJvcik6CiAgICAgICAgcXVvdGVfbmduX3Blcl9rZyhmbG9hdCgibmFuIiksIDEsICJrZyIpCiAgICB3aXRoIHB5dGVzdC5yYWlzZXMoVmFsdWVFcnJvcik6CiAgICAgICAgcXVvdGVfbmduX3Blcl9rZygxLCAtMSwgImtnIikKCgpkZWYgdGVzdF90b2Z1X2Nvc3RfcmVxdWlyZXNfYmF0Y2hfeWllbGRfYW5kX3Byb2Nlc3NpbmdfY29zdHMoKToKICAgIHdpdGggcHl0ZXN0LnJhaXNlcyhWYWx1ZUVycm9yLCBtYXRjaD0ibWVhc3VyZWRfZmluaXNoZWQiKToKICAgICAgICB0b2Z1X21hbnVmYWN0dXJpbmdfY29zdF9uZ25fcGVyX2tnKAogICAgICAgICAgICByYXdfc295X3ByaWNlX25nbl9wZXJfa2c9NjQ0LCByYXdfc295X3VzZWRfa2c9MSwKICAgICAgICAgICAgbWVhc3VyZWRfZmluaXNoZWRfdG9mdV9rZz0wLCBjb2FndWxhbnRfY29zdF9uZ249NSwKICAgICAgICAgICAgZW5lcmd5X2Nvc3RfbmduPTMwLCBsYWJvdXJfY29zdF9uZ249MjAsCiAgICAgICAgKQogICAgYXNzZXJ0IHRvZnVfbWFudWZhY3R1cmluZ19jb3N0X25nbl9wZXJfa2coCiAgICAgICAgcmF3X3NveV9wcmljZV9uZ25fcGVyX2tnPTYwMCwgcmF3X3NveV91c2VkX2tnPTEsCiAgICAgICAgbWVhc3VyZWRfZmluaXNoZWRfdG9mdV9rZz0xLjUsIGNvYWd1bGFudF9jb3N0X25nbj0zMCwKICAgICAgICBlbmVyZ3lfY29zdF9uZ249MTUwLCBsYWJvdXJfY29zdF9uZ249MTIwLAogICAgKSA9PSA2MDAK
+"""Pricing unit handling. Values are arithmetic fixtures, NOT current Nigerian quotes."""
+import pytest
+
+from menushift.pricing import quote_ngn_per_kg, tofu_manufacturing_cost_ngn_per_kg
+
+
+def test_500g_package_and_400g_package():
+    assert quote_ngn_per_kg(175, 500, "g") == 350
+    assert quote_ngn_per_kg(1900, 400, "g") == 4750
+
+
+def test_liquid_requires_sourced_density():
+    with pytest.raises(ValueError, match="density"):
+        quote_ngn_per_kg(3264, 0.75, "L")
+    assert quote_ngn_per_kg(900, 1, "L", density_kg_per_litre=0.9) == 1000
+
+
+def test_unsupported_pack_and_invalid_numeric_rejected():
+    with pytest.raises(ValueError, match="Unsupported"):
+        quote_ngn_per_kg(1900, 1, "pack")
+    with pytest.raises(ValueError):
+        quote_ngn_per_kg(float("nan"), 1, "kg")
+    with pytest.raises(ValueError):
+        quote_ngn_per_kg(1, -1, "kg")
+
+
+def test_tofu_cost_requires_batch_yield_and_processing_costs():
+    with pytest.raises(ValueError, match="measured_finished"):
+        tofu_manufacturing_cost_ngn_per_kg(
+            raw_soy_price_ngn_per_kg=644, raw_soy_used_kg=1,
+            measured_finished_tofu_kg=0, coagulant_cost_ngn=5,
+            energy_cost_ngn=30, labour_cost_ngn=20,
+        )
+    assert tofu_manufacturing_cost_ngn_per_kg(
+        raw_soy_price_ngn_per_kg=600, raw_soy_used_kg=1,
+        measured_finished_tofu_kg=1.5, coagulant_cost_ngn=30,
+        energy_cost_ngn=150, labour_cost_ngn=120,
+    ) == 600
