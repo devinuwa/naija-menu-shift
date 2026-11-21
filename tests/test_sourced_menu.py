@@ -1,1 +1,53 @@
-IiIiU291cmNlZCBpbnRlcmFjdGl2ZSBtZW51IHVzZXMgTkJTIGFuZCB3b3JrYm9vayBmaWd1cmVzLCBub3QgcGxhY2Vob2xkZXIgcHJpY2VzLiIiIgpmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKCmltcG9ydCBweXRlc3QKCmZyb20gbWVudXNoaWZ0LmVuZ2luZSBpbXBvcnQgZXZhbHVhdGUKZnJvbSBtZW51c2hpZnQuc291cmNlZF9tZW51IGltcG9ydCBidWlsZF9zb3VyY2VkX21lbnUKClNPVVJDRVMgPSBQYXRoKF9fZmlsZV9fKS5yZXNvbHZlKCkucGFyZW50c1sxXSAvICJkYXRhIiAvICJzb3VyY2VzIgoKCmRlZiBfcGxhbnRzKCoqa3dhcmdzKToKICAgIGRhdGEgPSBidWlsZF9zb3VyY2VkX21lbnUoU09VUkNFUywgKiprd2FyZ3MpCiAgICByb3dzID0gZXZhbHVhdGUoZGF0YSwgInN1eWEiLCBidWRnZXRfbmduPTUwMCwgcHJvdGVpbl90YXJnZXRfZz0wLCBtYXhfcHJlcF9taW51dGVzPTMwMCwgcHJlZmVyZW5jZT0iIikKICAgIHJldHVybiBbcm93IGZvciByb3cgaW4gcm93cyBpZiByb3cucGxhbnRfb25seV0sIFtyb3cgZm9yIHJvdyBpbiByb3dzIGlmIG5vdCByb3cucGxhbnRfb25seV0KCgpkZWYgdGVzdF9odW5kcmVkX2dyYW1fcG9ydGlvbl91c2VzX25ic19zb3lfcHJpY2VfYW5kX3NoZWV0X3dhdGVyX2xvc3MoKToKICAgIHBsYW50cywgYmVlZiA9IF9wbGFudHMoZmluaXNoZWRfZz0xMDAsIHdldF95aWVsZF9rZ19wZXJfa2dfZHJ5PTEuNzUsIG9pbF9jbD0wKQogICAgYnlfaWQgPSB7cm93Lm9wdGlvbl9pZDogcm93IGZvciByb3cgaW4gcGxhbnRzfQogICAgYXNzZXJ0IHNldChieV9pZCkgPT0geyJhd2FyYV9maXJtIiwgImF3YXJhX3ByZXNzZWQiLCAiYXdhcmFfZnJvemVuIn0KICAgIHdldCA9ICg2NDQgKyAxNTApIC8gMS43NQogICAgYXNzZXJ0IGJ5X2lkWyJhd2FyYV9maXJtIl0uY29zdF9uZ24gPT0gcHl0ZXN0LmFwcHJveCh3ZXQgKiAwLjEsIGFicz0wLjAyKQogICAgYXNzZXJ0IGJ5X2lkWyJhd2FyYV9maXJtIl0ucHJvdGVpbl9nID09IHB5dGVzdC5hcHByb3goMTcuMywgYWJzPTAuMDEpCiAgICBhc3NlcnQgYnlfaWRbImF3YXJhX3ByZXNzZWQiXS5jb3N0X25nbiA9PSBweXRlc3QuYXBwcm94KHdldCAqIDAuMTI1LCBhYnM9MC4wMikKICAgIGFzc2VydCBieV9pZFsiYXdhcmFfcHJlc3NlZCJdLnByb3RlaW5fZyA9PSBweXRlc3QuYXBwcm94KDE3LjMgLyAwLjgsIGFicz0wLjAyKQogICAgYXNzZXJ0IGJ5X2lkWyJhd2FyYV9mcm96ZW4iXS5wcm90ZWluX2cgPiBieV9pZFsiYXdhcmFfcHJlc3NlZCJdLnByb3RlaW5fZwogICAgYXNzZXJ0IGJlZWZbMF0uY29zdF9uZ24gPT0gcHl0ZXN0LmFwcHJveCg3MTcxLjQxICogMC4xLCBhYnM9MC4wMikKICAgIGFzc2VydCBhbGwoIjI0MDAiIG5vdCBpbiBzb3VyY2UgZm9yIHJvdyBpbiBwbGFudHMgZm9yIHNvdXJjZSBpbiByb3cuc291cmNlcykKCgpkZWYgdGVzdF9jb25zdHJhaW50c19hbmRfb2lsX2NoYW5nZV90aGVfcmVzdWx0KCk6CiAgICBkYXRhID0gYnVpbGRfc291cmNlZF9tZW51KFNPVVJDRVMsIGZpbmlzaGVkX2c9MTAwLCBvaWxfY2w9MCkKICAgIGJsb2NrZWQgPSBldmFsdWF0ZShkYXRhLCAic3V5YSIsIGJ1ZGdldF9uZ249MjAsIHByb3RlaW5fdGFyZ2V0X2c9MTAsIG1heF9wcmVwX21pbnV0ZXM9MTgwKQogICAgYXNzZXJ0IGFsbChub3Qgcm93LmZlYXNpYmxlIGZvciByb3cgaW4gYmxvY2tlZCBpZiByb3cucGxhbnRfb25seSkKICAgIHNveV9mcmVlID0gZXZhbHVhdGUoZGF0YSwgInN1eWEiLCBidWRnZXRfbmduPTUwMCwgcHJvdGVpbl90YXJnZXRfZz0xMCwgYXZvaWRfYWxsZXJnZW5zPVsic295Il0pCiAgICBhc3NlcnQgYWxsKG5vdCByb3cuZmVhc2libGUgZm9yIHJvdyBpbiBzb3lfZnJlZSBpZiByb3cucGxhbnRfb25seSkKICAgIGhpZ2ggPSBldmFsdWF0ZShkYXRhLCAic3V5YSIsIGJ1ZGdldF9uZ249NTAwLCBwcm90ZWluX3RhcmdldF9nPTIwLCBtYXhfcHJlcF9taW51dGVzPTE4MCkKICAgIGZlYXNpYmxlID0ge3Jvdy5vcHRpb25faWQgZm9yIHJvdyBpbiBoaWdoIGlmIHJvdy5mZWFzaWJsZX0KICAgIGFzc2VydCAiYXdhcmFfZmlybSIgbm90IGluIGZlYXNpYmxlCiAgICBhc3NlcnQgImF3YXJhX3ByZXNzZWQiIGluIGZlYXNpYmxlCiAgICB3aXRoX29pbCA9IGJ1aWxkX3NvdXJjZWRfbWVudShTT1VSQ0VTLCBvaWxfY2w9MTApCiAgICBmcmllZCA9IG5leHQocm93IGZvciByb3cgaW4gZXZhbHVhdGUod2l0aF9vaWwsICJzdXlhIiwgYnVkZ2V0X25nbj01MDAwLCBwcm90ZWluX3RhcmdldF9nPTApIGlmIHJvdy5vcHRpb25faWQgPT0gImF3YXJhX2ZyaWVkIikKICAgIGZpcm0gPSBuZXh0KHJvdyBmb3Igcm93IGluIGV2YWx1YXRlKHdpdGhfb2lsLCAic3V5YSIsIGJ1ZGdldF9uZ249NTAwMCwgcHJvdGVpbl90YXJnZXRfZz0wKSBpZiByb3cub3B0aW9uX2lkID09ICJhd2FyYV9maXJtIikKICAgIGFzc2VydCBmcmllZC5jb3N0X25nbiA9PSBweXRlc3QuYXBwcm94KGZpcm0uY29zdF9uZ24gKyAxMCAvIDc1ICogMzI2My41MCwgYWJzPTAuMDUpCiAgICBhc3NlcnQgZnJpZWQucHJvdGVpbl9nID09IHB5dGVzdC5hcHByb3goMTguOCwgYWJzPTAuMDEpCgoKZGVmIHRlc3RfdmVyaWZpZWRfZmlsZXNfc3RheV9lbXB0eSgpOgogICAgdmVyaWZpZWQgPSBQYXRoKF9fZmlsZV9fKS5yZXNvbHZlKCkucGFyZW50c1sxXSAvICJkYXRhIiAvICJ2ZXJpZmllZCIKICAgIGZvciBuYW1lIGluICgiaW5ncmVkaWVudHMuY3N2IiwgImRpc2hlcy5jc3YiLCAib3B0aW9ucy5jc3YiLCAib3B0aW9uX2l0ZW1zLmNzdiIpOgogICAgICAgIGxpbmVzID0gKHZlcmlmaWVkIC8gbmFtZSkucmVhZF90ZXh0KGVuY29kaW5nPSJ1dGYtOCIpLnN0cmlwKCkuc3BsaXRsaW5lcygpCiAgICAgICAgYXNzZXJ0IGxlbihsaW5lcykgPT0gMQo=
+"""Sourced interactive menu uses NBS and workbook figures, not placeholder prices."""
+from pathlib import Path
+
+import pytest
+
+from menushift.engine import evaluate
+from menushift.sourced_menu import build_sourced_menu
+
+SOURCES = Path(__file__).resolve().parents[1] / "data" / "sources"
+
+
+def _plants(**kwargs):
+    data = build_sourced_menu(SOURCES, **kwargs)
+    rows = evaluate(data, "suya", budget_ngn=500, protein_target_g=0, max_prep_minutes=300, preference="")
+    return [row for row in rows if row.plant_only], [row for row in rows if not row.plant_only]
+
+
+def test_hundred_gram_portion_uses_nbs_soy_price_and_sheet_water_loss():
+    plants, beef = _plants(finished_g=100, wet_yield_kg_per_kg_dry=1.75, oil_cl=0)
+    by_id = {row.option_id: row for row in plants}
+    assert set(by_id) == {"awara_firm", "awara_pressed", "awara_frozen"}
+    wet = (644 + 150) / 1.75
+    assert by_id["awara_firm"].cost_ngn == pytest.approx(wet * 0.1, abs=0.02)
+    assert by_id["awara_firm"].protein_g == pytest.approx(17.3, abs=0.01)
+    assert by_id["awara_pressed"].cost_ngn == pytest.approx(wet * 0.125, abs=0.02)
+    assert by_id["awara_pressed"].protein_g == pytest.approx(17.3 / 0.8, abs=0.02)
+    assert by_id["awara_frozen"].protein_g > by_id["awara_pressed"].protein_g
+    assert beef[0].cost_ngn == pytest.approx(7171.41 * 0.1, abs=0.02)
+    assert all("2400" not in source for row in plants for source in row.sources)
+
+
+def test_constraints_and_oil_change_the_result():
+    data = build_sourced_menu(SOURCES, finished_g=100, oil_cl=0)
+    blocked = evaluate(data, "suya", budget_ngn=20, protein_target_g=10, max_prep_minutes=180)
+    assert all(not row.feasible for row in blocked if row.plant_only)
+    soy_free = evaluate(data, "suya", budget_ngn=500, protein_target_g=10, avoid_allergens=["soy"])
+    assert all(not row.feasible for row in soy_free if row.plant_only)
+    high = evaluate(data, "suya", budget_ngn=500, protein_target_g=20, max_prep_minutes=180)
+    feasible = {row.option_id for row in high if row.feasible}
+    assert "awara_firm" not in feasible
+    assert "awara_pressed" in feasible
+    with_oil = build_sourced_menu(SOURCES, oil_cl=10)
+    fried = next(row for row in evaluate(with_oil, "suya", budget_ngn=5000, protein_target_g=0) if row.option_id == "awara_fried")
+    firm = next(row for row in evaluate(with_oil, "suya", budget_ngn=5000, protein_target_g=0) if row.option_id == "awara_firm")
+    assert fried.cost_ngn == pytest.approx(firm.cost_ngn + 10 / 75 * 3263.50, abs=0.05)
+    assert fried.protein_g == pytest.approx(18.8, abs=0.01)
+
+
+def test_verified_files_stay_empty():
+    verified = Path(__file__).resolve().parents[1] / "data" / "verified"
+    for name in ("ingredients.csv", "dishes.csv", "options.csv", "option_items.csv"):
+        lines = (verified / name).read_text(encoding="utf-8").strip().splitlines()
+        assert len(lines) == 1
