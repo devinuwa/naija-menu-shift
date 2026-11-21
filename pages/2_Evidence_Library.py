@@ -1,1 +1,118 @@
-IiIiUmVhZC1vbmx5IHNvdXJjZSBleHBsb3JhdGlvbiBmb3IgbWVudS1kaXZlcnNpZmljYXRpb24gcmVzZWFyY2guIiIiCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmltcG9ydCBwYW5kYXMgYXMgcGQKaW1wb3J0IHN0cmVhbWxpdCBhcyBzdAoKZnJvbSBtZW51c2hpZnQuZXZpZGVuY2VfY2F0YWxvZyBpbXBvcnQgbG9hZF9udXRyaXRpb25fcmVmZXJlbmNlcywgbG9hZF93ZnBfcHJpY2Vfc25hcHNob3RzCgpzdC5zZXRfcGFnZV9jb25maWcocGFnZV90aXRsZT0iRXZpZGVuY2UgTGlicmFyeSB8IE5haWphIE1lbnVTaGlmdCIsIHBhZ2VfaWNvbj0i8J+TmiIsIGxheW91dD0id2lkZSIpCnN0LmNhcHRpb24oIk5BSUpBIE1FTlVTSElGVCDCtyBESVZFUlNJRlkgTklHRVJJQU4gTUVOVVMiKQpzdC50aXRsZSgiRXZpZGVuY2UgTGlicmFyeSIpCnN0LndyaXRlKAogICAgIlRyYWNlIGZvb2QtY29tcG9zaXRpb24gcmVmZXJlbmNlcyBhbmQgaGlzdG9yaWNhbCBOaWdlcmlhbiBtYXJrZXQgcHJpY2VzIHdoaWxlICIKICAgICJleHBsb3JpbmcgYWRkaXRpb25hbCBwbGFudC1iYXNlZCBtZW51IGNob2ljZXMuIgopCnN0Lndhcm5pbmcoCiAgICAiTk9UIGxpdmUgc3VwcGxpZXIgcXVvdGF0aW9ucyBvciB2YWxpZGF0ZWQgcmVjaXBlcy4gVGhlc2UgcmVjb3JkcyBhcmUga2VwdCBzZXBhcmF0ZSAiCiAgICAiZnJvbSB0aGUgcmVjb21tZW5kYXRpb24gZW5naW5lIHVudGlsIGEgc3BlY2lmaWMgZm9vZCwgc3RhdGUsIHNlcnZpbmcgYW5kIGtpdGNoZW4gIgogICAgInByb2Nlc3MgYXJlIGluZGVwZW5kZW50bHkgcmV2aWV3ZWQuIgopCgp0cnk6CiAgICBudXRyaXRpb24gPSBsb2FkX251dHJpdGlvbl9yZWZlcmVuY2VzKCkKICAgIHByaWNlcyA9IGxvYWRfd2ZwX3ByaWNlX3NuYXBzaG90cygpCmV4Y2VwdCAoT1NFcnJvciwgVmFsdWVFcnJvcikgYXMgZXhjOgogICAgc3QuZXJyb3IoZiJFdmlkZW5jZSBjYXRhbG9nIGZhaWxlZCB2YWxpZGF0aW9uOiB7ZXhjfSIpCiAgICBzdC5zdG9wKCkKCm5fdGFiLCBwX3RhYiwgaW5mb190YWIgPSBzdC50YWJzKAogICAgWyJOdXRyaXRpb24gcmVmZXJlbmNlcyIsICJIaXN0b3JpY2FsIHByaWNlcyIsICJTb3VyY2UgcXVhbGl0eSAmIG5leHQgc3RlcHMiXQopCndpdGggbl90YWI6CiAgICBzdC5zdWJoZWFkZXIoIkZvb2QgY29tcG9zaXRpb24gcGVyIDEwMCBnIGVkaWJsZSBwb3J0aW9uIikKICAgIHN0LmNhcHRpb24oCiAgICAgICAgIkZBTy9JTkZPT0RTIFdBRkNUIDIwMTkgYW5kIFVTREEgU1IgTGVnYWN5LiBQdWJsaXNoZWQgcmVmZXJlbmNlIHByb2ZpbGVzICIKICAgICAgICAiYXJlIE5PVCBtZWFzdXJlZCBudXRyaWVudCBwcm9maWxlcyBvZiBsb2NhbCBhd2FyYSwgYnJhbmRlZCBWY2h1bmtzIG9yIGEgZmluaXNoZWQgZGlzaC4iCiAgICApCiAgICBzb3VyY2UgPSBzdC5zZWxlY3Rib3goCiAgICAgICAgIlNvdXJjZSIsIFsiQWxsIiwgIkZBTy9JTkZPT0RTIFdBRkNUIDIwMTkiLCAiVVNEQSBGb29kRGF0YSBDZW50cmFsIFNSIExlZ2FjeSJdLAogICAgKQogICAgcXVlcnkgPSBzdC50ZXh0X2lucHV0KCJGaW5kIGEgZm9vZCIsIHBsYWNlaG9sZGVyPSJyaWNlLCBjb3dwZWEsIHRvZnUsIGNoaWNrZW7igKYiKQogICAgc2VsZWN0ZWQgPSBbCiAgICAgICAgciBmb3IgciBpbiBudXRyaXRpb24KICAgICAgICBpZiAoc291cmNlID09ICJBbGwiIG9yIHJbInNvdXJjZSJdID09IHNvdXJjZSkKICAgICAgICBhbmQgcXVlcnkuc3RyaXAoKS5jYXNlZm9sZCgpIGluIHJbImZvb2RfbmFtZSJdLmNhc2Vmb2xkKCkKICAgIF0KICAgIHN0LmNhcHRpb24oZiJ7bGVuKHNlbGVjdGVkKX0gcmVmZXJlbmNlIHJlY29yZHM7IDAgYXBwcm92ZWQgZmluaXNoZWQgcmVjaXBlcy4iKQogICAgaWYgc2VsZWN0ZWQ6CiAgICAgICAgZGYgPSBwZC5EYXRhRnJhbWUoc2VsZWN0ZWQpLnJlbmFtZShjb2x1bW5zPXsKICAgICAgICAgICAgInJlZmVyZW5jZV9pZCI6ICJJRCIsICJmb29kX25hbWUiOiAiRm9vZCIsICJmb29kX3N0YXRlIjogIlN0YXRlIiwKICAgICAgICAgICAgInByb3RlaW5fZ19wZXJfMTAwZyI6ICJQcm90ZWluIChnLzEwMGcpIiwKICAgICAgICAgICAgImlyb25fbWdfcGVyXzEwMGciOiAiSXJvbiAobWcvMTAwZykiLAogICAgICAgICAgICAiemluY19tZ19wZXJfMTAwZyI6ICJaaW5jIChtZy8xMDBnKSIsCiAgICAgICAgICAgICJlbmVyZ3lfa2NhbF9wZXJfMTAwZyI6ICJFbmVyZ3kgKGtjYWwvMTAwZykiLAogICAgICAgICAgICAic291cmNlX3VybCI6ICJQdWJsaXNoZXIgVVJMIiwKICAgICAgICB9KQogICAgICAgIHN0LmRhdGFmcmFtZSgKICAgICAgICAgICAgZGZbWyJJRCIsICJGb29kIiwgIlN0YXRlIiwgIlByb3RlaW4gKGcvMTAwZykiLCAiSXJvbiAobWcvMTAwZykiLAogICAgICAgICAgICAgICAgIlppbmMgKG1nLzEwMGcpIiwgIkVuZXJneSAoa2NhbC8xMDBnKSIsICJQdWJsaXNoZXIgVVJMIl1dLAogICAgICAgICAgICBoaWRlX2luZGV4PVRydWUsIHVzZV9jb250YWluZXJfd2lkdGg9VHJ1ZSwKICAgICAgICApCiAgICBlbHNlOgogICAgICAgIHN0LmluZm8oIk5vIGV4YWN0IG1hdGNoLiBTaW1pbGFyIGZvb2QgbmFtZXMgYXJlIG5vdCBldmlkZW5jZSBvZiBlcXVpdmFsZW50IGNvbXBvc2l0aW9uLiIpCiAgICBzdC5saW5rX2J1dHRvbigiRkFPL0lORk9PRFMgZGF0YWJhc2UiLCAiaHR0cHM6Ly93d3cuZmFvLm9yZy9pbmZvb2RzL2luZm9vZHMvdGFibGVzLWFuZC1kYXRhYmFzZXMvZmFvaW5mb29kcy1kYXRhYmFzZXMvZW4iKQogICAgc3QubGlua19idXR0b24oIlVTREEgRm9vZERhdGEgQ2VudHJhbCIsICJodHRwczovL2ZkYy5uYWwudXNkYS5nb3YvIikKCndpdGggcF90YWI6CiAgICBzdC5zdWJoZWFkZXIoIldGUCBOaWdlcmlhIOKAlCBoaXN0b3JpY2FsIHJldGFpbCBtYXJrZXQgYWdncmVnYXRlcyIpCiAgICBzdC5jYXB0aW9uKCJPY3RvYmVy4oCTTm92ZW1iZXIgMjAyNiDCtyBCb3JubyBhbmQgWW9iZSBvbmx5IMK3IG5vdCBuYXRpb25hbCBhdmVyYWdlcy4iKQogICAgYSwgYiwgYyA9IHN0LmNvbHVtbnMoMykKICAgIG1vbnRoID0gYS5zZWxlY3Rib3goIlN1cnZleSBtb250aCIsIHNvcnRlZCh7clsibW9udGgiXSBmb3IgciBpbiBwcmljZXN9LCByZXZlcnNlPVRydWUpKQogICAgc3RhdGUgPSBiLnNlbGVjdGJveCgiU3VydmV5IHN0YXRlIiwgc29ydGVkKHtyWyJzdGF0ZSJdIGZvciByIGluIHByaWNlc30pKQogICAgY29tbW9kaXR5ID0gYy5zZWxlY3Rib3goIkNvbW1vZGl0eSIsIFsiQWxsIiwgKnNvcnRlZCh7clsiY29tbW9kaXR5Il0gZm9yIHIgaW4gcHJpY2VzfSldKQogICAgc2VsZWN0ZWQgPSBbCiAgICAgICAgciBmb3IgciBpbiBwcmljZXMgaWYgclsibW9udGgiXSA9PSBtb250aCBhbmQgclsic3RhdGUiXSA9PSBzdGF0ZQogICAgICAgIGFuZCAoY29tbW9kaXR5ID09ICJBbGwiIG9yIHJbImNvbW1vZGl0eSJdID09IGNvbW1vZGl0eSkKICAgIF0KICAgIGlmIHNlbGVjdGVkOgogICAgICAgIGRmID0gcGQuRGF0YUZyYW1lKHNlbGVjdGVkKS5yZW5hbWUoY29sdW1ucz17CiAgICAgICAgICAgICJjb21tb2RpdHkiOiAiQ29tbW9kaXR5IiwgIm9yaWdpbmFsX3VuaXQiOiAiUmVwb3J0ZWQgdW5pdCIsCiAgICAgICAgICAgICJtZWRpYW5fbmduX3Blcl9yZXBvcnRlZF91bml0IjogIk1lZGlhbiDigqYgcGVyIHJlcG9ydGVkIHVuaXQiLAogICAgICAgICAgICAibWVkaWFuX25nbl9wZXJfa2ciOiAiTWVkaWFuIOKCpi9rZyAobWFzcyBvbmx5KSIsCiAgICAgICAgICAgICJtYXJrZXRfY291bnQiOiAiU3VydmV5IG1hcmtldHMiLCAibGFzdF9vYnNlcnZhdGlvbiI6ICJTdXJ2ZXkgZGF0ZSIsCiAgICAgICAgfSkKICAgICAgICBzdC5kYXRhZnJhbWUoCiAgICAgICAgICAgIGRmW1siQ29tbW9kaXR5IiwgIlJlcG9ydGVkIHVuaXQiLCAiTWVkaWFuIOKCpiBwZXIgcmVwb3J0ZWQgdW5pdCIsCiAgICAgICAgICAgICAgICAiTWVkaWFuIOKCpi9rZyAobWFzcyBvbmx5KSIsICJTdXJ2ZXkgbWFya2V0cyIsICJTdXJ2ZXkgZGF0ZSJdXSwKICAgICAgICAgICAgaGlkZV9pbmRleD1UcnVlLCB1c2VfY29udGFpbmVyX3dpZHRoPVRydWUsCiAgICAgICAgKQogICAgc3QuY2FwdGlvbigKICAgICAgICAiVmFsdWVzIGFyZSBtZWRpYW5zIGFjcm9zcyBXRlAgbWFya2V0IGVudHJpZXMgbWFya2VkICdhZ2dyZWdhdGUnLiAiCiAgICAgICAgIk9pbCBwcmljZWQgcGVyIGxpdHJlIGludGVudGlvbmFsbHkgaGFzIG5vIGNhbGN1bGF0ZWQg4oKmL2tnLiAiCiAgICAgICAgIlRoZXNlIGFyZSBub3QgY3VycmVudCBwcmljZXMgZm9yIEFidWphLCBaYXJpYSBvciBhIHNwZWNpZmljIHN1cHBsaWVyLiIKICAgICkKICAgIHN0LmxpbmtfYnV0dG9uKAogICAgICAgICJXRlAgTmlnZXJpYSBvcmlnaW5hbCBwcmljZSBkYXRhc2V0IiwKICAgICAgICAiaHR0cHM6Ly9kYXRhLmh1bWRhdGEub3JnL2RhdGFzZXQvd2ZwLWZvb2QtcHJpY2VzLWZvci1uaWdlcmlhIiwKICAgICkKCndpdGggaW5mb190YWI6CiAgICBzdC5zdWJoZWFkZXIoIldoYXQgd2FzIGNhcmVmdWxseSBpbXBvcnRlZCIpCiAgICBzdC53cml0ZSgKICAgICAgICAiMTUgc2VsZWN0ZWQgRkFPL1VTREEgbnV0cml0aW9uIHJlZmVyZW5jZXMgYW5kIDI4IFdGUCBtYXJrZXQgYWdncmVnYXRlcy4gIgogICAgICAgICJUaGUgb3JpZ2luYWwgZGF0YXNldHMgYXJlIHJldGFpbmVkIGluIE11aGFtbWFkJ3Mgc291cmNlIFpJUCwgbm90IGNvcGllZCB3aG9sZXNhbGUgaW50byBHaXRIdWIuIgogICAgKQogICAgc3Quc3ViaGVhZGVyKCJIZWxkIGJhY2sgZnJvbSBudW1lcmljIHJlY29tbWVuZGF0aW9ucyIpCiAgICBzdC53cml0ZSgKICAgICAgICAiTkJTOiBleGlzdGluZyBNYXkgMjAyNiBoaXN0b3JpY2FsIGJlbmNobWFya3MgcmV0YWluZWQgc2VwYXJhdGVseS4gIgogICAgICAgICJIRVNUSUE6IGVudmlyb25tZW50YWwgaW1wYWN0IGJvdW5kYXJpZXMgbm90IHlldCByZXZpZXdlZC4gIgogICAgICAgICJPcGVuIEZvb2QgRmFjdHM6IGluY29tcGxldGUgYnJhbmRlZCBsYWJlbHMgYW5kIE9EYkwgcmV1c2UgY29uc2lkZXJhdGlvbnMuICIKICAgICAgICAiTm8gYWRkaXRpb25hbCByZWNpcGUgb3IgaW5ncmVkaWVudCBpcyBhdXRvbWF0aWNhbGx5IGFwcHJvdmVkIGJ5IHRoaXMgY2F0YWxvZy4iCiAgICApCiAgICBzdC5zdWJoZWFkZXIoIkJlZm9yZSBhIG5ldyByZWNpcGUgY2FuIGJlIHJlY29tbWVuZGVkIikKICAgIHN0LndyaXRlKAogICAgICAgICJJZGVudGlmeSB0aGUgZXhhY3QgaW5ncmVkaWVudCBhbmQgZm9vZCBzdGF0ZTsgY29sbGVjdCBsb2NhbCBkYXRlZCBxdW90YXRpb25zOyAiCiAgICAgICAgIm1lYXN1cmUgY29va2luZyB5aWVsZCBhbmQgY29zdDsgY29uZmlybSBhbGxlcmdlbiBsYWJlbHMgYW5kIGtpdGNoZW4gcHJhY3RpY2FsaXR5OyAiCiAgICAgICAgIm9idGFpbiBmb29kLXNwZWNpYWxpc3QgcmV2aWV3LiBBIHJlc3RhdXJhbnQgbWF5IHRoZW4gYWRkIHRoZSBuZXcgb3B0aW9uIHRvIGl0cyBtZW51LiIKICAgICkK
+"""Read-only source exploration for menu-diversification research."""
+from __future__ import annotations
+
+import pandas as pd
+import streamlit as st
+
+from menushift.evidence_catalog import load_nutrition_references, load_wfp_price_snapshots
+
+st.set_page_config(page_title="Evidence Library | Naija MenuShift", page_icon="📚", layout="wide")
+st.caption("NAIJA MENUSHIFT · DIVERSIFY NIGERIAN MENUS")
+st.title("Evidence Library")
+st.write(
+    "Trace food-composition references and historical Nigerian market prices while "
+    "exploring additional plant-based menu choices."
+)
+st.warning(
+    "NOT live supplier quotations or validated recipes. These records are kept separate "
+    "from the recommendation engine until a specific food, state, serving and kitchen "
+    "process are independently reviewed."
+)
+
+try:
+    nutrition = load_nutrition_references()
+    prices = load_wfp_price_snapshots()
+except (OSError, ValueError) as exc:
+    st.error(f"Evidence catalog failed validation: {exc}")
+    st.stop()
+
+n_tab, p_tab, info_tab = st.tabs(
+    ["Nutrition references", "Historical prices", "Source quality & next steps"]
+)
+with n_tab:
+    st.subheader("Food composition per 100 g edible portion")
+    st.caption(
+        "FAO/INFOODS WAFCT 2019 and USDA SR Legacy. Published reference profiles "
+        "are NOT measured nutrient profiles of local awara, branded Vchunks or a finished dish."
+    )
+    source = st.selectbox(
+        "Source", ["All", "FAO/INFOODS WAFCT 2019", "USDA FoodData Central SR Legacy"],
+    )
+    query = st.text_input("Find a food", placeholder="rice, cowpea, tofu, chicken…")
+    selected = [
+        r for r in nutrition
+        if (source == "All" or r["source"] == source)
+        and query.strip().casefold() in r["food_name"].casefold()
+    ]
+    st.caption(f"{len(selected)} reference records; 0 approved finished recipes.")
+    if selected:
+        df = pd.DataFrame(selected).rename(columns={
+            "reference_id": "ID", "food_name": "Food", "food_state": "State",
+            "protein_g_per_100g": "Protein (g/100g)",
+            "iron_mg_per_100g": "Iron (mg/100g)",
+            "zinc_mg_per_100g": "Zinc (mg/100g)",
+            "energy_kcal_per_100g": "Energy (kcal/100g)",
+            "source_url": "Publisher URL",
+        })
+        st.dataframe(
+            df[["ID", "Food", "State", "Protein (g/100g)", "Iron (mg/100g)",
+                "Zinc (mg/100g)", "Energy (kcal/100g)", "Publisher URL"]],
+            hide_index=True, use_container_width=True,
+        )
+    else:
+        st.info("No exact match. Similar food names are not evidence of equivalent composition.")
+    st.link_button("FAO/INFOODS database", "https://www.fao.org/infoods/infoods/tables-and-databases/faoinfoods-databases/en")
+    st.link_button("USDA FoodData Central", "https://fdc.nal.usda.gov/")
+
+with p_tab:
+    st.subheader("WFP Nigeria — historical retail market aggregates")
+    st.caption("October–November 2026 · Borno and Yobe only · not national averages.")
+    a, b, c = st.columns(3)
+    month = a.selectbox("Survey month", sorted({r["month"] for r in prices}, reverse=True))
+    state = b.selectbox("Survey state", sorted({r["state"] for r in prices}))
+    commodity = c.selectbox("Commodity", ["All", *sorted({r["commodity"] for r in prices})])
+    selected = [
+        r for r in prices if r["month"] == month and r["state"] == state
+        and (commodity == "All" or r["commodity"] == commodity)
+    ]
+    if selected:
+        df = pd.DataFrame(selected).rename(columns={
+            "commodity": "Commodity", "original_unit": "Reported unit",
+            "median_ngn_per_reported_unit": "Median ₦ per reported unit",
+            "median_ngn_per_kg": "Median ₦/kg (mass only)",
+            "market_count": "Survey markets", "last_observation": "Survey date",
+        })
+        st.dataframe(
+            df[["Commodity", "Reported unit", "Median ₦ per reported unit",
+                "Median ₦/kg (mass only)", "Survey markets", "Survey date"]],
+            hide_index=True, use_container_width=True,
+        )
+    st.caption(
+        "Values are medians across WFP market entries marked 'aggregate'. "
+        "Oil priced per litre intentionally has no calculated ₦/kg. "
+        "These are not current prices for Abuja, Zaria or a specific supplier."
+    )
+    st.link_button(
+        "WFP Nigeria original price dataset",
+        "https://data.humdata.org/dataset/wfp-food-prices-for-nigeria",
+    )
+
+with info_tab:
+    st.subheader("What was carefully imported")
+    st.write(
+        "15 selected FAO/USDA nutrition references and 28 WFP market aggregates. "
+        "The original datasets are retained in Muhammad's source ZIP, not copied wholesale into GitHub."
+    )
+    st.subheader("Held back from numeric recommendations")
+    st.write(
+        "NBS: existing May 2026 historical benchmarks retained separately. "
+        "HESTIA: environmental impact boundaries not yet reviewed. "
+        "Open Food Facts: incomplete branded labels and ODbL reuse considerations. "
+        "No additional recipe or ingredient is automatically approved by this catalog."
+    )
+    st.subheader("Before a new recipe can be recommended")
+    st.write(
+        "Identify the exact ingredient and food state; collect local dated quotations; "
+        "measure cooking yield and cost; confirm allergen labels and kitchen practicality; "
+        "obtain food-specialist review. A restaurant may then add the new option to its menu."
+    )
