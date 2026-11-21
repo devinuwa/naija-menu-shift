@@ -1,1 +1,85 @@
-IiIiQ29uZmlndXJhdGlvbiBmb3IgdGhlIG9wdGlvbmFsIEFJIHBsYW5uZXIgKGxvY2FsIGJ5IGRlZmF1bHQsIEJlZHJvY2sgYnkgY29uZmlnKS4KClN3aXRjaGluZyB0byB0aGUgQVdTIFdvcmtzaG9wIFN0dWRpbyBzYW5kYm94IGlzIGEgY29uZmlndXJhdGlvbi1vbmx5IGNoYW5nZToKc2V0IE1FTlVTSElGVF9BSV9NT0RFPWJlZHJvY2sgYW5kIEJFRFJPQ0tfTU9ERUxfSUQgdG8gYW4gb3JnYW5pc2VyLWVuYWJsZWQKbW9kZWwuIE5vIEFXUyBrZXlzIGFyZSByZWFkIGhlcmU7IGJvdG8zIHVzZXMgdGhlIG5vcm1hbCBTREsgY3JlZGVudGlhbCBjaGFpbi4KV2l0aCBubyBlbnZpcm9ubWVudCBzZXQsIHRoZSBhcHAgcnVucyBmdWxseSBvZmZsaW5lIGluIGxvY2FsIG1vZGUuCiIiIgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgb3MKZnJvbSBjb2xsZWN0aW9ucy5hYmMgaW1wb3J0IE1hcHBpbmcKZnJvbSBkYXRhY2xhc3NlcyBpbXBvcnQgZGF0YWNsYXNzCgpmcm9tIC5hZ2VudF9jb250cmFjdCBpbXBvcnQgTUFYX1JPVU5EUwoKQUlfTU9ERVMgPSAoImxvY2FsIiwgImJlZHJvY2siKQpERUZBVUxUX1JFR0lPTiA9ICJ1cy1lYXN0LTEiICAjIHRoZSB3b3Jrc2hvcCBzYW5kYm94IGV4aXN0cyBvbmx5IGluIHRoaXMgcmVnaW9uCgoKQGRhdGFjbGFzcyhmcm96ZW49VHJ1ZSkKY2xhc3MgQUlDb25maWc6CiAgICAiIiJWYWxpZGF0ZWQgcGxhbm5lciBzZXR0aW5ncy4gQ29udGFpbnMgbm8gc2VjcmV0cy4iIiIKCiAgICBtb2RlOiBzdHIgPSAibG9jYWwiCiAgICBiZWRyb2NrX21vZGVsX2lkOiBzdHIgfCBOb25lID0gTm9uZQogICAgYXdzX3JlZ2lvbjogc3RyID0gREVGQVVMVF9SRUdJT04KICAgIG1heF9yb3VuZHM6IGludCA9IE1BWF9ST1VORFMKCiAgICBAcHJvcGVydHkKICAgIGRlZiBiZWRyb2NrX2VuYWJsZWQoc2VsZikgLT4gYm9vbDoKICAgICAgICByZXR1cm4gc2VsZi5tb2RlID09ICJiZWRyb2NrIgoKCmRlZiBfY2xlYW4oZW52OiBNYXBwaW5nW3N0ciwgc3RyXSwgbmFtZTogc3RyKSAtPiBzdHI6CiAgICByZXR1cm4gKGVudi5nZXQobmFtZSkgb3IgIiIpLnN0cmlwKCkKCgpkZWYgZ2V0X2FpX2NvbmZpZyhlbnY6IE1hcHBpbmdbc3RyLCBzdHJdIHwgTm9uZSA9IE5vbmUpIC0+IEFJQ29uZmlnOgogICAgIiIiTG9hZCBhbmQgdmFsaWRhdGUgcGxhbm5lciBzZXR0aW5ncyBmcm9tIHRoZSBlbnZpcm9ubWVudCAob3IgYSBtYXBwaW5nKS4KCiAgICBSYWlzZXMgVmFsdWVFcnJvciB3aXRoIGFuIGFjdGlvbmFibGUgbWVzc2FnZSBmb3IgYW55IGludmFsaWQgdmFsdWUsIHNvIGEKICAgIG1pc2NvbmZpZ3VyZWQgd29ya3Nob3Agc2Vzc2lvbiBmYWlscyBmYXN0IGluc3RlYWQgb2YgbWlkLWRlbW8uCiAgICAiIiIKICAgIHZhbHVlcyA9IG9zLmVudmlyb24gaWYgZW52IGlzIE5vbmUgZWxzZSBlbnYKCiAgICBtb2RlID0gX2NsZWFuKHZhbHVlcywgIk1FTlVTSElGVF9BSV9NT0RFIikubG93ZXIoKSBvciAibG9jYWwiCiAgICBpZiBtb2RlIG5vdCBpbiBBSV9NT0RFUzoKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKAogICAgICAgICAgICBmIk1FTlVTSElGVF9BSV9NT0RFIG11c3QgYmUgJ2xvY2FsJyBvciAnYmVkcm9jaycgKGdvdCB7bW9kZSFyfSkuICIKICAgICAgICAgICAgIlVzZSAnbG9jYWwnIGZvciB0aGUgb2ZmbGluZSBkZW1vIG9yICdiZWRyb2NrJyBpbnNpZGUgdGhlIEFXUyBzYW5kYm94LiIKICAgICAgICApCgogICAgcmVnaW9uID0gX2NsZWFuKHZhbHVlcywgIkFXU19SRUdJT04iKSBvciBERUZBVUxUX1JFR0lPTgogICAgaWYgcmVnaW9uICE9IERFRkFVTFRfUkVHSU9OOgogICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoCiAgICAgICAgICAgIGYiQVdTX1JFR0lPTiBtdXN0IGJlIHtERUZBVUxUX1JFR0lPTn0gZm9yIHRoaXMgcHJvamVjdCAoZ290IHtyZWdpb24hcn0pLiAiCiAgICAgICAgICAgICJUaGUgSGFjayB0aGUgRm9yayBBV1Mgc2FuZGJveCBhbmQgaXRzIEJlZHJvY2sgbW9kZWwgYWxsb3dsaXN0IGV4aXN0IG9ubHkgIgogICAgICAgICAgICBmImluIHtERUZBVUxUX1JFR0lPTn07IHVuc2V0IEFXU19SRUdJT04gb3Igc2V0IGl0IHRvIHtERUZBVUxUX1JFR0lPTn0uIgogICAgICAgICkKCiAgICBtb2RlbF9pZCA9IF9jbGVhbih2YWx1ZXMsICJCRURST0NLX01PREVMX0lEIikgb3IgTm9uZQogICAgaWYgbW9kZWxfaWQgaXMgbm90IE5vbmUgYW5kIChsZW4obW9kZWxfaWQpID4gMTgwIG9yIGFueShjLmlzc3BhY2UoKSBmb3IgYyBpbiBtb2RlbF9pZCkpOgogICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoCiAgICAgICAgICAgICJCRURST0NLX01PREVMX0lEIGxvb2tzIGludmFsaWQ6IGl0IG11c3QgYmUgYSBzaW5nbGUgbW9kZWwgSUQgb3IgaW5mZXJlbmNlICIKICAgICAgICAgICAgInByb2ZpbGUgSUQgd2l0aCBubyBzcGFjZXMuIENvcHkgaXQgZXhhY3RseSBmcm9tIHRoZSBCZWRyb2NrIGNvbnNvbGUgIgogICAgICAgICAgICAiKE1vZGVsIGFjY2VzcyAvIEluZmVyZW5jZSBwcm9maWxlcywgdXMtZWFzdC0xKS4iCiAgICAgICAgKQoKICAgIHJhd19yb3VuZHMgPSBfY2xlYW4odmFsdWVzLCAiTUVOVVNISUZUX0FJX01BWF9ST1VORFMiKQogICAgaWYgcmF3X3JvdW5kczoKICAgICAgICB0cnk6CiAgICAgICAgICAgIG1heF9yb3VuZHMgPSBpbnQocmF3X3JvdW5kcykKICAgICAgICBleGNlcHQgVmFsdWVFcnJvcjoKICAgICAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigKICAgICAgICAgICAgICAgIGYiTUVOVVNISUZUX0FJX01BWF9ST1VORFMgbXVzdCBiZSBhIHdob2xlIG51bWJlciAoZ290IHtyYXdfcm91bmRzIXJ9KS4iCiAgICAgICAgICAgICkgZnJvbSBOb25lCiAgICAgICAgaWYgbm90IDEgPD0gbWF4X3JvdW5kcyA8PSBNQVhfUk9VTkRTOgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKAogICAgICAgICAgICAgICAgZiJNRU5VU0hJRlRfQUlfTUFYX1JPVU5EUyBtdXN0IGJlIGJldHdlZW4gMSBhbmQge01BWF9ST1VORFN9ICIKICAgICAgICAgICAgICAgIGYiKHRoZSBhZ2VudCBjb250cmFjdCBoYXJkIGNhcDsgZ290IHttYXhfcm91bmRzfSkuIgogICAgICAgICAgICApCiAgICBlbHNlOgogICAgICAgIG1heF9yb3VuZHMgPSBNQVhfUk9VTkRTCgogICAgcmV0dXJuIEFJQ29uZmlnKG1vZGU9bW9kZSwgYmVkcm9ja19tb2RlbF9pZD1tb2RlbF9pZCwgYXdzX3JlZ2lvbj1yZWdpb24sIG1heF9yb3VuZHM9bWF4X3JvdW5kcykK
+"""Configuration for the optional AI planner (local by default, Bedrock by config).
+
+Switching to the AWS Workshop Studio sandbox is a configuration-only change:
+set MENUSHIFT_AI_MODE=bedrock and BEDROCK_MODEL_ID to an organiser-enabled
+model. No AWS keys are read here; boto3 uses the normal SDK credential chain.
+With no environment set, the app runs fully offline in local mode.
+"""
+from __future__ import annotations
+
+import os
+from collections.abc import Mapping
+from dataclasses import dataclass
+
+from .agent_contract import MAX_ROUNDS
+
+AI_MODES = ("local", "bedrock")
+DEFAULT_REGION = "us-east-1"  # the workshop sandbox exists only in this region
+
+
+@dataclass(frozen=True)
+class AIConfig:
+    """Validated planner settings. Contains no secrets."""
+
+    mode: str = "local"
+    bedrock_model_id: str | None = None
+    aws_region: str = DEFAULT_REGION
+    max_rounds: int = MAX_ROUNDS
+
+    @property
+    def bedrock_enabled(self) -> bool:
+        return self.mode == "bedrock"
+
+
+def _clean(env: Mapping[str, str], name: str) -> str:
+    return (env.get(name) or "").strip()
+
+
+def get_ai_config(env: Mapping[str, str] | None = None) -> AIConfig:
+    """Load and validate planner settings from the environment (or a mapping).
+
+    Raises ValueError with an actionable message for any invalid value, so a
+    misconfigured workshop session fails fast instead of mid-demo.
+    """
+    values = os.environ if env is None else env
+
+    mode = _clean(values, "MENUSHIFT_AI_MODE").lower() or "local"
+    if mode not in AI_MODES:
+        raise ValueError(
+            f"MENUSHIFT_AI_MODE must be 'local' or 'bedrock' (got {mode!r}). "
+            "Use 'local' for the offline demo or 'bedrock' inside the AWS sandbox."
+        )
+
+    region = _clean(values, "AWS_REGION") or DEFAULT_REGION
+    if region != DEFAULT_REGION:
+        raise ValueError(
+            f"AWS_REGION must be {DEFAULT_REGION} for this project (got {region!r}). "
+            "The Hack the Fork AWS sandbox and its Bedrock model allowlist exist only "
+            f"in {DEFAULT_REGION}; unset AWS_REGION or set it to {DEFAULT_REGION}."
+        )
+
+    model_id = _clean(values, "BEDROCK_MODEL_ID") or None
+    if model_id is not None and (len(model_id) > 180 or any(c.isspace() for c in model_id)):
+        raise ValueError(
+            "BEDROCK_MODEL_ID looks invalid: it must be a single model ID or inference "
+            "profile ID with no spaces. Copy it exactly from the Bedrock console "
+            "(Model access / Inference profiles, us-east-1)."
+        )
+
+    raw_rounds = _clean(values, "MENUSHIFT_AI_MAX_ROUNDS")
+    if raw_rounds:
+        try:
+            max_rounds = int(raw_rounds)
+        except ValueError:
+            raise ValueError(
+                f"MENUSHIFT_AI_MAX_ROUNDS must be a whole number (got {raw_rounds!r})."
+            ) from None
+        if not 1 <= max_rounds <= MAX_ROUNDS:
+            raise ValueError(
+                f"MENUSHIFT_AI_MAX_ROUNDS must be between 1 and {MAX_ROUNDS} "
+                f"(the agent contract hard cap; got {max_rounds})."
+            )
+    else:
+        max_rounds = MAX_ROUNDS
+
+    return AIConfig(mode=mode, bedrock_model_id=model_id, aws_region=region, max_rounds=max_rounds)
