@@ -1,1 +1,305 @@
-IiIiTmFpamEgTWVudVNoaWZ0IGRlY2lzaW9uIHdvcmtzcGFjZS4gU291cmNlZCBwcmljZXMsIGludGVyYWN0aXZlIGNvbXBhcmlzb24uIiIiCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAoKaW1wb3J0IHBhbmRhcyBhcyBwZAppbXBvcnQgc3RyZWFtbGl0IGFzIHN0Cgpmcm9tIG1lbnVzaGlmdC5lbmdpbmUgaW1wb3J0IGNvbXBhcmVfcmFua2VycywgZXZhbHVhdGUsIHNlbnNpdGl2aXR5CmZyb20gbWVudXNoaWZ0Lm1lbnVfcGlsb3RzIGltcG9ydCBESVNIX0xBQkVMUywgRElTSF9TQ09QRSwgYnVpbGRfbWVudV9waWxvdHMKZnJvbSBtZW51c2hpZnQub2ZmaWNpYWxfcHJpY2VzIGltcG9ydCBwcmVwYXJhdGlvbl9tZXRob2RzLCB3b3JraW5nX21hcmtldF90YWJsZQpmcm9tIG1lbnVzaGlmdC5xdWFsaXR5IGltcG9ydCBhdWRpdF9kYXRhc2V0CgpST09UID0gUGF0aChfX2ZpbGVfXykucmVzb2x2ZSgpLnBhcmVudApTT1VSQ0VTID0gUk9PVCAvICJkYXRhIiAvICJzb3VyY2VzIgpBTExFUkdFTl9DSE9JQ0VTID0gWyJzb3kiLCAicGVhbnV0IiwgIndoZWF0IiwgIm1pbGsiLCAiZWdnIiwgInNlc2FtZSIsICJ0cmVlIG51dCIsICJmaXNoIiwgInNoZWxsZmlzaCJdCkRFRkFVTFRTID0gewogICAgImJ1ZGdldCI6IDUwMC4wLAogICAgInByb3RlaW4iOiAxMC4wLAogICAgInByZXAiOiAxODAuMCwKICAgICJwcmVmZXJlbmNlIjogIiIsCiAgICAiYXZvaWQiOiBbXSwKICAgICJmaW5pc2hlZCI6IDEwMC4wLAogICAgInlpZWxkX3JhdGlvIjogMS43NSwKICAgICJmaXJtX3ByZXAiOiA2MC4wLAogICAgInByZXNzZWRfcHJlcCI6IDYwLjAsCiAgICAiZnJvemVuX3ByZXAiOiA2MC4wLAogICAgImZyaWVkX3ByZXAiOiA2MC4wLAogICAgIm9pbF9jbCI6IDAuMCwKICAgICJvbmlvbl9nIjogMC4wLAogICAgInBlcHBlcl9nIjogMC4wLAogICAgInNhbHRfZyI6IDAuMCwKICAgICJzZWFzb25pbmdfZyI6IDAuMCwKICAgICJzaG9ja19wY3QiOiAwLAp9CgpzdC5zZXRfcGFnZV9jb25maWcoCiAgICBwYWdlX3RpdGxlPSJOYWlqYSBNZW51U2hpZnQgwrcgUmVzZWFyY2ggU3R1ZGlvIiwKICAgIHBhZ2VfaWNvbj0i8J+MsSIsCiAgICBsYXlvdXQ9IndpZGUiLAogICAgaW5pdGlhbF9zaWRlYmFyX3N0YXRlPSJjb2xsYXBzZWQiLAopCnN0Lm1hcmtkb3duKAogICAgIiIiCjxzdHlsZT4KOnJvb3QgeyAtLWluazogIzE1MzQyODsgfQouYmxvY2stY29udGFpbmVyIHsgbWF4LXdpZHRoOiAxMTAwcHg7IHBhZGRpbmctdG9wOiAxLjJyZW07IHBhZGRpbmctYm90dG9tOiAzcmVtOyB9CltkYXRhLXRlc3RpZD0ic3RBcHBWaWV3Q29udGFpbmVyIl0geyBiYWNrZ3JvdW5kOiAjZjZmOGY2OyB9CmgxLGgyLGgzIHsgbGV0dGVyLXNwYWNpbmc6IC0uMDM1ZW07IGNvbG9yOiB2YXIoLS1pbmspOyB9CmgxIHsgZm9udC1zaXplOiBjbGFtcCgxLjhyZW0sIDR2dywgM3JlbSkgIWltcG9ydGFudDsgfQpbZGF0YS10ZXN0aWQ9InN0TWV0cmljIl0geyBiYWNrZ3JvdW5kOiAjZmZmZmZmOyBib3JkZXI6IDFweCBzb2xpZCAjZDVlM2RhOyBib3JkZXItcmFkaXVzOiAxN3B4OyBwYWRkaW5nOiAxNHB4IDE4cHg7IH0KW2RhdGEtdGVzdGlkPSJzdE1ldHJpY0xhYmVsIl0geyBmb250LXdlaWdodDogNjAwOyB9CltkYXRhLXRlc3RpZD0ic3RBbGVydCJdIHsgYm9yZGVyLXJhZGl1czogMTRweDsgfQo8L3N0eWxlPgoiIiIsCiAgICB1bnNhZmVfYWxsb3dfaHRtbD1UcnVlLAopCgpmb3Iga2V5LCB2YWx1ZSBpbiBERUZBVUxUUy5pdGVtcygpOgogICAgc3Quc2Vzc2lvbl9zdGF0ZS5zZXRkZWZhdWx0KGtleSwgdmFsdWUpCgoKZGVmIF9hcHBseSh1cGRhdGVzOiBkaWN0KSAtPiBOb25lOgogICAgZm9yIGtleSwgdmFsdWUgaW4gdXBkYXRlcy5pdGVtcygpOgogICAgICAgIHN0LnNlc3Npb25fc3RhdGVba2V5XSA9IHZhbHVlCgoKc3QuY2FwdGlvbigiSEFDSyBUSEUgRk9SSyBOSUdFUklBIDIwMjYgwrcgQ0hBTExFTkdFIDIiKQpzdC50aXRsZSgiTmFpamEgTWVudVNoaWZ0IikKc3QucGFnZV9saW5rKCJwYWdlcy8xX0tpdGNoZW5fSW50ZWxsaWdlbmNlLnB5IiwgbGFiZWw9IkV4cGxvcmUgdGhlIEtpdGNoZW4gSW50ZWxsaWdlbmNlIFN0dWRpbyIsIGljb249IvCfjL8iKQpzdC5wYWdlX2xpbmsoInBhZ2VzLzJfRXZpZGVuY2VfTGlicmFyeS5weSIsIGxhYmVsPSJJbnNwZWN0IHRoZSBFdmlkZW5jZSBMaWJyYXJ5IiwgaWNvbj0i8J+TmiIpCnN0LmNhcHRpb24oIkV4cGFuZCBtZW51cyB3aXRoIGFkZGl0aW9uYWwgcGxhbnQtYmFzZWQgY2hvaWNlcywgd2l0aG91dCByZW1vdmluZyBleGlzdGluZyBmYXZvdXJpdGVzLiIpCnN0LndyaXRlKCJEaXZlcnNpZnkgZmFtaWxpYXIgTmlnZXJpYW4gbWVudXMgd2l0aCBhZGRpdGlvbmFsIHBsYW50LWJhc2VkIG9wdGlvbnMsIHRyYW5zcGFyZW50IGVzdGltYXRlcyBhbmQgY2xlYXIgcHJlcGFyYXRpb24gY29uc3RyYWludHMuIikKc3Qud2FybmluZygKICAgICJQcmljZXMgYW5kIHBlci0xMDAgZyBudXRyaWVudHMgY29tZSBmcm9tIHRob3NlIHNvdXJjZXMuIEZpbmlzaGVkIHdlaWdodCwgc295IHlpZWxkLCAiCiAgICAicHJlcCBtaW51dGVzLCBvaWwsIGFuZCBzcGljZXMgYXJlIGNvbnRyb2xzLCBiZWNhdXNlIHRoZSB3b3JrYm9vayBoYXMgbm8gbWVhc3VyZWQgc2VydmluZy4iLAogICAgaWNvbj0i4pqg77iPIiwKKQoKc3Quc3ViaGVhZGVyKCIxLiBDaG9vc2UgYSBtZW51IHRvIGRpdmVyc2lmeSIpCmRpc2hfaWQgPSBzdC5zZWxlY3Rib3goCiAgICAiQ3VycmVudCByZXN0YXVyYW50IG1lbnUgaXRlbSIsIGxpc3QoRElTSF9MQUJFTFMpLAogICAgZm9ybWF0X2Z1bmM9bGFtYmRhIGl0ZW06IERJU0hfTEFCRUxTW2l0ZW1dLAopCnN0LmNhcHRpb24oRElTSF9TQ09QRVtkaXNoX2lkXSkKaWYgZGlzaF9pZCA9PSAiam9sbG9mX3NpZGUiOgogICAgc3Qud2FybmluZygKICAgICAgICAiUEFSVElBTCB0cmFuc2Zvcm1hdGlvbjogZmlndXJlcyBjb3ZlciBvbmx5IHRoZSBwcm9wb3NlZCBwbGFudC1wcm90ZWluIGFjY29tcGFuaW1lbnQuICIKICAgICAgICAiUmljZSwgc2F1Y2UsIG9yaWdpbmFsIGNoaWNrZW4sIGFuZCB3aG9sZS1tZWFsIHRvdGFscyBhcmUgTk9UIGluY2x1ZGVkLiIKICAgICkKCnN0LnN1YmhlYWRlcigiMi4gU2V0IHlvdXIgcmVxdWlyZW1lbnRzIikKd2l0aCBzdC5leHBhbmRlcigiVHJ5IGEgc291cmNlZCBzY2VuYXJpbyIpOgogICAgbGVmdCwgbWlkZGxlLCByaWdodCA9IHN0LmNvbHVtbnMoMykKICAgIGlmIGxlZnQuYnV0dG9uKCIxMDAgZyBzaGVldCBiYXNpcyIsIHdpZHRoPSJzdHJldGNoIik6CiAgICAgICAgX2FwcGx5KHsiYnVkZ2V0IjogNTAwLjAsICJwcm90ZWluIjogMTAuMCwgInByZXAiOiAxODAuMCwgImZpbmlzaGVkIjogMTAwLjAsICJ5aWVsZF9yYXRpbyI6IDEuNzUsICJvaWxfY2wiOiAwLjAsICJhdm9pZCI6IFtdfSkKICAgICAgICBzdC5yZXJ1bigpCiAgICBpZiBtaWRkbGUuYnV0dG9uKCJBdCBsZWFzdCAyMCBnIHByb3RlaW4iLCB3aWR0aD0ic3RyZXRjaCIpOgogICAgICAgIF9hcHBseSh7ImJ1ZGdldCI6IDUwMC4wLCAicHJvdGVpbiI6IDIwLjAsICJmaW5pc2hlZCI6IDEwMC4wfSkKICAgICAgICBzdC5yZXJ1bigpCiAgICBpZiByaWdodC5idXR0b24oIkJ1ZGdldCBiZWxvdyBldmVyeSBvcHRpb24iLCB3aWR0aD0ic3RyZXRjaCIpOgogICAgICAgIF9hcHBseSh7ImJ1ZGdldCI6IDIwLjAsICJwcm90ZWluIjogMTAuMCwgImZpbmlzaGVkIjogMTAwLjB9KQogICAgICAgIHN0LnJlcnVuKCkKCmJ1ZGdldF9jb2wsIHByb3RlaW5fY29sID0gc3QuY29sdW1ucygyKQpidWRnZXQgPSBidWRnZXRfY29sLm51bWJlcl9pbnB1dCgiTWF4aW11bSBjb3N0IHBlciBzZXJ2aW5nICjigqYpIiwgbWluX3ZhbHVlPTEuMCwgbWF4X3ZhbHVlPTEwMDAwMC4wLCBzdGVwPTEwLjAsIGtleT0iYnVkZ2V0IikKdGFyZ2V0ID0gcHJvdGVpbl9jb2wubnVtYmVyX2lucHV0KCJNaW5pbXVtIGVzdGltYXRlZCBwcm90ZWluIChnIHBlciBzZXJ2aW5nKSIsIG1pbl92YWx1ZT0wLjAsIG1heF92YWx1ZT0xNTAuMCwgc3RlcD0xLjAsIGtleT0icHJvdGVpbiIpCnByZWZlcmVuY2UgPSBzdC50ZXh0X2lucHV0KAogICAgIkRlc2lyZWQgcHJlcGFyYXRpb24gY2hhcmFjdGVyaXN0aWNzIChvcHRpb25hbCkiLAogICAga2V5PSJwcmVmZXJlbmNlIiwKICAgIG1heF9jaGFycz0yMDAsCiAgICBwbGFjZWhvbGRlcj0iZS5nLiBwcmVzc2VkLCBmcmllZCwgZnJvemVuIiwKICAgIGhlbHA9IldvcmQgbWF0Y2ggYWdhaW5zdCB0aGUgbWV0aG9kIG5hbWVzLiBOb3QgYSB0YXN0ZSB0ZXN0LiIsCikKd2l0aCBzdC5leHBhbmRlcigiUG9ydGlvbiwgeWllbGQsIHRpbWUsIGFsbGVyZ2VucywgYW5kIHByaWNlIGNoYW5nZSIpOgogICAgcG9ydGlvbl9jb2wsIHlpZWxkX2NvbCA9IHN0LmNvbHVtbnMoMikKICAgIGZpbmlzaGVkID0gcG9ydGlvbl9jb2wubnVtYmVyX2lucHV0KCJGaW5pc2hlZCBhd2FyYSAoZykiLCBtaW5fdmFsdWU9NTAuMCwgbWF4X3ZhbHVlPTQwMC4wLCBzdGVwPTEwLjAsIGtleT0iZmluaXNoZWQiKQogICAgd2V0X3lpZWxkID0geWllbGRfY29sLnNsaWRlcigKICAgICAgICAiV2V0IGN1cmQgZnJvbSAxIGtnIGRyeSBzb3kgKGtnKSIsCiAgICAgICAgbWluX3ZhbHVlPTEuNSwKICAgICAgICBtYXhfdmFsdWU9Mi4wLAogICAgICAgIHN0ZXA9MC4wNSwKICAgICAgICBrZXk9InlpZWxkX3JhdGlvIiwKICAgICAgICBoZWxwPSJUaGUgd29ya2Jvb2sgbm90ZSBzYXlzIGFib3V0IDEuNSB0byAyIGtnLiBJdCBpcyBub3QgYSBtZWFzdXJlZCBiYXRjaC4iLAogICAgKQogICAgcHJlcCA9IHN0Lm51bWJlcl9pbnB1dCgiTWF4aW11bSBwcmVwYXJhdGlvbiB0aW1lIChtaW51dGVzKSIsIG1pbl92YWx1ZT0xLjAsIG1heF92YWx1ZT0xNDQwLjAsIHN0ZXA9NS4wLCBrZXk9InByZXAiKQogICAgdGltZV9jb2xzID0gc3QuY29sdW1ucyg0KQogICAgZmlybV9wcmVwID0gdGltZV9jb2xzWzBdLm51bWJlcl9pbnB1dCgiRmlybSBtaW51dGVzIiwgbWluX3ZhbHVlPTEuMCwgbWF4X3ZhbHVlPTE0NDAuMCwga2V5PSJmaXJtX3ByZXAiKQogICAgcHJlc3NlZF9wcmVwID0gdGltZV9jb2xzWzFdLm51bWJlcl9pbnB1dCgiUHJlc3NlZCBtaW51dGVzIiwgbWluX3ZhbHVlPTEuMCwgbWF4X3ZhbHVlPTE0NDAuMCwga2V5PSJwcmVzc2VkX3ByZXAiKQogICAgZnJvemVuX3ByZXAgPSB0aW1lX2NvbHNbMl0ubnVtYmVyX2lucHV0KCJGcm96ZW4gbWludXRlcyIsIG1pbl92YWx1ZT0xLjAsIG1heF92YWx1ZT0xNDQwLjAsIGtleT0iZnJvemVuX3ByZXAiKQogICAgZnJpZWRfcHJlcCA9IHRpbWVfY29sc1szXS5udW1iZXJfaW5wdXQoIkZyaWVkIG1pbnV0ZXMiLCBtaW5fdmFsdWU9MS4wLCBtYXhfdmFsdWU9MTQ0MC4wLCBrZXk9ImZyaWVkX3ByZXAiKQogICAgc3QuY2FwdGlvbigiVGhlIHdvcmtib29rIGRvZXMgbm90IHJlY29yZCBtaW51dGVzLiBDaGFuZ2UgdGhlbSB0byBzZWUgdGhlIHRpbWUgcnVsZSBhdCB3b3JrLiBUaGUgc3RhcnRpbmcgdmFsdWUgaXMgNjAgZm9yIGV2ZXJ5IG1ldGhvZC4iKQogICAgb2lsX2NvbCwgb25pb25fY29sID0gc3QuY29sdW1ucygyKQogICAgb2lsX2NsID0gb2lsX2NvbC5udW1iZXJfaW5wdXQoIk9pbCBmb3IgZnJpZWQgYXdhcmEgKGNsKSIsIG1pbl92YWx1ZT0wLjAsIG1heF92YWx1ZT0zMC4wLCBzdGVwPTAuNSwga2V5PSJvaWxfY2wiKQogICAgb25pb25fZyA9IG9uaW9uX2NvbC5udW1iZXJfaW5wdXQoIk9uaW9uIChnKSIsIG1pbl92YWx1ZT0wLjAsIG1heF92YWx1ZT04MC4wLCBzdGVwPTEuMCwga2V5PSJvbmlvbl9nIikKICAgIHBlcHBlcl9jb2wsIHNhbHRfY29sLCBjdWJlX2NvbCA9IHN0LmNvbHVtbnMoMykKICAgIHBlcHBlcl9nID0gcGVwcGVyX2NvbC5udW1iZXJfaW5wdXQoIlBlcHBlciAoZykiLCBtaW5fdmFsdWU9MC4wLCBtYXhfdmFsdWU9NDAuMCwgc3RlcD0xLjAsIGtleT0icGVwcGVyX2ciKQogICAgc2FsdF9nID0gc2FsdF9jb2wubnVtYmVyX2lucHV0KCJTYWx0IChnKSIsIG1pbl92YWx1ZT0wLjAsIG1heF92YWx1ZT0yMC4wLCBzdGVwPTEuMCwga2V5PSJzYWx0X2ciKQogICAgc2Vhc29uaW5nX2cgPSBjdWJlX2NvbC5udW1iZXJfaW5wdXQoIlNlYXNvbmluZyBjdWJlcyAoZykiLCBtaW5fdmFsdWU9MC4wLCBtYXhfdmFsdWU9MjAuMCwgc3RlcD0xLjAsIGtleT0ic2Vhc29uaW5nX2ciKQogICAgYXZvaWQgPSBzdC5tdWx0aXNlbGVjdCgKICAgICAgICAiRXhjbHVkZSB0aGVzZSBhbGxlcmdlbnMiLAogICAgICAgIEFMTEVSR0VOX0NIT0lDRVMsCiAgICAgICAga2V5PSJhdm9pZCIsCiAgICAgICAgaGVscD0iU295IGlzIGRlY2xhcmVkIGZvciBhd2FyYS4gU3BpY2Ugcm93cyBhcmUgdW5yZXZpZXdlZCwgc28gYW55IGV4Y2x1c2lvbiByZW1vdmVzIGEgc3BpY2VkIHNlcnZpbmcuIiwKICAgICkKICAgIHNob2NrID0gc3Quc2xpZGVyKCJJbmdyZWRpZW50IHByaWNlIGNoYW5nZSAoJSkiLCAtMjAsIDIwLCBzdGVwPTUsIGtleT0ic2hvY2tfcGN0IikgLyAxMDAKCnRyeToKICAgIGRhdGEgPSBidWlsZF9tZW51X3BpbG90cygKICAgICAgICBTT1VSQ0VTLAogICAgICAgIGZpbmlzaGVkX2c9ZmluaXNoZWQsCiAgICAgICAgd2V0X3lpZWxkX2tnX3Blcl9rZ19kcnk9d2V0X3lpZWxkLAogICAgICAgIHByZXBfbWludXRlcz17ImZpcm0iOiBmaXJtX3ByZXAsICJwcmVzc2VkIjogcHJlc3NlZF9wcmVwLCAiZnJvemVuIjogZnJvemVuX3ByZXAsICJmcmllZCI6IGZyaWVkX3ByZXB9LAogICAgICAgIG9pbF9jbD1vaWxfY2wsCiAgICAgICAgb25pb25fZz1vbmlvbl9nLAogICAgICAgIHBlcHBlcl9nPXBlcHBlcl9nLAogICAgICAgIHNhbHRfZz1zYWx0X2csCiAgICAgICAgc2Vhc29uaW5nX2c9c2Vhc29uaW5nX2csCiAgICApCiAgICBvdXRwdXRzID0gZXZhbHVhdGUoCiAgICAgICAgZGF0YSwgZGlzaF9pZCwgYnVkZ2V0X25nbj1idWRnZXQsIHByb3RlaW5fdGFyZ2V0X2c9dGFyZ2V0LCBwcmljZV9zaG9jaz1zaG9jaywKICAgICAgICBtYXhfcHJlcF9taW51dGVzPXByZXAsIHByZWZlcmVuY2U9cHJlZmVyZW5jZSwgYXZvaWRfYWxsZXJnZW5zPWF2b2lkLAogICAgKQogICAgY29tcGFyaXNvbiA9IGNvbXBhcmVfcmFua2VycygKICAgICAgICBkYXRhLCBkaXNoX2lkLCBidWRnZXRfbmduPWJ1ZGdldCwgcHJvdGVpbl90YXJnZXRfZz10YXJnZXQsIHByaWNlX3Nob2NrPXNob2NrLAogICAgICAgIG1heF9wcmVwX21pbnV0ZXM9cHJlcCwgcHJlZmVyZW5jZT1wcmVmZXJlbmNlLCBhdm9pZF9hbGxlcmdlbnM9YXZvaWQsCiAgICApCmV4Y2VwdCAoVmFsdWVFcnJvciwgUnVudGltZUVycm9yKSBhcyBleGM6CiAgICBzdC5lcnJvcihmIlVuYWJsZSB0byBjYWxjdWxhdGUgYSBjb21wYXJpc29uOiB7ZXhjfSIpCiAgICBzdC5zdG9wKCkKCmZlYXNpYmxlID0gW3JvdyBmb3Igcm93IGluIG91dHB1dHMgaWYgcm93LmZlYXNpYmxlXQpwbGFudHMgPSBbcm93IGZvciByb3cgaW4gb3V0cHV0cyBpZiByb3cucGxhbnRfb25seV0KcmVmZXJlbmNlcyA9IFtyb3cgZm9yIHJvdyBpbiBvdXRwdXRzIGlmIG5vdCByb3cucGxhbnRfb25seV0KbmFtZXMgPSB7cm93Lm9wdGlvbl9pZDogcm93Lm5hbWUgZm9yIHJvdyBpbiBvdXRwdXRzfQoKCmRlZiBfbGFiZWwob3B0aW9uX2lkOiBzdHIgfCBOb25lKSAtPiBzdHI6CiAgICBpZiBub3Qgb3B0aW9uX2lkOgogICAgICAgIHJldHVybiAibm9uZSAobm8gZWxpZ2libGUgb3B0aW9uKSIKICAgIHJldHVybiBuYW1lcy5nZXQob3B0aW9uX2lkLCBvcHRpb25faWQpCgoKc3VtbWFyeSwgZXZpZGVuY2UsIHN0cmVzcywgbWV0aG9kb2xvZ3kgPSBzdC50YWJzKAogICAgWyIzLiBSZWNvbW1lbmRhdGlvbnMiLCAiRXZpZGVuY2UgJiBzb3VyY2VzIiwgIlByaWNlIHNjZW5hcmlvcyIsICJIb3cgdGhlIHNjb3JlIHdvcmtzIl0KKQoKd2l0aCBzdW1tYXJ5OgogICAgaWYgb2lsX2NsIDw9IDA6CiAgICAgICAgc3QuaW5mbygiRnJpZWQgYXdhcmEgc3RheXMgb3V0IHVudGlsIHlvdSBlbnRlciBhbiBvaWwgYW1vdW50IGluIGNlbnRpbGl0cmVzLiBUaGUgd29ya2Jvb2sgcHJpY2VzIG9pbCBieSB0aGUgNzUgY2wgYm90dGxlLCBub3QgYnkgYSBzZXJ2aW5nLiIpCiAgICBpZiBmZWFzaWJsZToKICAgICAgICBjaG9pY2UgPSBmZWFzaWJsZVswXQogICAgICAgIHN0LmluZm8oCiAgICAgICAgICAgICJQcm92aXNpb25hbCBjYWxjdWxhdGlvbiBtZWV0cyB0aGUgZW50ZXJlZCBudW1lcmljIGFuZCBpbmdyZWRpZW50IGNvbnN0cmFpbnRzLiAiCiAgICAgICAgICAgICJUaGlzIGlzIE5PVCBhIHNhZmUtdG8tc2VydmUgcmVjaXBlLCBudXRyaWVudCBjZXJ0aWZpY2F0aW9uIG9yIGN1cnJlbnQgc3VwcGxpZXIgcXVvdGUuIgogICAgICAgICkKICAgICAgICBzdC5zdWJoZWFkZXIoY2hvaWNlLm5hbWUpCiAgICAgICAgY29zdF9jb2wsIHByb3RlaW5fbWV0cmljLCB0aW1lX2NvbCA9IHN0LmNvbHVtbnMoMykKICAgICAgICBjb3N0X2NvbC5tZXRyaWMoIlRvdGFsIGNvc3QgZm9yIHRoaXMgcG9ydGlvbiIsIGYi4oKme2Nob2ljZS5jb3N0X25nbjosLjBmfSIpCiAgICAgICAgcHJvdGVpbl9tZXRyaWMubWV0cmljKCJFc3RpbWF0ZWQgcHJvdGVpbiIsIGYie2Nob2ljZS5wcm90ZWluX2c6LjFmfSBnIikKICAgICAgICB0aW1lX2NvbC5tZXRyaWMoIlByZXBhcmF0aW9uIHRpbWUiLCBmIntjaG9pY2UucHJlcF9taW51dGVzOi4wZn0gbWluIikKICAgICAgICBzdC5jYXB0aW9uKCJQcm90ZWluIGZvciBmaXJtLCBwcmVzc2VkLCBhbmQgZnJvemVuIHBpZWNlcyBpcyB0aGUgZmlybS10b2Z1IHJlZmVyZW5jZSBvbiB0aGUgd2V0IGN1cmQgdGhhdCB3ZW50IGluLiBQcmVzc2luZyBjb25jZW50cmF0ZXMgdGhhdCBjdXJkLiBJdCBkb2VzIG5vdCBjcmVhdGUgcHJvdGVpbi4iKQogICAgICAgIGlmIG5vdCBjaG9pY2UuYWxsZXJnZW5fcmV2aWV3X2NvbXBsZXRlOgogICAgICAgICAgICBzdC53YXJuaW5nKCJJbmdyZWRpZW50IGxhYmVscyBhcmUgaW5jb21wbGV0ZS4gVGhpcyBpcyBOT1QgY2xlYXJlZCBmb3IgYW4gYWxsZXJneSByZXN0cmljdGlvbiBvciBmb29kIHNlcnZpY2UuIikKICAgICAgICB3aXRoIHN0LmV4cGFuZGVyKCJFdmlkZW5jZSAmIHNhZmV0eSBsaW1pdGF0aW9ucyIsIGV4cGFuZGVkPVRydWUpOgogICAgICAgICAgICBmb3Igd2FybmluZyBpbiBjaG9pY2UuZXZpZGVuY2Vfd2FybmluZ3M6CiAgICAgICAgICAgICAgICBzdC53YXJuaW5nKHdhcm5pbmcpCiAgICAgICAgd2l0aCBzdC5leHBhbmRlcigiV2h5IHRoaXMgb3B0aW9uIGNhbWUgZmlyc3QiLCBleHBhbmRlZD1UcnVlKToKICAgICAgICAgICAgZm9yIHJlYXNvbiBpbiBjaG9pY2UucmVhc29uczoKICAgICAgICAgICAgICAgIHN0LndyaXRlKCItICIgKyByZWFzb24pCiAgICAgICAgICAgIHN0LndyaXRlKCJJbmdyZWRpZW50czoiLCBmIuKCpntjaG9pY2UuaW5ncmVkaWVudF9jb3N0X25nbjosLjBmfSIpCiAgICAgICAgICAgIHN0LndyaXRlKCJPaWwgYW5kIG90aGVyIHByZXBhcmF0aW9uOiIsIGYi4oKme2Nob2ljZS5wcm9jZXNzaW5nX2Nvc3RfbmduOiwuMGZ9IikKICAgICAgICAgICAgaWYgY2hvaWNlLnNjb3JlX2JyZWFrZG93bjoKICAgICAgICAgICAgICAgIHN0Lmpzb24oZGljdChjaG9pY2Uuc2NvcmVfYnJlYWtkb3duKSwgZXhwYW5kZWQ9RmFsc2UpCiAgICAgICAgICAgIGZvciBzb3VyY2UgaW4gY2hvaWNlLnNvdXJjZXM6CiAgICAgICAgICAgICAgICBzdC5jYXB0aW9uKHNvdXJjZSkKICAgIGVsc2U6CiAgICAgICAgc3QuZXJyb3IoIk5vIHBsYW50LXByb3RlaW4gb3B0aW9uIG1lZXRzIGFsbCBvZiB0aGVzZSByZXF1aXJlbWVudHMuIikKICAgICAgICBzdC53cml0ZSgiUmV2aWV3IHRoZSBidWRnZXQsIHByb3RlaW4gdGFyZ2V0LCBhdmFpbGFibGUgdGltZSBhbmQgaW5ncmVkaWVudCBsYWJlbHMuIE5ldmVyIGJ5cGFzcyBhIGRpZXRhcnkgcmVzdHJpY3Rpb24uIikKICAgICAgICBmb3Igcm93IGluIHBsYW50czoKICAgICAgICAgICAgd2l0aCBzdC5leHBhbmRlcigiV2h5ICIgKyByb3cubmFtZSArICIgd2FzIGV4Y2x1ZGVkIik6CiAgICAgICAgICAgICAgICBmb3IgcmVhc29uIGluIHJvdy5yZWFzb25zOgogICAgICAgICAgICAgICAgICAgIHN0LndyaXRlKCItICIgKyByZWFzb24pCgogICAgY2hhcnQgPSBwZC5EYXRhRnJhbWUoCiAgICAgICAgeyJDb3N0IChuYWlyYSkiOiBbcm93LmNvc3RfbmduIGZvciByb3cgaW4gcGxhbnRzXSwgIlByb3RlaW4gKGcpIjogW3Jvdy5wcm90ZWluX2cgZm9yIHJvdyBpbiBwbGFudHNdfSwKICAgICAgICBpbmRleD1bcm93Lm5hbWUgZm9yIHJvdyBpbiBwbGFudHNdLAogICAgKQogICAgc3QuYmFyX2NoYXJ0KGNoYXJ0KQogICAgc3QuZGF0YWZyYW1lKAogICAgICAgIHBkLkRhdGFGcmFtZShbCiAgICAgICAgICAgIHsiQWx0ZXJuYXRpdmUiOiByb3cubmFtZSwgIkNvc3QgKOKCpikiOiByb3cuY29zdF9uZ24sICJFc3QuIHByb3RlaW4gKGcpIjogcm93LnByb3RlaW5fZywgIk1pbnV0ZXMiOiByb3cucHJlcF9taW51dGVzLCAiU3RhdHVzIjogIlByb3Zpc2lvbmFsIiBpZiByb3cuZmVhc2libGUgZWxzZSAiRXhjbHVkZWQifQogICAgICAgICAgICBmb3Igcm93IGluIHBsYW50cwogICAgICAgIF0pLAogICAgICAgIHdpZHRoPSJzdHJldGNoIiwKICAgICAgICBoaWRlX2luZGV4PVRydWUsCiAgICApCiAgICBpZiByZWZlcmVuY2VzOgogICAgICAgIGJlZWYgPSByZWZlcmVuY2VzWzBdCiAgICAgICAgd2l0aCBzdC5leHBhbmRlcigiQmVlZiBjb21wYXJpc29uIChyZWZlcmVuY2Ugb25seSkiKToKICAgICAgICAgICAgc3Qud3JpdGUoYmVlZi5uYW1lKQogICAgICAgICAgICBsZWZ0LCByaWdodCA9IHN0LmNvbHVtbnMoMikKICAgICAgICAgICAgbGVmdC5tZXRyaWMoIlJhdyBwcmljZSBvbiB0aGlzIGdyYW0gd2VpZ2h0IiwgZiLigqZ7YmVlZi5jb3N0X25nbjosLjBmfSIpCiAgICAgICAgICAgIHJpZ2h0Lm1ldHJpYygiQ29va2VkIHJlZmVyZW5jZSBwcm90ZWluIG9uIHRoaXMgZ3JhbSB3ZWlnaHQiLCBmIntiZWVmLnByb3RlaW5fZzouMWZ9IGciKQogICAgICAgICAgICBzdC5jYXB0aW9uKCJUaGUgTkJTIGZpZ3VyZSBpcyByYXcgYm9uZWxlc3MgYmVlZi4gVGhlIHByb3RlaW4gZmlndXJlIGlzIGNvb2tlZCBsZWFuIGJlZWYuIFRoZXkgYXJlIG5vdCBvbmUgd2VpZ2hlZCBzZXJ2aW5nLCBhbmQgYmVlZiBpcyBuZXZlciBhIHBsYW50IHJlY29tbWVuZGF0aW9uLiIpCiAgICB3aXRoIHN0LmV4cGFuZGVyKCJDb21wYXJlIHRoZSByZWNvbW1lbmRhdGlvbiBtZXRob2RzIik6CiAgICAgICAgc3Qud3JpdGUoIkNoZWFwZXN0IGZlYXNpYmxlOiIsIF9sYWJlbChjb21wYXJpc29uWyJjaGVhcGVzdF9mZWFzaWJsZV9wbGFudCJdKSkKICAgICAgICBzdC53cml0ZSgiS2V5d29yZCBwcmVmZXJlbmNlOiIsIF9sYWJlbChjb21wYXJpc29uWyJrZXl3b3JkX2h5YnJpZCJdKSkKICAgICAgICBzdC53cml0ZSgiVEYtSURGIHByZWZlcmVuY2U6IiwgX2xhYmVsKGNvbXBhcmlzb25bInRmaWRmX2h5YnJpZCJdKSkKICAgICAgICBpZiBjb21wYXJpc29uWyJtZXRob2RzX2Rpc2FncmVlIl06CiAgICAgICAgICAgIHN0Lndhcm5pbmcoIlRoZSB0ZXh0IG1ldGhvZHMgZGlzYWdyZWUuIFRoZXJlIGlzIG5vIHNpbmdsZSB3aW5uZXIuIikKICAgICAgICBpZiBjb21wYXJpc29uWyJhYnN0YWluZWQiXToKICAgICAgICAgICAgc3QuaW5mbygiRXZlcnkgbWV0aG9kIGFic3RhaW5zIGJlY2F1c2Ugbm8gYXdhcmEgb3B0aW9uIG1lZXRzIHRoZSByZXF1aXJlbWVudHMuIikKCndpdGggZXZpZGVuY2U6CiAgICBzdC5zdWJoZWFkZXIoIkluZ3JlZGllbnQgZXZpZGVuY2Ugc3RhdHVzIikKICAgIHN0Lndhcm5pbmcoCiAgICAgICAgIlB1Ymxpc2hlZCBpbmdyZWRpZW50IGRhdGEgaXMgbm90IGEgdmVyaWZpZWQgZmluaXNoZWQtbWVhbCByZWNpcGUuICIKICAgICAgICAiS2l0Y2hlbiB0cmlhbHMgYW5kIGN1cnJlbnQgbG9jYWwgc3VwcGxpZXIgcXVvdGVzIHJlbWFpbiBvdXRzdGFuZGluZy4iCiAgICApCiAgICBzdC5jYXB0aW9uKCJObyBpbmRlcGVuZGVudGx5IHJldmlld2VkIGtpdGNoZW4gdHJpYWxzIHJlY29yZGVkOyBpbnRha2UgdGVtcGxhdGU6IGRhdGEvZXZhbHVhdGlvbi9raXRjaGVuX3RyaWFscy5jc3YuIikKICAgIHN0LnN1YmhlYWRlcigiVmNodW5rczogc291cmNlZCBjb21wZXRpdG9yLCBub3QgeWV0IHJhbmthYmxlIikKICAgIHN0LndyaXRlKAogICAgICAgICJWZWdnaWVWaWN0b3J5IGxpc3RzIGEgMTUwIGcgcGFja2FnZWQgVmNodW5rcyBwcm9kdWN0IGF0IOKCpjQsNTAwIGFuZCAiCiAgICAgICAgImEgcHJlcGFyZWQgVmNodW5rcyBzdXlhIGl0ZW0gYXQg4oKmMiwwMDAgKGNoZWNrZWQgMjAgTm92IDIwMjYpLiAiCiAgICAgICAgIlRoZSBzdXlhIGxpc3RpbmcgZGVzY3JpYmVzIHdoZWF0LWJhc2VkIHByb3RlaW47IGNvbXBsZXRlIGN1cnJlbnQgcHJvZHVjdCAiCiAgICAgICAgIm51dHJpdGlvbiwgZmluYWwgc2VydmluZyBzaXplIGFuZCBraXRjaGVuIHByb2Nlc3NpbmcgY29zdHMgd2VyZSBub3QgdmVyaWZpZWQuIgogICAgKQogICAgc3QubGlua19idXR0b24oIlNlZSBWY2h1bmtzIHByb2R1Y3QiLCAiaHR0cHM6Ly92ZWdnaWV2aWN0b3J5LmNvbS9wcm9kdWN0L3ZjaHVua3MtcGxhbnQtYmFzZWQtbWVhdC8iKQogICAgc3QubGlua19idXR0b24oIlNlZSBWY2h1bmtzIHN1eWEgbWVudSBpdGVtIiwgImh0dHBzOi8vdmVnZ2lldmljdG9yeS5jb20vcHJvZHVjdC92Y2h1bmtzLXN1eWEvIikKICAgIHN0LmNhcHRpb24oCiAgICAgICAgIlRoZSBwYWNrYWdlZCBwcm9kdWN0IGFuZCBwcmVwYXJlZCBtZW51IGl0ZW0gYXJlIG5vdCBlcXVpdmFsZW50IHByaWNlIHVuaXRzLiAiCiAgICAgICAgIlZjaHVua3MgaXMgZXhjbHVkZWQgZnJvbSBudW1lcmljIHJhbmtpbmcgdW50aWwgYSBwcm9kdWN0LWxldmVsIGxhYmVsIGFuZCByZWNpcGUgYXJlIHZlcmlmaWVkLiIKICAgICkKICAgIHN0LnN1YmhlYWRlcigiUHJpY2VzIHVzZWQiKQogICAgc3QuZGF0YWZyYW1lKHBkLkRhdGFGcmFtZSh3b3JraW5nX21hcmtldF90YWJsZShTT1VSQ0VTKSksIHdpZHRoPSJzdHJldGNoIiwgaGlkZV9pbmRleD1UcnVlKQogICAgc3Quc3ViaGVhZGVyKCJOdXRyaXRpb24gcm93cyIpCiAgICBzdC5kYXRhZnJhbWUocGQuRGF0YUZyYW1lKHByZXBhcmF0aW9uX21ldGhvZHMoU09VUkNFUykpLCB3aWR0aD0ic3RyZXRjaCIsIGhpZGVfaW5kZXg9VHJ1ZSkKICAgIHN0LnN1YmhlYWRlcigiRGF0YXNldCBhdWRpdCIpCiAgICBzdC5kYXRhZnJhbWUocGQuRGF0YUZyYW1lKGlzc3VlLnRvX2RpY3QoKSBmb3IgaXNzdWUgaW4gYXVkaXRfZGF0YXNldChkYXRhKSksIHdpZHRoPSJzdHJldGNoIiwgaGlkZV9pbmRleD1UcnVlKQogICAgc3QuY2FwdGlvbigiQSBzdGFsZS1wcmljZSB3YXJuaW5nIG1lYW5zIHRoZSBOQlMgbW9udGggaXMgb2xkZXIgdGhhbiAzMCBkYXlzLiBJdCBkb2VzIG5vdCB0dXJuIHRoZSBmaWd1cmUgYmFjayBpbnRvIGEgcGxhY2Vob2xkZXIuIikKCndpdGggc3RyZXNzOgogICAgc3Quc3ViaGVhZGVyKCJJbmdyZWRpZW50IHByaWNlIHNjZW5hcmlvczogbWludXMgMjAlLCBiYXNlLCBwbHVzIDIwJSIpCiAgICBzY2VuYXJpb3MgPSBzZW5zaXRpdml0eSgKICAgICAgICBkYXRhLCBkaXNoX2lkLCBidWRnZXRfbmduPWJ1ZGdldCwgcHJvdGVpbl90YXJnZXRfZz10YXJnZXQsIG1heF9wcmVwX21pbnV0ZXM9cHJlcCwKICAgICAgICBwcmVmZXJlbmNlPXByZWZlcmVuY2UsIGF2b2lkX2FsbGVyZ2Vucz1hdm9pZCwKICAgICkKICAgIHJlY29yZHMgPSBbCiAgICAgICAgeyJTY2VuYXJpbyI6IGxhYmVsLCAiT3B0aW9uIjogcm93Lm5hbWUsICJDb3N0IChuYWlyYSkiOiByb3cuY29zdF9uZ24sICJTdGF0dXMiOiAiUHJvdmlzaW9uYWwiIGlmIHJvdy5mZWFzaWJsZSBlbHNlICJFeGNsdWRlZCJ9CiAgICAgICAgZm9yIGxhYmVsLCBjb2xsZWN0aW9uIGluIHNjZW5hcmlvcy5pdGVtcygpCiAgICAgICAgZm9yIHJvdyBpbiBjb2xsZWN0aW9uCiAgICAgICAgaWYgcm93LnBsYW50X29ubHkKICAgIF0KICAgIHN0LmRhdGFmcmFtZShwZC5EYXRhRnJhbWUocmVjb3JkcyksIHdpZHRoPSJzdHJldGNoIiwgaGlkZV9pbmRleD1UcnVlKQogICAgc3QuY2FwdGlvbigiVGhlIHNob2NrIG1vdmVzIG5haXJhLXBlci1raWxvZ3JhbSBpbmdyZWRpZW50cyB0b2dldGhlci4gT2lsIGVudGVyZWQgaW4gY2VudGlsaXRyZXMgc3RheXMgYXQgdGhlIGJvdHRsZSBwcmljZS4iKQoKd2l0aCBtZXRob2RvbG9neToKICAgIHN0LndyaXRlKCJIYXJkIGZpbHRlcnMgcnVuIGZpcnN0OiBwbGFudC1vbmx5LCBidWRnZXQsIGVzdGltYXRlZCBwcm90ZWluLCBwcmVwYXJhdGlvbiB0aW1lLCBhbmQgZGVjbGFyZWQgYWxsZXJnZW5zLiIpCiAgICBzdC53cml0ZSgiRWxpZ2libGUgb3B0aW9ucyB0aGVuIGdldCBhIHByb3Zpc2lvbmFsIHNjb3JlOiA0NSUgY29zdCBtYXJnaW4sIDI1JSBwcm90ZWluIHV0aWxpdHksIDE1JSB0aW1lLCBhbmQgMTUlIHRleHQgbWF0Y2guIikKICAgIHN0LndyaXRlKCJGaXJtLCBwcmVzc2VkLCBhbmQgZnJvemVuIHByb3RlaW4gdXNlcyB0aGUgZmlybS10b2Z1IHJlZmVyZW5jZSBvbiB0aGUgd2V0IGN1cmQgcmVxdWlyZWQgYWZ0ZXIgdGhlIHNoZWV0J3Mgd2F0ZXItbG9zcyBwZXJjZW50YWdlLiIpCiAgICBzdC53cml0ZSgiRnJpZWQgYXdhcmEgdXNlcyBhIGdlbmVyaWMgZnJpZWQtdG9mdSBudXRyaWVudCByb3cgYW5kIGVudGVyZWQgb2lsOyBjb29raW5nIHlpZWxkIGlzIHVubWVhc3VyZWQuIikKICAgIGlmIGRpc2hfaWQgPT0gInN1eWEiOgogICAgICAgIHN0LndyaXRlKCJCZWVmIGlzIGEgcmVmZXJlbmNlIHVzaW5nIGRpZmZlcmVudGx5IHByZXBhcmVkIGZvb2Qgc3RhdGVzLCBub3QgYSBwbGFudCBvcHRpb24uIikKICAgIGVsc2U6CiAgICAgICAgc3Qud3JpdGUoIkpvbGxvZiByaWNlIGFuZCBvcmlnaW5hbCBjaGlja2VuIHJlbWFpbiBvdXRzaWRlIHRoaXMgcHJvdGVpbi1zaWRlIGVzdGltYXRlLiIpCiAgICBzdC5jYXB0aW9uKCJUaGlzIGlzIG5vdCBhIGZvb2Qtc2FmZXR5LCBudXRyaXRpb24sIHB1cmNoYXNpbmcsIG9yIGRpZXRhcnkgYWR2aWNlIHNlcnZpY2UuIikK
+"""Naija MenuShift decision workspace. Sourced prices, interactive comparison."""
+from __future__ import annotations
+
+from pathlib import Path
+
+import pandas as pd
+import streamlit as st
+
+from menushift.engine import compare_rankers, evaluate, sensitivity
+from menushift.menu_pilots import DISH_LABELS, DISH_SCOPE, build_menu_pilots
+from menushift.official_prices import preparation_methods, working_market_table
+from menushift.quality import audit_dataset
+
+ROOT = Path(__file__).resolve().parent
+SOURCES = ROOT / "data" / "sources"
+ALLERGEN_CHOICES = ["soy", "peanut", "wheat", "milk", "egg", "sesame", "tree nut", "fish", "shellfish"]
+DEFAULTS = {
+    "budget": 500.0,
+    "protein": 10.0,
+    "prep": 180.0,
+    "preference": "",
+    "avoid": [],
+    "finished": 100.0,
+    "yield_ratio": 1.75,
+    "firm_prep": 60.0,
+    "pressed_prep": 60.0,
+    "frozen_prep": 60.0,
+    "fried_prep": 60.0,
+    "oil_cl": 0.0,
+    "onion_g": 0.0,
+    "pepper_g": 0.0,
+    "salt_g": 0.0,
+    "seasoning_g": 0.0,
+    "shock_pct": 0,
+}
+
+st.set_page_config(
+    page_title="Naija MenuShift · Research Studio",
+    page_icon="🌱",
+    layout="wide",
+    initial_sidebar_state="collapsed",
+)
+st.markdown(
+    """
+<style>
+:root { --ink: #153428; }
+.block-container { max-width: 1100px; padding-top: 1.2rem; padding-bottom: 3rem; }
+[data-testid="stAppViewContainer"] { background: #f6f8f6; }
+h1,h2,h3 { letter-spacing: -.035em; color: var(--ink); }
+h1 { font-size: clamp(1.8rem, 4vw, 3rem) !important; }
+[data-testid="stMetric"] { background: #ffffff; border: 1px solid #d5e3da; border-radius: 17px; padding: 14px 18px; }
+[data-testid="stMetricLabel"] { font-weight: 600; }
+[data-testid="stAlert"] { border-radius: 14px; }
+</style>
+""",
+    unsafe_allow_html=True,
+)
+
+for key, value in DEFAULTS.items():
+    st.session_state.setdefault(key, value)
+
+
+def _apply(updates: dict) -> None:
+    for key, value in updates.items():
+        st.session_state[key] = value
+
+
+st.caption("HACK THE FORK NIGERIA 2026 · CHALLENGE 2")
+st.title("Naija MenuShift")
+st.page_link("pages/1_Kitchen_Intelligence.py", label="Explore the Kitchen Intelligence Studio", icon="🌿")
+st.page_link("pages/2_Evidence_Library.py", label="Inspect the Evidence Library", icon="📚")
+st.caption("Expand menus with additional plant-based choices, without removing existing favourites.")
+st.write("Diversify familiar Nigerian menus with additional plant-based options, transparent estimates and clear preparation constraints.")
+st.warning(
+    "Prices and per-100 g nutrients come from those sources. Finished weight, soy yield, "
+    "prep minutes, oil, and spices are controls, because the workbook has no measured serving.",
+    icon="⚠️",
+)
+
+st.subheader("1. Choose a menu to diversify")
+dish_id = st.selectbox(
+    "Current restaurant menu item", list(DISH_LABELS),
+    format_func=lambda item: DISH_LABELS[item],
+)
+st.caption(DISH_SCOPE[dish_id])
+if dish_id == "jollof_side":
+    st.warning(
+        "PARTIAL transformation: figures cover only the proposed plant-protein accompaniment. "
+        "Rice, sauce, original chicken, and whole-meal totals are NOT included."
+    )
+
+st.subheader("2. Set your requirements")
+with st.expander("Try a sourced scenario"):
+    left, middle, right = st.columns(3)
+    if left.button("100 g sheet basis", width="stretch"):
+        _apply({"budget": 500.0, "protein": 10.0, "prep": 180.0, "finished": 100.0, "yield_ratio": 1.75, "oil_cl": 0.0, "avoid": []})
+        st.rerun()
+    if middle.button("At least 20 g protein", width="stretch"):
+        _apply({"budget": 500.0, "protein": 20.0, "finished": 100.0})
+        st.rerun()
+    if right.button("Budget below every option", width="stretch"):
+        _apply({"budget": 20.0, "protein": 10.0, "finished": 100.0})
+        st.rerun()
+
+budget_col, protein_col = st.columns(2)
+budget = budget_col.number_input("Maximum cost per serving (₦)", min_value=1.0, max_value=100000.0, step=10.0, key="budget")
+target = protein_col.number_input("Minimum estimated protein (g per serving)", min_value=0.0, max_value=150.0, step=1.0, key="protein")
+preference = st.text_input(
+    "Desired preparation characteristics (optional)",
+    key="preference",
+    max_chars=200,
+    placeholder="e.g. pressed, fried, frozen",
+    help="Word match against the method names. Not a taste test.",
+)
+with st.expander("Portion, yield, time, allergens, and price change"):
+    portion_col, yield_col = st.columns(2)
+    finished = portion_col.number_input("Finished awara (g)", min_value=50.0, max_value=400.0, step=10.0, key="finished")
+    wet_yield = yield_col.slider(
+        "Wet curd from 1 kg dry soy (kg)",
+        min_value=1.5,
+        max_value=2.0,
+        step=0.05,
+        key="yield_ratio",
+        help="The workbook note says about 1.5 to 2 kg. It is not a measured batch.",
+    )
+    prep = st.number_input("Maximum preparation time (minutes)", min_value=1.0, max_value=1440.0, step=5.0, key="prep")
+    time_cols = st.columns(4)
+    firm_prep = time_cols[0].number_input("Firm minutes", min_value=1.0, max_value=1440.0, key="firm_prep")
+    pressed_prep = time_cols[1].number_input("Pressed minutes", min_value=1.0, max_value=1440.0, key="pressed_prep")
+    frozen_prep = time_cols[2].number_input("Frozen minutes", min_value=1.0, max_value=1440.0, key="frozen_prep")
+    fried_prep = time_cols[3].number_input("Fried minutes", min_value=1.0, max_value=1440.0, key="fried_prep")
+    st.caption("The workbook does not record minutes. Change them to see the time rule at work. The starting value is 60 for every method.")
+    oil_col, onion_col = st.columns(2)
+    oil_cl = oil_col.number_input("Oil for fried awara (cl)", min_value=0.0, max_value=30.0, step=0.5, key="oil_cl")
+    onion_g = onion_col.number_input("Onion (g)", min_value=0.0, max_value=80.0, step=1.0, key="onion_g")
+    pepper_col, salt_col, cube_col = st.columns(3)
+    pepper_g = pepper_col.number_input("Pepper (g)", min_value=0.0, max_value=40.0, step=1.0, key="pepper_g")
+    salt_g = salt_col.number_input("Salt (g)", min_value=0.0, max_value=20.0, step=1.0, key="salt_g")
+    seasoning_g = cube_col.number_input("Seasoning cubes (g)", min_value=0.0, max_value=20.0, step=1.0, key="seasoning_g")
+    avoid = st.multiselect(
+        "Exclude these allergens",
+        ALLERGEN_CHOICES,
+        key="avoid",
+        help="Soy is declared for awara. Spice rows are unreviewed, so any exclusion removes a spiced serving.",
+    )
+    shock = st.slider("Ingredient price change (%)", -20, 20, step=5, key="shock_pct") / 100
+
+try:
+    data = build_menu_pilots(
+        SOURCES,
+        finished_g=finished,
+        wet_yield_kg_per_kg_dry=wet_yield,
+        prep_minutes={"firm": firm_prep, "pressed": pressed_prep, "frozen": frozen_prep, "fried": fried_prep},
+        oil_cl=oil_cl,
+        onion_g=onion_g,
+        pepper_g=pepper_g,
+        salt_g=salt_g,
+        seasoning_g=seasoning_g,
+    )
+    outputs = evaluate(
+        data, dish_id, budget_ngn=budget, protein_target_g=target, price_shock=shock,
+        max_prep_minutes=prep, preference=preference, avoid_allergens=avoid,
+    )
+    comparison = compare_rankers(
+        data, dish_id, budget_ngn=budget, protein_target_g=target, price_shock=shock,
+        max_prep_minutes=prep, preference=preference, avoid_allergens=avoid,
+    )
+except (ValueError, RuntimeError) as exc:
+    st.error(f"Unable to calculate a comparison: {exc}")
+    st.stop()
+
+feasible = [row for row in outputs if row.feasible]
+plants = [row for row in outputs if row.plant_only]
+references = [row for row in outputs if not row.plant_only]
+names = {row.option_id: row.name for row in outputs}
+
+
+def _label(option_id: str | None) -> str:
+    if not option_id:
+        return "none (no eligible option)"
+    return names.get(option_id, option_id)
+
+
+summary, evidence, stress, methodology = st.tabs(
+    ["3. Recommendations", "Evidence & sources", "Price scenarios", "How the score works"]
+)
+
+with summary:
+    if oil_cl <= 0:
+        st.info("Fried awara stays out until you enter an oil amount in centilitres. The workbook prices oil by the 75 cl bottle, not by a serving.")
+    if feasible:
+        choice = feasible[0]
+        st.info(
+            "Provisional calculation meets the entered numeric and ingredient constraints. "
+            "This is NOT a safe-to-serve recipe, nutrient certification or current supplier quote."
+        )
+        st.subheader(choice.name)
+        cost_col, protein_metric, time_col = st.columns(3)
+        cost_col.metric("Total cost for this portion", f"₦{choice.cost_ngn:,.0f}")
+        protein_metric.metric("Estimated protein", f"{choice.protein_g:.1f} g")
+        time_col.metric("Preparation time", f"{choice.prep_minutes:.0f} min")
+        st.caption("Protein for firm, pressed, and frozen pieces is the firm-tofu reference on the wet curd that went in. Pressing concentrates that curd. It does not create protein.")
+        if not choice.allergen_review_complete:
+            st.warning("Ingredient labels are incomplete. This is NOT cleared for an allergy restriction or food service.")
+        with st.expander("Evidence & safety limitations", expanded=True):
+            for warning in choice.evidence_warnings:
+                st.warning(warning)
+        with st.expander("Why this option came first", expanded=True):
+            for reason in choice.reasons:
+                st.write("- " + reason)
+            st.write("Ingredients:", f"₦{choice.ingredient_cost_ngn:,.0f}")
+            st.write("Oil and other preparation:", f"₦{choice.processing_cost_ngn:,.0f}")
+            if choice.score_breakdown:
+                st.json(dict(choice.score_breakdown), expanded=False)
+    else:
+        st.error("No plant-protein option meets all of these requirements.")
+        st.write("Review the budget, protein target, available time and ingredient labels. Never bypass a dietary restriction.")
+        for row in plants:
+            with st.expander("Why " + row.name + " was excluded"):
+                for reason in row.reasons:
+                    st.write("- " + reason)
+
+    chart = pd.DataFrame(
+        {"Cost (naira)": [row.cost_ngn for row in plants], "Protein (g)": [row.protein_g for row in plants]},
+        index=[row.name for row in plants],
+    )
+    st.bar_chart(chart)
+    st.dataframe(
+        pd.DataFrame([
+            {"Alternative": row.name, "Cost (₦)": row.cost_ngn, "Est. protein (g)": row.protein_g, "Minutes": row.prep_minutes, "Status": "Provisional" if row.feasible else "Excluded"}
+            for row in plants
+        ]),
+        width="stretch",
+        hide_index=True,
+    )
+    if references:
+        beef = references[0]
+        with st.expander("Beef comparison (reference only)"):
+            st.write(beef.name)
+            left, right = st.columns(2)
+            left.metric("Raw price on this gram weight", f"₦{beef.cost_ngn:,.0f}")
+            right.metric("Cooked reference protein on this gram weight", f"{beef.protein_g:.1f} g")
+            st.caption("The price figure is for raw boneless beef. The protein figure is cooked lean beef. They are not one weighed serving, and beef is never a plant recommendation.")
+    with st.expander("Compare the recommendation methods"):
+        st.write("Cheapest feasible:", _label(comparison["cheapest_feasible_plant"]))
+        st.write("Keyword preference:", _label(comparison["keyword_hybrid"]))
+        st.write("TF-IDF preference:", _label(comparison["tfidf_hybrid"]))
+        if comparison["methods_disagree"]:
+            st.warning("The text methods disagree. There is no single winner.")
+        if comparison["abstained"]:
+            st.info("Every method abstains because no awara option meets the requirements.")
+
+with evidence:
+    st.subheader("Ingredient evidence status")
+    st.warning(
+        "Published ingredient data is not a verified finished-meal recipe. "
+        "Kitchen trials and current local supplier quotes remain outstanding."
+    )
+    st.caption("No independently reviewed kitchen trials recorded; intake template: data/evaluation/kitchen_trials.csv.")
+    st.subheader("Vchunks: sourced competitor, not yet rankable")
+    st.write(
+        "VeggieVictory lists a 150 g packaged Vchunks product at ₦4,500 and "
+        "a prepared Vchunks suya item at ₦2,000 (checked 20 Nov 2026). "
+        "The suya listing describes wheat-based protein; complete current product "
+        "nutrition, final serving size and kitchen processing costs were not verified."
+    )
+    st.link_button("See Vchunks product", "https://veggievictory.com/product/vchunks-plant-based-meat/")
+    st.link_button("See Vchunks suya menu item", "https://veggievictory.com/product/vchunks-suya/")
+    st.caption(
+        "The packaged product and prepared menu item are not equivalent price units. "
+        "Vchunks is excluded from numeric ranking until a product-level label and recipe are verified."
+    )
+    st.subheader("Prices used")
+    st.dataframe(pd.DataFrame(working_market_table(SOURCES)), width="stretch", hide_index=True)
+    st.subheader("Nutrition rows")
+    st.dataframe(pd.DataFrame(preparation_methods(SOURCES)), width="stretch", hide_index=True)
+    st.subheader("Dataset audit")
+    st.dataframe(pd.DataFrame(issue.to_dict() for issue in audit_dataset(data)), width="stretch", hide_index=True)
+    st.caption("A stale-price warning means the NBS month is older than 30 days. It does not turn the figure back into a placeholder.")
+
+with stress:
+    st.subheader("Ingredient price scenarios: minus 20%, base, plus 20%")
+    scenarios = sensitivity(
+        data, dish_id, budget_ngn=budget, protein_target_g=target, max_prep_minutes=prep,
+        preference=preference, avoid_allergens=avoid,
+    )
+    records = [
+        {"Scenario": label, "Option": row.name, "Cost (naira)": row.cost_ngn, "Status": "Provisional" if row.feasible else "Excluded"}
+        for label, collection in scenarios.items()
+        for row in collection
+        if row.plant_only
+    ]
+    st.dataframe(pd.DataFrame(records), width="stretch", hide_index=True)
+    st.caption("The shock moves naira-per-kilogram ingredients together. Oil entered in centilitres stays at the bottle price.")
+
+with methodology:
+    st.write("Hard filters run first: plant-only, budget, estimated protein, preparation time, and declared allergens.")
+    st.write("Eligible options then get a provisional score: 45% cost margin, 25% protein utility, 15% time, and 15% text match.")
+    st.write("Firm, pressed, and frozen protein uses the firm-tofu reference on the wet curd required after the sheet's water-loss percentage.")
+    st.write("Fried awara uses a generic fried-tofu nutrient row and entered oil; cooking yield is unmeasured.")
+    if dish_id == "suya":
+        st.write("Beef is a reference using differently prepared food states, not a plant option.")
+    else:
+        st.write("Jollof rice and original chicken remain outside this protein-side estimate.")
+    st.caption("This is not a food-safety, nutrition, purchasing, or dietary advice service.")
