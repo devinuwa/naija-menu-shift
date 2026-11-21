@@ -1,1 +1,16 @@
-Y29uc3QgYXNzZXJ0ID0gcmVxdWlyZSgibm9kZTphc3NlcnQvc3RyaWN0Iik7CmNvbnN0IGUgPSByZXF1aXJlKCIuLi8udGVzdC1idWlsZC9lbmdpbmUuanMiKTsKY29uc3QgYmFzZSA9IHsgLi4uZS5ERUZBVUxUX0JSSUVGLCBwb3J0aW9uc0c6WzEwMF0gfTsKY29uc3Qgbm9ybWFsID0gZS5leHBsb3JlTG9jYWwoYmFzZSk7CmFzc2VydC5lcXVhbChub3JtYWwuaW5zcGVjdGVkLCA0KTsKYXNzZXJ0Lm9rKG5vcm1hbC5lbGlnaWJsZUlkcy5sZW5ndGg+MCk7CmNvbnN0IHJlamVjdGVkID0gKGNoYW5nZXMpID0+IGUuZXhwbG9yZUxvY2FsKHsgLi4uYmFzZSwuLi5jaGFuZ2VzIH0pOwphc3NlcnQuZXF1YWwocmVqZWN0ZWQoe2F2b2lkQWxsZXJnZW5zOlsic295YSJdfSkuZWxpZ2libGVJZHMubGVuZ3RoLDApOwphc3NlcnQuZXF1YWwocmVqZWN0ZWQoe2F2b2lkQWxsZXJnZW5zOlsiZ3JvdW5kbnV0cyJdfSkuZWxpZ2libGVJZHMubGVuZ3RoLDApOwphc3NlcnQuZXF1YWwocmVqZWN0ZWQoe3NlYXNvbmluZ0c6Mn0pLmVsaWdpYmxlSWRzLmxlbmd0aCwwKTsKYXNzZXJ0LmVxdWFsKHJlamVjdGVkKHtidWRnZXROZ246MX0pLmVsaWdpYmxlSWRzLmxlbmd0aCwwKTsKYXNzZXJ0LnRocm93cygoKT0+cmVqZWN0ZWQoe2F2b2lkQWxsZXJnZW5zOlsibXVzdGFyZCJdfSksL1Vuc3VwcG9ydGVkIGFsbGVyZ2VuLyk7CmFzc2VydC50aHJvd3MoKCk9PnJlamVjdGVkKHtidWRnZXROZ246IjE1MDAifSksL2Zpbml0ZS8pOwphc3NlcnQub2sobm9ybWFsLnJlZmVyZW5jZS5sZW5ndGg+MCk7CmFzc2VydC5lcXVhbChub3JtYWwuY2FuZGlkYXRlcy5zb21lKGM9PmMubWV0aG9kPT09IkJlZWYiICYmIGMuZmVhc2libGUpLGZhbHNlKTsKY29uc29sZS5sb2coIlN0YW5kYWxvbmUgVmVyY2VsIHJlc2VhcmNoLWVuZ2luZSBzYWZldHkgY2hlY2tzIHBhc3NlZCIpOwo=
+const assert = require("node:assert/strict");
+const e = require("../.test-build/engine.js");
+const base = { ...e.DEFAULT_BRIEF, portionsG:[100] };
+const normal = e.exploreLocal(base);
+assert.equal(normal.inspected, 4);
+assert.ok(normal.eligibleIds.length>0);
+const rejected = (changes) => e.exploreLocal({ ...base,...changes });
+assert.equal(rejected({avoidAllergens:["soya"]}).eligibleIds.length,0);
+assert.equal(rejected({avoidAllergens:["groundnuts"]}).eligibleIds.length,0);
+assert.equal(rejected({seasoningG:2}).eligibleIds.length,0);
+assert.equal(rejected({budgetNgn:1}).eligibleIds.length,0);
+assert.throws(()=>rejected({avoidAllergens:["mustard"]}),/Unsupported allergen/);
+assert.throws(()=>rejected({budgetNgn:"1500"}),/finite/);
+assert.ok(normal.reference.length>0);
+assert.equal(normal.candidates.some(c=>c.method==="Beef" && c.feasible),false);
+console.log("Standalone Vercel research-engine safety checks passed");
