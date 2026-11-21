@@ -1,1 +1,134 @@
-IiIiUmVzdHJpY3RlZCwgcmVhZC1vbmx5IGZpZWxkLWRhdGEgcmV2aWV3ZXIgd29ya3NwYWNlLgoKUmV2aWV3ZXJzIG11c3QgY29sbGVjdCBhY3R1YWwgcGFja2FnZSBldmlkZW5jZSwgYWN0dWFsIG1lYXN1cmVkIGJhdGNoZXMsIGFuZApjb25zZW50ZWQgYW5vbnltaXNlZCBzZW5zb3J5IGZlZWRiYWNrLiBObyB1cGxvYWRzIGFyZSBwZXJzaXN0ZWQgYnkgdGhpcyBwYWdlLgpBcHByb3ZhbCBpcyBhIGh1bWFuIHdvcmtmbG93LCBub3QgYSBjbGFpbSB0aGF0IHRoaXMgc29mdHdhcmUgY2VydGlmaWVzIGZvb2QuCiIiIgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgaGFzaGxpYgppbXBvcnQgaG1hYwppbXBvcnQgb3MKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCgppbXBvcnQgcGFuZGFzIGFzIHBkCmltcG9ydCBzdHJlYW1saXQgYXMgc3QKCmZyb20gbWVudXNoaWZ0LmZvb2RfZXZpZGVuY2UgaW1wb3J0ICgKICAgIEhFQURFUl9HUk9VUFMsCiAgICBGaWVsZEV2aWRlbmNlLAogICAgYXVkaXRfZXZpZGVuY2UsCiAgICBsb2FkX2ZpZWxkX2V2aWRlbmNlLAogICAgcmVhZF9ldmlkZW5jZV9jc3YsCiAgICBzZW5zb3J5X3NuYXBzaG90LAopCgpST09UID0gUGF0aChfX2ZpbGVfXykucmVzb2x2ZSgpLnBhcmVudHNbMV0KSU5UQUtFID0gUk9PVCAvICJkYXRhIiAvICJldmlkZW5jZV9pbnRha2UiCgpzdC5zZXRfcGFnZV9jb25maWcocGFnZV90aXRsZT0iRm9vZCBldmlkZW5jZSByZXZpZXdlciB8IE5haWphIE1lbnVTaGlmdCIsIHBhZ2VfaWNvbj0i8J+nqiIsIGxheW91dD0id2lkZSIpCnN0LnRpdGxlKCJLaXRjaGVuIGV2aWRlbmNlIHJldmlld2VyIHdvcmtzcGFjZSIpCnN0LmNhcHRpb24oIlRlYW0gU3Byb3V0IMK3IHNvdXJjZSwgaW5ncmVkaWVudC1wYWNrYWdpbmcsIG1lYXN1cmVkLWJhdGNoIGFuZCBzZW5zb3J5IHJldmlldyIpCnN0Lndhcm5pbmcoCiAgICAiUmVzZWFyY2ggd29ya2Zsb3cgb25seS4gQSBjb21wbGV0ZSBmb3JtIG9yIHBhc3NpbmcgdmFsaWRhdG9yIGRvZXMgbm90ICIKICAgICJjZXJ0aWZ5IGFsbGVyZ2VuIHNhZmV0eSwgZm9vZCBoYW5kbGluZywgbnV0cml0aW9uYWwgYWNjdXJhY3kgb3IgY29uc3VtZXIgYWNjZXB0YW5jZS4iCikKCmVuYWJsZWQgPSBvcy5nZXRlbnYoIkVOQUJMRV9FVklERU5DRV9SRVZJRVdfV09SS1NQQUNFIikgPT0gInRydWUiCmFjY2Vzc19rZXkgPSBvcy5nZXRlbnYoIkVWSURFTkNFX1JFVklFV19BQ0NFU1NfQ09ERSIsICIiKQppZiBub3QgZW5hYmxlZCBvciBsZW4oYWNjZXNzX2tleSkgPCAxNjoKICAgIHN0LmluZm8oCiAgICAgICAgIlJldmlld2VyIHdvcmtzcGFjZSBpcyBub3QgY29uZmlndXJlZC4gQXNrIHRoZSB0ZWNobmljYWwgbGVhZCBmb3IgIgogICAgICAgICJ0aGUgc2VjdXJlIHJldmlldyBwcm9jZXNzLiBObyBkYXRhIGlzIGNvbGxlY3RlZCBvciBzdG9yZWQgaGVyZS4iCiAgICApCiAgICBzdC5zdG9wKCkKCmVudGVyZWQgPSBzdC50ZXh0X2lucHV0KCJSZXZpZXdlciBhY2Nlc3MgY29kZSIsIHR5cGU9InBhc3N3b3JkIikKaWYgbm90IGhtYWMuY29tcGFyZV9kaWdlc3QoZW50ZXJlZCwgYWNjZXNzX2tleSk6CiAgICBzdC5pbmZvKCJFbnRlciB5b3VyIGF1dGhvcmlzZWQgcmV2aWV3ZXIgYWNjZXNzIGNvZGUgdG8gaW5zcGVjdCBldmlkZW5jZS4iKQogICAgc3Quc3RvcCgpCgpzdC5zdWNjZXNzKCJSZXZpZXcgd29ya3NwYWNlIHVubG9ja2VkIGZvciB0aGlzIGJyb3dzZXIgc2Vzc2lvbi4iKQpzdC53cml0ZSgKICAgICJVcGxvYWQgdGhlIHRlYW0tY29tcGxldGVkIENTVnMgYmVsb3cuIFRoZXkgYXJlIHBhcnNlZCBpbiBtZW1vcnkgZm9yIHRoaXMgIgogICAgInJldmlldyBzZXNzaW9uIGFuZCBub3Qgd3JpdHRlbiB0byB0aGUgcmVwb3NpdG9yeSBvciBBV1MuIgopCmZpbGVzOiBkaWN0W3N0ciwgYnl0ZXNdID0ge30KY29scyA9IHN0LmNvbHVtbnMoMikKZm9yIGlkeCwga2luZCBpbiBlbnVtZXJhdGUoSEVBREVSX0dST1VQUyk6CiAgICB3aXRoIGNvbHNbaWR4ICUgMl06CiAgICAgICAgdXBsb2FkID0gc3QuZmlsZV91cGxvYWRlcigKICAgICAgICAgICAgZiJ7a2luZC50aXRsZSgpfSBldmlkZW5jZSBDU1YiLCB0eXBlPVsiY3N2Il0sCiAgICAgICAgICAgIGtleT1mInVwbG9hZF97a2luZH0iLAogICAgICAgICAgICBoZWxwPWYiTXVzdCBtYXRjaCBjb2x1bW5zIGZyb20gZGF0YS9ldmlkZW5jZV9pbnRha2Uve2tpbmR9LmNzdiIsCiAgICAgICAgKQogICAgICAgIGlmIHVwbG9hZCBpcyBub3QgTm9uZToKICAgICAgICAgICAgZmlsZXNba2luZF0gPSB1cGxvYWQuZ2V0dmFsdWUoKQp3aXRoIHN0LmV4cGFuZGVyKCJJbmdyZWRpZW50LXBhY2thZ2UgcGhvdG8gZXZpZGVuY2UgKG1hbnVhbCByZXZpZXcgb25seSkiKToKICAgIHBob3RvID0gc3QuZmlsZV91cGxvYWRlcigKICAgICAgICAiUGhvdG9ncmFwaCBvZiBpbmdyZWRpZW50IHBhY2thZ2luZyBhbmQgcHJpbnRlZCBhbGxlcmdlbi9pbmdyZWRpZW50IHN0YXRlbWVudCIsCiAgICAgICAgdHlwZT1bInBuZyIsICJqcGciLCAianBlZyIsICJ3ZWJwIl0sCiAgICApCiAgICBpZiBwaG90byBpcyBub3QgTm9uZToKICAgICAgICBkYXRhID0gcGhvdG8uZ2V0dmFsdWUoKQogICAgICAgIGlmIGxlbihkYXRhKSA+IDUgKiAxMDI0ICogMTAyNDoKICAgICAgICAgICAgc3QuZXJyb3IoIkltYWdlIGlzIHRvbyBsYXJnZTsgbWF4aW11bSA1IE1CLiIpCiAgICAgICAgZWxzZToKICAgICAgICAgICAgc3QuY29kZShoYXNobGliLnNoYTI1NihkYXRhKS5oZXhkaWdlc3QoKSwgbGFuZ3VhZ2U9Tm9uZSkKICAgICAgICAgICAgc3QuY2FwdGlvbigKICAgICAgICAgICAgICAgICJDb3B5IHRoaXMgaGFzaCBpbnRvIHRoZSBtYW51YWxseSByZXZpZXdlZCBwYWNrYWdlIHJlY29yZC4gIgogICAgICAgICAgICAgICAgIlRoZSBpbWFnZSBpcyBub3QgT0NSLWFuYWx5c2VkLCBzdG9yZWQgb3IgYXV0b21hdGljYWxseSBhcHByb3ZlZC4gIgogICAgICAgICAgICAgICAgIlZlcmlmeSBib3RoIHRoZSBpbmdyZWRpZW50IGxpc3QgYW5kIGFsbGVyZ2VuL2Nyb3NzLWNvbnRhY3Qgc3RhdGVtZW50LiIKICAgICAgICAgICAgKQoKaWYgc3QuYnV0dG9uKCJWYWxpZGF0ZSBmaXZlIGV2aWRlbmNlIHRhYmxlcyIsIHR5cGU9InByaW1hcnkiKToKICAgIGlmIGxlbihmaWxlcykgIT0gbGVuKEhFQURFUl9HUk9VUFMpOgogICAgICAgIHN0LmVycm9yKCJTdXBwbHkgYWxsIGZpdmUgQ1NWcywgZXZlbiB3aGVuIGEgdGFibGUgY29udGFpbnMgb25seSBoZWFkZXJzLiIpCiAgICBlbHNlOgogICAgICAgIHRyeToKICAgICAgICAgICAgcGFydHMgPSB7CiAgICAgICAgICAgICAgICBraW5kOiB0dXBsZShyZWFkX2V2aWRlbmNlX2NzdihibG9iLCBraW5kKSkKICAgICAgICAgICAgICAgIGZvciBraW5kLCBibG9iIGluIGZpbGVzLml0ZW1zKCkKICAgICAgICAgICAgfQogICAgICAgICAgICBidW5kbGUgPSBGaWVsZEV2aWRlbmNlKCoqcGFydHMpCiAgICAgICAgICAgIGF1ZGl0X2V2aWRlbmNlKGJ1bmRsZSkKICAgICAgICAgICAgc3Quc3VjY2VzcygiRGF0YSBzaGFwZSBhbmQgaHVtYW4tcmV2aWV3IHJlZmVyZW5jZXMgcGFzc2VkIHN0cnVjdHVyYWwgdmFsaWRhdGlvbi4iKQogICAgICAgICAgICBhLCBiLCBjID0gc3QuY29sdW1ucygzKQogICAgICAgICAgICBhLm1ldHJpYygiUmV2aWV3ZWQgcGFja2FnZXMiLCBzdW0oclsicmV2aWV3X3N0YXR1cyJdID09ICJyZXZpZXdlZCIgZm9yIHIgaW4gYnVuZGxlLnBhY2thZ2VzKSkKICAgICAgICAgICAgYi5tZXRyaWMoIlJldmlld2VkIHNlbnNvcnkgc3VibWlzc2lvbnMiLCBzdW0oclsicmV2aWV3X3N0YXR1cyJdID09ICJyZXZpZXdlZCIgZm9yIHIgaW4gYnVuZGxlLnNlbnNvcnkpKQogICAgICAgICAgICBjLm1ldHJpYygiQXBwcm92ZWQgbGlua2VkIHNlcnZpbmdzIiwgbGVuKGJ1bmRsZS5hcHByb3ZlZF9zZXJ2aW5ncykpCiAgICAgICAgICAgIHN0Lm1ldHJpYygKICAgICAgICAgICAgICAgICJSZXZpZXdlZCBjaGVmL3Jlc3RhdXJhbnQgZmVlZGJhY2siLAogICAgICAgICAgICAgICAgc3VtKHJbInJldmlld19zdGF0dXMiXSA9PSAicmV2aWV3ZWQiIGZvciByIGluIGJ1bmRsZS5jaGVmX2ZlZWRiYWNrKSwKICAgICAgICAgICAgKQogICAgICAgICAgICBzdC5jYXB0aW9uKAogICAgICAgICAgICAgICAgIk9ubHkgYWN0dWFsIG1lYXN1cmVkIHNlcnZpbmdzIHdpdGggbGlua2VkIHJldmlld2VkIGxhYmVscywgIgogICAgICAgICAgICAgICAgImJhdGNoIHJlY29yZHMsIGFuZCBzZW5zb3J5IG9ic2VydmF0aW9ucyBjYW4gYXBwZWFyIGFzIGFwcHJvdmVkLiIKICAgICAgICAgICAgKQogICAgICAgICAgICBzbmFwc2hvdCA9IHNlbnNvcnlfc25hcHNob3QoYnVuZGxlKQogICAgICAgICAgICBpZiBzbmFwc2hvdDoKICAgICAgICAgICAgICAgIHN0LmRhdGFmcmFtZShwZC5EYXRhRnJhbWUoc25hcHNob3QpLCBoaWRlX2luZGV4PVRydWUsIHVzZV9jb250YWluZXJfd2lkdGg9VHJ1ZSkKICAgICAgICAgICAgICAgIHN0LmNhcHRpb24oCiAgICAgICAgICAgICAgICAgICAgIkRlc2NyaXB0aXZlIGF2ZXJhZ2VzIGZvciB0aGUgcmVjb3JkZWQgcGFydGljaXBhbnRzIG9ubHkuICIKICAgICAgICAgICAgICAgICAgICAiTm8gc2Vuc29yeSBwcmVkaWN0aW9uIG9yIHBvcHVsYXRpb24gY2xhaW0uIgogICAgICAgICAgICAgICAgKQogICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgc3QuaW5mbygiTm8gcmV2aWV3ZWQgY29uc2VudGVkIHNlbnNvcnkgcmVzcG9uc2VzIGFyZSBwcmVzZW50LiIpCiAgICAgICAgICAgIGlmIGJ1bmRsZS5hcHByb3ZlZF9zZXJ2aW5nczoKICAgICAgICAgICAgICAgIHN0LmRhdGFmcmFtZShwZC5EYXRhRnJhbWUoYnVuZGxlLmFwcHJvdmVkX3NlcnZpbmdzKSwgaGlkZV9pbmRleD1UcnVlKQogICAgICAgIGV4Y2VwdCAoVmFsdWVFcnJvciwgVHlwZUVycm9yLCBVbmljb2RlRXJyb3IpIGFzIGV4YzoKICAgICAgICAgICAgc3QuZXJyb3IoZiJSZXZpZXcgYmxvY2tlZDoge2V4Y30iKQoKd2l0aCBzdC5leHBhbmRlcigiQ3VycmVudCBjb21taXR0ZWQgZXZpZGVuY2Ugc3RhdHVzIik6CiAgICB0cnk6CiAgICAgICAgY3VycmVudCA9IGxvYWRfZmllbGRfZXZpZGVuY2UoSU5UQUtFKQogICAgICAgIHN0LndyaXRlKAogICAgICAgICAgICBmIkFwcHJvdmVkIG1lYXN1cmVkIHNlcnZpbmcgcmVjb3JkcyBjb21taXR0ZWQ6IHtsZW4oY3VycmVudC5hcHByb3ZlZF9zZXJ2aW5ncyl9LiIKICAgICAgICApCiAgICAgICAgaWYgbm90IGN1cnJlbnQuYXBwcm92ZWRfc2VydmluZ3M6CiAgICAgICAgICAgIHN0LmNhcHRpb24oCiAgICAgICAgICAgICAgICAiTm8gYWN0dWFsIGFwcHJvdmVkIHNlcnZpbmctbGV2ZWwgZGF0YSBpcyBwcmVzZW50IHlldDsgIgogICAgICAgICAgICAgICAgIkFtaW5hJ3Mgc2hlZXQgcmVtYWlucyBhIHJlZmVyZW5jZSwgbm90IGEgbWVhc3VyZWQgc2VydmluZy4iCiAgICAgICAgICAgICkKICAgIGV4Y2VwdCAoVmFsdWVFcnJvciwgT1NFcnJvcikgYXMgZXhjOgogICAgICAgIHN0LmVycm9yKGYiUmVwb3NpdG9yeSBldmlkZW5jZSBuZWVkcyByZXZpZXc6IHtleGN9IikK
+"""Restricted, read-only field-data reviewer workspace.
+
+Reviewers must collect actual package evidence, actual measured batches, and
+consented anonymised sensory feedback. No uploads are persisted by this page.
+Approval is a human workflow, not a claim that this software certifies food.
+"""
+from __future__ import annotations
+
+import hashlib
+import hmac
+import os
+from pathlib import Path
+
+import pandas as pd
+import streamlit as st
+
+from menushift.food_evidence import (
+    HEADER_GROUPS,
+    FieldEvidence,
+    audit_evidence,
+    load_field_evidence,
+    read_evidence_csv,
+    sensory_snapshot,
+)
+
+ROOT = Path(__file__).resolve().parents[1]
+INTAKE = ROOT / "data" / "evidence_intake"
+
+st.set_page_config(page_title="Food evidence reviewer | Naija MenuShift", page_icon="🧪", layout="wide")
+st.title("Kitchen evidence reviewer workspace")
+st.caption("Team Sprout · source, ingredient-packaging, measured-batch and sensory review")
+st.warning(
+    "Research workflow only. A complete form or passing validator does not "
+    "certify allergen safety, food handling, nutritional accuracy or consumer acceptance."
+)
+
+enabled = os.getenv("ENABLE_EVIDENCE_REVIEW_WORKSPACE") == "true"
+access_key = os.getenv("EVIDENCE_REVIEW_ACCESS_CODE", "")
+if not enabled or len(access_key) < 16:
+    st.info(
+        "Reviewer workspace is not configured. Ask the technical lead for "
+        "the secure review process. No data is collected or stored here."
+    )
+    st.stop()
+
+entered = st.text_input("Reviewer access code", type="password")
+if not hmac.compare_digest(entered, access_key):
+    st.info("Enter your authorised reviewer access code to inspect evidence.")
+    st.stop()
+
+st.success("Review workspace unlocked for this browser session.")
+st.write(
+    "Upload the team-completed CSVs below. They are parsed in memory for this "
+    "review session and not written to the repository or AWS."
+)
+files: dict[str, bytes] = {}
+cols = st.columns(2)
+for idx, kind in enumerate(HEADER_GROUPS):
+    with cols[idx % 2]:
+        upload = st.file_uploader(
+            f"{kind.title()} evidence CSV", type=["csv"],
+            key=f"upload_{kind}",
+            help=f"Must match columns from data/evidence_intake/{kind}.csv",
+        )
+        if upload is not None:
+            files[kind] = upload.getvalue()
+with st.expander("Ingredient-package photo evidence (manual review only)"):
+    photo = st.file_uploader(
+        "Photograph of ingredient packaging and printed allergen/ingredient statement",
+        type=["png", "jpg", "jpeg", "webp"],
+    )
+    if photo is not None:
+        data = photo.getvalue()
+        if len(data) > 5 * 1024 * 1024:
+            st.error("Image is too large; maximum 5 MB.")
+        else:
+            st.code(hashlib.sha256(data).hexdigest(), language=None)
+            st.caption(
+                "Copy this hash into the manually reviewed package record. "
+                "The image is not OCR-analysed, stored or automatically approved. "
+                "Verify both the ingredient list and allergen/cross-contact statement."
+            )
+
+if st.button("Validate five evidence tables", type="primary"):
+    if len(files) != len(HEADER_GROUPS):
+        st.error("Supply all five CSVs, even when a table contains only headers.")
+    else:
+        try:
+            parts = {
+                kind: tuple(read_evidence_csv(blob, kind))
+                for kind, blob in files.items()
+            }
+            bundle = FieldEvidence(**parts)
+            audit_evidence(bundle)
+            st.success("Data shape and human-review references passed structural validation.")
+            a, b, c = st.columns(3)
+            a.metric("Reviewed packages", sum(r["review_status"] == "reviewed" for r in bundle.packages))
+            b.metric("Reviewed sensory submissions", sum(r["review_status"] == "reviewed" for r in bundle.sensory))
+            c.metric("Approved linked servings", len(bundle.approved_servings))
+            st.metric(
+                "Reviewed chef/restaurant feedback",
+                sum(r["review_status"] == "reviewed" for r in bundle.chef_feedback),
+            )
+            st.caption(
+                "Only actual measured servings with linked reviewed labels, "
+                "batch records, and sensory observations can appear as approved."
+            )
+            snapshot = sensory_snapshot(bundle)
+            if snapshot:
+                st.dataframe(pd.DataFrame(snapshot), hide_index=True, use_container_width=True)
+                st.caption(
+                    "Descriptive averages for the recorded participants only. "
+                    "No sensory prediction or population claim."
+                )
+            else:
+                st.info("No reviewed consented sensory responses are present.")
+            if bundle.approved_servings:
+                st.dataframe(pd.DataFrame(bundle.approved_servings), hide_index=True)
+        except (ValueError, TypeError, UnicodeError) as exc:
+            st.error(f"Review blocked: {exc}")
+
+with st.expander("Current committed evidence status"):
+    try:
+        current = load_field_evidence(INTAKE)
+        st.write(
+            f"Approved measured serving records committed: {len(current.approved_servings)}."
+        )
+        if not current.approved_servings:
+            st.caption(
+                "No actual approved serving-level data is present yet; "
+                "Amina's sheet remains a reference, not a measured serving."
+            )
+    except (ValueError, OSError) as exc:
+        st.error(f"Repository evidence needs review: {exc}")
