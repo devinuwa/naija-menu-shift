@@ -1,1 +1,38 @@
-IyBCZWRyb2NrIHNhbmRib3ggSUFNIHBvbGljeSDigJQgaG93IHRvIHVzZQoKYGJlZHJvY2stc2FuZGJveC1pYW0tcG9saWN5Lmpzb25gIGlzIGEgbGVhc3QtcHJpdmlsZWdlIHBvbGljeSBmb3IgdGhlIGV2ZW50CnNhbmRib3guIEl0IGFsbG93cyBpbnZva2luZyAqKm9uZSoqIEJlZHJvY2sgbW9kZWwgYW5kIG5vdGhpbmcgZWxzZTogbm8gb3RoZXIKQVdTIHNlcnZpY2VzLCBubyBvdGhlciBtb2RlbHMsIG5vIGRhdGEgYWNjZXNzLgoKIyMgQmVmb3JlIHBhc3RpbmcgaXQgaW50byBJQU0KCjEuIEluIHRoZSBCZWRyb2NrIGNvbnNvbGUgKHJlZ2lvbiAqKnVzLWVhc3QtMSoqIOKGkiBNb2RlbCBhY2Nlc3MpLCBjb25maXJtIHRoZQogICBleGFjdCBtb2RlbCBJRCBvciBpbmZlcmVuY2UgcHJvZmlsZSBJRCB0aGUgb3JnYW5pc2VycyBlbmFibGVkLgoyLiBJbiB0aGUgSlNPTiwgcmVwbGFjZSBgUkVQTEFDRV9XSVRIX0VOQUJMRURfTU9ERUxfSURgIHdpdGggdGhhdCBJRDoKICAgLSBGb3VuZGF0aW9uIG1vZGVsIElEIChlLmcuIGBhbWF6b24ubm92YS1taWNyby12MTowYCk6IGtlZXAgdGhlCiAgICAgYGZvdW5kYXRpb24tbW9kZWwvLi4uYCBsaW5lIGFuZCAqKmRlbGV0ZSoqIHRoZSBgaW5mZXJlbmNlLXByb2ZpbGUvLi4uYCBsaW5lLgogICAtIEluZmVyZW5jZSBwcm9maWxlIElEIChlLmcuIGB1cy5hbWF6b24ubm92YS1taWNyby12MTowYCk6IGtlZXAgdGhlCiAgICAgYGluZmVyZW5jZS1wcm9maWxlLy4uLmAgbGluZSBhbmQgKipkZWxldGUqKiB0aGUgYGZvdW5kYXRpb24tbW9kZWwvLi4uYCBsaW5lLgogICAgIFRoZSBgKmAgaW4gdGhhdCBBUk4gaXMgdGhlIGFjY291bnQgc2VnbWVudDsgeW91IG1heSByZXBsYWNlIGl0IHdpdGggdGhlCiAgICAgc2FuZGJveCBhY2NvdW50IElEIGlmIHlvdSBrbm93IGl0LgozLiBQYXN0ZSB0aGUgZWRpdGVkIEpTT04gYXMgYW4gaW5saW5lIHBvbGljeSBvbiB0aGUgd29ya3Nob3Agcm9sZS91c2VyLiBUaGlzCiAgIGZpbGUgaW50ZW50aW9uYWxseSBjb250YWlucyAqKm5vIEpTT04gY29tbWVudHMqKiAoSUFNIHJlamVjdHMgdGhlbSksIHdoaWNoCiAgIGlzIHdoeSB0aGUgaW5zdHJ1Y3Rpb25zIGxpdmUgaGVyZSBpbnN0ZWFkLgoKIyMgV2h5IGJvdGggYWN0aW9ucwoKLSBgYmVkcm9jazpJbnZva2VNb2RlbGAg4oCUIHJlcXVpcmVkIGJ5IHRoZSBDb252ZXJzZSBjYWxsIHRoZSBhZGFwdGVyIG1ha2VzLgotIGBiZWRyb2NrOkludm9rZU1vZGVsV2l0aFJlc3BvbnNlU3RyZWFtYCDigJQgdGhlIHN0cmVhbWluZyB2YXJpYW50IG9mIHRoZSBzYW1lCiAgY2FsbCAoQ29udmVyc2VTdHJlYW0pLiBJbmNsdWRlZCwgc2NvcGVkIHRvIHRoZSBzYW1lIHNpbmdsZSBtb2RlbCwgc28gdGhhdAogIGVuYWJsaW5nIHN0cmVhbWVkIHJlc3BvbnNlcyBhdCB0aGUgZXZlbnQgaXMgYWxzbyBhIGNvbmZpZy1vbmx5IGNoYW5nZS4gSWYKICB5b3VyIHRlYW0gcHJlZmVycyB0aGUgYWJzb2x1dGUgbWluaW11bSwgZGVsZXRlIHRoaXMgbGluZTsgdGhlIGN1cnJlbnQKICBhZGFwdGVyIGRvZXMgbm90IHN0cmVhbS4KCiMjIE5vdGVzCgotIFRoZSB3b3Jrc2hvcCBzYW5kYm94IGlzIHRlbXBvcmFyeSBhbmQgdXN1YWxseSBwcmUtY29uZmlndXJlZCBieSB0aGUKICBvcmdhbmlzZXJzOyB5b3UgbWF5IG5vdCBuZWVkIHRvIGF0dGFjaCB0aGlzIHBvbGljeSBhdCBhbGwuIEl0IGV4aXN0cyBzbyB0aGUKICB0ZWFtJ3MgcGVybWlzc2lvbiBmb290cHJpbnQgaXMgZXhwbGljaXQgYW5kIHJldmlld2FibGUsIGFuZCBzbyBhIGp1ZGdlIGNhbgogIHNlZSB0aGUgbW9kZWwgY2FuIGRvIG5vdGhpbmcgYmV5b25kIHByb3Bvc2luZyBmb3JtdWxhdGlvbnMuCi0gTmV2ZXIgd2lkZW4gdGhlIFJlc291cmNlIHRvIGAqYCAidG8gbWFrZSBpdCB3b3JrIi4gSWYgaW52b2NhdGlvbiBpcyBkZW5pZWQsCiAgdGhlIG1vZGVsIElEIGlzIHdyb25nIG9yIG5vdCBlbmFibGVkIOKAlCBmaXggdGhlIElEIChjb25maWcpLCBub3QgdGhlIHBvbGljeS4K
+# Bedrock sandbox IAM policy — how to use
+
+`bedrock-sandbox-iam-policy.json` is a least-privilege policy for the event
+sandbox. It allows invoking **one** Bedrock model and nothing else: no other
+AWS services, no other models, no data access.
+
+## Before pasting it into IAM
+
+1. In the Bedrock console (region **us-east-1** → Model access), confirm the
+   exact model ID or inference profile ID the organisers enabled.
+2. In the JSON, replace `REPLACE_WITH_ENABLED_MODEL_ID` with that ID:
+   - Foundation model ID (e.g. `amazon.nova-micro-v1:0`): keep the
+     `foundation-model/...` line and **delete** the `inference-profile/...` line.
+   - Inference profile ID (e.g. `us.amazon.nova-micro-v1:0`): keep the
+     `inference-profile/...` line and **delete** the `foundation-model/...` line.
+     The `*` in that ARN is the account segment; you may replace it with the
+     sandbox account ID if you know it.
+3. Paste the edited JSON as an inline policy on the workshop role/user. This
+   file intentionally contains **no JSON comments** (IAM rejects them), which
+   is why the instructions live here instead.
+
+## Why both actions
+
+- `bedrock:InvokeModel` — required by the Converse call the adapter makes.
+- `bedrock:InvokeModelWithResponseStream` — the streaming variant of the same
+  call (ConverseStream). Included, scoped to the same single model, so that
+  enabling streamed responses at the event is also a config-only change. If
+  your team prefers the absolute minimum, delete this line; the current
+  adapter does not stream.
+
+## Notes
+
+- The workshop sandbox is temporary and usually pre-configured by the
+  organisers; you may not need to attach this policy at all. It exists so the
+  team's permission footprint is explicit and reviewable, and so a judge can
+  see the model can do nothing beyond proposing formulations.
+- Never widen the Resource to `*` "to make it work". If invocation is denied,
+  the model ID is wrong or not enabled — fix the ID (config), not the policy.
