@@ -2,7 +2,12 @@
 
 import { useRef, useState } from "react";
 import { HOSPITAL_DATA } from "@/lib/hospital-data";
-import { suggestAnyDish, type AnyDishResult } from "@/lib/hospital-engine";
+import {
+  nearestMissAnyDish,
+  suggestAnyDish,
+  type AnyDishMiss,
+  type AnyDishResult,
+} from "@/lib/hospital-engine";
 import { PROTEIN_IMAGES } from "@/lib/protein-images";
 import type { HospitalDish, MenuView } from "@/lib/hospital-types";
 import AlternativeCard, { fmtG, fmtNgn } from "./AlternativeCard";
@@ -137,6 +142,7 @@ export default function HospitalStudio() {
   const [avoidSoy, setAvoidSoy] = useState(false);
   const [avoidGluten, setAvoidGluten] = useState(false);
   const [anyResults, setAnyResults] = useState<AnyDishResult[] | null>(null);
+  const [anyMiss, setAnyMiss] = useState<AnyDishMiss | null>(null);
   const [anyDishLabel, setAnyDishLabel] = useState("");
 
   const runAnyDish = (e: React.FormEvent) => {
@@ -145,7 +151,13 @@ export default function HospitalStudio() {
       ...(avoidSoy ? ["soy"] : []),
       ...(avoidGluten ? ["gluten", "wheat"] : []),
     ];
-    setAnyResults(suggestAnyDish({ currentProtein, method, avoidKeys }));
+    const results = suggestAnyDish({ currentProtein, method, avoidKeys });
+    setAnyResults(results);
+    setAnyMiss(
+      results.length === 0
+        ? nearestMissAnyDish({ currentProtein, method, avoidKeys })
+        : null,
+    );
     setAnyDishLabel(dishName.trim());
   };
 
@@ -340,14 +352,24 @@ export default function HospitalStudio() {
                 </div>
               </>
             ) : (
-              <div className="hs-panel-note">
-                <h3>No plant protein fits this dish</h3>
-                <p>
-                  For this dish and cooking style, no plant protein passes all
-                  the checks together. Try a different way of cooking it, or
-                  untick one of the allergy boxes above.
-                </p>
-              </div>
+              <>
+                <div className="hs-panel-note">
+                  <h3>No plant protein fits this dish</h3>
+                  <p>
+                    For this dish and cooking style, no plant protein passes all
+                    the checks together. Try a different way of cooking it, or
+                    untick one of the allergy boxes above.
+                  </p>
+                </div>
+                {anyMiss ? (
+                  <div className="hs-altgrid">
+                    <AlternativeCard
+                      alt={anyMiss.alternative}
+                      reasoning={anyMiss.note}
+                    />
+                  </div>
+                ) : null}
+              </>
             )
           ) : null}
         </div>
@@ -380,6 +402,25 @@ export default function HospitalStudio() {
 
         <TotalsStrip view={conditionView} />
         <BoardGroups view={conditionView} />
+      </section>
+
+      {/* ---------- Pilot ---------- */}
+      <section className="hs-section" aria-labelledby="hs-pilot-title">
+        <h2 id="hs-pilot-title" className="hs-display hs-section-title">
+          Run it in your hospital
+        </h2>
+        <p className="hs-section-lede">
+          Naija MenuShift was built by Team Sprout for Hack the Fork Nigeria
+          2026. We are offering one federal hospital a free 3-month pilot: we
+          set up your menu, train the kitchen team, and measure cost and
+          acceptance with your dietitian.
+        </p>
+        <p className="hs-section-lede">
+          Talk to us:{" "}
+          <a href="mailto:inuwamuhammad930@gmail.com">
+            inuwamuhammad930@gmail.com
+          </a>
+        </p>
       </section>
 
       {/* ---------- Feedback ---------- */}
