@@ -1,1 +1,76 @@
-IiIiVGhlIHN0dWRpbyBwcmljZSBib29rIHVzZXMgbGF0ZXIgTkJTIGF2ZXJhZ2VzIGFuZCBkb2VzIG5vdCByZW9wZW4gZGVtbyByYW5raW5nLiIiIgpmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKCmZyb20gbWVudXNoaWZ0LmVuZ2luZSBpbXBvcnQgbG9hZF9kYXRhc2V0CmZyb20gbWVudXNoaWZ0Lm9mZmljaWFsX3ByaWNlcyBpbXBvcnQgcHJlcGFyYXRpb25fbWV0aG9kcywgd29ya2luZ19tYXJrZXRfdGFibGUKClJPT1QgPSBQYXRoKF9fZmlsZV9fKS5yZXNvbHZlKCkucGFyZW50c1sxXQpTT1VSQ0VTID0gUk9PVCAvICJkYXRhIiAvICJzb3VyY2VzIgoKCmRlZiBfcm93KGl0ZW06IHN0cikgLT4gZGljdFtzdHIsIHN0cl06CiAgICBtYXRjaGVzID0gW3JvdyBmb3Igcm93IGluIHdvcmtpbmdfbWFya2V0X3RhYmxlKFNPVVJDRVMpIGlmIHJvd1siaXRlbSJdID09IGl0ZW1dCiAgICBhc3NlcnQgbGVuKG1hdGNoZXMpID09IDEKICAgIHJldHVybiBtYXRjaGVzWzBdCgoKZGVmIHRlc3RfbGF0ZXJfbmJzX2F2ZXJhZ2VzX3JlcGxhY2Vfcm91bmRlZF93b3JrYm9va19maWd1cmVzKCk6CiAgICBiZWVmID0gX3JvdygiQmVlZiBib25lbGVzcyByYXciKQogICAgb25pb25zID0gX3JvdygiT25pb25zIGZyZXNoIikKICAgIG9pbCA9IF9yb3coIlZlZ2V0YWJsZSBvaWwiKQogICAga2Vyb3NlbmUgPSBfcm93KCJIb3VzZWhvbGQga2Vyb3NlbmUiKQogICAgYXNzZXJ0IGJlZWZbInByaWNlX25nbiJdID09ICI3MTcxLjQxIgogICAgYXNzZXJ0IGJlZWZbIndvcmtib29rX3ByaWNlX25nbiJdID09ICI3MTcxIgogICAgYXNzZXJ0IGJlZWZbInBlcmlvZCJdID09ICIyMDI2LTA1IgogICAgYXNzZXJ0IG9uaW9uc1sicHJpY2VfbmduIl0gPT0gIjExODAuMDEiCiAgICBhc3NlcnQgb25pb25zWyJ3b3JrYm9va19wcmljZV9uZ24iXSA9PSAiMTE2NCIKICAgIGFzc2VydCBvaWxbInByaWNlX25nbiJdID09ICIzMjYzLjUwIgogICAgYXNzZXJ0IG9pbFsidW5pdCJdID09ICI3NSBjbCIKICAgIGFzc2VydCBrZXJvc2VuZVsicHJpY2VfbmduIl0gPT0gIjI5NzEuOTQiCiAgICBhc3NlcnQga2Vyb3NlbmVbIndvcmtib29rX3ByaWNlX25nbiJdID09ICIyOTc3IgogICAgYXNzZXJ0ICJTWU5USEVUSUMiIG5vdCBpbiAiICIuam9pbihiZWVmLnZhbHVlcygpKS51cHBlcigpCgoKZGVmIHRlc3RfY29va2luZ19nYXNfdXNlc19jeWxpbmRlcl9yZWZpbGxzX25vdF90aGVfd29ya2Jvb2tfcGVyX2tnKCk6CiAgICB0YWJsZSA9IHdvcmtpbmdfbWFya2V0X3RhYmxlKFNPVVJDRVMpCiAgICBnYXMgPSBbcm93IGZvciByb3cgaW4gdGFibGUgaWYgcm93WyJpdGVtIl0uc3RhcnRzd2l0aCgiQ29va2luZyBnYXMiKV0KICAgIGFzc2VydCBbcm93WyJwcmljZV9uZ24iXSBmb3Igcm93IGluIGdhc10gPT0gWyI4NzA2LjkzIiwgIjIyMzgyLjIwIl0KICAgIGFzc2VydCB7cm93WyJ3b3JrYm9va19wcmljZV9uZ24iXSBmb3Igcm93IGluIGdhc30gPT0geyIxNjIwIn0KICAgIGFzc2VydCBhbGwocm93WyJjb21wYXJhYmxlX25nbl9wZXJfa2ciXSA9PSAiIiBmb3Igcm93IGluIGdhcykKCgpkZWYgdGVzdF91bm1hdGNoZWRfd29ya2Jvb2tfcm93c19zdGF5X2FuZF9zb3lfaXNfbm90X2F3YXJhKCk6CiAgICBwZXBwZXIgPSBfcm93KCJQZXBwZXIgKEZyZXNoIC8gQ2hpbGkpIikKICAgIHNveSA9IF9yb3coIlNveWJlYW5zIChSYXcpIikKICAgIHNhbHQgPSBfcm93KCJJb2RpemVkIFRhYmxlIFNhbHQiKQogICAgYXNzZXJ0IHBlcHBlclsiYmFzaXMiXSA9PSAiV29ya2Jvb2sgcXVvdGUiCiAgICBhc3NlcnQgcGVwcGVyWyJwcmljZV9uZ24iXSA9PSAiMTE3OCIKICAgIGFzc2VydCAiTWF5IDIwMjYiIGluIHBlcHBlclsibGltaXRhdGlvbiJdCiAgICBhc3NlcnQgc295WyJwcmljZV9uZ24iXSA9PSAiNjQ0IgogICAgYXNzZXJ0ICJub3QgYSBwcmljZSBmb3IgcHVyY2hhc2VkIGF3YXJhIiBpbiBzb3lbImxpbWl0YXRpb24iXQogICAgYXNzZXJ0IHNhbHRbImNvbXBhcmFibGVfbmduX3Blcl9rZyJdID09ICIzNTAuMDAiCgoKZGVmIHRlc3RfZm91cl9hd2FyYV9tZXRob2RzX2tlZXBfbW9kZWxsZWRfcm93c19vdXRfb2ZfdmVyaWZpZWRfbW9kZSgpOgogICAgbWV0aG9kcyA9IHByZXBhcmF0aW9uX21ldGhvZHMoU09VUkNFUykKICAgIG5hbWVzID0gW3Jvd1siZm9vZF9pdGVtIl0gZm9yIHJvdyBpbiBtZXRob2RzXQogICAgYXNzZXJ0IHN1bShuYW1lLnN0YXJ0c3dpdGgoIk1ldGhvZCIpIGZvciBuYW1lIGluIG5hbWVzKSA9PSA0CiAgICBhc3NlcnQgbmFtZXNbLTFdLnN0YXJ0c3dpdGgoIlJlZmVyZW5jZTogQmVlZiIpCiAgICBtb2RlbGxlZCA9IHtyb3dbImZvb2RfaXRlbSJdIGZvciByb3cgaW4gbWV0aG9kcyBpZiByb3dbIm1lYXN1cmVtZW50Il0gPT0gIk1vaXN0dXJlIHJlY2FsY3VsYXRpb24ifQogICAgYXNzZXJ0IGFueShuYW1lLnN0YXJ0c3dpdGgoIk1ldGhvZCAyIikgZm9yIG5hbWUgaW4gbW9kZWxsZWQpCiAgICBhc3NlcnQgYW55KG5hbWUuc3RhcnRzd2l0aCgiTWV0aG9kIDMiKSBmb3IgbmFtZSBpbiBtb2RlbGxlZCkKICAgIGZpcm0gPSBuZXh0KHJvdyBmb3Igcm93IGluIG1ldGhvZHMgaWYgcm93WyJmb29kX2l0ZW0iXS5zdGFydHN3aXRoKCJNZXRob2QgMSIpKQogICAgYXNzZXJ0IGZpcm1bIm1lYXN1cmVtZW50Il0gPT0gIlB1Ymxpc2hlZCByZWZlcmVuY2UiCiAgICBhc3NlcnQgZmlybVsicHJvdGVpbl9nIl0gPT0gIjE3LjMiCgoKZGVmIHRlc3Rfc291cmNlZF9wcmljZXNfZG9fbm90X29wZW5fdmVyaWZpZWRfcmFua2luZ19vcl90aGVfZGVtb19hcHAoKToKICAgIHRyeToKICAgICAgICBsb2FkX2RhdGFzZXQoUk9PVCAvICJkYXRhIiAvICJ2ZXJpZmllZCIsIGRlbW89RmFsc2UpCiAgICBleGNlcHQgVmFsdWVFcnJvciBhcyBleGM6CiAgICAgICAgYXNzZXJ0ICJpbmNvbXBsZXRlIiBpbiBzdHIoZXhjKQogICAgZWxzZToKICAgICAgICByYWlzZSBBc3NlcnRpb25FcnJvcigidmVyaWZpZWQgbW9kZSBtdXN0IHN0YXkgY2xvc2VkIikKICAgIGFwcCA9IChST09UIC8gImFwcC5weSIpLnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiKQogICAgYXNzZXJ0ICJkYXRhL2RlbW8iIG5vdCBpbiBhcHAKICAgIGFzc2VydCAibG9hZF9kYXRhc2V0IiBub3QgaW4gYXBwCg==
+"""The studio price book uses later NBS averages and does not reopen demo ranking."""
+from pathlib import Path
+
+from menushift.engine import load_dataset
+from menushift.official_prices import preparation_methods, working_market_table
+
+ROOT = Path(__file__).resolve().parents[1]
+SOURCES = ROOT / "data" / "sources"
+
+
+def _row(item: str) -> dict[str, str]:
+    matches = [row for row in working_market_table(SOURCES) if row["item"] == item]
+    assert len(matches) == 1
+    return matches[0]
+
+
+def test_later_nbs_averages_replace_rounded_workbook_figures():
+    beef = _row("Beef boneless raw")
+    onions = _row("Onions fresh")
+    oil = _row("Vegetable oil")
+    kerosene = _row("Household kerosene")
+    assert beef["price_ngn"] == "7171.41"
+    assert beef["workbook_price_ngn"] == "7171"
+    assert beef["period"] == "2026-05"
+    assert onions["price_ngn"] == "1180.01"
+    assert onions["workbook_price_ngn"] == "1164"
+    assert oil["price_ngn"] == "3263.50"
+    assert oil["unit"] == "75 cl"
+    assert kerosene["price_ngn"] == "2971.94"
+    assert kerosene["workbook_price_ngn"] == "2977"
+    assert "SYNTHETIC" not in " ".join(beef.values()).upper()
+
+
+def test_cooking_gas_uses_cylinder_refills_not_the_workbook_per_kg():
+    table = working_market_table(SOURCES)
+    gas = [row for row in table if row["item"].startswith("Cooking gas")]
+    assert [row["price_ngn"] for row in gas] == ["8706.93", "22382.20"]
+    assert {row["workbook_price_ngn"] for row in gas} == {"1620"}
+    assert all(row["comparable_ngn_per_kg"] == "" for row in gas)
+
+
+def test_unmatched_workbook_rows_stay_and_soy_is_not_awara():
+    pepper = _row("Pepper (Fresh / Chili)")
+    soy = _row("Soybeans (Raw)")
+    salt = _row("Iodized Table Salt")
+    assert pepper["basis"] == "Workbook quote"
+    assert pepper["price_ngn"] == "1178"
+    assert "May 2026" in pepper["limitation"]
+    assert soy["price_ngn"] == "644"
+    assert "not a price for purchased awara" in soy["limitation"]
+    assert salt["comparable_ngn_per_kg"] == "350.00"
+
+
+def test_four_awara_methods_keep_modelled_rows_out_of_verified_mode():
+    methods = preparation_methods(SOURCES)
+    names = [row["food_item"] for row in methods]
+    assert sum(name.startswith("Method") for name in names) == 4
+    assert names[-1].startswith("Reference: Beef")
+    modelled = {row["food_item"] for row in methods if row["measurement"] == "Moisture recalculation"}
+    assert any(name.startswith("Method 2") for name in modelled)
+    assert any(name.startswith("Method 3") for name in modelled)
+    firm = next(row for row in methods if row["food_item"].startswith("Method 1"))
+    assert firm["measurement"] == "Published reference"
+    assert firm["protein_g"] == "17.3"
+
+
+def test_sourced_prices_do_not_open_verified_ranking_or_the_demo_app():
+    try:
+        load_dataset(ROOT / "data" / "verified", demo=False)
+    except ValueError as exc:
+        assert "incomplete" in str(exc)
+    else:
+        raise AssertionError("verified mode must stay closed")
+    app = (ROOT / "app.py").read_text(encoding="utf-8")
+    assert "data/demo" not in app
+    assert "load_dataset" not in app
