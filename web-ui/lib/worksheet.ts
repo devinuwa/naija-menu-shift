@@ -1,1 +1,75 @@
-aW1wb3J0IHR5cGUgeyBCcmllZiwgQ2FuZGlkYXRlIH0gZnJvbSAiLi9lbmdpbmUiOwppbXBvcnQgeyBEQVRBU0VUX05PVEUsIE1FQVNVUkVNRU5UU19ORUVERUQsIFRSSUFMX1NURVBTIH0gZnJvbSAiLi9kYXRhIjsKCmNvbnN0IG5haXJhID0gKG46IG51bWJlcikgPT4KICBg4oKmJHtuLnRvTG9jYWxlU3RyaW5nKCJlbi1ORyIsIHsgbWluaW11bUZyYWN0aW9uRGlnaXRzOiAyLCBtYXhpbXVtRnJhY3Rpb25EaWdpdHM6IDIgfSl9YDsKCi8qKgogKiBLaXRjaGVuIHRyaWFsIHdvcmtzaGVldCAoTWFya2Rvd24gZG93bmxvYWQpLCBtaXJyb3JpbmcgdGhlIGhhbmRvZmYgc3BlYzoKICogcmVjaXBlIElELCBpbmdyZWRpZW50IGdyYW1zLCBwcmljZS9udXRyaWVudCBzb3VyY2VzLCBjYWxjdWxhdGlvbiBjYXZlYXRzCiAqIGFuZCB0aGUgZmllbGQgbWVhc3VyZW1lbnRzIHN0aWxsIHJlcXVpcmVkLiBUaGlzIGlzIGEgcmVzZWFyY2ggd29ya3NoZWV0IOKAlAogKiBub3QgYSByZXRhaWwgcmVjaXBlIGFuZCBub3QgYXBwcm92ZWQgZm9yIGZvb2Qgc2VydmljZS4KICovCmV4cG9ydCBmdW5jdGlvbiBidWlsZFdvcmtzaGVldChjYW5kaWRhdGU6IENhbmRpZGF0ZSwgYnJpZWY6IEJyaWVmKTogc3RyaW5nIHsKICBjb25zdCBsaW5lcyA9IGNhbmRpZGF0ZS5pbmdyZWRpZW50TGluZXMKICAgIC5tYXAoCiAgICAgIChsKSA9PgogICAgICAgIGAtICR7bC5uYW1lfTogJHtsLnB1cmNoYXNlR30gZyDigJQgZXN0LiAke25haXJhKGwuZXN0aW1hdGVkQ29zdE5nbil9LCBlc3QuIHByb3RlaW4gJHtsLmVzdGltYXRlZFByb3RlaW5HfSBnXG4gIC0gUHJpY2Ugc291cmNlOiAke2wucHJpY2VTb3VyY2V9XG4gIC0gTnV0cml0aW9uIHNvdXJjZTogJHtsLm51dHJpdGlvblNvdXJjZX0gWyR7bC5udXRyaXRpb25TdGF0ZX1dXG4gIC0gQWxsZXJnZW4gbGFiZWxzIG9uIGZpbGU6ICR7bC5hbGxlcmdlbkxhYmVsc31gLAogICAgKQogICAgLmpvaW4oIlxuIik7CiAgY29uc3Qgc3RlcHMgPSAoVFJJQUxfU1RFUFNbY2FuZGlkYXRlLm1ldGhvZElkXSA/PyBbXSkKICAgIC5tYXAoKHMsIGkpID0+IGAke2kgKyAxfS4gJHtzfWApCiAgICAuam9pbigiXG4iKTsKICBjb25zdCBuZWVkZWQgPSBNRUFTVVJFTUVOVFNfTkVFREVELm1hcCgobSkgPT4gYC0gJHttfWApLmpvaW4oIlxuIik7CiAgY29uc3QgYnJlYWtkb3duID0gY2FuZGlkYXRlLnNjb3JlQnJlYWtkb3duCiAgICAubWFwKChwKSA9PiBgLSAke3AubGFiZWx9OiAke3AudmFsdWV9YCkKICAgIC5qb2luKCJcbiIpOwoKICByZXR1cm4gYCMgS2l0Y2hlbiB0cmlhbCB3b3Jrc2hlZXQg4oCUICR7Y2FuZGlkYXRlLmlkZW50aWZpZXJ9CgpOYWlqYSBNZW51U2hpZnQgwrcgS2l0Y2hlbiBJbnRlbGxpZ2VuY2UgU3R1ZGlvIChyZXNlYXJjaCBwcm90b3R5cGUpCgo+IE5PVCBhcHByb3ZlZCBmb3IgZm9vZCBzZXJ2aWNlLiBUaGlzIHdvcmtzaGVldCBzdXBwb3J0cyBhIHN1cGVydmlzZWQKPiBraXRjaGVuIHRyaWFsIG9ubHkuIENvc3RzIGFyZSBsaXN0ZWQgcGFydGlhbCBjb3N0cyBmcm9tIHJlc2VhcmNoCj4gZXN0aW1hdGVzOyB0aGV5IGFyZSBub3QgYSBjb21tZXJjaWFsIHByaWNlLgoKIyMgRm9ybXVsYXRpb24KLSBSZWNpcGUgSUQ6ICR7Y2FuZGlkYXRlLmlkZW50aWZpZXJ9Ci0gTWV0aG9kOiAke2NhbmRpZGF0ZS5tZXRob2R9ICgke2NhbmRpZGF0ZS5uYW1lfSkKLSBNb2RlbGxlZCBmaW5pc2hlZCBwb3J0aW9uOiAke2NhbmRpZGF0ZS5wb3J0aW9uR30gZwotIExpc3RlZCBjb3N0IChpbmNvbXBsZXRlKTogJHtuYWlyYShjYW5kaWRhdGUuY29zdE5nbil9IOKAlCBpbmdyZWRpZW50cyAke25haXJhKGNhbmRpZGF0ZS5pbmdyZWRpZW50Q29zdE5nbil9ICsgcHJvY2Vzc2luZyAke25haXJhKGNhbmRpZGF0ZS5wcm9jZXNzaW5nQ29zdE5nbil9Ci0gRXN0aW1hdGVkIHByb3RlaW46ICR7Y2FuZGlkYXRlLnByb3RlaW5HfSBnIMK3IElyb246ICR7Y2FuZGlkYXRlLmlyb25NZ30gbWcgwrcgWmluYzogJHtjYW5kaWRhdGUuemluY01nfSBtZwotIEFzc3VtZWQgcHJlcGFyYXRpb24gdGltZTogJHtjYW5kaWRhdGUucHJlcE1pbnV0ZXN9IG1pbiAobW9kZWxsZWQsIG5vdCB0aW1lZCkKLSBSZXF1aXJlZCBlcXVpcG1lbnQ6ICR7Y2FuZGlkYXRlLnJlcXVpcmVkRXF1aXBtZW50LmpvaW4oIiwgIil9Ci0gUmVxdWlyZWQgc3RvY2s6ICR7Y2FuZGlkYXRlLnJlcXVpcmVkSW52ZW50b3J5LmpvaW4oIiwgIil9CgojIyBCcmllZiB1c2VkCi0gQnVkZ2V0IGZvciBsaXN0ZWQgcGFydGlhbCBjb3N0czogJHtuYWlyYShicmllZi5idWRnZXROZ24pfQotIFByb3RlaW4gdGFyZ2V0OiAke2JyaWVmLnByb3RlaW5UYXJnZXRHfSBnIMK3IE1heCBwcmVwOiAke2JyaWVmLm1heFByZXBNaW51dGVzfSBtaW4KLSBBbGxlcmdlbiBleGNsdXNpb25zIHJlcXVlc3RlZDogJHticmllZi5hdm9pZEFsbGVyZ2Vucy5qb2luKCIsICIpIHx8ICJub25lIn0KLSBQcmljZSBzY2VuYXJpbzogJHtNYXRoLnJvdW5kKGJyaWVmLnByaWNlU2hvY2sgKiAxMDApfSUgKHNjZW5hcmlvLCBub3QgYSBmb3JlY2FzdCkKLSBXZXQtY3VyZCB5aWVsZCBhc3N1bXB0aW9uOiAke2JyaWVmLndldFlpZWxkS2dQZXJLZ0RyeX0ga2cgcGVyIGtnIGRyeSBzb3kKCiMjIEluZ3JlZGllbnRzCiR7bGluZXN9CgojIyBXaHkgdGhpcyBmb3JtdWxhdGlvbiB3YXMgc3VnZ2VzdGVkCiR7Y2FuZGlkYXRlLnJlYXNvbnMubWFwKChyKSA9PiBgLSAke3J9YCkuam9pbigiXG4iKX0KCiMjIFNjb3JlIGJyZWFrZG93biAoZXhwbGFpbmFibGU7IHNlY29uZGFyeSB0byB0aGUgaGFyZCBjb25zdHJhaW50cykKJHticmVha2Rvd24gfHwgIi0gTm90IHNjb3JlZCAoY29uc3RyYWludHMgbm90IG1ldCkifQoke2NhbmRpZGF0ZS5zY29yZSAhPT0gbnVsbCA/IGAtIFRvdGFsIHNjb3JlOiAke2NhbmRpZGF0ZS5zY29yZX1gIDogIiJ9CgojIyBUcmlhbCBzdGVwcyAocmVzZWFyY2ggb2JzZXJ2YXRpb25zKQoke3N0ZXBzfQoKIyMgTWVhc3VyZW1lbnRzIHN0aWxsIG5lZWRlZCBiZWZvcmUgYW55IHJlYWwgcmVjaXBlCiR7bmVlZGVkfQoKIyMgQ2F2ZWF0cwotICR7REFUQVNFVF9OT1RFfQotIFByZXNzaW5nIGFuZCBmcmVlemluZyBkbyBub3QgY3JlYXRlIHByb3RlaW47IGRlbnNlciBmaWd1cmVzIGFyZSBtb2lzdHVyZSByZWNhbGN1bGF0aW9ucy4KLSBUaGUgeWFqaSBzcGljZSBibGVuZCBpcyBub3QgcGFydCBvZiB0aGUgc291cmNlZCBkYXRhc2V0OyBhIGZ1bGwgc3V5YSBzZXJ2aW5nJ3MgYWxsZXJnZW4gcmV2aWV3IGlzIGluY29tcGxldGUuCi0gU2Vhc29uaW5nIGN1YmUgbGFiZWxzIGhhdmUgbm90IGJlZW4gcmV2aWV3ZWQgZm9yIGFuaW1hbCBpbmdyZWRpZW50cyBvciBhbGxlcmdlbnMuCmA7Cn0K
+import type { Brief, Candidate } from "./engine";
+import { DATASET_NOTE, MEASUREMENTS_NEEDED, TRIAL_STEPS } from "./data";
+
+const naira = (n: number) =>
+  `₦${n.toLocaleString("en-NG", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+
+/**
+ * Kitchen trial worksheet (Markdown download), mirroring the handoff spec:
+ * recipe ID, ingredient grams, price/nutrient sources, calculation caveats
+ * and the field measurements still required. This is a research worksheet —
+ * not a retail recipe and not approved for food service.
+ */
+export function buildWorksheet(candidate: Candidate, brief: Brief): string {
+  const lines = candidate.ingredientLines
+    .map(
+      (l) =>
+        `- ${l.name}: ${l.purchaseG} g — est. ${naira(l.estimatedCostNgn)}, est. protein ${l.estimatedProteinG} g\n  - Price source: ${l.priceSource}\n  - Nutrition source: ${l.nutritionSource} [${l.nutritionState}]\n  - Allergen labels on file: ${l.allergenLabels}`,
+    )
+    .join("\n");
+  const steps = (TRIAL_STEPS[candidate.methodId] ?? [])
+    .map((s, i) => `${i + 1}. ${s}`)
+    .join("\n");
+  const needed = MEASUREMENTS_NEEDED.map((m) => `- ${m}`).join("\n");
+  const breakdown = candidate.scoreBreakdown
+    .map((p) => `- ${p.label}: ${p.value}`)
+    .join("\n");
+
+  return `# Kitchen trial worksheet — ${candidate.identifier}
+
+Naija MenuShift · Kitchen Intelligence Studio (research prototype)
+
+> NOT approved for food service. This worksheet supports a supervised
+> kitchen trial only. Costs are listed partial costs from research
+> estimates; they are not a commercial price.
+
+## Formulation
+- Recipe ID: ${candidate.identifier}
+- Method: ${candidate.method} (${candidate.name})
+- Modelled finished portion: ${candidate.portionG} g
+- Listed cost (incomplete): ${naira(candidate.costNgn)} — ingredients ${naira(candidate.ingredientCostNgn)} + processing ${naira(candidate.processingCostNgn)}
+- Estimated protein: ${candidate.proteinG} g · Iron: ${candidate.ironMg} mg · Zinc: ${candidate.zincMg} mg
+- Assumed preparation time: ${candidate.prepMinutes} min (modelled, not timed)
+- Required equipment: ${candidate.requiredEquipment.join(", ")}
+- Required stock: ${candidate.requiredInventory.join(", ")}
+
+## Brief used
+- Budget for listed partial costs: ${naira(brief.budgetNgn)}
+- Protein target: ${brief.proteinTargetG} g · Max prep: ${brief.maxPrepMinutes} min
+- Allergen exclusions requested: ${brief.avoidAllergens.join(", ") || "none"}
+- Price scenario: ${Math.round(brief.priceShock * 100)}% (scenario, not a forecast)
+- Wet-curd yield assumption: ${brief.wetYieldKgPerKgDry} kg per kg dry soy
+
+## Ingredients
+${lines}
+
+## Why this formulation was suggested
+${candidate.reasons.map((r) => `- ${r}`).join("\n")}
+
+## Score breakdown (explainable; secondary to the hard constraints)
+${breakdown || "- Not scored (constraints not met)"}
+${candidate.score !== null ? `- Total score: ${candidate.score}` : ""}
+
+## Trial steps (research observations)
+${steps}
+
+## Measurements still needed before any real recipe
+${needed}
+
+## Caveats
+- ${DATASET_NOTE}
+- Pressing and freezing do not create protein; denser figures are moisture recalculations.
+- The yaji spice blend is not part of the sourced dataset; a full suya serving's allergen review is incomplete.
+- Seasoning cube labels have not been reviewed for animal ingredients or allergens.
+`;
+}
