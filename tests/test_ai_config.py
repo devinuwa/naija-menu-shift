@@ -1,1 +1,164 @@
-IiIiVGVzdHMgZm9yIHRoZSBBSSBwbGFubmVyIGNvbmZpZyBsb2FkZXIgYW5kIHByb3Bvc2VyIGZhY3RvcnkuCgpMb2NhbCBtb2RlIG11c3Qgd29yayB3aXRoIG5vIGVudmlyb25tZW50IGFuZCBubyBuZXR3b3JrLiBCZWRyb2NrIG1vZGUgaXMKdGVzdGVkIG9ubHkgdXAgdG8gY29uc3RydWN0aW9uOiBubyBtb2RlbCBpcyBldmVyIGludm9rZWQgaGVyZS4KIiIiCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAoKaW1wb3J0IHB5dGVzdAoKZnJvbSBtZW51c2hpZnQuYWdlbnRfY29udHJhY3QgaW1wb3J0ICgKICAgIEVRVUlQTUVOVF9SRVFVSVJFTUVOVFMsCiAgICBLaXRjaGVuQnJpZWYsCiAgICBldmFsdWF0ZV9jYW5kaWRhdGUsCiAgICBwYXJzZV9wcm9wb3NhbHMsCiAgICBydW5fYWdlbnQsCikKZnJvbSBtZW51c2hpZnQuYWlfY29uZmlnIGltcG9ydCBBSUNvbmZpZywgZ2V0X2FpX2NvbmZpZwpmcm9tIG1lbnVzaGlmdC5raXRjaGVuX29wdGltaXplciBpbXBvcnQgSU5WRU5UT1JZX0lURU1TCmZyb20gbWVudXNoaWZ0LnByb3Bvc2VyX2ZhY3RvcnkgaW1wb3J0IExvY2FsRXhwbG9yZXJQcm9wb3NlciwgYnVpbGRfcHJvcG9zZXIKClJPT1QgPSBQYXRoKF9fZmlsZV9fKS5yZXNvbHZlKCkucGFyZW50c1sxXQpTT1VSQ0VTID0gUk9PVCAvICJkYXRhIiAvICJzb3VyY2VzIgpGVUxMX0VRVUlQTUVOVCA9IGZyb3plbnNldCh7ImdyaWxsIiwgInByZXNzIiwgImZyZWV6ZXIiLCAiZnJ5aW5nX3BhbiJ9KQoKCmRlZiBmZWFzaWJsZV9icmllZigqKm92ZXJyaWRlcyk6CiAgICBzZXR0aW5ncyA9IHsKICAgICAgICAiYnVkZ2V0X25nbiI6IDIwMDAuMCwKICAgICAgICAibWluX3Byb3RlaW5fZyI6IDEwLjAsCiAgICAgICAgIm1heF9wcmVwX21pbnV0ZXMiOiAyMDAuMCwKICAgICAgICAiZXF1aXBtZW50IjogRlVMTF9FUVVJUE1FTlQsCiAgICAgICAgImF2YWlsYWJsZV9pbmdyZWRpZW50cyI6IGZyb3plbnNldChJTlZFTlRPUllfSVRFTVMpLAogICAgfQogICAgc2V0dGluZ3MudXBkYXRlKG92ZXJyaWRlcykKICAgIHJldHVybiBLaXRjaGVuQnJpZWYoKipzZXR0aW5ncykKCgojIC0tLSBjb25maWcgbG9hZGluZyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgoKZGVmIHRlc3RfZGVmYXVsdHNfYXJlX2xvY2FsX29mZmxpbmVfYW5kX3VzX2Vhc3RfMSgpOgogICAgY29uZmlnID0gZ2V0X2FpX2NvbmZpZyh7fSkKICAgIGFzc2VydCBjb25maWcgPT0gQUlDb25maWcobW9kZT0ibG9jYWwiLCBiZWRyb2NrX21vZGVsX2lkPU5vbmUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF3c19yZWdpb249InVzLWVhc3QtMSIsIG1heF9yb3VuZHM9MikKICAgIGFzc2VydCBub3QgY29uZmlnLmJlZHJvY2tfZW5hYmxlZAoKCmRlZiB0ZXN0X21vZGVfYW5kX21vZGVsX2lkX2FyZV9ub3JtYWxpc2VkKCk6CiAgICBjb25maWcgPSBnZXRfYWlfY29uZmlnKHsiTUVOVVNISUZUX0FJX01PREUiOiAiIEJlZHJvY2sgIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJCRURST0NLX01PREVMX0lEIjogImFtYXpvbi5ub3ZhLW1pY3JvLXYxOjAifSkKICAgIGFzc2VydCBjb25maWcubW9kZSA9PSAiYmVkcm9jayIKICAgIGFzc2VydCBjb25maWcuYmVkcm9ja19lbmFibGVkCiAgICBhc3NlcnQgY29uZmlnLmJlZHJvY2tfbW9kZWxfaWQgPT0gImFtYXpvbi5ub3ZhLW1pY3JvLXYxOjAiCgoKZGVmIHRlc3RfdW5rbm93bl9tb2RlX3JlamVjdGVkKCk6CiAgICB3aXRoIHB5dGVzdC5yYWlzZXMoVmFsdWVFcnJvciwgbWF0Y2g9Ik1FTlVTSElGVF9BSV9NT0RFIik6CiAgICAgICAgZ2V0X2FpX2NvbmZpZyh7Ik1FTlVTSElGVF9BSV9NT0RFIjogImNsb3VkIn0pCgoKZGVmIHRlc3Rfbm9uX3VzX2Vhc3RfMV9yZWdpb25fcmVqZWN0ZWQoKToKICAgIHdpdGggcHl0ZXN0LnJhaXNlcyhWYWx1ZUVycm9yLCBtYXRjaD0idXMtZWFzdC0xIik6CiAgICAgICAgZ2V0X2FpX2NvbmZpZyh7IkFXU19SRUdJT04iOiAiZXUtd2VzdC0yIn0pCgoKZGVmIHRlc3RfbW9kZWxfaWRfd2l0aF9zcGFjZXNfcmVqZWN0ZWQoKToKICAgIHdpdGggcHl0ZXN0LnJhaXNlcyhWYWx1ZUVycm9yLCBtYXRjaD0iQkVEUk9DS19NT0RFTF9JRCIpOgogICAgICAgIGdldF9haV9jb25maWcoeyJCRURST0NLX01PREVMX0lEIjogIm5vdCBhIG1vZGVsIGlkIn0pCgoKQHB5dGVzdC5tYXJrLnBhcmFtZXRyaXplKCJyYXcsZXhwZWN0ZWQiLCBbKCIxIiwgMSksICgiMiIsIDIpXSkKZGVmIHRlc3RfbWF4X3JvdW5kc193aXRoaW5fY2FwX2FjY2VwdGVkKHJhdywgZXhwZWN0ZWQpOgogICAgYXNzZXJ0IGdldF9haV9jb25maWcoeyJNRU5VU0hJRlRfQUlfTUFYX1JPVU5EUyI6IHJhd30pLm1heF9yb3VuZHMgPT0gZXhwZWN0ZWQKCgpAcHl0ZXN0Lm1hcmsucGFyYW1ldHJpemUoInJhdyIsIFsiMCIsICIzIiwgInR3byJdKQpkZWYgdGVzdF9tYXhfcm91bmRzX291dF9vZl9yYW5nZV9vcl9pbnZhbGlkX3JlamVjdGVkKHJhdyk6CiAgICB3aXRoIHB5dGVzdC5yYWlzZXMoVmFsdWVFcnJvciwgbWF0Y2g9Ik1FTlVTSElGVF9BSV9NQVhfUk9VTkRTIik6CiAgICAgICAgZ2V0X2FpX2NvbmZpZyh7Ik1FTlVTSElGVF9BSV9NQVhfUk9VTkRTIjogcmF3fSkKCgpkZWYgdGVzdF9jb25maWdfaXNfaW1tdXRhYmxlKCk6CiAgICBjb25maWcgPSBnZXRfYWlfY29uZmlnKHt9KQogICAgd2l0aCBweXRlc3QucmFpc2VzKEF0dHJpYnV0ZUVycm9yKToKICAgICAgICBjb25maWcubW9kZSA9ICJiZWRyb2NrIgoKCiMgLS0tIGZhY3RvcnkgYmVoYXZpb3VyIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQoKCmRlZiB0ZXN0X2ZhY3RvcnlfbG9jYWxfbW9kZV9uZWVkc19ub19lbnZfYW5kX25vX2F3cygpOgogICAgcHJvcG9zZXIgPSBidWlsZF9wcm9wb3NlcihnZXRfYWlfY29uZmlnKHt9KSwgc291cmNlcz1TT1VSQ0VTKQogICAgYXNzZXJ0IGlzaW5zdGFuY2UocHJvcG9zZXIsIExvY2FsRXhwbG9yZXJQcm9wb3NlcikKCgpkZWYgdGVzdF9mYWN0b3J5X2JlZHJvY2tfd2l0aG91dF9tb2RlbF9pZF9naXZlc19hY3Rpb25hYmxlX2Vycm9yKCk6CiAgICBjb25maWcgPSBnZXRfYWlfY29uZmlnKHsiTUVOVVNISUZUX0FJX01PREUiOiAiYmVkcm9jayJ9KQogICAgd2l0aCBweXRlc3QucmFpc2VzKFJ1bnRpbWVFcnJvciwgbWF0Y2g9IkJFRFJPQ0tfTU9ERUxfSUQgaXMgbm90IHNldCIpOgogICAgICAgIGJ1aWxkX3Byb3Bvc2VyKGNvbmZpZywgc291cmNlcz1TT1VSQ0VTKQoKCmRlZiB0ZXN0X2ZhY3RvcnlfYmVkcm9ja193aXRoX21vZGVsX2lkX2J1aWxkc19leGlzdGluZ19hZGFwdGVyKG1vbmtleXBhdGNoKToKICAgIHB5dGVzdC5pbXBvcnRvcnNraXAoImJvdG8zIikKICAgICMgQ29uc3RydWN0aW9uIG9ubHk6IGR1bW15IHNlc3Npb24gY3JlZGVudGlhbHMga2VlcCBib3RvMyBhd2F5IGZyb20gdGhlCiAgICAjIGluc3RhbmNlLW1ldGFkYXRhIGVuZHBvaW50OyB0aGUgY2xpZW50IGlzIG5ldmVyIGludm9rZWQgaW4gdGVzdHMuCiAgICBtb25rZXlwYXRjaC5zZXRlbnYoIkFXU19BQ0NFU1NfS0VZX0lEIiwgInRlc3RpbmciKQogICAgbW9ua2V5cGF0Y2guc2V0ZW52KCJBV1NfU0VDUkVUX0FDQ0VTU19LRVkiLCAidGVzdGluZyIpCiAgICBtb25rZXlwYXRjaC5zZXRlbnYoIkFXU19FQzJfTUVUQURBVEFfRElTQUJMRUQiLCAidHJ1ZSIpCiAgICBmcm9tIG1lbnVzaGlmdC5iZWRyb2NrX2FkYXB0ZXIgaW1wb3J0IEJlZHJvY2tQbGFubmVyCgogICAgY29uZmlnID0gZ2V0X2FpX2NvbmZpZyh7Ik1FTlVTSElGVF9BSV9NT0RFIjogImJlZHJvY2siLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgIkJFRFJPQ0tfTU9ERUxfSUQiOiAiYW1hem9uLm5vdmEtbWljcm8tdjE6MCJ9KQogICAgcHJvcG9zZXIgPSBidWlsZF9wcm9wb3Nlcihjb25maWcsIHNvdXJjZXM9U09VUkNFUykKICAgIGFzc2VydCBpc2luc3RhbmNlKHByb3Bvc2VyLCBCZWRyb2NrUGxhbm5lcikKICAgIGFzc2VydCBwcm9wb3Nlci5tb2RlbF9pZCA9PSAiYW1hem9uLm5vdmEtbWljcm8tdjE6MCIKCgojIC0tLSBsb2NhbCBwcm9wb3NlciBhZ2FpbnN0IHRoZSByZWFsIGNvbnRyYWN0IC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgoKZGVmIHRlc3RfbG9jYWxfcHJvcG9zZXJfb3V0cHV0X3Bhc3Nlc19zdHJpY3RfcGFyc2VyKCk6CiAgICBwcm9wb3NlciA9IGJ1aWxkX3Byb3Bvc2VyKGdldF9haV9jb25maWcoe30pLCBzb3VyY2VzPVNPVVJDRVMpCiAgICBwYXlsb2FkID0gcHJvcG9zZXIucHJvcG9zZShicmllZj1mZWFzaWJsZV9icmllZigpLCBmZWVkYmFjaz0oKSwgcm91bmRfbnVtYmVyPTEpCiAgICBwcm9wb3NhbHMgPSBwYXJzZV9wcm9wb3NhbHMocGF5bG9hZCkKICAgIGFzc2VydCBwcm9wb3NhbHMsICJmZWFzaWJsZSBicmllZiBzaG91bGQgcHJvZHVjZSBhdCBsZWFzdCBvbmUgcHJvcG9zYWwiCiAgICBhc3NlcnQgYWxsKHBbIm1ldGhvZF9pZCJdIGluIEVRVUlQTUVOVF9SRVFVSVJFTUVOVFMgZm9yIHAgaW4gcHJvcG9zYWxzKQogICAgYXNzZXJ0IGxlbihwcm9wb3NhbHMpIDw9IDYKCgpkZWYgdGVzdF9sb2NhbF9wcm9wb3NhbHNfYXJlX2FjY2VwdGVkX2J5X3RoZV9yZWFsX2dhdGUoKToKICAgIGJyaWVmID0gZmVhc2libGVfYnJpZWYoKQogICAgcHJvcG9zZXIgPSBidWlsZF9wcm9wb3NlcihnZXRfYWlfY29uZmlnKHt9KSwgc291cmNlcz1TT1VSQ0VTKQogICAgcHJvcG9zYWxzID0gcGFyc2VfcHJvcG9zYWxzKHByb3Bvc2VyLnByb3Bvc2UoYnJpZWY9YnJpZWYsIGZlZWRiYWNrPSgpLCByb3VuZF9udW1iZXI9MSkpCiAgICBkZWNpc2lvbnMgPSBbZXZhbHVhdGVfY2FuZGlkYXRlKHAsIGJyaWVmLCBTT1VSQ0VTKSBmb3IgcCBpbiBwcm9wb3NhbHNdCiAgICBhc3NlcnQgYW55KGQuYWNjZXB0ZWQgZm9yIGQgaW4gZGVjaXNpb25zKSwgKAogICAgICAgICJleHBsb3Jlci1kZXJpdmVkIHByb3Bvc2FscyBtdXN0IHN1cnZpdmUgdGhlIHNhbWUgZ2F0ZSBCZWRyb2NrIGZhY2VzIgogICAgKQoKCmRlZiB0ZXN0X2xvY2FsX2FnZW50X2xvb3BfcnVuc19lbmRfdG9fZW5kX29mZmxpbmUoKToKICAgIGJyaWVmID0gZmVhc2libGVfYnJpZWYoKQogICAgcHJvcG9zZXIgPSBidWlsZF9wcm9wb3NlcihnZXRfYWlfY29uZmlnKHt9KSwgc291cmNlcz1TT1VSQ0VTKQogICAgcnVuID0gcnVuX2FnZW50KHByb3Bvc2VyLCBicmllZiwgU09VUkNFUywgbWF4X3JvdW5kcz0yKQogICAgYXNzZXJ0IHJ1bi5wbGFubmVyX2ludm9rZWQKICAgIGFzc2VydCBydW4uYWNjZXB0ZWQsICJvZmZsaW5lIGRlbW8gbG9vcCBzaG91bGQgYWNjZXB0IGF0IGxlYXN0IG9uZSBjYW5kaWRhdGUiCgoKZGVmIHRlc3RfbG9jYWxfcHJvcG9zZXJfYWJzdGFpbnNfd2hlbl9ub3RoaW5nX2lzX2ZlYXNpYmxlKCk6CiAgICBwcm9wb3NlciA9IGJ1aWxkX3Byb3Bvc2VyKGdldF9haV9jb25maWcoe30pLCBzb3VyY2VzPVNPVVJDRVMpCiAgICBwYXlsb2FkID0gcHJvcG9zZXIucHJvcG9zZShicmllZj1mZWFzaWJsZV9icmllZihidWRnZXRfbmduPTEuMCksIGZlZWRiYWNrPSgpLCByb3VuZF9udW1iZXI9MSkKICAgIGFzc2VydCBwYXJzZV9wcm9wb3NhbHMocGF5bG9hZCkgPT0gW10KCgpkZWYgdGVzdF9sb2NhbF9wcm9wb3Nlcl9kb2VzX25vdF9yZXBlYXRfcmVqZWN0ZWRfY2FuZGlkYXRlcygpOgogICAgYnJpZWYgPSBmZWFzaWJsZV9icmllZigpCiAgICBwcm9wb3NlciA9IGJ1aWxkX3Byb3Bvc2VyKGdldF9haV9jb25maWcoe30pLCBzb3VyY2VzPVNPVVJDRVMpCiAgICBmaXJzdCA9IHBhcnNlX3Byb3Bvc2Fscyhwcm9wb3Nlci5wcm9wb3NlKGJyaWVmPWJyaWVmLCBmZWVkYmFjaz0oKSwgcm91bmRfbnVtYmVyPTEpKQogICAgcmVqZWN0ZWRfaWQgPSBmIntmaXJzdFswXVsnbWV0aG9kX2lkJ119QHtmaXJzdFswXVsncG9ydGlvbl9nJ119ZyIKICAgIHNlY29uZCA9IHBhcnNlX3Byb3Bvc2Fscyhwcm9wb3Nlci5wcm9wb3NlKAogICAgICAgIGJyaWVmPWJyaWVmLCBmZWVkYmFjaz0oZiJ7cmVqZWN0ZWRfaWR9OiByZWplY3RlZCBpbiBwcm9iZSIsKSwgcm91bmRfbnVtYmVyPTIsCiAgICApKQogICAgYXNzZXJ0IGFsbCgKICAgICAgICBmIntwWydtZXRob2RfaWQnXX1Ae3BbJ3BvcnRpb25fZyddfWciICE9IHJlamVjdGVkX2lkIGZvciBwIGluIHNlY29uZAogICAgKQo=
+"""Tests for the AI planner config loader and proposer factory.
+
+Local mode must work with no environment and no network. Bedrock mode is
+tested only up to construction: no model is ever invoked here.
+"""
+from pathlib import Path
+
+import pytest
+
+from menushift.agent_contract import (
+    EQUIPMENT_REQUIREMENTS,
+    KitchenBrief,
+    evaluate_candidate,
+    parse_proposals,
+    run_agent,
+)
+from menushift.ai_config import AIConfig, get_ai_config
+from menushift.kitchen_optimizer import INVENTORY_ITEMS
+from menushift.proposer_factory import LocalExplorerProposer, build_proposer
+
+ROOT = Path(__file__).resolve().parents[1]
+SOURCES = ROOT / "data" / "sources"
+FULL_EQUIPMENT = frozenset({"grill", "press", "freezer", "frying_pan"})
+
+
+def feasible_brief(**overrides):
+    settings = {
+        "budget_ngn": 2000.0,
+        "min_protein_g": 10.0,
+        "max_prep_minutes": 200.0,
+        "equipment": FULL_EQUIPMENT,
+        "available_ingredients": frozenset(INVENTORY_ITEMS),
+    }
+    settings.update(overrides)
+    return KitchenBrief(**settings)
+
+
+# --- config loading -------------------------------------------------------
+
+
+def test_defaults_are_local_offline_and_us_east_1():
+    config = get_ai_config({})
+    assert config == AIConfig(mode="local", bedrock_model_id=None,
+                              aws_region="us-east-1", max_rounds=2)
+    assert not config.bedrock_enabled
+
+
+def test_mode_and_model_id_are_normalised():
+    config = get_ai_config({"MENUSHIFT_AI_MODE": " Bedrock ",
+                            "BEDROCK_MODEL_ID": "amazon.nova-micro-v1:0"})
+    assert config.mode == "bedrock"
+    assert config.bedrock_enabled
+    assert config.bedrock_model_id == "amazon.nova-micro-v1:0"
+
+
+def test_unknown_mode_rejected():
+    with pytest.raises(ValueError, match="MENUSHIFT_AI_MODE"):
+        get_ai_config({"MENUSHIFT_AI_MODE": "cloud"})
+
+
+def test_non_us_east_1_region_rejected():
+    with pytest.raises(ValueError, match="us-east-1"):
+        get_ai_config({"AWS_REGION": "eu-west-2"})
+
+
+def test_model_id_with_spaces_rejected():
+    with pytest.raises(ValueError, match="BEDROCK_MODEL_ID"):
+        get_ai_config({"BEDROCK_MODEL_ID": "not a model id"})
+
+
+@pytest.mark.parametrize("raw,expected", [("1", 1), ("2", 2)])
+def test_max_rounds_within_cap_accepted(raw, expected):
+    assert get_ai_config({"MENUSHIFT_AI_MAX_ROUNDS": raw}).max_rounds == expected
+
+
+@pytest.mark.parametrize("raw", ["0", "3", "two"])
+def test_max_rounds_out_of_range_or_invalid_rejected(raw):
+    with pytest.raises(ValueError, match="MENUSHIFT_AI_MAX_ROUNDS"):
+        get_ai_config({"MENUSHIFT_AI_MAX_ROUNDS": raw})
+
+
+def test_config_is_immutable():
+    config = get_ai_config({})
+    with pytest.raises(AttributeError):
+        config.mode = "bedrock"
+
+
+# --- factory behaviour ------------------------------------------------------
+
+
+def test_factory_local_mode_needs_no_env_and_no_aws():
+    proposer = build_proposer(get_ai_config({}), sources=SOURCES)
+    assert isinstance(proposer, LocalExplorerProposer)
+
+
+def test_factory_bedrock_without_model_id_gives_actionable_error():
+    config = get_ai_config({"MENUSHIFT_AI_MODE": "bedrock"})
+    with pytest.raises(RuntimeError, match="BEDROCK_MODEL_ID is not set"):
+        build_proposer(config, sources=SOURCES)
+
+
+def test_factory_bedrock_with_model_id_builds_existing_adapter(monkeypatch):
+    pytest.importorskip("boto3")
+    # Construction only: dummy session credentials keep boto3 away from the
+    # instance-metadata endpoint; the client is never invoked in tests.
+    monkeypatch.setenv("AWS_ACCESS_KEY_ID", "testing")
+    monkeypatch.setenv("AWS_SECRET_ACCESS_KEY", "testing")
+    monkeypatch.setenv("AWS_EC2_METADATA_DISABLED", "true")
+    from menushift.bedrock_adapter import BedrockPlanner
+
+    config = get_ai_config({"MENUSHIFT_AI_MODE": "bedrock",
+                            "BEDROCK_MODEL_ID": "amazon.nova-micro-v1:0"})
+    proposer = build_proposer(config, sources=SOURCES)
+    assert isinstance(proposer, BedrockPlanner)
+    assert proposer.model_id == "amazon.nova-micro-v1:0"
+
+
+# --- local proposer against the real contract --------------------------------
+
+
+def test_local_proposer_output_passes_strict_parser():
+    proposer = build_proposer(get_ai_config({}), sources=SOURCES)
+    payload = proposer.propose(brief=feasible_brief(), feedback=(), round_number=1)
+    proposals = parse_proposals(payload)
+    assert proposals, "feasible brief should produce at least one proposal"
+    assert all(p["method_id"] in EQUIPMENT_REQUIREMENTS for p in proposals)
+    assert len(proposals) <= 6
+
+
+def test_local_proposals_are_accepted_by_the_real_gate():
+    brief = feasible_brief()
+    proposer = build_proposer(get_ai_config({}), sources=SOURCES)
+    proposals = parse_proposals(proposer.propose(brief=brief, feedback=(), round_number=1))
+    decisions = [evaluate_candidate(p, brief, SOURCES) for p in proposals]
+    assert any(d.accepted for d in decisions), (
+        "explorer-derived proposals must survive the same gate Bedrock faces"
+    )
+
+
+def test_local_agent_loop_runs_end_to_end_offline():
+    brief = feasible_brief()
+    proposer = build_proposer(get_ai_config({}), sources=SOURCES)
+    run = run_agent(proposer, brief, SOURCES, max_rounds=2)
+    assert run.planner_invoked
+    assert run.accepted, "offline demo loop should accept at least one candidate"
+
+
+def test_local_proposer_abstains_when_nothing_is_feasible():
+    proposer = build_proposer(get_ai_config({}), sources=SOURCES)
+    payload = proposer.propose(brief=feasible_brief(budget_ngn=1.0), feedback=(), round_number=1)
+    assert parse_proposals(payload) == []
+
+
+def test_local_proposer_does_not_repeat_rejected_candidates():
+    brief = feasible_brief()
+    proposer = build_proposer(get_ai_config({}), sources=SOURCES)
+    first = parse_proposals(proposer.propose(brief=brief, feedback=(), round_number=1))
+    rejected_id = f"{first[0]['method_id']}@{first[0]['portion_g']}g"
+    second = parse_proposals(proposer.propose(
+        brief=brief, feedback=(f"{rejected_id}: rejected in probe",), round_number=2,
+    ))
+    assert all(
+        f"{p['method_id']}@{p['portion_g']}g" != rejected_id for p in second
+    )
