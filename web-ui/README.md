@@ -1,1 +1,191 @@
-IyBOYWlqYSBNZW51U2hpZnQg4oCUIFdlYiBVSSAoS2l0Y2hlbiBJbnRlbGxpZ2VuY2UgU3R1ZGlvKQoKQSBWZXJjZWwtcmVhZHkgTmV4dC5qcyAoQXBwIFJvdXRlcikgKyBUeXBlU2NyaXB0IGltcGxlbWVudGF0aW9uIG9mIHRoZSBOYWlqYQpNZW51U2hpZnQgS2l0Y2hlbiBJbnRlbGxpZ2VuY2UgU3R1ZGlvLCBidWlsdCB0byB0aGUgdGVhbSdzIGRlc2lnbiBoYW5kb2ZmCihgS0lUQ0hFTl9VSV9ERVNJR05fSEFORE9GRl8yMDI2LTExLTE5Lm1kYCk6IGZvcmVzdCBgIzE3M0IyRGAsIGRhcmsgZ3JlZW4KYCMxMDJDMjJgLCByaWNoIGdyZWVuIGAjMUI1OTQwYCwgd2FybSBjcmVhbSBgI0ZCRkFGNWAsIGdvbGQgYCNCQzg5NDhgLCBsaWdodApib3JkZXIgYCNEOEUyRDlgLCBtYXggd2lkdGggMTE4MHB4LCB0YWJ1bGFyIG51bWVyYWxzIGZvciBuYWlyYS4KCioqUmVzZWFyY2ggcHJvdG90eXBlLioqIERlbW8gZGF0YSBpcyBzeW50aGV0aWMgKGl0IG1pcnJvcnMgdGhlIHRlYW0ncyByZXNlYXJjaAp3b3JrYm9vayB2YWx1ZXMgc28gdGhlIGludGVyZmFjZSBiZWhhdmVzIGxpa2UgdGhlIFB5dGhvbiBwcm90b3R5cGUpLiBOb3RoaW5nIGluCnRoaXMgVUkgbGFiZWxzIGEgcmVzdWx0ICJzYWZlIiwgImRlbGljaW91cyIsICJtZWFzdXJlZCIgb3IgInJldGFpbC1wcmljZWQiLCBhbmQKYmVlZiBhcHBlYXJzIG9ubHkgYXMgYSBjb21wYXJpc29uIHJlZmVyZW5jZSDigJQgbmV2ZXIgYXMgYSByZWNvbW1lbmRhdGlvbi4KCiMjIFdoYXQgaXQgZG9lcwoKQSByZXN0YXVyYW50IG93bmVyIGZpbmRzIGEgdmlhYmxlICpyZXNlYXJjaCBmb3JtdWxhdGlvbiogZm9yIGtpdGNoZW4gdGVzdGluZyBpbgp1bmRlciBmb3VyIHN0ZXBzOgoKMS4gKipDaG9vc2UgZGlzaCoqIOKAlCBTdXlhIChhd2FyYSAvIHNveS1jdXJkIGZvcm11bGF0aW9ucykgaXMgdGhlIGZpcnN0IHNvdXJjZWQKICAgdXNlIGNhc2UuCjIuICoqU2V0IGNvbnN0cmFpbnRzKiog4oCUIGJ1ZGdldCBmb3IgbGlzdGVkIHBhcnRpYWwgY29zdHMsIG1pbmltdW0gZXN0aW1hdGVkCiAgIHByb3RlaW4sIG1heGltdW0gYXNzdW1lZCBwcmVwIHRpbWUsIGRlc2lyZWQgY2hhcmFjdGVyaXN0aWNzLCBlcXVpcG1lbnQsCiAgIHN0b2NrLCBhbGxlcmdlbiBleGNsdXNpb25zLCBwbHVzIGFkdmFuY2VkIGFzc3VtcHRpb25zIChwb3J0aW9ucywgeWllbGQsIG9pbCwKICAgc3BpY2UgZ3JhbXMsIMKxMjAlIHByaWNlIHNjZW5hcmlvKS4KMy4gKipDb21wYXJlIGZvcm11bGF0aW9ucyoqIOKAlCBzdW1tYXJ5IGNvdW50cyAoaW5zcGVjdGVkIC8gY2FuZGlkYXRlcyAvIGVsaWdpYmxlCiAgIC8gUGFyZXRvIGZyb250aWVyIC8gZXhjbHVzaW9uIHJlYXNvbnMpIGFuZCB0aHJlZSBkZWNpc2lvbiBjYXJkczoKICAgQnVkZ2V0LWZpcnN0LCBQcm90ZWluLWZpcnN0LCBLaXRjaGVuLWZpcnN0LiBXaGVuIG9uZSBmb3JtdWxhdGlvbiB3aW5zCiAgIHNldmVyYWwgb2JqZWN0aXZlcywgdGhlIGNhcmQgc2F5cyBzbyDigJQgbm8gYXJ0aWZpY2lhbCBkaXZlcnNpdHkuCjQuICoqSW5zcGVjdCAmIHRyaWFsKiog4oCUIGluZ3JlZGllbnQgbGluZXMgd2l0aCBncmFtcywgZXN0aW1hdGVkIGNvc3RzIGFuZAogICBwcm90ZWlucywgcHJpY2UgYW5kIG51dHJpdGlvbiBzb3VyY2VzLCBzY29yZSBicmVha2Rvd24sIGV2aWRlbmNlIGJhZGdlcwogICAoInNvdXJjZSByZWZlcmVuY2UiLCAibW9kZWxsZWQiLCAidW5yZXZpZXdlZCIpLCB0cmlhbCBzdGVwcywgYW5kIGEKICAgZG93bmxvYWRhYmxlIGtpdGNoZW4gdHJpYWwgd29ya3NoZWV0IChNYXJrZG93bikuCgpJZiBub3RoaW5nIHNhdGlzZmllcyBldmVyeSBoYXJkIGNvbnN0cmFpbnQsIHRoZSBzdHVkaW8gc2hvd3MgYSBjbGVhcgpuby1mZWFzaWJsZSBzdGF0ZSDigJQgKiJXZSBkb24ndCBpbnZlbnQgYSByZWNvbW1lbmRhdGlvbiB3aGVuIHlvdXIgY29uc3RyYWludHMKY2Fubm90IGJlIHNhdGlzZmllZCIqIOKAlCBpbnN0ZWFkIG9mIHJlbGF4aW5nIHRoZSBydWxlcy4KCiMjIyBDb25zdHJhaW50IHNlbWFudGljcyAoaWRlbnRpY2FsIHRvIHRoZSBQeXRob24gZW5naW5lKQoKVGhlIGxvY2FsIGVuZ2luZSAoYGxpYi9lbmdpbmUudHNgKSBpcyBhIFR5cGVTY3JpcHQgbWlycm9yIG9mCmBzcmMvbWVudXNoaWZ0L2VuZ2luZS5weWAgKyBgc3JjL21lbnVzaGlmdC9raXRjaGVuX29wdGltaXplci5weWA6CgotIEhhcmQgY29uc3RyYWludHMgZmlyc3Q6IHBsYW50LW9ubHksIGJ1ZGdldCwgcHJvdGVpbiwgdGltZSwgZXF1aXBtZW50IHN1YnNldCwKICBpbnZlbnRvcnkgc3Vic2V0LCBhbGxlcmdlbiBleGNsdXNpb25zIHRoYXQgKipmYWlsIGNsb3NlZCoqIChhbiBleGNsdXNpb24KICB0aGF0IGNhbm5vdCBiZSB2ZXJpZmllZCBleGNsdWRlcyB0aGUgb3B0aW9uKS4KLSAqKlBlYW51dCBleGNsdXNpb24gYWJzdGFpbnMgZW50aXJlbHkqKjogc3RhbmRhcmQgc3V5YSB5YWppIGZyZXF1ZW50bHkKICBjb250YWlucyBncm91bmRudXQgYW5kIHRoZSBkYXRhc2V0IGhhcyBubyB2ZXJpZmllZCBwZWFudXQtZnJlZSB5YWppLCBzbyBubwogIHJlY29tbWVuZGF0aW9uIGlzIG1hZGUuCi0gU2NvcmUgZXhpc3RzIG9ubHkgZm9yIGZlYXNpYmxlIG9wdGlvbnM6IGNvc3QgMC40NSArIHByb3RlaW4gdXRpbGl0eSAwLjI1ICsKICB0aW1lIDAuMTUgKyBURi1JREYgdGV4dCBtYXRjaCAwLjE1IChleHBlcmltZW50YWw7IG5vdCB0YXN0ZSBldmlkZW5jZSkuCi0gRm91ciBhd2FyYSBtZXRob2RzIChmaXJtIC8gcHJlc3NlZCAvIGZyb3plbuKAk3RoYXdlZCAvIGZyaWVkKSDDlyBtb2RlbGxlZAogIHBvcnRpb25zLCB3aXRoIHByZXNzLWxvc3MgcHVyY2hhc2UgbWF0aHMgYW5kIHRoZSBmcmllZCBtZXRob2QncyBvaWwgY29zdAogIGtlcHQgc2VwYXJhdGUgZnJvbSBpbmdyZWRpZW50IGNvc3QuCgojIyBBcmNoaXRlY3R1cmUg4oCUIG9uZSBzZWFtIGZvciB0aGUgQVdTIHN3aXRjaAoKYGBgCkJyb3dzZXIg4pSA4pSA4pa6IGxpYi9lbmdpbmUudHMgIGV4cGxvcmUoYnJpZWYpICAoYXN5bmMg4oCUIHRoZSBPTkxZIFVJIGVudHJ5IHBvaW50KQogICAgICAgICAgICAgIOKUgiAgUE9TVCAvYXBpL2V4cGxvcmUKICAgICAgICAgICAgICDilrwKICAgICAgICBhcHAvYXBpL2V4cGxvcmUvcm91dGUudHMKICAgICAgICAgICAgICDilJzilIAgTUVOVVNISUZUX0VOR0lORV9VUkwgdW5zZXQg4oaSIGxvY2FsIFR5cGVTY3JpcHQgZW5naW5lIChkZW1vIG1vZGUpCiAgICAgICAgICAgICAg4pSU4pSAIE1FTlVTSElGVF9FTkdJTkVfVVJMIHNldCAgIOKGkiBwcm94eSB0byB0aGUgQVdTLWhvc3RlZCBQeXRob24gZW5naW5lCmBgYAoKVGhlIFVJIG5ldmVyIGNhbGxzIHRoZSBlbmdpbmUgZGlyZWN0bHk7IGl0IG9ubHkga25vd3MgdGhlIEpTT04gY29udHJhY3Qgb2YKYFBPU1QgL2FwaS9leHBsb3JlYCAoYnJpZWYgaW4sIGV4cGxvcmF0aW9uIHJlc3VsdCBvdXQpLiBUb21vcnJvdydzIEFXUyBtb3ZlIGlzCmNvbmZpZ3VyYXRpb24sIG5vdCBhIHJld3JpdGUuCgojIyMgU3dpdGNoaW5nIHRvIEFXUyAodG9tb3Jyb3cpCgoxLiBIb3N0IHRoZSBQeXRob24gZW5naW5lIHNvIGl0IGV4cG9zZXMgYFBPU1QgL2V4cGxvcmVgIGFjY2VwdGluZyB0aGUgc2FtZQogICBicmllZiBKU09OIGFuZCByZXR1cm5pbmcgdGhlIHNhbWUgcmVzdWx0IEpTT04gKEFQSSBHYXRld2F5ICsgTGFtYmRhLCBFQ1MsCiAgIG9yIEFwcCBSdW5uZXIgYWxsIHdvcmspLgoyLiBTZXQgb25lIGVudmlyb25tZW50IHZhcmlhYmxlIHdoZXJldmVyIHRoaXMgVUkgcnVuczoKCiAgIGBgYAogICBNRU5VU0hJRlRfRU5HSU5FX1VSTD1odHRwczovLzx5b3VyLWFwaS1pZD4uZXhlY3V0ZS1hcGkudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vcHJvZAogICBgYGAKCjMuIFJlZGVwbG95L3Jlc3RhcnQuIFRoZSBzdW1tYXJ5IHN0cmlwJ3MgZW5naW5lIGNoaXAgc3dpdGNoZXMgZnJvbQogICAibG9jYWwgZGVtbyIgdG8gIkFXUyAoUHl0aG9uKSIgYmFzZWQgb24gdGhlIHJlc3BvbnNlLiBObyBVSSBjb2RlIGNoYW5nZXMuCgojIyBSdW4gbG9jYWxseQoKYGBgYmFzaApucG0gaW5zdGFsbApucG0gcnVuIGRldiAgICAgICAgIyBodHRwOi8vbG9jYWxob3N0OjMwMDAKIyBvciBwcm9kdWN0aW9uOgpucG0gcnVuIGJ1aWxkCm5wbSBzdGFydApgYGAKCiMjIERlcGxveSB0byBWZXJjZWwKCioqRGFzaGJvYXJkIHBhdGgqKgoKMS4gUHVzaCB0aGlzIGZvbGRlciB0byBhIEdpdCByZXBvc2l0b3J5IChvciB1c2UgYHZlcmNlbGAgQ0xJIGZyb20gdGhpcyBmb2xkZXIpLgoyLiBWZXJjZWwg4oaSIEFkZCBOZXcg4oaSIFByb2plY3Qg4oaSIGltcG9ydCB0aGUgcmVwby4KMy4gKipSb290IERpcmVjdG9yeToqKiBgd2ViLXVpYCAoaWYgdGhlIHJlcG8gcm9vdCBpcyB0aGUgZGVsaXZlcmFibGVzIGZvbGRlcikKICAgb3IgYC5gIGlmIHRoaXMgZm9sZGVyIGlzIHRoZSByZXBvIHJvb3QuIEZyYW1ld29yayBwcmVzZXQ6ICoqTmV4dC5qcyoqCiAgIChhdXRvLWRldGVjdGVkKS4gQnVpbGQgY29tbWFuZCBgbnBtIHJ1biBidWlsZGAsIG91dHB1dCBkZWZhdWx0Lgo0LiBFbnZpcm9ubWVudCBWYXJpYWJsZXM6IGFkZCBgTUVOVVNISUZUX0VOR0lORV9VUkxgIG9ubHkgd2hlbiB0aGUgQVdTIGVuZ2luZQogICBpcyBsaXZlOyBsZWF2ZSBpdCB1bnNldCBmb3IgdGhlIG9mZmxpbmUgZGVtby4KNS4gRGVwbG95LgoKKipDTEkgcGF0aCoqCgpgYGBiYXNoCm5wbSBpIC1nIHZlcmNlbApjZCB3ZWItdWkKdmVyY2VsICAgICAgICAgICMgcHJldmlldyBkZXBsb3ltZW50CnZlcmNlbCAtLXByb2QgICAjIHByb2R1Y3Rpb24gZGVwbG95bWVudAojIG9wdGlvbmFsLCBvbmNlIEFXUyBpcyBsaXZlOgp2ZXJjZWwgZW52IGFkZCBNRU5VU0hJRlRfRU5HSU5FX1VSTCBwcm9kdWN0aW9uCmBgYAoKIyMgQVBJIGNvbnRyYWN0IChQT1NUIC9hcGkvZXhwbG9yZSkKClJlcXVlc3QgYm9keSDigJQgYSBicmllZiAoYWxsIGZpZWxkcyBvcHRpb25hbDsgZGVmYXVsdHMgbWlycm9yIHRoZSBQeXRob24KYGV4cGxvcmUoKWAgZGVmYXVsdHMpOgoKYGBganNvbgp7CiAgImJ1ZGdldE5nbiI6IDE1MDAsCiAgInByb3RlaW5UYXJnZXRHIjogMTUsCiAgIm1heFByZXBNaW51dGVzIjogMTIwLAogICJlcXVpcG1lbnQiOiBbImdyaWxsIiwgInByZXNzIiwgImZyZWV6ZXIiLCAiZnJ5aW5nX3BhbiJdLAogICJhdmFpbGFibGVJbmdyZWRpZW50cyI6IFsiYXdhcmEiLCAib25pb24iLCAicGVwcGVyIiwgInNhbHQiLCAic2Vhc29uaW5nIiwgIm9pbCJdLAogICJwb3J0aW9uc0ciOiBbODAsIDEwMCwgMTIwLCAxNDAsIDE2MCwgMTgwLCAyMDBdLAogICJwcmVmZXJlbmNlIjogImNoZXd5IGdyaWxsZWQiLAogICJhdm9pZEFsbGVyZ2VucyI6IFtdLAogICJ3ZXRZaWVsZEtnUGVyS2dEcnkiOiAxLjc1LAogICJvaWxDbCI6IDEuMCwKICAicHJpY2VTaG9jayI6IDAsCiAgIm9uaW9uRyI6IDAsICJwZXBwZXJHIjogMCwgInNhbHRHIjogMCwgInNlYXNvbmluZ0ciOiAwCn0KYGBgCgpSZXNwb25zZTogYHsgaW5zcGVjdGVkLCBza2lwcGVkRXF1aXBtZW50LCBza2lwcGVkSW5ncmVkaWVudHMsCnNraXBwZWRVbnZlcmlmaWVkWWFqaSwgY2FuZGlkYXRlc1tdLCBlbGlnaWJsZUlkc1tdLCBmcm9udGllcklkc1tdLApiZXN0e2J1ZGdldCwgcHJvdGVpbiwga2l0Y2hlbiwgYmFsYW5jZWR9LCByZWZlcmVuY2VbXSwgZW5naW5lTW9kZSB9YC4KSW52YWxpZCBicmllZnMgcmV0dXJuIEhUVFAgNDAwIHdpdGggdGhlIFB5dGhvbiBlbmdpbmUncyB2YWxpZGF0aW9uIG1lc3NhZ2UuCgojIyBMYXlvdXQgb2YgdGhpcyBmb2xkZXIKCmBgYAphcHAvCiAgcGFnZS50c3ggICAgICAgICAgICAgICAgIGhlYWRlciwgaGVybyArIHJlc2VhcmNoIHdhcm5pbmcsIHN0dWRpbywgZXhwbG9yZXIKICBsYXlvdXQudHN4LCBnbG9iYWxzLmNzcyAgZGVzaWduIHRva2VucyArIHJlc3BvbnNpdmUgcnVsZXMgKHNpbmdsZSBjb2x1bW4g4omkMTAyM3B4LCBzdGFja2VkIGNhcmRzIOKJpDc2MHB4KQogIGFwaS9leHBsb3JlL3JvdXRlLnRzICAgICBsb2NhbCBlbmdpbmUgdG9uaWdodCAvIEFXUyBwcm94eSB2aWEgZW52IHZhcgpjb21wb25lbnRzLwogIFN0dWRpby50c3ggICAgICAgICAgICAgICBzdGVwcywgY29uc3RyYWludCBwYW5lbCwgc3VtbWFyeSwgZGVjaXNpb24gY2FyZHMsIGRldGFpbCwgbm8tZmVhc2libGUgc3RhdGUKICBNZW51RXhwbG9yZXIudHN4ICAgICAgICAgaWxsdXN0cmF0aXZlIFZlZ2dpZSBWaWN0b3J54oCTaW5zcGlyZWQgbWVudSB2aXNpb24gKG5vdCBlbmdpbmUgb3V0cHV0cykKbGliLwogIGVuZ2luZS50cyAgICAgICAgICAgICAgICBUUyBtaXJyb3Igb2YgdGhlIFB5dGhvbiBjb25zdHJhaW50IGVuZ2luZSArIGFzeW5jIGV4cGxvcmUoKQogIGRhdGEudHMgICAgICAgICAgICAgICAgICBzeW50aGV0aWMgZGVtbyBkYXRhc2V0LCBtZXRob2RzLCB0cmlhbCBzdGVwcywgbWVudSBpdGVtcwogIHdvcmtzaGVldC50cyAgICAgICAgICAgICBkb3dubG9hZGFibGUga2l0Y2hlbiB0cmlhbCB3b3Jrc2hlZXQgKE1hcmtkb3duKQouZW52LmV4YW1wbGUgICAgICAgICAgICAgICBNRU5VU0hJRlRfRU5HSU5FX1VSTCBkb2N1bWVudGF0aW9uCmBgYAoKIyMgVmVyaWZpY2F0aW9uIHBlcmZvcm1lZCAoMjAyNi0xMS0yMCkKCi0gYG5wbSBpbnN0YWxsYCBhbmQgYG5wbSBydW4gYnVpbGRgIHN1Y2NlZWQgKE5leHQuanMgMTUuNSwgdHlwZXMgKyBsaW50IGNsZWFuKS4KLSBQcm9kdWN0aW9uIHNlcnZlcjogYEdFVCAvYCDihpIgMjAwIHdpdGggdGhlIHN0dWRpbyByZW5kZXJlZC4KLSBgUE9TVCAvYXBpL2V4cGxvcmVgIGZlYXNpYmxlIGJyaWVmICgzIHBvcnRpb25zKTogaW5zcGVjdGVkIDEyLCBlbGlnaWJsZSAxMiwKICBmcm9udGllciA5OyBmaXJtIGF3YXJhIEAxMDAgZyA9IOKCpjQ1LjM3IGxpc3RlZCBjb3N0IC8gMTcuMyBnIGVzdGltYXRlZCBwcm90ZWluOwogIGZyaWVkIEAxMDAgZyA9IOKCpjQ1LjM3IGluZ3JlZGllbnRzICsg4oKmNDMuNTEgb2lsIHByb2Nlc3Npbmc7IGJlZWYgcmVmZXJlbmNlCiAgQDEwMCBnID0g4oKmNzE3LjE0IC8gMjkuNSBnIOKAlCBhbGwgbWF0Y2hpbmcgaGFuZCBjYWxjdWxhdGlvbnMgZnJvbSB0aGUgUHl0aG9uCiAgZm9ybXVsYXMuCi0gUGVhbnV0IGF2b2lkYW5jZSDihpIgMCBjYW5kaWRhdGVzLCBgc2tpcHBlZFVudmVyaWZpZWRZYWppID0gMTJgLCBhbGwgYmVzdHMKICBudWxsIChhYnN0ZW50aW9uKS4gU295IGF2b2lkYW5jZSDihpIgMCBlbGlnaWJsZSB3aXRoIHRoZSBsYWJlbGxlZC1hbGxlcmdlbgogIHJlYXNvbi4g4oKmNDAgYnVkZ2V0IOKGkiAwIGVsaWdpYmxlLiBHcmlsbC1vbmx5IGVxdWlwbWVudCDihpIgb25seSBmaXJtIGF3YXJhLAogIDkgZXF1aXBtZW50IGV4Y2x1c2lvbnMuIEludmFsaWQgcG9ydGlvbiAvIGVxdWlwbWVudCAvIHByaWNlLXNob2NrIOKGkiBIVFRQIDQwMAogIHdpdGggdGhlIFB5dGhvbiB2YWxpZGF0aW9uIG1lc3NhZ2VzLgoKIyMgUGFyYWxsZWwgVmVyY2VsIHByb3RvdHlwZSBhbmQgcmVzdHJpY3Rpb25zICgyMCBOb3ZlbWJlciAyMDI2KQoKVGhpcyBpcyBhIHN1eWEtZm9jdXNlZCAqKnNlcGFyYXRlIHN5bnRoZXRpYyBkZW1vbnN0cmF0aW9uKiosIG5vdCB0aGUgZnVsbCBQeXRob24KU3RyZWFtbGl0IHJlc2VhcmNoIGFwcGxpY2F0aW9uLiBUaGUgb3JpZ2luYWwgU3RyZWFtbGl0IGFwcCByZW1haW5zIGF1dGhvcml0YXRpdmUKZm9yIG11bHRpLWRpc2ggcmVzZWFyY2gsIHRoZSBFdmlkZW5jZSBMaWJyYXJ5IGFuZCBQeXRob24gc2FmZXR5IGNoZWNrcy4KClRoZSBWZXJjZWwgc2VydmVyIGFjY2VwdHMgb25seSBKU09OIGJyaWVmcyB3aXRoIGtub3duIGtleXMgYW5kIDw9MTIgS0IgYm9kaWVzOwp1bmtub3duIGFsbGVyZ2VuIGV4Y2x1c2lvbnMgZmFpbCByYXRoZXIgdGhhbiBiZWluZyBpZ25vcmVkLiBTb3ksIGdyb3VuZG51dCBhbmQKd2hlYXQgYWxpYXNlcyBhcmUgY2Fub25pY2FsaXNlZC4gQ29tcG91bmQgc2Vhc29uaW5nIHdpdGggdW5yZXZpZXdlZCBhbmltYWwgb3JpZ2luCmNhbm5vdCBxdWFsaWZ5IGZvciBhIHBsYW50LW9ubHkgcmVjb21tZW5kYXRpb24uIEEgaGFyZCBmaWx0ZXIgYWx3YXlzIGNvbWVzIGJlZm9yZQpyYW5raW5nLiBUaGlzIGlzIG5vdCBmb29kLXNhZmV0eSBjZXJ0aWZpY2F0aW9uIG9yIGEgbGl2ZSBtYXJrZXQgcXVvdGUuCgpObyBBV1MgQmVkcm9jayBpbnRlZ3JhdGlvbiBvciBwYWlkIG1vZGVsIGNhbGxzIGFyZSBlbmFibGVkLiBOZXh0LmpzIGlzIHBpbm5lZCB0bwoxNS41LjI5LCB0aGUgTm92ZW1iZXIgMjAyNiBwYXRjaGVkIG1haW50ZW5hbmNlIHJlbGVhc2UuIFZlcmNlbCBIb2JieSBpcyBmb3IKZWxpZ2libGUgcGVyc29uYWwgbm9uLWNvbW1lcmNpYWwgZGVtb25zdHJhdGlvbiB1c2UsIG5vdCBjb21tZXJjaWFsIHNlcnZpY2UuCg==
+# Naija MenuShift — Web UI (Kitchen Intelligence Studio)
+
+A Vercel-ready Next.js (App Router) + TypeScript implementation of the Naija
+MenuShift Kitchen Intelligence Studio, built to the team's design handoff
+(`KITCHEN_UI_DESIGN_HANDOFF_2026-11-19.md`): forest `#173B2D`, dark green
+`#102C22`, rich green `#1B5940`, warm cream `#FBFAF5`, gold `#BC8948`, light
+border `#D8E2D9`, max width 1180px, tabular numerals for naira.
+
+**Research prototype.** Demo data is synthetic (it mirrors the team's research
+workbook values so the interface behaves like the Python prototype). Nothing in
+this UI labels a result "safe", "delicious", "measured" or "retail-priced", and
+beef appears only as a comparison reference — never as a recommendation.
+
+## What it does
+
+A restaurant owner finds a viable *research formulation* for kitchen testing in
+under four steps:
+
+1. **Choose dish** — Suya (awara / soy-curd formulations) is the first sourced
+   use case.
+2. **Set constraints** — budget for listed partial costs, minimum estimated
+   protein, maximum assumed prep time, desired characteristics, equipment,
+   stock, allergen exclusions, plus advanced assumptions (portions, yield, oil,
+   spice grams, ±20% price scenario).
+3. **Compare formulations** — summary counts (inspected / candidates / eligible
+   / Pareto frontier / exclusion reasons) and three decision cards:
+   Budget-first, Protein-first, Kitchen-first. When one formulation wins
+   several objectives, the card says so — no artificial diversity.
+4. **Inspect & trial** — ingredient lines with grams, estimated costs and
+   proteins, price and nutrition sources, score breakdown, evidence badges
+   ("source reference", "modelled", "unreviewed"), trial steps, and a
+   downloadable kitchen trial worksheet (Markdown).
+
+If nothing satisfies every hard constraint, the studio shows a clear
+no-feasible state — *"We don't invent a recommendation when your constraints
+cannot be satisfied"* — instead of relaxing the rules.
+
+### Constraint semantics (identical to the Python engine)
+
+The local engine (`lib/engine.ts`) is a TypeScript mirror of
+`src/menushift/engine.py` + `src/menushift/kitchen_optimizer.py`:
+
+- Hard constraints first: plant-only, budget, protein, time, equipment subset,
+  inventory subset, allergen exclusions that **fail closed** (an exclusion
+  that cannot be verified excludes the option).
+- **Peanut exclusion abstains entirely**: standard suya yaji frequently
+  contains groundnut and the dataset has no verified peanut-free yaji, so no
+  recommendation is made.
+- Score exists only for feasible options: cost 0.45 + protein utility 0.25 +
+  time 0.15 + TF-IDF text match 0.15 (experimental; not taste evidence).
+- Four awara methods (firm / pressed / frozen–thawed / fried) × modelled
+  portions, with press-loss purchase maths and the fried method's oil cost
+  kept separate from ingredient cost.
+
+## Architecture — one seam for the AWS switch
+
+```
+Browser ──► lib/engine.ts  explore(brief)  (async — the ONLY UI entry point)
+              │  POST /api/explore
+              ▼
+        app/api/explore/route.ts
+              ├─ MENUSHIFT_ENGINE_URL unset → local TypeScript engine (demo mode)
+              └─ MENUSHIFT_ENGINE_URL set   → proxy to the AWS-hosted Python engine
+```
+
+The UI never calls the engine directly; it only knows the JSON contract of
+`POST /api/explore` (brief in, exploration result out). Tomorrow's AWS move is
+configuration, not a rewrite.
+
+### Switching to AWS (tomorrow)
+
+1. Host the Python engine so it exposes `POST /explore` accepting the same
+   brief JSON and returning the same result JSON (API Gateway + Lambda, ECS,
+   or App Runner all work).
+2. Set one environment variable wherever this UI runs:
+
+   ```
+   MENUSHIFT_ENGINE_URL=https://<your-api-id>.execute-api.us-east-1.amazonaws.com/prod
+   ```
+
+3. Redeploy/restart. The summary strip's engine chip switches from
+   "local demo" to "AWS (Python)" based on the response. No UI code changes.
+
+## Run locally
+
+```bash
+npm install
+npm run dev        # http://localhost:3000
+# or production:
+npm run build
+npm start
+```
+
+## Deploy to Vercel
+
+**Dashboard path**
+
+1. Push this folder to a Git repository (or use `vercel` CLI from this folder).
+2. Vercel → Add New → Project → import the repo.
+3. **Root Directory:** `web-ui` (if the repo root is the deliverables folder)
+   or `.` if this folder is the repo root. Framework preset: **Next.js**
+   (auto-detected). Build command `npm run build`, output default.
+4. Environment Variables: add `MENUSHIFT_ENGINE_URL` only when the AWS engine
+   is live; leave it unset for the offline demo.
+5. Deploy.
+
+**CLI path**
+
+```bash
+npm i -g vercel
+cd web-ui
+vercel          # preview deployment
+vercel --prod   # production deployment
+# optional, once AWS is live:
+vercel env add MENUSHIFT_ENGINE_URL production
+```
+
+## API contract (POST /api/explore)
+
+Request body — a brief (all fields optional; defaults mirror the Python
+`explore()` defaults):
+
+```json
+{
+  "budgetNgn": 1500,
+  "proteinTargetG": 15,
+  "maxPrepMinutes": 120,
+  "equipment": ["grill", "press", "freezer", "frying_pan"],
+  "availableIngredients": ["awara", "onion", "pepper", "salt", "seasoning", "oil"],
+  "portionsG": [80, 100, 120, 140, 160, 180, 200],
+  "preference": "chewy grilled",
+  "avoidAllergens": [],
+  "wetYieldKgPerKgDry": 1.75,
+  "oilCl": 1.0,
+  "priceShock": 0,
+  "onionG": 0, "pepperG": 0, "saltG": 0, "seasoningG": 0
+}
+```
+
+Response: `{ inspected, skippedEquipment, skippedIngredients,
+skippedUnverifiedYaji, candidates[], eligibleIds[], frontierIds[],
+best{budget, protein, kitchen, balanced}, reference[], engineMode }`.
+Invalid briefs return HTTP 400 with the Python engine's validation message.
+
+## Layout of this folder
+
+```
+app/
+  page.tsx                 header, hero + research warning, studio, explorer
+  layout.tsx, globals.css  design tokens + responsive rules (single column ≤1023px, stacked cards ≤760px)
+  api/explore/route.ts     local engine tonight / AWS proxy via env var
+components/
+  Studio.tsx               steps, constraint panel, summary, decision cards, detail, no-feasible state
+  MenuExplorer.tsx         illustrative Veggie Victory–inspired menu vision (not engine outputs)
+lib/
+  engine.ts                TS mirror of the Python constraint engine + async explore()
+  data.ts                  synthetic demo dataset, methods, trial steps, menu items
+  worksheet.ts             downloadable kitchen trial worksheet (Markdown)
+.env.example               MENUSHIFT_ENGINE_URL documentation
+```
+
+## Verification performed (2026-11-20)
+
+- `npm install` and `npm run build` succeed (Next.js 15.5, types + lint clean).
+- Production server: `GET /` → 200 with the studio rendered.
+- `POST /api/explore` feasible brief (3 portions): inspected 12, eligible 12,
+  frontier 9; firm awara @100 g = ₦45.37 listed cost / 17.3 g estimated protein;
+  fried @100 g = ₦45.37 ingredients + ₦43.51 oil processing; beef reference
+  @100 g = ₦717.14 / 29.5 g — all matching hand calculations from the Python
+  formulas.
+- Peanut avoidance → 0 candidates, `skippedUnverifiedYaji = 12`, all bests
+  null (abstention). Soy avoidance → 0 eligible with the labelled-allergen
+  reason. ₦40 budget → 0 eligible. Grill-only equipment → only firm awara,
+  9 equipment exclusions. Invalid portion / equipment / price-shock → HTTP 400
+  with the Python validation messages.
+
+## Parallel Vercel prototype and restrictions (20 November 2026)
+
+This is a suya-focused **separate synthetic demonstration**, not the full Python
+Streamlit research application. The original Streamlit app remains authoritative
+for multi-dish research, the Evidence Library and Python safety checks.
+
+The Vercel server accepts only JSON briefs with known keys and <=12 KB bodies;
+unknown allergen exclusions fail rather than being ignored. Soy, groundnut and
+wheat aliases are canonicalised. Compound seasoning with unreviewed animal origin
+cannot qualify for a plant-only recommendation. A hard filter always comes before
+ranking. This is not food-safety certification or a live market quote.
+
+No AWS Bedrock integration or paid model calls are enabled. Next.js is pinned to
+15.5.29, the November 2026 patched maintenance release. Vercel Hobby is for
+eligible personal non-commercial demonstration use, not commercial service.
