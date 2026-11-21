@@ -1,1 +1,14 @@
-LyoqIEB0eXBlIHtpbXBvcnQoJ25leHQnKS5OZXh0Q29uZmlnfSAqLwpjb25zdCBuZXh0Q29uZmlnID0gewogIHJlYWN0U3RyaWN0TW9kZTogdHJ1ZSwKICBwb3dlcmVkQnlIZWFkZXI6IGZhbHNlLAogIGFzeW5jIGhlYWRlcnMoKSB7CiAgICByZXR1cm4gW3sgc291cmNlOiAiLzpwYXRoKiIsIGhlYWRlcnM6IFsKICAgICAgeyBrZXk6ICJYLUNvbnRlbnQtVHlwZS1PcHRpb25zIiwgdmFsdWU6ICJub3NuaWZmIiB9LAogICAgICB7IGtleTogIlJlZmVycmVyLVBvbGljeSIsIHZhbHVlOiAic3RyaWN0LW9yaWdpbi13aGVuLWNyb3NzLW9yaWdpbiIgfSwKICAgICAgeyBrZXk6ICJYLUZyYW1lLU9wdGlvbnMiLCB2YWx1ZTogIkRFTlkiIH0sCiAgICAgIHsga2V5OiAiUGVybWlzc2lvbnMtUG9saWN5IiwgdmFsdWU6ICJjYW1lcmE9KCksIG1pY3JvcGhvbmU9KCksIGdlb2xvY2F0aW9uPSgpIiB9LAogICAgXSB9XTsKICB9LAp9OwpleHBvcnQgZGVmYXVsdCBuZXh0Q29uZmlnOwo=
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+  poweredByHeader: false,
+  async headers() {
+    return [{ source: "/:path*", headers: [
+      { key: "X-Content-Type-Options", value: "nosniff" },
+      { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
+      { key: "X-Frame-Options", value: "DENY" },
+      { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=()" },
+    ] }];
+  },
+};
+export default nextConfig;
