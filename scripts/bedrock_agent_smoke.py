@@ -1,1 +1,51 @@
-IiIiTWFudWFsIEFXUyBXb3Jrc2hvcCBTdHVkaW8gc21va2UgdGVzdCAobmV2ZXIgcnVucyBpbiBub3JtYWwgQ0kgb3IgYXBwIHN0YXJ0dXApLgoKRXhhbXBsZSBpbnNpZGUgYXV0aG9yaXNlZCB3b3Jrc2hvcCBhY2NvdW50OgogIEJFRFJPQ0tfTU9ERUxfSUQ9PGVuYWJsZWQtbW9kZWwtaWQ+IHB5dGhvbiBzY3JpcHRzL2JlZHJvY2tfYWdlbnRfc21va2UucHkKCk9ubHkgSlNPTiBhbGxvd2VkIGNhbmRpZGF0ZSBJRHMgYW5kIG51bWVyaWNhbCBjb25zdHJhaW50cyBhcmUgc2VudCB0byBCZWRyb2NrLgpObyBjcmVkZW50aWFscywgbG9jYWwgcmVzZWFyY2ggZmlsZXMsIGN1c3RvbWVycyBvciBjb250YWN0IGluZm9ybWF0aW9uIHNlbnQuCiIiIgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQganNvbgppbXBvcnQgb3MKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCgpmcm9tIG1lbnVzaGlmdC5hZ2VudF9jb250cmFjdCBpbXBvcnQgS2l0Y2hlbkJyaWVmLCBydW5fYWdlbnQKZnJvbSBtZW51c2hpZnQuYmVkcm9ja19hZGFwdGVyIGltcG9ydCBCZWRyb2NrUGxhbm5lcgpmcm9tIG1lbnVzaGlmdC5raXRjaGVuX29wdGltaXplciBpbXBvcnQgSU5WRU5UT1JZX0lURU1TCgpST09UID0gUGF0aChfX2ZpbGVfXykucmVzb2x2ZSgpLnBhcmVudHNbMV0KCgpkZWYgbWFpbigpIC0+IE5vbmU6CiAgICBtb2RlbF9pZCA9IG9zLmVudmlyb24uZ2V0KCJCRURST0NLX01PREVMX0lEIiwgIiIpCiAgICBpZiBub3QgbW9kZWxfaWQ6CiAgICAgICAgcmFpc2UgU3lzdGVtRXhpdCgiQkVEUk9DS19NT0RFTF9JRCBpcyBub3Qgc2V0LiBTZWxlY3QgYSBtb2RlbCBlbmFibGVkIGJ5IHRoZSB3b3Jrc2hvcC4iKQogICAgYnJpZWYgPSBLaXRjaGVuQnJpZWYoCiAgICAgICAgYnVkZ2V0X25nbj0xODAwLCBtaW5fcHJvdGVpbl9nPTEyLCBtYXhfcHJlcF9taW51dGVzPTE4MCwKICAgICAgICBlcXVpcG1lbnQ9ZnJvemVuc2V0KHsiZ3JpbGwiLCAicHJlc3MiLCAiZnJ5aW5nX3BhbiJ9KSwKICAgICAgICBhdmFpbGFibGVfaW5ncmVkaWVudHM9ZnJvemVuc2V0KElOVkVOVE9SWV9JVEVNUyksCiAgICAgICAgcHJlZmVyZW5jZT0iY2hld3kgc21va3kiLAogICAgKQogICAgcmVzdWx0ID0gcnVuX2FnZW50KAogICAgICAgIEJlZHJvY2tQbGFubmVyKG1vZGVsX2lkKSwKICAgICAgICBicmllZiwKICAgICAgICBST09UIC8gImRhdGEiIC8gInNvdXJjZXMiLAogICAgKQogICAgcHJpbnQoanNvbi5kdW1wcyh7CiAgICAgICAgInBsYW5uZXJfaW52b2NhdGlvbnMiOiByZXN1bHQucm91bmRzLAogICAgICAgICJwcm9wb3NhbHNfZXZhbHVhdGVkIjogbGVuKHJlc3VsdC5kZWNpc2lvbnMpLAogICAgICAgICJhY2NlcHRlZCI6IFtpdGVtLmlkZW50aWZpZXIgZm9yIGl0ZW0gaW4gcmVzdWx0LmFjY2VwdGVkXSwKICAgICAgICAicmVqZWN0ZWQiOiBbCiAgICAgICAgICAgIHsiaWQiOiBpdGVtLnByb3Bvc2FsX2lkLCAicmVhc29uIjogaXRlbS5yZWFzb259CiAgICAgICAgICAgIGZvciBpdGVtIGluIHJlc3VsdC5kZWNpc2lvbnMgaWYgbm90IGl0ZW0uYWNjZXB0ZWQKICAgICAgICBdLAogICAgICAgICJyZXNlYXJjaF9vbmx5IjogVHJ1ZSwKICAgICAgICAiaHVtYW5fa2l0Y2hlbl9hcHByb3ZhbF9yZXF1aXJlZCI6IFRydWUsCiAgICB9LCBpbmRlbnQ9MikpCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIG1haW4oKQo=
+"""Manual AWS Workshop Studio smoke test (never runs in normal CI or app startup).
+
+Example inside authorised workshop account:
+  BEDROCK_MODEL_ID=<enabled-model-id> python scripts/bedrock_agent_smoke.py
+
+Only JSON allowed candidate IDs and numerical constraints are sent to Bedrock.
+No credentials, local research files, customers or contact information sent.
+"""
+from __future__ import annotations
+
+import json
+import os
+from pathlib import Path
+
+from menushift.agent_contract import KitchenBrief, run_agent
+from menushift.bedrock_adapter import BedrockPlanner
+from menushift.kitchen_optimizer import INVENTORY_ITEMS
+
+ROOT = Path(__file__).resolve().parents[1]
+
+
+def main() -> None:
+    model_id = os.environ.get("BEDROCK_MODEL_ID", "")
+    if not model_id:
+        raise SystemExit("BEDROCK_MODEL_ID is not set. Select a model enabled by the workshop.")
+    brief = KitchenBrief(
+        budget_ngn=1800, min_protein_g=12, max_prep_minutes=180,
+        equipment=frozenset({"grill", "press", "frying_pan"}),
+        available_ingredients=frozenset(INVENTORY_ITEMS),
+        preference="chewy smoky",
+    )
+    result = run_agent(
+        BedrockPlanner(model_id),
+        brief,
+        ROOT / "data" / "sources",
+    )
+    print(json.dumps({
+        "planner_invocations": result.rounds,
+        "proposals_evaluated": len(result.decisions),
+        "accepted": [item.identifier for item in result.accepted],
+        "rejected": [
+            {"id": item.proposal_id, "reason": item.reason}
+            for item in result.decisions if not item.accepted
+        ],
+        "research_only": True,
+        "human_kitchen_approval_required": True,
+    }, indent=2))
+
+
+if __name__ == "__main__":
+    main()
