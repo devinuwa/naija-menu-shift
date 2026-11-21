@@ -1,1 +1,138 @@
-aW1wb3J0IGNvcHkKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCgppbXBvcnQgcHl0ZXN0Cgpmcm9tIG1lbnVzaGlmdC5lbmdpbmUgaW1wb3J0IERhdGFzZXQsIGJhc2VsaW5lcywgZXZhbHVhdGUsIGxvYWRfZGF0YXNldCwgc2Vuc2l0aXZpdHksIHZhbGlkYXRlX2RhdGFzZXQKClJPT1QgPSBQYXRoKF9fZmlsZV9fKS5yZXNvbHZlKCkucGFyZW50c1sxXQoKZGVmIHRlc3RfZGVtb19sb2Fkc19hbmRfc3V5YV9oYXNfZm91cl9wbGFudF9vcHRpb25zX3BsdXNfYmVlZihkZW1vKToKICAgIHJlc3VsdHMgPSBldmFsdWF0ZShkZW1vLCAnc3V5YScsIGJ1ZGdldF9uZ249MjAwMCwgcHJvdGVpbl90YXJnZXRfZz01KQogICAgYXNzZXJ0IGxlbihyZXN1bHRzKSA9PSA1CiAgICBhc3NlcnQgc3VtKHgucGxhbnRfb25seSBmb3IgeCBpbiByZXN1bHRzKSA9PSA0CiAgICBhc3NlcnQgc3VtKG5vdCB4LnBsYW50X29ubHkgZm9yIHggaW4gcmVzdWx0cykgPT0gMQoKZGVmIHRlc3RfYmVlZl9uZXZlcl9pc19yZWNvbW1lbmRlZChkZW1vKToKICAgIHJlc3VsdHMgPSBldmFsdWF0ZShkZW1vLCAnc3V5YScsIGJ1ZGdldF9uZ249MTAwMDAwLCBwcm90ZWluX3RhcmdldF9nPTApCiAgICBhc3NlcnQgYWxsKG5vdCB4LmZlYXNpYmxlIGZvciB4IGluIHJlc3VsdHMgaWYgeC5ncm91cCA9PSAncmVmZXJlbmNlJykKICAgIGFzc2VydCBiYXNlbGluZXMocmVzdWx0cylbJ3JlY29tbWVuZGVkJ10gIT0gJ2JlZWZfc3V5YScKCmRlZiB0ZXN0X25vX29wdGlvbl9mYWJyaWNhdGVkX3doZW5fY29uc3RyYWludHNfaW1wb3NzaWJsZShkZW1vKToKICAgIHJlc3VsdCA9IGV2YWx1YXRlKGRlbW8sICdzdXlhJywgYnVkZ2V0X25nbj0xLCBwcm90ZWluX3RhcmdldF9nPTEwMCkKICAgIGFzc2VydCBiYXNlbGluZXMocmVzdWx0KVsnbm9fZmVhc2libGVfb3B0aW9uJ10KICAgIGFzc2VydCBhbGwoeC5zY29yZSBpcyBOb25lIGZvciB4IGluIHJlc3VsdCkKCmRlZiB0ZXN0X2Nvc3RfaW5jcmVhc2VzX2J5X29ubHlfaW5ncmVkaWVudF9wdXJjaGFzZV91bmRlcl9zaG9jayhkZW1vKToKICAgIGJhc2VsaW5lID0ge3Iub3B0aW9uX2lkOnIgZm9yIHIgaW4gZXZhbHVhdGUoZGVtbywgJ3N1eWEnLCBidWRnZXRfbmduPTEwMDAwLCBwcm90ZWluX3RhcmdldF9nPTApfQogICAgaW5jcmVhc2UgPSB7ci5vcHRpb25faWQ6ciBmb3IgciBpbiBldmFsdWF0ZShkZW1vLCAnc3V5YScsIGJ1ZGdldF9uZ249MTAwMDAsIHByb3RlaW5fdGFyZ2V0X2c9MCwgcHJpY2Vfc2hvY2s9MC4yKX0KICAgIGFzc2VydCBhbGwoaW5jcmVhc2Vba10uY29zdF9uZ24gPiB2LmNvc3RfbmduIGZvciBrLHYgaW4gYmFzZWxpbmUuaXRlbXMoKSkKICAgIGFzc2VydCBhbGwoaW5jcmVhc2Vba10ucHJvdGVpbl9nID09IHYucHJvdGVpbl9nIGZvciBrLHYgaW4gYmFzZWxpbmUuaXRlbXMoKSkKCmRlZiB0ZXN0X3NlbnNpdGl2aXR5X3RocmVlX3NjZW5hcmlvcyhkZW1vKToKICAgIHJlc3VsdHMgPSBzZW5zaXRpdml0eShkZW1vLCAnc3V5YScsIGJ1ZGdldF9uZ249MjAwMCwgcHJvdGVpbl90YXJnZXRfZz0xMCkKICAgIGFzc2VydCBzZXQocmVzdWx0cyk9PXsn4oiSMjAlIHByaWNlcycsJ0Jhc2UgcHJpY2VzJywnKzIwJSBwcmljZXMnfQogICAgYXNzZXJ0IGFsbChsZW4oeCk9PTUgZm9yIHggaW4gcmVzdWx0cy52YWx1ZXMoKSkKCmRlZiB0ZXN0X2FsbF9zb3VyY2VzX3Zpc2libGVfaW5fb3V0cHV0cyhkZW1vKToKICAgIHJlc3VsdHMgPSBldmFsdWF0ZShkZW1vLCAnc3V5YScsIGJ1ZGdldF9uZ249MTUwMCwgcHJvdGVpbl90YXJnZXRfZz0xKQogICAgYXNzZXJ0IGFsbChyLnNvdXJjZXMgZm9yIHIgaW4gcmVzdWx0cykKICAgIGFzc2VydCBhbGwoci5kZW1vIGZvciByIGluIHJlc3VsdHMpCgpkZWYgdGVzdF9ub19jcm9zc19kaXNoX2hhcmRjb2RpbmcoZGVtbyk6CiAgICBhbHRlcmVkPURhdGFzZXQoaW5ncmVkaWVudHM9ZGVtby5pbmdyZWRpZW50cywgZGlzaGVzPWRlbW8uZGlzaGVzLAogICAgICAgICAgICAgICAgICAgIG9wdGlvbnM9W2RpY3Qocm93LCBkaXNoX2lkPSdtZWF0X3BpZScpIGZvciByb3cgaW4gZGVtby5vcHRpb25zXSwKICAgICAgICAgICAgICAgICAgICBpdGVtcz1kZW1vLml0ZW1zLCBkZW1vPVRydWUpCiAgICB2YWxpZGF0ZV9kYXRhc2V0KGFsdGVyZWQpCiAgICBhc3NlcnQgbGVuKGV2YWx1YXRlKGFsdGVyZWQsICdtZWF0X3BpZScsIGJ1ZGdldF9uZ249MTUwMCwgcHJvdGVpbl90YXJnZXRfZz0xKSk9PTUKCmRlZiB0ZXN0X3JlamVjdF9hbmltYWxfaW5ncmVkaWVudF9pbl9wbGFudF9vcHRpb24oZGVtbyk6CiAgICBiYWRfaXRlbXM9Y29weS5kZWVwY29weShkZW1vLml0ZW1zKQogICAgYmFkX2l0ZW1zWzBdWydpbmdyZWRpZW50X2lkJ109J2JlZWYnCiAgICBiYWQ9RGF0YXNldChkZW1vLmluZ3JlZGllbnRzLCBkZW1vLmRpc2hlcywgZGVtby5vcHRpb25zLCBiYWRfaXRlbXMsIGRlbW89VHJ1ZSkKICAgIHdpdGggcHl0ZXN0LnJhaXNlcyhWYWx1ZUVycm9yLCBtYXRjaD0nYW5pbWFsLWRlcml2ZWQnKToKICAgICAgICB2YWxpZGF0ZV9kYXRhc2V0KGJhZCkKCmRlZiB0ZXN0X21pc3Npbmdfc291cmNlc19mYWlsX2Nsb3NlZChkZW1vKToKICAgIGJhZF9pbmc9Y29weS5kZWVwY29weShkZW1vLmluZ3JlZGllbnRzKQogICAgYmFkX2luZ1swXVsncHJpY2Vfc291cmNlJ109JycKICAgIHdpdGggcHl0ZXN0LnJhaXNlcyhWYWx1ZUVycm9yLCBtYXRjaD0ncHJpY2Vfc291cmNlJyk6CiAgICAgICAgdmFsaWRhdGVfZGF0YXNldChEYXRhc2V0KGJhZF9pbmcsIGRlbW8uZGlzaGVzLCBkZW1vLm9wdGlvbnMsIGRlbW8uaXRlbXMsIGRlbW89VHJ1ZSkpCgpkZWYgdGVzdF9zeW50aGV0aWNfcmVqZWN0ZWRfaW5fdmVyaWZpZWRfbW9kZShkZW1vKToKICAgIHdpdGggcHl0ZXN0LnJhaXNlcyhWYWx1ZUVycm9yLCBtYXRjaD0nc3ludGhldGljJyk6CiAgICAgICAgdmFsaWRhdGVfZGF0YXNldChEYXRhc2V0KGRlbW8uaW5ncmVkaWVudHMsZGVtby5kaXNoZXMsZGVtby5vcHRpb25zLGRlbW8uaXRlbXMsZGVtbz1GYWxzZSkpCgpkZWYgdGVzdF92ZXJpZmllZF9lbXB0eV90ZW1wbGF0ZXNfc3RvcF9pbnN0ZWFkX29mX3N5bnRoZXRpY19mYWxsYmFjaygpOgogICAgd2l0aCBweXRlc3QucmFpc2VzKFZhbHVlRXJyb3IsIG1hdGNoPSdpbmNvbXBsZXRlJyk6CiAgICAgICAgbG9hZF9kYXRhc2V0KFJPT1QvJ2RhdGEnLyd2ZXJpZmllZCcsZGVtbz1GYWxzZSkKCmRlZiB0ZXN0X2ludmFsaWRfbnVtYmVyc19mYWlsKGRlbW8pOgogICAgd2l0aCBweXRlc3QucmFpc2VzKFZhbHVlRXJyb3IpOgogICAgICAgIGV2YWx1YXRlKGRlbW8sJ3N1eWEnLGJ1ZGdldF9uZ249LTEscHJvdGVpbl90YXJnZXRfZz0xKQogICAgd2l0aCBweXRlc3QucmFpc2VzKFZhbHVlRXJyb3IpOgogICAgICAgIGV2YWx1YXRlKGRlbW8sJ3N1eWEnLGJ1ZGdldF9uZ249MTUwMCxwcm90ZWluX3RhcmdldF9nPTEscHJpY2Vfc2hvY2s9LTEpCgpkZWYgdGVzdF9yZXRyaWV2YWxfcHJlZmVyZW5jZV9oYXNfZWZmZWN0X3doZW5fZmVhc2libGUoZGVtbyk6CiAgICBhPWV2YWx1YXRlKGRlbW8sJ3N1eWEnLGJ1ZGdldF9uZ249NTAwMCxwcm90ZWluX3RhcmdldF9nPTEscHJlZmVyZW5jZT0nY3Jpc3B5IGZyaWVkJykKICAgIGI9ZXZhbHVhdGUoZGVtbywnc3V5YScsYnVkZ2V0X25nbj01MDAwLHByb3RlaW5fdGFyZ2V0X2c9MSxwcmVmZXJlbmNlPSdjaGV3eSBmcm96ZW4nKQogICAgc2NvcmVzX2E9e3Iub3B0aW9uX2lkOnIuc2NvcmUgZm9yIHIgaW4gYX0KICAgIHNjb3Jlc19iPXtyLm9wdGlvbl9pZDpyLnNjb3JlIGZvciByIGluIGJ9CiAgICBhc3NlcnQgc2NvcmVzX2FbJ3RvZnVfZnJpZWQnXSAhPSBzY29yZXNfYlsndG9mdV9mcmllZCddCgpkZWYgdGVzdF9kaXNoX3JlcXVpcmVzX29wdGlvbnNfZm9yX3JlY29tbWVuZGF0aW9ucyhkZW1vKToKICAgIGFzc2VydCBldmFsdWF0ZShkZW1vLCdlZ3VzaScsYnVkZ2V0X25nbj0xNTAwLHByb3RlaW5fdGFyZ2V0X2c9MTApPT1bXQoKCmRlZiB0ZXN0X25lZ2F0aXZlX2luZmluaXRlX2FuZF9uYW5faW5wdXRzX2ZhaWwoZGVtbyk6CiAgICBmb3IgdmFsdWUgaW4gKGZsb2F0KCduYW4nKSwgZmxvYXQoJ2luZicpLCAtZmxvYXQoJ2luZicpKToKICAgICAgICB3aXRoIHB5dGVzdC5yYWlzZXMoVmFsdWVFcnJvciwgbWF0Y2g9J2Zpbml0ZScpOgogICAgICAgICAgICBldmFsdWF0ZShkZW1vLCAnc3V5YScsIGJ1ZGdldF9uZ249dmFsdWUsIHByb3RlaW5fdGFyZ2V0X2c9MikKCgpkZWYgdGVzdF9pbnZhbGlkX25vbmZpbml0ZV9udXRyaWVudF9zb3VyY2Vfcm93c19yZWplY3RlZChkZW1vKToKICAgIGJhZCA9IGNvcHkuZGVlcGNvcHkoZGVtby5pbmdyZWRpZW50cykKICAgIGJhZFswXVsncHJvdGVpbl9nX3Blcl8xMDBnJ10gPSAnTmFOJwogICAgd2l0aCBweXRlc3QucmFpc2VzKFZhbHVlRXJyb3IsIG1hdGNoPSdmaW5pdGUnKToKICAgICAgICB2YWxpZGF0ZV9kYXRhc2V0KERhdGFzZXQoYmFkLCBkZW1vLmRpc2hlcywgZGVtby5vcHRpb25zLCBkZW1vLml0ZW1zLCBUcnVlKSkKCgpkZWYgdGVzdF9kdXBsaWNhdGVfcmVjaXBlX2luZ3JlZGllbnRfaXNfcmVqZWN0ZWQoZGVtbyk6CiAgICBpdGVtcyA9IGRlbW8uaXRlbXMgKyBbZGljdChkZW1vLml0ZW1zWzBdKV0KICAgIHdpdGggcHl0ZXN0LnJhaXNlcyhWYWx1ZUVycm9yLCBtYXRjaD0nRHVwbGljYXRlJyk6CiAgICAgICAgdmFsaWRhdGVfZGF0YXNldChEYXRhc2V0KGRlbW8uaW5ncmVkaWVudHMsIGRlbW8uZGlzaGVzLCBkZW1vLm9wdGlvbnMsIGl0ZW1zLCBUcnVlKSkKCgpkZWYgdGVzdF9kZWNsYXJlZF9zb3lfYWxsZXJnZW5fZXhjbHVzaW9uX2Jsb2Nrc190b2Z1KGRlbW8pOgogICAgb3V0cHV0cyA9IGV2YWx1YXRlKGRlbW8sICdzdXlhJywgYnVkZ2V0X25nbj0xMDAwMDAsIHByb3RlaW5fdGFyZ2V0X2c9MCwKICAgICAgICAgICAgICAgICAgICAgICBhdm9pZF9hbGxlcmdlbnM9Wydzb3knXSkKICAgIGFzc2VydCBhbGwobm90IHIuZmVhc2libGUgZm9yIHIgaW4gb3V0cHV0cyBpZiByLnBsYW50X29ubHkpCiAgICBhc3NlcnQgYWxsKGFueSgnYWxsZXJnZW4nIGluIHJlYXNvbi5sb3dlcigpIGZvciByZWFzb24gaW4gci5yZWFzb25zKSBmb3IgciBpbiBvdXRwdXRzIGlmIHIucGxhbnRfb25seSkKCgpkZWYgdGVzdF9jb3N0X2JyZWFrZG93bl9pc19jb25zaXN0ZW50KGRlbW8pOgogICAgcmVzdWx0cyA9IGV2YWx1YXRlKGRlbW8sICdzdXlhJywgYnVkZ2V0X25nbj0xMDAwMDAsIHByb3RlaW5fdGFyZ2V0X2c9MCkKICAgIGZvciByIGluIHJlc3VsdHM6CiAgICAgICAgYXNzZXJ0IGFicyhyLmNvc3RfbmduIC0gci5pbmdyZWRpZW50X2Nvc3RfbmduIC0gci5wcm9jZXNzaW5nX2Nvc3RfbmduKSA8IDAuMDExCgoKZGVmIHRlc3RfZWxpZ2libGVfb3B0aW9uc19yZXBvcnRfZXhwbGFpbmFibGVfY29tcG9uZW50cyhkZW1vKToKICAgIG9wdGlvbnMgPSBldmFsdWF0ZShkZW1vLCAnc3V5YScsIGJ1ZGdldF9uZ249MTAwMDAwLCBwcm90ZWluX3RhcmdldF9nPTApCiAgICBmb3IgciBpbiBvcHRpb25zOgogICAgICAgIGFzc2VydCBib29sKHIuc2NvcmVfYnJlYWtkb3duKSA9PSByLmZlYXNpYmxlCiAgICAgICAgaWYgci5mZWFzaWJsZToKICAgICAgICAgICAgYXNzZXJ0IGFicyhzdW0odiBmb3IgXywgdiBpbiByLnNjb3JlX2JyZWFrZG93bikgLSByLnNjb3JlKSA8IDAuMDAwMQoKCmRlZiB0ZXN0X2F1ZGl0X3N5bnRoZXRpY19kYXRhX2FuZF9zdGFsZV9wcmljZXMoZGVtbyk6CiAgICBmcm9tIGRhdGV0aW1lIGltcG9ydCBkYXRlCgogICAgZnJvbSBtZW51c2hpZnQucXVhbGl0eSBpbXBvcnQgYXVkaXRfZGF0YXNldAogICAgcmVjb3JkcyA9IGF1ZGl0X2RhdGFzZXQoZGVtbywgYXNfb2Y9ZGF0ZSgyMDI3LCAxLCAxKSkKICAgIGNvZGVzID0ge3IuY29kZSBmb3IgciBpbiByZWNvcmRzfQogICAgYXNzZXJ0IHsnREVNT19PTkxZJywgJ1NZTlRIRVRJQ19JTlBVVCcsICdTVEFMRV9QUklDRScsICdTRU5TT1JZX1VOVEVTVEVEJ30gPD0gY29kZXMKCgpkZWYgdGVzdF9vdmVybG9uZ19wcmVmZXJlbmNlX3JlamVjdGVkKGRlbW8pOgogICAgd2l0aCBweXRlc3QucmFpc2VzKFZhbHVlRXJyb3IsIG1hdGNoPScyMDAnKToKICAgICAgICBldmFsdWF0ZShkZW1vLCAnc3V5YScsIGJ1ZGdldF9uZ249MTAwMDAwLCBwcm90ZWluX3RhcmdldF9nPTAsIHByZWZlcmVuY2U9J3gnKjIwMSkK
+import copy
+from pathlib import Path
+
+import pytest
+
+from menushift.engine import Dataset, baselines, evaluate, load_dataset, sensitivity, validate_dataset
+
+ROOT = Path(__file__).resolve().parents[1]
+
+def test_demo_loads_and_suya_has_four_plant_options_plus_beef(demo):
+    results = evaluate(demo, 'suya', budget_ngn=2000, protein_target_g=5)
+    assert len(results) == 5
+    assert sum(x.plant_only for x in results) == 4
+    assert sum(not x.plant_only for x in results) == 1
+
+def test_beef_never_is_recommended(demo):
+    results = evaluate(demo, 'suya', budget_ngn=100000, protein_target_g=0)
+    assert all(not x.feasible for x in results if x.group == 'reference')
+    assert baselines(results)['recommended'] != 'beef_suya'
+
+def test_no_option_fabricated_when_constraints_impossible(demo):
+    result = evaluate(demo, 'suya', budget_ngn=1, protein_target_g=100)
+    assert baselines(result)['no_feasible_option']
+    assert all(x.score is None for x in result)
+
+def test_cost_increases_by_only_ingredient_purchase_under_shock(demo):
+    baseline = {r.option_id:r for r in evaluate(demo, 'suya', budget_ngn=10000, protein_target_g=0)}
+    increase = {r.option_id:r for r in evaluate(demo, 'suya', budget_ngn=10000, protein_target_g=0, price_shock=0.2)}
+    assert all(increase[k].cost_ngn > v.cost_ngn for k,v in baseline.items())
+    assert all(increase[k].protein_g == v.protein_g for k,v in baseline.items())
+
+def test_sensitivity_three_scenarios(demo):
+    results = sensitivity(demo, 'suya', budget_ngn=2000, protein_target_g=10)
+    assert set(results)=={'−20% prices','Base prices','+20% prices'}
+    assert all(len(x)==5 for x in results.values())
+
+def test_all_sources_visible_in_outputs(demo):
+    results = evaluate(demo, 'suya', budget_ngn=1500, protein_target_g=1)
+    assert all(r.sources for r in results)
+    assert all(r.demo for r in results)
+
+def test_no_cross_dish_hardcoding(demo):
+    altered=Dataset(ingredients=demo.ingredients, dishes=demo.dishes,
+                    options=[dict(row, dish_id='meat_pie') for row in demo.options],
+                    items=demo.items, demo=True)
+    validate_dataset(altered)
+    assert len(evaluate(altered, 'meat_pie', budget_ngn=1500, protein_target_g=1))==5
+
+def test_reject_animal_ingredient_in_plant_option(demo):
+    bad_items=copy.deepcopy(demo.items)
+    bad_items[0]['ingredient_id']='beef'
+    bad=Dataset(demo.ingredients, demo.dishes, demo.options, bad_items, demo=True)
+    with pytest.raises(ValueError, match='animal-derived'):
+        validate_dataset(bad)
+
+def test_missing_sources_fail_closed(demo):
+    bad_ing=copy.deepcopy(demo.ingredients)
+    bad_ing[0]['price_source']=''
+    with pytest.raises(ValueError, match='price_source'):
+        validate_dataset(Dataset(bad_ing, demo.dishes, demo.options, demo.items, demo=True))
+
+def test_synthetic_rejected_in_verified_mode(demo):
+    with pytest.raises(ValueError, match='synthetic'):
+        validate_dataset(Dataset(demo.ingredients,demo.dishes,demo.options,demo.items,demo=False))
+
+def test_verified_empty_templates_stop_instead_of_synthetic_fallback():
+    with pytest.raises(ValueError, match='incomplete'):
+        load_dataset(ROOT/'data'/'verified',demo=False)
+
+def test_invalid_numbers_fail(demo):
+    with pytest.raises(ValueError):
+        evaluate(demo,'suya',budget_ngn=-1,protein_target_g=1)
+    with pytest.raises(ValueError):
+        evaluate(demo,'suya',budget_ngn=1500,protein_target_g=1,price_shock=-1)
+
+def test_retrieval_preference_has_effect_when_feasible(demo):
+    a=evaluate(demo,'suya',budget_ngn=5000,protein_target_g=1,preference='crispy fried')
+    b=evaluate(demo,'suya',budget_ngn=5000,protein_target_g=1,preference='chewy frozen')
+    scores_a={r.option_id:r.score for r in a}
+    scores_b={r.option_id:r.score for r in b}
+    assert scores_a['tofu_fried'] != scores_b['tofu_fried']
+
+def test_dish_requires_options_for_recommendations(demo):
+    assert evaluate(demo,'egusi',budget_ngn=1500,protein_target_g=10)==[]
+
+
+def test_negative_infinite_and_nan_inputs_fail(demo):
+    for value in (float('nan'), float('inf'), -float('inf')):
+        with pytest.raises(ValueError, match='finite'):
+            evaluate(demo, 'suya', budget_ngn=value, protein_target_g=2)
+
+
+def test_invalid_nonfinite_nutrient_source_rows_rejected(demo):
+    bad = copy.deepcopy(demo.ingredients)
+    bad[0]['protein_g_per_100g'] = 'NaN'
+    with pytest.raises(ValueError, match='finite'):
+        validate_dataset(Dataset(bad, demo.dishes, demo.options, demo.items, True))
+
+
+def test_duplicate_recipe_ingredient_is_rejected(demo):
+    items = demo.items + [dict(demo.items[0])]
+    with pytest.raises(ValueError, match='Duplicate'):
+        validate_dataset(Dataset(demo.ingredients, demo.dishes, demo.options, items, True))
+
+
+def test_declared_soy_allergen_exclusion_blocks_tofu(demo):
+    outputs = evaluate(demo, 'suya', budget_ngn=100000, protein_target_g=0,
+                       avoid_allergens=['soy'])
+    assert all(not r.feasible for r in outputs if r.plant_only)
+    assert all(any('allergen' in reason.lower() for reason in r.reasons) for r in outputs if r.plant_only)
+
+
+def test_cost_breakdown_is_consistent(demo):
+    results = evaluate(demo, 'suya', budget_ngn=100000, protein_target_g=0)
+    for r in results:
+        assert abs(r.cost_ngn - r.ingredient_cost_ngn - r.processing_cost_ngn) < 0.011
+
+
+def test_eligible_options_report_explainable_components(demo):
+    options = evaluate(demo, 'suya', budget_ngn=100000, protein_target_g=0)
+    for r in options:
+        assert bool(r.score_breakdown) == r.feasible
+        if r.feasible:
+            assert abs(sum(v for _, v in r.score_breakdown) - r.score) < 0.0001
+
+
+def test_audit_synthetic_data_and_stale_prices(demo):
+    from datetime import date
+
+    from menushift.quality import audit_dataset
+    records = audit_dataset(demo, as_of=date(2027, 1, 1))
+    codes = {r.code for r in records}
+    assert {'DEMO_ONLY', 'SYNTHETIC_INPUT', 'STALE_PRICE', 'SENSORY_UNTESTED'} <= codes
+
+
+def test_overlong_preference_rejected(demo):
+    with pytest.raises(ValueError, match='200'):
+        evaluate(demo, 'suya', budget_ngn=100000, protein_target_g=0, preference='x'*201)
