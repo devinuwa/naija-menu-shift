@@ -1,1 +1,65 @@
-IiIiUmVmZXJlbmNlIGludGVncml0eSBhbmQgcmVhZC1vbmx5IFN0cmVhbWxpdCBldmlkZW5jZSBicm93c2VyLiIiIgppbXBvcnQgY3N2CmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAoKaW1wb3J0IHB5dGVzdApmcm9tIHN0cmVhbWxpdC50ZXN0aW5nLnYxIGltcG9ydCBBcHBUZXN0Cgpmcm9tIG1lbnVzaGlmdC5ldmlkZW5jZV9jYXRhbG9nIGltcG9ydCBsb2FkX251dHJpdGlvbl9yZWZlcmVuY2VzLCBsb2FkX3dmcF9wcmljZV9zbmFwc2hvdHMKClJPT1QgPSBQYXRoKF9fZmlsZV9fKS5yZXNvbHZlKCkucGFyZW50c1sxXQpDVVJBVEVEID0gUk9PVCAvICJkYXRhIiAvICJjdXJhdGVkIgoKCmRlZiB0ZXN0X3NvdXJjZV9jb3VudHNfYW5kX25vX3JlY2lwZV9hdXRvX2FwcHJvdmFsKCk6CiAgICByb3dzID0gbG9hZF9udXRyaXRpb25fcmVmZXJlbmNlcygpCiAgICBhc3NlcnQgbGVuKHJvd3MpID09IDE1CiAgICBrZXlzID0ge3JbInJlZmVyZW5jZV9pZCJdIGZvciByIGluIHJvd3N9CiAgICBhc3NlcnQgIldBRkNUMjAxOTowM18wMDQiIGluIGtleXMKICAgIGFzc2VydCAiVVNEQToxNzI0NzUiIGluIGtleXMKICAgIGFzc2VydCAiVVNEQToxNzQyNjgiIGluIGtleXMKICAgIGFzc2VydCBhbGwoclsibG9jYWxfcmVjaXBlX2FwcHJvdmVkIl0gPT0gIm5vIiBmb3IgciBpbiByb3dzKQogICAgYXNzZXJ0IG5vdCBhbnkoIlZjaHVua3MiIGluIHJbImZvb2RfbmFtZSJdIGZvciByIGluIHJvd3MpCgoKZGVmIHRlc3Rfd2ZwX3Njb3BlX2FuZF91bml0X25vcm1hbGl6YXRpb24oKToKICAgIHJvd3MgPSBsb2FkX3dmcF9wcmljZV9zbmFwc2hvdHMoKQogICAgYXNzZXJ0IGxlbihyb3dzKSA9PSAyOAogICAgYXNzZXJ0IHtyWyJzdGF0ZSJdIGZvciByIGluIHJvd3N9ID09IHsiQm9ybm8iLCAiWW9iZSJ9CiAgICBhc3NlcnQge3JbIm1vbnRoIl0gZm9yIHIgaW4gcm93c30gPT0geyIyMDI2LTEwIiwgIjIwMjYtMTEifQogICAgYXNzZXJ0IGFsbChyWyJwcmljZWZsYWciXSA9PSAiYWdncmVnYXRlIiBmb3IgciBpbiByb3dzKQogICAgYmVlZiA9IG5leHQociBmb3IgciBpbiByb3dzIGlmIHJbIm1vbnRoIl0gPT0gIjIwMjYtMTEiCiAgICAgICAgICAgICAgICBhbmQgclsic3RhdGUiXSA9PSAiQm9ybm8iIGFuZCByWyJjb21tb2RpdHkiXSA9PSAiTWVhdCAoYmVlZikiKQogICAgYXNzZXJ0IGZsb2F0KGJlZWZbIm1lZGlhbl9uZ25fcGVyX2tnIl0pID09IDY1MDAKICAgIGFzc2VydCBhbGwobm90IHJbIm1lZGlhbl9uZ25fcGVyX2tnIl0gZm9yIHIgaW4gcm93cyBpZiByWyJvcmlnaW5hbF91bml0Il0gPT0gIkwiKQoKCmRlZiB0ZXN0X2R1cGxpY2F0ZV9zY2hlbWFfcmVqZWN0ZWQodG1wX3BhdGgpOgogICAgaGVhZGVyID0gKENVUkFURUQgLyAibnV0cml0aW9uX3JlZmVyZW5jZXMuY3N2IikucmVhZF90ZXh0KCkuc3BsaXRsaW5lcygpWzBdCiAgICAodG1wX3BhdGggLyAibnV0cml0aW9uX3JlZmVyZW5jZXMuY3N2Iikud3JpdGVfdGV4dCgKICAgICAgICBoZWFkZXIucmVwbGFjZSgicmVmZXJlbmNlX2lkLHNvdXJjZSIsICJyZWZlcmVuY2VfaWQscmVmZXJlbmNlX2lkIikgKyAiXG4iLAogICAgICAgIGVuY29kaW5nPSJ1dGYtOCIsCiAgICApCiAgICB3aXRoIHB5dGVzdC5yYWlzZXMoVmFsdWVFcnJvciwgbWF0Y2g9ImNvbHVtbnMiKToKICAgICAgICBsb2FkX251dHJpdGlvbl9yZWZlcmVuY2VzKHRtcF9wYXRoKQoKCmRlZiB0ZXN0X3NvdXJjZV9yZWZlcmVuY2VfY2Fubm90X2NsYWltX2tpdGNoZW5fYXBwcm92YWwodG1wX3BhdGgpOgogICAgd2l0aCAoQ1VSQVRFRCAvICJudXRyaXRpb25fcmVmZXJlbmNlcy5jc3YiKS5vcGVuKGVuY29kaW5nPSJ1dGYtOCIsIG5ld2xpbmU9IiIpIGFzIHNyYzoKICAgICAgICByb3dzID0gbGlzdChjc3YuRGljdFJlYWRlcihzcmMpKQogICAgcm93ID0gZGljdChyb3dzWzBdKQogICAgcm93WyJsb2NhbF9yZWNpcGVfYXBwcm92ZWQiXSA9ICJ5ZXMiCiAgICB3aXRoICh0bXBfcGF0aCAvICJudXRyaXRpb25fcmVmZXJlbmNlcy5jc3YiKS5vcGVuKCJ3IiwgbmV3bGluZT0iIiwgZW5jb2Rpbmc9InV0Zi04IikgYXMgb3V0OgogICAgICAgIHdyaXRlciA9IGNzdi5EaWN0V3JpdGVyKG91dCwgZmllbGRuYW1lcz1saXN0KHJvdykpCiAgICAgICAgd3JpdGVyLndyaXRlaGVhZGVyKCkKICAgICAgICB3cml0ZXIud3JpdGVyb3cocm93KQogICAgd2l0aCBweXRlc3QucmFpc2VzKFZhbHVlRXJyb3IsIG1hdGNoPSJtdXN0IG5vdCBjbGFpbSIpOgogICAgICAgIGxvYWRfbnV0cml0aW9uX3JlZmVyZW5jZXModG1wX3BhdGgpCgoKZGVmIHRlc3RfbGlicmFyeV9hcHBfcmVuZGVyc193aXRob3V0X2V4Y2VwdGlvbnMoKToKICAgIGFwcCA9IEFwcFRlc3QuZnJvbV9maWxlKHN0cihST09UIC8gInBhZ2VzIiAvICIyX0V2aWRlbmNlX0xpYnJhcnkucHkiKSwgZGVmYXVsdF90aW1lb3V0PTMwKS5ydW4oKQogICAgYXNzZXJ0IG5vdCBhcHAuZXhjZXB0aW9uCiAgICBhc3NlcnQgYW55KCJFdmlkZW5jZSBMaWJyYXJ5IiBpbiB0aXRsZS52YWx1ZSBmb3IgdGl0bGUgaW4gYXBwLnRpdGxlKQogICAgYXNzZXJ0IGFwcC53YXJuaW5nCiAgICBhc3NlcnQgYW55KCJGb29kIGNvbXBvc2l0aW9uIiBpbiB0aXRsZS52YWx1ZSBmb3IgdGl0bGUgaW4gYXBwLnN1YmhlYWRlcikK
+"""Reference integrity and read-only Streamlit evidence browser."""
+import csv
+from pathlib import Path
+
+import pytest
+from streamlit.testing.v1 import AppTest
+
+from menushift.evidence_catalog import load_nutrition_references, load_wfp_price_snapshots
+
+ROOT = Path(__file__).resolve().parents[1]
+CURATED = ROOT / "data" / "curated"
+
+
+def test_source_counts_and_no_recipe_auto_approval():
+    rows = load_nutrition_references()
+    assert len(rows) == 15
+    keys = {r["reference_id"] for r in rows}
+    assert "WAFCT2019:03_004" in keys
+    assert "USDA:172475" in keys
+    assert "USDA:174268" in keys
+    assert all(r["local_recipe_approved"] == "no" for r in rows)
+    assert not any("Vchunks" in r["food_name"] for r in rows)
+
+
+def test_wfp_scope_and_unit_normalization():
+    rows = load_wfp_price_snapshots()
+    assert len(rows) == 28
+    assert {r["state"] for r in rows} == {"Borno", "Yobe"}
+    assert {r["month"] for r in rows} == {"2026-10", "2026-11"}
+    assert all(r["priceflag"] == "aggregate" for r in rows)
+    beef = next(r for r in rows if r["month"] == "2026-11"
+                and r["state"] == "Borno" and r["commodity"] == "Meat (beef)")
+    assert float(beef["median_ngn_per_kg"]) == 6500
+    assert all(not r["median_ngn_per_kg"] for r in rows if r["original_unit"] == "L")
+
+
+def test_duplicate_schema_rejected(tmp_path):
+    header = (CURATED / "nutrition_references.csv").read_text().splitlines()[0]
+    (tmp_path / "nutrition_references.csv").write_text(
+        header.replace("reference_id,source", "reference_id,reference_id") + "\n",
+        encoding="utf-8",
+    )
+    with pytest.raises(ValueError, match="columns"):
+        load_nutrition_references(tmp_path)
+
+
+def test_source_reference_cannot_claim_kitchen_approval(tmp_path):
+    with (CURATED / "nutrition_references.csv").open(encoding="utf-8", newline="") as src:
+        rows = list(csv.DictReader(src))
+    row = dict(rows[0])
+    row["local_recipe_approved"] = "yes"
+    with (tmp_path / "nutrition_references.csv").open("w", newline="", encoding="utf-8") as out:
+        writer = csv.DictWriter(out, fieldnames=list(row))
+        writer.writeheader()
+        writer.writerow(row)
+    with pytest.raises(ValueError, match="must not claim"):
+        load_nutrition_references(tmp_path)
+
+
+def test_library_app_renders_without_exceptions():
+    app = AppTest.from_file(str(ROOT / "pages" / "2_Evidence_Library.py"), default_timeout=30).run()
+    assert not app.exception
+    assert any("Evidence Library" in title.value for title in app.title)
+    assert app.warning
+    assert any("Food composition" in title.value for title in app.subheader)
