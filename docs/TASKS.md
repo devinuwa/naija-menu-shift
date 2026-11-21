@@ -1,1 +1,35 @@
-IyBUZWFtIGFjdGlvbiBib2FyZCDigJQgMTLigJMxMyBOb3ZlbWJlciAyMDI2CgoqKlN0YXR1cyBhdCBwYWNrYWdlIGNyZWF0aW9uOioqIGNvZGUgc2NhZmZvbGRpbmcgYW5kIHN5bnRoZXRpYyBjaGVja3MgY29tcGxldGUgbG9jYWxseTsgcmVhbCBzb3VyY2UgZGF0YSBhbmQgZW5kLXVzZXIgdmFsaWRhdGlvbiBhcmUgb3V0c3RhbmRpbmcuIFRoaXMgaXMgbm90IGEgcmVjb3JkIG9mIGNvbXBsZXRlZCB0ZWFtIHZhbGlkYXRpb24uCgojIyBJYnJhaGltIOKAlCBjb3N0L2NvZGUgaW50ZWdyYXRpb24KLSBbeF0gR2VuZXJhbC1wdXJwb3NlIHJlcG9zaXRvcnkgc3RydWN0dXJlLCBkYXRhIGZpbGVzIGFuZCBjb3N0IGZvcm11bGFzIChsb2NhbCBzdGFydGVyKS4KLSBbeF0gU2VwYXJhdGUgYmVlZiByZWZlcmVuY2U7IGNoZWFwZXN0LW9ubHkgYW5kIGNoZWFwZXN0LWZlYXNpYmxlIGJhc2VsaW5lcy4KLSBbeF0gwrEyMCUgcHJpY2Ugc2NlbmFyaW9zIGFuZCBhdXRvbWF0ZWQgZml4dHVyZSB0ZXN0cy4KLSBbIF0gUmV2aWV3IGFjdHVhbCBwcmljZS91bml0IHNvdXJjZSBkZXRhaWxzIHdpdGggQW1pbmEgYW5kIGludGVncmF0ZSBoZXIgdmFsaWRhdGVkIGRhdGFzZXQuCi0gWyBdIFJlLXJ1biB0ZXN0cyBhbmQgY2hlY2sgc2NlbmFyaW9zIHdpdGggcmVhbGlzdGljIGJ1ZGdldHMvcHJvdGVpbiB0YXJnZXRzLgotIFt4XSBDcmVhdGUgcHJpdmF0ZSBHaXRIdWIgcmVwb3NpdG9yeSBhbmQgc2VuZCBpbnZpdGVzIChyZXBvcnRlZCBieSBvd25lcikuCi0gWyBdIFZlcmlmeSBmaXJzdCByZW1vdGUgcHVzaCwgQ0kgYW5kIGNvbGxhYm9yYXRvciBhY2NlcHRhbmNlLgoKIyMgTXVoYW1tYWQgSW51d2Eg4oCUIHJhbmtpbmcsIFN0cmVhbWxpdCBhbmQgcHJlc2VudGF0aW9uCi0gW3hdIFN0YXJ0ZXIgU3RyZWFtbGl0IGFwcCwgcmVzdWx0cyB0YWJsZSwgY29zdCBjaGFydCwgcmF0aW9uYWxlIGFuZCB0ZXh0LXJldHJpZXZhbCBzY29yaW5nIGluY2x1ZGVkIGFzIHNjYWZmb2xkaW5nLgotIFt4XSBDb21wYXJlIGtleXdvcmQgYW5kIFRGLUlERiBoeWJyaWRzIHdpdGggY2hlYXBlc3QgYmFzZWxpbmVzIG9uIGEgZnJvemVuIHN5bnRoZXRpYyBzZXQuIFdlaWdodHMgc3RheSA0NS8yNS8xNS8xNTsgdGhhdCBzZXQgZG9lcyBub3QganVzdGlmeSByZXR1bmluZy4gU2VlIGBkb2NzL0VWQUxVQVRJT05fUFJPVE9DT0wubWRgLgotIFt4XSBEZWNpc2lvbiBzdHVkaW8gc2hvd3MgY29zdCBzcGxpdCwgcHJvdGVpbiwgYmVlZiBhcyBhIHJlZmVyZW5jZSwgcmFua2VyIGRpc2FncmVlbWVudCwgYW5kIGVtcHR5IHN0YXRlcyBmb3Igbm8tZmVhc2libGUgYW5kIG1pc3NpbmcgcmVzZWFyY2ggZmlsZXMuCi0gW3hdIEtleXdvcmQgb3ZlcmxhcCBpcyB0aGUgdHJhbnNwYXJlbnQgYmFzZWxpbmUgYmVzaWRlIGV4cGVyaW1lbnRhbCBURi1JREYuIFRoZSBjcmlzcHktZnJpZWQgY2FzZSBpcyBhIHJlY29yZGVkIGRpc2FncmVlbWVudCwgbm90IGEgdGFzdGUgcmVzdWx0LgotIFt4XSBUaHJlZSB1c2VmdWwgc3ludGhldGljIGNhc2VzIHBsdXMgb25lIGltcG9zc2libGUgYnVkZ2V0IGFyZSBwcmVzZXRzIGluIHRoZSBhcHAgYW5kIHJlY29yZGVkIGluIGBkb2NzL0VWQUxVQVRJT05fUFJPVE9DT0wubWRgLgoKIyMgQW1pbmEg4oCUIHJlc2VhcmNoLCBzb3VyY2VzIGFuZCB2YWxpZGF0aW9uCi0gW3hdIERhdGEgc2NoZW1hIGFuZCBlZGl0YWJsZSBibGFua3MgcHJlcGFyZWQgaW4gYGRhdGEvdmVyaWZpZWRgLgotIFsgXSBDb25maXJtIHByb2JsZW0gc3RhdGVtZW50IGFuZCB1c2VyIHN1Y2Nlc3MgbWV0cmljLgotIFsgXSBTb3VyY2UvZGF0ZS9sb2NhdGlvbiBvZiBiZWVmLCB0b2Z1IGFuZCBwcmVwYXJhdGlvbiBpbmdyZWRpZW50IHByaWNlICpyYW5nZXMqLgotIFsgXSBTb3VyY2UgcHJvdGVpbiwgaXJvbiBhbmQgemluYyBwZXIgMTAwZyAqKmZvciBleGFjdCBmb29kIHN0YXRlKiouCi0gWyBdIFByb3ZpZGUgcHVyY2hhc2UgYW5kIGZpbmlzaGVkIHdlaWdodHMsIGVuZXJneS9mdWVsLCBjb29raW5nIG9pbCBhbmQgc2VydmluZ3MuCi0gWyBdIFJldmlldyB0b29sIGNhbGN1bGF0aW9ucywgZG9jdW1lbnQgdW5jZXJ0YWludGllcyBhbmQgY2hlZi9yZXN0YXVyYW50IGZlZWRiYWNrLgoKIyMgV2hvbGUgdGVhbSDigJQgYmVmb3JlIGhhY2thdGhvbgotIFsgXSBBZ3JlZSBzaW5nbGUtc2VydmluZyBkZWZpbml0aW9uIGFuZCBudXRyaXRpb25hbC9wcmljZSBub3JtYWxpemF0aW9uLgotIFsgXSBBc2sgb3JnYW5pc2VycyBhYm91dCBwcmUtZXZlbnQgY29kaW5nL2J1aWxkaW5nIHJ1bGVzIGFuZCBmaW5hbCBkZWxpdmVyYWJsZXMuCi0gWyBdIFNlY3VyZSBhdCBsZWFzdCBvbmUga2l0Y2hlbi9mb29kIGRvbWFpbiByZXZpZXdlci4KLSBbIF0gRGVmaW5lIHN1Y2Nlc3Mgb24gcmVhbCBkYXRhOyByZWNvcmQgdGVzdHMgYW5kIGxpbWl0YXRpb25zLgotIFsgXSBEZWNpZGUgd2hldGhlciB0byBleHBhbmQgdG8gYSBzZWNvbmQgZGlzaCAqKm9ubHkgYWZ0ZXIqKiB0aGUgY29tcGxldGUgc3V5YSBwYXRoIGlzIHRlc3RhYmxlLgotIFsgXSBSZWhlYXJzZSBhIDPigJM1IG1pbnV0ZSBwaXRjaCBzaG93aW5nIG9uZSByZWFsIGNvbnN0cmFpbnQgc2hpZnQgYW5kIGhvbmVzdCBjYXZlYXRzLgo=
+# Team action board — 12–13 November 2026
+
+**Status at package creation:** code scaffolding and synthetic checks complete locally; real source data and end-user validation are outstanding. This is not a record of completed team validation.
+
+## Ibrahim — cost/code integration
+- [x] General-purpose repository structure, data files and cost formulas (local starter).
+- [x] Separate beef reference; cheapest-only and cheapest-feasible baselines.
+- [x] ±20% price scenarios and automated fixture tests.
+- [ ] Review actual price/unit source details with Amina and integrate her validated dataset.
+- [ ] Re-run tests and check scenarios with realistic budgets/protein targets.
+- [x] Create private GitHub repository and send invites (reported by owner).
+- [ ] Verify first remote push, CI and collaborator acceptance.
+
+## Muhammad Inuwa — ranking, Streamlit and presentation
+- [x] Starter Streamlit app, results table, cost chart, rationale and text-retrieval scoring included as scaffolding.
+- [x] Compare keyword and TF-IDF hybrids with cheapest baselines on a frozen synthetic set. Weights stay 45/25/15/15; that set does not justify retuning. See `docs/EVALUATION_PROTOCOL.md`.
+- [x] Decision studio shows cost split, protein, beef as a reference, ranker disagreement, and empty states for no-feasible and missing research files.
+- [x] Keyword overlap is the transparent baseline beside experimental TF-IDF. The crispy-fried case is a recorded disagreement, not a taste result.
+- [x] Three useful synthetic cases plus one impossible budget are presets in the app and recorded in `docs/EVALUATION_PROTOCOL.md`.
+
+## Amina — research, sources and validation
+- [x] Data schema and editable blanks prepared in `data/verified`.
+- [ ] Confirm problem statement and user success metric.
+- [ ] Source/date/location of beef, tofu and preparation ingredient price *ranges*.
+- [ ] Source protein, iron and zinc per 100g **for exact food state**.
+- [ ] Provide purchase and finished weights, energy/fuel, cooking oil and servings.
+- [ ] Review tool calculations, document uncertainties and chef/restaurant feedback.
+
+## Whole team — before hackathon
+- [ ] Agree single-serving definition and nutritional/price normalization.
+- [ ] Ask organisers about pre-event coding/building rules and final deliverables.
+- [ ] Secure at least one kitchen/food domain reviewer.
+- [ ] Define success on real data; record tests and limitations.
+- [ ] Decide whether to expand to a second dish **only after** the complete suya path is testable.
+- [ ] Rehearse a 3–5 minute pitch showing one real constraint shift and honest caveats.
