@@ -1,1 +1,80 @@
-IiIiRnJvemVuIHN5bnRoZXRpYyBkZWNpc2lvbiBjYXNlcyBmb3IgdGhlIHJlY29tbWVuZGF0aW9uIGJlbmNobWFyay4KClRoZXNlIHJvd3MgdXNlIHRoZSBmaWN0aW9uYWwgZGVtbyBkYXRhc2V0LiBUaGV5IGFyZSBhIHJlcHJvZHVjaWJsZSB0ZXN0IG1hdHJpeCwKbm90IHJlc3RhdXJhbnQgb2JzZXJ2YXRpb25zIGFuZCBub3QgYSBsaWNlbnNlIHRvIHJldHVuZSB3ZWlnaHRzLgoiIiIKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKZnJvbSBkYXRhY2xhc3NlcyBpbXBvcnQgZGF0YWNsYXNzCgoKQGRhdGFjbGFzcyhmcm96ZW49VHJ1ZSkKY2xhc3MgU2NlbmFyaW86CiAgICBzY2VuYXJpb19pZDogc3RyCiAgICBsYWJlbDogc3RyCiAgICBub3RlOiBzdHIKICAgIGJ1ZGdldF9uZ246IGZsb2F0CiAgICBwcm90ZWluX3RhcmdldF9nOiBmbG9hdAogICAgbWF4X3ByZXBfbWludXRlczogZmxvYXQKICAgIHByZWZlcmVuY2U6IHN0cgogICAgYXZvaWRfYWxsZXJnZW5zOiB0dXBsZVtzdHIsIC4uLl0gPSAoKQogICAgZXhwZWN0c19mZWFzaWJsZTogYm9vbCA9IFRydWUKCiAgICBkZWYgYXNfY29uc3RyYWludHMoc2VsZikgLT4gZGljdDoKICAgICAgICByZXR1cm4gewogICAgICAgICAgICAiYnVkZ2V0X25nbiI6IHNlbGYuYnVkZ2V0X25nbiwKICAgICAgICAgICAgInByb3RlaW5fdGFyZ2V0X2ciOiBzZWxmLnByb3RlaW5fdGFyZ2V0X2csCiAgICAgICAgICAgICJtYXhfcHJlcF9taW51dGVzIjogc2VsZi5tYXhfcHJlcF9taW51dGVzLAogICAgICAgICAgICAicHJlZmVyZW5jZSI6IHNlbGYucHJlZmVyZW5jZSwKICAgICAgICAgICAgImF2b2lkX2FsbGVyZ2VucyI6IHNlbGYuYXZvaWRfYWxsZXJnZW5zLAogICAgICAgIH0KCgojIFdlaWdodHMgc3RheSA0NSUgY29zdCwgMjUlIHByb3RlaW4sIDE1JSB0aW1lLCAxNSUgdGV4dC4gRG8gbm90IGVkaXQgdGhpcyB0dXBsZQojIHRvIGNoYXNlIGEgcHJlZmVycmVkIHdpbm5lcjsgYWRkIGEgbmV3IGRhdGVkIHNldCBpbnN0ZWFkLgpTWU5USEVUSUNfU0NFTkFSSU9TOiB0dXBsZVtTY2VuYXJpbywgLi4uXSA9ICgKICAgIFNjZW5hcmlvKAogICAgICAgIHNjZW5hcmlvX2lkPSJub3JtYWxfc2VydmluZyIsCiAgICAgICAgbGFiZWw9Ik5vcm1hbCBzZXJ2aW5nIiwKICAgICAgICBub3RlPSJTeW50aGV0aWMgZGVtby4gQnVkZ2V0IDE1MDAgbmFpcmEsIDEwIGcgZXN0aW1hdGVkIHByb3RlaW4sIDEyMCBtaW51dGVzLCBwcmVmZXJlbmNlICdjaGV3eSBzbW9reSBncmlsbGVkJy4gQm90aCB0ZXh0IG1ldGhvZHMgcGljayBwcmVzc2VkIHRvZnUgb3ZlciB0aGUgY2hlYXBlciBwbGFpbiBvcHRpb24uIiwKICAgICAgICBidWRnZXRfbmduPTE1MDAsCiAgICAgICAgcHJvdGVpbl90YXJnZXRfZz0xMCwKICAgICAgICBtYXhfcHJlcF9taW51dGVzPTEyMCwKICAgICAgICBwcmVmZXJlbmNlPSJjaGV3eSBzbW9reSBncmlsbGVkIiwKICAgICksCiAgICBTY2VuYXJpbygKICAgICAgICBzY2VuYXJpb19pZD0icHJlZmVyZW5jZV9zaGlmdCIsCiAgICAgICAgbGFiZWw9IkNyaXNweSBmcmllZCBwcmVmZXJlbmNlIiwKICAgICAgICBub3RlPSJTeW50aGV0aWMgZGVtby4gV2lkZSBidWRnZXQgYW5kIHByZWZlcmVuY2UgJ2NyaXNweSBmcmllZCcuIEtleXdvcmQgb3ZlcmxhcCBzZWxlY3RzIGZyaWVkIHRvZnUuIFRGLUlERiBzdGlsbCBzZWxlY3RzIHRoZSBjaGVhcGVyIHBsYWluIG9wdGlvbi4iLAogICAgICAgIGJ1ZGdldF9uZ249NTAwMCwKICAgICAgICBwcm90ZWluX3RhcmdldF9nPTUsCiAgICAgICAgbWF4X3ByZXBfbWludXRlcz0xODAsCiAgICAgICAgcHJlZmVyZW5jZT0iY3Jpc3B5IGZyaWVkIiwKICAgICksCiAgICBTY2VuYXJpbygKICAgICAgICBzY2VuYXJpb19pZD0ic2hvcnRfcHJlcCIsCiAgICAgICAgbGFiZWw9IlNob3J0IHByZXBhcmF0aW9uIHdpbmRvdyIsCiAgICAgICAgbm90ZT0iU3ludGhldGljIGRlbW8uIEEgNDAgbWludXRlIGxpbWl0IGxlYXZlcyBvbmx5IHRoZSBmYXN0ZXIgcGxhbnQgb3B0aW9uIGVsaWdpYmxlLiIsCiAgICAgICAgYnVkZ2V0X25nbj01MDAwLAogICAgICAgIHByb3RlaW5fdGFyZ2V0X2c9NSwKICAgICAgICBtYXhfcHJlcF9taW51dGVzPTQwLAogICAgICAgIHByZWZlcmVuY2U9ImNoZXd5IHNtb2t5IGdyaWxsZWQiLAogICAgKSwKICAgIFNjZW5hcmlvKAogICAgICAgIHNjZW5hcmlvX2lkPSJub19mZWFzaWJsZSIsCiAgICAgICAgbGFiZWw9Ik5vIGZlYXNpYmxlIHBsYW50IG9wdGlvbiIsCiAgICAgICAgbm90ZT0iU3ludGhldGljIGRlbW8uIEEg4oKmMSBidWRnZXQgaXMgYmVsb3cgZXZlcnkgcGxhbnQgc2VydmluZy4gRXZlcnkgcmFua2VyIG11c3QgYWJzdGFpbi4gQmVlZiBzdGF5cyBhIHJlZmVyZW5jZS4iLAogICAgICAgIGJ1ZGdldF9uZ249MSwKICAgICAgICBwcm90ZWluX3RhcmdldF9nPTEwLAogICAgICAgIG1heF9wcmVwX21pbnV0ZXM9MTIwLAogICAgICAgIHByZWZlcmVuY2U9ImNoZXd5IHNtb2t5IGdyaWxsZWQiLAogICAgICAgIGV4cGVjdHNfZmVhc2libGU9RmFsc2UsCiAgICApLAopCgoKZGVmIHNjZW5hcmlvX2J5X2lkKHNjZW5hcmlvX2lkOiBzdHIpIC0+IFNjZW5hcmlvOgogICAgZm9yIHNjZW5hcmlvIGluIFNZTlRIRVRJQ19TQ0VOQVJJT1M6CiAgICAgICAgaWYgc2NlbmFyaW8uc2NlbmFyaW9faWQgPT0gc2NlbmFyaW9faWQ6CiAgICAgICAgICAgIHJldHVybiBzY2VuYXJpbwogICAgcmFpc2UgS2V5RXJyb3Ioc2NlbmFyaW9faWQpCg==
+"""Frozen synthetic decision cases for the recommendation benchmark.
+
+These rows use the fictional demo dataset. They are a reproducible test matrix,
+not restaurant observations and not a license to retune weights.
+"""
+from __future__ import annotations
+
+from dataclasses import dataclass
+
+
+@dataclass(frozen=True)
+class Scenario:
+    scenario_id: str
+    label: str
+    note: str
+    budget_ngn: float
+    protein_target_g: float
+    max_prep_minutes: float
+    preference: str
+    avoid_allergens: tuple[str, ...] = ()
+    expects_feasible: bool = True
+
+    def as_constraints(self) -> dict:
+        return {
+            "budget_ngn": self.budget_ngn,
+            "protein_target_g": self.protein_target_g,
+            "max_prep_minutes": self.max_prep_minutes,
+            "preference": self.preference,
+            "avoid_allergens": self.avoid_allergens,
+        }
+
+
+# Weights stay 45% cost, 25% protein, 15% time, 15% text. Do not edit this tuple
+# to chase a preferred winner; add a new dated set instead.
+SYNTHETIC_SCENARIOS: tuple[Scenario, ...] = (
+    Scenario(
+        scenario_id="normal_serving",
+        label="Normal serving",
+        note="Synthetic demo. Budget 1500 naira, 10 g estimated protein, 120 minutes, preference 'chewy smoky grilled'. Both text methods pick pressed tofu over the cheaper plain option.",
+        budget_ngn=1500,
+        protein_target_g=10,
+        max_prep_minutes=120,
+        preference="chewy smoky grilled",
+    ),
+    Scenario(
+        scenario_id="preference_shift",
+        label="Crispy fried preference",
+        note="Synthetic demo. Wide budget and preference 'crispy fried'. Keyword overlap selects fried tofu. TF-IDF still selects the cheaper plain option.",
+        budget_ngn=5000,
+        protein_target_g=5,
+        max_prep_minutes=180,
+        preference="crispy fried",
+    ),
+    Scenario(
+        scenario_id="short_prep",
+        label="Short preparation window",
+        note="Synthetic demo. A 40 minute limit leaves only the faster plant option eligible.",
+        budget_ngn=5000,
+        protein_target_g=5,
+        max_prep_minutes=40,
+        preference="chewy smoky grilled",
+    ),
+    Scenario(
+        scenario_id="no_feasible",
+        label="No feasible plant option",
+        note="Synthetic demo. A ₦1 budget is below every plant serving. Every ranker must abstain. Beef stays a reference.",
+        budget_ngn=1,
+        protein_target_g=10,
+        max_prep_minutes=120,
+        preference="chewy smoky grilled",
+        expects_feasible=False,
+    ),
+)
+
+
+def scenario_by_id(scenario_id: str) -> Scenario:
+    for scenario in SYNTHETIC_SCENARIOS:
+        if scenario.scenario_id == scenario_id:
+            return scenario
+    raise KeyError(scenario_id)
