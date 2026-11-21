@@ -1,1 +1,49 @@
-ewogICJhcmNoaXZlIjogIk1lbnVTaGlmdCBEYXRhc2V0cyBQYWNrLnppcCIsCiAgInN1cHBsaWVkX2J5IjogIk11aGFtbWFkIEludXdhIiwKICAicmV2aWV3ZWRfb24iOiAiMjAyNi0xMS0yMCIsCiAgImFyY2hpdmVfc2hhMjU2IjogIjI4NDdlODliMDg1ZTRlMDU2ZmNhMTdjY2M2ZGI3YWFkZmNjNGMwM2M5MDExN2M3YmM2OGNjMGQ4MWUxYTcxNmMiLAogICJudXRyaXRpb25fcmVmZXJlbmNlX3Jvd3MiOiAxNSwKICAiaGlzdG9yaWNhbF93ZnBfc25hcHNob3RzIjogMjgsCiAgInNvdXJjZXMiOiBbCiAgICB7CiAgICAgICJrZXkiOiAiRkFPIiwKICAgICAgImlucHV0IjogIldBRkNUXzIwMTkueGxzeCIsCiAgICAgICJzdGF0dXMiOiAiY3VyYXRlZCByZWZlcmVuY2Ugb25seSIsCiAgICAgICJ1cmwiOiAiaHR0cHM6Ly93d3cuZmFvLm9yZy9pbmZvb2RzL2luZm9vZHMvdGFibGVzLWFuZC1kYXRhYmFzZXMvZmFvaW5mb29kcy1kYXRhYmFzZXMvZW4iCiAgICB9LAogICAgewogICAgICAia2V5IjogIlVTREEiLAogICAgICAiaW5wdXQiOiAidXNkYV9yZWxldmFudF9mb29kcy5jc3YiLAogICAgICAic3RhdHVzIjogImN1cmF0ZWQgcmVmZXJlbmNlIG9ubHkiLAogICAgICAidXJsIjogImh0dHBzOi8vZmRjLm5hbC51c2RhLmdvdi8iCiAgICB9LAogICAgewogICAgICAia2V5IjogIldGUCIsCiAgICAgICJpbnB1dCI6ICJ3ZnBfZm9vZF9wcmljZXNfbmlnZXJpYS5jc3YiLAogICAgICAic3RhdHVzIjogInJlZ2lvbmFsIGhpc3RvcmljYWwgYWdncmVnYXRlIG9ubHkiLAogICAgICAidXJsIjogImh0dHBzOi8vZGF0YS5odW1kYXRhLm9yZy9kYXRhc2V0L3dmcC1mb29kLXByaWNlcy1mb3ItbmlnZXJpYSIKICAgIH0sCiAgICB7CiAgICAgICJrZXkiOiAiTkJTIiwKICAgICAgImlucHV0IjogIlNlbGVjdGVkX0Zvb2RfUmVwb3J0X01heTIwMjYuemlwIiwKICAgICAgInN0YXR1cyI6ICJleGlzdGluZyBwcm9qZWN0IE5CUyBoaXN0b3JpY2FsIHJlZmVyZW5jZXMgcmV0YWluZWQ7IG5vIG5ldyBwcmljZXMgYWN0aXZhdGVkIiwKICAgICAgInVybCI6ICJodHRwczovL21pY3JvZGF0YS5uaWdlcmlhbnN0YXQuZ292Lm5nL2luZGV4LnBocC9jYXRhbG9nLzE2MiIKICAgIH0sCiAgICB7CiAgICAgICJrZXkiOiAiSEVTVElBIiwKICAgICAgImlucHV0IjogImltcGFjdHNfMjAyNi0wNC0zMC5wYXJxdWV0IiwKICAgICAgInN0YXR1cyI6ICJlbnZpcm9ubWVudGFsIGxpZmUtY3ljbGUgbWV0cmljcyB3aXRoaGVsZCB1bnRpbCBjb21wYXJhYmxlIHVuaXRzIGFuZCBib3VuZGFyaWVzIiwKICAgICAgInVybCI6ICJodHRwczovL3JlZ2lzdHJ5Lm9wZW5kYXRhLmF3cy9oZXN0aWEvIgogICAgfSwKICAgIHsKICAgICAgImtleSI6ICJPcGVuIEZvb2QgRmFjdHMiLAogICAgICAiaW5wdXQiOiAib2ZmX25pZ2VyaWFfcHJvZHVjdHMuY3N2IiwKICAgICAgInN0YXR1cyI6ICJ3aXRoaGVsZCBwZW5kaW5nIHZlcmlmaWNhdGlvbiBhbmQgT0RiTCByZXVzZSBhc3Nlc3NtZW50IiwKICAgICAgInVybCI6ICJodHRwczovL3dvcmxkLm9wZW5mb29kZmFjdHMub3JnL2RhdGEiCiAgICB9CiAgXSwKICAiYXV0b19wcm9tb3RlX3RvX3JlY29tbWVuZGF0aW9ucyI6IGZhbHNlLAogICJhcHByb3ZlZF9maW5pc2hlZF9yZWNpcGVzIjogMCwKICAibm90ZXMiOiAiQ3VyYXRlZCByb3dzIGFyZSBzZWxlY3RlZCBleGNlcnB0cyB3aXRoIGV4YWN0IGZvb2Qgc3RhdGVzIGFuZCByZXRhaW5lZCBoaXN0b3JpYyBzY29wZS4gT3JpZ2luYWwgWklQIGlzIG5vdCBjb21taXR0ZWQuIgp9Cg==
+{
+  "archive": "MenuShift Datasets Pack.zip",
+  "supplied_by": "Muhammad Inuwa",
+  "reviewed_on": "2026-11-20",
+  "archive_sha256": "2847e89b085e4e056fca17ccc6db7aadfcc4c03c90117c7bc68cc0d81e1a716c",
+  "nutrition_reference_rows": 15,
+  "historical_wfp_snapshots": 28,
+  "sources": [
+    {
+      "key": "FAO",
+      "input": "WAFCT_2019.xlsx",
+      "status": "curated reference only",
+      "url": "https://www.fao.org/infoods/infoods/tables-and-databases/faoinfoods-databases/en"
+    },
+    {
+      "key": "USDA",
+      "input": "usda_relevant_foods.csv",
+      "status": "curated reference only",
+      "url": "https://fdc.nal.usda.gov/"
+    },
+    {
+      "key": "WFP",
+      "input": "wfp_food_prices_nigeria.csv",
+      "status": "regional historical aggregate only",
+      "url": "https://data.humdata.org/dataset/wfp-food-prices-for-nigeria"
+    },
+    {
+      "key": "NBS",
+      "input": "Selected_Food_Report_May2026.zip",
+      "status": "existing project NBS historical references retained; no new prices activated",
+      "url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/162"
+    },
+    {
+      "key": "HESTIA",
+      "input": "impacts_2026-04-30.parquet",
+      "status": "environmental life-cycle metrics withheld until comparable units and boundaries",
+      "url": "https://registry.opendata.aws/hestia/"
+    },
+    {
+      "key": "Open Food Facts",
+      "input": "off_nigeria_products.csv",
+      "status": "withheld pending verification and ODbL reuse assessment",
+      "url": "https://world.openfoodfacts.org/data"
+    }
+  ],
+  "auto_promote_to_recommendations": false,
+  "approved_finished_recipes": 0,
+  "notes": "Curated rows are selected excerpts with exact food states and retained historic scope. Original ZIP is not committed."
+}
