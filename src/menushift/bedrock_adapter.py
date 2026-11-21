@@ -1,1 +1,76 @@
-IiIiT3B0aW9uYWwgQW1hem9uIEJlZHJvY2sgQ29udmVyc2UgcGxhbm5lcjsgKm5ldmVyKiBjYWxsZWQgb24gU3RyZWFtbGl0IHBhZ2UgbG9hZC4KClVzZXMgdGVtcG9yYXJ5IHdvcmtzaG9wIGNyZWRlbnRpYWxzIGZyb20gdGhlIG5vcm1hbCBBV1MgU0RLIGNyZWRlbnRpYWwgY2hhaW4uCk5vIGtleXMgc3RvcmVkLCBubyBkYXRhIHBlcnNpc3RlbmNlLCBubyBhdXRvbm9tb3VzIGV4dGVybmFsIGFjdGlvbnMuClRlc3RlZCBvbmx5IHdpdGggYSBmYWtlIENvbnZlcnNlIGNsaWVudCB1bnRpbCB3b3Jrc2hvcCBtb2RlbCBhY2Nlc3MgaXMgZ3JhbnRlZC4KIiIiCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmltcG9ydCBqc29uCmZyb20gdHlwaW5nIGltcG9ydCBBbnkKCmZyb20gLmFnZW50X2NvbnRyYWN0IGltcG9ydCBLaXRjaGVuQnJpZWYsIGFsbG93ZWRfcHJvcG9zYWxfc2NoZW1hCgpTWVNURU1fUFJPTVBUID0gKAogICAgIllvdSBhcmUgYSBib3VuZGVkIGZvcm11bGF0aW9uLXByb3Bvc2FsIHBsYW5uZXIgZm9yIGEgTmlnZXJpYW4gZm9vZCByZXNlYXJjaCBwcm90b3R5cGUuICIKICAgICJSZXR1cm4gT05MWSBvbmUgSlNPTiBvYmplY3Qgd2l0aCBrZXkgJ3Byb3Bvc2FscycgZm9sbG93aW5nIHRoZSBzY2hlbWEgZ2l2ZW4gYnkgdGhlIHVzZXIuICIKICAgICJVc2Ugb25seSB0aGUgc3BlY2lmaWVkIGV4aXN0aW5nIG9wdGlvbiBJRHM7IG5vIGFkZGl0aW9uYWwgaW5ncmVkaWVudHMgb3IgbWV0aG9kcy4gIgogICAgIkRvIG5vdCBpbnZlbnQgcHJpY2VzLCBudXRyaWVudHMsIGNvb2tpbmcgdGltZXMsIHNlbnNvcnkgb3V0Y29tZXMsIG1lZGljYWwgY2xhaW1zLCAiCiAgICAiZm9vZC1zYWZldHkgYXBwcm92YWwsIG5ldyBkYXRhIHNvdXJjZXMsIGN1c3RvbWVyIHByZWZlcmVuY2VzIG9yIGluZ3JlZGllbnRzLiAiCiAgICAiWW91IGFyZSBOT1QgZGVjaWRpbmcgcmVjaXBlIGZlYXNpYmlsaXR5LiBBIHNlcGFyYXRlIGxvY2FsIGNhbGN1bGF0b3Igd2lsbCByZWplY3QgIgogICAgImFueXRoaW5nIHRoYXQgZmFpbHMgY29uc3RyYWludHMuIERvIG5vdCBjbGFpbSBhIHJlY2lwZSBpcyBzYWZlIG9yIHJlYWR5IHRvIHNlbGwuICIKICAgICJBdCBtb3N0IHNpeCBwcm9wb3NhbHMgcGVyIGNhbGwsIG5vIGZyZWUtZm9ybSBpbnN0cnVjdGlvbnMgb3V0c2lkZSBKU09OLiIKKQoKCmNsYXNzIEJlZHJvY2tQbGFubmVyOgogICAgIiIiQW4gYWRhcHRlciBmb3IgdGhlIGV2ZW50IHNhbmRib3ggaW4gdXMtZWFzdC0xOyBpbmplY3QgYSBmYWtlIGNsaWVudCBmb3IgdGVzdHMuIiIiCgogICAgZGVmIF9faW5pdF9fKHNlbGYsIG1vZGVsX2lkOiBzdHIsICosIGNsaWVudDogQW55IHwgTm9uZSA9IE5vbmUsIHJlZ2lvbjogc3RyID0gInVzLWVhc3QtMSIpOgogICAgICAgIGlmIHJlZ2lvbiAhPSAidXMtZWFzdC0xIjoKICAgICAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigiSGFja2F0aG9uIEFXUyBlbnZpcm9ubWVudCBpcyByZXN0cmljdGVkIHRvIHVzLWVhc3QtMSIpCiAgICAgICAgaWYgbm90IG1vZGVsX2lkIG9yIGxlbihtb2RlbF9pZCkgPiAxODAgb3IgYW55KGMuaXNzcGFjZSgpIGZvciBjIGluIG1vZGVsX2lkKToKICAgICAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigiU2VsZWN0IGFuIGVuYWJsZWQgQmVkcm9jayBtb2RlbCBJRCBvciBpbmZlcmVuY2UgcHJvZmlsZSIpCiAgICAgICAgc2VsZi5tb2RlbF9pZCA9IG1vZGVsX2lkCiAgICAgICAgaWYgY2xpZW50IGlzIE5vbmU6CiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIGltcG9ydCBib3RvMyAgIyB0eXBlOiBpZ25vcmVbaW1wb3J0LW5vdC1mb3VuZF0KICAgICAgICAgICAgZXhjZXB0IEltcG9ydEVycm9yIGFzIGV4YzoKICAgICAgICAgICAgICAgIHJhaXNlIFJ1bnRpbWVFcnJvcigKICAgICAgICAgICAgICAgICAgICAiSW5zdGFsbCB0aGUgb3B0aW9uYWwgYXdzIGV4dHJhIGluIHRoZSB3b3Jrc2hvcDogcGlwIGluc3RhbGwgLWUgJy5bYXdzXSciCiAgICAgICAgICAgICAgICApIGZyb20gZXhjCiAgICAgICAgICAgIGNsaWVudCA9IGJvdG8zLmNsaWVudCgiYmVkcm9jay1ydW50aW1lIiwgcmVnaW9uX25hbWU9cmVnaW9uKQogICAgICAgIHNlbGYuY2xpZW50ID0gY2xpZW50CgogICAgZGVmIHByb3Bvc2Uoc2VsZiwgKiwgYnJpZWY6IEtpdGNoZW5CcmllZiwgZmVlZGJhY2s6IHR1cGxlW3N0ciwgLi4uXSwgcm91bmRfbnVtYmVyOiBpbnQpIC0+IHN0cjoKICAgICAgICBicmllZi52YWxpZGF0ZSgpCiAgICAgICAgIyBPbmx5IHJlc3RyaWN0ZWQgZmllbGRzLCBubyByYXcgdXBsb2FkZWQgZGF0YSwgY3VzdG9tZXIgbmFtZXMgb3IgcHJpdmF0ZSBwcmljZXMuCiAgICAgICAgcGF5bG9hZCA9IHsKICAgICAgICAgICAgInJvdW5kIjogcm91bmRfbnVtYmVyLAogICAgICAgICAgICAiYnVkZ2V0X25nbiI6IGJyaWVmLmJ1ZGdldF9uZ24sCiAgICAgICAgICAgICJtaW5fZXN0aW1hdGVkX3Byb3RlaW5fZyI6IGJyaWVmLm1pbl9wcm90ZWluX2csCiAgICAgICAgICAgICJtYXhfcHJlcF9taW51dGVzIjogYnJpZWYubWF4X3ByZXBfbWludXRlcywKICAgICAgICAgICAgImVxdWlwbWVudCI6IHNvcnRlZChicmllZi5lcXVpcG1lbnQpLAogICAgICAgICAgICAiYXZhaWxhYmxlX2luZ3JlZGllbnRzIjogc29ydGVkKGJyaWVmLmF2YWlsYWJsZV9pbmdyZWRpZW50cyksCiAgICAgICAgICAgICJhbGxlcmdlbl9leGNsdXNpb25zIjogbGlzdChicmllZi5hdm9pZF9hbGxlcmdlbnMpLAogICAgICAgICAgICAicHJlZmVyZW5jZV9rZXl3b3JkcyI6IGJyaWVmLnByZWZlcmVuY2UsCiAgICAgICAgICAgICJmZWVkYmFjayI6IGxpc3QoZmVlZGJhY2tbLTg6XSksCiAgICAgICAgICAgICJyZXNwb25zZV9qc29uX3NjaGVtYSI6IGFsbG93ZWRfcHJvcG9zYWxfc2NoZW1hKCksCiAgICAgICAgICAgICJyZW1pbmRlciI6ICJOdW1iZXJzIGFyZSB1bnZhbGlkYXRlZCBlc3RpbWF0ZXM7IG5vIG5ldyBwcmljZXMgb3IgbnV0cml0aW9uLiIsCiAgICAgICAgfQogICAgICAgIHRyeToKICAgICAgICAgICAgcmVzcG9uc2UgPSBzZWxmLmNsaWVudC5jb252ZXJzZSgKICAgICAgICAgICAgICAgIG1vZGVsSWQ9c2VsZi5tb2RlbF9pZCwKICAgICAgICAgICAgICAgIHN5c3RlbT1beyJ0ZXh0IjogU1lTVEVNX1BST01QVH1dLAogICAgICAgICAgICAgICAgbWVzc2FnZXM9WwogICAgICAgICAgICAgICAgICAgIHsicm9sZSI6ICJ1c2VyIiwgImNvbnRlbnQiOiBbeyJ0ZXh0IjoganNvbi5kdW1wcyhwYXlsb2FkLCBzb3J0X2tleXM9VHJ1ZSl9XX0KICAgICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgICBpbmZlcmVuY2VDb25maWc9eyJtYXhUb2tlbnMiOiA5MDAsICJ0ZW1wZXJhdHVyZSI6IDAuMH0sCiAgICAgICAgICAgICkKICAgICAgICAgICAgcGFydHMgPSByZXNwb25zZVsib3V0cHV0Il1bIm1lc3NhZ2UiXVsiY29udGVudCJdCiAgICAgICAgICAgIHJhdyA9ICIiLmpvaW4oaXRlbS5nZXQoInRleHQiLCAiIikgZm9yIGl0ZW0gaW4gcGFydHMgaWYgaXNpbnN0YW5jZShpdGVtLCBkaWN0KSkKICAgICAgICBleGNlcHQgKEtleUVycm9yLCBUeXBlRXJyb3IsIFZhbHVlRXJyb3IpIGFzIGV4YzoKICAgICAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigiVW5leHBlY3RlZCBCZWRyb2NrIHJlc3BvbnNlOyBjaGVjayB3b3Jrc2hvcCBtb2RlbCBzdXBwb3J0IikgZnJvbSBleGMKICAgICAgICBpZiBub3QgcmF3OgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJNb2RlbCByZXR1cm5lZCBubyBwbGFpbi10ZXh0IEpTT04gcHJvcG9zYWwiKQogICAgICAgIHJldHVybiByYXcK
+"""Optional Amazon Bedrock Converse planner; *never* called on Streamlit page load.
+
+Uses temporary workshop credentials from the normal AWS SDK credential chain.
+No keys stored, no data persistence, no autonomous external actions.
+Tested only with a fake Converse client until workshop model access is granted.
+"""
+from __future__ import annotations
+
+import json
+from typing import Any
+
+from .agent_contract import KitchenBrief, allowed_proposal_schema
+
+SYSTEM_PROMPT = (
+    "You are a bounded formulation-proposal planner for a Nigerian food research prototype. "
+    "Return ONLY one JSON object with key 'proposals' following the schema given by the user. "
+    "Use only the specified existing option IDs; no additional ingredients or methods. "
+    "Do not invent prices, nutrients, cooking times, sensory outcomes, medical claims, "
+    "food-safety approval, new data sources, customer preferences or ingredients. "
+    "You are NOT deciding recipe feasibility. A separate local calculator will reject "
+    "anything that fails constraints. Do not claim a recipe is safe or ready to sell. "
+    "At most six proposals per call, no free-form instructions outside JSON."
+)
+
+
+class BedrockPlanner:
+    """An adapter for the event sandbox in us-east-1; inject a fake client for tests."""
+
+    def __init__(self, model_id: str, *, client: Any | None = None, region: str = "us-east-1"):
+        if region != "us-east-1":
+            raise ValueError("Hackathon AWS environment is restricted to us-east-1")
+        if not model_id or len(model_id) > 180 or any(c.isspace() for c in model_id):
+            raise ValueError("Select an enabled Bedrock model ID or inference profile")
+        self.model_id = model_id
+        if client is None:
+            try:
+                import boto3  # type: ignore[import-not-found]
+            except ImportError as exc:
+                raise RuntimeError(
+                    "Install the optional aws extra in the workshop: pip install -e '.[aws]'"
+                ) from exc
+            client = boto3.client("bedrock-runtime", region_name=region)
+        self.client = client
+
+    def propose(self, *, brief: KitchenBrief, feedback: tuple[str, ...], round_number: int) -> str:
+        brief.validate()
+        # Only restricted fields, no raw uploaded data, customer names or private prices.
+        payload = {
+            "round": round_number,
+            "budget_ngn": brief.budget_ngn,
+            "min_estimated_protein_g": brief.min_protein_g,
+            "max_prep_minutes": brief.max_prep_minutes,
+            "equipment": sorted(brief.equipment),
+            "available_ingredients": sorted(brief.available_ingredients),
+            "allergen_exclusions": list(brief.avoid_allergens),
+            "preference_keywords": brief.preference,
+            "feedback": list(feedback[-8:]),
+            "response_json_schema": allowed_proposal_schema(),
+            "reminder": "Numbers are unvalidated estimates; no new prices or nutrition.",
+        }
+        try:
+            response = self.client.converse(
+                modelId=self.model_id,
+                system=[{"text": SYSTEM_PROMPT}],
+                messages=[
+                    {"role": "user", "content": [{"text": json.dumps(payload, sort_keys=True)}]}
+                ],
+                inferenceConfig={"maxTokens": 900, "temperature": 0.0},
+            )
+            parts = response["output"]["message"]["content"]
+            raw = "".join(item.get("text", "") for item in parts if isinstance(item, dict))
+        except (KeyError, TypeError, ValueError) as exc:
+            raise ValueError("Unexpected Bedrock response; check workshop model support") from exc
+        if not raw:
+            raise ValueError("Model returned no plain-text JSON proposal")
+        return raw
