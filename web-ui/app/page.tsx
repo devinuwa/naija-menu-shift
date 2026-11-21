@@ -6,25 +6,24 @@ export default function HomePage() {
     <div className="ns-shell">
       <header className="ns-header">
         <p className="ns-wordmark">Naija MenuShift</p>
-        <p className="ns-header-sub">
-          Vercel interface demo · Hack the Fork Nigeria 2026 · Challenge 2
-        </p>
-        <p><a href="https://naija-menushift.streamlit.app/" rel="noopener noreferrer">Open the complete Streamlit research application</a></p>
       </header>
 
       <section className="ns-hero">
         <h1>Plant-based versions of familiar Nigerian dishes — costed, constrained, explainable.</h1>
         <p className="ns-hero-purpose">
-          For restaurant owners and caterers: find a viable <em>research formulation</em>{" "}
-          for kitchen testing in under four steps — within your budget for listed partial
-          costs, your protein target, your time, your equipment and your stock.
+          Naija MenuShift turns dishes a kitchen already serves into credible plant-based
+          versions. Name a dish, and the tool tests plant proteins against hard
+          constraints — protein target, cost per serving, allergens (fail-closed),
+          cooking method, prep time and equipment — then ranks the survivors with the
+          reasoning shown, including why the others were rejected.
         </p>
-        <div className="ns-warning" role="note">
-          <strong>Research warning:</strong> this is a separate suya-focused synthetic demonstration, not the complete Python-backed multi-dish research application. Prices and
-          nutrients are illustrative estimates from reference data, not verified market
-          measurements, and no output is approved for food service. Unreviewed data is
-          labelled at the point of decision.
-        </div>
+        <p className="ns-hero-purpose">
+          It works for a single dish, a whole menu, and hospital menus — including
+          condition-aware drafts for cardiovascular, kidney, hypertension and diabetes
+          care, prepared for a dietitian to review and sign off. An AI proposer suggests
+          candidates, but a deterministic safety gate checks every suggestion before it
+          is shown.
+        </p>
       </section>
 
       <main>
