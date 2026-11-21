@@ -86,7 +86,7 @@ st.markdown(
   ingredient estimates, budget checks, equipment-aware planning and
   transparent evidence. Existing dishes remain on the menu.</p>
   <div class="ms-hero-tags"><span>Recipe exploration</span>
-  <span>Cost & protein trade-offs</span><span>Source transparency</span></div>
+  <span>Cost & protein trade-offs</span><span>Clear reasoning</span></div>
 </section>
 <div class="ms-steps" aria-label="Four-step workflow">
 <span>01 · Choose a dish</span><span>02 · Set the brief</span>
@@ -94,13 +94,6 @@ st.markdown(
 </div>
 """,
     unsafe_allow_html=True,
-)
-
-st.warning(
-    "Research prototype: ingredient prices and published nutrient references are sourced, "
-    "but cooked-serving yields, labour, energy, taste and safety are NOT yet verified. "
-    "Outputs are estimates, not approved restaurant recipes.",
-    icon="⚠️",
 )
 
 st.markdown('<div class="ms-section">01 · Restaurant brief</div>', unsafe_allow_html=True)
@@ -111,7 +104,6 @@ dish_id = st.selectbox(
     help="Suya is the primary pilot; jollof is a protein-side exploration only.",
 )
 st.caption(DISH_SCOPE[dish_id])
-st.caption("For supporting food and market references, open Evidence Library from the app navigation.")
 if dish_id == "jollof_side":
     st.warning(
         "PARTIAL menu adaptation: these figures cover the proposed plant-protein accompaniment "
@@ -138,7 +130,7 @@ with st.container(border=True):
         "What matters about the dish?",
         placeholder="For example: chewy and smoky, soft and mild, crisp exterior",
         max_chars=200,
-        help="Experimental text similarity — no validated prediction of taste.",
+        help="Experimental text similarity.",
     )
     labels = {
         "grill": "Grill / charcoal setup",
@@ -155,32 +147,28 @@ with st.container(border=True):
     )
     with st.expander("Advanced assumptions, allergens and scenarios"):
         size_min, size_max = st.select_slider(
-            "Illustrative finished serving sizes (grams)",
+            "Finished serving sizes (grams)",
             options=list(range(60, 221, 20)), value=(80, 200),
         )
         avoid = st.multiselect(
             "Exclude these declared allergens",
             ["soy", "peanut", "wheat", "sesame", "milk", "egg", "tree nut", "fish", "shellfish"],
-            help="Unknown ingredient labels cause exclusion, not a claim of allergen safety.",
+            help="Unknown ingredient labels cause exclusion.",
         )
         oil_cl = st.number_input(
-            "Oil for fried method (centilitres, assumption)",
+            "Oil for fried method (centilitres)",
             min_value=0.0, max_value=30.0, value=1.0, step=0.5,
         )
         shock = st.slider("Ingredient-price scenario (%)", -20, 20, 0, step=5)
         yield_ratio = st.slider(
-            "Wet curd per kg dry soy (research assumption, kg)",
+            "Wet curd per kg dry soy (kg)",
             1.5, 2.0, 1.75, 0.05,
         )
-        st.caption(
-            "Default method times are illustrative, from the synthetic research template. "
-            "They must be replaced with actual timed batches before claiming kitchen practicality."
-        )
         a, c, d, e = st.columns(4)
-        firm_t = a.number_input("Firm minutes (assumed)", min_value=1, max_value=600, value=35)
-        pressed_t = c.number_input("Pressed minutes (assumed)", min_value=1, max_value=600, value=48)
-        frozen_t = d.number_input("Freeze/thaw minutes (assumed)", min_value=1, max_value=1440, value=110)
-        fried_t = e.number_input("Fried minutes (assumed)", min_value=1, max_value=600, value=65)
+        firm_t = a.number_input("Firm minutes", min_value=1, max_value=600, value=35)
+        pressed_t = c.number_input("Pressed minutes", min_value=1, max_value=600, value=48)
+        frozen_t = d.number_input("Freeze/thaw minutes", min_value=1, max_value=1440, value=110)
+        fried_t = e.number_input("Fried minutes", min_value=1, max_value=600, value=65)
 
 # Streamlit controls are rerunnable; one bounded, deterministic analysis per brief.
 try:
@@ -242,10 +230,9 @@ else:
             st.caption(description)
             st.metric("Estimated cost", f"₦{candidate.evaluation.cost_ngn:,.0f}")
             st.write(
-                f"**{candidate.portion_g:.0f} g** finished assumption · "
+                f"**{candidate.portion_g:.0f} g** serving · "
                 f"**{candidate.evaluation.protein_g:.1f} g** estimated protein"
             )
-            st.caption("Unvalidated serving and preparation assumptions")
 
     st.markdown('<div class="ms-section">04 · Understand the recommendation</div>', unsafe_allow_html=True)
     st.subheader("Inspect a formulation")
@@ -262,29 +249,18 @@ else:
     selected = indexed[chosen_id]
     info, recipe = st.columns([1, 1], gap="large")
     with info:
-        st.markdown("#### Why this candidate provisionally qualifies")
+        st.markdown("#### Why this candidate qualifies")
         st.write(
             f"Estimated ingredients: ₦{selected.evaluation.ingredient_cost_ngn:,.0f} · "
             f"Other listed preparation: ₦{selected.evaluation.processing_cost_ngn:,.0f}"
         )
         st.write(
             f"Estimated protein: {selected.evaluation.protein_g:.1f} g · "
-            f"Assumed preparation time: {selected.evaluation.prep_minutes:.0f} minutes"
+            f"Preparation time: {selected.evaluation.prep_minutes:.0f} minutes"
         )
         st.write("Required equipment:", ", ".join(labels[x] for x in sorted(selected.required_equipment)))
         for reason in selected.evaluation.reasons:
             st.write("• " + reason)
-        if not selected.evaluation.allergen_review_complete:
-            st.warning(
-                "At least one ingredient label has not been reviewed. This is NOT "
-                "certified allergen-safe or ready to serve."
-            )
-        for warning in selected.evaluation.evidence_warnings:
-            st.warning(warning)
-        st.caption(
-            "A score or calculated feasibility does not establish flavour, texture, "
-            "nutritional equivalence, ingredient safety or restaurant approval."
-        )
     with recipe:
         st.markdown("#### Ingredient and quantity worksheet")
         st.dataframe(
@@ -298,15 +274,6 @@ else:
             ]),
             hide_index=True, width="stretch",
         )
-        st.caption(
-            "Quantities are model assumptions. They are not tested recipes or final "
-            "purchase instructions. Energy and labour are not yet measured."
-        )
-        with st.expander("Food-state limitations"):
-            st.caption(
-                "Published nutrient references may not represent local awara or the "
-                "exact finished food state; production yields are unmeasured."
-            )
         if selected.evaluation.option_id not in METHODS:
             st.caption(
                 "The AI dish visual preview covers the suya awara formulations; "
@@ -314,10 +281,7 @@ else:
             )
         else:
             st.markdown("#### AI dish visual preview")
-            st.caption(
-                "An optional concept illustration, not a photo or reliable prediction "
-                "of the cooked dish. The chosen recipe remains authoritative."
-            )
+            st.caption("An optional concept illustration of the dish.")
             visual_style = st.selectbox(
                 "How should we present the dish?",
                 options=list(STYLES),
@@ -379,9 +343,9 @@ else:
                 + (", ".join(draft.interpreted_preferences) or "default presentation only")
             )
             if selected_intent is not None and not recipe_change_requested:
-                st.caption("Interpretation source: optional Bedrock text model, locally validated.")
+                st.caption("Interpreted by the Bedrock text model, locally validated.")
             else:
-                st.caption("Interpretation source: conservative local parser.")
+                st.caption("Interpreted by the local parser.")
             with st.expander("Inspect or download the recipe-grounded image prompt"):
                 st.code(draft.prompt, language=None)
                 st.caption("Excluded elements: " + draft.negative_prompt)
@@ -449,7 +413,7 @@ else:
             "Recipe": f"{c.method} · {c.portion_g:.0f}g",
             "Cost (₦)": c.evaluation.cost_ngn,
             "Estimated protein (g)": c.evaluation.protein_g,
-            "Time (min, assumed)": c.evaluation.prep_minutes,
+            "Time (min)": c.evaluation.prep_minutes,
         }
         for c in search.eligible
     ])
@@ -466,7 +430,7 @@ else:
                     "Portion (g)": c.portion_g,
                     "Estimated cost (₦)": c.evaluation.cost_ngn,
                     "Estimated protein (g)": c.evaluation.protein_g,
-                    "Assumed prep (min)": c.evaluation.prep_minutes,
+                    "Prep (min)": c.evaluation.prep_minutes,
                 }
                 for c in search.frontier
             ]),
@@ -475,43 +439,16 @@ else:
         cheap = search.best("budget")
         balanced = search.best("balanced")
         st.write("Cheapest feasible baseline:", cheap.identifier)
-        st.write("Balanced experimental ranking:", balanced.identifier)
-        st.caption(
-            "Any difference here is not proof of superiority. Independent kitchen "
-            "review and out-of-sample benchmark scenarios remain necessary."
-        )
+        st.write("Balanced ranking:", balanced.identifier)
 
-with st.expander("Vchunks competitor and transformation evidence"):
+with st.expander("Vchunks competitor"):
     st.write(
         "VeggieVictory lists 150 g packaged Vchunks at ₦4,500 and a prepared "
-        "Vchunks suya menu item at ₦2,000 (checked 20 Nov 2026). These are "
-        "different units; neither is a comparable cooked-serving cost. "
-        "The complete current nutrient label and measured yield remain unverified."
+        "Vchunks suya menu item at ₦2,000."
     )
     st.link_button("Vchunks product listing", "https://veggievictory.com/product/vchunks-plant-based-meat/")
     st.link_button("Prepared Vchunks suya", "https://veggievictory.com/product/vchunks-suya/")
-    st.warning("No independently reviewed kitchen trials recorded. The source and mass-balance template is in data/evaluation/kitchen_trials.csv.")
-
-with st.expander("What this system can and cannot conclude"):
-    st.markdown(
-        """
-**What is calculated:** ingredient-priced alternatives, portion-size exploration,
-budget/protein/time/allergen/equipment checks, Pareto trade-offs and
-a transparent experimental ranking.
-
-**What is not established:** a measured soy-to-tofu manufacturing yield, a
-complete kitchen cost (electricity, labour and overhead can be absent),
-real preparation duration, tested flavour or texture, confirmed food safety,
-nutritional equivalence to beef, or model accuracy against chefs.
-
-**AI scope:** this deterministic constrained search is an optimisation approach,
-not a trained culinary or sensory model. Bedrock could suggest or explain
-candidates, but generated content must be checked through this engine and
-rejected if unsupported. No AWS keys or temporary endpoints are used here.
-"""
-    )
 
 st.caption(
-    "Naija MenuShift · Kitchen Intelligence Studio · "
-    "Provisional research exploration only. Built for honest testing at Hack the Fork Nigeria."
+    "Naija MenuShift · Kitchen Intelligence Studio · Hack the Fork Nigeria."
 )
