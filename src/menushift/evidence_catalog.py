@@ -1,1 +1,102 @@
-IiIiUmVhZC1vbmx5IGZvb2QgZXZpZGVuY2UgY2F0YWxvZzogcmVmZXJlbmNlIGRhdGEgbmV2ZXIgaW1wbGllcyBhbiBhcHByb3ZlZCByZWNpcGUuIiIiCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmltcG9ydCBjc3YKaW1wb3J0IG1hdGgKaW1wb3J0IHJlCmZyb20gZGF0ZXRpbWUgaW1wb3J0IGRhdGUKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCgpDVVJBVEVEID0gUGF0aChfX2ZpbGVfXykucmVzb2x2ZSgpLnBhcmVudHNbMl0gLyAiZGF0YSIgLyAiY3VyYXRlZCIKTlVUUklFTlRfQ09MVU1OUyA9ICgKICAgICJyZWZlcmVuY2VfaWQiLCAic291cmNlIiwgInNvdXJjZV91cmwiLCAiZm9vZF9uYW1lIiwgImZvb2Rfc3RhdGUiLAogICAgInByb3RlaW5fZ19wZXJfMTAwZyIsICJpcm9uX21nX3Blcl8xMDBnIiwgInppbmNfbWdfcGVyXzEwMGciLAogICAgImVuZXJneV9rY2FsX3Blcl8xMDBnIiwgInNvdXJjZV9tZXRob2QiLCAic3RhdHVzIiwKICAgICJsb2NhbF9yZWNpcGVfYXBwcm92ZWQiLCAibm90ZXMiLAopClBSSUNFX0NPTFVNTlMgPSAoCiAgICAibW9udGgiLCAic3RhdGUiLCAiY29tbW9kaXR5IiwgIm9yaWdpbmFsX3VuaXQiLCAiY3VycmVuY3kiLCAicHJpY2V0eXBlIiwKICAgICJwcmljZWZsYWciLCAic2FtcGxlX2NvdW50IiwgIm1hcmtldF9jb3VudCIsCiAgICAibWVkaWFuX25nbl9wZXJfcmVwb3J0ZWRfdW5pdCIsICJtZWRpYW5fbmduX3Blcl9rZyIsCiAgICAiZmlyc3Rfb2JzZXJ2YXRpb24iLCAibGFzdF9vYnNlcnZhdGlvbiIsICJzb3VyY2VfdXJsIiwgInN0YXR1cyIsICJsaW1pdGF0aW9ucyIsCikKCgpkZWYgX3JlYWQocGF0aDogUGF0aCwgZXhwZWN0ZWQ6IHR1cGxlW3N0ciwgLi4uXSkgLT4gbGlzdFtkaWN0W3N0ciwgc3RyXV06CiAgICB3aXRoIHBhdGgub3BlbihlbmNvZGluZz0idXRmLTgtc2lnIiwgbmV3bGluZT0iIikgYXMgc3RyZWFtOgogICAgICAgIHJlYWRlciA9IGNzdi5EaWN0UmVhZGVyKHN0cmVhbSkKICAgICAgICBpZiByZWFkZXIuZmllbGRuYW1lcyAhPSBsaXN0KGV4cGVjdGVkKToKICAgICAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigiTWlzc2luZyBvciBkdXBsaWNhdGUgc291cmNlIGNvbHVtbnMiKQogICAgICAgIHJvd3MgPSBsaXN0KHJlYWRlcikKICAgIGlmIG5vdCByb3dzIG9yIGxlbihyb3dzKSA+IDEwMDA6CiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigiRW1wdHkgb3Igb3ZlcmxhcmdlIGN1cmF0ZWQgZXZpZGVuY2Ugc2V0IikKICAgIGlmIGFueShOb25lIGluIHJvdyBvciBhbnkodmFsdWUgaXMgTm9uZSBvciAiXHgwMCIgaW4gdmFsdWUgZm9yIHZhbHVlIGluIHJvdy52YWx1ZXMoKSkgZm9yIHJvdyBpbiByb3dzKToKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJNYWxmb3JtZWQgc291cmNlIHJlY29yZCIpCiAgICByZXR1cm4gcm93cwoKCmRlZiBfbnVtYmVyKHZhbHVlOiBzdHIsIGxhYmVsOiBzdHIpIC0+IGZsb2F0OgogICAgdHJ5OgogICAgICAgIG51bWJlciA9IGZsb2F0KHZhbHVlKQogICAgZXhjZXB0IChUeXBlRXJyb3IsIFZhbHVlRXJyb3IpIGFzIGV4YzoKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKGYie2xhYmVsfTogaW52YWxpZCBudW1iZXIiKSBmcm9tIGV4YwogICAgaWYgbm90IG1hdGguaXNmaW5pdGUobnVtYmVyKSBvciBudW1iZXIgPCAwOgogICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoZiJ7bGFiZWx9OiBpbnZhbGlkIG51bWJlciIpCiAgICByZXR1cm4gbnVtYmVyCgoKZGVmIGxvYWRfbnV0cml0aW9uX3JlZmVyZW5jZXMoZm9sZGVyOiBQYXRoID0gQ1VSQVRFRCkgLT4gbGlzdFtkaWN0W3N0ciwgc3RyXV06CiAgICAiIiJSZWZlcmVuY2UgdmFsdWVzIHBlciAxMDBnIGVkaWJsZSBwb3J0aW9uOyBuZXZlciBhcHByb3ZlZCBsb2NhbCByZWNpcGUgcmVzdWx0cy4iIiIKICAgIHJvd3MgPSBfcmVhZChmb2xkZXIgLyAibnV0cml0aW9uX3JlZmVyZW5jZXMuY3N2IiwgTlVUUklFTlRfQ09MVU1OUykKICAgIHNlZW4gPSBzZXQoKQogICAgZm9yIHJvdyBpbiByb3dzOgogICAgICAgIGtleSA9IHJvd1sicmVmZXJlbmNlX2lkIl0KICAgICAgICBpZiBub3Qga2V5IG9yIGtleSBpbiBzZWVuIG9yIG5vdCBrZXkuc3RhcnRzd2l0aCgoIlVTREE6IiwgIldBRkNUMjAxOToiKSk6CiAgICAgICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoIkludmFsaWQgb3IgZHVwbGljYXRlIG51dHJpdGlvbiBzb3VyY2UgSUQiKQogICAgICAgIHNlZW4uYWRkKGtleSkKICAgICAgICBpZiByb3dbInN0YXR1cyJdICE9ICJwdWJsaXNoZWRfcmVmZXJlbmNlIiBvciByb3dbImxvY2FsX3JlY2lwZV9hcHByb3ZlZCJdICE9ICJubyI6CiAgICAgICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoIlB1Ymxpc2hlZCByZWZlcmVuY2VzIG11c3Qgbm90IGNsYWltIGtpdGNoZW4gYXBwcm92YWwiKQogICAgICAgIGlmIG5vdCByb3dbInNvdXJjZV91cmwiXS5zdGFydHN3aXRoKCJodHRwczovLyIpIG9yIG5vdCByb3dbImZvb2Rfc3RhdGUiXSBvciBub3Qgcm93WyJzb3VyY2VfbWV0aG9kIl06CiAgICAgICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoIk1pc3Npbmcgc291cmNlLCBmb29kIHN0YXRlIG9yIHNvdXJjZSBtZXRob2QiKQogICAgICAgIGZvciBjb2x1bW4gaW4gKCJwcm90ZWluX2dfcGVyXzEwMGciLCAiaXJvbl9tZ19wZXJfMTAwZyIsICJ6aW5jX21nX3Blcl8xMDBnIiwgImVuZXJneV9rY2FsX3Blcl8xMDBnIik6CiAgICAgICAgICAgIF9udW1iZXIocm93W2NvbHVtbl0sIGNvbHVtbikKICAgIHJldHVybiByb3dzCgoKZGVmIGxvYWRfd2ZwX3ByaWNlX3NuYXBzaG90cyhmb2xkZXI6IFBhdGggPSBDVVJBVEVEKSAtPiBsaXN0W2RpY3Rbc3RyLCBzdHJdXToKICAgICIiIkhpc3RvcmljYWwgc3RhdGUvbWFya2V0IGFnZ3JlZ2F0ZXM7IE5FVkVSIGxpdmUgb3IgbmF0aW9ud2lkZSByZXRhaWwgcHJpY2VzLiIiIgogICAgcm93cyA9IF9yZWFkKGZvbGRlciAvICJ3ZnBfbWFya2V0X3NuYXBzaG90cy5jc3YiLCBQUklDRV9DT0xVTU5TKQogICAgc2VlbiA9IHNldCgpCiAgICBmb3Igcm93IGluIHJvd3M6CiAgICAgICAga2V5ID0gKHJvd1sibW9udGgiXSwgcm93WyJzdGF0ZSJdLCByb3dbImNvbW1vZGl0eSJdLCByb3dbIm9yaWdpbmFsX3VuaXQiXSwgcm93WyJwcmljZWZsYWciXSkKICAgICAgICBpZiBrZXkgaW4gc2VlbjoKICAgICAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigiRHVwbGljYXRlIHByaWNlIHNuYXBzaG90IikKICAgICAgICBzZWVuLmFkZChrZXkpCiAgICAgICAgaWYgcm93WyJzdGF0dXMiXSAhPSAiaGlzdG9yaWNhbF9tYXJrZXRfYWdncmVnYXRlIiBvciByb3dbInByaWNlZmxhZyJdICE9ICJhZ2dyZWdhdGUiOgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJXRlAgYWdncmVnYXRlIGNsYXNzaWZpY2F0aW9uIGxvc3QiKQogICAgICAgIGlmIHJvd1siY3VycmVuY3kiXSAhPSAiTkdOIiBvciByb3dbInByaWNldHlwZSJdICE9ICJSZXRhaWwiOgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJPbmx5IE5HTiByZXRhaWwgc25hcHNob3RzIGFsbG93ZWQiKQogICAgICAgIGlmIHJvd1sic291cmNlX3VybCJdICE9ICJodHRwczovL2RhdGEuaHVtZGF0YS5vcmcvZGF0YXNldC93ZnAtZm9vZC1wcmljZXMtZm9yLW5pZ2VyaWEiOgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJVbmtub3duIHByaWNlIHNvdXJjZSIpCiAgICAgICAgaWYgbm90IHJlLmZ1bGxtYXRjaChyIlxkezR9LVxkezJ9Iiwgcm93WyJtb250aCJdKToKICAgICAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigiSW52YWxpZCBvYnNlcnZhdGlvbiBtb250aCIpCiAgICAgICAgZmlyc3QgPSBkYXRlLmZyb21pc29mb3JtYXQocm93WyJmaXJzdF9vYnNlcnZhdGlvbiJdKQogICAgICAgIGxhc3QgPSBkYXRlLmZyb21pc29mb3JtYXQocm93WyJsYXN0X29ic2VydmF0aW9uIl0pCiAgICAgICAgaWYgZmlyc3QgPiBsYXN0IG9yIGZpcnN0LnN0cmZ0aW1lKCIlWS0lbSIpICE9IHJvd1sibW9udGgiXSBvciBsYXN0LnN0cmZ0aW1lKCIlWS0lbSIpICE9IHJvd1sibW9udGgiXToKICAgICAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigiUHJpY2UgZGF0ZSBtaXNtYXRjaCIpCiAgICAgICAgbiA9IF9udW1iZXIocm93WyJzYW1wbGVfY291bnQiXSwgInNhbXBsZSIpCiAgICAgICAgbWFya2V0cyA9IF9udW1iZXIocm93WyJtYXJrZXRfY291bnQiXSwgIm1hcmtldHMiKQogICAgICAgIGlmIG4gPCAxIG9yIG1hcmtldHMgPCAxIG9yIG1hcmtldHMgPiBuOgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJJbnZhbGlkIHN1cnZleSBjb3ZlcmFnZSIpCiAgICAgICAgcGFja2FnZV9wcmljZSA9IF9udW1iZXIocm93WyJtZWRpYW5fbmduX3Blcl9yZXBvcnRlZF91bml0Il0sICJwYWNrYWdlIikKICAgICAgICBpZiBwYWNrYWdlX3ByaWNlIDw9IDA6CiAgICAgICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoIkludmFsaWQgcHJpY2UiKQogICAgICAgIG1hc3MgPSByZS5mdWxsbWF0Y2gociIoPzooXGQrKD86XC5cZCspPylccyopPyhLR3xHKSIsIHJvd1sib3JpZ2luYWxfdW5pdCJdLCByZS5JR05PUkVDQVNFKQogICAgICAgIHBlcl9rZyA9IHJvd1sibWVkaWFuX25nbl9wZXJfa2ciXQogICAgICAgIGlmIG1hc3M6CiAgICAgICAgICAgIHdlaWdodCA9IGZsb2F0KG1hc3MuZ3JvdXAoMSkgb3IgIjEiKSAqICgxIGlmIG1hc3MuZ3JvdXAoMikudXBwZXIoKSA9PSAiS0ciIGVsc2UgLjAwMSkKICAgICAgICAgICAgaWYgbm90IHBlcl9rZyBvciBhYnMoX251bWJlcihwZXJfa2csICJub3JtYWxpemVkIHByaWNlIikgLSByb3VuZChwYWNrYWdlX3ByaWNlIC8gd2VpZ2h0LCAyKSkgPiAuMDM6CiAgICAgICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJJbmNvcnJlY3QgbWFzcy11bml0IGNvbnZlcnNpb24iKQogICAgICAgIGVsaWYgcGVyX2tnOgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJOb24tbWFzcyB1bml0IG11c3Qgbm90IGhhdmUgYW4gaW5mZXJyZWQga2cgcHJpY2UiKQogICAgcmV0dXJuIHJvd3MK
+"""Read-only food evidence catalog: reference data never implies an approved recipe."""
+from __future__ import annotations
+
+import csv
+import math
+import re
+from datetime import date
+from pathlib import Path
+
+CURATED = Path(__file__).resolve().parents[2] / "data" / "curated"
+NUTRIENT_COLUMNS = (
+    "reference_id", "source", "source_url", "food_name", "food_state",
+    "protein_g_per_100g", "iron_mg_per_100g", "zinc_mg_per_100g",
+    "energy_kcal_per_100g", "source_method", "status",
+    "local_recipe_approved", "notes",
+)
+PRICE_COLUMNS = (
+    "month", "state", "commodity", "original_unit", "currency", "pricetype",
+    "priceflag", "sample_count", "market_count",
+    "median_ngn_per_reported_unit", "median_ngn_per_kg",
+    "first_observation", "last_observation", "source_url", "status", "limitations",
+)
+
+
+def _read(path: Path, expected: tuple[str, ...]) -> list[dict[str, str]]:
+    with path.open(encoding="utf-8-sig", newline="") as stream:
+        reader = csv.DictReader(stream)
+        if reader.fieldnames != list(expected):
+            raise ValueError("Missing or duplicate source columns")
+        rows = list(reader)
+    if not rows or len(rows) > 1000:
+        raise ValueError("Empty or overlarge curated evidence set")
+    if any(None in row or any(value is None or "\x00" in value for value in row.values()) for row in rows):
+        raise ValueError("Malformed source record")
+    return rows
+
+
+def _number(value: str, label: str) -> float:
+    try:
+        number = float(value)
+    except (TypeError, ValueError) as exc:
+        raise ValueError(f"{label}: invalid number") from exc
+    if not math.isfinite(number) or number < 0:
+        raise ValueError(f"{label}: invalid number")
+    return number
+
+
+def load_nutrition_references(folder: Path = CURATED) -> list[dict[str, str]]:
+    """Reference values per 100g edible portion; never approved local recipe results."""
+    rows = _read(folder / "nutrition_references.csv", NUTRIENT_COLUMNS)
+    seen = set()
+    for row in rows:
+        key = row["reference_id"]
+        if not key or key in seen or not key.startswith(("USDA:", "WAFCT2019:")):
+            raise ValueError("Invalid or duplicate nutrition source ID")
+        seen.add(key)
+        if row["status"] != "published_reference" or row["local_recipe_approved"] != "no":
+            raise ValueError("Published references must not claim kitchen approval")
+        if not row["source_url"].startswith("https://") or not row["food_state"] or not row["source_method"]:
+            raise ValueError("Missing source, food state or source method")
+        for column in ("protein_g_per_100g", "iron_mg_per_100g", "zinc_mg_per_100g", "energy_kcal_per_100g"):
+            _number(row[column], column)
+    return rows
+
+
+def load_wfp_price_snapshots(folder: Path = CURATED) -> list[dict[str, str]]:
+    """Historical state/market aggregates; NEVER live or nationwide retail prices."""
+    rows = _read(folder / "wfp_market_snapshots.csv", PRICE_COLUMNS)
+    seen = set()
+    for row in rows:
+        key = (row["month"], row["state"], row["commodity"], row["original_unit"], row["priceflag"])
+        if key in seen:
+            raise ValueError("Duplicate price snapshot")
+        seen.add(key)
+        if row["status"] != "historical_market_aggregate" or row["priceflag"] != "aggregate":
+            raise ValueError("WFP aggregate classification lost")
+        if row["currency"] != "NGN" or row["pricetype"] != "Retail":
+            raise ValueError("Only NGN retail snapshots allowed")
+        if row["source_url"] != "https://data.humdata.org/dataset/wfp-food-prices-for-nigeria":
+            raise ValueError("Unknown price source")
+        if not re.fullmatch(r"\d{4}-\d{2}", row["month"]):
+            raise ValueError("Invalid observation month")
+        first = date.fromisoformat(row["first_observation"])
+        last = date.fromisoformat(row["last_observation"])
+        if first > last or first.strftime("%Y-%m") != row["month"] or last.strftime("%Y-%m") != row["month"]:
+            raise ValueError("Price date mismatch")
+        n = _number(row["sample_count"], "sample")
+        markets = _number(row["market_count"], "markets")
+        if n < 1 or markets < 1 or markets > n:
+            raise ValueError("Invalid survey coverage")
+        package_price = _number(row["median_ngn_per_reported_unit"], "package")
+        if package_price <= 0:
+            raise ValueError("Invalid price")
+        mass = re.fullmatch(r"(?:(\d+(?:\.\d+)?)\s*)?(KG|G)", row["original_unit"], re.IGNORECASE)
+        per_kg = row["median_ngn_per_kg"]
+        if mass:
+            weight = float(mass.group(1) or "1") * (1 if mass.group(2).upper() == "KG" else .001)
+            if not per_kg or abs(_number(per_kg, "normalized price") - round(package_price / weight, 2)) > .03:
+                raise ValueError("Incorrect mass-unit conversion")
+        elif per_kg:
+            raise ValueError("Non-mass unit must not have an inferred kg price")
+    return rows
