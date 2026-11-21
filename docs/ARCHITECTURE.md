@@ -1,1 +1,41 @@
-IyBBcmNoaXRlY3R1cmUgZGVjaXNpb25zIMK3IE5haWphIE1lbnVTaGlmdAoKIyMgQURSIDAwMSDigJQgZGF0YS1maXJzdCBtdWx0aS1kaXNoIGZvdW5kYXRpb24gKDIwMjYtMTEtMTIpCioqRGVjaXNpb246KiogbG9jYWwsIG5vcm1hbGl6ZWQgQ1NWIGRhdGEgZm9yIGRpc2hlcywgaW5ncmVkaWVudHMsIG9wdGlvbnMgYW5kIHJlY2lwZSBpdGVtczsgYSBwdXJlIFB5dGhvbiBkZWNpc2lvbiBlbmdpbmU7IGEgc2VwYXJhdGUgU3RyZWFtbGl0IHByZXNlbnRhdGlvbiBsYXllci4gU3V5YS80IHRvZnUgdHJlYXRtZW50cyBhcmUgYW4gaW5pdGlhbCBleHBlcmltZW50YWwgZGF0YXNldCwgbm90IGEgcGVybWFuZW50IHByb2R1Y3QgbGltaXQuCgoqKlJhdGlvbmFsZToqKiBmcmVlLCBvZmZsaW5lLWNhcGFibGUsIHRlc3RhYmxlLCBleHBsYWluYWJsZSBhbmQgc3VpdGFibGUgZm9yIGEgdHdvLWRheSBoYWNrYXRob24uIE5vIGRhdGFiYXNlLCBsb2dpbiBzeXN0ZW0sIHBhaWQgQVBJcywgb3IgaW5zZWN1cmUgcHVibGljIHVwbG9hZCBzZXJ2aWNlIGlzIG5lY2Vzc2FyeSB5ZXQuCgoqKlRyYWRlLW9mZjoqKiBDU1Ygc2NoZW1hLCBwcm92ZW5hbmNlIGFuZCBmb29kIHNhZmV0eSBtdXN0IGJlIGN1cmF0ZWQuIEZ1dHVyZSBzdG9yYWdlIChQb3N0Z3Jlcy9BUEkpIGNhbiByZXBsYWNlIHRoZSByZWFkZXIgd2l0aG91dCBjaGFuZ2luZyBjb21wdXRhdGlvbiBzZW1hbnRpY3MuIE11bHRpLXVzZXIgYXV0aG9yaW5nIGlzIG5vdCBhdmFpbGFibGUuCgojIyBBRFIgMDAyIOKAlCBhdWRpdGFiaWxpdHkgb3ZlciB1bnN1cHBvcnRlZCBBSSBjbGFpbXMKKipEZWNpc2lvbjoqKiBkZXRlcm1pbmlzdGljIHJ1bGVzIGVuZm9yY2UgaGFyZCBjb25zdHJhaW50czsgYSB0cmFuc3BhcmVudCB3ZWlnaHRlZCBzY29yZXIgcmFua3MgZWxpZ2libGUgY2FuZGlkYXRlcy4gQW4gZXhwZXJpbWVudGFsIFRGLUlERiBzaW1pbGFyaXR5IGZlYXR1cmUgbWF0Y2hlcyBwcmVwYXJhdGlvbiBwcmVmZXJlbmNlcy4gQ2hlYXBlc3Qtb25seSBhbmQgY2hlYXBlc3QtZmVhc2libGUgb3B0aW9ucyBhcmUgc2hvd24gYXMgYmFzZWxpbmVzLgoKKipSYXRpb25hbGU6KiogZXZlcnkgb3V0cHV0IGlzIGluc3BlY3RhYmxlLiBUaGlzIGlzIGFuIEFJICpyZXNlYXJjaCBleHBlcmltZW50Kiwgbm90IGEgdHJhaW5lZCBzZW5zb3J5IHByZWRpY3Rpb24gbW9kZWwuIEEgc3Ryb25nZXIgc2VtYW50aWMgbW9kZWwgbWF5IGJlIGludHJvZHVjZWQgb25seSBhZnRlciBhIGxhYmVsZWQgZXZhbHVhdGlvbiBzZXQgc2hvd3MgbWVhc3VyYWJsZSB2YWx1ZSBvdmVyIHNpbXBsZXIgYmFzZWxpbmVzLgoKKipCb3VuZGFyeToqKiBubyBhdXRvbWF0aWMgY3VsaW5hcnkgc2FmZXR5IGNlcnRpZmljYXRpb24sIG51dHJpZW50IGVxdWl2YWxlbmNlLCB0YXN0ZSBwcmVkaWN0aW9uIG9yIHJlc3RhdXJhbnQgZW5kb3JzZW1lbnQuCgojIyBBRFIgMDAzIOKAlCBmYWlsLWNsb3NlZCByZXNlYXJjaCBtb2RlCioqRGVjaXNpb246KiogY2xlYXJseSBzeW50aGV0aWMgZGVtbyBkYXRhIGNhbiBwb3dlciBwcmVzZW50YXRpb25zLiBUaGUgcmVzZWFyY2ggZGF0YXNldCBmYWlscyBpZiBzb3VyY2UsIHVuaXRzLCBudW1lcmljIGZpZWxkcyBvciByZWNpcGUgcm93cyBhcmUgbWlzc2luZy4gTm8gc2lsZW50IGZhbGxiYWNrLgoKIyMgRGF0YSBmbG93CmBgYHRleHQKQ1NWIGRpc2hlcyArIGluZ3JlZGllbnRzICsgb3B0aW9ucyArIG9wdGlvbl9pdGVtcwogICAgLT4gc2NoZW1hIHZhbGlkYXRpb24gKyBzb3VyY2UgcmVjb3JkcwogICAgLT4gcGVyLXNlcnZpbmcgY29zdCBhbmQgbnV0cmllbnQgYXJpdGhtZXRpYwogICAgLT4gZmlsdGVyIGhhcmQgY29uc3RyYWludHMgLyBkZWNsYXJlZCBhbGxlcmdlbnMKICAgIC0+IHRlbnRhdGl2ZSBOTFAgcHJlZmVyZW5jZSBzaW1pbGFyaXR5CiAgICAtPiB3ZWlnaHRlZCByYW5raW5nICsgY2hlYXBlc3QgYmFzZWxpbmUKICAgIC0+IFN0cmVhbWxpdCBleHBsYW5hdGlvbiwgYmVlZiByZWZlcmVuY2UsIHNjZW5hcmlvcywgZXZpZGVuY2UgYXVkaXQKYGBgCgojIyBUaHJlYXRzICYgc2FmZWd1YXJkcwotICoqTWlzaW5mb3JtYXRpb246KiogcHJvbWluZW50IGRlbW8gbGFiZWwsIHNvdXJjZS9kYXRlL2Zvb2Qgc3RhdGUsIHZhbGlkYXRpb24gcmVmdXNhbCBvbiBnYXBzLgotICoqSW5jb3JyZWN0IHVuaXRzOioqIHB1cmNoYXNlIGdyYW1zIMOXIE5HTi9rZyAvIDEwMDA7IG51dHJpZW50IHBlciAxMDAgZyDDlyBwdXJjaGFzZSBncmFtcyAvIDEwMC4gQ2hlY2sgZm9vZCBzdGF0ZS4KLSAqKlVuc2FmZSBkaWV0IGFkdmljZToqKiBjbGVhciByZXNlYXJjaC1vbmx5IHdhcm5pbmc7IG5vIGhlYWx0aCBjbGFpbXMgb3IgdmVyaWZpZWQgYWxsZXJneSBhc3N1cmFuY2VzLgotICoqRGVwZW5kZW5jaWVzIC8gY29kZSBzdXBwbHkgY2hhaW46KiogbWluaW11bSBHaXRIdWIgQWN0aW9ucyB0b2tlbiBwZXJtaXNzaW9ucywgU0hBLXBpbm5lZCBvZmZpY2lhbCBhY3Rpb25zLCBEZXBlbmRhYm90LCByZXZpZXcgb24gUFJzLgotICoqU2VjcmV0czoqKiBub25lIG5lZWRlZCwgYC5lbnZgIGFuZCBgLnN0cmVhbWxpdC9zZWNyZXRzLnRvbWxgIGlnbm9yZWQ7IGRvIG5vdCBsb2cgY3JlZGVudGlhbHMuCi0gKipEYXRhIGluamVjdGlvbjoqKiBubyBleHRlcm5hbCBmaWxlIHVwbG9hZHMgb3IgYXJiaXRyYXJ5IGNvZGUgZXhlY3V0aW9uIGluIHRoZSBVSTsgbm8gdXNlci1wcm92aWRlZCBIVE1MIHJlbmRlcmVkIGR5bmFtaWNhbGx5LgotICoqUHJpdmFjeToqKiBubyBwZXJzb25hbCBjb250YWN0IGRldGFpbHMgaW4gcmVwb3NpdG9yeSBkYXRhLgoKIyMgRnV0dXJlIGV2b2x1dGlvbiAobm90IHlldCBpbXBsZW1lbnRlZCkKVHlwZWQgUHlkYW50aWMgbW9kZWxzLCBQb3N0Z3JlcyBtaWdyYXRpb24sIHJlYWwgcmVzdGF1cmFudCBxdW90ZXMgYW5kIHJldmlld2VyIGFwcHJvdmFsLCBlbmVyZ3kgbWVhc3VyZW1lbnQsIGluZ3JlZGllbnQtc3BlY2lmaWMgcHJpY2UgdW5jZXJ0YWludHksIHJpY2hlciBzZW1hbnRpYyByZXRyaWV2YWwsIHRyYWluZWQvcmV2aWV3ZWQgdGFzdGUgZmVhc2liaWxpdHkgaWYgYSB0cnVzdHdvcnRoeSBsb2NhbCBkYXRhc2V0IGJlY29tZXMgYXZhaWxhYmxlLgo=
+# Architecture decisions · Naija MenuShift
+
+## ADR 001 — data-first multi-dish foundation (2026-11-12)
+**Decision:** local, normalized CSV data for dishes, ingredients, options and recipe items; a pure Python decision engine; a separate Streamlit presentation layer. Suya/4 tofu treatments are an initial experimental dataset, not a permanent product limit.
+
+**Rationale:** free, offline-capable, testable, explainable and suitable for a two-day hackathon. No database, login system, paid APIs, or insecure public upload service is necessary yet.
+
+**Trade-off:** CSV schema, provenance and food safety must be curated. Future storage (Postgres/API) can replace the reader without changing computation semantics. Multi-user authoring is not available.
+
+## ADR 002 — auditability over unsupported AI claims
+**Decision:** deterministic rules enforce hard constraints; a transparent weighted scorer ranks eligible candidates. An experimental TF-IDF similarity feature matches preparation preferences. Cheapest-only and cheapest-feasible options are shown as baselines.
+
+**Rationale:** every output is inspectable. This is an AI *research experiment*, not a trained sensory prediction model. A stronger semantic model may be introduced only after a labeled evaluation set shows measurable value over simpler baselines.
+
+**Boundary:** no automatic culinary safety certification, nutrient equivalence, taste prediction or restaurant endorsement.
+
+## ADR 003 — fail-closed research mode
+**Decision:** clearly synthetic demo data can power presentations. The research dataset fails if source, units, numeric fields or recipe rows are missing. No silent fallback.
+
+## Data flow
+```text
+CSV dishes + ingredients + options + option_items
+    -> schema validation + source records
+    -> per-serving cost and nutrient arithmetic
+    -> filter hard constraints / declared allergens
+    -> tentative NLP preference similarity
+    -> weighted ranking + cheapest baseline
+    -> Streamlit explanation, beef reference, scenarios, evidence audit
+```
+
+## Threats & safeguards
+- **Misinformation:** prominent demo label, source/date/food state, validation refusal on gaps.
+- **Incorrect units:** purchase grams × NGN/kg / 1000; nutrient per 100 g × purchase grams / 100. Check food state.
+- **Unsafe diet advice:** clear research-only warning; no health claims or verified allergy assurances.
+- **Dependencies / code supply chain:** minimum GitHub Actions token permissions, SHA-pinned official actions, Dependabot, review on PRs.
+- **Secrets:** none needed, `.env` and `.streamlit/secrets.toml` ignored; do not log credentials.
+- **Data injection:** no external file uploads or arbitrary code execution in the UI; no user-provided HTML rendered dynamically.
+- **Privacy:** no personal contact details in repository data.
+
+## Future evolution (not yet implemented)
+Typed Pydantic models, Postgres migration, real restaurant quotes and reviewer approval, energy measurement, ingredient-specific price uncertainty, richer semantic retrieval, trained/reviewed taste feasibility if a trustworthy local dataset becomes available.
