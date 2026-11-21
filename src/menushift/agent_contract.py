@@ -1,1 +1,234 @@
-IiIiQmVkcm9jay1yZWFkeSBhZ2VudCBjb250cmFjdCB3aXRoIGEgYm91bmRlZCwgZGV0ZXJtaW5pc3RpYyBzYWZldHkvZXZpZGVuY2UgZ2F0ZS4KCkEgcGxhbm5lciBtYXkgcHJvcG9zZSBvbmx5IGFwcHJvdmVkIG1ldGhvZCBJRHMsIHBvcnRpb24gbWFzc2VzIGFuZCBvcHRpb25hbAppbmdyZWRpZW50IHF1YW50aXRpZXMuIFRoZSBsb2NhbCBldmFsdWF0b3IgaXMgdGhlIHNvbGUgYXV0aG9yaXR5IG9uIGNvbnN0cmFpbnRzLgpUaGlzIG1vZHVsZSB3b3JrcyBvZmZsaW5lIHdpdGggZmFrZSBwcm9wb3NlcnM7IEFXUyBpbnRlZ3JhdGlvbiBpcyBvcHRpb25hbC4KCk5vIGNhbmRpZGF0ZSBpcyBhIGtpdGNoZW4tY2VydGlmaWVkIHJlY2lwZSBvciB2ZXJpZmllZCBjdXN0b21lciByZWNvbW1lbmRhdGlvbi4KIiIiCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmltcG9ydCBqc29uCmltcG9ydCBtYXRoCmZyb20gZGF0YWNsYXNzZXMgaW1wb3J0IGRhdGFjbGFzcwpmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKZnJvbSB0eXBpbmcgaW1wb3J0IEFueSwgUHJvdG9jb2wKCmZyb20gLmtpdGNoZW5fb3B0aW1pemVyIGltcG9ydCBFUVVJUE1FTlRfUkVRVUlSRU1FTlRTLCBJTlZFTlRPUllfSVRFTVMsIFJlY2lwZUNhbmRpZGF0ZSwgZXhwbG9yZQoKTUFYX1JPVU5EUyA9IDIKTUFYX1BST1BPU0FMU19QRVJfUk9VTkQgPSA2Ck1BWF9SRUFTT05fQ0hBUlMgPSAyNDAKQU1PVU5UX0xJTUlUUyA9IHsKICAgICJvbmlvbl9nIjogNjAsCiAgICAicGVwcGVyX2ciOiAyNSwKICAgICJzYWx0X2ciOiA4LAogICAgInNlYXNvbmluZ19nIjogMTIsCn0KRVhQRUNURURfS0VZUyA9IHsibWV0aG9kX2lkIiwgInBvcnRpb25fZyIsICJvbmlvbl9nIiwgInBlcHBlcl9nIiwgInNhbHRfZyIsICJzZWFzb25pbmdfZyIsICJyZWFzb24ifQoKCkBkYXRhY2xhc3MoZnJvemVuPVRydWUpCmNsYXNzIEtpdGNoZW5CcmllZjoKICAgIGJ1ZGdldF9uZ246IGZsb2F0CiAgICBtaW5fcHJvdGVpbl9nOiBmbG9hdAogICAgbWF4X3ByZXBfbWludXRlczogZmxvYXQKICAgIGVxdWlwbWVudDogZnJvemVuc2V0W3N0cl0KICAgIGF2YWlsYWJsZV9pbmdyZWRpZW50czogZnJvemVuc2V0W3N0cl0KICAgIGF2b2lkX2FsbGVyZ2VuczogdHVwbGVbc3RyLCAuLi5dID0gKCkKICAgIHByZWZlcmVuY2U6IHN0ciA9ICIiCiAgICB3ZXRfeWllbGRfa2dfcGVyX2tnX2RyeTogZmxvYXQgPSAxLjc1CiAgICBvaWxfY2w6IGZsb2F0ID0gMS4wCgogICAgZGVmIHZhbGlkYXRlKHNlbGYpIC0+IE5vbmU6CiAgICAgICAgdmFsdWVzID0gKAogICAgICAgICAgICBzZWxmLmJ1ZGdldF9uZ24sIHNlbGYubWluX3Byb3RlaW5fZywgc2VsZi5tYXhfcHJlcF9taW51dGVzLAogICAgICAgICAgICBzZWxmLndldF95aWVsZF9rZ19wZXJfa2dfZHJ5LCBzZWxmLm9pbF9jbCwKICAgICAgICApCiAgICAgICAgaWYgYW55KG5vdCBtYXRoLmlzZmluaXRlKGZsb2F0KHZhbHVlKSkgZm9yIHZhbHVlIGluIHZhbHVlcyk6CiAgICAgICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoIk5vbi1maW5pdGUgYnJpZWYgbnVtYmVyIikKICAgICAgICBpZiBzZWxmLmJ1ZGdldF9uZ24gPD0gMCBvciBzZWxmLm1pbl9wcm90ZWluX2cgPCAwIG9yIHNlbGYubWF4X3ByZXBfbWludXRlcyA8PSAwOgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJJbnZhbGlkIGJ1ZGdldC9wcm90ZWluL3RpbWUgY29uc3RyYWludHMiKQogICAgICAgIGlmIG5vdCAwIDwgc2VsZi53ZXRfeWllbGRfa2dfcGVyX2tnX2RyeSA8PSAxMCBvciBzZWxmLm9pbF9jbCA8IDA6CiAgICAgICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoIlVucmVhc29uYWJsZSBtb2RlbGxpbmcgYXNzdW1wdGlvbnMiKQogICAgICAgIGlmIG5vdCBzZWxmLmVxdWlwbWVudCA8PSBzZXQoKS51bmlvbigqRVFVSVBNRU5UX1JFUVVJUkVNRU5UUy52YWx1ZXMoKSk6CiAgICAgICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoIlVua25vd24gZXF1aXBtZW50IikKICAgICAgICBpZiBub3Qgc2VsZi5hdmFpbGFibGVfaW5ncmVkaWVudHMgPD0gc2V0KElOVkVOVE9SWV9JVEVNUyk6CiAgICAgICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoIlVua25vd24gaW52ZW50b3J5IGl0ZW0iKQogICAgICAgIGlmIGxlbihzZWxmLnByZWZlcmVuY2UpID4gMjAwOgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJQcmVmZXJlbmNlIGlzIHRvbyBsb25nIikKCgpAZGF0YWNsYXNzKGZyb3plbj1UcnVlKQpjbGFzcyBBZ2VudERlY2lzaW9uOgogICAgcHJvcG9zYWxfaWQ6IHN0cgogICAgYWNjZXB0ZWQ6IGJvb2wKICAgIHJlYXNvbjogc3RyCiAgICBjYW5kaWRhdGU6IFJlY2lwZUNhbmRpZGF0ZSB8IE5vbmUgPSBOb25lCgoKQGRhdGFjbGFzcyhmcm96ZW49VHJ1ZSkKY2xhc3MgQWdlbnRSdW46CiAgICBkZWNpc2lvbnM6IHR1cGxlW0FnZW50RGVjaXNpb24sIC4uLl0KICAgIHJvdW5kczogaW50CiAgICBwbGFubmVyX2ludm9rZWQ6IGJvb2wgICMgbm90IGV2aWRlbmNlIHRoYXQgYW4gQVdTIG9yIGxlYXJuZWQgbW9kZWwgd2FzIHVzZWQKCiAgICBAcHJvcGVydHkKICAgIGRlZiBhY2NlcHRlZChzZWxmKSAtPiB0dXBsZVtSZWNpcGVDYW5kaWRhdGUsIC4uLl06CiAgICAgICAgcmV0dXJuIHR1cGxlKGQuY2FuZGlkYXRlIGZvciBkIGluIHNlbGYuZGVjaXNpb25zIGlmIGQuYWNjZXB0ZWQgYW5kIGQuY2FuZGlkYXRlIGlzIG5vdCBOb25lKQoKCmNsYXNzIFByb3Bvc2VyKFByb3RvY29sKToKICAgICIiIkFuIG9wdGlvbmFsLCByZXBsYWNlYWJsZSBwbGFubmluZyB0b29sLiBOZXZlciB0cnVzdGVkIGFzIGEgc291cmNlIG9mIGZhY3RzLiIiIgoKICAgIGRlZiBwcm9wb3NlKHNlbGYsICosIGJyaWVmOiBLaXRjaGVuQnJpZWYsIGZlZWRiYWNrOiB0dXBsZVtzdHIsIC4uLl0sIHJvdW5kX251bWJlcjogaW50KSAtPiBzdHI6CiAgICAgICAgIiIiUmV0dXJuIEpTT04gd2l0aCBrZXkgJ3Byb3Bvc2FscycgY29udGFpbmluZyBhIGxpc3Qgb2YgYm91bmRlZCByZWNvcmRzLiIiIgogICAgICAgIC4uLgoKCmRlZiBfYW1vdW50KHZhbHVlOiBBbnksIGZpZWxkOiBzdHIsICosIG1heGltdW06IGZsb2F0KSAtPiBmbG9hdDoKICAgIGlmIGlzaW5zdGFuY2UodmFsdWUsIGJvb2wpIG9yIG5vdCBpc2luc3RhbmNlKHZhbHVlLCAoaW50LCBmbG9hdCkpOgogICAgICAgIHJhaXNlIFR5cGVFcnJvcihmIntmaWVsZH0gbXVzdCBiZSBhIG51bWJlciIpCiAgICBuID0gZmxvYXQodmFsdWUpCiAgICBpZiBub3QgbWF0aC5pc2Zpbml0ZShuKSBvciBuIDwgMCBvciBuID4gbWF4aW11bToKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKGYie2ZpZWxkfSBvdXRzaWRlIHBlcm1pdHRlZCByYW5nZSIpCiAgICByZXR1cm4gbgoKCmRlZiBwYXJzZV9wcm9wb3NhbHMocGF5bG9hZDogc3RyKSAtPiBsaXN0W2RpY3Rbc3RyLCBBbnldXToKICAgICIiIlJlZnVzZSBtYXJrZG93biwgdW5leHBlY3RlZCBvYmplY3Qga2V5cywgbm9uLWZpbml0ZSB2YWx1ZXMgYW5kIG92ZXJzaXplZCByZXNwb25zZXMuIiIiCiAgICBpZiBsZW4ocGF5bG9hZCkgPiAxMjAwMDoKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJQcm9wb3NhbCBwYXlsb2FkIGlzIHRvbyBsYXJnZSIpCiAgICB0cnk6CiAgICAgICAgZGF0YSA9IGpzb24ubG9hZHMocGF5bG9hZCkKICAgIGV4Y2VwdCBqc29uLkpTT05EZWNvZGVFcnJvciBhcyBleGM6CiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigiUGxhbm5lciByZXNwb25zZSBtdXN0IGJlIHBsYWluIEpTT04sIG5vdCBNYXJrZG93biIpIGZyb20gZXhjCiAgICBpZiBub3QgaXNpbnN0YW5jZShkYXRhLCBkaWN0KSBvciBzZXQoZGF0YSkgIT0geyJwcm9wb3NhbHMifSBvciBub3QgaXNpbnN0YW5jZShkYXRhWyJwcm9wb3NhbHMiXSwgbGlzdCk6CiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigiRXhwZWN0ZWQgYSBzaW5nbGUgSlNPTiBvYmplY3QgY29udGFpbmluZyBwcm9wb3NhbHMiKQogICAgaWYgbGVuKGRhdGFbInByb3Bvc2FscyJdKSA+IE1BWF9QUk9QT1NBTFNfUEVSX1JPVU5EOgogICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoIlRvbyBtYW55IHByb3Bvc2FscyBpbiBvbmUgbW9kZWwgcmVzcG9uc2UiKQogICAgcGFyc2VkID0gW10KICAgIGZvciBwcm9wb3NhbCBpbiBkYXRhWyJwcm9wb3NhbHMiXToKICAgICAgICBpZiBub3QgaXNpbnN0YW5jZShwcm9wb3NhbCwgZGljdCkgb3Igc2V0KHByb3Bvc2FsKSAhPSBFWFBFQ1RFRF9LRVlTOgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJQcm9wb3NhbCBzY2hlbWEgbWlzbWF0Y2giKQogICAgICAgIGlmIHByb3Bvc2FsWyJtZXRob2RfaWQiXSBub3QgaW4gRVFVSVBNRU5UX1JFUVVJUkVNRU5UUzoKICAgICAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigiVW5rbm93biBwcmVwYXJhdGlvbiBtZXRob2QiKQogICAgICAgIHBvcnRpb24gPSBwcm9wb3NhbFsicG9ydGlvbl9nIl0KICAgICAgICBpZiBpc2luc3RhbmNlKHBvcnRpb24sIGJvb2wpIG9yIG5vdCBpc2luc3RhbmNlKHBvcnRpb24sIGludCkgb3Igbm90IDUwIDw9IHBvcnRpb24gPD0gNDAwOgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJwb3J0aW9uX2cgbXVzdCBiZSBhIHdob2xlIG51bWJlciBmcm9tIDUwIHRvIDQwMCIpCiAgICAgICAgZm9yIGZpZWxkLCBtYXhpbXVtIGluIEFNT1VOVF9MSU1JVFMuaXRlbXMoKToKICAgICAgICAgICAgX2Ftb3VudChwcm9wb3NhbFtmaWVsZF0sIGZpZWxkLCBtYXhpbXVtPW1heGltdW0pCiAgICAgICAgcmVhc29uID0gcHJvcG9zYWxbInJlYXNvbiJdCiAgICAgICAgaWYgbm90IGlzaW5zdGFuY2UocmVhc29uLCBzdHIpIG9yIGxlbihyZWFzb24pID4gTUFYX1JFQVNPTl9DSEFSUzoKICAgICAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigiUHJvcG9zYWwgcmF0aW9uYWxlIG11c3QgYmUgc2hvcnQgdGV4dCIpCiAgICAgICAgcGFyc2VkLmFwcGVuZChwcm9wb3NhbCkKICAgIHJldHVybiBwYXJzZWQKCgpkZWYgZXZhbHVhdGVfY2FuZGlkYXRlKAogICAgcHJvcG9zYWw6IGRpY3Rbc3RyLCBBbnldLAogICAgYnJpZWY6IEtpdGNoZW5CcmllZiwKICAgIHNvdXJjZXM6IHN0ciB8IFBhdGgsCikgLT4gQWdlbnREZWNpc2lvbjoKICAgICIiIkEgZGV0ZXJtaW5pc3RpYyB0b29sIGdhdGU7IG1vZGVsIHRleHQgbmV2ZXIgb3ZlcnJpZGVzIG1lYXN1cmVkIGlucHV0IGNvbHVtbnMuIiIiCiAgICBicmllZi52YWxpZGF0ZSgpCiAgICBtZXRob2QgPSBwcm9wb3NhbFsibWV0aG9kX2lkIl0KICAgIHBvcnRpb24gPSBwcm9wb3NhbFsicG9ydGlvbl9nIl0KICAgIGtleSA9IGYie21ldGhvZH1Ae3BvcnRpb259ZyIKICAgIGlmIG1ldGhvZCBub3QgaW4gRVFVSVBNRU5UX1JFUVVJUkVNRU5UUzoKICAgICAgICByZXR1cm4gQWdlbnREZWNpc2lvbihrZXksIEZhbHNlLCAiVW5yZWNvZ25pc2VkIG1ldGhvZCIpCiAgICB0cnk6CiAgICAgICAgcmVzdWx0ID0gZXhwbG9yZSgKICAgICAgICAgICAgc291cmNlcywKICAgICAgICAgICAgYnVkZ2V0X25nbj1icmllZi5idWRnZXRfbmduLCBwcm90ZWluX3RhcmdldF9nPWJyaWVmLm1pbl9wcm90ZWluX2csCiAgICAgICAgICAgIG1heF9wcmVwX21pbnV0ZXM9YnJpZWYubWF4X3ByZXBfbWludXRlcywgZXF1aXBtZW50PWJyaWVmLmVxdWlwbWVudCwKICAgICAgICAgICAgYXZhaWxhYmxlX2luZ3JlZGllbnRzPWJyaWVmLmF2YWlsYWJsZV9pbmdyZWRpZW50cywKICAgICAgICAgICAgcG9ydGlvbnNfZz0ocG9ydGlvbiwpLCBwcmVmZXJlbmNlPWJyaWVmLnByZWZlcmVuY2UsCiAgICAgICAgICAgIGF2b2lkX2FsbGVyZ2Vucz1icmllZi5hdm9pZF9hbGxlcmdlbnMsCiAgICAgICAgICAgIHdldF95aWVsZF9rZ19wZXJfa2dfZHJ5PWJyaWVmLndldF95aWVsZF9rZ19wZXJfa2dfZHJ5LCBvaWxfY2w9YnJpZWYub2lsX2NsLAogICAgICAgICAgICBvbmlvbl9nPXByb3Bvc2FsWyJvbmlvbl9nIl0sIHBlcHBlcl9nPXByb3Bvc2FsWyJwZXBwZXJfZyJdLAogICAgICAgICAgICBzYWx0X2c9cHJvcG9zYWxbInNhbHRfZyJdLCBzZWFzb25pbmdfZz1wcm9wb3NhbFsic2Vhc29uaW5nX2ciXSwKICAgICAgICApCiAgICBleGNlcHQgKFZhbHVlRXJyb3IsIE9TRXJyb3IpIGFzIGV4YzoKICAgICAgICByZXR1cm4gQWdlbnREZWNpc2lvbihrZXksIEZhbHNlLCAiQ2FsY3VsYXRpb24gcmVqZWN0ZWQ6ICIgKyBzdHIoZXhjKVs6MjIwXSkKICAgIGl0ZW0gPSBuZXh0KChjIGZvciBjIGluIHJlc3VsdC5jYW5kaWRhdGVzIGlmIGMuaWRlbnRpZmllciA9PSBrZXkpLCBOb25lKQogICAgaWYgaXRlbSBpcyBOb25lOgogICAgICAgIHJldHVybiBBZ2VudERlY2lzaW9uKGtleSwgRmFsc2UsICJSZXF1aXJlZCBlcXVpcG1lbnQsIGluZ3JlZGllbnRzIG9yIG1ldGhvZCB1bmF2YWlsYWJsZSIpCiAgICBpZiBub3QgaXRlbS5lbGlnaWJsZToKICAgICAgICByZXR1cm4gQWdlbnREZWNpc2lvbigKICAgICAgICAgICAga2V5LCBGYWxzZSwKICAgICAgICAgICAgIjsgIi5qb2luKGl0ZW0uZXZhbHVhdGlvbi5yZWFzb25zKVs6MjgwXSBvciAiSGFyZCBjb25zdHJhaW50IHZpb2xhdGlvbiIsCiAgICAgICAgKQogICAgcmV0dXJuIEFnZW50RGVjaXNpb24oCiAgICAgICAga2V5LCBUcnVlLAogICAgICAgICJOdW1lcmljYWxseSBlbGlnaWJsZSB1bmRlciB1bnZlcmlmaWVkIHByaWNlL3lpZWxkL3RpbWUgYXNzdW1wdGlvbnM7ICIKICAgICAgICAiaHVtYW4ga2l0Y2hlbiBhbmQgYWxsZXJnZW4gcmV2aWV3IHN0aWxsIHJlcXVpcmVkIiwKICAgICAgICBpdGVtLAogICAgKQoKCmRlZiBydW5fYWdlbnQoCiAgICBwcm9wb3NlcjogUHJvcG9zZXIsIGJyaWVmOiBLaXRjaGVuQnJpZWYsIHNvdXJjZXM6IHN0ciB8IFBhdGgsCiAgICAqLCBtYXhfcm91bmRzOiBpbnQgPSBNQVhfUk9VTkRTLAopIC0+IEFnZW50UnVuOgogICAgIiIiUGxhbiDihpIgY2hlY2sgc2NoZW1hIOKGkiBldmFsdWF0ZSB3aXRoIGxvY2FsIGVuZ2luZSDihpIgYm91bmRlZCBmZWVkYmFjay4KCiAgICBBdCBtb3N0IHR3byBtb2RlbCBjYWxscyBhbmQgc2l4IHByb3Bvc2FscyBwZXIgY2FsbC4gQW55IGZhaWx1cmUgYWJzdGFpbnMuCiAgICBObyBhdXRvbm9tb3VzIHB1cmNoYXNpbmcsIGRlcGxveW1lbnQsIGV4dGVybmFsIHdyaXRlcyBvciBzZWNyZXQgZXhwb3N1cmUuCiAgICAiIiIKICAgIGJyaWVmLnZhbGlkYXRlKCkKICAgIGlmIG5vdCAxIDw9IG1heF9yb3VuZHMgPD0gTUFYX1JPVU5EUzoKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJtYXhfcm91bmRzIGNhbm5vdCBleGNlZWQgdGhlIGhhcmQgY2FwIikKICAgIGZlZWRiYWNrOiBsaXN0W3N0cl0gPSBbXQogICAgZGVjaXNpb25zOiBsaXN0W0FnZW50RGVjaXNpb25dID0gW10KICAgIHNlZW46IHNldFtzdHJdID0gc2V0KCkKICAgIHJvdW5kcyA9IDAKICAgIGZvciByb3VuZF9udW1iZXIgaW4gcmFuZ2UoMSwgbWF4X3JvdW5kcyArIDEpOgogICAgICAgIHJvdW5kcyA9IHJvdW5kX251bWJlcgogICAgICAgIHRyeToKICAgICAgICAgICAgcGF5bG9hZCA9IHByb3Bvc2VyLnByb3Bvc2UoCiAgICAgICAgICAgICAgICBicmllZj1icmllZiwgZmVlZGJhY2s9dHVwbGUoZmVlZGJhY2spLCByb3VuZF9udW1iZXI9cm91bmRfbnVtYmVyCiAgICAgICAgICAgICkKICAgICAgICAgICAgcHJvcG9zYWxzID0gcGFyc2VfcHJvcG9zYWxzKHBheWxvYWQpCiAgICAgICAgZXhjZXB0IChWYWx1ZUVycm9yLCBUeXBlRXJyb3IpIGFzIGV4YzoKICAgICAgICAgICAgZGVjaXNpb25zLmFwcGVuZChBZ2VudERlY2lzaW9uKCJwbGFubmVyIiwgRmFsc2UsICJJbnZhbGlkIHBsYW5uZXIgcmVzcG9uc2U6ICIgKyBzdHIoZXhjKVs6MjUwXSkpCiAgICAgICAgICAgIGJyZWFrCiAgICAgICAgZm9yIHByb3Bvc2FsIGluIHByb3Bvc2FsczoKICAgICAgICAgICAgdW5pcXVlID0ganNvbi5kdW1wcyhwcm9wb3NhbCwgc29ydF9rZXlzPVRydWUpCiAgICAgICAgICAgIGlmIHVuaXF1ZSBpbiBzZWVuOgogICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgc2Vlbi5hZGQodW5pcXVlKQogICAgICAgICAgICBkZWNpc2lvbiA9IGV2YWx1YXRlX2NhbmRpZGF0ZShwcm9wb3NhbCwgYnJpZWYsIHNvdXJjZXMpCiAgICAgICAgICAgIGRlY2lzaW9ucy5hcHBlbmQoZGVjaXNpb24pCiAgICAgICAgICAgIGlmIG5vdCBkZWNpc2lvbi5hY2NlcHRlZDoKICAgICAgICAgICAgICAgIGZlZWRiYWNrLmFwcGVuZChmIntkZWNpc2lvbi5wcm9wb3NhbF9pZH06IHtkZWNpc2lvbi5yZWFzb259IikKICAgICAgICBpZiBsZW4oW2QgZm9yIGQgaW4gZGVjaXNpb25zIGlmIGQuYWNjZXB0ZWRdKSA+PSAzIG9yIG5vdCBmZWVkYmFjazoKICAgICAgICAgICAgYnJlYWsKICAgIHJldHVybiBBZ2VudFJ1bih0dXBsZShkZWNpc2lvbnMpLCByb3VuZHM9cm91bmRzLCBwbGFubmVyX2ludm9rZWQ9VHJ1ZSkKCgpkZWYgYWxsb3dlZF9wcm9wb3NhbF9zY2hlbWEoKSAtPiBkaWN0W3N0ciwgQW55XToKICAgICIiIkpTT04gU2NoZW1hIGZvciB0aGUgbW9kZWwtZmFjaW5nIHJlc3BvbnNlOyBsb2NhbCBwYXJzZXIgcmVtYWlucyBhdXRob3JpdGF0aXZlLiIiIgogICAgcmV0dXJuIHsKICAgICAgICAidHlwZSI6ICJvYmplY3QiLAogICAgICAgICJhZGRpdGlvbmFsUHJvcGVydGllcyI6IEZhbHNlLAogICAgICAgICJyZXF1aXJlZCI6IFsicHJvcG9zYWxzIl0sCiAgICAgICAgInByb3BlcnRpZXMiOiB7CiAgICAgICAgICAgICJwcm9wb3NhbHMiOiB7CiAgICAgICAgICAgICAgICAidHlwZSI6ICJhcnJheSIsICJtYXhJdGVtcyI6IE1BWF9QUk9QT1NBTFNfUEVSX1JPVU5ELAogICAgICAgICAgICAgICAgIml0ZW1zIjogewogICAgICAgICAgICAgICAgICAgICJ0eXBlIjogIm9iamVjdCIsICJyZXF1aXJlZCI6IHNvcnRlZChFWFBFQ1RFRF9LRVlTKSwKICAgICAgICAgICAgICAgICAgICAiYWRkaXRpb25hbFByb3BlcnRpZXMiOiBGYWxzZSwKICAgICAgICAgICAgICAgICAgICAicHJvcGVydGllcyI6IHsKICAgICAgICAgICAgICAgICAgICAgICAgIm1ldGhvZF9pZCI6IHsidHlwZSI6ICJzdHJpbmciLCAiZW51bSI6IHNvcnRlZChFUVVJUE1FTlRfUkVRVUlSRU1FTlRTKX0sCiAgICAgICAgICAgICAgICAgICAgICAgICJwb3J0aW9uX2ciOiB7InR5cGUiOiAiaW50ZWdlciIsICJtaW5pbXVtIjogNTAsICJtYXhpbXVtIjogNDAwfSwKICAgICAgICAgICAgICAgICAgICAgICAgKip7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBrZXk6IHsidHlwZSI6ICJudW1iZXIiLCAibWluaW11bSI6IDAsICJtYXhpbXVtIjogbGltaXR9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb3Iga2V5LCBsaW1pdCBpbiBBTU9VTlRfTElNSVRTLml0ZW1zKCkKICAgICAgICAgICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgICAgICAgICAgInJlYXNvbiI6IHsidHlwZSI6ICJzdHJpbmciLCAibWF4TGVuZ3RoIjogTUFYX1JFQVNPTl9DSEFSU30sCiAgICAgICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgIH0KICAgICAgICB9LAogICAgfQo=
+"""Bedrock-ready agent contract with a bounded, deterministic safety/evidence gate.
+
+A planner may propose only approved method IDs, portion masses and optional
+ingredient quantities. The local evaluator is the sole authority on constraints.
+This module works offline with fake proposers; AWS integration is optional.
+
+No candidate is a kitchen-certified recipe or verified customer recommendation.
+"""
+from __future__ import annotations
+
+import json
+import math
+from dataclasses import dataclass
+from pathlib import Path
+from typing import Any, Protocol
+
+from .kitchen_optimizer import EQUIPMENT_REQUIREMENTS, INVENTORY_ITEMS, RecipeCandidate, explore
+
+MAX_ROUNDS = 2
+MAX_PROPOSALS_PER_ROUND = 6
+MAX_REASON_CHARS = 240
+AMOUNT_LIMITS = {
+    "onion_g": 60,
+    "pepper_g": 25,
+    "salt_g": 8,
+    "seasoning_g": 12,
+}
+EXPECTED_KEYS = {"method_id", "portion_g", "onion_g", "pepper_g", "salt_g", "seasoning_g", "reason"}
+
+
+@dataclass(frozen=True)
+class KitchenBrief:
+    budget_ngn: float
+    min_protein_g: float
+    max_prep_minutes: float
+    equipment: frozenset[str]
+    available_ingredients: frozenset[str]
+    avoid_allergens: tuple[str, ...] = ()
+    preference: str = ""
+    wet_yield_kg_per_kg_dry: float = 1.75
+    oil_cl: float = 1.0
+
+    def validate(self) -> None:
+        values = (
+            self.budget_ngn, self.min_protein_g, self.max_prep_minutes,
+            self.wet_yield_kg_per_kg_dry, self.oil_cl,
+        )
+        if any(not math.isfinite(float(value)) for value in values):
+            raise ValueError("Non-finite brief number")
+        if self.budget_ngn <= 0 or self.min_protein_g < 0 or self.max_prep_minutes <= 0:
+            raise ValueError("Invalid budget/protein/time constraints")
+        if not 0 < self.wet_yield_kg_per_kg_dry <= 10 or self.oil_cl < 0:
+            raise ValueError("Unreasonable modelling assumptions")
+        if not self.equipment <= set().union(*EQUIPMENT_REQUIREMENTS.values()):
+            raise ValueError("Unknown equipment")
+        if not self.available_ingredients <= set(INVENTORY_ITEMS):
+            raise ValueError("Unknown inventory item")
+        if len(self.preference) > 200:
+            raise ValueError("Preference is too long")
+
+
+@dataclass(frozen=True)
+class AgentDecision:
+    proposal_id: str
+    accepted: bool
+    reason: str
+    candidate: RecipeCandidate | None = None
+
+
+@dataclass(frozen=True)
+class AgentRun:
+    decisions: tuple[AgentDecision, ...]
+    rounds: int
+    planner_invoked: bool  # not evidence that an AWS or learned model was used
+
+    @property
+    def accepted(self) -> tuple[RecipeCandidate, ...]:
+        return tuple(d.candidate for d in self.decisions if d.accepted and d.candidate is not None)
+
+
+class Proposer(Protocol):
+    """An optional, replaceable planning tool. Never trusted as a source of facts."""
+
+    def propose(self, *, brief: KitchenBrief, feedback: tuple[str, ...], round_number: int) -> str:
+        """Return JSON with key 'proposals' containing a list of bounded records."""
+        ...
+
+
+def _amount(value: Any, field: str, *, maximum: float) -> float:
+    if isinstance(value, bool) or not isinstance(value, (int, float)):
+        raise TypeError(f"{field} must be a number")
+    n = float(value)
+    if not math.isfinite(n) or n < 0 or n > maximum:
+        raise ValueError(f"{field} outside permitted range")
+    return n
+
+
+def parse_proposals(payload: str) -> list[dict[str, Any]]:
+    """Refuse markdown, unexpected object keys, non-finite values and oversized responses."""
+    if len(payload) > 12000:
+        raise ValueError("Proposal payload is too large")
+    try:
+        data = json.loads(payload)
+    except json.JSONDecodeError as exc:
+        raise ValueError("Planner response must be plain JSON, not Markdown") from exc
+    if not isinstance(data, dict) or set(data) != {"proposals"} or not isinstance(data["proposals"], list):
+        raise ValueError("Expected a single JSON object containing proposals")
+    if len(data["proposals"]) > MAX_PROPOSALS_PER_ROUND:
+        raise ValueError("Too many proposals in one model response")
+    parsed = []
+    for proposal in data["proposals"]:
+        if not isinstance(proposal, dict) or set(proposal) != EXPECTED_KEYS:
+            raise ValueError("Proposal schema mismatch")
+        if proposal["method_id"] not in EQUIPMENT_REQUIREMENTS:
+            raise ValueError("Unknown preparation method")
+        portion = proposal["portion_g"]
+        if isinstance(portion, bool) or not isinstance(portion, int) or not 50 <= portion <= 400:
+            raise ValueError("portion_g must be a whole number from 50 to 400")
+        for field, maximum in AMOUNT_LIMITS.items():
+            _amount(proposal[field], field, maximum=maximum)
+        reason = proposal["reason"]
+        if not isinstance(reason, str) or len(reason) > MAX_REASON_CHARS:
+            raise ValueError("Proposal rationale must be short text")
+        parsed.append(proposal)
+    return parsed
+
+
+def evaluate_candidate(
+    proposal: dict[str, Any],
+    brief: KitchenBrief,
+    sources: str | Path,
+) -> AgentDecision:
+    """A deterministic tool gate; model text never overrides measured input columns."""
+    brief.validate()
+    method = proposal["method_id"]
+    portion = proposal["portion_g"]
+    key = f"{method}@{portion}g"
+    if method not in EQUIPMENT_REQUIREMENTS:
+        return AgentDecision(key, False, "Unrecognised method")
+    try:
+        result = explore(
+            sources,
+            budget_ngn=brief.budget_ngn, protein_target_g=brief.min_protein_g,
+            max_prep_minutes=brief.max_prep_minutes, equipment=brief.equipment,
+            available_ingredients=brief.available_ingredients,
+            portions_g=(portion,), preference=brief.preference,
+            avoid_allergens=brief.avoid_allergens,
+            wet_yield_kg_per_kg_dry=brief.wet_yield_kg_per_kg_dry, oil_cl=brief.oil_cl,
+            onion_g=proposal["onion_g"], pepper_g=proposal["pepper_g"],
+            salt_g=proposal["salt_g"], seasoning_g=proposal["seasoning_g"],
+        )
+    except (ValueError, OSError) as exc:
+        return AgentDecision(key, False, "Calculation rejected: " + str(exc)[:220])
+    item = next((c for c in result.candidates if c.identifier == key), None)
+    if item is None:
+        return AgentDecision(key, False, "Required equipment, ingredients or method unavailable")
+    if not item.eligible:
+        return AgentDecision(
+            key, False,
+            "; ".join(item.evaluation.reasons)[:280] or "Hard constraint violation",
+        )
+    return AgentDecision(
+        key, True,
+        "Numerically eligible under unverified price/yield/time assumptions; "
+        "human kitchen and allergen review still required",
+        item,
+    )
+
+
+def run_agent(
+    proposer: Proposer, brief: KitchenBrief, sources: str | Path,
+    *, max_rounds: int = MAX_ROUNDS,
+) -> AgentRun:
+    """Plan → check schema → evaluate with local engine → bounded feedback.
+
+    At most two model calls and six proposals per call. Any failure abstains.
+    No autonomous purchasing, deployment, external writes or secret exposure.
+    """
+    brief.validate()
+    if not 1 <= max_rounds <= MAX_ROUNDS:
+        raise ValueError("max_rounds cannot exceed the hard cap")
+    feedback: list[str] = []
+    decisions: list[AgentDecision] = []
+    seen: set[str] = set()
+    rounds = 0
+    for round_number in range(1, max_rounds + 1):
+        rounds = round_number
+        try:
+            payload = proposer.propose(
+                brief=brief, feedback=tuple(feedback), round_number=round_number
+            )
+            proposals = parse_proposals(payload)
+        except (ValueError, TypeError) as exc:
+            decisions.append(AgentDecision("planner", False, "Invalid planner response: " + str(exc)[:250]))
+            break
+        for proposal in proposals:
+            unique = json.dumps(proposal, sort_keys=True)
+            if unique in seen:
+                continue
+            seen.add(unique)
+            decision = evaluate_candidate(proposal, brief, sources)
+            decisions.append(decision)
+            if not decision.accepted:
+                feedback.append(f"{decision.proposal_id}: {decision.reason}")
+        if len([d for d in decisions if d.accepted]) >= 3 or not feedback:
+            break
+    return AgentRun(tuple(decisions), rounds=rounds, planner_invoked=True)
+
+
+def allowed_proposal_schema() -> dict[str, Any]:
+    """JSON Schema for the model-facing response; local parser remains authoritative."""
+    return {
+        "type": "object",
+        "additionalProperties": False,
+        "required": ["proposals"],
+        "properties": {
+            "proposals": {
+                "type": "array", "maxItems": MAX_PROPOSALS_PER_ROUND,
+                "items": {
+                    "type": "object", "required": sorted(EXPECTED_KEYS),
+                    "additionalProperties": False,
+                    "properties": {
+                        "method_id": {"type": "string", "enum": sorted(EQUIPMENT_REQUIREMENTS)},
+                        "portion_g": {"type": "integer", "minimum": 50, "maximum": 400},
+                        **{
+                            key: {"type": "number", "minimum": 0, "maximum": limit}
+                            for key, limit in AMOUNT_LIMITS.items()
+                        },
+                        "reason": {"type": "string", "maxLength": MAX_REASON_CHARS},
+                    },
+                },
+            }
+        },
+    }
