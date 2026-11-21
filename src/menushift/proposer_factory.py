@@ -1,1 +1,112 @@
-IiIiQnVpbGQgdGhlIHBsYW5uZXIgc2VsZWN0ZWQgYnkgQUlDb25maWcuCgpMb2NhbCBtb2RlIHJldHVybnMgYSBkZXRlcm1pbmlzdGljIG9mZmxpbmUgcHJvcG9zZXIgZHJpdmVuIGJ5IHRoZSBzYW1lCmV4cGxvcmVyIHRoZSBTdHJlYW1saXQgc3R1ZGlvIHVzZXMsIHNvIHRoZSBmdWxsIGFnZW50IGxvb3AgKHByb3Bvc2UgLT4gc3RyaWN0CnBhcnNlIC0+IGRldGVybWluaXN0aWMgZ2F0ZSkgY2FuIGJlIGRlbW9uc3RyYXRlZCB3aXRoIG5vIEFXUyBhY2Nlc3MuIEJlZHJvY2sKbW9kZSByZXR1cm5zIHRoZSBleGlzdGluZyBCZWRyb2NrUGxhbm5lciBhZGFwdGVyOyB0aGUgbW9kZWwgaXMgbmV2ZXIgdHJ1c3RlZAphbmQgZXZlcnkgcHJvcG9zYWwgc3RpbGwgcGFzc2VzIHRoZSBsb2NhbCBnYXRlIGluIGFnZW50X2NvbnRyYWN0LgoiIiIKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKaW1wb3J0IGltcG9ydGxpYi51dGlsCmltcG9ydCBqc29uCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAoKZnJvbSAuYWdlbnRfY29udHJhY3QgaW1wb3J0IE1BWF9QUk9QT1NBTFNfUEVSX1JPVU5ELCBLaXRjaGVuQnJpZWYsIFByb3Bvc2VyCmZyb20gLmFpX2NvbmZpZyBpbXBvcnQgQUlDb25maWcKZnJvbSAua2l0Y2hlbl9vcHRpbWl6ZXIgaW1wb3J0IGV4cGxvcmUKCkRFRkFVTFRfU09VUkNFUyA9IFBhdGgoX19maWxlX18pLnJlc29sdmUoKS5wYXJlbnRzWzJdIC8gImRhdGEiIC8gInNvdXJjZXMiCkRFRkFVTFRfUE9SVElPTlNfRyA9ICg4MCwgMTAwLCAxMjAsIDE0MCwgMTYwLCAxODAsIDIwMCkKCgpjbGFzcyBMb2NhbEV4cGxvcmVyUHJvcG9zZXI6CiAgICAiIiJEZXRlcm1pbmlzdGljIG9mZmxpbmUgUHJvcG9zZXIgYmFja2VkIGJ5IGtpdGNoZW5fb3B0aW1pemVyLmV4cGxvcmUuCgogICAgUHJvcG9zYWxzIGFyZSB0aGUgZXhwbG9yZXIncyBvd24gZWxpZ2libGUgY2FuZGlkYXRlcyAoUGFyZXRvIGZyb250aWVyCiAgICBmaXJzdCksIHJlLWNoZWNrZWQgbGF0ZXIgYnkgZXZhbHVhdGVfY2FuZGlkYXRlLCBzbyBhbiBhY2NlcHRlZCBsb2NhbAogICAgcHJvcG9zYWwgbWVhbnMgZXhhY3RseSB3aGF0IGFuIGFjY2VwdGVkIEJlZHJvY2sgcHJvcG9zYWwgbWVhbnMuCiAgICBTcGljZSBxdWFudGl0aWVzIGFyZSBwcm9wb3NlZCBhcyAwOiB0aGUgZXhwbG9yZXIncyBmZWFzaWJpbGl0eSBmaWd1cmVzCiAgICBhcmUgY29tcHV0ZWQgYXQgdGhvc2UgYW1vdW50cywga2VlcGluZyBwcm9wb3NhbCBhbmQgZ2F0ZSBjb25zaXN0ZW50LgogICAgQ2FuZGlkYXRlcyByZWplY3RlZCBpbiBhbiBlYXJsaWVyIHJvdW5kIChuYW1lZCBpbiB0aGUgZmVlZGJhY2spIGFyZQogICAgbm90IHByb3Bvc2VkIGFnYWluLgogICAgIiIiCgogICAgZGVmIF9faW5pdF9fKHNlbGYsIHNvdXJjZXM6IHN0ciB8IFBhdGgsICosIHBvcnRpb25zX2c6IHR1cGxlW2ludCwgLi4uXSA9IERFRkFVTFRfUE9SVElPTlNfRyk6CiAgICAgICAgc2VsZi5zb3VyY2VzID0gUGF0aChzb3VyY2VzKQogICAgICAgIGlmIG5vdCBzZWxmLnNvdXJjZXMuaXNfZGlyKCk6CiAgICAgICAgICAgIHJhaXNlIEZpbGVOb3RGb3VuZEVycm9yKAogICAgICAgICAgICAgICAgZiJMb2NhbCBtZW51IGRhdGEgbm90IGZvdW5kIGF0IHtzZWxmLnNvdXJjZXN9LiBSdW4gZnJvbSB0aGUgcmVwbyByb290ICIKICAgICAgICAgICAgICAgICJvciBwYXNzIHNvdXJjZXM9PHBhdGggdG8gZGF0YS9zb3VyY2VzPiB0byBidWlsZF9wcm9wb3NlcigpLiIKICAgICAgICAgICAgKQogICAgICAgIHNlbGYucG9ydGlvbnNfZyA9IHBvcnRpb25zX2cKCiAgICBkZWYgcHJvcG9zZShzZWxmLCAqLCBicmllZjogS2l0Y2hlbkJyaWVmLCBmZWVkYmFjazogdHVwbGVbc3RyLCAuLi5dLCByb3VuZF9udW1iZXI6IGludCkgLT4gc3RyOgogICAgICAgIGJyaWVmLnZhbGlkYXRlKCkKICAgICAgICByZWplY3RlZCA9IHsKICAgICAgICAgICAgZW50cnkuc3BsaXQoIjoiLCAxKVswXS5zdHJpcCgpCiAgICAgICAgICAgIGZvciBlbnRyeSBpbiBmZWVkYmFjawogICAgICAgICAgICBpZiAiQCIgaW4gZW50cnkuc3BsaXQoIjoiLCAxKVswXQogICAgICAgIH0KICAgICAgICB0cnk6CiAgICAgICAgICAgIHJlc3VsdCA9IGV4cGxvcmUoCiAgICAgICAgICAgICAgICBzZWxmLnNvdXJjZXMsCiAgICAgICAgICAgICAgICBidWRnZXRfbmduPWJyaWVmLmJ1ZGdldF9uZ24sIHByb3RlaW5fdGFyZ2V0X2c9YnJpZWYubWluX3Byb3RlaW5fZywKICAgICAgICAgICAgICAgIG1heF9wcmVwX21pbnV0ZXM9YnJpZWYubWF4X3ByZXBfbWludXRlcywgZXF1aXBtZW50PWJyaWVmLmVxdWlwbWVudCwKICAgICAgICAgICAgICAgIGF2YWlsYWJsZV9pbmdyZWRpZW50cz1icmllZi5hdmFpbGFibGVfaW5ncmVkaWVudHMsCiAgICAgICAgICAgICAgICBwb3J0aW9uc19nPXNlbGYucG9ydGlvbnNfZywgcHJlZmVyZW5jZT1icmllZi5wcmVmZXJlbmNlLAogICAgICAgICAgICAgICAgYXZvaWRfYWxsZXJnZW5zPWJyaWVmLmF2b2lkX2FsbGVyZ2VucywKICAgICAgICAgICAgICAgIHdldF95aWVsZF9rZ19wZXJfa2dfZHJ5PWJyaWVmLndldF95aWVsZF9rZ19wZXJfa2dfZHJ5LCBvaWxfY2w9YnJpZWYub2lsX2NsLAogICAgICAgICAgICApCiAgICAgICAgZXhjZXB0IE9TRXJyb3IgYXMgZXhjOgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKGYiTG9jYWwgZXhwbG9yYXRpb24gZmFpbGVkOiB7ZXhjfSIpIGZyb20gZXhjCiAgICAgICAgZnJvbnRpZXJfaWRzID0ge2MuaWRlbnRpZmllciBmb3IgYyBpbiByZXN1bHQuZnJvbnRpZXJ9CiAgICAgICAgb3JkZXJlZCA9IHNvcnRlZCgKICAgICAgICAgICAgcmVzdWx0LmVsaWdpYmxlLAogICAgICAgICAgICBrZXk9bGFtYmRhIGM6IChjLmlkZW50aWZpZXIgbm90IGluIGZyb250aWVyX2lkcywgYy5pZGVudGlmaWVyKSwKICAgICAgICApCiAgICAgICAgcHJvcG9zYWxzID0gW10KICAgICAgICBmb3IgY2FuZGlkYXRlIGluIG9yZGVyZWQ6CiAgICAgICAgICAgIGlmIGNhbmRpZGF0ZS5pZGVudGlmaWVyIGluIHJlamVjdGVkOgogICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgcHJvcG9zYWxzLmFwcGVuZCh7CiAgICAgICAgICAgICAgICAibWV0aG9kX2lkIjogY2FuZGlkYXRlLmV2YWx1YXRpb24ub3B0aW9uX2lkLAogICAgICAgICAgICAgICAgInBvcnRpb25fZyI6IGludChjYW5kaWRhdGUucG9ydGlvbl9nKSwKICAgICAgICAgICAgICAgICJvbmlvbl9nIjogMCwgInBlcHBlcl9nIjogMCwgInNhbHRfZyI6IDAsICJzZWFzb25pbmdfZyI6IDAsCiAgICAgICAgICAgICAgICAicmVhc29uIjogKAogICAgICAgICAgICAgICAgICAgIGYiT2ZmbGluZSBleHBsb3JlciBjYW5kaWRhdGUge2NhbmRpZGF0ZS5pZGVudGlmaWVyfTogZWxpZ2libGUgdW5kZXIgdGhlICIKICAgICAgICAgICAgICAgICAgICAiYnJpZWYgb24gbW9kZWxsZWQgZXN0aW1hdGVzOyBub3Qga2l0Y2hlbiB2YWxpZGF0ZWQiCiAgICAgICAgICAgICAgICApLAogICAgICAgICAgICB9KQogICAgICAgICAgICBpZiBsZW4ocHJvcG9zYWxzKSA+PSBNQVhfUFJPUE9TQUxTX1BFUl9ST1VORDoKICAgICAgICAgICAgICAgIGJyZWFrCiAgICAgICAgcmV0dXJuIGpzb24uZHVtcHMoeyJwcm9wb3NhbHMiOiBwcm9wb3NhbHN9KQoKCmRlZiBidWlsZF9wcm9wb3Nlcihjb25maWc6IEFJQ29uZmlnLCAqLCBzb3VyY2VzOiBzdHIgfCBQYXRoIHwgTm9uZSA9IE5vbmUpIC0+IFByb3Bvc2VyOgogICAgIiIiUmV0dXJuIHRoZSBwbGFubmVyIGZvciB0aGUgY29uZmlndXJlZCBtb2RlLgoKICAgIEJlZHJvY2sgbW9kZSBmYWlscyBmYXN0IHdpdGggYW4gYWN0aW9uYWJsZSBtZXNzYWdlIHdoZW4gdGhlIG1vZGVsIElEIG9yCiAgICB0aGUgb3B0aW9uYWwgYm90bzMgZGVwZW5kZW5jeSBpcyBtaXNzaW5nLCBpbnN0ZWFkIG9mIGZhaWxpbmcgbWlkLWRlbW8uCiAgICAiIiIKICAgIGlmIGNvbmZpZy5tb2RlID09ICJsb2NhbCI6CiAgICAgICAgcmV0dXJuIExvY2FsRXhwbG9yZXJQcm9wb3Nlcihzb3VyY2VzIGlmIHNvdXJjZXMgaXMgbm90IE5vbmUgZWxzZSBERUZBVUxUX1NPVVJDRVMpCiAgICBpZiBjb25maWcubW9kZSAhPSAiYmVkcm9jayI6CiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcihmIlVua25vd24gQUkgbW9kZSB7Y29uZmlnLm1vZGUhcn07IGV4cGVjdGVkICdsb2NhbCcgb3IgJ2JlZHJvY2snIikKICAgIGlmIG5vdCBjb25maWcuYmVkcm9ja19tb2RlbF9pZDoKICAgICAgICByYWlzZSBSdW50aW1lRXJyb3IoCiAgICAgICAgICAgICJNRU5VU0hJRlRfQUlfTU9ERT1iZWRyb2NrIGJ1dCBCRURST0NLX01PREVMX0lEIGlzIG5vdCBzZXQuICIKICAgICAgICAgICAgIkluIHRoZSBBV1Mgc2FuZGJveCAoQmVkcm9jayBjb25zb2xlLCB1cy1lYXN0LTEpLCBjb25maXJtIHdoaWNoIG1vZGVsIHRoZSAiCiAgICAgICAgICAgICJvcmdhbmlzZXJzIGVuYWJsZWQsIHRoZW4gc2V0IEJFRFJPQ0tfTU9ERUxfSUQ9PHRoYXQgbW9kZWwgaWQ+LiAiCiAgICAgICAgICAgICJUbyBydW4gb2ZmbGluZSBpbnN0ZWFkLCBzZXQgTUVOVVNISUZUX0FJX01PREU9bG9jYWwuIgogICAgICAgICkKICAgIGlmIGltcG9ydGxpYi51dGlsLmZpbmRfc3BlYygiYm90bzMiKSBpcyBOb25lOgogICAgICAgIHJhaXNlIFJ1bnRpbWVFcnJvcigKICAgICAgICAgICAgImJvdG8zIGlzIG5vdCBpbnN0YWxsZWQsIHNvIEJlZHJvY2sgbW9kZSBjYW5ub3Qgc3RhcnQuIEluc3RhbGwgdGhlIG9wdGlvbmFsICIKICAgICAgICAgICAgIkFXUyBleHRyYSBpbnNpZGUgdGhlIHdvcmtzaG9wIGVudmlyb25tZW50OiBweXRob24gLW0gcGlwIGluc3RhbGwgLWUgJy5bYXdzXScgIgogICAgICAgICAgICAiKGRvIG5vdCBhZGQgaXQgdG8gdGhlIHB1YmxpYyBTdHJlYW1saXQgZGVwbG95bWVudCkuICIKICAgICAgICAgICAgIlRvIHJ1biBvZmZsaW5lIGluc3RlYWQsIHNldCBNRU5VU0hJRlRfQUlfTU9ERT1sb2NhbC4iCiAgICAgICAgKQogICAgZnJvbSAuYmVkcm9ja19hZGFwdGVyIGltcG9ydCBCZWRyb2NrUGxhbm5lcgoKICAgIHJldHVybiBCZWRyb2NrUGxhbm5lcihjb25maWcuYmVkcm9ja19tb2RlbF9pZCwgcmVnaW9uPWNvbmZpZy5hd3NfcmVnaW9uKQo=
+"""Build the planner selected by AIConfig.
+
+Local mode returns a deterministic offline proposer driven by the same
+explorer the Streamlit studio uses, so the full agent loop (propose -> strict
+parse -> deterministic gate) can be demonstrated with no AWS access. Bedrock
+mode returns the existing BedrockPlanner adapter; the model is never trusted
+and every proposal still passes the local gate in agent_contract.
+"""
+from __future__ import annotations
+
+import importlib.util
+import json
+from pathlib import Path
+
+from .agent_contract import MAX_PROPOSALS_PER_ROUND, KitchenBrief, Proposer
+from .ai_config import AIConfig
+from .kitchen_optimizer import explore
+
+DEFAULT_SOURCES = Path(__file__).resolve().parents[2] / "data" / "sources"
+DEFAULT_PORTIONS_G = (80, 100, 120, 140, 160, 180, 200)
+
+
+class LocalExplorerProposer:
+    """Deterministic offline Proposer backed by kitchen_optimizer.explore.
+
+    Proposals are the explorer's own eligible candidates (Pareto frontier
+    first), re-checked later by evaluate_candidate, so an accepted local
+    proposal means exactly what an accepted Bedrock proposal means.
+    Spice quantities are proposed as 0: the explorer's feasibility figures
+    are computed at those amounts, keeping proposal and gate consistent.
+    Candidates rejected in an earlier round (named in the feedback) are
+    not proposed again.
+    """
+
+    def __init__(self, sources: str | Path, *, portions_g: tuple[int, ...] = DEFAULT_PORTIONS_G):
+        self.sources = Path(sources)
+        if not self.sources.is_dir():
+            raise FileNotFoundError(
+                f"Local menu data not found at {self.sources}. Run from the repo root "
+                "or pass sources=<path to data/sources> to build_proposer()."
+            )
+        self.portions_g = portions_g
+
+    def propose(self, *, brief: KitchenBrief, feedback: tuple[str, ...], round_number: int) -> str:
+        brief.validate()
+        rejected = {
+            entry.split(":", 1)[0].strip()
+            for entry in feedback
+            if "@" in entry.split(":", 1)[0]
+        }
+        try:
+            result = explore(
+                self.sources,
+                budget_ngn=brief.budget_ngn, protein_target_g=brief.min_protein_g,
+                max_prep_minutes=brief.max_prep_minutes, equipment=brief.equipment,
+                available_ingredients=brief.available_ingredients,
+                portions_g=self.portions_g, preference=brief.preference,
+                avoid_allergens=brief.avoid_allergens,
+                wet_yield_kg_per_kg_dry=brief.wet_yield_kg_per_kg_dry, oil_cl=brief.oil_cl,
+            )
+        except OSError as exc:
+            raise ValueError(f"Local exploration failed: {exc}") from exc
+        frontier_ids = {c.identifier for c in result.frontier}
+        ordered = sorted(
+            result.eligible,
+            key=lambda c: (c.identifier not in frontier_ids, c.identifier),
+        )
+        proposals = []
+        for candidate in ordered:
+            if candidate.identifier in rejected:
+                continue
+            proposals.append({
+                "method_id": candidate.evaluation.option_id,
+                "portion_g": int(candidate.portion_g),
+                "onion_g": 0, "pepper_g": 0, "salt_g": 0, "seasoning_g": 0,
+                "reason": (
+                    f"Offline explorer candidate {candidate.identifier}: eligible under the "
+                    "brief on modelled estimates; not kitchen validated"
+                ),
+            })
+            if len(proposals) >= MAX_PROPOSALS_PER_ROUND:
+                break
+        return json.dumps({"proposals": proposals})
+
+
+def build_proposer(config: AIConfig, *, sources: str | Path | None = None) -> Proposer:
+    """Return the planner for the configured mode.
+
+    Bedrock mode fails fast with an actionable message when the model ID or
+    the optional boto3 dependency is missing, instead of failing mid-demo.
+    """
+    if config.mode == "local":
+        return LocalExplorerProposer(sources if sources is not None else DEFAULT_SOURCES)
+    if config.mode != "bedrock":
+        raise ValueError(f"Unknown AI mode {config.mode!r}; expected 'local' or 'bedrock'")
+    if not config.bedrock_model_id:
+        raise RuntimeError(
+            "MENUSHIFT_AI_MODE=bedrock but BEDROCK_MODEL_ID is not set. "
+            "In the AWS sandbox (Bedrock console, us-east-1), confirm which model the "
+            "organisers enabled, then set BEDROCK_MODEL_ID=<that model id>. "
+            "To run offline instead, set MENUSHIFT_AI_MODE=local."
+        )
+    if importlib.util.find_spec("boto3") is None:
+        raise RuntimeError(
+            "boto3 is not installed, so Bedrock mode cannot start. Install the optional "
+            "AWS extra inside the workshop environment: python -m pip install -e '.[aws]' "
+            "(do not add it to the public Streamlit deployment). "
+            "To run offline instead, set MENUSHIFT_AI_MODE=local."
+        )
+    from .bedrock_adapter import BedrockPlanner
+
+    return BedrockPlanner(config.bedrock_model_id, region=config.aws_region)
