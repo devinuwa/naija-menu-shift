@@ -33,7 +33,6 @@ from menushift.hospital import (
     COST_REALISTIC_VALUES,
     CURRENT_PROTEIN_LABELS,
     DEFAULT_FEEDBACK_PATH,
-    MENU_SOURCE,
     METHOD_LABELS,
     METHOD_REQUIREMENTS,
     PRACTICALITY_VALUES,
@@ -83,18 +82,16 @@ st.caption("Team Sprout · hospital mode · decision support for dietetics and c
 st.warning(
     "Decision support only. This is not a served menu and not clinical "
     "guidance: a dietitian must approve any change before it reaches a "
-    "patient. Menu source: " + display_text(MENU_SOURCE) + "."
+    "patient."
 )
 
 menu = load_unth_menu()
 
 st.subheader("The documented menu — UNTH Enugu therapeutic diet kitchen")
 st.write(
-    "Fourteen items, exactly as published. The study does not split them "
-    "into breakfast, lunch or dinner and publishes no menu cycle, so this "
-    "page doesn't invent one. Only fish and meat carry a documented animal "
-    "protein; stew and the soups are listed without stated contents and are "
-    "never assigned one here."
+    "Fourteen items. Fish and meat are the dishes with a documented "
+    "animal protein; stew and the soups are listed without stated "
+    "contents."
 )
 menu_frame = pd.DataFrame(
     [
@@ -104,7 +101,7 @@ menu_frame = pd.DataFrame(
             "Status": {
                 "documented_animal": "Animal protein documented",
                 "already_plant_based": "Already plant-based",
-                "unspecified": "Contents not specified in source",
+                "unspecified": "Contents not specified",
                 "none_documented": "No animal protein documented",
             }[dish.protein_status],
             "Note": display_text(dish.notes),
@@ -117,12 +114,7 @@ st.dataframe(menu_frame, hide_index=True, width="stretch")
 with st.expander("Plant protein dataset — the catalogue the suggestions come from"):
     st.write(
         "Every plant protein the engine can suggest, with the values it "
-        "ranks on. Rendered directly from the functional catalogue and the "
-        "hospital price table — the same rows the engine uses, not a "
-        "hand-typed copy. Prices flagged derived are modelled estimates "
-        "(see the basis); verify at market before quoting. Functional "
-        "levels are qualitative, literature-based descriptors, not lab "
-        "measurements. Dawadawa is listed as an adjunct: it is a seasoning "
+        "ranks on. Dawadawa is listed as an adjunct: it is a seasoning "
         "used at 5–10 g per serving and is never ranked as a main protein."
     )
     dataset_frame = pd.DataFrame(
@@ -135,8 +127,6 @@ with st.expander("Plant protein dataset — the catalogue the suggestions come f
                 ),
                 "Protein (g/100 g)": row.protein_g_per_100g,
                 "Price (NGN/kg)": row.price_ngn_per_kg,
-                "Price derived?": "Yes — modelled" if row.price_derived else "No",
-                "Price basis": display_text(row.price_basis),
                 "Functional profile": (
                     f"Solubility {row.functional.solubility} · "
                     f"Water-holding {row.functional.water_holding} · "
@@ -145,7 +135,7 @@ with st.expander("Plant protein dataset — the catalogue the suggestions come f
                 ),
                 "Allergens": (
                     ", ".join(row.allergens) if row.allergens
-                    else "None declared (not a cross-contact certification)"
+                    else "None declared"
                 ),
             }
             for row in plant_protein_dataset()
@@ -156,14 +146,9 @@ with st.expander("Plant protein dataset — the catalogue the suggestions come f
 st.subheader("Patient condition — menus that support dietary management")
 st.write(
     "Choose a condition and both dish flows below apply that condition's "
-    "constraint bundle — a documented therapeutic preset, mapped in the "
-    "caption — instead of a free preset choice. The condition menu "
-    "further down composes the whole documented menu under the same "
-    "bundle. Where the project data holds no values for the nutrients a "
-    "condition's diet usually manages (sodium, fat, glycaemic measures), "
-    "the limitation is stated with the result — no filter is applied or "
-    "claimed. A condition is decision support for the dietitian, never "
-    "a prescription."
+    "constraint bundle instead of a free preset choice. The condition "
+    "menu further down composes the whole documented menu under the "
+    "same bundle."
 )
 condition_id = st.selectbox(
     "Patient condition (optional)",
@@ -178,16 +163,8 @@ condition = None if condition_id == "none" else get_condition(condition_id)
 if condition is not None:
     st.caption(display_text(
         f"Bundle applied: {condition.label} → "
-        f"{THERAPEUTIC_PRESETS[condition.preset_id].label}. "
-        + condition.preset_mapping_note
+        f"{THERAPEUTIC_PRESETS[condition.preset_id].label}."
     ))
-    with st.expander(f"Evidence and limitations — {condition.label}"):
-        st.write("Evidence from the research:")
-        for note in condition.evidence_notes:
-            st.write("• " + display_text(note))
-        st.write("Limitations:")
-        for limitation in condition.limitations:
-            st.write("• " + display_text(limitation))
 
 st.subheader("Diversify a dish")
 mode = st.radio(
@@ -241,9 +218,7 @@ else:
         "Type any dish your kitchen serves. The same hard gates rank the "
         "plant alternatives: allergen exclusions fail closed, the protein "
         "must survive the cooking method, and the preset's floor or cap "
-        "applies. Where no verified value is available for the "
-        "original protein (fish, goat, egg), the original side of the "
-        "comparison is shown as no verified value available — never estimated."
+        "applies."
     )
     custom_name = st.text_input(
         "Dish name (as your kitchen calls it)",
@@ -304,25 +279,43 @@ else:
             result = None
             comparison = None
 
+# Product rule (user): the site shows no data-source attributions and no
+# limitation notes. Provenance and limitations stay in the data layer and
+# the evidence pages; this filter keeps source/limitation notes from the
+# data layer out of the rendered page while keeping functional notes.
+_NOTE_SKIP_PREFIXES = (
+    "Menu source:", "Preset source:", "Condition bundle:",
+    "Method screen:", "No costed original is shown",
+)
+
+
+def _public_notes(notes, extra_skip=()):
+    skip = set(extra_skip)
+    return [
+        note for note in notes
+        if note not in skip and not note.startswith(_NOTE_SKIP_PREFIXES)
+    ]
+
+
 if result is not None:
     st.info(result.signoff_note)
-    for note in result.notes:
+    _skip = list(result.preset.notes)
+    _baseline = getattr(result, "baseline", None)
+    if _baseline is not None:
+        _skip.append(_baseline.note)
+    for note in _public_notes(result.notes, _skip):
         st.write("• " + display_text(note))
 
 if comparison is not None:
     st.subheader("Original vs modified — side by side")
-    st.write(
-        f"Portion basis: {comparison.portion_g:g} g for both sides. "
-        "Calories are omitted: no verified calorie value is available "
-        "for both sides, and this tool does not estimate them."
-    )
+    st.write(f"Portion basis: {comparison.portion_g:g} g for both sides.")
 
     def _fmt(value: float | None, unit: str) -> str:
-        return "No verified value available" if value is None else f"{value:g} {unit}"
+        return "—" if value is None else f"{value:g} {unit}"
 
     def _functional(profile) -> str:
         if profile is None:
-            return "No verified value available"
+            return "—"
         return (
             f"Solubility {profile.solubility} · Water-holding {profile.water_holding} · "
             f"Emulsification {profile.emulsification} · Gelation {profile.gelation}"
@@ -330,8 +323,8 @@ if comparison is not None:
 
     def _allergens(labels) -> str:
         if labels is None:
-            return "No verified value available"
-        return ", ".join(labels) if labels else "None declared (not a cross-contact certification)"
+            return "—"
+        return ", ".join(labels) if labels else "None declared"
 
     compare_frame = pd.DataFrame(
         [
@@ -341,7 +334,7 @@ if comparison is not None:
              "Modified": _fmt(comparison.alternative_cost_ngn, "NGN")},
             {"Measure": "Prep time", "Original": _fmt(comparison.original_prep_minutes, "min"),
              "Modified": _fmt(comparison.alternative_prep_minutes, "min")},
-            {"Measure": "Functional fit (qualitative, not lab-measured)",
+            {"Measure": "Functional fit",
              "Original": _functional(comparison.original_functional),
              "Modified": _functional(comparison.alternative_functional)},
             {"Measure": "Allergens", "Original": _allergens(comparison.original_allergens),
@@ -349,29 +342,24 @@ if comparison is not None:
         ]
     )
     st.dataframe(compare_frame, hide_index=True, width="stretch")
-    for note in comparison.notes:
-        st.caption(display_text(note))
 
 if result is not None and result.alternatives:
     st.subheader("Recommended additional options (ranked)")
     for alt in result.alternatives:
-        derived = " · price derived/modelled — see basis" if alt.price_derived else ""
         st.markdown(f"**{alt.name} — {alt.portion_g:g} g portion**")
         cols = st.columns(4)
         cols[0].metric("Protein", f"{alt.protein_g:g} g")
         cols[1].metric("Estimated cost", f"NGN {alt.cost_ngn:,.2f}")
-        cols[2].metric("Prep (planning estimate)", f"{alt.prep_minutes:g} min")
+        cols[2].metric("Prep time", f"{alt.prep_minutes:g} min")
         cols[3].metric("Allergens", ", ".join(alt.allergens) if alt.allergens else "None declared")
         st.write(
-            "Functional properties (qualitative, literature-based — not lab "
-            f"measurements): solubility {alt.functional.solubility}, "
+            f"Functional properties: solubility {alt.functional.solubility}, "
             f"water-holding {alt.functional.water_holding}, emulsification "
             f"{alt.functional.emulsification}, gelation {alt.functional.gelation}."
         )
         st.write(display_text(alt.kitchen_meaning))
         for reason in alt.reasons:
             st.write("• " + display_text(reason))
-        st.caption(f"Price basis: {display_text(alt.price_basis)}{derived}")
 elif result is not None and result.status == "ok":
     st.error(
         "No plant alternative passes every hard constraint under this preset. "
@@ -388,11 +376,6 @@ if result is not None and result.rejected:
     for rej in result.rejected:
         st.write(f"**{rej.name} — {rej.portion_g:g} g**: "
                  + display_text("; ".join(rej.reasons)))
-
-if result is not None and result.evidence_warnings:
-    st.subheader("Evidence warnings")
-    for warning in result.evidence_warnings:
-        st.write("• " + display_text(warning))
 
 st.subheader("Condition menu — the whole documented menu, composed")
 if condition is None:
@@ -456,15 +439,9 @@ else:
             f"{condition_menu.transformed_protein_g:g} g protein, "
             f"estimated NGN {condition_menu.transformed_cost_ngn:,.2f}."
         )
-    st.caption(display_text(condition_menu.totals_note))
-    for note in condition_menu.notes:
+    for note in _public_notes(
+            condition_menu.notes, condition_menu.preset.notes):
         st.write("• " + display_text(note))
-    st.write("Evidence from the research:")
-    for note in condition_menu.evidence_notes:
-        st.write("• " + display_text(note))
-    st.write("Limitations:")
-    for limitation in condition_menu.limitations:
-        st.write("• " + display_text(limitation))
     _first_transformed = next(
         (item for item in condition_menu.items
          if item.status == "transformed" and item.alternative is not None),
