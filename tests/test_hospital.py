@@ -483,7 +483,9 @@ def test_hospital_page_condition_view_renders():
     joined = "\n".join(texts)
     assert "support dietary management of cardiovascular disease" in joined
     assert "Confirm recipe with the kitchen" in joined
-    assert "no sodium, saturated-fat or cholesterol values" in joined
+    # Product rule (user): limitation notes stay in the data layer and are
+    # no longer rendered on the page.
+    assert "no sodium, saturated-fat or cholesterol values" not in joined
 
 
 # ----------------------------------------------------------------------
