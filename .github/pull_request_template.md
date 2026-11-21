@@ -1,1 +1,13 @@
-IyMgV2hhdCBjaGFuZ2VkPwoKIyMgV2h5IGlzIGl0IG5lZWRlZD8KCiMjIFZlcmlmaWNhdGlvbgotIFsgXSBgcHl0ZXN0IC1xYAotIFsgXSBgcnVmZiBjaGVjayBzcmMgdGVzdHMgYXBwLnB5YAotIFsgXSBTb3VyY2UgbGlua3MgYWRkZWQgZm9yIGFueSBuZXcgbnV0cml0aW9uIG9yIHByaWNlIGRhdGEKLSBbIF0gTm8gZmFicmljYXRlZCBtYXJrZXQgZmlndXJlcyBvciBzZW5zb3J5IGNsYWltcwotIFsgXSBObyBwZXJzb25hbCBkYXRhLCBjcmVkZW50aWFscywgb3IgcHJpdmF0ZSByZXN0YXVyYW50IGluZm9ybWF0aW9uCi0gWyBdIEJhc2VsaW5lIGFuZCBwcmljZSBzZW5zaXRpdml0eSBjaGVja2VkCgojIyBEZW1vIG5vdGVzIC8gbGltaXRhdGlvbnMK
+## What changed?
+
+## Why is it needed?
+
+## Verification
+- [ ] `pytest -q`
+- [ ] `ruff check src tests app.py`
+- [ ] Source links added for any new nutrition or price data
+- [ ] No fabricated market figures or sensory claims
+- [ ] No personal data, credentials, or private restaurant information
+- [ ] Baseline and price sensitivity checked
+
+## Demo notes / limitations
