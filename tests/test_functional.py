@@ -1,1 +1,69 @@
-IiIiRnVuY3Rpb25hbC1wcm9wZXJ0aWVzIG1vZHVsZTogY292ZXJhZ2UsIGNpdGF0aW9ucyBhbmQgaG9uZXN0eSBsYWJlbHMuIiIiCmltcG9ydCBweXRlc3QKCmZyb20gbWVudXNoaWZ0LmZ1bmN0aW9uYWwgaW1wb3J0ICgKICAgIExFVkVMUywKICAgIFBST1RFSU5fRlVOQ1RJT05TLAogICAgZnVuY3Rpb25hbF9zdW1tYXJ5LAogICAgZ2V0X3Byb3RlaW5fZnVuY3Rpb24sCiAgICBwbGFudF9wcm90ZWlucywKKQoKUkVRVUlSRURfUExBTlRfSURTID0geyJzb3lfY2h1bmtzIiwgImF3YXJhIiwgInNveV9taWxrIiwgImVndXNpIiwgImJhbWJhcmEiLCAibXVzaHJvb21zIiwgImRhd2FkYXdhIiwgInNlaXRhbiJ9CgoKZGVmIHRlc3Rfc2VpdGFuX2lzX2dsdXRlbl9hbmRfbGFiZWxsZWRfYXNfc3VjaCgpOgogICAgZW50cnkgPSBnZXRfcHJvdGVpbl9mdW5jdGlvbigic2VpdGFuIikKICAgIGFzc2VydCBlbnRyeS5wcm90ZWluX2dfcGVyXzEwMGcgPT0gMjUuMAogICAgYXNzZXJ0ICJnbHV0ZW4iIGluIGVudHJ5LmtpdGNoZW5fbWVhbmluZy5sb3dlcigpCkZPVVJfUFJPUEVSVElFUyA9ICgic29sdWJpbGl0eSIsICJ3YXRlcl9ob2xkaW5nIiwgImVtdWxzaWZpY2F0aW9uIiwgImdlbGF0aW9uIikKCgpkZWYgdGVzdF9ldmVyeV9jYXRhbG9ndWVfcHJvdGVpbl9oYXNfYWxsX2ZvdXJfcHJvcGVydGllcygpOgogICAgZm9yIGVudHJ5IGluIFBST1RFSU5fRlVOQ1RJT05TOgogICAgICAgIGZvciBwcm9wIGluIEZPVVJfUFJPUEVSVElFUzoKICAgICAgICAgICAgYXNzZXJ0IGdldGF0dHIoZW50cnkuZnVuY3Rpb25hbCwgcHJvcCkgaW4gTEVWRUxTLCAoZW50cnkuaWQsIHByb3ApCgoKZGVmIHRlc3RfcGxhbnRfY2F0YWxvZ3VlX2NvdmVyc190aGVfY29yZV9zd2FwX3Byb3RlaW5zKCk6CiAgICBpZHMgPSB7ZS5pZCBmb3IgZSBpbiBwbGFudF9wcm90ZWlucygpfQogICAgYXNzZXJ0IFJFUVVJUkVEX1BMQU5UX0lEUyA8PSBpZHMKCgpkZWYgdGVzdF9hbmltYWxfcmVmZXJlbmNlc19hcmVfbmV2ZXJfcGxhbnRfb3B0aW9ucygpOgogICAgZm9yIGVudHJ5IGluIHBsYW50X3Byb3RlaW5zKCk6CiAgICAgICAgYXNzZXJ0IG5vdCBlbnRyeS5pc19hbmltYWxfcmVmZXJlbmNlCiAgICBmb3IgcmVmX2lkIGluICgiYmVlZiIsICJjaGlja2VuIik6CiAgICAgICAgYXNzZXJ0IGdldF9wcm90ZWluX2Z1bmN0aW9uKHJlZl9pZCkuaXNfYW5pbWFsX3JlZmVyZW5jZQoKCmRlZiB0ZXN0X3Byb3RlaW5fdmFsdWVzX2NhcnJ5X2RhdGFzZXRfY2l0YXRpb25zKCk6CiAgICBmb3IgZW50cnkgaW4gUFJPVEVJTl9GVU5DVElPTlM6CiAgICAgICAgYXNzZXJ0IGVudHJ5LnByb3RlaW5fZ19wZXJfMTAwZyA+IDAKICAgICAgICBhc3NlcnQgZW50cnkubnV0cml0aW9uX3NvdXJjZSAgIyBldmVyeSBmaWd1cmUgbmFtZXMgaXRzIGRhdGFzZXQgcm93CgoKZGVmIHRlc3Rfd2FmY3Rfc3BvdF92YWx1ZXNfbWF0Y2hfdGhlX3ZlcmlmaWVkX3BhY2soKToKICAgICMgVHJpcGxlLWNoZWNrZWQgYWdhaW5zdCBGQU8vSU5GT09EUyBXQUZDVCAyMDE5IGluIHRoZSBkYXRhc2V0cyBwYWNrLgogICAgYXNzZXJ0IGdldF9wcm90ZWluX2Z1bmN0aW9uKCJkYXdhZGF3YSIpLnByb3RlaW5fZ19wZXJfMTAwZyA9PSAzMy4xCiAgICBhc3NlcnQgZ2V0X3Byb3RlaW5fZnVuY3Rpb24oImVndXNpIikucHJvdGVpbl9nX3Blcl8xMDBnID09IDE5LjUKICAgIGFzc2VydCBnZXRfcHJvdGVpbl9mdW5jdGlvbigiYmFtYmFyYSIpLnByb3RlaW5fZ19wZXJfMTAwZyA9PSAxOS41CiAgICBhc3NlcnQgZ2V0X3Byb3RlaW5fZnVuY3Rpb24oImNoaWNrZW4iKS5wcm90ZWluX2dfcGVyXzEwMGcgPT0gMjMuMAogICAgYXNzZXJ0IGdldF9wcm90ZWluX2Z1bmN0aW9uKCJiZWVmIikucHJvdGVpbl9nX3Blcl8xMDBnID09IDIwLjMKCgpkZWYgdGVzdF9tdXNocm9vbXNfYXJlX25ldmVyX2FfcHJvdGVpbl9zb3VyY2UoKToKICAgICMgMy4wOSBnLzEwMCBnOiBmbGF2b3VyL3RleHR1cmUgb25seSAtIHRoZSBtb2R1bGUgbXVzdCBub3Qgb3ZlcnNlbGwgdGhlbS4KICAgIGFzc2VydCBnZXRfcHJvdGVpbl9mdW5jdGlvbigibXVzaHJvb21zIikucHJvdGVpbl9nX3Blcl8xMDBnIDwgNQoKCmRlZiB0ZXN0X3Vua25vd25fcHJvdGVpbl9mYWlsc19sb3VkbHkoKToKICAgIHdpdGggcHl0ZXN0LnJhaXNlcyhWYWx1ZUVycm9yKToKICAgICAgICBnZXRfcHJvdGVpbl9mdW5jdGlvbigicXVpbm9hIikKCgpkZWYgdGVzdF9zdW1tYXJ5X25hbWVzX2FsbF9mb3VyX3Byb3BlcnRpZXMoKToKICAgIHN1bW1hcnkgPSBmdW5jdGlvbmFsX3N1bW1hcnkoImF3YXJhIikKICAgIGZvciBsYWJlbCBpbiAoIkdlbGF0aW9uIiwgIldhdGVyLWhvbGRpbmciLCAiRW11bHNpZmljYXRpb24iLCAiU29sdWJpbGl0eSIpOgogICAgICAgIGFzc2VydCBsYWJlbCBpbiBzdW1tYXJ5CiAgICBhc3NlcnQgIkhpZ2giIGluIHN1bW1hcnkgICMgYXdhcmEgZ2VsYXRpb24K
+"""Functional-properties module: coverage, citations and honesty labels."""
+import pytest
+
+from menushift.functional import (
+    LEVELS,
+    PROTEIN_FUNCTIONS,
+    functional_summary,
+    get_protein_function,
+    plant_proteins,
+)
+
+REQUIRED_PLANT_IDS = {"soy_chunks", "awara", "soy_milk", "egusi", "bambara", "mushrooms", "dawadawa", "seitan"}
+
+
+def test_seitan_is_gluten_and_labelled_as_such():
+    entry = get_protein_function("seitan")
+    assert entry.protein_g_per_100g == 25.0
+    assert "gluten" in entry.kitchen_meaning.lower()
+FOUR_PROPERTIES = ("solubility", "water_holding", "emulsification", "gelation")
+
+
+def test_every_catalogue_protein_has_all_four_properties():
+    for entry in PROTEIN_FUNCTIONS:
+        for prop in FOUR_PROPERTIES:
+            assert getattr(entry.functional, prop) in LEVELS, (entry.id, prop)
+
+
+def test_plant_catalogue_covers_the_core_swap_proteins():
+    ids = {e.id for e in plant_proteins()}
+    assert REQUIRED_PLANT_IDS <= ids
+
+
+def test_animal_references_are_never_plant_options():
+    for entry in plant_proteins():
+        assert not entry.is_animal_reference
+    for ref_id in ("beef", "chicken"):
+        assert get_protein_function(ref_id).is_animal_reference
+
+
+def test_protein_values_carry_dataset_citations():
+    for entry in PROTEIN_FUNCTIONS:
+        assert entry.protein_g_per_100g > 0
+        assert entry.nutrition_source  # every figure names its dataset row
+
+
+def test_wafct_spot_values_match_the_verified_pack():
+    # Triple-checked against FAO/INFOODS WAFCT 2019 in the datasets pack.
+    assert get_protein_function("dawadawa").protein_g_per_100g == 33.1
+    assert get_protein_function("egusi").protein_g_per_100g == 19.5
+    assert get_protein_function("bambara").protein_g_per_100g == 19.5
+    assert get_protein_function("chicken").protein_g_per_100g == 23.0
+    assert get_protein_function("beef").protein_g_per_100g == 20.3
+
+
+def test_mushrooms_are_never_a_protein_source():
+    # 3.09 g/100 g: flavour/texture only - the module must not oversell them.
+    assert get_protein_function("mushrooms").protein_g_per_100g < 5
+
+
+def test_unknown_protein_fails_loudly():
+    with pytest.raises(ValueError):
+        get_protein_function("quinoa")
+
+
+def test_summary_names_all_four_properties():
+    summary = functional_summary("awara")
+    for label in ("Gelation", "Water-holding", "Emulsification", "Solubility"):
+        assert label in summary
+    assert "High" in summary  # awara gelation
