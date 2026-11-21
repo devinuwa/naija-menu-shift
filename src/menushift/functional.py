@@ -1,1 +1,194 @@
-IiIiRnVuY3Rpb25hbCBwcm9wZXJ0aWVzIG9mIHByb3RlaW4gaW5ncmVkaWVudHMg4oCUIGNvb2tpbmcgYmVoYXZpb3VyLCBob25lc3RseSBsYWJlbGxlZC4KCldIWSBUSElTIE1PRFVMRSBFWElTVFMKLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQpXaGV0aGVyIGEgcGxhbnQgcHJvdGVpbiBzdXJ2aXZlcyBhIGNvb2tpbmcgbWV0aG9kIGlzIGEgZnVuY3Rpb25hbCBxdWVzdGlvbgpiZWZvcmUgaXQgaXMgYSBudXRyaXRpb24gcXVlc3Rpb246IGEgcHJvdGVpbiB0aGF0IGNhbm5vdCBnZWwgd2lsbCBub3QgaG9sZCBhCmtlYmFiIHRvZ2V0aGVyOyBvbmUgd2l0aCBwb29yIHdhdGVyLWhvbGRpbmcgZHJpZXMgb3V0IG9uIHRoZSBncmlsbDsgb25lIHRoYXQKY2Fubm90IGVtdWxzaWZ5IHdpbGwgbmV2ZXIgbWFrZSBhIHNoYXdhcm1hIHNhdWNlLiBUaGlzIG1vZHVsZSByZWNvcmRzIHRoZSBmb3VyCmZ1bmN0aW9uYWwgcHJvcGVydGllcyB0aGUgdGVhbSBzY3JlZW5zIG9uIOKAlCBzb2x1YmlsaXR5LCB3YXRlci1ob2xkaW5nLAplbXVsc2lmaWNhdGlvbiBhbmQgZ2VsYXRpb24g4oCUIGZvciBldmVyeSBwcm90ZWluIGluIHRoZSBzd2FwIGNhdGFsb2d1ZS4KCkhPTkVTVFkgQ09OVFJBQ1QKLS0tLS0tLS0tLS0tLS0tLQpUaGUgZnVuY3Rpb25hbCBsZXZlbHMgYXJlIFFVQUxJVEFUSVZFLCBsaXRlcmF0dXJlLWJhc2VkIGRlc2NyaXB0b3JzIG9mIGNvb2tpbmcKYmVoYXZpb3VyIChIaWdoIC8gTW9kZXJhdGUgLyBMb3cpLiBUaGV5IGFyZSBub3QgbGFiIG1lYXN1cmVtZW50cyBhbmQgbXVzdApuZXZlciBiZSBwcmVzZW50ZWQgYXMgbWVhc3VyZWQgdmFsdWVzLiBQcm90ZWluIGZpZ3VyZXMgYXJlIHBlciAxMDAgZyBhbmQgY2l0ZQp0aGVpciBkYXRhc2V0IHJvdzsgdGhlIHNpbmdsZSBkZXJpdmVkIHZhbHVlIChzb3kgbWlsaykgaXMgZmxhZ2dlZCBhcyBkZXJpdmVkLgoiIiIKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKZnJvbSBkYXRhY2xhc3NlcyBpbXBvcnQgZGF0YWNsYXNzCgpMRVZFTFMgPSAoIkxvdyIsICJNb2RlcmF0ZSIsICJIaWdoIikKCgpAZGF0YWNsYXNzKGZyb3plbj1UcnVlKQpjbGFzcyBGdW5jdGlvbmFsUHJvZmlsZToKICAgICIiIlF1YWxpdGF0aXZlIGNvb2tpbmctYmVoYXZpb3VyIGRlc2NyaXB0b3JzIChOT1QgbGFiIG1lYXN1cmVtZW50cykuIiIiCgogICAgc29sdWJpbGl0eTogc3RyCiAgICB3YXRlcl9ob2xkaW5nOiBzdHIKICAgIGVtdWxzaWZpY2F0aW9uOiBzdHIKICAgIGdlbGF0aW9uOiBzdHIKCiAgICBkZWYgX19wb3N0X2luaXRfXyhzZWxmKSAtPiBOb25lOgogICAgICAgIGZvciBmaWVsZCBpbiAoInNvbHViaWxpdHkiLCAid2F0ZXJfaG9sZGluZyIsICJlbXVsc2lmaWNhdGlvbiIsICJnZWxhdGlvbiIpOgogICAgICAgICAgICBpZiBnZXRhdHRyKHNlbGYsIGZpZWxkKSBub3QgaW4gTEVWRUxTOgogICAgICAgICAgICAgICAgcmFpc2UgVmFsdWVFcnJvcihmIntmaWVsZH0gbXVzdCBiZSBvbmUgb2Yge0xFVkVMU30iKQoKCkBkYXRhY2xhc3MoZnJvemVuPVRydWUpCmNsYXNzIFByb3RlaW5GdW5jdGlvbjoKICAgIGlkOiBzdHIKICAgIG5hbWU6IHN0cgogICAgcHJvdGVpbl9nX3Blcl8xMDBnOiBmbG9hdAogICAgbnV0cml0aW9uX3NvdXJjZTogc3RyCiAgICBmdW5jdGlvbmFsOiBGdW5jdGlvbmFsUHJvZmlsZQogICAga2l0Y2hlbl9tZWFuaW5nOiBzdHIKICAgIGlzX2FuaW1hbF9yZWZlcmVuY2U6IGJvb2wgPSBGYWxzZQoKClBST1RFSU5fRlVOQ1RJT05TOiB0dXBsZVtQcm90ZWluRnVuY3Rpb24sIC4uLl0gPSAoCiAgICBQcm90ZWluRnVuY3Rpb24oCiAgICAgICAgaWQ9InNveV9jaHVua3MiLAogICAgICAgIG5hbWU9IlNveSBjaHVua3MgKFRWUCkiLAogICAgICAgIHByb3RlaW5fZ19wZXJfMTAwZz00MS43MSwKICAgICAgICBudXRyaXRpb25fc291cmNlPSJVU0RBIEZvb2REYXRhIENlbnRyYWwgU1IgTGVnYWN5LCBGREMgMTc0MjY4ICdNZWF0IGV4dGVuZGVyJyIsCiAgICAgICAgZnVuY3Rpb25hbD1GdW5jdGlvbmFsUHJvZmlsZSgiTG93IiwgIkhpZ2giLCAiTG93IiwgIkxvdyIpLAogICAgICAgIGtpdGNoZW5fbWVhbmluZz0oCiAgICAgICAgICAgICJEcnkgY2h1bmtzIGFic29yYiAyLTN4IHRoZWlyIHdlaWdodCBpbiBzZWFzb25lZCB3YXRlciwgdGhlbiBncmlsbCwgIgogICAgICAgICAgICAiZnJ5IG9yIHN0ZXcgbGlrZSBtZWF0IC0gdGhlIGtlYmFiIGFuZCBzaGF3YXJtYSB3b3JraG9yc2UuIgogICAgICAgICksCiAgICApLAogICAgUHJvdGVpbkZ1bmN0aW9uKAogICAgICAgIGlkPSJhd2FyYSIsCiAgICAgICAgbmFtZT0iQXdhcmEgKHNveSBjdXJkIC8gdG9mdSkiLAogICAgICAgIHByb3RlaW5fZ19wZXJfMTAwZz0xNy4yNywKICAgICAgICBudXRyaXRpb25fc291cmNlPSJVU0RBIEZvb2REYXRhIENlbnRyYWwgU1IgTGVnYWN5LCBGREMgMTcyNDc1ICdUb2Z1LCByYXcsIGZpcm0nIiwKICAgICAgICBmdW5jdGlvbmFsPUZ1bmN0aW9uYWxQcm9maWxlKCJMb3ciLCAiTW9kZXJhdGUiLCAiTG93IiwgIkhpZ2giKSwKICAgICAgICBraXRjaGVuX21lYW5pbmc9KAogICAgICAgICAgICAiQXdhcmEgaXMgaXRzZWxmIGEgc2V0IHByb3RlaW4gZ2VsOiBpdCBzbGljZXMsIHByZXNzZXMgYW5kIGhvbGRzICIKICAgICAgICAgICAgIml0cyBzaGFwZSBvbiB0aGUgZ3JpbGwgb3IgaW4gdGhlIGZyeWVyLiIKICAgICAgICApLAogICAgKSwKICAgIFByb3RlaW5GdW5jdGlvbigKICAgICAgICBpZD0ic295X21pbGsiLAogICAgICAgIG5hbWU9IlNveSBtaWxrIGJhc2UiLAogICAgICAgIHByb3RlaW5fZ19wZXJfMTAwZz0yLjcsCiAgICAgICAgbnV0cml0aW9uX3NvdXJjZT0iRGVyaXZlZCBlc3RpbWF0ZSBmcm9tIHNveWJlYW4gY29tcG9zaXRpb24gLSBubyBkaXJlY3QgV0FGQ1QvVVNEQSByb3c7IGZsYWdnZWQgZGVyaXZlZCIsCiAgICAgICAgZnVuY3Rpb25hbD1GdW5jdGlvbmFsUHJvZmlsZSgiSGlnaCIsICJNb2RlcmF0ZSIsICJIaWdoIiwgIkxvdyIpLAogICAgICAgIGtpdGNoZW5fbWVhbmluZz0oCiAgICAgICAgICAgICJFbXVsc2lmaWVzIG9pbCBpbnRvIGEgY3JlYW15IHNhdWNlIC0gdGhlIHNoYXdhcm1hIGdhcmxpYy1zYXVjZSBiYXNlICIKICAgICAgICAgICAgInRoYXQgcmVwbGFjZXMgZWdnLiAoV2F0ZXItaG9sZGluZyBpcyBub21pbmFsOiB0aGlzIGlzIGEgbGlxdWlkLikiCiAgICAgICAgKSwKICAgICksCiAgICBQcm90ZWluRnVuY3Rpb24oCiAgICAgICAgaWQ9ImVndXNpIiwKICAgICAgICBuYW1lPSJFZ3VzaSAobWVsb24gc2VlZCkiLAogICAgICAgIHByb3RlaW5fZ19wZXJfMTAwZz0xOS41LAogICAgICAgIG51dHJpdGlvbl9zb3VyY2U9IkZBTy9JTkZPT0RTIFdBRkNUIDIwMTksIGZvb2QgMDZfMDM1IChtZWxvbiBzZWVkKSIsCiAgICAgICAgZnVuY3Rpb25hbD1GdW5jdGlvbmFsUHJvZmlsZSgiTW9kZXJhdGUiLCAiTW9kZXJhdGUiLCAiSGlnaCIsICJNb2RlcmF0ZSIpLAogICAgICAgIGtpdGNoZW5fbWVhbmluZz0oCiAgICAgICAgICAgICJHcm91bmQgZWd1c2kgZW11bHNpZmllcyBhbmQgdGhpY2tlbnMgdGhlIHNvdXAgaXRzZWxmIC0gdGhlIGJhc2UgIgogICAgICAgICAgICAiY2FycmllcyBwcm90ZWluLCBub3QganVzdCB0aGUgcGllY2VzIGZsb2F0aW5nIGluIGl0LiIKICAgICAgICApLAogICAgKSwKICAgIFByb3RlaW5GdW5jdGlvbigKICAgICAgICBpZD0iYmFtYmFyYSIsCiAgICAgICAgbmFtZT0iQmFtYmFyYSBncm91bmRudXQiLAogICAgICAgIHByb3RlaW5fZ19wZXJfMTAwZz0xOS41LAogICAgICAgIG51dHJpdGlvbl9zb3VyY2U9IkZBTy9JTkZPT0RTIFdBRkNUIDIwMTksIGZvb2QgMDNfMDAxIChiYW1iYXJhIGdyb3VuZG51dCkiLAogICAgICAgIGZ1bmN0aW9uYWw9RnVuY3Rpb25hbFByb2ZpbGUoIk1vZGVyYXRlIiwgIkhpZ2giLCAiTW9kZXJhdGUiLCAiSGlnaCIpLAogICAgICAgIGtpdGNoZW5fbWVhbmluZz0oCiAgICAgICAgICAgICJCb2lscyBzb2Z0IGxpa2UgYmVhbnMgYW5kIGJpbmRzIHdoZW4gbWFzaGVkIC0gaXQgc2V0cyBpbiBva3BhLXN0eWxlICIKICAgICAgICAgICAgIndyYXBzIGFuZCBob2xkcyBhIHBpZSBmaWxsaW5nIHRvZ2V0aGVyLiIKICAgICAgICApLAogICAgKSwKICAgIFByb3RlaW5GdW5jdGlvbigKICAgICAgICBpZD0ibXVzaHJvb21zIiwKICAgICAgICBuYW1lPSJNdXNocm9vbXMiLAogICAgICAgIHByb3RlaW5fZ19wZXJfMTAwZz0zLjA5LAogICAgICAgIG51dHJpdGlvbl9zb3VyY2U9IlVTREEgRm9vZERhdGEgQ2VudHJhbCBTUiBMZWdhY3ksIEZEQyAxNjkzNzYgKHdoaXRlIG11c2hyb29tLCBVVi1leHBvc2VkKSIsCiAgICAgICAgZnVuY3Rpb25hbD1GdW5jdGlvbmFsUHJvZmlsZSgiTG93IiwgIkxvdyIsICJMb3ciLCAiTG93IiksCiAgICAgICAga2l0Y2hlbl9tZWFuaW5nPSgKICAgICAgICAgICAgIkZsYXZvdXIgYW5kIGNoZXcsIG5vdCBzdHJ1Y3R1cmUgb3IgcHJvdGVpbiAtIHBhaXIgd2l0aCBzb3kgb3IgYmVhbnMgIgogICAgICAgICAgICAiZm9yIHByb3RlaW47IG11c2hyb29tcyByZWxlYXNlIHdhdGVyIGluIHRoZSBwYW4sIHNvIHNlYXIgaG90IGFuZCBkcnkuIgogICAgICAgICksCiAgICApLAogICAgUHJvdGVpbkZ1bmN0aW9uKAogICAgICAgIGlkPSJkYXdhZGF3YSIsCiAgICAgICAgbmFtZT0iRGF3YWRhd2EgLyBzb3VtYmFsYSAoZmVybWVudGVkIGxvY3VzdCBiZWFuKSIsCiAgICAgICAgcHJvdGVpbl9nX3Blcl8xMDBnPTMzLjEsCiAgICAgICAgbnV0cml0aW9uX3NvdXJjZT0iRkFPL0lORk9PRFMgV0FGQ1QgMjAxOSwgZm9vZCAwM18wNDIgKGRhd2FkYXdhL3NvdW1iYWxhKSIsCiAgICAgICAgZnVuY3Rpb25hbD1GdW5jdGlvbmFsUHJvZmlsZSgiTW9kZXJhdGUiLCAiTG93IiwgIkxvdyIsICJMb3ciKSwKICAgICAgICBraXRjaGVuX21lYW5pbmc9KAogICAgICAgICAgICAiQSBmZXJtZW50ZWQgdW1hbWkgc2Vhc29uaW5nOiBjcnVtYmxlIGl0IGludG8gdGhlIGJhc2Ugc28gcGxhbnQgIgogICAgICAgICAgICAiZGlzaGVzIG5ldmVyIHRhc3RlIGVtcHR5IC0gZmxhdm91ciBmaXJzdCwgdGhlIHByb3RlaW4gaXMgYSBib251cy4iCiAgICAgICAgKSwKICAgICksCiAgICBQcm90ZWluRnVuY3Rpb24oCiAgICAgICAgaWQ9InNlaXRhbiIsCiAgICAgICAgbmFtZT0iU2VpdGFuICh3aGVhdCBnbHV0ZW4pIiwKICAgICAgICBwcm90ZWluX2dfcGVyXzEwMGc9MjUuMCwKICAgICAgICBudXRyaXRpb25fc291cmNlPSgKICAgICAgICAgICAgIlVTREEgRm9vZERhdGEgQ2VudHJhbCBTUiBMZWdhY3ksIEZEQyAxNzI0NDkgKHdoZWF0IGdsdXRlbiwgcHJlcGFyZWQpOyAiCiAgICAgICAgICAgICJkcnkgdml0YWwgd2hlYXQgZ2x1dGVuIGlzIDc1LjIgZy8xMDAgZyAoRkRDIDE2ODE0NykgYmVmb3JlIGh5ZHJhdGlvbiIKICAgICAgICApLAogICAgICAgIGZ1bmN0aW9uYWw9RnVuY3Rpb25hbFByb2ZpbGUoIkxvdyIsICJIaWdoIiwgIkxvdyIsICJIaWdoIiksCiAgICAgICAga2l0Y2hlbl9tZWFuaW5nPSgKICAgICAgICAgICAgIlRoZSBjaGV3aWVzdCwgbW9zdCBtZWF0LWxpa2UgcGxhbnQgcHJvdGVpbjogdGhlIGdsdXRlbiBuZXR3b3JrICIKICAgICAgICAgICAgIml0c2VsZiBpcyB0aGUgc3RydWN0dXJlLiBTaW1tZXIgaXQgaW4gYSBkYXdhZGF3YS1yaWNoIGJyb3RoIGFuZCAiCiAgICAgICAgICAgICJmaW5pc2ggd2l0aCB5YWppIGZvciBhIHN1eWEtc3R5bGUgYml0ZS4gQUxMRVJHRU46IHNlaXRhbiBJUyBnbHV0ZW4gIgogICAgICAgICAgICAiLSBpdCBtdXN0IGJlIGV4Y2x1ZGVkIHdoZXJldmVyIGdsdXRlbiBpcyBleGNsdWRlZCwgbm8gZXhjZXB0aW9ucy4iCiAgICAgICAgKSwKICAgICksCiAgICBQcm90ZWluRnVuY3Rpb24oCiAgICAgICAgaWQ9ImNoaWNrZW4iLAogICAgICAgIG5hbWU9IkNoaWNrZW4gKGFuaW1hbCByZWZlcmVuY2UpIiwKICAgICAgICBwcm90ZWluX2dfcGVyXzEwMGc9MjMuMCwKICAgICAgICBudXRyaXRpb25fc291cmNlPSJGQU8vSU5GT09EUyBXQUZDVCAyMDE5LCBmb29kIDA3XzAzMyAoY2hpY2tlbikiLAogICAgICAgIGZ1bmN0aW9uYWw9RnVuY3Rpb25hbFByb2ZpbGUoIkxvdyIsICJNb2RlcmF0ZSIsICJNb2RlcmF0ZSIsICJNb2RlcmF0ZSIpLAogICAgICAgIGtpdGNoZW5fbWVhbmluZz0oCiAgICAgICAgICAgICJUaGUgYmVuY2htYXJrOiB3aGF0IGtlYmFiIGFuZCBzaGF3YXJtYSBwcm90ZWluIGNvc3RzIGFuZCB0YXN0ZXMgIgogICAgICAgICAgICAibGlrZSB0b2RheSAtIHN3YXBzIGFyZSBqdWRnZWQgYWdhaW5zdCBpdCwgbmV2ZXIgcmVjb21tZW5kZWQgYXMgYSBwbGFudCBvcHRpb24uIgogICAgICAgICksCiAgICAgICAgaXNfYW5pbWFsX3JlZmVyZW5jZT1UcnVlLAogICAgKSwKICAgIFByb3RlaW5GdW5jdGlvbigKICAgICAgICBpZD0iYmVlZiIsCiAgICAgICAgbmFtZT0iQmVlZiAoYW5pbWFsIHJlZmVyZW5jZSkiLAogICAgICAgIHByb3RlaW5fZ19wZXJfMTAwZz0yMC4zLAogICAgICAgIG51dHJpdGlvbl9zb3VyY2U9IkZBTy9JTkZPT0RTIFdBRkNUIDIwMTksIGZvb2QgMDdfMDIzIChiZWVmKSIsCiAgICAgICAgZnVuY3Rpb25hbD1GdW5jdGlvbmFsUHJvZmlsZSgiTG93IiwgIk1vZGVyYXRlIiwgIk1vZGVyYXRlIiwgIk1vZGVyYXRlIiksCiAgICAgICAga2l0Y2hlbl9tZWFuaW5nPSgKICAgICAgICAgICAgIlRoZSByZWQtbWVhdCBiZW5jaG1hcmsgZm9yIGNvc3QgYW5kIHByb3RlaW4gY29tcGFyaXNvbiAtIGEgIgogICAgICAgICAgICAicmVmZXJlbmNlLCBuZXZlciBhIHBsYW50LWJhc2VkIHJlY29tbWVuZGF0aW9uLiIKICAgICAgICApLAogICAgICAgIGlzX2FuaW1hbF9yZWZlcmVuY2U9VHJ1ZSwKICAgICksCikKCl9CWV9JRCA9IHtlbnRyeS5pZDogZW50cnkgZm9yIGVudHJ5IGluIFBST1RFSU5fRlVOQ1RJT05TfQoKCmRlZiBnZXRfcHJvdGVpbl9mdW5jdGlvbihwcm90ZWluX2lkOiBzdHIpIC0+IFByb3RlaW5GdW5jdGlvbjoKICAgICIiIkxvb2sgdXAgb25lIHByb3RlaW4ncyBmdW5jdGlvbmFsIHByb2ZpbGU7IHVua25vd24gaWRzIGZhaWwgbG91ZGx5LiIiIgogICAgdHJ5OgogICAgICAgIHJldHVybiBfQllfSURbcHJvdGVpbl9pZF0KICAgIGV4Y2VwdCBLZXlFcnJvcjoKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKGYiVW5rbm93biBwcm90ZWluIGlkOiB7cHJvdGVpbl9pZCFyfSIpIGZyb20gTm9uZQoKCmRlZiBwbGFudF9wcm90ZWlucygpIC0+IHR1cGxlW1Byb3RlaW5GdW5jdGlvbiwgLi4uXToKICAgICIiIlRoZSBzd2FwIGNhdGFsb2d1ZSBvbmx5IC0gYW5pbWFsIHJlZmVyZW5jZXMgYXJlIGJlbmNobWFya3MsIG5vdCBvcHRpb25zLiIiIgogICAgcmV0dXJuIHR1cGxlKGUgZm9yIGUgaW4gUFJPVEVJTl9GVU5DVElPTlMgaWYgbm90IGUuaXNfYW5pbWFsX3JlZmVyZW5jZSkKCgpkZWYgZnVuY3Rpb25hbF9zdW1tYXJ5KHByb3RlaW5faWQ6IHN0cikgLT4gc3RyOgogICAgIiIiT25lLWxpbmUgY2hpcCB0ZXh0IGZvciBVSSBzdXJmYWNlcywgZS5nLiAnR2VsYXRpb24gSGlnaCDCtyBXYXRlci1ob2xkaW5nIE1vZGVyYXRlIMK3IC4uLicuIiIiCiAgICBmID0gZ2V0X3Byb3RlaW5fZnVuY3Rpb24ocHJvdGVpbl9pZCkuZnVuY3Rpb25hbAogICAgcmV0dXJuICgKICAgICAgICBmIkdlbGF0aW9uIHtmLmdlbGF0aW9ufSDCtyBXYXRlci1ob2xkaW5nIHtmLndhdGVyX2hvbGRpbmd9IMK3ICIKICAgICAgICBmIkVtdWxzaWZpY2F0aW9uIHtmLmVtdWxzaWZpY2F0aW9ufSDCtyBTb2x1YmlsaXR5IHtmLnNvbHViaWxpdHl9IgogICAgKQo=
+"""Functional properties of protein ingredients — cooking behaviour, honestly labelled.
+
+WHY THIS MODULE EXISTS
+----------------------
+Whether a plant protein survives a cooking method is a functional question
+before it is a nutrition question: a protein that cannot gel will not hold a
+kebab together; one with poor water-holding dries out on the grill; one that
+cannot emulsify will never make a shawarma sauce. This module records the four
+functional properties the team screens on — solubility, water-holding,
+emulsification and gelation — for every protein in the swap catalogue.
+
+HONESTY CONTRACT
+----------------
+The functional levels are QUALITATIVE, literature-based descriptors of cooking
+behaviour (High / Moderate / Low). They are not lab measurements and must
+never be presented as measured values. Protein figures are per 100 g and cite
+their dataset row; the single derived value (soy milk) is flagged as derived.
+"""
+from __future__ import annotations
+
+from dataclasses import dataclass
+
+LEVELS = ("Low", "Moderate", "High")
+
+
+@dataclass(frozen=True)
+class FunctionalProfile:
+    """Qualitative cooking-behaviour descriptors (NOT lab measurements)."""
+
+    solubility: str
+    water_holding: str
+    emulsification: str
+    gelation: str
+
+    def __post_init__(self) -> None:
+        for field in ("solubility", "water_holding", "emulsification", "gelation"):
+            if getattr(self, field) not in LEVELS:
+                raise ValueError(f"{field} must be one of {LEVELS}")
+
+
+@dataclass(frozen=True)
+class ProteinFunction:
+    id: str
+    name: str
+    protein_g_per_100g: float
+    nutrition_source: str
+    functional: FunctionalProfile
+    kitchen_meaning: str
+    is_animal_reference: bool = False
+
+
+PROTEIN_FUNCTIONS: tuple[ProteinFunction, ...] = (
+    ProteinFunction(
+        id="soy_chunks",
+        name="Soy chunks (TVP)",
+        protein_g_per_100g=41.71,
+        nutrition_source="USDA FoodData Central SR Legacy, FDC 174268 'Meat extender'",
+        functional=FunctionalProfile("Low", "High", "Low", "Low"),
+        kitchen_meaning=(
+            "Dry chunks absorb 2-3x their weight in seasoned water, then grill, "
+            "fry or stew like meat - the kebab and shawarma workhorse."
+        ),
+    ),
+    ProteinFunction(
+        id="awara",
+        name="Awara (soy curd / tofu)",
+        protein_g_per_100g=17.27,
+        nutrition_source="USDA FoodData Central SR Legacy, FDC 172475 'Tofu, raw, firm'",
+        functional=FunctionalProfile("Low", "Moderate", "Low", "High"),
+        kitchen_meaning=(
+            "Awara is itself a set protein gel: it slices, presses and holds "
+            "its shape on the grill or in the fryer."
+        ),
+    ),
+    ProteinFunction(
+        id="soy_milk",
+        name="Soy milk base",
+        protein_g_per_100g=2.7,
+        nutrition_source="Derived estimate from soybean composition - no direct WAFCT/USDA row; flagged derived",
+        functional=FunctionalProfile("High", "Moderate", "High", "Low"),
+        kitchen_meaning=(
+            "Emulsifies oil into a creamy sauce - the shawarma garlic-sauce base "
+            "that replaces egg. (Water-holding is nominal: this is a liquid.)"
+        ),
+    ),
+    ProteinFunction(
+        id="egusi",
+        name="Egusi (melon seed)",
+        protein_g_per_100g=19.5,
+        nutrition_source="FAO/INFOODS WAFCT 2019, food 06_035 (melon seed)",
+        functional=FunctionalProfile("Moderate", "Moderate", "High", "Moderate"),
+        kitchen_meaning=(
+            "Ground egusi emulsifies and thickens the soup itself - the base "
+            "carries protein, not just the pieces floating in it."
+        ),
+    ),
+    ProteinFunction(
+        id="bambara",
+        name="Bambara groundnut",
+        protein_g_per_100g=19.5,
+        nutrition_source="FAO/INFOODS WAFCT 2019, food 03_001 (bambara groundnut)",
+        functional=FunctionalProfile("Moderate", "High", "Moderate", "High"),
+        kitchen_meaning=(
+            "Boils soft like beans and binds when mashed - it sets in okpa-style "
+            "wraps and holds a pie filling together."
+        ),
+    ),
+    ProteinFunction(
+        id="mushrooms",
+        name="Mushrooms",
+        protein_g_per_100g=3.09,
+        nutrition_source="USDA FoodData Central SR Legacy, FDC 169376 (white mushroom, UV-exposed)",
+        functional=FunctionalProfile("Low", "Low", "Low", "Low"),
+        kitchen_meaning=(
+            "Flavour and chew, not structure or protein - pair with soy or beans "
+            "for protein; mushrooms release water in the pan, so sear hot and dry."
+        ),
+    ),
+    ProteinFunction(
+        id="dawadawa",
+        name="Dawadawa / soumbala (fermented locust bean)",
+        protein_g_per_100g=33.1,
+        nutrition_source="FAO/INFOODS WAFCT 2019, food 03_042 (dawadawa/soumbala)",
+        functional=FunctionalProfile("Moderate", "Low", "Low", "Low"),
+        kitchen_meaning=(
+            "A fermented umami seasoning: crumble it into the base so plant "
+            "dishes never taste empty - flavour first, the protein is a bonus."
+        ),
+    ),
+    ProteinFunction(
+        id="seitan",
+        name="Seitan (wheat gluten)",
+        protein_g_per_100g=25.0,
+        nutrition_source=(
+            "USDA FoodData Central SR Legacy, FDC 172449 (wheat gluten, prepared); "
+            "dry vital wheat gluten is 75.2 g/100 g (FDC 168147) before hydration"
+        ),
+        functional=FunctionalProfile("Low", "High", "Low", "High"),
+        kitchen_meaning=(
+            "The chewiest, most meat-like plant protein: the gluten network "
+            "itself is the structure. Simmer it in a dawadawa-rich broth and "
+            "finish with yaji for a suya-style bite. ALLERGEN: seitan IS gluten "
+            "- it must be excluded wherever gluten is excluded, no exceptions."
+        ),
+    ),
+    ProteinFunction(
+        id="chicken",
+        name="Chicken (animal reference)",
+        protein_g_per_100g=23.0,
+        nutrition_source="FAO/INFOODS WAFCT 2019, food 07_033 (chicken)",
+        functional=FunctionalProfile("Low", "Moderate", "Moderate", "Moderate"),
+        kitchen_meaning=(
+            "The benchmark: what kebab and shawarma protein costs and tastes "
+            "like today - swaps are judged against it, never recommended as a plant option."
+        ),
+        is_animal_reference=True,
+    ),
+    ProteinFunction(
+        id="beef",
+        name="Beef (animal reference)",
+        protein_g_per_100g=20.3,
+        nutrition_source="FAO/INFOODS WAFCT 2019, food 07_023 (beef)",
+        functional=FunctionalProfile("Low", "Moderate", "Moderate", "Moderate"),
+        kitchen_meaning=(
+            "The red-meat benchmark for cost and protein comparison - a "
+            "reference, never a plant-based recommendation."
+        ),
+        is_animal_reference=True,
+    ),
+)
+
+_BY_ID = {entry.id: entry for entry in PROTEIN_FUNCTIONS}
+
+
+def get_protein_function(protein_id: str) -> ProteinFunction:
+    """Look up one protein's functional profile; unknown ids fail loudly."""
+    try:
+        return _BY_ID[protein_id]
+    except KeyError:
+        raise ValueError(f"Unknown protein id: {protein_id!r}") from None
+
+
+def plant_proteins() -> tuple[ProteinFunction, ...]:
+    """The swap catalogue only - animal references are benchmarks, not options."""
+    return tuple(e for e in PROTEIN_FUNCTIONS if not e.is_animal_reference)
+
+
+def functional_summary(protein_id: str) -> str:
+    """One-line chip text for UI surfaces, e.g. 'Gelation High · Water-holding Moderate · ...'."""
+    f = get_protein_function(protein_id).functional
+    return (
+        f"Gelation {f.gelation} · Water-holding {f.water_holding} · "
+        f"Emulsification {f.emulsification} · Solubility {f.solubility}"
+    )
