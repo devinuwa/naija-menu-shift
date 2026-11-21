@@ -1,1 +1,49 @@
-IiIiTWFudWFsIG9uZS1zaG90IGltYWdlIHNtb2tlIHRlc3QgT05MWSBhZnRlciBldmVudCBvcmdhbmlzZXIgYXBwcm92YWwuCgpOZXZlciBydW4gaW5zaWRlIHRoZSBldmVudCBBV1MgYWNjb3VudCB1bnRpbCB0aGUgdGVhbSBpcyBleHBsaWNpdGx5IGdyYW50ZWQKdGV4dC10by1pbWFnZSBwZXJtaXNzaW9ucy4gQVdTIHdvcmtzaG9wIGd1aWRlIGN1cnJlbnRseSBkb2VzIE5PVCBsaXN0IHRoaXMgbW9kZWwuCiIiIgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgb3MKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCgpmcm9tIG1lbnVzaGlmdC5iZWRyb2NrX2ltYWdlIGltcG9ydCAoCiAgICBUSVRBTl9JTUFHRV9NT0RFTF9JRCwKICAgIFRpdGFuSW1hZ2VHZW5lcmF0b3IsCiAgICB3b3Jrc2hvcF9nZW5lcmF0aW9uX2VuYWJsZWQsCikKZnJvbSBtZW51c2hpZnQua2l0Y2hlbl9vcHRpbWl6ZXIgaW1wb3J0IElOVkVOVE9SWV9JVEVNUywgZXhwbG9yZQpmcm9tIG1lbnVzaGlmdC52aXN1YWxfcHJldmlldyBpbXBvcnQgYnVpbGRfcHJldmlld19kcmFmdAoKUk9PVCA9IFBhdGgoX19maWxlX18pLnJlc29sdmUoKS5wYXJlbnRzWzFdCgoKZGVmIG1haW4oKSAtPiBOb25lOgogICAgaWYgbm90IHdvcmtzaG9wX2dlbmVyYXRpb25fZW5hYmxlZCgpOgogICAgICAgIHJhaXNlIFN5c3RlbUV4aXQoCiAgICAgICAgICAgICJJbWFnZSBtb2RlbCBpcyBub3QgY29uZmlybWVkIGJ5IG9yZ2FuaXNlcnMuICIKICAgICAgICAgICAgIk5vIEFXUyByZXF1ZXN0IHdhcyBtYWRlOyBhc2sgb3JnYW5pc2VycyBmb3IgZXhhY3QgYWxsb3dlZCBtb2RlbCBJRC4iCiAgICAgICAgKQogICAgb3B0aW9ucyA9IGV4cGxvcmUoCiAgICAgICAgUk9PVCAvICJkYXRhIiAvICJzb3VyY2VzIiwKICAgICAgICBidWRnZXRfbmduPTI1MDAsIHByb3RlaW5fdGFyZ2V0X2c9OCwgbWF4X3ByZXBfbWludXRlcz0yNDAsCiAgICAgICAgZXF1aXBtZW50PWZyb3plbnNldCh7ImdyaWxsIiwgInByZXNzIiwgImZyeWluZ19wYW4ifSksCiAgICAgICAgYXZhaWxhYmxlX2luZ3JlZGllbnRzPWZyb3plbnNldChJTlZFTlRPUllfSVRFTVMpLAogICAgICAgIHBvcnRpb25zX2c9KDE0MCwpLAogICAgKQogICAgc2VsZWN0ZWQgPSBvcHRpb25zLmJlc3QoImJ1ZGdldCIpCiAgICBpZiBzZWxlY3RlZCBpcyBOb25lOgogICAgICAgIHJhaXNlIFN5c3RlbUV4aXQoIk5vIGZlYXNpYmxlIHJlY2lwZTsgY2Fubm90IGdlbmVyYXRlIikKICAgIGRyYWZ0ID0gYnVpbGRfcHJldmlld19kcmFmdChzZWxlY3RlZCwgc3R5bGU9IlJlc3RhdXJhbnQiKQogICAgcmVzdWx0ID0gVGl0YW5JbWFnZUdlbmVyYXRvcigKICAgICAgICBtb2RlbF9pZD1USVRBTl9JTUFHRV9NT0RFTF9JRCwgYXBwcm92ZWQ9VHJ1ZQogICAgKS5nZW5lcmF0ZShkcmFmdCkKICAgIG91dCA9IFBhdGgob3MuZW52aXJvbi5nZXQoIklNQUdFX1BSRVZJRVdfT1VUUFVUIiwgIi90bXAvbmFpamEtbWVudXNoaWZ0LWNvbmNlcHQucG5nIikpCiAgICBvdXQud3JpdGVfYnl0ZXMocmVzdWx0LmNvbnRlbnQpCiAgICBwcmludChmIlNhdmVkIG9uZSB7cmVzdWx0Lm1pbWVfdHlwZX0gY29uY2VwdCBpbWFnZSB0byB7b3V0fSIpCiAgICBwcmludCgiSWxsdXN0cmF0aXZlIG9ubHkuIEluc3BlY3QgaW5ncmVkaWVudHMgbWFudWFsbHk7IG5vIGFwcGVhcmFuY2UgZ3VhcmFudGVlLiIpCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIG1haW4oKQo=
+"""Manual one-shot image smoke test ONLY after event organiser approval.
+
+Never run inside the event AWS account until the team is explicitly granted
+text-to-image permissions. AWS workshop guide currently does NOT list this model.
+"""
+from __future__ import annotations
+
+import os
+from pathlib import Path
+
+from menushift.bedrock_image import (
+    TITAN_IMAGE_MODEL_ID,
+    TitanImageGenerator,
+    workshop_generation_enabled,
+)
+from menushift.kitchen_optimizer import INVENTORY_ITEMS, explore
+from menushift.visual_preview import build_preview_draft
+
+ROOT = Path(__file__).resolve().parents[1]
+
+
+def main() -> None:
+    if not workshop_generation_enabled():
+        raise SystemExit(
+            "Image model is not confirmed by organisers. "
+            "No AWS request was made; ask organisers for exact allowed model ID."
+        )
+    options = explore(
+        ROOT / "data" / "sources",
+        budget_ngn=2500, protein_target_g=8, max_prep_minutes=240,
+        equipment=frozenset({"grill", "press", "frying_pan"}),
+        available_ingredients=frozenset(INVENTORY_ITEMS),
+        portions_g=(140,),
+    )
+    selected = options.best("budget")
+    if selected is None:
+        raise SystemExit("No feasible recipe; cannot generate")
+    draft = build_preview_draft(selected, style="Restaurant")
+    result = TitanImageGenerator(
+        model_id=TITAN_IMAGE_MODEL_ID, approved=True
+    ).generate(draft)
+    out = Path(os.environ.get("IMAGE_PREVIEW_OUTPUT", "/tmp/naija-menushift-concept.png"))
+    out.write_bytes(result.content)
+    print(f"Saved one {result.mime_type} concept image to {out}")
+    print("Illustrative only. Inspect ingredients manually; no appearance guarantee.")
+
+
+if __name__ == "__main__":
+    main()
