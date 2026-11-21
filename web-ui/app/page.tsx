@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Studio from "@/components/Studio";
 import MenuExplorer from "@/components/MenuExplorer";
 
@@ -23,6 +24,15 @@ export default function HomePage() {
           care, prepared for a dietitian to review and sign off. An AI proposer suggests
           candidates, but a deterministic safety gate checks every suggestion before it
           is shown.
+        </p>
+        <p className="ns-hero-cta-row">
+          <Link className="ns-hero-cta" href="/hospital">
+            Open the Hospital Menu Studio →
+          </Link>
+          <span className="ns-hero-cta-note">
+            The ward menu board: plant-protein meals for every patient group,
+            approved by the dietitian or doctor who orders the diet.
+          </span>
         </p>
       </section>
 
