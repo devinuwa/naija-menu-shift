@@ -1,1 +1,29 @@
-IiIiQ29sbGVjdGVkIHF1b3RlcyBzdGF5IG91dHNpZGUgdGhlIHZlcmlmaWVkIHJlY2lwZSBsb2FkZXIuIiIiCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAoKaW1wb3J0IHB5dGVzdAoKZnJvbSBtZW51c2hpZnQuZW5naW5lIGltcG9ydCBsb2FkX2RhdGFzZXQKZnJvbSBtZW51c2hpZnQuc291cmNlcyBpbXBvcnQgY29sbGVjdGVkX3F1b3RlX2dhcHMsIGxvYWRfbWFya2V0X3ByaWNlcywgbG9hZF9udXRyaXRpb25fcXVvdGVzCgpST09UID0gUGF0aChfX2ZpbGVfXykucmVzb2x2ZSgpLnBhcmVudHNbMV0KCgpkZWYgdGVzdF9jb2xsZWN0ZWRfcXVvdGVzX2RvX25vdF9vcGVuX3ZlcmlmaWVkX21vZGUoKToKICAgIHByaWNlcyA9IGxvYWRfbWFya2V0X3ByaWNlcyhST09UIC8gImRhdGEiIC8gInNvdXJjZXMiKQogICAgbnV0cmllbnRzID0gbG9hZF9udXRyaXRpb25fcXVvdGVzKFJPT1QgLyAiZGF0YSIgLyAic291cmNlcyIpCiAgICBhc3NlcnQgYW55KHJvd1siaXRlbSJdLnN0YXJ0c3dpdGgoIlNveWJlYW5zIikgZm9yIHJvdyBpbiBwcmljZXMpCiAgICBhc3NlcnQgYW55KCJCZWVmIiBpbiByb3dbIml0ZW0iXSBmb3Igcm93IGluIHByaWNlcykKICAgIGFzc2VydCBhbnkoIm1vaXN0dXJlIiBpbiByb3dbInNvdXJjZSJdLmxvd2VyKCkgZm9yIHJvdyBpbiBudXRyaWVudHMpCiAgICBhc3NlcnQgYW55KHJvd1siZm9vZF9pdGVtIl0uc3RhcnRzd2l0aCgiUmVmZXJlbmNlOiBCZWVmIikgZm9yIHJvdyBpbiBudXRyaWVudHMpCiAgICBnYXBzID0gY29sbGVjdGVkX3F1b3RlX2dhcHMoKQogICAgYXNzZXJ0IGFueSgiSVNPIHByaWNlIGRhdGUiIGluIGdhcCBmb3IgZ2FwIGluIGdhcHMpCiAgICBhc3NlcnQgYW55KCJkb2VzIG5vdCBjcmVhdGUgcHJvdGVpbiIgaW4gZ2FwIGZvciBnYXAgaW4gZ2FwcykKICAgIGFzc2VydCBhbnkoImFsbGVyZ2VuIiBpbiBnYXAubG93ZXIoKSBmb3IgZ2FwIGluIGdhcHMpCiAgICB3aXRoIHB5dGVzdC5yYWlzZXMoVmFsdWVFcnJvciwgbWF0Y2g9ImluY29tcGxldGUiKToKICAgICAgICBsb2FkX2RhdGFzZXQoUk9PVCAvICJkYXRhIiAvICJ2ZXJpZmllZCIsIGRlbW89RmFsc2UpCgoKZGVmIHRlc3RfbWlzc2luZ19xdW90ZV9maWxlX2lzX2V4cGxpY2l0KHRtcF9wYXRoKToKICAgIHdpdGggcHl0ZXN0LnJhaXNlcyhGaWxlTm90Rm91bmRFcnJvciwgbWF0Y2g9Im1pc3NpbmciKToKICAgICAgICBsb2FkX21hcmtldF9wcmljZXModG1wX3BhdGgpCg==
+"""Collected quotes stay outside the verified recipe loader."""
+from pathlib import Path
+
+import pytest
+
+from menushift.engine import load_dataset
+from menushift.sources import collected_quote_gaps, load_market_prices, load_nutrition_quotes
+
+ROOT = Path(__file__).resolve().parents[1]
+
+
+def test_collected_quotes_do_not_open_verified_mode():
+    prices = load_market_prices(ROOT / "data" / "sources")
+    nutrients = load_nutrition_quotes(ROOT / "data" / "sources")
+    assert any(row["item"].startswith("Soybeans") for row in prices)
+    assert any("Beef" in row["item"] for row in prices)
+    assert any("moisture" in row["source"].lower() for row in nutrients)
+    assert any(row["food_item"].startswith("Reference: Beef") for row in nutrients)
+    gaps = collected_quote_gaps()
+    assert any("ISO price date" in gap for gap in gaps)
+    assert any("does not create protein" in gap for gap in gaps)
+    assert any("allergen" in gap.lower() for gap in gaps)
+    with pytest.raises(ValueError, match="incomplete"):
+        load_dataset(ROOT / "data" / "verified", demo=False)
+
+
+def test_missing_quote_file_is_explicit(tmp_path):
+    with pytest.raises(FileNotFoundError, match="missing"):
+        load_market_prices(tmp_path)
