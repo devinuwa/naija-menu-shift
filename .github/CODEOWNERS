@@ -1,1 +1,6 @@
-IyBSZXZpZXcgb3duZXJzaGlwLiBHaXRIdWIgcmV2aWV3IHJlcXVlc3RzIHJlcXVpcmUgYWNjZXB0ZWQgcmVwb3NpdG9yeSBhY2Nlc3MuCi9hcHAucHkgQGRldmludXdhCi9zcmMvbWVudXNoaWZ0L2VuZ2luZS5weSBASWJyYWhpbS1LSUEgQGRldmludXdhCi90ZXN0cy8gQElicmFoaW0tS0lBIEBkZXZpbnV3YQovZG9jcy8gQElicmFoaW0tS0lBCi9kYXRhLyBASWJyYWhpbS1LSUEK
+# Review ownership. GitHub review requests require accepted repository access.
+/app.py @devinuwa
+/src/menushift/engine.py @Ibrahim-KIA @devinuwa
+/tests/ @Ibrahim-KIA @devinuwa
+/docs/ @Ibrahim-KIA
+/data/ @Ibrahim-KIA
