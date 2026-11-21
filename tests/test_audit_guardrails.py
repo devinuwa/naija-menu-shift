@@ -1,1 +1,59 @@
-IiIiUmVncmVzc2lvbiBjaGVja3MgZm9yIG1vZGVsIHV0aWxpdHksIGluY29tcGxldGUgYWxsZXJnZW5zIGFuZCBDU1YgaW50ZWdyaXR5LiIiIgpmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKCmltcG9ydCBweXRlc3QKCmZyb20gbWVudXNoaWZ0LmVuZ2luZSBpbXBvcnQgRGF0YXNldCwgX3Byb3RlaW5fdXRpbGl0eSwgZXZhbHVhdGUsIGxvYWRfZGF0YXNldCwgcmVhZF9jc3YKCgpAcHl0ZXN0LmZpeHR1cmUKZGVmIGF1ZGl0X2RlbW8oKToKICAgIHJldHVybiBsb2FkX2RhdGFzZXQoUGF0aChfX2ZpbGVfXykucmVzb2x2ZSgpLnBhcmVudHNbMV0gLyAiZGF0YSIgLyAiZGVtbyIsIGRlbW89VHJ1ZSkKCgpkZWYgdGVzdF9wcm90ZWluX3V0aWxpdHlfcmV3YXJkc19tb3JlX3Byb3RlaW5fYWZ0ZXJfdGhyZXNob2xkKCk6CiAgICBhc3NlcnQgX3Byb3RlaW5fdXRpbGl0eSgwLCAwKSA9PSAwCiAgICBhc3NlcnQgMCA8IF9wcm90ZWluX3V0aWxpdHkoMTAsIDEwKSA8IF9wcm90ZWluX3V0aWxpdHkoMTUsIDEwKSA8IDEKICAgIGFzc2VydCBfcHJvdGVpbl91dGlsaXR5KDEwMCwgMTApIDwgMQoKCmRlZiB0ZXN0X2FsbGVyZ2VuX2V4Y2x1c2lvbl9hYnN0YWluc193aGVuX2xhYmVsc19hcmVfaW5jb21wbGV0ZShhdWRpdF9kZW1vKToKICAgIHJvd3MgPSBldmFsdWF0ZShhdWRpdF9kZW1vLCAic3V5YSIsIGJ1ZGdldF9uZ249MTAwMDAsIHByb3RlaW5fdGFyZ2V0X2c9MCwKICAgICAgICAgICAgICAgICAgICBhdm9pZF9hbGxlcmdlbnM9WyJzZXNhbWUiXSkKICAgIGFzc2VydCBub3QgYW55KHJvdy5mZWFzaWJsZSBmb3Igcm93IGluIHJvd3MpCiAgICBhc3NlcnQgYW55KCJsYWJlbCByZXZpZXcgaXMgaW5jb21wbGV0ZSIgaW4gcmVhc29uCiAgICAgICAgICAgICAgIGZvciByb3cgaW4gcm93cyBmb3IgcmVhc29uIGluIHJvdy5yZWFzb25zKQoKCmRlZiB0ZXN0X2FsbGVyZ2VuX2V4Y2x1c2lvbl9hbGxvd3NfZXhwbGljaXRseV9yZXZpZXdlZF9pbmdyZWRpZW50cyhhdWRpdF9kZW1vKToKICAgIGluZ3JlZGllbnRzID0gW2RpY3Qocm93KSBmb3Igcm93IGluIGF1ZGl0X2RlbW8uaW5ncmVkaWVudHNdCiAgICBmb3IgaW5nIGluIGluZ3JlZGllbnRzOgogICAgICAgIGlmIGluZy5nZXQoImFsbGVyZ2VucyIsICIiKSBpbiAoIiIsICJ1bmtub3duO3ZlcmlmeSBsYWJlbCIpOgogICAgICAgICAgICBpbmdbImFsbGVyZ2VucyJdID0gIm5vbmUiICAjIGlsbHVzdHJhdGl2ZSBsYWJlbCByZXZpZXc7IG5vdCBjcm9zcy1jb250YWN0IGNlcnRpZmljYXRpb24KICAgIGNsZWFuID0gRGF0YXNldChpbmdyZWRpZW50cywgYXVkaXRfZGVtby5kaXNoZXMsIGF1ZGl0X2RlbW8ub3B0aW9ucywgYXVkaXRfZGVtby5pdGVtcywgZGVtbz1UcnVlKQogICAgcm93cyA9IGV2YWx1YXRlKGNsZWFuLCAic3V5YSIsIGJ1ZGdldF9uZ249MTAwMDAwLCBwcm90ZWluX3RhcmdldF9nPTAsCiAgICAgICAgICAgICAgICAgICAgYXZvaWRfYWxsZXJnZW5zPVsic2VzYW1lIl0pCiAgICBhc3NlcnQgYW55KHJvdy5mZWFzaWJsZSBmb3Igcm93IGluIHJvd3MgaWYgcm93LnBsYW50X29ubHkpCiAgICBhc3NlcnQgYWxsKHJvdy5hbGxlcmdlbl9yZXZpZXdfY29tcGxldGUgZm9yIHJvdyBpbiByb3dzKQoKCmRlZiB0ZXN0X3VucmV2aWV3ZWRfYWxsZXJnZW5fc3RhdHVzX2Rpc2Nsb3NlZF9ldmVuX3dpdGhvdXRfZmlsdGVyKGF1ZGl0X2RlbW8pOgogICAgcm93cyA9IGV2YWx1YXRlKGF1ZGl0X2RlbW8sICJzdXlhIiwgYnVkZ2V0X25nbj0xMDAwMDAsIHByb3RlaW5fdGFyZ2V0X2c9MCkKICAgIGFzc2VydCBhbnkobm90IHJvdy5hbGxlcmdlbl9yZXZpZXdfY29tcGxldGUgZm9yIHJvdyBpbiByb3dzKQoKCmRlZiB0ZXN0X2R1cGxpY2F0ZV9jc3ZfaGVhZGVyX3JlamVjdGVkKHRtcF9wYXRoKToKICAgIGZpbGUgPSB0bXBfcGF0aCAvICJpbmdyZWRpZW50cy5jc3YiCiAgICBmaWxlLndyaXRlX3RleHQoImluZ3JlZGllbnRfaWQsaW5ncmVkaWVudF9pZFxuYSxiXG4iKQogICAgd2l0aCBweXRlc3QucmFpc2VzKFZhbHVlRXJyb3IsIG1hdGNoPSJkdXBsaWNhdGUgQ1NWIGhlYWRlcnMiKToKICAgICAgICByZWFkX2NzdihmaWxlKQoKCmRlZiB0ZXN0X2V4dHJhX29yX21pc3NpbmdfY3N2X2ZpZWxkX3JlamVjdGVkKHRtcF9wYXRoKToKICAgIGZpbGUgPSB0bXBfcGF0aCAvICJpbmdyZWRpZW50cy5jc3YiCiAgICBmaWxlLndyaXRlX3RleHQoImlkLG5hbWVcbjEsYSx1bmV4cGVjdGVkXG4iKQogICAgd2l0aCBweXRlc3QucmFpc2VzKFZhbHVlRXJyb3IsIG1hdGNoPSJtYWxmb3JtZWQgQ1NWIik6CiAgICAgICAgcmVhZF9jc3YoZmlsZSkKICAgIGZpbGUud3JpdGVfdGV4dCgiaWQsbmFtZVxuMVxuIikKICAgIHdpdGggcHl0ZXN0LnJhaXNlcyhWYWx1ZUVycm9yLCBtYXRjaD0ibWFsZm9ybWVkIENTViIpOgogICAgICAgIHJlYWRfY3N2KGZpbGUpCg==
+"""Regression checks for model utility, incomplete allergens and CSV integrity."""
+from pathlib import Path
+
+import pytest
+
+from menushift.engine import Dataset, _protein_utility, evaluate, load_dataset, read_csv
+
+
+@pytest.fixture
+def audit_demo():
+    return load_dataset(Path(__file__).resolve().parents[1] / "data" / "demo", demo=True)
+
+
+def test_protein_utility_rewards_more_protein_after_threshold():
+    assert _protein_utility(0, 0) == 0
+    assert 0 < _protein_utility(10, 10) < _protein_utility(15, 10) < 1
+    assert _protein_utility(100, 10) < 1
+
+
+def test_allergen_exclusion_abstains_when_labels_are_incomplete(audit_demo):
+    rows = evaluate(audit_demo, "suya", budget_ngn=10000, protein_target_g=0,
+                    avoid_allergens=["sesame"])
+    assert not any(row.feasible for row in rows)
+    assert any("label review is incomplete" in reason
+               for row in rows for reason in row.reasons)
+
+
+def test_allergen_exclusion_allows_explicitly_reviewed_ingredients(audit_demo):
+    ingredients = [dict(row) for row in audit_demo.ingredients]
+    for ing in ingredients:
+        if ing.get("allergens", "") in ("", "unknown;verify label"):
+            ing["allergens"] = "none"  # illustrative label review; not cross-contact certification
+    clean = Dataset(ingredients, audit_demo.dishes, audit_demo.options, audit_demo.items, demo=True)
+    rows = evaluate(clean, "suya", budget_ngn=100000, protein_target_g=0,
+                    avoid_allergens=["sesame"])
+    assert any(row.feasible for row in rows if row.plant_only)
+    assert all(row.allergen_review_complete for row in rows)
+
+
+def test_unreviewed_allergen_status_disclosed_even_without_filter(audit_demo):
+    rows = evaluate(audit_demo, "suya", budget_ngn=100000, protein_target_g=0)
+    assert any(not row.allergen_review_complete for row in rows)
+
+
+def test_duplicate_csv_header_rejected(tmp_path):
+    file = tmp_path / "ingredients.csv"
+    file.write_text("ingredient_id,ingredient_id\na,b\n")
+    with pytest.raises(ValueError, match="duplicate CSV headers"):
+        read_csv(file)
+
+
+def test_extra_or_missing_csv_field_rejected(tmp_path):
+    file = tmp_path / "ingredients.csv"
+    file.write_text("id,name\n1,a,unexpected\n")
+    with pytest.raises(ValueError, match="malformed CSV"):
+        read_csv(file)
+    file.write_text("id,name\n1\n")
+    with pytest.raises(ValueError, match="malformed CSV"):
+        read_csv(file)
