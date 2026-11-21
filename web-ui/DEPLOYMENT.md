@@ -1,1 +1,23 @@
-IyBWZXJjZWwgc2lkZS1ieS1zaWRlIGRlbW9uc3RyYXRpb24KClRoZSBleGlzdGluZyBTdHJlYW1saXQgc2l0ZSByZW1haW5zIHVuY2hhbmdlZDogaHR0cHM6Ly9uYWlqYS1tZW51c2hpZnQuc3RyZWFtbGl0LmFwcC8KVGhlIGB3ZWItdWkvYCBmb2xkZXIgcHJvdmlkZXMgYSBzZXBhcmF0ZSBOZXh0LmpzIHN1eWEgcmVzZWFyY2ggcHJvdG90eXBlLgpObyBBV1MgcHJveHksIEJlZHJvY2ssIGV4dGVybmFsIG1vZGVsIGNhbGxzLCBvciBwcm9kdWN0aW9uIEFQSSBrZXlzLgoKIyMgQnVpbGQKUnVuIGBucG0gY2lgLCBgbnBtIHJ1biB0eXBlY2hlY2tgLCBgbnBtIHJ1biBidWlsZGAgaW4gYHdlYi11aS9gLgpUaGUgaW50ZWdyYXRlZCBHaXRIdWIgQWN0aW9ucyB3b3JrZmxvdyBydW5zIHRob3NlIGNoZWNrcyBvbiB0aGlzIGZvbGRlci4KCiMjIERlcGxveQpJbXBvcnQgcHJpdmF0ZSBHaXRIdWIgYElicmFoaW0tS0lBL25haWphLW1lbnVzaGlmdGAgdG8gVmVyY2VsLgpSb290IGRpcmVjdG9yeSBgd2ViLXVpYCwgZnJhbWV3b3JrIE5leHQuanMsIE5vZGUgMjIueDsgbm8gZW52aXJvbm1lbnQgdmFyaWFibGVzLgpVc2Ugb25seSBhbiBlbGlnaWJsZSBwZXJzb25hbCwgbm9uLWNvbW1lcmNpYWwgSG9iYnkgZGVtb25zdHJhdGlvbi4gQ29tbWVyY2lhbAp1c2FnZSByZXF1aXJlcyBhIGNvbXBsaWFudCBob3N0aW5nIGFycmFuZ2VtZW50LiBEbyBub3QgdHJlYXQgdGhlIGRlbW8gYXMgdmVyaWZpZWQKZm9vZC1zZXJ2aWNlIHNvZnR3YXJlIG9yIGFzIGVxdWFsIGluIGNvdmVyYWdlIHRvIHRoZSBQeXRob24gYXBwLgoKIyMgU21va2UgY2hlY2tzCi0gUHVibGljIHBhZ2UgcmVuZGVycyB3aXRob3V0IHNpZ24taW4uCi0gUE9TVCAvYXBpL2V4cGxvcmUgcmV0dXJucyBKU09OIGZvciBhbiBvcmRpbmFyeSBicmllZi4KLSBJbnZhbGlkIEpTT04sIHVuc3VwcG9ydGVkIGFsbGVyZ2VucyBhbmQgb3ZlcmxhcmdlIGJvZHkgcmVjZWl2ZSA0eHguCi0gU295IGFuZCBncm91bmRudXQgZXhjbHVzaW9ucyBhYnN0YWluLCBpbnZhbGlkIHNlYXNvbmluZyBvcmlnaW4gYWJzdGFpbnMuCi0gTW9iaWxlIHZpZXdwb3J0IGFuZCBrZXlib2FyZCBjb250cm9scyB3b3JrOyBjb21wYXJlIHdpdGggU3RyZWFtbGl0Lgo=
+# Vercel side-by-side demonstration
+
+The existing Streamlit site remains unchanged: https://naija-menushift.streamlit.app/
+The `web-ui/` folder provides a separate Next.js suya research prototype.
+No AWS proxy, Bedrock, external model calls, or production API keys.
+
+## Build
+Run `npm ci`, `npm run typecheck`, `npm run build` in `web-ui/`.
+The integrated GitHub Actions workflow runs those checks on this folder.
+
+## Deploy
+Import private GitHub `Ibrahim-KIA/naija-menushift` to Vercel.
+Root directory `web-ui`, framework Next.js, Node 22.x; no environment variables.
+Use only an eligible personal, non-commercial Hobby demonstration. Commercial
+usage requires a compliant hosting arrangement. Do not treat the demo as verified
+food-service software or as equal in coverage to the Python app.
+
+## Smoke checks
+- Public page renders without sign-in.
+- POST /api/explore returns JSON for an ordinary brief.
+- Invalid JSON, unsupported allergens and overlarge body receive 4xx.
+- Soy and groundnut exclusions abstain, invalid seasoning origin abstains.
+- Mobile viewport and keyboard controls work; compare with Streamlit.
