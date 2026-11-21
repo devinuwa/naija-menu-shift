@@ -1,1 +1,170 @@
-IiIiU291cmNlLWF3YXJlIHZpc3VhbCBicmllZnMgZm9yIGNvbmNlcHQgaW1hZ2VzIGJlc2lkZSBraXRjaGVuIHRyaWFsIHJlY2lwZXMuCgpHZW5lcmF0ZWQgaW1hZ2VzIGFyZSBpbGx1c3RyYXRpdmUsIG5vdCBvYnNlcnZhdGlvbnMgb2YgdGhlIGFjdHVhbCBwcmVwYXJlZCBmb29kLgpUaGUgbW9kZWwgaXMgbmV2ZXIgYWxsb3dlZCB0byBjaG9vc2Ugb3IgYWx0ZXIgaW5ncmVkaWVudHMuIFByZXNlbnRhdGlvbiByZXF1ZXN0cwphcmUgaW50ZXJwcmV0ZWQgdXNpbmcgYSBzbWFsbCwgZXhwbGljaXQgdmlzdWFsIHZvY2FidWxhcnkgcmF0aGVyIHRoYW4gaW5qZWN0aW5nCnJhdyB1c2VyIHRleHQgaW50byBtb2RlbCBpbnN0cnVjdGlvbnMuCiIiIgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgpmcm9tIGRhdGFjbGFzc2VzIGltcG9ydCBkYXRhY2xhc3MKZnJvbSBoYXNobGliIGltcG9ydCBzaGEyNTYKCmZyb20gLmtpdGNoZW5fb3B0aW1pemVyIGltcG9ydCBSZWNpcGVDYW5kaWRhdGUKZnJvbSAudmlzdWFsX2ludGVudCBpbXBvcnQgVmlzdWFsSW50ZW50CgpTVFlMRVMgPSB7CiAgICAiU3RyZWV0LWZvb2QiOiAiTmlnZXJpYW4gc3RyZWV0LWZvb2QgcHJlc2VudGF0aW9uIG9uIGNsZWFuIGJyb3duIHNlcnZpbmcgcGFwZXIiLAogICAgIlJlc3RhdXJhbnQiOiAiZWxlZ2FudCByZXN0YXVyYW50IHBsYXRpbmcgb24gYSBwbGFpbiB3aGl0ZSBjZXJhbWljIHBsYXRlIiwKICAgICJDb29rYm9vayI6ICJzaW1wbGUgaG9tZSBjb29rYm9vayBwbGF0aW5nIG9uIGEgbmV1dHJhbCBwbGF0ZSIsCn0KTUVUSE9EUyA9IHsKICAgICJhd2FyYV9maXJtIjogImZpcm0gYXdhcmEgY3ViZXMgd2l0aCBsaWdodCBncmlsbCBtYXJrcyIsCiAgICAiYXdhcmFfcHJlc3NlZCI6ICJwcmVzc2VkIGF3YXJhIGN1YmVzIHdpdGggbGlnaHQgZ3JpbGwgbWFya3MiLAogICAgImF3YXJhX2Zyb3plbiI6ICJmcmVlemUtdGhhd2VkIGF3YXJhIGN1YmVzIHdpdGggYSB0ZXh0dXJlZCBzdXJmYWNlIGFuZCBsaWdodCBncmlsbCBtYXJrcyIsCiAgICAiYXdhcmFfZnJpZWQiOiAicGFuLWZyaWVkIGF3YXJhIGN1YmVzIHdpdGggYSBnb2xkZW4gY3J1c3QiLAp9ClBMQVRJTkdfQ1VFUyA9IHsKICAgICJ3aGl0ZSBwbGF0ZSI6ICJ3aGl0ZSBjZXJhbWljIHBsYXRlIiwKICAgICJkYXJrIHBsYXRlIjogIm1hdHRlIGRhcmsgcGxhdGUiLAogICAgIndvb2RlbiBib2FyZCI6ICJjbGVhbiB3b29kZW4gc2VydmluZyBib2FyZCIsCiAgICAiYmFuYW5hIGxlYWYiOiAiYmFuYW5hIGxlYWYgdXNlZCBvbmx5IGFzIHNlcnZpbmcgc3VyZmFjZSIsCn0KQ0FNRVJBX0NVRVMgPSB7CiAgICAib3ZlcmhlYWQiOiAib3ZlcmhlYWQgcGhvdG9ncmFwaCIsCiAgICAidG9wIGRvd24iOiAib3ZlcmhlYWQgcGhvdG9ncmFwaCIsCiAgICAiY2xvc2UgdXAiOiAiY2xvc2UtdXAgcGhvdG9ncmFwaCIsCiAgICAic2lkZSB2aWV3IjogInNpZGUtYW5nbGUgcGhvdG9ncmFwaCIsCn0KTElHSFRJTkdfQ1VFUyA9IHsKICAgICJzdW5zZXQiOiAid2FybSBldmVuaW5nIGxpZ2h0IiwKICAgICJnb2xkZW4gaG91ciI6ICJ3YXJtIGV2ZW5pbmcgbGlnaHQiLAogICAgImV2ZW5pbmciOiAid2FybSBldmVuaW5nIGxpZ2h0IiwKICAgICJzdHVkaW8gbGlnaHRpbmciOiAiY2xlYW4gc3R1ZGlvIGxpZ2h0IiwKICAgICJicmlnaHQgc3R1ZGlvIjogImNsZWFuIHN0dWRpbyBsaWdodCIsCiAgICAiZGF5bGlnaHQiOiAic29mdCBuYXR1cmFsIHdpbmRvdyBsaWdodCIsCn0KU0VUVElOR19DVUVTID0gewogICAgInJvYWRzaWRlIjogImNhc3VhbCBOaWdlcmlhbiBzdHJlZXQtZm9vZCBzZXR0aW5nIiwKICAgICJzdHJlZXQgc3RhbGwiOiAiY2FzdWFsIE5pZ2VyaWFuIHN0cmVldC1mb29kIHNldHRpbmciLAogICAgIm91dGRvb3IgZm9vZCBzdGFuZCI6ICJjYXN1YWwgTmlnZXJpYW4gc3RyZWV0LWZvb2Qgc2V0dGluZyIsCiAgICAiaG9tZSBraXRjaGVuIjogInNpbXBsZSBob21lIGtpdGNoZW4gdGFibGV0b3AiLAogICAgImZpbmUgZGluaW5nIjogImVsZWdhbnQgcmVzdGF1cmFudCB0YWJsZXRvcCIsCiAgICAibWluaW1hbCBiYWNrZ3JvdW5kIjogIm5ldXRyYWwgdW5jbHV0dGVyZWQgYmFja2dyb3VuZCIsCn0KCgpMQUJFTCA9ICJBSS1nZW5lcmF0ZWQgaWxsdXN0cmF0aXZlIGNvbmNlcHQg4oCUIGFjdHVhbCBjb29rZWQgYXBwZWFyYW5jZSBtYXkgZGlmZmVyLiIKCgpAZGF0YWNsYXNzKGZyb3plbj1UcnVlKQpjbGFzcyBQcmV2aWV3RHJhZnQ6CiAgICByZWNpcGVfaWQ6IHN0cgogICAgcHJvbXB0OiBzdHIKICAgIG5lZ2F0aXZlX3Byb21wdDogc3RyCiAgICBpbnRlcnByZXRlZF9wcmVmZXJlbmNlczogdHVwbGVbc3RyLCAuLi5dCiAgICBsYWJlbDogc3RyID0gTEFCRUwKCiAgICBAcHJvcGVydHkKICAgIGRlZiBmaW5nZXJwcmludChzZWxmKSAtPiBzdHI6CiAgICAgICAgcmV0dXJuIHNoYTI1NigKICAgICAgICAgICAgKHNlbGYucmVjaXBlX2lkICsgIlxuIiArIHNlbGYucHJvbXB0ICsgIlxuIiArIHNlbGYubmVnYXRpdmVfcHJvbXB0KQogICAgICAgICAgICAuZW5jb2RlKCJ1dGYtOCIpCiAgICAgICAgKS5oZXhkaWdlc3QoKVs6MjBdCgoKZGVmIF92aXN1YWxfaW5ncmVkaWVudHMoY2FuZGlkYXRlOiBSZWNpcGVDYW5kaWRhdGUpIC0+IGxpc3Rbc3RyXToKICAgIGluZ3JlZGllbnRzID0gW3ggZm9yIHggaW4gY2FuZGlkYXRlLmluZ3JlZGllbnRfbGluZXMgaWYgeC5wdXJjaGFzZV9nID4gMF0KICAgIGlmIG5vdCBhbnkoeC5pbmdyZWRpZW50X2lkIGluIHsid2V0X2F3YXJhIiwgImZyaWVkX2F3YXJhIn0gZm9yIHggaW4gaW5ncmVkaWVudHMpOgogICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoIk5vIGV2aWRlbmNlZCB0b2Z1L2F3YXJhIGluZ3JlZGllbnQiKQogICAgIyBTcGljZXMsIHNhbHQgYW5kIG9pbCBjYW4gYWZmZWN0IHByZXBhcmF0aW9uIGJ1dCBkbyBub3QganVzdGlmeSBkZXBpY3RpbmcKICAgICMgZWxhYm9yYXRlIHlhamkgY29hdGluZ3Mgb3IgdmVnZXRhYmxlcyB0aGF0IGFyZW4ndCBpbiB0aGUgc2VsZWN0ZWQgcmVjaXBlLgogICAgdmlzaWJsZSA9IFtdCiAgICBmb3Igcm93IGluIGluZ3JlZGllbnRzOgogICAgICAgIGlmIHJvdy5pbmdyZWRpZW50X2lkID09ICJvbmlvbiI6CiAgICAgICAgICAgIHZpc2libGUuYXBwZW5kKCJhIGxpdHRsZSBvbmlvbiIpCiAgICAgICAgZWxpZiByb3cuaW5ncmVkaWVudF9pZCA9PSAicGVwcGVyIjoKICAgICAgICAgICAgdmlzaWJsZS5hcHBlbmQoImZyZXNoIHBlcHBlciIpCiAgICByZXR1cm4gdmlzaWJsZQoKCmRlZiBidWlsZF9wcmV2aWV3X2RyYWZ0KAogICAgY2FuZGlkYXRlOiBSZWNpcGVDYW5kaWRhdGUsICosCiAgICBzdHlsZTogc3RyID0gIlJlc3RhdXJhbnQiLCByZXN0YXVyYW50X3JlcXVlc3Q6IHN0ciA9ICIiLAogICAgdmlzdWFsX2ludGVudDogVmlzdWFsSW50ZW50IHwgTm9uZSA9IE5vbmUsCikgLT4gUHJldmlld0RyYWZ0OgogICAgIiIiQnVpbGQgYSBjb25zdHJhaW5lZCB2aXN1YWwgZGVwaWN0aW9uIG9mIGFuIGFscmVhZHktZmVhc2libGUgY2FuZGlkYXRlLiIiIgogICAgaWYgbm90IGNhbmRpZGF0ZS5lbGlnaWJsZToKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJDYW5ub3QgdmlzdWFsbHkgZW5kb3JzZSBhbiBpbmVsaWdpYmxlIHJlY2lwZSIpCiAgICBtZXRob2QgPSBjYW5kaWRhdGUuZXZhbHVhdGlvbi5vcHRpb25faWQKICAgIGlmIG1ldGhvZCBub3QgaW4gTUVUSE9EUyBvciBzdHlsZSBub3QgaW4gU1RZTEVTOgogICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoIlVua25vd24gcHJlcGFyYXRpb24gbWV0aG9kIG9yIHZpc3VhbCBwcmVzZW50YXRpb24gc3R5bGUiKQogICAgaWYgbm90IGlzaW5zdGFuY2UocmVzdGF1cmFudF9yZXF1ZXN0LCBzdHIpIG9yIGxlbihyZXN0YXVyYW50X3JlcXVlc3QpID4gNjAwOgogICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoIlZpc3VhbCBwcmVmZXJlbmNlIHJlcXVlc3QgbXVzdCBiZSBhdCBtb3N0IDYwMCBjaGFyYWN0ZXJzIikKCiAgICByZXF1ZXN0ID0gcmVzdGF1cmFudF9yZXF1ZXN0LmNhc2Vmb2xkKCkKICAgIHByZXNlbnRhdGlvbiA9IFNUWUxFU1tzdHlsZV0KICAgIGludGVycHJldGVkID0gW10KICAgIGZvciBwaHJhc2UsIG1hcHBlZCBpbiBQTEFUSU5HX0NVRVMuaXRlbXMoKToKICAgICAgICBpZiBwaHJhc2UgaW4gcmVxdWVzdDoKICAgICAgICAgICAgcHJlc2VudGF0aW9uID0gbWFwcGVkCiAgICAgICAgICAgIGludGVycHJldGVkLmFwcGVuZChwaHJhc2UpCiAgICAgICAgICAgIGJyZWFrCiAgICBhbmdsZSA9ICJuYXR1cmFsIGNsb3NlLXVwIHBob3RvZ3JhcGgiCiAgICBmb3IgcGhyYXNlLCBtYXBwZWQgaW4gQ0FNRVJBX0NVRVMuaXRlbXMoKToKICAgICAgICBpZiBwaHJhc2UgaW4gcmVxdWVzdDoKICAgICAgICAgICAgYW5nbGUgPSBtYXBwZWQKICAgICAgICAgICAgaW50ZXJwcmV0ZWQuYXBwZW5kKHBocmFzZSkKICAgICAgICAgICAgYnJlYWsKCiAgICBsaWdodGluZyA9ICJzb2Z0IG5hdHVyYWwgd2luZG93IGxpZ2h0IgogICAgc2V0dGluZyA9ICJuZXV0cmFsIHVuY2x1dHRlcmVkIGJhY2tncm91bmQiCiAgICBmb3IgcGhyYXNlLCBtYXBwZWQgaW4gTElHSFRJTkdfQ1VFUy5pdGVtcygpOgogICAgICAgIGlmIHBocmFzZSBpbiByZXF1ZXN0OgogICAgICAgICAgICBsaWdodGluZyA9IG1hcHBlZAogICAgICAgICAgICBpbnRlcnByZXRlZC5hcHBlbmQocGhyYXNlKQogICAgICAgICAgICBicmVhawogICAgZm9yIHBocmFzZSwgbWFwcGVkIGluIFNFVFRJTkdfQ1VFUy5pdGVtcygpOgogICAgICAgIGlmIHBocmFzZSBpbiByZXF1ZXN0OgogICAgICAgICAgICBzZXR0aW5nID0gbWFwcGVkCiAgICAgICAgICAgIGludGVycHJldGVkLmFwcGVuZChwaHJhc2UpCiAgICAgICAgICAgIGJyZWFrCiAgICBpZiB2aXN1YWxfaW50ZW50IGlzIG5vdCBOb25lOgogICAgICAgIGlmIHZpc3VhbF9pbnRlbnQucmVxdWlyZXNfcmVjaXBlX2NoYW5nZToKICAgICAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigKICAgICAgICAgICAgICAgICJWaXN1YWwgcmVxdWVzdCBhc2tzIHRvIGFsdGVyIHRoZSBpbmdyZWRpZW50czsgY2hhbmdlIGFuZCByZXZhbGlkYXRlICIKICAgICAgICAgICAgICAgICJ0aGUgcmVjaXBlIGJlZm9yZSBnZW5lcmF0aW5nIGEgdmlzdWFsIgogICAgICAgICAgICApCiAgICAgICAgaWYgdmlzdWFsX2ludGVudC5zdHlsZSAhPSAia2VlcCI6CiAgICAgICAgICAgIHByZXNlbnRhdGlvbiA9IFNUWUxFU1t2aXN1YWxfaW50ZW50LnN0eWxlXQogICAgICAgIGlmIHZpc3VhbF9pbnRlbnQucGxhdGluZyAhPSAiZGVmYXVsdCI6CiAgICAgICAgICAgIHByZXNlbnRhdGlvbiA9IHZpc3VhbF9pbnRlbnQucGxhdGluZwogICAgICAgIGlmIHZpc3VhbF9pbnRlbnQuY2FtZXJhICE9ICJkZWZhdWx0IjoKICAgICAgICAgICAgYW5nbGUgPSB2aXN1YWxfaW50ZW50LmNhbWVyYQogICAgICAgIGlmIHZpc3VhbF9pbnRlbnQubGlnaHRpbmcgIT0gImRlZmF1bHQiOgogICAgICAgICAgICBsaWdodGluZyA9IHZpc3VhbF9pbnRlbnQubGlnaHRpbmcKICAgICAgICBpZiB2aXN1YWxfaW50ZW50LnNldHRpbmcgIT0gImRlZmF1bHQiOgogICAgICAgICAgICBzZXR0aW5nID0gdmlzdWFsX2ludGVudC5zZXR0aW5nCiAgICAgICAgaW50ZXJwcmV0ZWQgPSBsaXN0KHZpc3VhbF9pbnRlbnQuaW50ZXJwcmV0YXRpb24pCgogICAgZXh0cmFzID0gX3Zpc3VhbF9pbmdyZWRpZW50cyhjYW5kaWRhdGUpCiAgICBleHRyYXNfcGFydCA9ICIsIHdpdGggIiArICIgYW5kICIuam9pbihleHRyYXMpIGlmIGV4dHJhcyBlbHNlICIiCiAgICBwcm9tcHQgPSAoCiAgICAgICAgIlBob3RvcmVhbGlzdGljIGZvb2QgY29uY2VwdCBvZiBOaWdlcmlhbiBwbGFudC1iYXNlZCBzdXlhLWluc3BpcmVkICIKICAgICAgICBmIntNRVRIT0RTW21ldGhvZF19e2V4dHJhc19wYXJ0fS4gIgogICAgICAgIGYie3ByZXNlbnRhdGlvbn0sIHthbmdsZX0sIHtsaWdodGluZ30sIHtzZXR0aW5nfS4gIgogICAgICAgICJPbmUgbW9kZXN0IHBvcnRpb247IHJlYWxpc3RpYyBpcnJlZ3VsYXIgdGV4dHVyZTsgZG9jdW1lbnRhcnkgZm9vZCAiCiAgICAgICAgInBob3RvZ3JhcGh5LiBPbmx5IGxpc3RlZCBpbmdyZWRpZW50czsgaWxsdXN0cmF0aXZlLCBub3QgdGVzdGVkLiIKICAgICkKICAgIG5lZ2F0aXZlID0gKAogICAgICAgICJiZWVmLCBhbmltYWwgbWVhdCwgZmlzaCwgcGVhbnV0IHRvcHBpbmcsIGhlYXZ5IHlhamkgY29hdGluZywgIgogICAgICAgICJleHRyYSB2ZWdldGFibGVzLCB1bmxpc3RlZCBzYXVjZXMsIGdhcm5pc2gsIHRleHQsIGxvZ29zLCB3YXRlcm1hcmssIHBlb3BsZSIKICAgICkKICAgIGlmIGxlbihwcm9tcHQpID4gNTEyIG9yIGxlbihuZWdhdGl2ZSkgPiA1MTI6CiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigiSW1hZ2UgbW9kZWwgcHJvbXB0IGV4Y2VlZGVkIGFsbG93ZWQgbGVuZ3RoIikKICAgIHJldHVybiBQcmV2aWV3RHJhZnQoCiAgICAgICAgcmVjaXBlX2lkPWNhbmRpZGF0ZS5pZGVudGlmaWVyLAogICAgICAgIHByb21wdD1wcm9tcHQsCiAgICAgICAgbmVnYXRpdmVfcHJvbXB0PW5lZ2F0aXZlLAogICAgICAgIGludGVycHJldGVkX3ByZWZlcmVuY2VzPXR1cGxlKGludGVycHJldGVkKSwKICAgICkK
+"""Source-aware visual briefs for concept images beside kitchen trial recipes.
+
+Generated images are illustrative, not observations of the actual prepared food.
+The model is never allowed to choose or alter ingredients. Presentation requests
+are interpreted using a small, explicit visual vocabulary rather than injecting
+raw user text into model instructions.
+"""
+from __future__ import annotations
+
+from dataclasses import dataclass
+from hashlib import sha256
+
+from .kitchen_optimizer import RecipeCandidate
+from .visual_intent import VisualIntent
+
+STYLES = {
+    "Street-food": "Nigerian street-food presentation on clean brown serving paper",
+    "Restaurant": "elegant restaurant plating on a plain white ceramic plate",
+    "Cookbook": "simple home cookbook plating on a neutral plate",
+}
+METHODS = {
+    "awara_firm": "firm awara cubes with light grill marks",
+    "awara_pressed": "pressed awara cubes with light grill marks",
+    "awara_frozen": "freeze-thawed awara cubes with a textured surface and light grill marks",
+    "awara_fried": "pan-fried awara cubes with a golden crust",
+}
+PLATING_CUES = {
+    "white plate": "white ceramic plate",
+    "dark plate": "matte dark plate",
+    "wooden board": "clean wooden serving board",
+    "banana leaf": "banana leaf used only as serving surface",
+}
+CAMERA_CUES = {
+    "overhead": "overhead photograph",
+    "top down": "overhead photograph",
+    "close up": "close-up photograph",
+    "side view": "side-angle photograph",
+}
+LIGHTING_CUES = {
+    "sunset": "warm evening light",
+    "golden hour": "warm evening light",
+    "evening": "warm evening light",
+    "studio lighting": "clean studio light",
+    "bright studio": "clean studio light",
+    "daylight": "soft natural window light",
+}
+SETTING_CUES = {
+    "roadside": "casual Nigerian street-food setting",
+    "street stall": "casual Nigerian street-food setting",
+    "outdoor food stand": "casual Nigerian street-food setting",
+    "home kitchen": "simple home kitchen tabletop",
+    "fine dining": "elegant restaurant tabletop",
+    "minimal background": "neutral uncluttered background",
+}
+
+
+LABEL = "AI-generated illustrative concept — actual cooked appearance may differ."
+
+
+@dataclass(frozen=True)
+class PreviewDraft:
+    recipe_id: str
+    prompt: str
+    negative_prompt: str
+    interpreted_preferences: tuple[str, ...]
+    label: str = LABEL
+
+    @property
+    def fingerprint(self) -> str:
+        return sha256(
+            (self.recipe_id + "\n" + self.prompt + "\n" + self.negative_prompt)
+            .encode("utf-8")
+        ).hexdigest()[:20]
+
+
+def _visual_ingredients(candidate: RecipeCandidate) -> list[str]:
+    ingredients = [x for x in candidate.ingredient_lines if x.purchase_g > 0]
+    if not any(x.ingredient_id in {"wet_awara", "fried_awara"} for x in ingredients):
+        raise ValueError("No evidenced tofu/awara ingredient")
+    # Spices, salt and oil can affect preparation but do not justify depicting
+    # elaborate yaji coatings or vegetables that aren't in the selected recipe.
+    visible = []
+    for row in ingredients:
+        if row.ingredient_id == "onion":
+            visible.append("a little onion")
+        elif row.ingredient_id == "pepper":
+            visible.append("fresh pepper")
+    return visible
+
+
+def build_preview_draft(
+    candidate: RecipeCandidate, *,
+    style: str = "Restaurant", restaurant_request: str = "",
+    visual_intent: VisualIntent | None = None,
+) -> PreviewDraft:
+    """Build a constrained visual depiction of an already-feasible candidate."""
+    if not candidate.eligible:
+        raise ValueError("Cannot visually endorse an ineligible recipe")
+    method = candidate.evaluation.option_id
+    if method not in METHODS or style not in STYLES:
+        raise ValueError("Unknown preparation method or visual presentation style")
+    if not isinstance(restaurant_request, str) or len(restaurant_request) > 600:
+        raise ValueError("Visual preference request must be at most 600 characters")
+
+    request = restaurant_request.casefold()
+    presentation = STYLES[style]
+    interpreted = []
+    for phrase, mapped in PLATING_CUES.items():
+        if phrase in request:
+            presentation = mapped
+            interpreted.append(phrase)
+            break
+    angle = "natural close-up photograph"
+    for phrase, mapped in CAMERA_CUES.items():
+        if phrase in request:
+            angle = mapped
+            interpreted.append(phrase)
+            break
+
+    lighting = "soft natural window light"
+    setting = "neutral uncluttered background"
+    for phrase, mapped in LIGHTING_CUES.items():
+        if phrase in request:
+            lighting = mapped
+            interpreted.append(phrase)
+            break
+    for phrase, mapped in SETTING_CUES.items():
+        if phrase in request:
+            setting = mapped
+            interpreted.append(phrase)
+            break
+    if visual_intent is not None:
+        if visual_intent.requires_recipe_change:
+            raise ValueError(
+                "Visual request asks to alter the ingredients; change and revalidate "
+                "the recipe before generating a visual"
+            )
+        if visual_intent.style != "keep":
+            presentation = STYLES[visual_intent.style]
+        if visual_intent.plating != "default":
+            presentation = visual_intent.plating
+        if visual_intent.camera != "default":
+            angle = visual_intent.camera
+        if visual_intent.lighting != "default":
+            lighting = visual_intent.lighting
+        if visual_intent.setting != "default":
+            setting = visual_intent.setting
+        interpreted = list(visual_intent.interpretation)
+
+    extras = _visual_ingredients(candidate)
+    extras_part = ", with " + " and ".join(extras) if extras else ""
+    prompt = (
+        "Photorealistic food concept of Nigerian plant-based suya-inspired "
+        f"{METHODS[method]}{extras_part}. "
+        f"{presentation}, {angle}, {lighting}, {setting}. "
+        "One modest portion; realistic irregular texture; documentary food "
+        "photography. Only listed ingredients; illustrative, not tested."
+    )
+    negative = (
+        "beef, animal meat, fish, peanut topping, heavy yaji coating, "
+        "extra vegetables, unlisted sauces, garnish, text, logos, watermark, people"
+    )
+    if len(prompt) > 512 or len(negative) > 512:
+        raise ValueError("Image model prompt exceeded allowed length")
+    return PreviewDraft(
+        recipe_id=candidate.identifier,
+        prompt=prompt,
+        negative_prompt=negative,
+        interpreted_preferences=tuple(interpreted),
+    )
