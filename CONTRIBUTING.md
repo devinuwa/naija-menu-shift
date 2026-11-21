@@ -1,1 +1,17 @@
-IyBDb250cmlidXRpbmcKCjEuIEFncmVlIG9uIGFuIGlzc3VlIGFuZCBhY2NlcHRhbmNlIGNyaXRlcmlhLiBCcmFuY2ggZnJvbSBgbWFpbmAgdXNpbmcgYGZlYXR1cmUvYCwgYGRhdGEvYCBvciBgZml4L2AuCjIuIE1ha2UgdGhlIHNtYWxsZXN0IGNoYW5nZSB0aGF0IGNhbiBiZSByZXZpZXdlZCBpbmRlcGVuZGVudGx5OyB1c2UgcHVsbCByZXF1ZXN0cyBmb3IgaW50ZWdyYXRpb24uCjMuIFJ1biBgcHl0ZXN0IC1xYCBhbmQgYHJ1ZmYgY2hlY2sgc3JjIHRlc3RzIGFwcC5weWAgYWZ0ZXIgaW5zdGFsbGluZyB0aGUgYGRldmAgZXh0cmEuCjQuIERvIG5vdCByZXBsYWNlIHNvdXJjZWQgZGF0YSB3aXRoIHN5bnRoZXRpYy9kZW1vIHZhbHVlcy4gQ29tbWl0IHNvdXJjZSBjaXRhdGlvbnMgYW5kIGNhbGN1bGF0aW9uIGFzc3VtcHRpb25zIGluIGBkb2NzL1JFU0VBUkNIX0FORF9WQUxJREFUSU9OLm1kYC4KNS4gV2hlbiB1cGRhdGluZyBgZGF0YS92ZXJpZmllZGAsIHJlY29yZCBzdXBwbGllci9zb3VyY2UsIGxvY2F0aW9uLCBxdW90ZSBkYXRlLCBudXRyaXRpb24gc291cmNlLCBhbmQgcmF3LXZzLWNvb2tlZCBzdGF0ZS4KNi4gTmV2ZXIgY29tbWl0IHByaXZhdGUgcmVzdGF1cmFudCBkYXRhIHdpdGhvdXQgcGVybWlzc2lvbiwgcGVyc29uYWwgY29udGFjdCBhZGRyZXNzZXMsIEFQSSBjcmVkZW50aWFscywgb3Igc2VjcmV0IGZpbGVzLgo3LiBLZWVwIGRvbWFpbiBsb2dpYyBpbiBgc3JjL21lbnVzaGlmdC9gIGFuZCBpbnRlcmZhY2UgbG9naWMgaW4gYGFwcC5weWA7IGF2b2lkIHN1eWEtc3BlY2lmaWMgY29uZGl0aW9uYWxzIGluIHRoZSBnZW5lcmljIGVuZ2luZS4KOC4gU2VlayBhdCBsZWFzdCBvbmUgaW5kZXBlbmRlbnQgcmV2aWV3IGJlZm9yZSBtZXJnaW5nIGNoYW5nZXMgdG8gZm9vZC0gb3IgbnV0cml0aW9uLXJlbGF0ZWQgY2FsY3VsYXRpb25zLgoKIyMgUHJvcG9zZWQgYnJhbmNoZXMKLSBgZGF0YS9zb3VyY2UtYXVkaXRgIOKAlCBBbWluYTogc291cmNlLWJhY2tlZCByZWFsIGRhdGEgYW5kIGxpbWl0cy4KLSBgZmVhdHVyZS9zdHJlYW1saXQtcmFua2luZ2Ag4oCUIE11aGFtbWFkIEludXdhOiBleHBsYWluYWJpbGl0eSwgVUkgYW5kIE5MUCBleHBlcmltZW50LgotIGBmZWF0dXJlL2Nvc3QtYW5kLWJlbmNobWFya2Ag4oCUIElicmFoaW06IHRlc3RzLCBjb21wYXJpc29uLCBzZW5zaXRpdml0eSBhbmQgYmFzZWxpbmUuCgpBY2Nlc3MgcmVxdWlyZXMgYWNjZXB0aW5nIHRoZSByZXBvc2l0b3J5IGludml0YXRpb247IGJyYW5jaGVzIGFyZSBwcm9wb3NhbHMsIG5vdCBhbHJlYWR5IGNyZWF0ZWQgb24gR2l0SHViLgo=
+# Contributing
+
+1. Agree on an issue and acceptance criteria. Branch from `main` using `feature/`, `data/` or `fix/`.
+2. Make the smallest change that can be reviewed independently; use pull requests for integration.
+3. Run `pytest -q` and `ruff check src tests app.py` after installing the `dev` extra.
+4. Do not replace sourced data with synthetic/demo values. Commit source citations and calculation assumptions in `docs/RESEARCH_AND_VALIDATION.md`.
+5. When updating `data/verified`, record supplier/source, location, quote date, nutrition source, and raw-vs-cooked state.
+6. Never commit private restaurant data without permission, personal contact addresses, API credentials, or secret files.
+7. Keep domain logic in `src/menushift/` and interface logic in `app.py`; avoid suya-specific conditionals in the generic engine.
+8. Seek at least one independent review before merging changes to food- or nutrition-related calculations.
+
+## Proposed branches
+- `data/source-audit` — Amina: source-backed real data and limits.
+- `feature/streamlit-ranking` — Muhammad Inuwa: explainability, UI and NLP experiment.
+- `feature/cost-and-benchmark` — Ibrahim: tests, comparison, sensitivity and baseline.
+
+Access requires accepting the repository invitation; branches are proposals, not already created on GitHub.
