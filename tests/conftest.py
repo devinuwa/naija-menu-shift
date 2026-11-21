@@ -1,1 +1,14 @@
-aW1wb3J0IHN5cwpmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKCmltcG9ydCBweXRlc3QKCnN5cy5wYXRoLmluc2VydCgwLCBzdHIoUGF0aChfX2ZpbGVfXykucmVzb2x2ZSgpLnBhcmVudHNbMV0gLyAic3JjIikpCgpST09UID0gUGF0aChfX2ZpbGVfXykucmVzb2x2ZSgpLnBhcmVudHNbMV0KCgpAcHl0ZXN0LmZpeHR1cmUKZGVmIGRlbW8oKToKICAgIGZyb20gbWVudXNoaWZ0LmVuZ2luZSBpbXBvcnQgbG9hZF9kYXRhc2V0CiAgICByZXR1cm4gbG9hZF9kYXRhc2V0KFJPT1QgLyAiZGF0YSIgLyAiZGVtbyIsIGRlbW89VHJ1ZSkK
+import sys
+from pathlib import Path
+
+import pytest
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
+
+ROOT = Path(__file__).resolve().parents[1]
+
+
+@pytest.fixture
+def demo():
+    from menushift.engine import load_dataset
+    return load_dataset(ROOT / "data" / "demo", demo=True)
