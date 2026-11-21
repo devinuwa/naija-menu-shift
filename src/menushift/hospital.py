@@ -31,6 +31,10 @@ they never turn the output into a prescription.
 from __future__ import annotations
 
 import csv
+import json
+import re
+import urllib.request
+from collections.abc import Callable
 from dataclasses import dataclass
 from datetime import UTC, datetime
 from pathlib import Path
@@ -65,6 +69,66 @@ SIGNOFF_NOTE = (
     "Decision support only - a dietitian must approve any change before it "
     "is served to patients."
 )
+
+
+# --------------------------------------------------------------------------
+# Display text - the product UI never names its data sources (user rule).
+# Provenance stays where it belongs: this module's source fields, the data
+# files and data/hospital/README.md, surfaced on the dedicated evidence
+# pages. Anything a page renders goes through display_text() first, which
+# rewrites citations into plain descriptions. The evidence itself -
+# findings, figures, honesty flags, limitations - is unchanged.
+# --------------------------------------------------------------------------
+
+_DISPLAY_REPLACEMENTS: tuple[tuple[str, str], ...] = (
+    (MENU_SOURCE, "a published therapeutic-kitchen menu (2016; current use unverified)"),
+    (UPTH_SOURCE, "hospital dietetics guidance (Oct 2024) - modified-diet definitions"),
+    ("UPTH's modified-diet definitions", "hospital modified-diet definitions"),
+    ("UPTH's definitions", "Hospital diet definitions"),
+    ("UPTH dietetics (placement report, Oct 2024)", "Hospital dietetics guidance (Oct 2024)"),
+    ("the UPTH definition", "that definition"),
+    ("the UPTH diet posture", "the low-sodium diet posture"),
+    ("(UPTH: ", "("),
+    ("(Batubo et al.)", ""),
+    ("Batubo et al.", "the review authors"),
+    ("(Keshinro)", ""),
+    ("(Nigerian Journal of Family Practice)", ""),
+    ("WFP Groundnuts 2026 retail median", "2026 retail median groundnut prices"),
+    ("WFP or NBS", "national"),
+    ("WFP cowpea price", "cowpea prices"),
+    ("(Cowpeas 2026 retail median", "(2026 retail median"),
+    ("WFP Nigeria", "Nigeria"),
+    ("(Daily Trust)", ""),
+    ("the cited WAFCT row", "the verified catalogue row"),
+    ("No cited value in project data", "No verified value available"),
+    ("no cited values exist in the project data", "no verified values are available"),
+    ("No cited baseline in project data", "No verified baseline available"),
+    ("no cited", "no verified"),
+    ("No cited", "No verified"),
+    ("Maduforo et al.", "the menu study"),
+    ("Pakistan Journal of Nutrition", ""),
+    ("WAFCT", ""),
+    ("USDA", ""),
+    ("WFP", "market survey"),
+    ("NBS", "national statistics"),
+    ("UPTH", "hospital"),
+)
+
+
+def display_text(text: str) -> str:
+    """Rewrite a data-layer string for display in the product UI.
+
+    Removes data-source names and citations (the UI rule) while keeping
+    the substance: findings, figures, honesty flags ("derived",
+    "modelled", "no verified value available") and limitations.
+    """
+    out = text
+    for old, new in _DISPLAY_REPLACEMENTS:
+        out = out.replace(old, new)
+    out = re.sub(r"\s+([:;,.])", r"\1", out)
+    out = re.sub(r"\(\s*\)", "", out)
+    out = re.sub(r"[ \t]{2,}", " ", out)
+    return out
 
 
 # --------------------------------------------------------------------------
@@ -1735,3 +1799,72 @@ def append_hospital_feedback(
             writer.writeheader()
         writer.writerow(row)
     return row
+
+
+# --------------------------------------------------------------------------
+# Feedback email delivery (best-effort notification on top of the CSV)
+# --------------------------------------------------------------------------
+
+FEEDBACK_EMAIL_ADDRESS = "inuwamuhammad930@gmail.com"
+FEEDBACK_EMAIL_ENDPOINT = f"https://formsubmit.co/ajax/{FEEDBACK_EMAIL_ADDRESS}"
+
+
+def _post_json(url: str, payload: dict[str, str], *, timeout: float = 10.0) -> int:
+    """POST a JSON body and return the HTTP status; raises on failure."""
+    request = urllib.request.Request(
+        url,
+        data=json.dumps(payload).encode("utf-8"),
+        headers={"Content-Type": "application/json", "Accept": "application/json"},
+        method="POST",
+    )
+    with urllib.request.urlopen(request, timeout=timeout) as response:
+        return int(response.status)
+
+
+def email_hospital_feedback(
+    row: dict[str, str],
+    *,
+    http_post: Callable[[str, dict[str, str]], int] | None = None,
+) -> bool:
+    """Email one saved feedback row to the team inbox (FormSubmit AJAX).
+
+    Best-effort notification: the CSV row is the record, this email is a
+    copy for the team. Returns True only when the endpoint accepts the
+    submission; any transport or HTTP failure returns False and never
+    raises, so a dead network cannot break the form or lose the row.
+    Note: FormSubmit requires a one-time activation click from the first
+    email it sends to the address before deliveries begin.
+    """
+    post = http_post or _post_json
+    payload = {
+        "name": "Naija MenuShift hospital feedback",
+        "email": FEEDBACK_EMAIL_ADDRESS,
+        "_subject": (
+            f"Hospital feedback: {row.get('dish', '')} -> "
+            f"{row.get('alternative', '')}"
+        ),
+        "message": "\n".join(
+            f"{field}: {row.get(field, '')}" for field in FEEDBACK_FIELDS),
+        "_template": "table",
+    }
+    try:
+        status = post(FEEDBACK_EMAIL_ENDPOINT, payload)
+    except Exception:  # noqa: BLE001 - best-effort notification only
+        return False
+    return 200 <= status < 300
+
+
+def submit_hospital_feedback(
+    path: str | Path | None = None,
+    *,
+    http_post: Callable[[str, dict[str, str]], int] | None = None,
+    **fields: str,
+) -> tuple[dict[str, str], bool]:
+    """Save one feedback row, then try to email it to the team.
+
+    Returns (row, emailed). The row is always saved first; emailed is
+    False whenever the best-effort email delivery did not succeed, so
+    callers can word their confirmation honestly.
+    """
+    row = append_hospital_feedback(path, **fields)
+    return row, email_hospital_feedback(row, http_post=http_post)
