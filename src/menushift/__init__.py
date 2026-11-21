@@ -1,1 +1,2 @@
-IiIiTWVudVNoaWZ0OiByZXNlYXJjaCBwcm90b3R5cGUgZm9yIGV2aWRlbmNlLWF3YXJlIHBsYW50LWJhc2VkIG1lbnUgYWRhcHRhdGlvbnMuIiIiCl9fdmVyc2lvbl9fID0gIjAuMS4wIgo=
+"""MenuShift: research prototype for evidence-aware plant-based menu adaptations."""
+__version__ = "0.1.0"
