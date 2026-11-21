@@ -1,1 +1,176 @@
-IiIiQXVkaXRhYmxlIHByZXBhcmF0aW9uICp0cmlhbCogY2FyZHM7IG5vdCB2YWxpZGF0ZWQgY29va2luZyBpbnN0cnVjdGlvbnMuCgpTdGVwcyBkZXNjcmliZSB3aGF0IGEgZm9vZCByZXZpZXdlciBzaG91bGQgdGVzdCwgbm90IGEgY2VydGlmaWVkIGtpdGNoZW4gcHJvY2Vzcy4KTm8gdGVtcGVyYXR1cmVzLCBzYWZlIGhvbGRpbmcgcGVyaW9kcywgY29va2luZyB5aWVsZHMgb3Igc2Vuc29yeSBzY29yZXMgYXJlIGludmVudGVkLgoiIiIKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKZnJvbSBkYXRhY2xhc3NlcyBpbXBvcnQgZGF0YWNsYXNzCgpmcm9tIC5raXRjaGVuX29wdGltaXplciBpbXBvcnQgUmVjaXBlQ2FuZGlkYXRlCgoKQGRhdGFjbGFzcyhmcm96ZW49VHJ1ZSkKY2xhc3MgVHJpYWxTdGVwOgogICAgaGVhZGluZzogc3RyCiAgICBpbnN0cnVjdGlvbjogc3RyCgoKQGRhdGFjbGFzcyhmcm96ZW49VHJ1ZSkKY2xhc3MgUmVjaXBlVHJpYWw6CiAgICBjYW5kaWRhdGVfaWQ6IHN0cgogICAgbWV0aG9kOiBzdHIKICAgIHN0ZXBzOiB0dXBsZVtUcmlhbFN0ZXAsIC4uLl0KICAgIGV2aWRlbmNlX2dhcHM6IHR1cGxlW3N0ciwgLi4uXQogICAgbm90ZXM6IHR1cGxlW3N0ciwgLi4uXQoKICAgIEBwcm9wZXJ0eQogICAgZGVmIGNvb2tib29rX3RpdGxlKHNlbGYpIC0+IHN0cjoKICAgICAgICByZXR1cm4gZiJ7c2VsZi5tZXRob2R9IOKAlCBTdXlhLWluc3BpcmVkIGtpdGNoZW4gdHJpYWwiCgogICAgZGVmIHRvX21hcmtkb3duKHNlbGYsIGNhbmRpZGF0ZTogUmVjaXBlQ2FuZGlkYXRlKSAtPiBzdHI6CiAgICAgICAgIiIiUHJpbnRhYmxlIGNvb2tib29rLXN0eWxlIHRyaWFsIGNhcmQsIHdpdGggaG9uZXN0IGV2aWRlbmNlIGRpc2Nsb3N1cmVzLgoKICAgICAgICBBIGNvb2tib29rIHN0cnVjdHVyZSBkb2VzIE5PVCBtYWtlIHRoaXMgYSB2YWxpZGF0ZWQgZm9vZC1zYWZlIHJlY2lwZS4KICAgICAgICAiIiIKICAgICAgICBsaW5lcyA9IFsKICAgICAgICAgICAgZiIjIHtzZWxmLmNvb2tib29rX3RpdGxlfSIsCiAgICAgICAgICAgICIiLAogICAgICAgICAgICAiPiAqKlJFU0VBUkNIIFRFU1QgUkVDSVBFIOKAlCBOb3QgYXBwcm92ZWQgZm9yIGZvb2Qgc2VydmljZS4qKiIsCiAgICAgICAgICAgICIiLAogICAgICAgICAgICAiQSBzdXlhLWluc3BpcmVkIGF3YXJhIHByZXBhcmF0aW9uIHRvIHRlc3QgaW5ncmVkaWVudCBjb3N0cywgc2tld2VyIHN0YWJpbGl0eSIsCiAgICAgICAgICAgICJhbmQgcHJhY3RpY2FsIHNlcnZpbmcgeWllbGRzIHVuZGVyIGRvY3VtZW50ZWQga2l0Y2hlbiBjb25kaXRpb25zLiIsCiAgICAgICAgICAgICIiLAogICAgICAgICAgICAiIyMgQXQgYSBnbGFuY2UiLAogICAgICAgICAgICAiLSAqKllpZWxkOioqIDEgZXhwZXJpbWVudGFsIHBvcnRpb24gKGZpbmFsIG1hc3Mgbm90IG1lYXN1cmVkKSIsCiAgICAgICAgICAgIGYiLSAqKlRhcmdldCBmaW5pc2hlZCBtYXNzOioqIHtjYW5kaWRhdGUucG9ydGlvbl9nOi4wZn0gZyAobW9kZWwgYXNzdW1wdGlvbikiLAogICAgICAgICAgICBmIi0gKipUaW1lOioqIHtjYW5kaWRhdGUuZXZhbHVhdGlvbi5wcmVwX21pbnV0ZXM6LjBmfSBtaW51dGVzICh1bm1lYXN1cmVkIGVzdGltYXRlKSIsCiAgICAgICAgICAgIGYiLSAqKkxpc3RlZCBpbmdyZWRpZW50ICsgcHJvY2Vzc2luZyBjb3N0OioqIOKCpntjYW5kaWRhdGUuZXZhbHVhdGlvbi5jb3N0X25nbjouMmZ9IiwKICAgICAgICAgICAgZiItICoqRXN0aW1hdGVkIHByb3RlaW46Kioge2NhbmRpZGF0ZS5ldmFsdWF0aW9uLnByb3RlaW5fZzouMWZ9IGcgKHNvdXJjZS1mb29kIHByb3h5KSIsCiAgICAgICAgICAgICItICoqQWxsZXJnZW5zOioqIENvbnRhaW5zIHNveTsgYWRkaXRpb25hbCBzZWFzb25pbmcvY3Jvc3MtY29udGFjdCByZXZpZXcgcmVxdWlyZWQuIiwKICAgICAgICAgICAgIi0gKipFcXVpcG1lbnQ6KiogIiArICIsICIuam9pbihzb3J0ZWQoY2FuZGlkYXRlLnJlcXVpcmVkX2VxdWlwbWVudCkpLAogICAgICAgICAgICAiIiwKICAgICAgICAgICAgIiMjIEluZ3JlZGllbnRzIChwdXJjaGFzZWQgYW1vdW50cywgbm90IG1lYXN1cmVkIGZpbmlzaGVkIHF1YW50aXRpZXMpIiwKICAgICAgICBdCiAgICAgICAgZm9yIGluZ3JlZGllbnQgaW4gY2FuZGlkYXRlLmluZ3JlZGllbnRfbGluZXM6CiAgICAgICAgICAgIGxpbmVzLmFwcGVuZChmIi0ge2luZ3JlZGllbnQucHVyY2hhc2VfZzouMWZ9IGcge2luZ3JlZGllbnQubmFtZX0iKQogICAgICAgIGlmIGNhbmRpZGF0ZS5vaWxfY2w6CiAgICAgICAgICAgIGxpbmVzLmFwcGVuZCgKICAgICAgICAgICAgICAgIGYiLSB7Y2FuZGlkYXRlLm9pbF9jbDpnfSBjbCB2ZWdldGFibGUgb2lsIGFsbG93YW5jZSBmb3IgdGhlIGZyaWVkIHZhcmlhbnQgIgogICAgICAgICAgICAgICAgIihtb2RlbCBpbnB1dDsgb2lsIGFic29ycHRpb24gdW5tZWFzdXJlZCkiCiAgICAgICAgICAgICkKICAgICAgICBsaW5lcy5leHRlbmQoWwogICAgICAgICAgICAoIi0gKipZYWppIC8gc3V5YSBzcGljZSBtaXg6KiogTm90IHNwZWNpZmllZCBieSB0aGUgdmVyaWZpZWQgZGF0YXNldDsgb2J0YWluIGEgIgogICAgICAgICAgICAgInJldmlld2VkLCB3ZWlnaGVkIGZvcm11bGF0aW9uIGJlZm9yZSBhbnkgYWN0dWFsIHNlcnZpbmcuIiksCiAgICAgICAgICAgICIiLAogICAgICAgICAgICAiIyMgTWV0aG9kIOKAlCBudW1iZXJlZCBraXRjaGVuIHRyaWFsIiwKICAgICAgICBdKQogICAgICAgIGZvciBudW1iZXIsIHN0ZXAgaW4gZW51bWVyYXRlKHNlbGYuc3RlcHMsIDEpOgogICAgICAgICAgICBsaW5lcy5hcHBlbmQoZiJ7bnVtYmVyfS4gKip7c3RlcC5oZWFkaW5nfS4qKiB7c3RlcC5pbnN0cnVjdGlvbn0iKQogICAgICAgIGxpbmVzLmV4dGVuZChbCiAgICAgICAgICAgICIiLAogICAgICAgICAgICAiIyMgUHJhY3RpY2FsIGNoZWNrcyBiZWZvcmUgdGFzdGluZyBvciBzZXJ2aW5nIiwKICAgICAgICAgICAgIi0gUmVjb3JkIHdlaWdoZWQgcmF3LCBwcm9jZXNzZWQgYW5kIGZpbmFsIHBvcnRpb25zLCBjb29raW5nIGR1cmF0aW9uLCBvaWwgdXB0YWtlIGFuZCBmdWVsLiIsCiAgICAgICAgICAgICItIENvbmZpcm0gc295IGFuZCBwZWFudXQveWFqaSBhbGxlcmdlbnMsIHBhY2thZ2VkIHNlYXNvbmluZyBsYWJlbHMgYW5kIHNoYXJlZCBlcXVpcG1lbnQuIiwKICAgICAgICAgICAgKCItIFVzZSB0aGUgZm9vZCBzcGVjaWFsaXN0J3MgYXBwcm92ZWQgaGFuZGxpbmcgYW5kIGNvb2tpbmcgcHJvY2VkdXJlOyBubyBpbnZlbnRlZCAiCiAgICAgICAgICAgICAidGVtcGVyYXR1cmUsIHN0b3JhZ2Ugb3Igc2FmZXR5IGd1YXJhbnRlZXMgYXBwZWFyIGluIHRoaXMgY2FyZC4iKSwKICAgICAgICAgICAgIiIsCiAgICAgICAgICAgICIjIyBQcmljZSBhbmQgbnV0cml0aW9uIGV2aWRlbmNlIiwKICAgICAgICBdKQogICAgICAgIGZvciBpbmdyZWRpZW50IGluIGNhbmRpZGF0ZS5pbmdyZWRpZW50X2xpbmVzOgogICAgICAgICAgICBsaW5lcy5leHRlbmQoWwogICAgICAgICAgICAgICAgKGYiLSAqKntpbmdyZWRpZW50Lm5hbWV9Kiog4oCUIGVzdGltYXRlZCDigqZ7aW5ncmVkaWVudC5lc3RpbWF0ZWRfY29zdF9uZ246LjJmfSAiCiAgICAgICAgICAgICAgICAgZiJmb3Ige2luZ3JlZGllbnQucHVyY2hhc2VfZzouMWZ9IGc7ICIKICAgICAgICAgICAgICAgICBmIn57aW5ncmVkaWVudC5lc3RpbWF0ZWRfcHJvdGVpbl9nOi4yZn0gZyBtb2RlbGxlZCBwcm90ZWluIiksCiAgICAgICAgICAgICAgICBmIiAgLSBQcmljZToge2luZ3JlZGllbnQuc291cmNlfSIsCiAgICAgICAgICAgICAgICAoZiIgIC0gTnV0cml0aW9uOiB7aW5ncmVkaWVudC5udXRyaXRpb25fc291cmNlfSAiCiAgICAgICAgICAgICAgICAgZiIoe2luZ3JlZGllbnQubnV0cml0aW9uX3N0YXRlfSk7IGxhYmVsOiB7aW5ncmVkaWVudC5hbGxlcmdlbl9sYWJlbHMgb3IgJ3VucmV2aWV3ZWQnfSIpLAogICAgICAgICAgICBdKQogICAgICAgIGxpbmVzLmV4dGVuZChbCiAgICAgICAgICAgICIiLAogICAgICAgICAgICAiIyMgTWVhc3VyZW1lbnRzIG5lZWRlZCBmb3IgYSByZWFsIHJlY2lwZSIsCiAgICAgICAgXSkKICAgICAgICBsaW5lcy5leHRlbmQoZiItIHtnYXB9IiBmb3IgZ2FwIGluIHNlbGYuZXZpZGVuY2VfZ2FwcykKICAgICAgICBsaW5lcy5leHRlbmQoWyIiLCAiIyMgTGltaXRhdGlvbnMiXSkKICAgICAgICBsaW5lcy5leHRlbmQoZiItIHtub3RlfSIgZm9yIG5vdGUgaW4gc2VsZi5ub3RlcykKICAgICAgICByZXR1cm4gIlxuIi5qb2luKGxpbmVzKSArICJcbiIKCgpNRVRIT0RfUFJPQ0VEVVJFUyA9IHsKICAgICJhd2FyYV9maXJtIjogVHJpYWxTdGVwKAogICAgICAgICJVbnByZXNzZWQgdHJpYWwiLAogICAgICAgICJDdXQgYSBtZWFzdXJlZCBwb3J0aW9uIG9mIGZpcm0gYXdhcmE7IHRlc3Qgd2hldGhlciBwaWVjZXMgaG9sZCBkdXJpbmcgIgogICAgICAgICJoYW5kbGluZyBhbmQgZ3JpbGxpbmcuIFJlY29yZCBicmVha2FnZSBhbmQgYWN0dWFsIGZpbmlzaGVkIG1hc3MuIiwKICAgICksCiAgICAiYXdhcmFfcHJlc3NlZCI6IFRyaWFsU3RlcCgKICAgICAgICAiUHJlc3NlZCB0cmlhbCIsCiAgICAgICAgIldlaWdoIGN1cmQgYmVmb3JlIGFuZCBhZnRlciBwcmVzc2luZywgcmVjb3JkIGRyYWluZWQgbGlxdWlkLCBhbmQgYXNzZXNzICIKICAgICAgICAiaGFuZGxpbmcgYW5kIGNoZXdpbmVzcy4gUHJlc3NpbmcgcmVtb3ZlcyB3YXRlcjsgaXQgZG9lcyBub3QgY3JlYXRlIHByb3RlaW4uIiwKICAgICksCiAgICAiYXdhcmFfZnJvemVuIjogVHJpYWxTdGVwKAogICAgICAgICJGcmVlemXigJN0aGF3IHRyaWFsIiwKICAgICAgICAiVXNlIHRoZSBraXRjaGVuJ3MgZG9jdW1lbnRlZCBzYWZlIGNvbGQtc3RvcmFnZSBhbmQgdGhhd2luZyBwcm9jZWR1cmU7ICIKICAgICAgICAibWVhc3VyZSBmcmVlemUvdGhhdyB0aW1lLCBsb3N0IGxpcXVpZCBhbmQgc2tld2VyIHN0YWJpbGl0eS4gVGhlIGRpc3BsYXllZCAiCiAgICAgICAgInRpbWUgaXMgTk9UIGEgbWVhc3VyZWQgZnVsbCBmcmVlemXigJN0aGF3IGN5Y2xlLiIsCiAgICApLAogICAgImF3YXJhX2ZyaWVkIjogVHJpYWxTdGVwKAogICAgICAgICJGcmllZCB0cmlhbCIsCiAgICAgICAgIldlaWdoIHRoZSBjdXJkIGJlZm9yZSBhbmQgYWZ0ZXIgZnJ5aW5nIGFuZCByZWNvcmQgb2lsIHVzZWQsIG9pbCByZXRhaW5lZCwgIgogICAgICAgICJmdWVsIGFuZCB0ZXh0dXJlLiBEbyBub3QgdHJlYXQgdGhlIGdlbmVyaWMgZnJpZWQtdG9mdSBudXRyaWVudCBwcm9maWxlIGFzICIKICAgICAgICAiYSBtZWFzdXJlbWVudCBvZiB0aGlzIHJlY2lwZS4iLAogICAgKSwKfQoKCmRlZiBidWlsZF90cmlhbChjYW5kaWRhdGU6IFJlY2lwZUNhbmRpZGF0ZSkgLT4gUmVjaXBlVHJpYWw6CiAgICAiIiJHZW5lcmF0ZSBhIHRyYW5zcGFyZW50IHRlc3QgcHJvdG9jb2wgb25seSBmb3IgYSBoYXJkLWNvbnN0cmFpbnQgZWxpZ2libGUgb3B0aW9uLiIiIgogICAgaWYgbm90IGNhbmRpZGF0ZS5lbGlnaWJsZToKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJDYW5ub3QgY3JlYXRlIGEgc3VnZ2VzdGVkIHRyaWFsIGNhcmQgZm9yIGFuIGluZWxpZ2libGUgcmVjaXBlIikKICAgIG1ldGhvZCA9IGNhbmRpZGF0ZS5ldmFsdWF0aW9uLm9wdGlvbl9pZAogICAgaWYgbWV0aG9kIG5vdCBpbiBNRVRIT0RfUFJPQ0VEVVJFUzoKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJVbmtub3duIG9yIHVuc3VwcG9ydGVkIHRyaWFsIHByZXBhcmF0aW9uIG1ldGhvZCIpCiAgICBzdGVwcyA9ICgKICAgICAgICBUcmlhbFN0ZXAoCiAgICAgICAgICAgICJWZXJpZnkgc3RvY2sgYW5kIGxhYmVscyIsCiAgICAgICAgICAgICJDaGVjayB0aGUgcGh5c2ljYWwgaW5ncmVkaWVudCBwYWNrYWdlcywgZGVjbGFyZWQgc295IGFuZCBzZWFzb25pbmcgIgogICAgICAgICAgICAiYWxsZXJnZW5zIGFuZCBhY3R1YWwgYXZhaWxhYmlsaXR5LiBDaGVjayBzaGFyZWQtc3VyZmFjZSBjcm9zcy1jb250YWN0ICIKICAgICAgICAgICAgIndpdGggdGhlIGZvb2Qtc2FmZXR5IGxlYWQgYmVmb3JlIHByZXBhcmluZyBmb3IgYW55b25lLiIsCiAgICAgICAgKSwKICAgICAgICBUcmlhbFN0ZXAoCiAgICAgICAgICAgICJSZWNvcmQgc3RhcnRpbmcgbWF0ZXJpYWwiLAogICAgICAgICAgICAiV2VpZ2ggcHVyY2hhc2VkIGF3YXJhIGFuZCBldmVyeSBzZWxlY3RlZCBzcGljZS9zZWFzb25pbmcgc2VwYXJhdGVseS4gIgogICAgICAgICAgICAiUmVjb3JkIGFjdHVhbCBsb2NhbCBwcmljZXMsIGRhdGUsIG1hcmtldCBhbmQgcGFja2FnZSBzaXplLiIsCiAgICAgICAgKSwKICAgICAgICBNRVRIT0RfUFJPQ0VEVVJFU1ttZXRob2RdLAogICAgICAgIFRyaWFsU3RlcCgKICAgICAgICAgICAgIlNlYXNvbmluZyBzdHVkeSIsCiAgICAgICAgICAgICJVc2Ugb25seSBpbmdyZWRpZW50cyB3aG9zZSBsYWJlbHMgYW5kIHF1YW50aXRpZXMgd2VyZSByZXZpZXdlZCBieSB0aGUgIgogICAgICAgICAgICAidGVhbS4gQSBmdWxsIHN1eWEgeWFqaSBmb3JtdWxhdGlvbiBpcyBOT1QgeWV0IHZhbGlkYXRlZCBieSB0aGlzIGRhdGFzZXQuIiwKICAgICAgICApLAogICAgICAgIFRyaWFsU3RlcCgKICAgICAgICAgICAgIkdyaWxsIGFuZCByZWNvcmQiLAogICAgICAgICAgICAiSGF2ZSB0aGUgZm9vZC1zY2llbmNlIHJldmlld2VyIHNldCBhIHNhZmUgY29va2luZyBhbmQgaGFuZGxpbmcgcHJvdG9jb2wuICIKICAgICAgICAgICAgIlJlY29yZCBmdWVsIHVzZSwgdGltZSwgc2tld2VyaW5nL2Jhc2tldCBzdGFiaWxpdHksIGFuZCBmaW5pc2hlZCBwb3J0aW9uIG1hc3MuIiwKICAgICAgICApLAogICAgICAgIFRyaWFsU3RlcCgKICAgICAgICAgICAgIkJsaW5kIHNlbnNvcnkgY2hlY2siLAogICAgICAgICAgICAiVXNlIGFuIGFncmVlZCBzY29yaW5nIHNoZWV0IGZvciB0ZXh0dXJlLCBhcm9tYSwgYXBwZWFyYW5jZSwgZmxhdm91ciBhbmQgIgogICAgICAgICAgICAiYWNjZXB0YWJpbGl0eS4gUmVjb3JkIGFjdHVhbCByZXZpZXdlciByZXNwb25zZXM7IGRvIG5vdCBpbmZlciB0YXN0ZSBmcm9tIHRleHQuIiwKICAgICAgICApLAogICAgKQogICAgZ2FwcyA9ICgKICAgICAgICAiTG9jYWwgZmluaXNoZWQtYXdhcmEgc3VwcGxpZXIgcXVvdGUgb3IgbWVhc3VyZWQgc295LXRvLXRvZnUgYmF0Y2ggbWFudWZhY3R1cmluZyBjb3N0IiwKICAgICAgICAiTWVhc3VyZWQgcHVyY2hhc2VkLXRvLWZpbmlzaGVkIHlpZWxkIChpbmNsdWRpbmcgcHJlc3NpbmcvZnJlZXppbmcvZnJ5aW5nIGxvc3NlcykiLAogICAgICAgICJNZXRob2Qtc3BlY2lmaWMgZWxlY3RyaWNpdHksIGdhcy9jaGFyY29hbCwgbGFib3VyLCBjb2FndWxhbnQgYW5kIHBhY2thZ2luZyBjb3N0cyIsCiAgICAgICAgIk1lYXN1cmVkIG9pbCB1cHRha2Ugd2hlcmUgZnJpZWQ7IGdlbnVpbmUgcHJlcCBkdXJhdGlvbiBpbmNsdWRpbmcgZnJlZXplL3RoYXciLAogICAgICAgICJNYXRjaGVkIGxvY2FsIGZvb2QtZm9ybSBudXRyaXRpb25hbCBhbmFseXNpcyBhbmQgbnV0cmllbnQgcmV0ZW50aW9uIiwKICAgICAgICAiWWFqaS9zZWFzb25pbmcgcmVjaXBlLCBzb3VyY2UsIGFuaW1hbC1kZXJpdmVkIGluZ3JlZGllbnRzIGFuZCBhbGxlcmdlbiByZXZpZXciLAogICAgICAgICJGb29kLXNhZmV0eSByZXZpZXcgYW5kIHJlY29yZGVkIGJsaW5kIHNlbnNvcnkgcGFuZWwgYmVmb3JlIGFueSBzZXJ2aWNlIGNsYWltIiwKICAgICkKICAgIG5vdGVzID0gKAogICAgICAgICJBbGwgbnVtZXJpY2FsIGVzdGltYXRlcyBtYXkgYmUgaW5jb21wbGV0ZTsgZG8gbm90IGNhbGwgdGhpcyBhIHJldGFpbCBwcmljZSBvciBmdWxsIGNvc3QuIiwKICAgICAgICAiU295IGlzIHByZXNlbnQuIFVucmV2aWV3ZWQgaW5ncmVkaWVudCBsYWJlbHMgYW5kIGNyb3NzLWNvbnRhY3QgY2Fubm90IGJlIGNlcnRpZmllZCBzYWZlLiIsCiAgICAgICAgIkEgbW9kZWxsZWQgcHJvdGVpbiB0YXJnZXQgaXMgbm90IGEgY2xpbmljYWwgb3IgZGlldGFyeSBhZGVxdWFjeSBjbGFpbS4iLAogICAgICAgICJUaGUgb3B0aW9uIG11c3QgYmUgYXBwcm92ZWQgYW5kIHRlc3RlZCBieSBhbiBhcHByb3ByaWF0ZSBmb29kL2tpdGNoZW4gcHJvZmVzc2lvbmFsLiIsCiAgICApCiAgICByZXR1cm4gUmVjaXBlVHJpYWwoY2FuZGlkYXRlLmlkZW50aWZpZXIsIGNhbmRpZGF0ZS5tZXRob2QsIHN0ZXBzLCBnYXBzLCBub3RlcykK
+"""Auditable preparation *trial* cards; not validated cooking instructions.
+
+Steps describe what a food reviewer should test, not a certified kitchen process.
+No temperatures, safe holding periods, cooking yields or sensory scores are invented.
+"""
+from __future__ import annotations
+
+from dataclasses import dataclass
+
+from .kitchen_optimizer import RecipeCandidate
+
+
+@dataclass(frozen=True)
+class TrialStep:
+    heading: str
+    instruction: str
+
+
+@dataclass(frozen=True)
+class RecipeTrial:
+    candidate_id: str
+    method: str
+    steps: tuple[TrialStep, ...]
+    evidence_gaps: tuple[str, ...]
+    notes: tuple[str, ...]
+
+    @property
+    def cookbook_title(self) -> str:
+        return f"{self.method} — Suya-inspired kitchen trial"
+
+    def to_markdown(self, candidate: RecipeCandidate) -> str:
+        """Printable cookbook-style trial card, with honest evidence disclosures.
+
+        A cookbook structure does NOT make this a validated food-safe recipe.
+        """
+        lines = [
+            f"# {self.cookbook_title}",
+            "",
+            "> **RESEARCH TEST RECIPE — Not approved for food service.**",
+            "",
+            "A suya-inspired awara preparation to test ingredient costs, skewer stability",
+            "and practical serving yields under documented kitchen conditions.",
+            "",
+            "## At a glance",
+            "- **Yield:** 1 experimental portion (final mass not measured)",
+            f"- **Target finished mass:** {candidate.portion_g:.0f} g (model assumption)",
+            f"- **Time:** {candidate.evaluation.prep_minutes:.0f} minutes (unmeasured estimate)",
+            f"- **Listed ingredient + processing cost:** ₦{candidate.evaluation.cost_ngn:.2f}",
+            f"- **Estimated protein:** {candidate.evaluation.protein_g:.1f} g (source-food proxy)",
+            "- **Allergens:** Contains soy; additional seasoning/cross-contact review required.",
+            "- **Equipment:** " + ", ".join(sorted(candidate.required_equipment)),
+            "",
+            "## Ingredients (purchased amounts, not measured finished quantities)",
+        ]
+        for ingredient in candidate.ingredient_lines:
+            lines.append(f"- {ingredient.purchase_g:.1f} g {ingredient.name}")
+        if candidate.oil_cl:
+            lines.append(
+                f"- {candidate.oil_cl:g} cl vegetable oil allowance for the fried variant "
+                "(model input; oil absorption unmeasured)"
+            )
+        lines.extend([
+            ("- **Yaji / suya spice mix:** Not specified by the verified dataset; obtain a "
+             "reviewed, weighed formulation before any actual serving."),
+            "",
+            "## Method — numbered kitchen trial",
+        ])
+        for number, step in enumerate(self.steps, 1):
+            lines.append(f"{number}. **{step.heading}.** {step.instruction}")
+        lines.extend([
+            "",
+            "## Practical checks before tasting or serving",
+            "- Record weighed raw, processed and final portions, cooking duration, oil uptake and fuel.",
+            "- Confirm soy and peanut/yaji allergens, packaged seasoning labels and shared equipment.",
+            ("- Use the food specialist's approved handling and cooking procedure; no invented "
+             "temperature, storage or safety guarantees appear in this card."),
+            "",
+            "## Price and nutrition evidence",
+        ])
+        for ingredient in candidate.ingredient_lines:
+            lines.extend([
+                (f"- **{ingredient.name}** — estimated ₦{ingredient.estimated_cost_ngn:.2f} "
+                 f"for {ingredient.purchase_g:.1f} g; "
+                 f"~{ingredient.estimated_protein_g:.2f} g modelled protein"),
+                f"  - Price: {ingredient.source}",
+                (f"  - Nutrition: {ingredient.nutrition_source} "
+                 f"({ingredient.nutrition_state}); label: {ingredient.allergen_labels or 'unreviewed'}"),
+            ])
+        lines.extend([
+            "",
+            "## Measurements needed for a real recipe",
+        ])
+        lines.extend(f"- {gap}" for gap in self.evidence_gaps)
+        lines.extend(["", "## Limitations"])
+        lines.extend(f"- {note}" for note in self.notes)
+        return "\n".join(lines) + "\n"
+
+
+METHOD_PROCEDURES = {
+    "awara_firm": TrialStep(
+        "Unpressed trial",
+        "Cut a measured portion of firm awara; test whether pieces hold during "
+        "handling and grilling. Record breakage and actual finished mass.",
+    ),
+    "awara_pressed": TrialStep(
+        "Pressed trial",
+        "Weigh curd before and after pressing, record drained liquid, and assess "
+        "handling and chewiness. Pressing removes water; it does not create protein.",
+    ),
+    "awara_frozen": TrialStep(
+        "Freeze–thaw trial",
+        "Use the kitchen's documented safe cold-storage and thawing procedure; "
+        "measure freeze/thaw time, lost liquid and skewer stability. The displayed "
+        "time is NOT a measured full freeze–thaw cycle.",
+    ),
+    "awara_fried": TrialStep(
+        "Fried trial",
+        "Weigh the curd before and after frying and record oil used, oil retained, "
+        "fuel and texture. Do not treat the generic fried-tofu nutrient profile as "
+        "a measurement of this recipe.",
+    ),
+}
+
+
+def build_trial(candidate: RecipeCandidate) -> RecipeTrial:
+    """Generate a transparent test protocol only for a hard-constraint eligible option."""
+    if not candidate.eligible:
+        raise ValueError("Cannot create a suggested trial card for an ineligible recipe")
+    method = candidate.evaluation.option_id
+    if method not in METHOD_PROCEDURES:
+        raise ValueError("Unknown or unsupported trial preparation method")
+    steps = (
+        TrialStep(
+            "Verify stock and labels",
+            "Check the physical ingredient packages, declared soy and seasoning "
+            "allergens and actual availability. Check shared-surface cross-contact "
+            "with the food-safety lead before preparing for anyone.",
+        ),
+        TrialStep(
+            "Record starting material",
+            "Weigh purchased awara and every selected spice/seasoning separately. "
+            "Record actual local prices, date, market and package size.",
+        ),
+        METHOD_PROCEDURES[method],
+        TrialStep(
+            "Seasoning study",
+            "Use only ingredients whose labels and quantities were reviewed by the "
+            "team. A full suya yaji formulation is NOT yet validated by this dataset.",
+        ),
+        TrialStep(
+            "Grill and record",
+            "Have the food-science reviewer set a safe cooking and handling protocol. "
+            "Record fuel use, time, skewering/basket stability, and finished portion mass.",
+        ),
+        TrialStep(
+            "Blind sensory check",
+            "Use an agreed scoring sheet for texture, aroma, appearance, flavour and "
+            "acceptability. Record actual reviewer responses; do not infer taste from text.",
+        ),
+    )
+    gaps = (
+        "Local finished-awara supplier quote or measured soy-to-tofu batch manufacturing cost",
+        "Measured purchased-to-finished yield (including pressing/freezing/frying losses)",
+        "Method-specific electricity, gas/charcoal, labour, coagulant and packaging costs",
+        "Measured oil uptake where fried; genuine prep duration including freeze/thaw",
+        "Matched local food-form nutritional analysis and nutrient retention",
+        "Yaji/seasoning recipe, source, animal-derived ingredients and allergen review",
+        "Food-safety review and recorded blind sensory panel before any service claim",
+    )
+    notes = (
+        "All numerical estimates may be incomplete; do not call this a retail price or full cost.",
+        "Soy is present. Unreviewed ingredient labels and cross-contact cannot be certified safe.",
+        "A modelled protein target is not a clinical or dietary adequacy claim.",
+        "The option must be approved and tested by an appropriate food/kitchen professional.",
+    )
+    return RecipeTrial(candidate.identifier, candidate.method, steps, gaps, notes)
