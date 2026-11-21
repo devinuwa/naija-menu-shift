@@ -1,1 +1,62 @@
-IiIiTm8gZmljdGl0aW91cyBjaGlja2VuL3JpY2UgY29zdCBpbiB0aGUgc2Vjb25kLCBwYXJ0aWFsIG1lbnUgcGlsb3QuIiIiCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAoKaW1wb3J0IHB5dGVzdAoKZnJvbSBtZW51c2hpZnQuZW5naW5lIGltcG9ydCBldmFsdWF0ZQpmcm9tIG1lbnVzaGlmdC5raXRjaGVuX29wdGltaXplciBpbXBvcnQgZXhwbG9yZQpmcm9tIG1lbnVzaGlmdC5tZW51X3BpbG90cyBpbXBvcnQgRElTSF9MQUJFTFMsIERJU0hfU0NPUEUsIGJ1aWxkX21lbnVfcGlsb3RzCgpTT1VSQ0VTID0gUGF0aChfX2ZpbGVfXykucmVzb2x2ZSgpLnBhcmVudHNbMV0gLyAiZGF0YSIgLyAic291cmNlcyIKCgpkZWYgdGVzdF9ib3RoX2Rpc2hlc19oYXZlX2Rpc3RpbmN0X29wdGlvbl9pZHMoKToKICAgIGRhdGEgPSBidWlsZF9tZW51X3BpbG90cyhTT1VSQ0VTLCBmaW5pc2hlZF9nPTEwMCwgb2lsX2NsPTEpCiAgICBhc3NlcnQgbGVuKGRhdGEuZGlzaGVzKSA9PSAyCiAgICBhc3NlcnQgc2V0KERJU0hfTEFCRUxTKSA9PSB7ZFsiZGlzaF9pZCJdIGZvciBkIGluIGRhdGEuZGlzaGVzfQogICAgYXNzZXJ0ICJQQVJUSUFMIiBpbiBESVNIX1NDT1BFWyJqb2xsb2Zfc2lkZSJdCiAgICBhc3NlcnQgbGVuKFtvIGZvciBvIGluIGRhdGEub3B0aW9ucyBpZiBvWyJkaXNoX2lkIl0gPT0gImpvbGxvZl9zaWRlIl0pID09IDQKICAgIGFzc2VydCBhbGwob1siZ3JvdXAiXSA9PSAicGxhbnQiIGZvciBvIGluIGRhdGEub3B0aW9ucyBpZiBvWyJkaXNoX2lkIl0gPT0gImpvbGxvZl9zaWRlIikKCgpkZWYgdGVzdF9qb2xsb2ZfcHJvdGVpbl9zaWRlX2lzX2V4cGxpY2l0bHlfYV9zaGFyZWRfY2FsY3VsYXRpb24oKToKICAgIGRhdGEgPSBidWlsZF9tZW51X3BpbG90cyhTT1VSQ0VTLCBmaW5pc2hlZF9nPTEwMCwgb2lsX2NsPTEpCiAgICBzdXlhID0gZXZhbHVhdGUoZGF0YSwgInN1eWEiLCBidWRnZXRfbmduPTEwMDAwLCBwcm90ZWluX3RhcmdldF9nPTApCiAgICBqb2xsb2YgPSBldmFsdWF0ZShkYXRhLCAiam9sbG9mX3NpZGUiLCBidWRnZXRfbmduPTEwMDAwLCBwcm90ZWluX3RhcmdldF9nPTApCiAgICBzb3VyY2UgPSB7by5vcHRpb25faWQ6IG8gZm9yIG8gaW4gc3V5YSBpZiBvLnBsYW50X29ubHl9CiAgICBhc3NlcnQgbGVuKGpvbGxvZikgPT0gNAogICAgZm9yIHJvdyBpbiBqb2xsb2Y6CiAgICAgICAgb3JpZ2luYWwgPSByb3cub3B0aW9uX2lkLnJlbW92ZXByZWZpeCgiam9sbG9mXyIpCiAgICAgICAgYXNzZXJ0IHJvdy5wbGFudF9vbmx5CiAgICAgICAgYXNzZXJ0IHJvdy5jb3N0X25nbiA9PSBzb3VyY2Vbb3JpZ2luYWxdLmNvc3RfbmduCiAgICAgICAgYXNzZXJ0IHJvdy5wcm90ZWluX2cgPT0gc291cmNlW29yaWdpbmFsXS5wcm90ZWluX2cKCgpkZWYgdGVzdF9zZWNvbmRfZGlzaF9yZWplY3RzX3NveV9hbGxlcmdlbigpOgogICAgZGF0YSA9IGJ1aWxkX21lbnVfcGlsb3RzKFNPVVJDRVMpCiAgICByb3dzID0gZXZhbHVhdGUoZGF0YSwgImpvbGxvZl9zaWRlIiwgYnVkZ2V0X25nbj0xMDAwMCwgcHJvdGVpbl90YXJnZXRfZz0wLCBhdm9pZF9hbGxlcmdlbnM9WyJzb3kiXSkKICAgIGFzc2VydCBub3QgYW55KHJvdy5mZWFzaWJsZSBmb3Igcm93IGluIHJvd3MpCgoKZGVmIHRlc3RfZXF1aXBtZW50X2NvbnN0cmFpbnRzX2FwcGx5X2luX3NlY29uZF9kaXNoKCk6CiAgICByZXN1bHQgPSBleHBsb3JlKAogICAgICAgIFNPVVJDRVMsIGRpc2hfaWQ9ImpvbGxvZl9zaWRlIiwgYnVkZ2V0X25nbj0xMDAwMCwgcHJvdGVpbl90YXJnZXRfZz0wLAogICAgICAgIG1heF9wcmVwX21pbnV0ZXM9MjAwLCBlcXVpcG1lbnQ9ZnJvemVuc2V0KHsiZ3JpbGwifSksCiAgICAgICAgcG9ydGlvbnNfZz0oMTAwLCksIG9pbF9jbD0xLAogICAgKQogICAgYXNzZXJ0IHJlc3VsdC5pbnNwZWN0ZWQgPT0gNAogICAgYXNzZXJ0IGxlbihyZXN1bHQuY2FuZGlkYXRlcykgPT0gMQogICAgYXNzZXJ0IHJlc3VsdC5jYW5kaWRhdGVzWzBdLmV2YWx1YXRpb24uZGlzaF9pZCA9PSAiam9sbG9mX3NpZGUiCgoKZGVmIHRlc3Rfb3RoZXJfdW5pbXBsZW1lbnRlZF9kaXNoZXNfcmVqZWN0ZWQoKToKICAgIHdpdGggcHl0ZXN0LnJhaXNlcyhWYWx1ZUVycm9yLCBtYXRjaD0iVW5zdXBwb3J0ZWQgZGlzaCIpOgogICAgICAgIGV4cGxvcmUoCiAgICAgICAgICAgIFNPVVJDRVMsIGRpc2hfaWQ9ImVndXNpIiwgYnVkZ2V0X25nbj0xMDAwMCwgcHJvdGVpbl90YXJnZXRfZz0wLAogICAgICAgICAgICBtYXhfcHJlcF9taW51dGVzPTIwMCwgZXF1aXBtZW50PWZyb3plbnNldCh7ImdyaWxsIn0pLAogICAgICAgICkKCgpkZWYgdGVzdF9ub19mYWJyaWNhdGVkX2tpdGNoZW5fdHJpYWxzKCk6CiAgICBwYXRoID0gUGF0aChfX2ZpbGVfXykucmVzb2x2ZSgpLnBhcmVudHNbMV0gLyAiZGF0YSIgLyAiZXZhbHVhdGlvbiIgLyAia2l0Y2hlbl90cmlhbHMuY3N2IgogICAgYXNzZXJ0IGxlbihwYXRoLnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiKS5zdHJpcCgpLnNwbGl0bGluZXMoKSkgPT0gMQo=
+"""No fictitious chicken/rice cost in the second, partial menu pilot."""
+from pathlib import Path
+
+import pytest
+
+from menushift.engine import evaluate
+from menushift.kitchen_optimizer import explore
+from menushift.menu_pilots import DISH_LABELS, DISH_SCOPE, build_menu_pilots
+
+SOURCES = Path(__file__).resolve().parents[1] / "data" / "sources"
+
+
+def test_both_dishes_have_distinct_option_ids():
+    data = build_menu_pilots(SOURCES, finished_g=100, oil_cl=1)
+    assert len(data.dishes) == 2
+    assert set(DISH_LABELS) == {d["dish_id"] for d in data.dishes}
+    assert "PARTIAL" in DISH_SCOPE["jollof_side"]
+    assert len([o for o in data.options if o["dish_id"] == "jollof_side"]) == 4
+    assert all(o["group"] == "plant" for o in data.options if o["dish_id"] == "jollof_side")
+
+
+def test_jollof_protein_side_is_explicitly_a_shared_calculation():
+    data = build_menu_pilots(SOURCES, finished_g=100, oil_cl=1)
+    suya = evaluate(data, "suya", budget_ngn=10000, protein_target_g=0)
+    jollof = evaluate(data, "jollof_side", budget_ngn=10000, protein_target_g=0)
+    source = {o.option_id: o for o in suya if o.plant_only}
+    assert len(jollof) == 4
+    for row in jollof:
+        original = row.option_id.removeprefix("jollof_")
+        assert row.plant_only
+        assert row.cost_ngn == source[original].cost_ngn
+        assert row.protein_g == source[original].protein_g
+
+
+def test_second_dish_rejects_soy_allergen():
+    data = build_menu_pilots(SOURCES)
+    rows = evaluate(data, "jollof_side", budget_ngn=10000, protein_target_g=0, avoid_allergens=["soy"])
+    assert not any(row.feasible for row in rows)
+
+
+def test_equipment_constraints_apply_in_second_dish():
+    result = explore(
+        SOURCES, dish_id="jollof_side", budget_ngn=10000, protein_target_g=0,
+        max_prep_minutes=200, equipment=frozenset({"grill"}),
+        portions_g=(100,), oil_cl=1,
+    )
+    assert result.inspected == 4
+    assert len(result.candidates) == 1
+    assert result.candidates[0].evaluation.dish_id == "jollof_side"
+
+
+def test_other_unimplemented_dishes_rejected():
+    with pytest.raises(ValueError, match="Unsupported dish"):
+        explore(
+            SOURCES, dish_id="egusi", budget_ngn=10000, protein_target_g=0,
+            max_prep_minutes=200, equipment=frozenset({"grill"}),
+        )
+
+
+def test_no_fabricated_kitchen_trials():
+    path = Path(__file__).resolve().parents[1] / "data" / "evaluation" / "kitchen_trials.csv"
+    assert len(path.read_text(encoding="utf-8").strip().splitlines()) == 1
