@@ -1,1 +1,23 @@
-ewogICJkZXBlbmRlbmNpZXMiOiB7CiAgICAibmV4dCI6ICIxNS41LjI5IiwKICAgICJyZWFjdCI6ICJeMTkuMC4wIiwKICAgICJyZWFjdC1kb20iOiAiXjE5LjAuMCIKICB9LAogICJkZXNjcmlwdGlvbiI6ICJOYWlqYSBNZW51U2hpZnQg4oCUIEtpdGNoZW4gSW50ZWxsaWdlbmNlIFN0dWRpbyB3ZWIgVUkgKEhhY2sgdGhlIEZvcmsgTmlnZXJpYSAyMDI2LCBDaGFsbGVuZ2UgMikuIFJlc2VhcmNoIHByb3RvdHlwZTsgZGVtbyBkYXRhIGlzIHN5bnRoZXRpYy4iLAogICJkZXZEZXBlbmRlbmNpZXMiOiB7CiAgICAiQHR5cGVzL25vZGUiOiAiXjIyLjEwLjAiLAogICAgIkB0eXBlcy9yZWFjdCI6ICJeMTkuMC4wIiwKICAgICJAdHlwZXMvcmVhY3QtZG9tIjogIl4xOS4wLjAiLAogICAgInR5cGVzY3JpcHQiOiAiXjUuNy4wIgogIH0sCiAgIm5hbWUiOiAibmFpamEtbWVudXNoaWZ0LXdlYi11aSIsCiAgInByaXZhdGUiOiB0cnVlLAogICJzY3JpcHRzIjogewogICAgImJ1aWxkIjogIm5leHQgYnVpbGQiLAogICAgImRldiI6ICJuZXh0IGRldiIsCiAgICAic3RhcnQiOiAibmV4dCBzdGFydCIsCiAgICAidHlwZWNoZWNrIjogInRzYyAtLW5vRW1pdCIKICB9LAogICJ2ZXJzaW9uIjogIjAuMS4wIgp9Cg==
+{
+  "dependencies": {
+    "next": "15.5.29",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "description": "Naija MenuShift — Kitchen Intelligence Studio web UI (Hack the Fork Nigeria 2026, Challenge 2). Research prototype; demo data is synthetic.",
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.7.0"
+  },
+  "name": "naija-menushift-web-ui",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "version": "0.1.0"
+}
