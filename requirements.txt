@@ -1,1 +1,3 @@
-IyBJbnN0YWxsIHRoaXMgcmVwb3NpdG9yeSdzIFB5dGhvbiBwYWNrYWdlIGFuZCBpdHMgcnVudGltZSBkZXBlbmRlbmNpZXMgZnJvbSBweXByb2plY3QudG9tbC4KIyBSZXF1aXJlZCBieSBTdHJlYW1saXQgQ29tbXVuaXR5IENsb3VkIHRvIGltcG9ydCB0aGUgc3JjL21lbnVzaGlmdCBwYWNrYWdlLgotZSAuCg==
+# Install this repository's Python package and its runtime dependencies from pyproject.toml.
+# Required by Streamlit Community Cloud to import the src/menushift package.
+-e .
