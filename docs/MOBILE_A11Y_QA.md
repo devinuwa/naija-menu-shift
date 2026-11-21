@@ -1,1 +1,41 @@
-IyBNb2JpbGUsIGtleWJvYXJkIGFuZCBicm93c2VyIHJlbGVhc2UgY2hlY2tzCgoqKlN0YXR1czogbm90IHlldCBydW4gaW4gYSByZW5kZXJlZCBicm93c2VyKiouIFRoZXNlIGFyZSBtYW51YWwgYWNjZXB0YW5jZSB0ZXN0cywgbm90IGEgY2VydGlmaWNhdGlvbiBjbGFpbS4gQXBwVGVzdCBjb3ZlcnMgUHl0aG9uLXNpZGUgaW50ZXJhY3Rpb247IGl0IGNhbm5vdCBpbnNwZWN0IENTUyByZWZsb3csIGtleWJvYXJkIGZvY3VzLCB6b29tIG9yIHNjcmVlbi1yZWFkZXIgYW5ub3VuY2VtZW50cy4KCiMjIFB1YmxpYyBhY2Nlc3MKLSBbIF0gT3BlbiBodHRwczovL25haWphLW1lbnVzaGlmdC5zdHJlYW1saXQuYXBwLyBpbiBhbiBhbm9ueW1vdXMvaW5jb2duaXRvIHNlc3Npb24sIHdpdGhvdXQgU3RyZWFtbGl0L0dpdEh1YiBsb2dpbi4KLSBbIF0gSW5pdGlhbCByZWNvbW1lbmRhdGlvbiBmbG93IGxvYWRzOyBubyBTdHJlYW1saXQgYWNjZXNzIHdhbGwgb3IgdW5oYW5kbGVkIGV4Y2VwdGlvbi4KLSBbIF0gRmljdGlvbmFsLWRhdGEgd2FybmluZyBpcyBkaXNwbGF5ZWQgb24gZmlyc3QgbG9hZC4gRGF0YS1zb3VyY2UgbW9kZSBjYW5ub3QgYWNjaWRlbnRhbGx5IHByZXNlbnQgc3ludGhldGljIG51bWJlcnMgYXMgdmVyaWZpZWQuCgojIyBOYXJyb3cgc2NyZWVuICgzOTAgw5cgODQ0LCBtb2JpbGUgcG9ydHJhaXQpCi0gWyBdIERpc2ggc2VsZWN0b3IsIGJ1ZGdldCwgcHJvdGVpbiB0YXJnZXQsIHByZWZlcmVuY2UgYW5kIHJlc3VsdCBhcHBlYXIgaW4gbG9naWNhbCByZWFkaW5nIG9yZGVyLgotIFsgXSBNYWluIGFjdGlvbi9yZXN1bHQgaXMgdmlzaWJsZSB3aXRob3V0IG9wZW5pbmcgdGhlIHNpZGViYXIuCi0gWyBdIElucHV0cyBhcmUgbm90IGNsaXBwZWQgb3Igb3ZlcmxhcHBpbmcgYXQgMzkwcHggYW5kIDMyMHB4LgotIFsgXSBEZXRhaWxlZCBkYXRhIHRhYmxlcyByZW1haW4gaW4gc2Vjb25kYXJ5IHRhYnMvZXhwYW5kZXJzIGFuZCBhcmUgdXNhYmxlIGJ5IGhvcml6b250YWwgc2Nyb2xsLgotIFsgXSBEaXNwbGF5ZWQgY2hhcnRzLCBhbGVydCBtZXNzYWdlcywgbGlua3MgYW5kIGJ1dHRvbnMgYXJlIHVzYWJsZSB3aXRoIHRvdWNoIHRhcmdldHMuCgojIyBab29tIGFuZCBjb250cmFzdAotIFsgXSBBdCAyMDAlIGJyb3dzZXIgem9vbSwgbGFiZWxzIGFuZCB2YWxpZGF0aW9uIG1lc3NhZ2VzIHJlbWFpbiB2aXNpYmxlLgotIFsgXSBBdCA0MDAlIHpvb20gLyAzMjBweCBlZmZlY3RpdmUgdmlld3BvcnQsIG5vIGNyaXRpY2FsIGNvbnRlbnQgaXMgaGlkZGVuIGJlaGluZCB0aGUgc2lkZWJhci4KLSBbIF0gVGVzdCB0ZXh0IGFuZCBhbGVydCBjb250cmFzdCBpbiBsaWdodC9kYXJrIE9TIHNldHRpbmdzOyBjdXN0b20gQ1NTIG11c3Qgbm90IGhpZGUgZm9jdXMgaW5kaWNhdG9ycy4KLSBbIF0gQ2hlY2sgc3R5bGluZyB3aXRob3V0IGJyb3dzZXIgQ1NTIGluamVjdGlvbiB0b29scywgYW5kIGluc3BlY3QgY29sb3VyIGNvbnRyYXN0IHVzaW5nIFdDQUcgQUEgdGFyZ2V0cyBmb3Igbm9ybWFsIHRleHQgKDQuNToxKSBhbmQgVUkgY29tcG9uZW50cyAoMzoxKSwgd2hlcmUgYXBwbGljYWJsZS4KCiMjIEtleWJvYXJkIGFuZCBhc3Npc3RpdmUgdGVjaG5vbG9neQotIFsgXSBUYWIgdGhyb3VnaCBpbnB1dHMsIGV4cGFuZGVycywgY29tcGFyaXNvbiB0YWJzLCB0YWJsZXMgYW5kIGxpbmtzOyBmb2N1cyBvcmRlciBmb2xsb3dzIHRoZSBmb3VyLXN0ZXAgZmxvdy4KLSBbIF0gQWxsIGNvbnRyb2xzIGhhdmUgdmlzaWJsZSBmb2N1cyBhbmQgYWNjZXNzaWJsZSBsYWJlbHMuCi0gWyBdIFNwYWNlL0VudGVyIHNlbGVjdHMgcmVjb21tZW5kYXRpb25zLCB0YWJzIGFuZCBleHBhbmRlcnMgd2l0aG91dCByZXF1aXJpbmcgYSBtb3VzZS4KLSBbIF0gQXQgbGVhc3Qgb25lIHNjcmVlbi1yZWFkZXIgcGFzcyBpZGVudGlmaWVzIHRoZSBoZWFkaW5nIGhpZXJhcmNoeSwgY29udHJvbHMsIHJlc3VsdCwgZXJyb3IsIHN0YXR1cyBhbmQgc3ludGhldGljLWRhdGEgd2FybmluZy4KLSBbIF0gU3dpdGNoIHRvIFJlc2VhcmNoIGRhdGE6IG1lYW5pbmdmdWwgbWVzc2FnZSBleHBsYWlucyBtaXNzaW5nIHZhbGlkYXRlZCBpbnB1dHMgYW5kIG5ldmVyIHNpbGVudGx5IGZhbGxzIGJhY2suCi0gWyBdIFRpZ2h0IGJ1ZGdldDogJ05vIHBsYW50LWJhc2VkIG9wdGlvbiBtZWV0cyBhbGwgLi4uJyBhbmQgY2xlYXIgcmVhc29ucyBhcmUgdmlzaWJsZSwgbm90IG9ubHkgY29sb3VyLWRlcGVuZGVudC4KLSBbIF0gRXhjbHVkZSBzb3k6IGFsbCB0b2Z1IG9wdGlvbnMgY29ycmVjdGx5IGV4Y2x1ZGVkLiBFeGNsdWRlIGFub3RoZXIgYWxsZXJnZW4gd2l0aCB1bmtub3duIGxhYmVsczogYWJzdGFpbiBpbnN0ZWFkIG9mIGFzc2VydGluZyBzYWZldHkuCgojIyBSZXZpZXcgcmVjb3JkCkRhdGU6ClRlc3RlcjoKQnJvd3NlcnMvcGxhdGZvcm1zOgpTY3JlZW5zaG90cy92aWRlbyBldmlkZW5jZSBsaW5rczoKRmFpbGVkIGNoZWNrcyB3aXRoIHJlcHJvZHVjdGlvbiBzdGVwczoKU2V2ZXJpdHkgLyBvd25lcjoKUFIgbGlua2VkIHRvIGZpeGVzOgoKVGhpcyByZWNvcmQgc2hvdWxkIGJlIGZpbGxlZCBhZnRlciBhIHJlYWwgaW50ZXJhY3RpdmUgYnJvd3NlciBzZXNzaW9uLCAqKmJlZm9yZSBtZXJnaW5nIGFuZCBwcm9tb3RpbmcgdGhlIGRlbW8qKi4K
+# Mobile, keyboard and browser release checks
+
+**Status: not yet run in a rendered browser**. These are manual acceptance tests, not a certification claim. AppTest covers Python-side interaction; it cannot inspect CSS reflow, keyboard focus, zoom or screen-reader announcements.
+
+## Public access
+- [ ] Open https://naija-menushift.streamlit.app/ in an anonymous/incognito session, without Streamlit/GitHub login.
+- [ ] Initial recommendation flow loads; no Streamlit access wall or unhandled exception.
+- [ ] Fictional-data warning is displayed on first load. Data-source mode cannot accidentally present synthetic numbers as verified.
+
+## Narrow screen (390 × 844, mobile portrait)
+- [ ] Dish selector, budget, protein target, preference and result appear in logical reading order.
+- [ ] Main action/result is visible without opening the sidebar.
+- [ ] Inputs are not clipped or overlapping at 390px and 320px.
+- [ ] Detailed data tables remain in secondary tabs/expanders and are usable by horizontal scroll.
+- [ ] Displayed charts, alert messages, links and buttons are usable with touch targets.
+
+## Zoom and contrast
+- [ ] At 200% browser zoom, labels and validation messages remain visible.
+- [ ] At 400% zoom / 320px effective viewport, no critical content is hidden behind the sidebar.
+- [ ] Test text and alert contrast in light/dark OS settings; custom CSS must not hide focus indicators.
+- [ ] Check styling without browser CSS injection tools, and inspect colour contrast using WCAG AA targets for normal text (4.5:1) and UI components (3:1), where applicable.
+
+## Keyboard and assistive technology
+- [ ] Tab through inputs, expanders, comparison tabs, tables and links; focus order follows the four-step flow.
+- [ ] All controls have visible focus and accessible labels.
+- [ ] Space/Enter selects recommendations, tabs and expanders without requiring a mouse.
+- [ ] At least one screen-reader pass identifies the heading hierarchy, controls, result, error, status and synthetic-data warning.
+- [ ] Switch to Research data: meaningful message explains missing validated inputs and never silently falls back.
+- [ ] Tight budget: 'No plant-based option meets all ...' and clear reasons are visible, not only colour-dependent.
+- [ ] Exclude soy: all tofu options correctly excluded. Exclude another allergen with unknown labels: abstain instead of asserting safety.
+
+## Review record
+Date:
+Tester:
+Browsers/platforms:
+Screenshots/video evidence links:
+Failed checks with reproduction steps:
+Severity / owner:
+PR linked to fixes:
+
+This record should be filled after a real interactive browser session, **before merging and promoting the demo**.
