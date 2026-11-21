@@ -26,31 +26,34 @@
   color: var(--gold);
 }
 
-.hs-hero h1 {
-  margin: 0 0 14px;
-  font-size: clamp(1.9rem, 5.2vw, 3rem);
-  line-height: 1.12;
-  max-width: 16em;
+.hs-hero-quote-big {
+  margin: 0 0 22px;
+  padding: 0;
+}
+
+.hs-hero-quote-big p {
+  margin: 0 0 8px;
+  font-family: Georgia, "Iowan Old Style", "Times New Roman", serif;
+  font-weight: 700;
+  font-size: clamp(2rem, 6vw, 3.4rem);
+  line-height: 1.15;
+  max-width: 15em;
+  color: #fff;
+}
+
+.hs-hero-quote-big cite {
+  font-family: Georgia, "Iowan Old Style", "Times New Roman", serif;
+  font-style: italic;
+  font-size: 1.05rem;
+  color: var(--gold);
 }
 
 .hs-hero-promise {
-  margin: 0 0 20px;
+  margin: 0 0 22px;
   max-width: 44em;
-  font-size: 1.06rem;
-  color: #e8efe9;
-}
-
-.hs-hero-quote {
-  margin: 0 0 24px;
-  padding: 16px 20px;
-  border-left: 4px solid var(--gold);
-  background: rgba(251, 250, 245, 0.08);
-  border-radius: 0 12px 12px 0;
-  font-family: Georgia, "Iowan Old Style", "Times New Roman", serif;
-  font-style: italic;
   font-size: 1.12rem;
-  line-height: 1.5;
-  max-width: 38em;
+  line-height: 1.55;
+  color: #e8efe9;
 }
 
 .hs-hero-stats {
@@ -66,6 +69,51 @@
   color: #fff;
   font-size: 1.25rem;
   margin-right: 5px;
+}
+
+/* what the tool does — the two things */
+.hs-twothings {
+  margin-bottom: 40px;
+}
+
+.hs-two-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.hs-two-card {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-top: 5px solid var(--gold);
+  border-radius: 16px;
+  padding: 22px;
+  box-shadow: 0 8px 22px rgba(16, 44, 34, 0.06);
+}
+
+.hs-two-card h3 {
+  margin: 0 0 8px;
+  font-size: 1.3rem;
+  color: var(--forest);
+}
+
+.hs-two-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
+.hs-approval {
+  margin: 16px 0 0;
+  padding: 13px 18px;
+  background: var(--cream);
+  border: 1px solid var(--border);
+  border-left: 5px solid var(--rich-green);
+  border-radius: var(--radius);
+  font-weight: 700;
+  color: var(--forest);
 }
 
 /* sections */
@@ -84,6 +132,17 @@
   margin: 0 0 20px;
   max-width: 46em;
   color: var(--muted);
+}
+
+.hs-subblock {
+  margin-top: 38px;
+  scroll-margin-top: 16px;
+}
+
+.hs-subblock-title {
+  margin: 0 0 8px;
+  font-size: 1.3rem;
+  color: var(--forest);
 }
 
 .hs-group-title {
@@ -442,12 +501,22 @@
 .hs-altcard-metrics {
   display: flex;
   flex-wrap: wrap;
-  gap: 6px 16px;
-  font-size: 0.94rem;
+  gap: 8px 22px;
+  margin: 0;
+}
+
+.hs-altcard-metrics dt {
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
   color: var(--muted);
 }
 
-.hs-altcard-metrics strong {
+.hs-altcard-metrics dd {
+  margin: 0;
+  font-size: 1.08rem;
+  font-weight: 800;
   color: var(--forest);
 }
 
@@ -473,6 +542,19 @@
 }
 
 /* functional bars */
+.hs-fbars-wrap {
+  margin: 4px 0;
+}
+
+.hs-fbars-title {
+  margin: 0 0 7px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
 .hs-fbars {
   display: flex;
   flex-direction: column;
@@ -545,6 +627,10 @@
 @media (max-width: 760px) {
   .hs-hero {
     padding: 26px 20px 22px;
+  }
+
+  .hs-two-grid {
+    grid-template-columns: minmax(0, 1fr);
   }
 
   .hs-board-grid,
