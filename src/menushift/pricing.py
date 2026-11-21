@@ -1,1 +1,72 @@
-IiIiRXhwbGljaXQgY29udmVyc2lvbiBydWxlcyBmb3IgcmVzZWFyY2hlZCBmb29kIHByaWNlcyBhbmQgdG9mdSBwcm9kdWN0aW9uIGNvc3RzLgoKVGhlIEFtaW5hIHdvcmtib29rIGluY2x1ZGVzIHBhY2thZ2VzIHNvbGQgYnkgbWFzcyBhbmQgYnkgdm9sdW1lLiBUaGVzZSBoZWxwZXJzCm5ldmVyIGVxdWF0ZSBsaXRyZXMgd2l0aCBraWxvZ3JhbXMgb3IgcmF3IHNveWJlYW5zIHdpdGggZmluaXNoZWQgdG9mdS4KIiIiCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmltcG9ydCBtYXRoCgoKZGVmIF9wb3NpdGl2ZSh2YWx1ZTogZmxvYXQsIG5hbWU6IHN0cikgLT4gZmxvYXQ6CiAgICB2YWx1ZSA9IGZsb2F0KHZhbHVlKQogICAgaWYgbm90IG1hdGguaXNmaW5pdGUodmFsdWUpIG9yIHZhbHVlIDw9IDA6CiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcihmIntuYW1lfSBtdXN0IGJlIGZpbml0ZSBhbmQgZ3JlYXRlciB0aGFuIHplcm8iKQogICAgcmV0dXJuIHZhbHVlCgoKZGVmIHF1b3RlX25nbl9wZXJfa2coCiAgICBwcmljZV9uZ246IGZsb2F0LAogICAgcXVhbnRpdHk6IGZsb2F0LAogICAgdW5pdDogc3RyLAogICAgKiwKICAgIGRlbnNpdHlfa2dfcGVyX2xpdHJlOiBmbG9hdCB8IE5vbmUgPSBOb25lLAopIC0+IGZsb2F0OgogICAgIiIiUmV0dXJuIGNvbXBhcmFibGUg4oKmL2tnIHVzaW5nIGEgKmRvY3VtZW50ZWQqIHBhY2thZ2UgbWFzcyBvciBkZW5zaXR5LgoKICAgIFBhY2thZ2UgZXhhbXBsZXM6IDUwMCBnIG9mIHNhbHQsIDQwMCBnIG9mIHNlYXNvbmluZyBvciAwLjc1IEwgb2Ygb2lsLgogICAgRm9yIGxpcXVpZHMgYSByZWFsIGRlbnNpdHkgbWVhc3VyZW1lbnQvc291cmNlIG11c3QgYmUgc3VwcGxpZWQgZXhwbGljaXRseS4KICAgIEZ1ZWwgYW5kIGxhYm91ciBjb3N0cyBzaG91bGQgbm90IGJlIGVudGVyZWQgYXMgZm9vZCBpbmdyZWRpZW50IHByaWNlcy4KICAgICIiIgogICAgcHJpY2UgPSBfcG9zaXRpdmUocHJpY2VfbmduLCAicHJpY2VfbmduIikKICAgIHNpemUgPSBfcG9zaXRpdmUocXVhbnRpdHksICJxdWFudGl0eSIpCiAgICB1bml0ID0gdW5pdC5zdHJpcCgpLmxvd2VyKCkKICAgIGlmIHVuaXQgaW4geyJrZyIsICJraWxvZ3JhbSIsICJraWxvZ3JhbXMifToKICAgICAgICBtYXNzX2tnID0gc2l6ZQogICAgZWxpZiB1bml0IGluIHsiZyIsICJncmFtIiwgImdyYW1zIn06CiAgICAgICAgbWFzc19rZyA9IHNpemUgLyAxMDAwLjAKICAgIGVsaWYgdW5pdCBpbiB7ImwiLCAibGl0cmUiLCAibGl0ZXIiLCAibGl0cmVzIiwgImxpdGVycyJ9OgogICAgICAgIGlmIGRlbnNpdHlfa2dfcGVyX2xpdHJlIGlzIE5vbmU6CiAgICAgICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoIkxpcXVpZCBwcmljZSBjb252ZXJzaW9uIHJlcXVpcmVzIGEgc291cmNlZCBkZW5zaXR5X2tnX3Blcl9saXRyZSIpCiAgICAgICAgbWFzc19rZyA9IHNpemUgKiBfcG9zaXRpdmUoZGVuc2l0eV9rZ19wZXJfbGl0cmUsICJkZW5zaXR5X2tnX3Blcl9saXRyZSIpCiAgICBlbGlmIHVuaXQgaW4geyJtbCIsICJtaWxsaWxpdHJlIiwgIm1pbGxpbGl0ZXIifToKICAgICAgICBpZiBkZW5zaXR5X2tnX3Blcl9saXRyZSBpcyBOb25lOgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJMaXF1aWQgcHJpY2UgY29udmVyc2lvbiByZXF1aXJlcyBhIHNvdXJjZWQgZGVuc2l0eV9rZ19wZXJfbGl0cmUiKQogICAgICAgIG1hc3Nfa2cgPSBzaXplIC8gMTAwMC4wICogX3Bvc2l0aXZlKGRlbnNpdHlfa2dfcGVyX2xpdHJlLCAiZGVuc2l0eV9rZ19wZXJfbGl0cmUiKQogICAgZWxzZToKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJVbnN1cHBvcnRlZCBzYWxlIHVuaXQ7IHJlY29yZCBhY3R1YWwgcGFja2FnZSBtYXNzLCBub3QgYSBnZW5lcmljICdwYWNrJyIpCiAgICByZXR1cm4gcm91bmQocHJpY2UgLyBtYXNzX2tnLCA0KQoKCmRlZiB0b2Z1X21hbnVmYWN0dXJpbmdfY29zdF9uZ25fcGVyX2tnKAogICAgKiwKICAgIHJhd19zb3lfcHJpY2VfbmduX3Blcl9rZzogZmxvYXQsCiAgICByYXdfc295X3VzZWRfa2c6IGZsb2F0LAogICAgbWVhc3VyZWRfZmluaXNoZWRfdG9mdV9rZzogZmxvYXQsCiAgICBjb2FndWxhbnRfY29zdF9uZ246IGZsb2F0LAogICAgZW5lcmd5X2Nvc3RfbmduOiBmbG9hdCwKICAgIGxhYm91cl9jb3N0X25nbjogZmxvYXQsCiAgICBvdGhlcl9jb3N0X25nbjogZmxvYXQgPSAwLjAsCikgLT4gZmxvYXQ6CiAgICAiIiJDb252ZXJ0IGEgbWVhc3VyZWQgc295YmVhbiBiYXRjaCBpbnRvIGFuICplc3RpbWF0ZWQqIHRvZnUgYmF0Y2ggY29zdC4KCiAgICBBIG1lYXN1cmVkIGJhdGNoIHlpZWxkLCBhbmQgYWxsIG90aGVyIGRvY3VtZW50ZWQgcGVyLWJhdGNoIGNvc3RzLCBhcmUKICAgIG1hbmRhdG9yeS4gSW4gcGFydGljdWxhciwgYSBjb21tb2RpdHkgc295IHByaWNlIGFsb25lIGlzIG5ldmVyIGEgdG9mdSBxdW90ZS4KICAgICIiIgogICAgc295X3ByaWNlID0gX3Bvc2l0aXZlKHJhd19zb3lfcHJpY2VfbmduX3Blcl9rZywgInJhd19zb3lfcHJpY2VfbmduX3Blcl9rZyIpCiAgICBzb3lfa2cgPSBfcG9zaXRpdmUocmF3X3NveV91c2VkX2tnLCAicmF3X3NveV91c2VkX2tnIikKICAgIHRvZnVfa2cgPSBfcG9zaXRpdmUobWVhc3VyZWRfZmluaXNoZWRfdG9mdV9rZywgIm1lYXN1cmVkX2ZpbmlzaGVkX3RvZnVfa2ciKQogICAgY29tcG9uZW50cyA9IChjb2FndWxhbnRfY29zdF9uZ24sIGVuZXJneV9jb3N0X25nbiwgbGFib3VyX2Nvc3RfbmduLCBvdGhlcl9jb3N0X25nbikKICAgIGlmIGFueShub3QgbWF0aC5pc2Zpbml0ZShmbG9hdCh2KSkgb3IgZmxvYXQodikgPCAwIGZvciB2IGluIGNvbXBvbmVudHMpOgogICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoIlByb2R1Y3Rpb24gY29zdHMgbXVzdCBiZSBmaW5pdGUgYW5kIG5vbm5lZ2F0aXZlIikKICAgIHJldHVybiByb3VuZCgoc295X3ByaWNlICogc295X2tnICsgc3VtKGNvbXBvbmVudHMpKSAvIHRvZnVfa2csIDQpCg==
+"""Explicit conversion rules for researched food prices and tofu production costs.
+
+The Amina workbook includes packages sold by mass and by volume. These helpers
+never equate litres with kilograms or raw soybeans with finished tofu.
+"""
+from __future__ import annotations
+
+import math
+
+
+def _positive(value: float, name: str) -> float:
+    value = float(value)
+    if not math.isfinite(value) or value <= 0:
+        raise ValueError(f"{name} must be finite and greater than zero")
+    return value
+
+
+def quote_ngn_per_kg(
+    price_ngn: float,
+    quantity: float,
+    unit: str,
+    *,
+    density_kg_per_litre: float | None = None,
+) -> float:
+    """Return comparable ₦/kg using a *documented* package mass or density.
+
+    Package examples: 500 g of salt, 400 g of seasoning or 0.75 L of oil.
+    For liquids a real density measurement/source must be supplied explicitly.
+    Fuel and labour costs should not be entered as food ingredient prices.
+    """
+    price = _positive(price_ngn, "price_ngn")
+    size = _positive(quantity, "quantity")
+    unit = unit.strip().lower()
+    if unit in {"kg", "kilogram", "kilograms"}:
+        mass_kg = size
+    elif unit in {"g", "gram", "grams"}:
+        mass_kg = size / 1000.0
+    elif unit in {"l", "litre", "liter", "litres", "liters"}:
+        if density_kg_per_litre is None:
+            raise ValueError("Liquid price conversion requires a sourced density_kg_per_litre")
+        mass_kg = size * _positive(density_kg_per_litre, "density_kg_per_litre")
+    elif unit in {"ml", "millilitre", "milliliter"}:
+        if density_kg_per_litre is None:
+            raise ValueError("Liquid price conversion requires a sourced density_kg_per_litre")
+        mass_kg = size / 1000.0 * _positive(density_kg_per_litre, "density_kg_per_litre")
+    else:
+        raise ValueError("Unsupported sale unit; record actual package mass, not a generic 'pack'")
+    return round(price / mass_kg, 4)
+
+
+def tofu_manufacturing_cost_ngn_per_kg(
+    *,
+    raw_soy_price_ngn_per_kg: float,
+    raw_soy_used_kg: float,
+    measured_finished_tofu_kg: float,
+    coagulant_cost_ngn: float,
+    energy_cost_ngn: float,
+    labour_cost_ngn: float,
+    other_cost_ngn: float = 0.0,
+) -> float:
+    """Convert a measured soybean batch into an *estimated* tofu batch cost.
+
+    A measured batch yield, and all other documented per-batch costs, are
+    mandatory. In particular, a commodity soy price alone is never a tofu quote.
+    """
+    soy_price = _positive(raw_soy_price_ngn_per_kg, "raw_soy_price_ngn_per_kg")
+    soy_kg = _positive(raw_soy_used_kg, "raw_soy_used_kg")
+    tofu_kg = _positive(measured_finished_tofu_kg, "measured_finished_tofu_kg")
+    components = (coagulant_cost_ngn, energy_cost_ngn, labour_cost_ngn, other_cost_ngn)
+    if any(not math.isfinite(float(v)) or float(v) < 0 for v in components):
+        raise ValueError("Production costs must be finite and nonnegative")
+    return round((soy_price * soy_kg + sum(components)) / tofu_kg, 4)
